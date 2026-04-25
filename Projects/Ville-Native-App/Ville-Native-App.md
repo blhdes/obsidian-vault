@@ -74,7 +74,7 @@ village/
 
 These are rough ideas — **not committed, not ordered**:
 
-- [ ] Create the Xcode project and verify the scaffold compiles
+- [x] Create the Xcode project and verify the scaffold compiles
 - [ ] Build a followed-users management UI (add/remove Letterboxd usernames)
 - [ ] Replace the basic HTML renderer in `ReviewDetailView` with a proper rich-text view (blockquotes, images, bold)
 - [ ] Word-level text selection in the reader (like the original `ReviewReaderScreen`)
