@@ -33,38 +33,6 @@ Users can now activate/deactivate galleries for their swipe session directly fro
 
 **Only file changed:** `culla/Views/GalleriesView.swift`
 
----
-
-### App Walkthrough + Tooltips 📋 Planned (not yet implemented)
-
-**Files to create:**
-- `Helpers/OnboardingManager.swift` — `@AppStorage` flags for walkthrough + tooltip state
-- `Views/Onboarding/WalkthroughView.swift` — 8-step full-screen overlay
-- `Views/Tooltips/TooltipBubble.swift` — reusable hint bubble (auto-dismisses in 4s)
-
-**Files to edit:**
-- `Views/DatePickerView.swift` — trigger walkthrough on first launch, show calendar tooltip
-- `Views/SwipeView.swift` — show zoom tooltip
-
-**Walkthrough steps:**
-
-| # | Type | Title | Gated by |
-|---|---|---|---|
-| 1 | Info | Welcome to Culla | — |
-| 2 | Info | Pick a Date | — |
-| 3 | Info | What Are Galleries? | — |
-| 4 | **Action** | Create or Import a Gallery | `galleries.count > 0` |
-| 5 | **Skippable** | Change a Gallery Color | optional |
-| 6 | **Action** | Select Your Galleries | `sidebarGalleryIDs.count > 0` |
-| 7 | Info | You're Ready! | — (CTA: Get Started) |
-
-Step 6 now opens `GalleriesView` — the gallery selection feature above makes this work without a separate sheet.
-
-**Two contextual tooltips:**
-- `DatePickerView` → *"Tap the wheel to open a full calendar"* (shown once, `@AppStorage` flag)
-- `SwipeView` → *"Pinch to zoom in or out"* (shown once, `@AppStorage` flag)
-
----
 
 ## Key decisions
 
