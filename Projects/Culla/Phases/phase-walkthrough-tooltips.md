@@ -127,3 +127,46 @@ enum OnboardingKey {
 
 Related: [[Projects/Culla/Phases/phase-onboarding-gallery-selection]]
 See also: [[Projects/Culla/Culla]]
+
+---
+
+## 2026-04-28 — Tour & Tooltip Revisions
+
+### Tour gated on photo library permission
+
+`scheduleWalkthroughIfNeeded()` in `SplashGate` now checks `PHPhotoLibrary.authorizationStatus(for: .readWrite)` before starting the tour. If the user hasn't granted photo access (`.authorized` or `.limited`), the tour is silently skipped.
+
+To handle the case where the user grants permission mid-session (e.g. inside `DatePickerView`), an `onChange` watches `PhotoLibraryService.shared.authorizationStatus` and calls `scheduleWalkthroughIfNeeded()` the moment access is granted.
+
+```swift
+.onChange(of: PhotoLibraryService.shared.authorizationStatus) { _, newStatus in
+    if newStatus == .authorized || newStatus == .limited {
+        scheduleWalkthroughIfNeeded()
+    }
+}
+```
+
+`CullaApp.swift` now imports `Photos`.
+
+---
+
+### Swipe screen hints — new order and dismiss rules
+
+The two swipe-screen hints were redesigned. Order and behavior:
+
+**1. Swipe Directions Hint** — now appears **first** (after 1s). Auto-dismisses after **10s** (was 5s). Also dismissed by any drag gesture start (`dragGesture.onChanged`).
+
+**2. Zoom Tooltip** — appears **7 seconds after the swipe hint is shown** (not after it's dismissed). If the session ends before 7s, the next session shows it after a 1s delay.
+
+The zoom tooltip only disappears on `dragGesture.onChanged` — no tap-to-dismiss, no auto-timeout. Once dismissed this way it is never shown again (`hasSeenZoomTooltip = true`). If the user drags before the zoom tooltip appears, it is also permanently skipped (same flag set by `dismissHints()`).
+
+**`TooltipBubble`** was stripped down — `onDismiss`, `.onTapGesture`, and the 4s `.task` were all removed. It now just shows itself and stays until `dismissHints()` hides it from SwipeView.
+
+**Updated dismiss table:**
+
+| Hint | Tap | Drag start | Timer | After first swipe |
+|---|---|---|---|---|
+| Swipe Directions | ✓ (self-dismiss) | ✓ | 10s | ✓ |
+| Zoom Tooltip | ✗ | ✓ | ✗ | ✓ |
+
+The task chain in SwipeView's `.task` now handles sequencing entirely — `scheduleZoomTooltip()` (previously `scheduleSwipeHint()`) was removed.
