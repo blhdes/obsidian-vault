@@ -75,3 +75,16 @@ python3 ~/Music/Mixxx/embed_cover.py "Artist" "Song Title" "path/to/file.mp3"
 yt-dlp -f "bestaudio/best" -x --audio-format mp3 --audio-quality 0 \
   -o "~/Music/Mixxx/%(artist|channel)s/%(album|Singles)s/%(title)s.%(ext)s" "YOUTUBE_URL"
 ```
+
+## Known issues & improvement ideas (2026-05-03)
+
+Two failure modes hit while downloading Charlotte de Witte – *Doppler*:
+
+1. **Album mismatch → zero results.** The MusicBrainz query requires an exact release-title match. `"Formula - EP"` vs `"Formula EP"` (or the placeholder `"Singles"`) returns nothing and the script errors out instead of falling back.
+2. **First-release-wins picks comps.** When the search succeeds, the script grabs the first release with cover art — often a compilation (e.g. *Serious Beats 97*) instead of the canonical EP.
+
+Possible fixes for `embed_cover.py`:
+- Retry without the `release:` filter when the filtered query returns 0 results.
+- Score releases: fuzzy-match album → prefer Album/EP/Single over Compilation → earliest date.
+- Try Cover Art Archive by **release-group MBID** instead of release MBID for canonical art.
+- Add a `--release-mbid` flag to bypass search when the right release is already known.
