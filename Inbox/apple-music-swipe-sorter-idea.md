@@ -45,13 +45,13 @@ Requirements to publish:
 
 Mirror Culla's mental model:
 
-| Gesture | Action |
-|---------|--------|
+| Gesture     | Action                                                                            |
+| ----------- | --------------------------------------------------------------------------------- |
 | Swipe right | Add to a playlist (pick from sidebar of "active" playlists, like Culla galleries) |
-| Swipe left | Dismiss / skip (mark as "reviewed but not playlisted") |
-| Swipe up | Favorite (toggle ❤️) |
-| Swipe down | Share song |
-| Tap | Play/pause preview |
+| Swipe left  | Dismiss / skip (mark as "reviewed but not playlisted")                            |
+| Swipe up    | Favorite (toggle ❤️)                                                              |
+| Swipe down  | Share song                                                                        |
+| Tap         | Play/pause preview                                                                |
 
 ## Key technical challenges
 
