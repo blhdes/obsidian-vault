@@ -4,6 +4,9 @@ date: 2026-05-01
 tags: [idea, app, music, musickit, swiftui]
 ---
 
+> **This became a real project.** Active notes → [[Projects/Culla-Music/culla-music|Culla Music]]
+
+
 # Apple Music Swipe-Sorter (working name: TBD)
 
 A Culla-style swipe app, but instead of sorting photos into galleries, it sorts **library songs that aren't in any playlist yet** into playlists. Same UX language: swipe to triage your music backlog.
