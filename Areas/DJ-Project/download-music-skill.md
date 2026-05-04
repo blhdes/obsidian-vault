@@ -78,6 +78,8 @@ yt-dlp -f "bestaudio/best" -x --audio-format mp3 --audio-quality 0 \
 
 ## Known issues & improvement ideas (2026-05-03)
 
+> **Status (2026-05-04):** all five findings below have been folded into `embed_cover.py` v2 and the skill markdown. Kept here as a record of the failure modes and the rationale.
+
 Two failure modes hit while downloading Charlotte de Witte – *Doppler*:
 
 1. **Album mismatch → zero results.** The MusicBrainz query requires an exact release-title match. `"Formula - EP"` vs `"Formula EP"` (or the placeholder `"Singles"`) returns nothing and the script errors out instead of falling back.
