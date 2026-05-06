@@ -9,7 +9,7 @@ tags: [culla-music, ios, swiftui, musickit, active]
 Apple Music swipe-sorter. One song at a time — swipe right to add to a playlist, left to dismiss. A standalone SwiftUI app, built to eventually merge back into [[Projects/Culla/Culla|Culla]] as a feature once it reaches v1.
 
 **Repo:** https://github.com/blhdes/culla-music (private)  
-**Started:** 2026-05-03 | **Status:** Phase 2 home screen implemented (2026-05-04, compiles; on-device testing pending)
+**Started:** 2026-05-03 | **Status:** Post-Phase-2 polish pass (2026-05-06): soft card transitions, real Apple Music playlist removal on undo, wider sidebar with playlist covers, deadzoned reveal, kind-based editability detection, sidebar cap raised 5 → 13.
 
 ---
 
@@ -72,9 +72,9 @@ CullaMusic/
 
 **"Unsorted" = not in any user-owned playlist** — refined in Phase 2. Songs that live only in Apple editorial mixes, algorithmic playlists, or playlists shared by others still count as unsorted, since the user never actively filed them. Earlier definition ("not yet acted on in our app") was simpler but ignored playlists Apple Music already gave the user — too many obvious "you literally put this here" songs.
 
-**Editable vs read-only playlists** — `Playlist.isEditable: Bool`, written from `MusicKit.Playlist.kind == .personal` during sync. Only editable playlists can target the sidebar; read-only ones show in Manage but are disabled with a "Read-only" caption.
+**Editable vs read-only playlists** — `Playlist.isEditable: Bool`, written from `MusicKit.Playlist.kind` during sync (editorial / personalMix / replay → read-only; everything else → editable). The earlier `curatorName == nil` heuristic was abandoned because Apple stamps the creating app's bundle name into `curatorName` for third-party-created playlists, which incorrectly downgraded Culla-made playlists to read-only on relaunch. Sync also preserves `isEditable=true` once set, so any wrongly-downgraded record auto-repairs on next sync.
 
-**Sidebar capped at 5 playlists** — `Playlist.isInSidebar: Bool` flag. User selects via a Manage button (bottom-left, fades on drag). First sync auto-selects the first 5 *editable* playlists so it's usable immediately without a Manage detour.
+**Sidebar cap raised to 13 playlists** (was 5 in MVP) — `Playlist.isInSidebar: Bool` flag. User selects via a Manage button (bottom-left, fades on drag). First sync auto-selects the first N *editable* playlists so it's usable immediately without a Manage detour.
 
 **Tap-to-play, not autoplay** — simpler for MVP; no audio session edge cases mid-drag.
 
@@ -109,14 +109,20 @@ Up/down gestures, autoplay, favorites, share, stats, paywall, duplicate scanning
 ## Phases
 
 - **Phase 1** — MVP scaffolding (auth, deck, sidebar, manage, undo). Done 2026-05-03.
-- **Phase 2** — [[Phases/phase-02-home-screen|Home screen + 3 review modes + sort order]]. Built 2026-05-04, on-device testing pending.
+- **Phase 2** — [[Phases/phase-02-home-screen|Home screen + 3 review modes + sort order]]. Built 2026-05-04.
+- **Polish pass** — Soft card transitions, real Apple Music playlist removal on undo (via `MusicLibrary.edit(_:items:)` filter+replace), wider sidebar (50% → 80%) with playlist artwork covers, deadzoned + opacity-gated sidebar reveal, kind-based editability detection, sidebar cap 5 → 13. 2026-05-06.
+
+## Ideas
+
+- [[Ideas/settings-screen|Settings screen]] — `authorDisplayName` override, haptics toggle, sidebar palettes, light/dark/system theme.
+- [[Ideas/sort-from-any-playlist|Sort from any playlist]] — MOVE / COPY segmented control when source ≠ general library, mirroring Culla photos behaviour.
 
 ## Known issues / next steps
 
-- MusicKit has no public single-song-removal-from-playlist API (iOS 17/18). Undo reverts the local `SortedSong` row but can't remove from Apple Music — surfaces a "Removed locally" toast.
+- Playlists created via `MusicLibrary.shared.createPlaylist(...)` get stamped with `curatorName = "CullaMusic"` (Apple's third-party-app attribution policy). Sidestepped via kind-based detection, but the "CullaMusic" label still shows up in Apple Music's UI as a created-via attribution. No public way to suppress.
 - `MusicLibraryRequest.offset` pagination: verify behavior on edge cases (libraries with < 100 songs, libraries > 10k).
-- Phase 2 needs hands-on testing: mode switching, dismissed-mode right-swipe (un-dismiss + sort), unsorted count cache invalidation, back chevron behaviour.
-- No settings screen yet (haptics toggle, etc.).
+- Phase 2 still needs hands-on coverage: mode switching, dismissed-mode right-swipe (un-dismiss + sort), unsorted count cache invalidation, back chevron behaviour.
+- No settings screen yet (see [[Ideas/settings-screen|idea]]).
 - Eventually: merge into Culla as a tab or modal flow. Name collision audit done — all Culla Music types are uniquely prefixed.
 
 ---
