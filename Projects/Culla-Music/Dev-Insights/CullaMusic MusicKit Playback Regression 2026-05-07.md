@@ -6,9 +6,17 @@ tags: [culla, dev-insight, musickit, ios19, post-mortem]
 
 ## Resolution (2026-05-09) — actual root cause
 
-**Root cause:** iOS 19 changed `MusicKit.Artwork.url(width:height:)` for *library* items to return `musicKit://artwork/library/...` scheme URLs instead of the previous public `https://...mzstatic.com/...` CDN URLs. SwiftUI's `AsyncImage` cannot resolve the `musicKit://` scheme — it silently falls into its `failure` branch and renders the placeholder. All song and playlist covers went gray after the OS update even though the underlying data was intact.
+**Root cause:** `MusicKit.Artwork.url(width:height:)` returned `musicKit://artwork/library/...` scheme URLs for library items at the time of the regression. SwiftUI's `AsyncImage` cannot resolve the `musicKit://` scheme — it silently falls into its `failure` branch and renders the placeholder. All song and playlist covers went gray even though the underlying data was intact.
 
-The *playback* failure that appeared simultaneously was a separate, intermittent iOS 19 daemon flakiness in `applicationQueuePlayer`'s XPC channel. It cleared on its own after the device-side cycles we did during diagnosis and has been stable since. No code change was needed for it.
+**Why it suddenly broke on 2026-05-07** is *not fully known*. Git blame shows the `AsyncImage(url: song.artwork?.url(...))` code has been in `SongCardView` unchanged since the initial scaffolding (`1a112ea`, 2026-05-03). The playlist version was added in `5cffded` on 2026-05-05. Between "working on 2026-05-06" and "broken on 2026-05-07", only `24f7cff` (source-playlist sorting) landed and it doesn't touch artwork or playback setup. The trigger was therefore *external*, most likely:
+
+1. An iOS point-release update applied automatically overnight that changed `Artwork.url()` to return `musicKit://` for library items.
+2. A change in *which* songs the user was swiping — catalog-matched library songs return `https://` URLs while iCloud-Music-Library-only uploads may always have returned `musicKit://`. The pre-2026-05-07 sessions may have happened to land on catalog-matched songs.
+3. An Apple backend change in the URL scheme returned by their library API.
+
+Either way, `AsyncImage` was *never* going to work for `musicKit://` URLs — earlier conditions just happened to return HTTPS. The `ArtworkImage` switch is the right permanent fix regardless of which external trigger flipped it.
+
+The *playback* failure that appeared simultaneously was a separate, intermittent daemon flakiness in `applicationQueuePlayer`'s XPC channel. It cleared on its own after the device-side cycles we did during diagnosis and has been stable since. No code change was needed for it.
 
 **The fix (one line per artwork view):**
 
