@@ -1,4 +1,28 @@
 
+## Resolution (2026-05-09)
+
+**Root cause:** Device-side iTunes/Media account state, not app code. Triggered by changing the Apple Music profile handle (`agomezurrea` → `alegurrea`) and display name (`Ale` → `@`). This put `accountsd` / `itunescloudd` into a state where they refused to expose the iTunes account to third-party MusicKit clients, while Music.app kept working because it has private entitlements that bypass the same gate.
+
+**What fixed it:**
+1. Settings → [Name] → Media & Purchases → Sign Out, then Sign In, **and accept the "Apple Media Services Terms" screen that appears**.
+2. **Full device reboot** (power off, wait, power on). Sign-in alone did not work — `accountsd` was caching the failed state.
+
+**Diagnostic that confirmed the diagnosis:** A one-shot launch log of `MusicSubscription.subscriptionUpdates` showed `canBecomeSubscriber = false` — that flag should never be false on a healthy device, so it proved the account daemon was unreachable from this app, not that the user lacked a subscription. After reboot it flipped to `true`.
+
+**What did NOT help (do not retry):**
+- Rolling back app code (source-playlist feature etc.) — the bug is environmental, not in commits.
+- Switching wildcard ↔ explicit provisioning profile.
+- Adding a `CullaMusic.entitlements` file with `com.apple.developer.musickit = true` — that key is for **macOS / MusicKit JS only**, not iOS. Adding it to an iOS project produces *"Entitlement com.apple.developer.musickit not found and could not be included in profile"* at build time. Native iOS MusicKit needs only `NSAppleMusicUsageDescription` in Info.plist (already set as `INFOPLIST_KEY_NSAppleMusicUsageDescription`).
+- "+ Capability → MusicKit" in Xcode is not even an option in this account/Xcode version.
+
+**Playbook for next time MusicKit playback breaks suddenly:**
+1. Look for `ICError -7013`, `activeAccountDSID = nil`, `accounts Code=9`, "Privacy acknowledgement is needed" in logs → environmental, not code.
+2. Sign out / in of Media & Purchases, accept any T&C.
+3. Reboot the device.
+4. Only after both above fail should you consider code-level changes.
+
+---
+
 ## Context
 
 CullaMusic stopped loading song artwork and stopped playing songs through `ApplicationMusicPlayer`. The user reports this worked on previous commits/yesterday. Native Apple Music can still stream normally on the same device.
