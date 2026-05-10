@@ -4,7 +4,7 @@ date: 2026-05-06
 tags: [culla, idea, feature]
 ---
 
-A dedicated Settings screen to consolidate user preferences, mirroring the one in the original Culla app.
+A dedicated Settings screen to consolidate user preferences, mirroring the one in the original Culla app (culla-app).
 
 ## Items
 
