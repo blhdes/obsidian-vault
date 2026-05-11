@@ -46,19 +46,24 @@ Three proposals to explore. Not specs yet — these are ideas to evaluate, proto
 
 ## 3. Minimalist progress bar with transparent transition
 
-**Idea:** Add a sleek, minimal progress bar to the player. On each track change, fade it in/out with a transparent transition so it feels like part of the artwork rather than a UI chrome element. Tappable/scrubbable so the user can jump to different parts of a song.
+**Idea:** Add a sleek, minimal progress bar to the swipe card. On each track change, fade it in/out with a transparent transition so it feels like part of the artwork rather than a UI chrome element. Tappable/scrubbable so the user can jump to different parts of a song.
 
 **Why it matters:**
 - Visible song structure → user can preview the bridge, chorus, or outro without guessing.
-- Improves UX for both swiping (quick scrubbing) and full-player listening.
+- Improves UX during swiping (quick scrubbing) without breaking flow.
 - Transparent fade keeps the player feeling minimal and "Culla-like" between tracks.
 
-**Open questions:**
-- Style: thin hairline bar at the bottom of the artwork, or a wider gesture-friendly hit area?
-- Animation: cross-fade on track change, or slide/wipe?
-- Scrubbing UX — haptic ticks on drag? Snap to musical sections if MusicKit ever exposes them?
-- Show elapsed/remaining time, or stay completely chrome-less and rely on the bar alone?
-- Does it appear on the swipe card or only in the expanded player view?
+**Decisions (2026-05-11):**
+- **Style:** Thin, elegant, smooth hairline bar — Apple Music–style.
+- **Animation:** Smooth cross-fade on track change.
+- **Scrubbing UX:** Haptic ticks on drag, gated by the existing *haptics-enabled* setting. Snap to musical sections *only if* MusicKit exposes them (needs API check — likely no today, so plain scrub by default).
+- **Time labels:** Show elapsed and remaining time alongside the bar — knowing position in the track matters.
+- **Placement:** Integrated directly into the swipe card. Culla has no separate "expanded player view" — `SongCardView` *is* the player, so the bar lives there.
+
+**Still to investigate before building:**
+- Does MusicKit expose structural / "musical section" data on `Song`? (Probably no — fall back to plain scrub.)
+- Cleanest way to drive the bar from `ApplicationMusicPlayer.shared.playbackTime` without overdraw — `TimelineView(.periodic)` vs a `Timer.publish` subscription on the view model.
+- Hit-target: thin visual line + wider invisible drag area (so finger scrubbing stays comfortable on a hairline bar).
 
 ---
 
