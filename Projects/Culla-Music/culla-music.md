@@ -115,9 +115,18 @@ Up/down gestures, autoplay, favorites, share, stats, paywall, duplicate scanning
 
 ## Ideas
 
-- ✅ [[Ideas/settings-screen|Settings screen]] — implemented in Phase 3.
-- ✅ [[Ideas/sort-from-any-playlist|Sort from any playlist]] — implemented in Phase 3.
-- ✅ [[Ideas/swipe-and-player-enhancements|Swipe & player enhancements]] — all three (chips, hot-clip preview, progress bar) implemented in Phase 3.
+**Implemented:**
+- ✅ [[Ideas/settings-screen|Settings screen]] — Phase 3.
+- ✅ [[Ideas/sort-from-any-playlist|Sort from any playlist]] — Phase 3.
+- ✅ [[Ideas/swipe-and-player-enhancements|Swipe & player enhancements]] — all three (chips, hot-clip preview, progress bar) in Phase 3.
+
+**Open (2026-05-12 batch):**
+- [[Ideas/up-swipe-heart-loved|Up-swipe = Heart / Loved]] — uses the reserved vertical gesture from MVP.
+- [[Ideas/dynamic-accent-from-artwork|Dynamic accent color from artwork]] — extract dominant color per song; mirrors photo Culla.
+- [[Ideas/stats-activity-view|Stats / activity view]] — local-only Charts dashboard (sorts per day, top playlists, streak).
+- [[Ideas/smart-playlist-suggestion|Smart playlist suggestion chip]] — uses the membership index to hint a likely target.
+- [[Ideas/onboarding-flow|First-launch onboarding]] — 3 screens, skippable, mirrors photo Culla's pattern.
+- [[Ideas/lazy-library-count|Lazy library count on Home]] — fills the `—` slot from Phase 3's outstanding list.
 
 ## Known issues / next steps
 
