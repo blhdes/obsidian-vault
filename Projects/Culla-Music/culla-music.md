@@ -9,7 +9,7 @@ tags: [culla-music, ios, swiftui, musickit, active]
 Apple Music swipe-sorter. One song at a time — swipe right to add to a playlist, left to dismiss. A standalone SwiftUI app, built to eventually merge back into [[Projects/Culla/Culla|Culla]] as a feature once it reaches v1.
 
 **Repo:** https://github.com/blhdes/culla-music (private)  
-**Started:** 2026-05-03 | **Status:** Post-Phase-2 polish pass (2026-05-06): soft card transitions, real Apple Music playlist removal on undo, wider sidebar with playlist covers, deadzoned reveal, kind-based editability detection, sidebar cap raised 5 → 13.
+**Started:** 2026-05-03 | **Status (2026-05-12):** Phase 3 complete — source-playlist sorting (COPY/MOVE), Settings sheet, hot-clip preview + scrubbable progress bar, playlist membership chips, read-only scope toggle with instant home-count refresh. On-device validation in progress.
 
 ---
 
@@ -111,11 +111,13 @@ Up/down gestures, autoplay, favorites, share, stats, paywall, duplicate scanning
 - **Phase 1** — MVP scaffolding (auth, deck, sidebar, manage, undo). Done 2026-05-03.
 - **Phase 2** — [[Phases/phase-02-home-screen|Home screen + 3 review modes + sort order]]. Built 2026-05-04.
 - **Polish pass** — Soft card transitions, real Apple Music playlist removal on undo (via `MusicLibrary.edit(_:items:)` filter+replace), wider sidebar (50% → 80%) with playlist artwork covers, deadzoned + opacity-gated sidebar reveal, kind-based editability detection, sidebar cap 5 → 13. 2026-05-06.
+- **Phase 3** — [[Phases/phase-03-source-sorting-player-and-settings|Source sorting + player polish + settings]]. Sort from any playlist (COPY/MOVE), settings sheet (theme/accent/haptics/author), hot-clip preview, scrubbable progress bar, playlist membership chips, read-only scope toggle, MusicKit reliability fixes. 2026-05-07 → 2026-05-12.
 
 ## Ideas
 
-- [[Ideas/settings-screen|Settings screen]] — `authorDisplayName` override, haptics toggle, sidebar palettes, light/dark/system theme.
-- [[Ideas/sort-from-any-playlist|Sort from any playlist]] — MOVE / COPY segmented control when source ≠ general library, mirroring Culla photos behaviour.
+- ✅ [[Ideas/settings-screen|Settings screen]] — implemented in Phase 3.
+- ✅ [[Ideas/sort-from-any-playlist|Sort from any playlist]] — implemented in Phase 3.
+- ✅ [[Ideas/swipe-and-player-enhancements|Swipe & player enhancements]] — all three (chips, hot-clip preview, progress bar) implemented in Phase 3.
 
 ## Known issues / next steps
 
