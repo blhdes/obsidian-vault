@@ -1,10 +1,14 @@
 ---
 title: Lazy library count on Home
 date: 2026-05-12
-tags: [culla-music, idea, polish, home-screen, performance]
+tags: [culla-music, idea, polish, home-screen, performance, shipped]
+status: shipped
+shipped_on: 2026-05-12
 ---
 
 # Lazy library count on Home
+
+> **✅ Shipped 2026-05-12.** Commit `476b806`. Implementation differed from the original sketch — instead of a second pass *after* unsorted resolves, both counts now ride a **single** `MusicLibraryRequest` iteration in `HomeView.swift` and each has its own cache fingerprint (library is toggle-independent, unsorted is toggle-aware). Flipping the read-only chip toggle re-walks for unsorted only; library stays warm. The loader spinner was also swapped for a hairline `LinearLoader` in `08b9d78`.
 
 The **Library** mode card on `HomeView` currently shows `—` — we intentionally skip the count to avoid a 5k-song scan on first launch. Resolve it lazily so the slot eventually shows a real number, matching what *Unsorted* and *Dismissed* already do.
 

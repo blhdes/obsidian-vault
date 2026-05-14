@@ -1,10 +1,14 @@
 ---
 title: Dynamic accent color from song artwork
 date: 2026-05-12
-tags: [culla-music, idea, feature, theming, ux]
+tags: [culla-music, idea, feature, theming, ux, shipped]
+status: shipped
+shipped_on: 2026-05-12
 ---
 
 # Dynamic accent color from song artwork
+
+> **✅ Shipped 2026-05-12.** Commit `2210913`. Ships as a **two-color gradient**, not a single accent: primary + hue-distant secondary, both clamped into a UI-friendly HSL range. Cross-faded into the sidebar drop-target glow (as a gradient) and a faint full-panel wash on track change. Settings keeps the static palette as a manual override. New files: `Helpers/AccentExtractor.swift` (sampling + clamp), `Helpers/AccentEnvironment.swift` (SwiftUI environment passthrough).
 
 Right now the sidebar accent and the drop-target highlight come from a fixed `AccentPalette` swatch picked in Settings. Photo Culla pulls colors from images — Culla Music could do the same, extracting the dominant color from the current song's artwork and using it as the live accent.
 

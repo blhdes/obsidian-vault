@@ -9,7 +9,7 @@ tags: [culla-music, ios, swiftui, musickit, active]
 Apple Music swipe-sorter. One song at a time — swipe right to add to a playlist, left to dismiss. A standalone SwiftUI app, built to eventually merge back into [[Projects/Culla/Culla|Culla]] as a feature once it reaches v1.
 
 **Repo:** https://github.com/blhdes/culla-music (private)  
-**Started:** 2026-05-03 | **Status (2026-05-12):** Phase 3 complete — source-playlist sorting (COPY/MOVE), Settings sheet, hot-clip preview + scrubbable progress bar, playlist membership chips, read-only scope toggle with instant home-count refresh. On-device validation in progress.
+**Started:** 2026-05-03 | **Status (2026-05-14):** Phase 3 + polish pass shipped. Latest: up-swipe = Loved (auto-created *Culla Loves* + Settings picker + rollback on remote-write failure), dynamic accent gradient sampled from artwork, lazy library count on Home, long-press to fully reveal sidebar, hairline `LinearLoader`. On-device validation ongoing.
 
 ---
 
@@ -82,7 +82,7 @@ CullaMusic/
 
 **Neutral sidebar aesthetic** — dropped neon palette (works for photos, feels off for music). Material + soft accentColor highlight on active drop target only.
 
-**Up/down swipes disabled in MVP** — reserved for favorite/share in a later version.
+**Up-swipe = Loved (down still reserved)** — up-swipe now files the current song into a configurable *Loved* playlist (default: auto-created "Culla Loves"). Down-swipe stays unbound for a future "Share" action.
 
 **Session-scoped exclusion set** — `MusicSwipeViewModel.sessionExclusionSet` grows as songs are acted on. Cheaper than re-querying SwiftData on every refill and avoids races between background refills and the latest swipe.
 
