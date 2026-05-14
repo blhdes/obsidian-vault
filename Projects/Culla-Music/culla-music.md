@@ -112,6 +112,14 @@ Up/down gestures, autoplay, favorites, share, stats, paywall, duplicate scanning
 - **Phase 2** — [[Phases/phase-02-home-screen|Home screen + 3 review modes + sort order]]. Built 2026-05-04.
 - **Polish pass** — Soft card transitions, real Apple Music playlist removal on undo (via `MusicLibrary.edit(_:items:)` filter+replace), wider sidebar (50% → 80%) with playlist artwork covers, deadzoned + opacity-gated sidebar reveal, kind-based editability detection, sidebar cap 5 → 13. 2026-05-06.
 - **Phase 3** — [[Phases/phase-03-source-sorting-player-and-settings|Source sorting + player polish + settings]]. Sort from any playlist (COPY/MOVE), settings sheet (theme/accent/haptics/author), hot-clip preview, scrubbable progress bar, playlist membership chips, read-only scope toggle, MusicKit reliability fixes. 2026-05-07 → 2026-05-12.
+- **Post-Phase-3 polish** (2026-05-12 → 2026-05-13):
+  - Lazy library count on Home (`476b806`) — folded into the existing unsorted walk; separate cache fingerprints. Loader spinner replaced with a hairline `LinearLoader` (`08b9d78`).
+  - Long-press to fully reveal the playlist sidebar (`12a5a49`).
+  - Dynamic accent gradient sampled from song artwork (`2210913`) — primary + hue-distant secondary, HSL-clamped, cross-faded into the sidebar glow + a faint panel wash.
+  - Up-swipe = Loved (`128e9d5`) — vertical-dominant up-drag adds the song to a *Loved* playlist; auto-creates "Culla Loves" on first use. Pink heart overlay mirrors the trash overlay; Loved chip gets a ♥ glyph.
+  - Settings picker for the Loved target (`be56d03`) — `LovedPlaylistPickerSheet` with an "Auto (Culla Loves)" reset row; storage keyed by Apple Music playlist ID.
+  - Rollback on remote-write failure (`1c45fd6`) — system-managed playlists like Apple Music's *Smart Favorites* silently reject `MusicLibrary.shared.add()`; the new `rollbackLoved` helper undoes the local exclusion + membership entries so songs don't vanish from the deck.
+  - "Smart Favorites" hidden + Sort From opened to read-only sources (`bbca8a8`).
 
 ## Ideas
 
@@ -119,21 +127,21 @@ Up/down gestures, autoplay, favorites, share, stats, paywall, duplicate scanning
 - ✅ [[Ideas/settings-screen|Settings screen]] — Phase 3.
 - ✅ [[Ideas/sort-from-any-playlist|Sort from any playlist]] — Phase 3.
 - ✅ [[Ideas/swipe-and-player-enhancements|Swipe & player enhancements]] — all three (chips, hot-clip preview, progress bar) in Phase 3.
+- ✅ [[Ideas/lazy-library-count|Lazy library count on Home]] — post-Phase-3 polish, 2026-05-12.
+- ✅ [[Ideas/dynamic-accent-from-artwork|Dynamic accent color from artwork]] — post-Phase-3 polish, 2026-05-12. Shipped as a 2-color gradient.
+- ✅ [[Ideas/up-swipe-heart-loved|Up-swipe = Heart / Loved]] — post-Phase-3 polish, 2026-05-13.
 
-**Open (2026-05-12 batch):**
-- [[Ideas/up-swipe-heart-loved|Up-swipe = Heart / Loved]] — uses the reserved vertical gesture from MVP.
-- [[Ideas/dynamic-accent-from-artwork|Dynamic accent color from artwork]] — extract dominant color per song; mirrors photo Culla.
+**Still open:**
 - [[Ideas/stats-activity-view|Stats / activity view]] — local-only Charts dashboard (sorts per day, top playlists, streak).
 - [[Ideas/smart-playlist-suggestion|Smart playlist suggestion chip]] — uses the membership index to hint a likely target.
-- [[Ideas/onboarding-flow|First-launch onboarding]] — 3 screens, skippable, mirrors photo Culla's pattern.
-- [[Ideas/lazy-library-count|Lazy library count on Home]] — fills the `—` slot from Phase 3's outstanding list.
+- [[Ideas/onboarding-flow|First-launch onboarding]] — 3 screens, skippable, mirrors photo Culla's pattern. Eligible for a 4th screen now that up-swipe = Loved has shipped.
 
 ## Known issues / next steps
 
 - Playlists created via `MusicLibrary.shared.createPlaylist(...)` get stamped with `curatorName = "CullaMusic"` (Apple's third-party-app attribution policy). Sidestepped via kind-based detection, but the "CullaMusic" label still shows up in Apple Music's UI as a created-via attribution. No public way to suppress.
 - `MusicLibraryRequest.offset` pagination: verify behavior on edge cases (libraries with < 100 songs, libraries > 10k).
 - Phase 2 still needs hands-on coverage: mode switching, dismissed-mode right-swipe (un-dismiss + sort), unsorted count cache invalidation, back chevron behaviour.
-- No settings screen yet (see [[Ideas/settings-screen|idea]]).
+- `MusicLibraryService.startClipPositionObserver` concurrency warning (see memory `project_avplayer_concurrency_warnings`) — small follow-up next time that file is touched.
 - Eventually: merge into Culla as a tab or modal flow. Name collision audit done — all Culla Music types are uniquely prefixed.
 
 ---
