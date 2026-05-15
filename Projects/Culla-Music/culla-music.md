@@ -9,7 +9,7 @@ tags: [culla-music, ios, swiftui, musickit, active]
 Apple Music swipe-sorter. One song at a time — swipe right to add to a playlist, left to dismiss. A standalone SwiftUI app, built to eventually merge back into [[Projects/Culla/Culla|Culla]] as a feature once it reaches v1.
 
 **Repo:** https://github.com/blhdes/culla-music (private)  
-**Started:** 2026-05-03 | **Status (2026-05-14):** Phase 3 + polish pass shipped. Latest: up-swipe = Loved (auto-created *Culla Loves* + Settings picker + rollback on remote-write failure), dynamic accent gradient sampled from artwork, lazy library count on Home, long-press to fully reveal sidebar, hairline `LinearLoader`. On-device validation ongoing.
+**Started:** 2026-05-03 | **Status (2026-05-15):** Phase 4 shipped — Dismissed-mode tooling (stale-dismissal resurfacing, age chip, long-press cleanup menu with per-playlist removal sheet + Forget dismissal + inline-snackbar undo). On-device validation ongoing — see [[qa-dismissed-cleanup-menu|QA — Dismissed-mode cleanup menu]].
 
 ---
 
@@ -120,6 +120,7 @@ Up/down gestures, autoplay, favorites, share, stats, paywall, duplicate scanning
   - Settings picker for the Loved target (`be56d03`) — `LovedPlaylistPickerSheet` with an "Auto (Culla Loves)" reset row; storage keyed by Apple Music playlist ID.
   - Rollback on remote-write failure (`1c45fd6`) — system-managed playlists like Apple Music's *Smart Favorites* silently reject `MusicLibrary.shared.add()`; the new `rollbackLoved` helper undoes the local exclusion + membership entries so songs don't vanish from the deck.
   - "Smart Favorites" hidden + Sort From opened to read-only sources (`bbca8a8`).
+- **Phase 4** — [[Phases/phase-04-dismissed-mode-tooling|Dismissed Mode Tooling]]. Resurface stale dismissals in Unsorted (`2414cda`), rework Dismissed gestures + dismissed-age chip (`d48a75f`), long-press cleanup menu (`9a3d607`), per-playlist removal sheet + Forget dismissal + inline-snackbar undo (`fb9d6f1`). 2026-05-14 → 2026-05-15.
 
 ## Ideas
 

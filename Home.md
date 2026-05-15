@@ -46,5 +46,6 @@ Just describe where it should go. Examples that work:
 
 ## Index notes
 
-- [[Projects/Culla/Culla|Culla (iOS app)]]
+- [[Projects/Culla/Culla|Culla (iOS app — photo sorter)]]
+- [[Projects/Culla-Music/culla-music|Culla Music (iOS app — Apple Music swipe-sorter)]]
 - [[Resources/Swift/Swift|Swift — learning & reference]]
