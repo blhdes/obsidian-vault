@@ -9,7 +9,7 @@ tags: [culla-music, ios, swiftui, musickit, active]
 Apple Music swipe-sorter. One song at a time — swipe right to add to a playlist, left to dismiss. A standalone SwiftUI app, built to eventually merge back into [[Projects/Culla/Culla|Culla]] as a feature once it reaches v1.
 
 **Repo:** https://github.com/blhdes/culla-music (private)  
-**Started:** 2026-05-03 | **Status (2026-05-15):** Phase 4 shipped — Dismissed-mode tooling (stale-dismissal resurfacing, age chip, long-press cleanup menu with per-playlist removal sheet + Forget dismissal + inline-snackbar undo). On-device validation ongoing — see [[qa-dismissed-cleanup-menu|QA — Dismissed-mode cleanup menu]].
+**Started:** 2026-05-03 | **Status (2026-05-16):** Phase 4 shipped — Dismissed-mode tooling (stale-dismissal resurfacing, age chip, long-press cleanup menu with per-playlist removal sheet + Forget dismissal + inline-snackbar undo). Followed by a four-step VM split that shrunk `MusicSwipeViewModel` from 1218 → 940 LOC (-23%) with no behavior change. On-device validation ongoing — see [[qa-dismissed-cleanup-menu|QA — Dismissed-mode cleanup menu]].
 
 ---
 
@@ -45,9 +45,21 @@ CullaMusic/
 │                                     fetch (asc/desc), playlist CRUD, ID resolver,
 │                                     editable-playlist song IDs, AM player
 ├── ViewModels/
-│   └── MusicSwipeViewModel.swift  — deck queue (batch=50, refill@10), undo history,
-│                                     sidebar filter, playlist sync, session-scoped
-│                                     exclusion set, mode-specific load/dismiss/assign
+│   ├── MusicSwipeViewModel.swift  — deck queue (batch=50, refill@10), sidebar filter,
+│   │                                 playlist sync, session-scoped exclusion set,
+│   │                                 mode-specific load/dismiss/assign. Orchestrates
+│   │                                 the four coordinators below.
+│   ├── UndoCoordinator.swift      — owns SwipeAction, PlaylistRemovalSnapshot, and the
+│   │                                 actionHistory stack (record/popLast/remove/clear).
+│   ├── MembershipIndex.swift      — per-song membership dict + memoized playlist-
+│   │                                 resolution cache (reset/invalidateCache/add/
+│   │                                 remove/memberships/rebuild).
+│   ├── LovedPlaylistResolver.swift — @MainActor coordinator: eventual-consistency
+│   │                                 resolve-or-create flow, session-created tracker,
+│   │                                 read-only self-heal, upsert helper.
+│   └── DismissedDateStore.swift   — @Observable store of dismissedDates + SwiftData
+│                                     fetch helpers (loadAll/recentSongIDs/record(for:))
+│                                     + the 30-day resurface constant.
 └── Views/
     ├── RootView.swift             — state machine: auth → HomeView → MusicSwipeView
     ├── HomeView.swift             — entry point: 3 mode cards + sort picker + start.
@@ -121,6 +133,7 @@ Up/down gestures, autoplay, favorites, share, stats, paywall, duplicate scanning
   - Rollback on remote-write failure (`1c45fd6`) — system-managed playlists like Apple Music's *Smart Favorites* silently reject `MusicLibrary.shared.add()`; the new `rollbackLoved` helper undoes the local exclusion + membership entries so songs don't vanish from the deck.
   - "Smart Favorites" hidden + Sort From opened to read-only sources (`bbca8a8`).
 - **Phase 4** — [[Phases/phase-04-dismissed-mode-tooling|Dismissed Mode Tooling]]. Resurface stale dismissals in Unsorted (`2414cda`), rework Dismissed gestures + dismissed-age chip (`d48a75f`), long-press cleanup menu (`9a3d607`), per-playlist removal sheet + Forget dismissal + inline-snackbar undo (`fb9d6f1`). 2026-05-14 → 2026-05-15.
+- **Post-Phase-4 cleanup** (2026-05-16) — `MusicSwipeViewModel` split into four `@Observable` / `@MainActor` coordinators, 1218 → 940 LOC (-23%), no behavior change. Order: UndoCoordinator (`83936d9`, owns `SwipeAction` + `PlaylistRemovalSnapshot` + action stack), MembershipIndex (`f3c326d`, per-song dict + memoized playlist cache; `playlistsProvider` wired post-init), LovedPlaylistResolver (`c4b888f`, resolve-or-create + read-only self-heal; shrinks the `loveCurrent` catch from 18 → 7 lines), DismissedDateStore (`d47ba64`, dismissedDates map + 3 SwiftData helpers + 30-day resurface constant). Also: silenced `[hotpreview]` flow-trace prints (`4b849c8`) — catch-block error prints kept.
 
 ## Ideas
 
