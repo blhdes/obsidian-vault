@@ -24,7 +24,7 @@ Reference: [[culla-music|Culla Music — Project Index]]
 - [x] Total swipe-to-settled-card is **noticeably tighter** than the pre-perf-pass build (~430 ms now vs. ~570 ms before) but still reads as a smooth transition, not a snap.
 - [x] Drag up partially (below the threshold) and release → card **springs back** to centre, no Loved action fires.
 - [x] Drag up past the threshold → the **pink heart overlay reaches full opacity** before release.
-- [ ] Right-swipe onto a sidebar playlist still works smoothly (no regression from the y-damping change or the new shorter timings).
+- [x] Right-swipe onto a sidebar playlist still works smoothly (no regression from the y-damping change or the new shorter timings).
 
 ## Culla Loves auto-creation
 
