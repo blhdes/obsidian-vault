@@ -19,8 +19,8 @@ Reference: [[culla-music|Culla Music — Project Index]]
 
 ## Up-swipe transition (visual)
 
-- [ ] Up-swipe a song with enough velocity → the **current card visibly leaves the top of the screen** before the next song appears (no snap-from-the-middle).
-- [ ] The new card **slides down + fades in** from off-screen — should feel similar in pacing to the right-swipe-to-sidebar transition.
+- [x] Up-swipe a song with enough velocity → the **current card visibly leaves the top of the screen** before the next song appears (no snap-from-the-middle).
+- [x] The new card **slides down + fades in** from off-screen — should feel similar in pacing to the right-swipe-to-sidebar transition.
 - [ ] Total swipe-to-settled-card is **noticeably tighter** than the pre-perf-pass build (~430 ms now vs. ~570 ms before) but still reads as a smooth transition, not a snap.
 - [ ] Drag up partially (below the threshold) and release → card **springs back** to centre, no Loved action fires.
 - [ ] Drag up past the threshold → the **pink heart overlay reaches full opacity** before release.
