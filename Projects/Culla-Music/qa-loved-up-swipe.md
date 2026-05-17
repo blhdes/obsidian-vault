@@ -28,9 +28,9 @@ Reference: [[culla-music|Culla Music — Project Index]]
 
 ## Culla Loves auto-creation
 
-- [ ] Fresh install (or after deleting `Culla Loves` in Apple Music + clearing defaults) → first up-swipe creates **exactly one** `Culla Loves` playlist.
-- [ ] Force-quit the app and relaunch → up-swipe again → **no new playlist** is created; the existing one is reused.
-- [ ] Repeat for 3 consecutive sessions → still only **one** `Culla Loves` exists in Apple Music.
+- [x] Fresh install (or after deleting `Culla Loves` in Apple Music + clearing defaults) → first up-swipe creates **exactly one** `Culla Loves` playlist.
+- [x] Force-quit the app and relaunch → up-swipe again → **no new playlist** is created; the existing one is reused.
+- [x] Repeat for 3 consecutive sessions → still only **one** `Culla Loves` exists in Apple Music.
 - [ ] If the first up-swipe surfaces *"Couldn't reach Culla Loves — try again"*, a second up-swipe a few seconds later should succeed **without creating another playlist**.
 - [ ] Up-swipe a song that's already in the loved playlist → toast says **"Already loved"**, song is not duplicated.
 
