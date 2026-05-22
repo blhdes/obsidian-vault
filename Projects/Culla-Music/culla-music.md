@@ -137,18 +137,21 @@ Up/down gestures, autoplay, favorites, share, stats, paywall, duplicate scanning
 
 ## Ideas
 
-**Implemented:**
-- ✅ [[Ideas/settings-screen|Settings screen]] — Phase 3.
-- ✅ [[Ideas/sort-from-any-playlist|Sort from any playlist]] — Phase 3.
-- ✅ [[Ideas/swipe-and-player-enhancements|Swipe & player enhancements]] — all three (chips, hot-clip preview, progress bar) in Phase 3.
-- ✅ [[Ideas/lazy-library-count|Lazy library count on Home]] — post-Phase-3 polish, 2026-05-12.
-- ✅ [[Ideas/dynamic-accent-from-artwork|Dynamic accent color from artwork]] — post-Phase-3 polish, 2026-05-12. Shipped as a 2-color gradient.
-- ✅ [[Ideas/up-swipe-heart-loved|Up-swipe = Heart / Loved]] — post-Phase-3 polish, 2026-05-13.
+**Shipped (archived in [[Archive/Culla-Music/Ideas/|Archive/Culla-Music/Ideas]]):**
+- ✅ [[Archive/Culla-Music/Ideas/settings-screen|Settings screen]] — Phase 3.
+- ✅ [[Archive/Culla-Music/Ideas/sort-from-any-playlist|Sort from any playlist]] — Phase 3.
+- ✅ [[Archive/Culla-Music/Ideas/swipe-and-player-enhancements|Swipe & player enhancements]] — all three (chips, hot-clip preview, progress bar) in Phase 3.
+- ✅ [[Archive/Culla-Music/Ideas/lazy-library-count|Lazy library count on Home]] — post-Phase-3 polish, 2026-05-12.
+- ✅ [[Archive/Culla-Music/Ideas/dynamic-accent-from-artwork|Dynamic accent color from artwork]] — post-Phase-3 polish, 2026-05-12. Shipped as a 2-color gradient.
+- ✅ [[Archive/Culla-Music/Ideas/up-swipe-heart-loved|Up-swipe = Heart / Loved]] — post-Phase-3 polish, 2026-05-13.
+- ✅ [[Archive/Culla-Music/Ideas/sort-songs-from-this-artist|Sort songs from this artist]] — shipped 2026-05-19 via `00b7e2b feat: scope swipe sessions by library artist`. Surfaced through the source picker's Artists tab rather than the artist hub.
 
 **Still open:**
 - [[Ideas/stats-activity-view|Stats / activity view]] — local-only Charts dashboard (sorts per day, top playlists, streak).
 - [[Ideas/smart-playlist-suggestion|Smart playlist suggestion chip]] — uses the membership index to hint a likely target.
 - [[Ideas/onboarding-flow|First-launch onboarding]] — 3 screens, skippable, mirrors photo Culla's pattern. Eligible for a 4th screen now that up-swipe = Loved has shipped.
+- [[Ideas/artist-bio-from-musicbrainz-wikipedia|Artist bio from MusicBrainz + Wikipedia]] — adds an "About" section to the artist hub via chained MusicBrainz → Wikipedia lookups, with on-disk caching.
+- [[Ideas/artist-count-name-fallback|Name-based fallback for missing artist counts]] — name-based catalog lookup for the small subset of artists where MusicKit's `\.artists, contains:` filter returns 0.
 
 ## Known issues / next steps
 

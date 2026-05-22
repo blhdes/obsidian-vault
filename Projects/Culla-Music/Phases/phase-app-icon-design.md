@@ -50,9 +50,9 @@ What "iOS ecosystem" means in practice:
 
 ## Next steps
 
-- [ ] Pick a direction (gradient/mono/vinyl/letter-mark)
-- [ ] Generate 3–5 variants in Recraft
-- [ ] Decide on final palette (tie into Culla's existing color system?)
+- [x] Pick a direction (gradient/mono/vinyl/letter-mark)
+- [x] Generate 3–5 variants in Recraft
+- [x] Decide on final palette (tie into Culla's existing color system?)
 - [ ] Export at 1024×1024 + run through an iOS icon resizer for all required sizes
 - [ ] Drop into `Assets.xcassets/AppIcon.appiconset/`
 
