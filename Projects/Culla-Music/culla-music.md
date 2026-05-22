@@ -9,7 +9,9 @@ tags: [culla-music, ios, swiftui, musickit, active]
 Apple Music swipe-sorter. One song at a time — swipe right to add to a playlist, left to dismiss. A standalone SwiftUI app, built to eventually merge back into [[Projects/Culla/Culla|Culla]] as a feature once it reaches v1.
 
 **Repo:** https://github.com/blhdes/culla-music (private)  
-**Started:** 2026-05-03 | **Status (2026-05-16):** Phase 4 shipped — Dismissed-mode tooling (stale-dismissal resurfacing, age chip, long-press cleanup menu with per-playlist removal sheet + Forget dismissal + inline-snackbar undo). Followed by a four-step VM split that shrunk `MusicSwipeViewModel` from 1218 → 940 LOC (-23%) with no behavior change. On-device validation ongoing — see [[qa-dismissed-cleanup-menu|QA — Dismissed-mode cleanup menu]].
+**Started:** 2026-05-03 | **Status (2026-05-16):** Phase 4 shipped — Dismissed-mode tooling (stale-dismissal resurfacing, age chip, long-press cleanup menu with per-playlist removal sheet + Forget dismissal + inline-snackbar undo). Followed by a four-step VM split that shrunk `MusicSwipeViewModel` from 1218 → 940 LOC (-23%) with no behavior change.
+
+**QA:** All manual testing lives in a single tracker → [[qa-testing-tracker|QA Testing Tracker]].
 
 ---
 
