@@ -16,12 +16,13 @@ Home for everything related to learning to DJ on the **Serato Stems Live 4 (SC L
 | [[Tracklists/Tracklists\|Tracklists]] | Setlists, crates, prepared playlists, "songs I want to mix next" |
 | [[Tutorials/Tutorials\|Tutorials]] | Index of video tutorials I'm watching with my own notes/takeaways |
 | [[Genre-Studies/Genre-Studies\|Genre-Studies]] | Genre breakdowns, BPM/key cheatsheets, transition theory, history |
-| [[Skills/download-music-skill\|Skills]] | Claude Code skills I use for music workflows (download-music, etc.) |
+
+> Claude Code skills I use here (e.g. `/download-music`) live in [[../Claude/Skills/_index|Areas/Claude/Skills]] alongside all other Claude skills.
 
 ## Current setup
 
 - **Controller:** Serato Stems Live 4 (SC Live 4) — standalone-capable, no laptop required
-- **Library location:** `~/Music/Mixxx/` (filled by [[Skills/download-music-skill|/download-music]])
+- **Library location:** `~/Music/Library/` (filled by [[../Claude/Skills/download-music|/download-music]])
 - **Software:** Mixxx for library prep, Serato DJ Pro on the SC Live 4
 
 ## How to use this area
@@ -34,4 +35,5 @@ Home for everything related to learning to DJ on the **Serato Stems Live 4 (SC L
 
 ## Related
 
-- [[Skills/download-music-skill]] — one-command YouTube → tagged MP3 pipeline
+- [[../Claude/Skills/download-music|/download-music skill]] — one-command YouTube → tagged MP3 pipeline
+- [[../Claude/Skills/_index|All Claude skills]]

@@ -50,4 +50,4 @@ _None yet — add the first one._
 ## Related
 
 - [[../Mixing-DJing|Mixing & DJing index]]
-- [[../Skills/download-music-skill]] — for grabbing tracks
+- [[../../Claude/Skills/download-music|/download-music skill]] — for grabbing tracks
