@@ -45,7 +45,7 @@ tags: [tracklist, <genre>, <bpm-range>]
 
 ## Notes in this folder
 
-_None yet — add the first one._
+- [[may-2026|May 2026 Tracklist]] — first playlist, WIP toward 10–15 tracks
 
 ## Related
 
