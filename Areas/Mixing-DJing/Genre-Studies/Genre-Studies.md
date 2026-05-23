@@ -52,7 +52,7 @@ tags: [genre, <genre-slug>]
 
 ## Notes in this folder
 
-_None yet — add the first one._
+- [[ambient]] — beatless / drone / hauntology lineage from Eno to Burial
 
 ## Related
 
