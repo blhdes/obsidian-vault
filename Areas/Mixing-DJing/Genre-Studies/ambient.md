@@ -48,17 +48,17 @@ Useful mental model: ambient is a **mode**, not a strict genre. Most "ambient" a
 
 ## Subgenres (rough map)
 
-| Subgenre | Mood | Gateway artist |
-|---|---|---|
-| **Pure / "Eno-style" ambient** | Calm, suspended, often pretty | Brian Eno, Harold Budd |
-| **Dark ambient** | Cold, dread, cavernous | Lustmord, Thomas Köner |
-| **Drone** | One sustained sound-world, very long | Éliane Radigue, Stars of the Lid, Kali Malone |
-| **Ambient techno** | Beats present but submerged | Aphex Twin (*SAW*), Gas, Wolfgang Voigt |
-| **Ambient dub** | Echo, bass, reggae lineage | Pole, Rhythm & Sound, Basic Channel |
-| **Kankyō ongaku** | Japanese environmental music, often gentle, pastoral | Hiroshi Yoshimura, Midori Takada |
-| **Isolationism** | Bleak, post-industrial | Coil, Final, the *Isolationism* comp |
-| **Hauntology** | Decayed memory, faux-nostalgia | Burial, Boards of Canada, The Caretaker |
-| **Lowercase / EAI** | Extreme quiet, tiny sounds | Bernhard Günter, Steve Roden |
+| Subgenre                       | Mood                                                 | Gateway artist                                |
+| ------------------------------ | ---------------------------------------------------- | --------------------------------------------- |
+| **Pure / "Eno-style" ambient** | Calm, suspended, often pretty                        | Brian Eno, Harold Budd                        |
+| **Dark ambient**               | Cold, dread, cavernous                               | Lustmord, Thomas Köner                        |
+| **Drone**                      | One sustained sound-world, very long                 | Éliane Radigue, Stars of the Lid, Kali Malone |
+| **Ambient techno**             | Beats present but submerged                          | Aphex Twin (*SAW*), Gas, Wolfgang Voigt       |
+| **Ambient dub**                | Echo, bass, reggae lineage                           | Pole, Rhythm & Sound, Basic Channel           |
+| **Kankyō ongaku**              | Japanese environmental music, often gentle, pastoral | Hiroshi Yoshimura, Midori Takada              |
+| **Isolationism**               | Bleak, post-industrial                               | Coil, Final, the *Isolationism* comp          |
+| **Hauntology**                 | Decayed memory, faux-nostalgia                       | Burial, Boards of Canada, The Caretaker       |
+| **Lowercase / EAI**            | Extreme quiet, tiny sounds                           | Bernhard Günter, Steve Roden                  |
 
 These bleed into each other constantly. Don't memorize — the categories are just listening shortcuts.
 
