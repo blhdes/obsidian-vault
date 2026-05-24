@@ -18,7 +18,7 @@ Relentless, looping Chicago drum-machine workout. The kind of track that proves 
 ## Why it grabs
 - Pure **groove-as-architecture** — no melody, no harmonic arc, just drum machines and chant samples locked into a tight loop.
 - The track *lives* on tension you don't realize is there until a layer drops out or a filter opens. Classic Chicago trick.
-- Title is almost certainly a nod to **Steve McQueen** (the actor) — fits the era's habit of name-dropping cool pop-culture figures in ghetto-house track titles.
+- Title most likely nods to **Alexander McQueen** (the fashion designer), not Steve McQueen. The album is called *Traks Couture* — "couture" is fashion-world language, and in **1996** Alexander McQueen was *the* name in fashion: Highland Rape collection had just landed (1995), and he was appointed creative director of **Givenchy in October 1996**, the same year as this album. To confirm: check whether other track titles on the LP also reference designers (Versace, Gaultier, Chanel, etc.).
 
 ## Style & technical notes
 - **BPM:** roughly 135–140 (typical for DJ Rush's 90s ghetto/hard house).
@@ -33,7 +33,7 @@ Relentless, looping Chicago drum-machine workout. The kind of track that proves 
 - The line from this 1996 sound to his later 150-BPM Berlin output is direct: same skeletal philosophy (drums + chant + relentlessness), just sped up and harder.
 
 ## To explore next
-- [ ] Rest of the *Traks Couture* LP — does the whole album hit at this level?
+- [ ] Rest of the *Traks Couture* LP — does the whole album hit at this level? (Also: check if other track titles are designer names — would confirm the Alexander McQueen reading.)
 - [ ] Other Pro-Jex catalog (Robert Armani, Armando, DJ Skull).
 - [ ] **Dance Mania** label deep-dive (start: DJ Funk — *Booty House Anthems*, DJ Deeon — *The Freak*).
 - [ ] DJ Rush's Berlin-era hard techno (e.g. *Knee Deep In Da Hoe*, his Pounding Grooves output) — compare against this 1996 sound to hear the evolution.
