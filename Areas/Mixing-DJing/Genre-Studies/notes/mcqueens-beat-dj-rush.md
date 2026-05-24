@@ -39,6 +39,9 @@ Relentless, looping Chicago drum-machine workout. The kind of track that proves 
 - [ ] DJ Rush's Berlin-era hard techno (e.g. *Knee Deep In Da Hoe*, his Pounding Grooves output) — compare against this 1996 sound to hear the evolution.
 - [ ] Consider a full **ghetto house** sub-genre note in `Genre-Studies/` if this rabbit hole keeps going.
 
+## References
+- Discogs — *DJ Rush — Traks Couture* (master release): https://www.discogs.com/es/master/1653077-DJ-Rush-Traks-Couture
+
 ## Related
 - [[../Genre-Studies|Genre Studies index]]
 - [[notes|Notes index]]
