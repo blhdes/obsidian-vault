@@ -53,6 +53,7 @@ tags: [genre, <genre-slug>]
 ## Notes in this folder
 
 - [[ambient]] — beatless / drone / hauntology lineage from Eno to Burial
+- [[notes/notes|notes/]] — small slices on individual tracks, artists, and labels (max 500 lines each)
 
 ## Related
 

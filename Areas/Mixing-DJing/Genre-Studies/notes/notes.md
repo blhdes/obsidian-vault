@@ -1,0 +1,24 @@
+---
+title: Notes
+date: 2026-05-24
+tags: [dj, notes, scratchpad, reference]
+---
+
+# Notes
+
+Small slices of info about specific tracks, artists, or labels worth remembering as I dig into genres. Each note is a seed — something to come back to and expand later.
+
+## Rules
+
+- **Max 500 lines per note.** If a topic outgrows that, promote it into its own full study (e.g. a sub-genre note inside `Genre-Studies/`, or an artist page).
+- **One thing per note.** A track, an artist, or a label — not all three.
+- **Always include why it grabbed me.** That's the whole point of writing the note down.
+- Filenames: **track-first**, kebab-case, optional `-artist` suffix. e.g. `mcqueens-beat-dj-rush.md`.
+
+## Notes in this folder
+
+- [[mcqueens-beat-dj-rush]] — relentless Chicago ghetto/hard house from *Traks Couture* (1996)
+
+## Related
+
+- [[../Genre-Studies|Genre Studies index]]
