@@ -9,7 +9,7 @@ tags: [culla-music, ios, swiftui, musickit, active]
 Apple Music swipe-sorter. One song at a time — swipe right to add to a playlist, left to dismiss. A standalone SwiftUI app, built to eventually merge back into [[Projects/Culla/Culla|Culla]] as a feature once it reaches v1.
 
 **Repo:** https://github.com/blhdes/culla-music (private)  
-**Started:** 2026-05-03 | **Status (2026-05-16):** Phase 4 shipped — Dismissed-mode tooling (stale-dismissal resurfacing, age chip, long-press cleanup menu with per-playlist removal sheet + Forget dismissal + inline-snackbar undo). Followed by a four-step VM split that shrunk `MusicSwipeViewModel` from 1218 → 940 LOC (-23%) with no behavior change.
+**Started:** 2026-05-03 | **Status (2026-05-25):** Phase 5 shipped — a **design-language** phase: a Liquid Glass vocabulary rolled out app-wide, then a deliberate **restraint pass** back toward minimalism (scoped accent to critical surfaces, calm Settings tier, neutral cover shadows, flush artist hub). A new **artist hub** surface landed and was redesigned twice (badges → "About" bio → flush layout). → [[Phases/phase-05-liquid-glass-and-restraint|Phase 5]].
 
 **QA:** All manual testing lives in a single tracker → [[qa-testing-tracker|QA Testing Tracker]].
 
@@ -136,6 +136,7 @@ Up/down gestures, autoplay, favorites, share, stats, paywall, duplicate scanning
   - "Smart Favorites" hidden + Sort From opened to read-only sources (`bbca8a8`).
 - **Phase 4** — [[Phases/phase-04-dismissed-mode-tooling|Dismissed Mode Tooling]]. Resurface stale dismissals in Unsorted (`2414cda`), rework Dismissed gestures + dismissed-age chip (`d48a75f`), long-press cleanup menu (`9a3d607`), per-playlist removal sheet + Forget dismissal + inline-snackbar undo (`fb9d6f1`). 2026-05-14 → 2026-05-15.
 - **Post-Phase-4 cleanup** (2026-05-16) — `MusicSwipeViewModel` split into four `@Observable` / `@MainActor` coordinators, 1218 → 940 LOC (-23%), no behavior change. Order: UndoCoordinator (`83936d9`, owns `SwipeAction` + `PlaylistRemovalSnapshot` + action stack), MembershipIndex (`f3c326d`, per-song dict + memoized playlist cache; `playlistsProvider` wired post-init), LovedPlaylistResolver (`c4b888f`, resolve-or-create + read-only self-heal; shrinks the `loveCurrent` catch from 18 → 7 lines), DismissedDateStore (`d47ba64`, dismissedDates map + 3 SwiftData helpers + 30-day resurface constant). Also: silenced `[hotpreview]` flow-trace prints (`4b849c8`) — catch-block error prints kept.
+- **Phase 5** — [[Phases/phase-05-liquid-glass-and-restraint|Liquid Glass & the Restraint Pass]]. A design-language phase. Glass vocabulary rollout (`glassSurface` helper + `GlassPanel`; HomeView `7932595`, Settings/sheets `b366dda`), Home art carousel + scrub deck + hero morph (`ac61938`, `8ba54b4`), then a **restraint pass** back to minimalism — accent scoped to critical surfaces (`f60704d`), Settings quieted to a calm tier (`50513e3`), accent halos restrained to the CTA + selection borders (`901aefc`). New **artist hub** surface (`3577d6e`) with official Google/Apple Music badges, "About" bio (`74bdfe7`), and a flush redesign + always-on AM link (`3d3d507`). Brand logo wordmark (`93c0698`) + app icon (`28c1875`). 2026-05-18 → 2026-05-25. Parallel feature/perf work (source picker, artist-scoped sessions) tracked separately.
 
 ## Ideas
 
@@ -147,12 +148,13 @@ Up/down gestures, autoplay, favorites, share, stats, paywall, duplicate scanning
 - ✅ [[Archive/Culla-Music/Ideas/dynamic-accent-from-artwork|Dynamic accent color from artwork]] — post-Phase-3 polish, 2026-05-12. Shipped as a 2-color gradient.
 - ✅ [[Archive/Culla-Music/Ideas/up-swipe-heart-loved|Up-swipe = Heart / Loved]] — post-Phase-3 polish, 2026-05-13.
 - ✅ [[Archive/Culla-Music/Ideas/sort-songs-from-this-artist|Sort songs from this artist]] — shipped 2026-05-19 via `00b7e2b feat: scope swipe sessions by library artist`. Surfaced through the source picker's Artists tab rather than the artist hub.
+- ✅ [[Archive/Culla-Music/Ideas/artist-bio-from-musicbrainz-wikipedia|Artist bio from MusicBrainz + Wikipedia]] — shipped 2026-05-25 via `74bdfe7`; "About" card in the artist hub (chained MusicBrainz → Wikipedia + disk cache). [[Phases/phase-05-liquid-glass-and-restraint|Phase 5]].
 
 **Still open:**
 - [[Ideas/stats-activity-view|Stats / activity view]] — local-only Charts dashboard (sorts per day, top playlists, streak).
 - [[Ideas/smart-playlist-suggestion|Smart playlist suggestion chip]] — uses the membership index to hint a likely target.
 - [[Ideas/onboarding-flow|First-launch onboarding]] — 3 screens, skippable, mirrors photo Culla's pattern. Eligible for a 4th screen now that up-swipe = Loved has shipped.
-- [[Ideas/artist-bio-from-musicbrainz-wikipedia|Artist bio from MusicBrainz + Wikipedia]] — adds an "About" section to the artist hub via chained MusicBrainz → Wikipedia lookups, with on-disk caching.
+- [[Ideas/album-about-editorial-notes|Album "About" from Apple editorial notes]] — sibling to the shipped artist bio, but uses MusicKit `Album.editorialNotes` (no Wikipedia, no disambiguation). Needs an album surface — MVP is a "From the album X" card on the hub.
 - [[Ideas/artist-count-name-fallback|Name-based fallback for missing artist counts]] — name-based catalog lookup for the small subset of artists where MusicKit's `\.artists, contains:` filter returns 0.
 
 ## Known issues / next steps

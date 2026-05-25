@@ -1,10 +1,13 @@
 ---
 title: Artist bio from MusicBrainz + Wikipedia
 date: 2026-05-18
-tags: [culla-music, idea, feature, artist, api, discovery]
+tags: [culla-music, idea, feature, artist, api, discovery, shipped]
+status: shipped 2026-05-25
 ---
 
 # Artist bio from MusicBrainz + Wikipedia
+
+> **✅ Shipped 2026-05-25** via `74bdfe7 feat: artist "About" bio from Wikipedia + MusicBrainz`. Built largely as the recommended chained path below. The "About" card renders in `ArtistDetailSheet` with its own loading / empty / failed states (empty hides silently), a 4-line clamp → tap-to-expand → tap-again-opens-Wikipedia flow, and on-disk caching via `ArtistBioCache`. The flush redesign of the hub followed in `3d3d507`. Sibling **album** "About" idea spun off → [[album-about-editorial-notes]] (uses MusicKit `editorialNotes`, not Wikipedia). See [[Projects/Culla-Music/Phases/phase-05-liquid-glass-and-restraint|Phase 5]].
 
 Add a "About" section to the artist hub. MusicKit's `Artist` resource does **not** expose a bio field, so this needs an external data source. Both candidate APIs are free.
 
