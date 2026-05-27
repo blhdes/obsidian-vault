@@ -35,5 +35,6 @@ Home for everything related to learning to DJ on the **Serato Stems Live 4 (SC L
 
 ## Related
 
+- [[../Music-Production/Music-Production|Music Production]] — the sister passion; learning to *make* tracks in Ableton, not just mix them
 - [[../Claude/Skills/download-music|/download-music skill]] — one-command YouTube → tagged MP3 pipeline
 - [[../Claude/Skills/_index|All Claude skills]]
