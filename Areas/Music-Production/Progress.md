@@ -17,6 +17,29 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 ---
 
+## Session 4 — 2026-05-28
+
+**Topic:** Capture notes into a **MIDI clip** so a loop plays on its own — both by drawing in the piano roll and by recording live.
+
+**Covered:**
+- [[Ableton/making-a-midi-clip|Making a MIDI Clip]] — what a MIDI clip is, quick theory of beats/bars/BPM, creating an empty clip (double-click), MIDI Editor anatomy (loop brace, piano roll, grid), Pencil tool (`B`), drawing the classic **four-on-the-floor + backbeat** pattern, recording instead of drawing, **quantize** (`Cmd+U`).
+
+**Key takeaways:**
+- A **MIDI clip** = a container of notes on a MIDI track; loops on its own once you press play.
+- **Double-click an empty cell** on a MIDI track → creates an empty 1-bar MIDI clip + opens the MIDI Editor at the bottom.
+- Anatomy: **piano keyboard left** (pitch), **horizontal grid** (time), **loop brace top** (what loops).
+- **`B`** = Pencil tool (draw/delete notes). **`Shift+Tab`** = toggle between Device chain and Clip view.
+- Tiny theory: **120 BPM default**, **4 beats per bar** (4/4), 1 bar at 120 BPM = 2 seconds.
+- **Four-on-the-floor** = kick on every beat; **backbeat** = snare on 2 & 4; **hi-hats** on every 1/8.
+- **Recording:** arm track → Computer MIDI Kb on → click record on empty clip → play.
+- **Quantize:** `Cmd+A` then `Cmd+U` to snap notes to the grid.
+
+**Where we left off:** Can create a MIDI clip and either draw or record a 1-bar pattern that loops on its own.
+
+**Next:** Session 5 — add a **second MIDI clip** (probably a bassline on a different MIDI track with a synth), play it alongside the drums, and learn how scenes let multiple clips run together. After that we can start bringing loops into **Arrangement View** to shape a track.
+
+---
+
 ## Session 3 — 2026-05-28
 
 **Topic:** Load a software instrument on a MIDI track and play it with the computer (QWERTY) keyboard.

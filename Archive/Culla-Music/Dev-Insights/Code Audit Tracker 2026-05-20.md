@@ -95,18 +95,20 @@ Why this baseline: the four VM extractions (`UndoCoordinator`, `MembershipIndex`
 - **Hero morph transition** — `matchedGeometryEffect` ownership across `Home → Root → Swipe → SongCard`. Risk: namespace mismatch, lingering layers on cancel.
 - **App icon assets** — verify the iOS 19 icon manifest still references all three variants after the dark/tinted vinyl fix.
 
-## Status
+## Status — CLOSED ✅
+
+Audit complete (2026-05-20), **archived 2026-05-28**. All severity-tagged findings resolved; see [[Code Audit Findings 2026-05-20]] for the per-finding fixes (B1–B4, M1–M7, P1–P3 across 11 commits, P4 audited-and-skipped). Refactors R1–R6 were logged as a non-blocking backlog and are **not** part of this closed audit.
 
 - [x] Window defined
 - [x] Themes grouped
 - [x] File surfaces enumerated
 - [x] Tracker saved to vault
-- [ ] Audit pass on `SourceScopePickerSheet`
-- [ ] Audit pass on `ArtistDetailSheet`
-- [ ] Audit pass on `HomeView` count flows
-- [ ] Audit pass on `MusicLibraryService` pagination + scope
-- [ ] Audit pass on hero morph transition
-- [ ] Findings rolled up into a Dev-Insights summary
+- [x] Audit pass on `SourceScopePickerSheet` → P1, R1
+- [x] Audit pass on `ArtistDetailSheet` → M6
+- [x] Audit pass on `HomeView` count flows → B2, M2, P2
+- [x] Audit pass on `MusicLibraryService` pagination + scope → B1, M1, M5, M7, P4
+- [x] Audit pass on hero morph transition → covered in QA tracker, no code finding
+- [x] Findings rolled up into [[Code Audit Findings 2026-05-20]]
 
 ## Related
 
