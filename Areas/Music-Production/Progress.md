@@ -17,6 +17,28 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 ---
 
+## Session 7 — 2026-05-29
+
+**Topic:** Move into **Arrangement View** — record the Session performance onto a real timeline, edit clips, and play back the track.
+
+**Covered:**
+- [[Ableton/arrangement-view-basics|Arrangement View Basics]] — `Tab` to switch, Arrangement anatomy (timeline ruler, horizontal tracks, clip blocks, playhead, loop brace), the **Session-to-Arrangement record workflow** (Global Record + scene launch), basic editing (move/trim/duplicate `Cmd+D` / split `Cmd+E` / delete), the **Loop region** for working on a section, **Locators** (named timeline markers), and the yellow "back to Arrangement" override icon.
+
+**Key takeaways:**
+- **Arrangement View = the song timeline.** Same tracks, now stacked horizontally; clips are blocks positioned in time.
+- **Capture flow:** Stop everything → hit **Global Record** (red circle in Transport) → launch a Session scene → perform → Stop → `Tab` to Arrangement = your performance is now on the timeline.
+- **Launch Quantization still applies during recording** — scene jumps land on bars.
+- **Editing:** drag body = move, drag edge = trim, `Cmd+D` = duplicate, `Cmd+E` = split at playhead, `Delete` = delete.
+- **Loop region** (bracket above ruler) + loop toggle in Transport = focus playback on a section.
+- **Locators** = named markers (Intro, Drop, Break) — click name to jump.
+- If Session takes over a track during Arrangement playback, the **yellow icon** at the top returns control to Arrangement.
+
+**Where we left off:** First real song timeline captured — performed Intro/Drop/Break into Arrangement and can play it back.
+
+**Next:** Session 8 — basics of **mixing** (track volume balance, panning, mute/solo) + first taste of **effects** (reverb / delay on a track), then **exporting** the track to a WAV/MP3 file you can share or DJ with.
+
+---
+
 ## Session 6 — 2026-05-29
 
 **Topic:** Use **multiple scenes** as **song sections** (Intro / Drop / Break) and jump between them as a live mini-arrangement.

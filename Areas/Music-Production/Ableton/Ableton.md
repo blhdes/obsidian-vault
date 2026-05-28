@@ -24,3 +24,4 @@ Each distinct topic gets its own kebab-case note (e.g. `session-vs-arrangement-v
 - [[making-a-midi-clip|Making a MIDI Clip]] — create an empty MIDI clip, the piano roll, drawing notes with the Pencil tool, the four-on-the-floor + backbeat pattern, recording, and quantize
 - [[scenes-and-layering|Scenes and Layering Clips]] — add a second MIDI track, draw a bassline, and use scenes to launch multiple clips together
 - [[multiple-scenes-and-song-sections|Multiple Scenes & Song Sections]] — build multiple scenes as Intro/Drop/Break, duplicate clips across scenes, the empty-cell stop rule, and Launch Quantization for clean jumps
+- [[arrangement-view-basics|Arrangement View Basics]] — cross into the timeline, record a Session performance into Arrangement, edit clips, loop a region, and use locators as song markers
