@@ -17,6 +17,26 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 ---
 
+## Session 5 — 2026-05-28
+
+**Topic:** Layer a **second clip** (bassline) on a second MIDI track, and use **scenes** to launch multiple clips in sync.
+
+**Covered:**
+- [[Ableton/scenes-and-layering|Scenes and Layering Clips]] — adding a new MIDI track (`Cmd+Shift+T`), loading a bass preset, placing the bass clip on the **same scene** as the drums, drawing a 1-note-per-beat bassline on **C2** with **sustained quarter-note length** (drag the right edge of notes), and using **scene launch buttons** (right of Master) to play all clips in a row simultaneously.
+
+**Key takeaways:**
+- **Each row = a scene**. The scene launch button (right of Master) plays **every clip in that row at once, in sync**.
+- New MIDI track: **`Cmd+Shift+T`** (Mac) or **Create → Insert MIDI Track**.
+- Bass placement: usually around **C2** — adjust to taste (not muddy, not weak).
+- **Default pencil draws 1/16 notes.** For sustained sounds (bass, pad), **drag horizontally** while clicking or drag the right edge after to lengthen.
+- Scenes can be **renamed** (right-click → Rename) — useful as song-section labels (`Intro`, `Drop`, etc.).
+
+**Where we left off:** Two clips on one scene playing together — first layered groove (drums + bass).
+
+**Next:** Session 6 — build **multiple scenes** (different clip combinations = song sections like Intro / Drop / Break), so we can jump between them and start thinking in song structure. After that, move into Arrangement View to commit a real track timeline.
+
+---
+
 ## Session 4 — 2026-05-28
 
 **Topic:** Capture notes into a **MIDI clip** so a loop plays on its own — both by drawing in the piano roll and by recording live.
