@@ -9,7 +9,7 @@ tags: [culla-music, ios, swiftui, musickit, active]
 Apple Music swipe-sorter. One song at a time — swipe right to add to a playlist, left to dismiss. A standalone SwiftUI app, built to eventually merge back into [[Projects/Culla/Culla|Culla]] as a feature once it reaches v1.
 
 **Repo:** https://github.com/blhdes/culla-music (private)  
-**Started:** 2026-05-03 | **Status (2026-05-25):** Phase 5 shipped — a **design-language** phase: a Liquid Glass vocabulary rolled out app-wide, then a deliberate **restraint pass** back toward minimalism (scoped accent to critical surfaces, calm Settings tier, neutral cover shadows, flush artist hub). A new **artist hub** surface landed and was redesigned twice (badges → "About" bio → flush layout). → [[Phases/phase-05-liquid-glass-and-restraint|Phase 5]].
+**Started:** 2026-05-03 | **Status (2026-05-28):** Phase 5 shipped — a **design-language** phase: a Liquid Glass vocabulary rolled out app-wide, then a deliberate **restraint pass** back toward minimalism (scoped accent to critical surfaces, calm Settings tier, neutral cover shadows, flush artist hub). A new **artist hub** surface landed and was redesigned twice (badges → "About" bio → flush layout). → [[Phases/phase-05-liquid-glass-and-restraint|Phase 5]]. Since then a **post-Phase-5 polish** pass (2026-05-26 → 28): a richer swipe card (album + year, accent-tinted chips), a scrubbable progress bar, a per-playlist **library queue filter**, read-only / "Move out" correctness fixes, and a batch of iOS 26 Liquid Glass / mesh / live-theme fixes.
 
 **QA:** All manual testing lives in a single tracker → [[qa-testing-tracker|QA Testing Tracker]].
 
@@ -38,44 +38,56 @@ Mirrors [[Projects/Culla/Culla|Culla]] 1:1 — same `@Observable` + SwiftData st
 CullaMusic/
 ├── CullaMusicApp.swift
 ├── Models/
-│   ├── Playlist.swift         — @Model, mirrors Gallery. isInSidebar + isEditable
-│   ├── SortedSong.swift       — @Model, FK → Playlist
-│   ├── DismissedSong.swift    — @Model, persists swipe-left decisions
-│   └── SwipeConfig.swift      — value type: ReviewMode + SortOrder, drives a session
+│   ├── Playlist.swift          — @Model, mirrors Gallery. isInSidebar + isEditable
+│   ├── SortedSong.swift        — @Model, FK → Playlist
+│   ├── DismissedSong.swift     — @Model, persists swipe-left decisions
+│   ├── SwipeConfig.swift       — value type: ReviewMode + SortOrder (+ library-artist/playlist scope)
+│   └── QueueFilterStore.swift  — @AppStorage set of playlist AM IDs hidden from .library sessions
+│                                  (lenient: hide a song only if ALL its playlists are filtered)
 ├── Services/
-│   └── MusicLibraryService.swift  — @Observable singleton. Auth, paged library
-│                                     fetch (asc/desc), playlist CRUD, ID resolver,
-│                                     editable-playlist song IDs, AM player
+│   ├── MusicLibraryService.swift  — @Observable singleton. Auth, paged library fetch,
+│   │                                 playlist CRUD, ID resolver, artist scoping/counts,
+│   │                                 AM player + hot-clip preview, deckExclusionSet
+│   ├── PlaylistTracksCache.swift   — cached per-playlist track IDs (membership chips + counts)
+│   ├── CarouselSongFeed.swift      — supplies covers for the Home art carousel
+│   ├── ArtistBioService.swift      — chained MusicBrainz → Wikipedia "About" lookup
+│   ├── ArtistBioCache.swift        — on-disk cache for resolved bios
+│   └── MusicBrainzClient.swift     — MusicBrainz id + disambiguation client
 ├── ViewModels/
-│   ├── MusicSwipeViewModel.swift  — deck queue (batch=50, refill@10), sidebar filter,
-│   │                                 playlist sync, session-scoped exclusion set,
-│   │                                 mode-specific load/dismiss/assign. Orchestrates
-│   │                                 the four coordinators below.
-│   ├── UndoCoordinator.swift      — owns SwipeAction, PlaylistRemovalSnapshot, and the
-│   │                                 actionHistory stack (record/popLast/remove/clear).
-│   ├── MembershipIndex.swift      — per-song membership dict + memoized playlist-
-│   │                                 resolution cache (reset/invalidateCache/add/
-│   │                                 remove/memberships/rebuild).
-│   ├── LovedPlaylistResolver.swift — @MainActor coordinator: eventual-consistency
-│   │                                 resolve-or-create flow, session-created tracker,
-│   │                                 read-only self-heal, upsert helper.
-│   └── DismissedDateStore.swift   — @Observable store of dismissedDates + SwiftData
-│                                     fetch helpers (loadAll/recentSongIDs/record(for:))
-│                                     + the 30-day resurface constant.
-└── Views/
-    ├── RootView.swift             — state machine: auth → HomeView → MusicSwipeView
-    ├── HomeView.swift             — entry point: 3 mode cards + sort picker + start.
-    │                                 HomeViewModel computes counts (cached daily for
-    │                                 unsorted via @AppStorage)
-    ├── MusicSwipeView.swift       — drag/snap/fly-off, sidebar reveal, Manage btn,
-    │                                 optional back chevron to return to Home
-    ├── SongCardView.swift         — AsyncImage artwork + play button overlay
-    ├── PlaylistSidebarView.swift  — neutral material panels, accent highlight on drop
-    ├── ManagePlaylistsSheet.swift — sidebar toggle per playlist + artwork covers,
-    │                                 read-only rows disabled with caption
-    ├── NewPlaylistSheet.swift     — TextField → create AM playlist + local row
-    ├── AuthGateView.swift         — MusicKit auth prompt + Settings deep-link fallback
-    └── EmptyStateView.swift       — "All caught up" + Refresh
+│   ├── MusicSwipeViewModel.swift  — deck queue (batch=50, refill@10), sidebar filter, playlist
+│   │                                 sync, session exclusion set; orchestrates the 4 below
+│   ├── UndoCoordinator.swift      — SwipeAction + PlaylistRemovalSnapshot + actionHistory stack
+│   ├── MembershipIndex.swift      — per-song membership dict + memoized resolution cache
+│   ├── LovedPlaylistResolver.swift — resolve-or-create Loved flow + read-only self-heal
+│   └── DismissedDateStore.swift   — dismissedDates + SwiftData helpers + 30-day resurface
+├── Views/
+│   ├── RootView.swift             — state machine: auth → HomeView → MusicSwipeView (hero morph)
+│   ├── HomeView.swift             — entry: mode cards + sort picker + source filter + start;
+│   │                                 HomeViewModel computes counts (daily @AppStorage cache)
+│   ├── HomeHeroArtStack / HomeArtCarouselView / CarouselIdentityStrip.swift
+│   │                                 — Home hero stack, drag-to-scrub peek carousel + labels
+│   ├── MusicSwipeView.swift       — drag/snap/fly-off, sidebar reveal, Manage btn, back chevron
+│   ├── SongCardView.swift         — ArtworkImage artwork + centred play/progress-ring ZStack
+│   │                                 (frame-pinned), album+year, accent-tinted chips
+│   ├── ProgressBarView.swift      — scrubbable progress bar with a playhead dot
+│   ├── PlaylistSidebarView.swift  — neutral material panels, accent highlight on drop
+│   ├── PlaylistMembershipChips.swift — "already in X" chips on the card
+│   ├── ArtistDetailSheet.swift    — artist hub: photo, genres, top songs, About bio, AM/Google links
+│   ├── SourceScopePickerSheet.swift — pick a source: Playlists / Artists tabs, search + sort
+│   ├── ManagePlaylistsSheet.swift — Sidebar / Filter segments: sidebar toggles + queue-filter toggles
+│   ├── RemoveFromPlaylistsSheet.swift — per-playlist removal + Forget dismissal
+│   ├── NewPlaylistSheet.swift     — TextField → create AM playlist + local row
+│   ├── SettingsView.swift         — calm utility tier: theme / accent / haptics / playback / author
+│   ├── AccentPalettePickerSheet / LovedPlaylistPickerSheet.swift — Settings sub-sheets
+│   ├── AuthGateView.swift         — MusicKit auth prompt + Settings deep-link fallback
+│   └── EmptyStateView.swift       — "All caught up" + Refresh
+└── Helpers/
+    ├── GlassPanel / GlassSurface / SettingsCard.swift — glass + calm-tier card primitives
+    ├── LivingMeshBackground / HomeAmbientBackground.swift — animated mesh + artwork-keyed glow
+    ├── AccentEnvironment / AccentExtractor / AccentPalette / Color+Contrast.swift — dynamic accent
+    ├── Transitions.swift          — hero-morph matchedGeometry plumbing
+    ├── GradientCapsuleButton / HeroIconTile / LinearLoader / CullaLogo.swift — UI bits
+    └── Haptics / SafariView / HTTP.swift — system glue
 ```
 
 ---
@@ -137,6 +149,14 @@ Up/down gestures, autoplay, favorites, share, stats, paywall, duplicate scanning
 - **Phase 4** — [[Phases/phase-04-dismissed-mode-tooling|Dismissed Mode Tooling]]. Resurface stale dismissals in Unsorted (`2414cda`), rework Dismissed gestures + dismissed-age chip (`d48a75f`), long-press cleanup menu (`9a3d607`), per-playlist removal sheet + Forget dismissal + inline-snackbar undo (`fb9d6f1`). 2026-05-14 → 2026-05-15.
 - **Post-Phase-4 cleanup** (2026-05-16) — `MusicSwipeViewModel` split into four `@Observable` / `@MainActor` coordinators, 1218 → 940 LOC (-23%), no behavior change. Order: UndoCoordinator (`83936d9`, owns `SwipeAction` + `PlaylistRemovalSnapshot` + action stack), MembershipIndex (`f3c326d`, per-song dict + memoized playlist cache; `playlistsProvider` wired post-init), LovedPlaylistResolver (`c4b888f`, resolve-or-create + read-only self-heal; shrinks the `loveCurrent` catch from 18 → 7 lines), DismissedDateStore (`d47ba64`, dismissedDates map + 3 SwiftData helpers + 30-day resurface constant). Also: silenced `[hotpreview]` flow-trace prints (`4b849c8`) — catch-block error prints kept.
 - **Phase 5** — [[Phases/phase-05-liquid-glass-and-restraint|Liquid Glass & the Restraint Pass]]. A design-language phase. Glass vocabulary rollout (`glassSurface` helper + `GlassPanel`; HomeView `7932595`, Settings/sheets `b366dda`), Home art carousel + scrub deck + hero morph (`ac61938`, `8ba54b4`), then a **restraint pass** back to minimalism — accent scoped to critical surfaces (`f60704d`), Settings quieted to a calm tier (`50513e3`), accent halos restrained to the CTA + selection borders (`901aefc`). New **artist hub** surface (`3577d6e`) with official Google/Apple Music badges, "About" bio (`74bdfe7`), and a flush redesign + always-on AM link (`3d3d507`). Brand logo wordmark (`93c0698`) + app icon (`28c1875`). 2026-05-18 → 2026-05-25. Parallel feature/perf work (source picker, artist-scoped sessions) tracked separately.
+- **Post-Phase-5 polish** (2026-05-26 → 2026-05-28):
+  - **Swipe card metadata** — optional album + release year on the card (`b131c1c`), long album labels wrap instead of truncating (`0210973`), playlist chips tinted with the song accent (`5fa1699`) and kept legible on dark album accents (`7d5e2c1`).
+  - **Player polish** — scrubbable progress bar with a playhead dot + pause/resume position (`5fe3ae3`); progress fill no longer retracts when the preview is paused (`b1c5861`); playback settings renamed to "Auto play" / "Hot Preview" (`c38449f`).
+  - **Play-button drift RESOLVED** (`d530f7c`, `92638aa`, `829eeaa`) — the centre play disc shared an *unsized* ZStack with the hot-preview ring; removing the ring on pause shrank the box and re-resolved the disc. Fix = pin the ZStack to 86×86. ~9 blind attempts failed; 3 cheap observations cracked it. → [[Dev-Insights/Swipe Play Button Drift On Pause RESOLVED 2026-05-27|drift write-up]].
+  - **Per-playlist library queue filter** (`3e9d841`) — new `QueueFilterStore`; a Filter segment in `ManagePlaylistsSheet` lets the user hide a playlist's songs from `.library` swipe sessions (lenient: hidden only when *every* playlist a song belongs to is filtered).
+  - **Read-only / "Move out" correctness** — recover playlists stuck read-only from the retired editability latch (`71840a4`; editability is re-derived each sync, never latched); gate "Move out" to app-created playlists, killing a false move + oversized toast (`0339162`); stop user playlists being mislabeled read-only with a zero count (`d54e551`).
+  - **Misc** — solid accent fill + contrast-aware text on the selected mode tile (`4c115c2`); artist sheet collapsed into one loading state then reveal (`de8ff5a`); scoped playlist/artist source now persists across Home ⇄ Swipe (`b7ab445`).
+  - **iOS 26 fixes** (2026-05-28) — Manage Playlists slab no longer renders transparent over the animated mesh (`c515bc8`, a compositor quirk → [[Dev-Insights/Liquid Glass Transparent Over Animated Mesh 2026-05-28|write-up]]); Settings sheet reacts to theme changes live (`9ee8c3b`); mesh side-middle points anchored at the screen edges (`3ce79c2`).
 
 ## Ideas
 
@@ -157,12 +177,25 @@ Up/down gestures, autoplay, favorites, share, stats, paywall, duplicate scanning
 - [[Ideas/album-about-editorial-notes|Album "About" from Apple editorial notes]] — sibling to the shipped artist bio, but uses MusicKit `Album.editorialNotes` (no Wikipedia, no disambiguation). Needs an album surface — MVP is a "From the album X" card on the hub.
 - [[Ideas/artist-count-name-fallback|Name-based fallback for missing artist counts]] — name-based catalog lookup for the small subset of artists where MusicKit's `\.artists, contains:` filter returns 0.
 
+## Dev-Insights
+
+Debugging write-ups kept as live reference (consult before touching the related code):
+
+- [[Dev-Insights/Liquid Glass Transparent Over Animated Mesh 2026-05-28|iOS 26 glass over animated mesh]] — `.glassSurface` over a 30 fps `MeshGradient` can render transparent; the bug is **invisible to screenshots/ReplayKit**. Use `.thinMaterial` for large surfaces over the living mesh.
+- [[Dev-Insights/Swipe Play Button Drift On Pause RESOLVED 2026-05-27|Play-button drift on pause]] — an unsized ZStack shared by the play disc + hot-preview ring; pin its frame.
+- [[Dev-Insights/Smart Favorites Playlist Detection 2026-05-14|Smart Favorites detection]] — system-managed playlists silently reject remote writes; detect + roll back.
+- [[Dev-Insights/MusicKit Catalog API Cert Setup 2026-05-11|MusicKit catalog API cert setup]] — the developer-token / cert path for catalog calls.
+- [[Dev-Insights/CullaMusic MusicKit Playback Regression 2026-05-07|MusicKit playback regression]] — `ApplicationMusicPlayer` vs `AVPlayer` for library tracks.
+
+*Closed work archived → [[Archive/Culla-Music/Dev-Insights/_index|Archived Dev-Insights]] (the 2026-05-20 code audit).*
+
 ## Known issues / next steps
 
 - Playlists created via `MusicLibrary.shared.createPlaylist(...)` get stamped with `curatorName = "CullaMusic"` (Apple's third-party-app attribution policy). Sidestepped via kind-based detection, but the "CullaMusic" label still shows up in Apple Music's UI as a created-via attribution. No public way to suppress.
 - `MusicLibraryRequest.offset` pagination: verify behavior on edge cases (libraries with < 100 songs, libraries > 10k).
-- Phase 2 still needs hands-on coverage: mode switching, dismissed-mode right-swipe (un-dismiss + sort), unsorted count cache invalidation, back chevron behaviour.
-- `MusicLibraryService.startClipPositionObserver` concurrency warning (see memory `project_avplayer_concurrency_warnings`) — small follow-up next time that file is touched.
+- **Hands-on QA gap** — [[qa-testing-tracker|QA Testing Tracker]] is the live source of truth, but its last logged pass is 2026-05-22. The post-Phase-5 polish (swipe-card metadata, scrubbable bar, queue filter, iOS 26 fixes; 2026-05-24 → 28) still wants an on-device pass logged.
+- `MusicLibraryService.startClipPositionObserver` concurrency warning (see memory `project_avplayer_concurrency_warnings`) — still present; small follow-up next time that file is touched.
+- **Refactor backlog R1–R6** (from the now-closed [[Archive/Culla-Music/Dev-Insights/Code Audit Findings 2026-05-20|code audit]]) — non-blocking: split `SourceScopePickerSheet`, decompose `HomeView.body`, extract `ArtistLibraryService` + `MusicPreviewPlayer` from `MusicLibraryService` (935 lines), `CountCache`, `ToastCoordinator`.
 - Eventually: merge into Culla as a tab or modal flow. Name collision audit done — all Culla Music types are uniquely prefixed.
 
 ---

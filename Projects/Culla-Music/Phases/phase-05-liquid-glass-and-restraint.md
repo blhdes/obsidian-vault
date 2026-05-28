@@ -96,6 +96,7 @@ Landed in the same window but feature/perf, not design language — not detailed
 ## Outstanding / next steps
 
 - **On-device polish** — flush artist-sheet layout and the bare-vs-filled footer pair want an eyeball on small phones (iPhone SE).
+- **Post-Phase-5 polish pass followed** (2026-05-26 → 28) — swipe-card metadata, scrubbable progress bar, the play-button-drift fix, a per-playlist queue filter, read-only/"Move out" fixes, and a batch of iOS 26 glass/mesh/theme fixes. Logged in the project index → [[Projects/Culla-Music/culla-music|Culla Music]] (Phases → *Post-Phase-5 polish*). Not a new design phase.
 - **`Phase 6`** — open. Candidates with a design angle: first-launch onboarding ([[Ideas/onboarding-flow]], eligible for the glass/restraint treatment), stats view ([[Ideas/stats-activity-view]]), album "About" ([[Ideas/album-about-editorial-notes]]).
 
 ---

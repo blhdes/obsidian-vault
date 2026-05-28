@@ -17,6 +17,7 @@ Ideas that have shipped. Source of truth for "what's in the app today" stays in 
 - [[dynamic-accent-from-artwork|Dynamic accent color from artwork]] — 2026-05-12 (shipped as a 2-color gradient).
 - [[up-swipe-heart-loved|Up-swipe = Heart / Loved]] — 2026-05-13.
 - [[sort-songs-from-this-artist|Sort songs from this artist]] — 2026-05-19 via `00b7e2b feat: scope swipe sessions by library artist`. Final shape diverged from the original sketch: surfaced through the source picker's Artists tab rather than a button inside the artist hub.
+- [[artist-bio-from-musicbrainz-wikipedia|Artist bio from MusicBrainz + Wikipedia]] — 2026-05-25 via `74bdfe7`. "About" card in the artist hub (chained MusicBrainz → Wikipedia + disk cache).
 
 ## Related
 
