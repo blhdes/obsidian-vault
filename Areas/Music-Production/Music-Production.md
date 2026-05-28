@@ -10,6 +10,8 @@ Home for learning to **produce electronic music** from absolute zero, in **Ablet
 
 This is a passion project, taken in **small steps and with a lot of humility**. No music theory background yet (just the basic notes), no fixed genre — we experiment with whatever feels interesting and build up to full tracks over time.
 
+> **Resuming after a break?** Read [[Progress|Progress Log]] first — it shows everything we've covered and where we left off.
+
 ## Subfolders
 
 | Folder | What lives here |

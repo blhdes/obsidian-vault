@@ -18,4 +18,4 @@ Each distinct topic gets its own kebab-case note (e.g. `session-vs-arrangement-v
 
 ## Notes
 
-_(none yet — first one will probably be a tour of the interface once Live is installed)_
+- [[session-vs-arrangement-view|Session View vs. Arrangement View]] — the two main ways to look at your project (the first concept to learn)
