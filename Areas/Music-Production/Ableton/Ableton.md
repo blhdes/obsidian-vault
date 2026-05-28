@@ -19,3 +19,5 @@ Each distinct topic gets its own kebab-case note (e.g. `session-vs-arrangement-v
 ## Notes
 
 - [[session-vs-arrangement-view|Session View vs. Arrangement View]] — the two main ways to look at your project (the first concept to learn)
+- [[session-view-anatomy|Session View Anatomy]] — the 5 parts of Session View, Audio vs. MIDI tracks, clips, scenes, and how to make your first sound
+- [[playing-an-instrument|Playing an Instrument]] — load a software instrument on a MIDI track and play it with the computer (QWERTY) keyboard
