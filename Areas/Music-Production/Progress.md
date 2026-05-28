@@ -17,6 +17,28 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 ---
 
+## Session 6 — 2026-05-29
+
+**Topic:** Use **multiple scenes** as **song sections** (Intro / Drop / Break) and jump between them as a live mini-arrangement.
+
+**Covered:**
+- [[Ableton/multiple-scenes-and-song-sections|Multiple Scenes & Song Sections]] — why a track has sections, creating scenes (`Cmd+I`), duplicating a scene to make a variation (right-click → Duplicate), copying a single clip with **Option-drag**, the **empty-cell rule** (empty cell in a scene = STOP for that track when scene is launched), a 3-scene Intro/Drop/Break example, and **Global Launch Quantization** (top of Transport, default `1 Bar`) that makes scene jumps land on the beat.
+
+**Key takeaways:**
+- **One scene = one song moment.** Multiple scenes = song sections you can jump between.
+- **New scene:** `Cmd+I` (or Create → Insert Scene).
+- **Duplicate scene** (fast variation): right-click scene name → Duplicate.
+- **Copy a single clip:** Option-drag (Mac) / Ctrl-drag (Win) to another cell.
+- **Empty cell in a launched scene = stop signal** for that track. If you want a clip to continue, duplicate it into the next scene.
+- **Launch Quantization (`1 Bar` default)** makes scene jumps wait for the next bar → clean musical transitions. Lives in the top Transport bar.
+- Always **rename scenes** with song-section labels (Intro, Drop, Break, Outro).
+
+**Where we left off:** Can perform a small live arrangement (Intro → Drop → Break) by jumping between scenes. Nothing recorded as a finished song yet.
+
+**Next:** Session 7 — move into **Arrangement View** to commit these scenes onto a real timeline (drag scenes into the timeline OR record a live performance of scene jumps), then learn the basics of the timeline (clips on tracks, locators, loop region).
+
+---
+
 ## Session 5 — 2026-05-28
 
 **Topic:** Layer a **second clip** (bassline) on a second MIDI track, and use **scenes** to launch multiple clips in sync.

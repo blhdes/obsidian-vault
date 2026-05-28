@@ -23,3 +23,4 @@ Each distinct topic gets its own kebab-case note (e.g. `session-vs-arrangement-v
 - [[playing-an-instrument|Playing an Instrument]] — load a software instrument on a MIDI track and play it with the computer (QWERTY) keyboard
 - [[making-a-midi-clip|Making a MIDI Clip]] — create an empty MIDI clip, the piano roll, drawing notes with the Pencil tool, the four-on-the-floor + backbeat pattern, recording, and quantize
 - [[scenes-and-layering|Scenes and Layering Clips]] — add a second MIDI track, draw a bassline, and use scenes to launch multiple clips together
+- [[multiple-scenes-and-song-sections|Multiple Scenes & Song Sections]] — build multiple scenes as Intro/Drop/Break, duplicate clips across scenes, the empty-cell stop rule, and Launch Quantization for clean jumps
