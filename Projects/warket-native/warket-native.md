@@ -29,11 +29,15 @@ Data model (3 tables): `lists`, `assets`, `vault_shares`. Types: `Resource`, `Va
 - Browse lists (grid), tap into a list.
 - Assets: view / add / edit — name, ticker, summary, markdown description, tags, resource links, custom image.
 - Drag-to-reorder (lists, assets, resources) via SwiftUI `.onMove`.
+- **Search + tag filtering** (confirmed in MVP) on both lists and assets screens.
+
+Full step-by-step build plan: [[Projects/warket-native/mvp-implementation-plan|MVP implementation plan]] (self-contained handoff doc with hash test vectors, backend reference, design tokens, file structure, milestones M0–M5).
 
 ⚠️ **Hash parity is the critical constraint:** normalization = lowercase → trim → collapse whitespace to single spaces → UTF-8 encode → SHA-256 → lowercase hex. Any drift means existing vaults won't open.
 
 ## Notes
 
+- [[Projects/warket-native/mvp-implementation-plan|MVP implementation plan]] — detailed step-by-step build plan.
 - [[Projects/warket-native/deferred-backlog|Deferred backlog]] — everything beyond the MVP.
 - Related learning: [[Resources/Swift/swift|Swift]]
 
@@ -41,7 +45,7 @@ Data model (3 tables): `lists`, `assets`, `vault_shares`. Types: `Resource`, `Va
 
 - [x] Audit existing Capacitor/web project
 - [x] Lock design / scope / target decisions
-- [ ] Plan the SwiftUI project structure
-- [ ] Scaffold Xcode project + add supabase-swift
-- [ ] Port crypto (CryptoKit) + verify hash parity
-- [ ] Build MVP screens
+- [x] Plan the SwiftUI project structure (see MVP plan)
+- [ ] Scaffold Xcode project + add supabase-swift (M0)
+- [ ] Port crypto (CryptoKit) + verify hash parity (M1)
+- [ ] Build MVP screens (M2–M5)
