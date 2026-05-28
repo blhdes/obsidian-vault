@@ -77,15 +77,21 @@ This is the **foundational electronic dance pattern** (house, techno, disco — 
 On a Drum Rack with your standard kit:
 
 ```
-Beat:    1   .   2   .   3   .   4   .
-Kick:    ●           ●           ●           ●
-Snare:               ●                       ●     (snare/clap on 2 and 4)
-Hi-Hat:  ●   ●   ●   ●   ●   ●   ●   ●           (every 1/8 note)
+         1 & 2 & 3 & 4 &
+Kick   : ● · ● · ● · ● ·
+Snare  : · · ● · · · ● ·
+Hi-Hat : ● ● ● ● ● ● ● ●
 ```
 
+**How to read it:**
+- Top row = the count. Musicians count a bar of 4/4 as **"one-and-two-and-three-and-four-and"** — numbers are the beats, `&` are the 1/8 notes in between.
+- `●` = a drum hit, `·` = silence.
+- Read each row left-to-right in time.
+
+What's happening:
 - **Kick** on every beat (1, 2, 3, 4) — the "four-on-the-floor"
 - **Snare/Clap** on beats 2 and 4 — the "backbeat"
-- **Hi-Hat** on every half-beat (eighth notes) — the constant tick
+- **Hi-Hat** on every 1/8 (every column) — the constant tick
 
 Find the kick/snare/hi-hat rows on the piano roll (they correspond to specific drum-rack pads — typically C1, D1, F#1) and place notes accordingly.
 
