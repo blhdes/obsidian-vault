@@ -1,13 +1,12 @@
 ---
 title: Sidebar v2 — port two-signal highlight from culla-music
 date: 2026-05-28
-tags: [culla, phase, sidebar, swiftui, deferred]
+tags: [culla, phase, sidebar, swiftui, done]
 ---
 
 # Sidebar v2 — port two-signal highlight from culla-music
 
-**Status:** Deferred. Audited 2026-05-28, ready to pick up later.
-**Why deferred:** Other v-next chores in flight; user wants to revisit after current branch ships.
+**Status:** ✅ Implemented 2026-05-28 on branch `v-next-chores`. `xcodebuild` green, no new warnings, net −101 lines. Visual acceptance criteria pending device screenshots.
 
 Origin: asked Claude to compare Culla's `GallerySidebarView` to culla-music's `PlaylistSidebarView` and propose what to port.
 
@@ -83,7 +82,9 @@ Targeted port. NOT a rewrite. The architecture (per-gallery `colorHex`, `isLongP
 
 No new files. No data-model changes. No new helpers. `isLongPress` parameter and behaviors stay intact.
 
-## Open questions (decide before implementing)
+## Open questions — RESOLVED 2026-05-28
+
+**Decisions:** (1) **Deleted** the arc enum + `GalleryArcView` (recoverable from `d6d443a`). (2) Per-row identity → **skipped**; text-only rows, the two-signal highlight carries it. (3) Reduce-motion → left the focal `isHighlighted` spring on. Original reasoning preserved below.
 
 1. **Delete the arc enum + `GalleryArcView`, or keep them dormant?** They carry a "restore in vNext" TODO, but if the arc shape has known SwiftUI clip-shape problems, it's speculative storage. Lean **delete** — easier to resurrect from git history than to debug stale dead branches. Related: see [[Projects/Culla/Ideas/c-arc-gallery-layout|c-arc-gallery-layout]] in Ideas.
 2. **Per-row identity element** — count badge (cheap: `gallery.sortedPhotos.count`), latest-photo thumb (expensive: async Photos fetch), or skip both? Current proposal skips both.
