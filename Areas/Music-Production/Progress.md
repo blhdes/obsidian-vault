@@ -21,7 +21,36 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % in [[Roadmap]].
 
-**Sketch in progress:** [[Track-Sketches/techno-sketch-01|Techno Sketch 01 — Foundation]] — 130 BPM, A minor, drum + bass foundation loop done.
+**Sketch in progress:** [[Track-Sketches/techno-sketch-01|Techno Sketch 01 — Foundation]] — 130 BPM, A minor. Drums + bass + acid lead skeleton done.
+
+---
+
+## Sketch — 2026-05-30 — Techno Sketch 01 (Acid Lead)
+
+**Topic:** Add the **acid lead** to the sketch. Two threads come together:
+- **Theory:** A minor's note vocabulary, and the **pentatonic / triad shortcut** for "notes that always sound right".
+- **Sound design:** **filter cutoff + resonance** — the two knobs that make a synth squelch like a Roland TB-303.
+
+**Covered:**
+- [[Theory-Basics/a-minor-pentatonic|A Minor and the Pentatonic Shortcut]] — what a key is, A minor's 7 notes, the 5-note pentatonic subset, the 3-note A minor triad
+- [[Techniques/acid-lead-sound|Acid Lead Sound (Filter + Resonance)]] — how low-pass filter + high resonance + filter envelope make the acid sound
+- [[Track-Sketches/techno-sketch-01|Techno Sketch 01]] — lead added; full drum + bass + lead loop now playing
+
+**Key takeaways:**
+- A **key** = a home note + a scale (a small vocabulary of notes that belong together).
+- **A minor's full scale = A B C D E F G** (all white keys, no sharps/flats — easiest minor key to think in).
+- **A minor pentatonic = A C D E G** — drops B and F (the two riskiest notes), giving you 5 notes that sound good in any combination.
+- **A minor triad = A C E** — the *safest* subset; any motif using only these three sounds resolved and minor.
+- A **filter** removes frequencies. A **low-pass filter** removes highs; the **cutoff** is the dividing line.
+- **Resonance** boosts the frequencies right at the cutoff — high resonance = the squelchy peak (the "acid" character).
+- A **filter envelope** = the cutoff automatically opens then closes on each note → the "wow" on every hit.
+- **Acid is always monophonic** — one note at a time. Set the synth's Voicing to **Mono**.
+- **Start from a preset.** Sound design from scratch is its own Path (2); for now, load an "acid" preset and tweak the cutoff + resonance.
+- Higher octaves for melodic content (A2/A3) keep the lead clearly above the bass (A1).
+
+**Where we left off:** Full skeleton loop playing in Session View — kick, clap, hats, bass, acid lead, all locked at 130 BPM in A minor. Same building blocks as a typical early-90s warehouse cut. No automation, no arrangement, no effects beyond preset defaults.
+
+**Next:** **Filter cutoff automation** — draw a slow filter sweep on the lead so it opens up and closes back down over multiple bars. This is the classic acid build-up move and introduces Live's automation system, which we'll use everywhere from here on.
 
 ---
 

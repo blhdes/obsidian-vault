@@ -18,4 +18,4 @@ Each concept gets its own short, example-driven note.
 
 ## Notes
 
-_(none yet)_
+- [[a-minor-pentatonic|A Minor and the Pentatonic Shortcut]] — what a key is, A minor's notes, and the 5-note (pentatonic) / 3-note (triad) cheats for "always sounds right"

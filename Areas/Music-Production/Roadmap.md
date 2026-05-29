@@ -25,16 +25,16 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 ## 🛤 The Six Paths
 
 ### Path 1 — 🎼 Theory Basics
-- **Status:** ⚪ Not started
-- **Progress:** 0%
+- **Status:** 🟡 Started
+- **Progress:** ~15% *(what a key is, A minor scale, pentatonic + triad shortcuts — see [[Theory-Basics/a-minor-pentatonic|note]])*
 - **Difficulty:** ★★☆☆☆
 - **Unlocks:** Writing real melodies; knowing why certain notes "work" together
 - **Topics:** notes, scales, keys, intervals, chord triads, common chord progressions
 - **First step:** [[Theory-Basics/Theory-Basics|Theory-Basics index]] → "what's a key?"
 
 ### Path 2 — 🎛 Sound Design
-- **Status:** ⚪ Not started
-- **Progress:** 0%
+- **Status:** 🟡 Started
+- **Progress:** ~10% *(low-pass filter, cutoff, resonance, filter envelope — applied to acid lead, see [[Techniques/acid-lead-sound|note]])*
 - **Difficulty:** ★★★☆☆
 - **Unlocks:** Designing your own signature sounds instead of grabbing presets
 - **Topics:** oscillators, filters, envelopes (ADSR), LFOs, subtractive vs. FM synthesis
@@ -66,7 +66,7 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 
 ### Path 6 — 🎨 Make a Real Track Sketch  ⭐ **ACTIVE**
 - **Status:** 🟢 In progress
-- **Progress:** ~20% *(project set up at 130 BPM / A minor; drum + bass foundation loop done — see [[Track-Sketches/techno-sketch-01|Techno Sketch 01]])*
+- **Progress:** ~35% *(skeleton loop done: kick + clap + hats + bass + acid lead at 130 BPM / A minor — see [[Track-Sketches/techno-sketch-01|Techno Sketch 01]])*
 - **Difficulty:** ★★★★☆ *(touches all other paths)*
 - **Goal:** A **1.5–2 minute original track**, in the spirit of **early-90s techno club**
 - **Reference vibe:** warehouse / club energy — driving four-on-the-floor, hypnotic bassline, sparse acid-y melodic stab, raw analog texture, hardly any modern polish

@@ -16,4 +16,4 @@ One note per sketch. Useful things to jot down:
 
 ## Sketches
 
-- [[techno-sketch-01|Techno Sketch 01 — Foundation]] — 130 BPM · A minor · early-90s techno club; drum + bass foundation loop done, melodic lead next
+- [[techno-sketch-01|Techno Sketch 01 — Foundation]] — 130 BPM · A minor · early-90s techno club; drums + bass + acid lead skeleton done, automation + arrangement next
