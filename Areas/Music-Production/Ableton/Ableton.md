@@ -25,3 +25,5 @@ Each distinct topic gets its own kebab-case note (e.g. `session-vs-arrangement-v
 - [[scenes-and-layering|Scenes and Layering Clips]] — add a second MIDI track, draw a bassline, and use scenes to launch multiple clips together
 - [[multiple-scenes-and-song-sections|Multiple Scenes & Song Sections]] — build multiple scenes as Intro/Drop/Break, duplicate clips across scenes, the empty-cell stop rule, and Launch Quantization for clean jumps
 - [[arrangement-view-basics|Arrangement View Basics]] — cross into the timeline, record a Session performance into Arrangement, edit clips, loop a region, and use locators as song markers
+- [[mixing-basics-and-effects|Mixing Basics & First Effects]] — the mixer strip (volume, pan, mute/solo, meters, headroom), Device chain, loading Reverb & Delay, Dry/Wet, mixing tips for drums + bass
+- [[exporting-your-track|Exporting Your Track]] — render the Arrangement to a WAV/MP3, set the export range, Render Tail for reverb, format choices (44.1 kHz / 16-bit for DJ), drop into Mixxx / SC Live 4

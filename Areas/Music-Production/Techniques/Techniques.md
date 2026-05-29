@@ -19,4 +19,4 @@ Each technique gets its own note (e.g. `four-on-the-floor-drums.md`). We learn o
 
 ## Notes
 
-_(none yet)_
+- [[open-vs-closed-hihat|Open vs Closed Hi-Hat]] — the two sounds, and why the offbeat open-hat pattern is the engine of techno/house

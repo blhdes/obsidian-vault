@@ -15,6 +15,88 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 - **DAW:** Ableton Live **Suite (30-day trial)** installed — trial ends **~2026-06-27**
 - **Hardware:** none yet (mouse + keyboard only)
 
+## 🎯 Active path
+
+**Path 6 — Make a Real Track Sketch** (early-90s techno club, 1.5–2 min). See [[Roadmap]] for all paths & progress %.
+
+Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % in [[Roadmap]].
+
+**Sketch in progress:** [[Track-Sketches/techno-sketch-01|Techno Sketch 01 — Foundation]] — 130 BPM, A minor, drum loop done.
+
+---
+
+## Sketch — 2026-05-29 — Techno Sketch 01 (Kickoff)
+
+**Topic:** Kick off the active track sketch. Set up the Live project for early-90s techno (130 BPM, A minor) and build the foundational drum loop with a 909-style Drum Rack. New technique introduced: **open vs closed hi-hat and the offbeat open-hat pattern** that drives techno (and house).
+
+**Covered:**
+- [[Track-Sketches/techno-sketch-01|Techno Sketch 01 — Foundation]] — the working sketch; stats, 1-bar pattern, devices, current status
+- [[Techniques/open-vs-closed-hihat|Open vs Closed Hi-Hat]] — the two sounds, why offbeat opens give techno its forward pull
+
+**Key takeaways:**
+- **Techno BPM** typically sits at **125–135**; we picked **130** (squarely "club" tempo).
+- **A minor** is a friendly default key for techno — minor scale = darker/hypnotic, A minor has no sharps/flats so it's easy to think in.
+- **Set tempo first**, before anything else: top-left of Transport, click the number, type 130.
+- Drum Rack pad → MIDI note mapping is fixed: **Kick C1**, **Clap D#1**, **Closed Hat F#1**, **Open Hat A#1**.
+- **Closed hat = short tick**, **open hat = long sizzle**. A closed hat *cuts off* a ringing open hat (same physical cymbals).
+- The **offbeat open-hat pattern** (open hat on every "&") is what makes a four-on-the-floor loop feel like it's *moving forward* instead of stamping in place.
+- Same trick works for **house**; **trap/hip-hop** uses opens more decoratively.
+
+**Where we left off:** 1-bar drum loop (kick + clap + closed + open hat) is playing in Session View at 130 BPM. No bass yet, no melody, no arrangement. Project saved as `techno-sketch-01.als`.
+
+**Next:** Add the **bassline** — a rolling 1/16-note pattern in A minor, sitting around A1, deliberately *avoiding* the kick downbeats so kick and bass interlock (this is also the setup for sidechain ducking down the line). New concepts: choosing a bass synth preset for techno, rhythmic interlock with the kick.
+
+---
+
+## Session 9 — 2026-05-29
+
+**Topic:** **Export** the finished track as a WAV/MP3 audio file to use in Mixxx, on the SC Live 4, or share online.
+
+**Covered:**
+- [[Ableton/exporting-your-track|Exporting Your Track]] — setting the **render range** (selection on timeline ruler vs. full arrangement default), **`Cmd+Shift+R`** to open Export Audio/Video, **Render Tail** (2–4s for reverb/delay), file formats (**WAV** for DJ/archive, **MP3 320 kbps** for sharing), **44.1 kHz sample rate**, **16-bit** for DJ use / **24-bit** for archive, why to leave **Normalize OFF**, naming + saving, and dropping the file into Mixxx or onto USB for the SC Live 4.
+
+**Key takeaways:**
+- Export = render whatever's on the **Arrangement timeline** through the **Master** to a single audio file.
+- Define range first: **drag on the timeline ruler** for a specific section, or **deselect** for full arrangement. Verify in dialog (Render Start / Length).
+- **Always set Render Tail to 2–4 sec** if reverb/delay is used — otherwise tails get cut off.
+- **WAV 44.1 kHz / 16-bit** = universal DJ-ready default. **24-bit** for archive.
+- Tick **both WAV and MP3** to render both at once — Live handles it in one pass.
+- **Normalize OFF** — trust your mix. Real loudness comes from mastering (limiter on Master), a later topic.
+- Filename in **kebab-case** (e.g. `first-beat-2026-05-29.wav`) plays nicely with DJ software libraries.
+
+**Where we left off:** Full end-to-end first-track workflow complete: scene → arrangement → mix → effects → export → DJ-ready file. 🎉
+
+**Next:** With the basic loop closed, the path forks. Possible next threads (user picks):
+- **Theory-Basics:** notes/scales/keys/chords — unlocks melody writing
+- **Sound design:** how synths/drums actually make sound (oscillators, filters, envelopes)
+- **Deeper mixing:** EQ, compression, sidechain ducking, automation, basic mastering
+- **Sampling:** chopping audio with Simpler/Sampler
+- **Drum-pattern depth:** variations, fills, swing/groove
+- **First real track-sketch:** apply everything to make a fuller original piece in [[../Track-Sketches/Track-Sketches]]
+
+---
+
+## Session 8 — 2026-05-29
+
+**Topic:** **Mixing basics** (volume, pan, mute/solo, meters, headroom) + **first effects** (Reverb, Delay) via the Device chain.
+
+**Covered:**
+- [[Ableton/mixing-basics-and-effects|Mixing Basics & First Effects]] — the mixer strip (volume fader, pan knob, mute/solo, meters), reading **dB** levels and avoiding **clipping** (red = bad), **headroom** targets (tracks −12 to −6 dB, Master −6 to −3 dB), panning rules of thumb (kick/bass center, hats can drift), Mute (`M`) / Solo (`S`), the **Device chain** at the bottom and left-to-right signal flow, **MIDI vs Audio effects**, loading from Browser → Audio Effects → preset, **Reverb** (Dry/Wet, "space" — avoid on kick/bass), **Delay** (Ping Pong, BPM-synced 1/4 or 1/8), reorder by drag, bypass with device on/off LED.
+
+**Key takeaways:**
+- Mix targets: individual tracks peak **−12 to −6 dB**, Master **−6 to −3 dB**, never red on Master.
+- **Kick & bass always centered.** Width comes from hats / percussion / pads, gently.
+- **Mute (`M`)** and **Solo (`S`)** are your A/B tools — non-destructive.
+- The **Device chain** (bottom panel) shows everything loaded on the selected track; effects flow left → right after the instrument.
+- **Always start with presets** when adding an effect — way faster than building from scratch.
+- **Reverb Dry/Wet** sweet spot for most things: 15–35%. Keep it OFF kick & bass.
+- **Delay** sync to 1/4 or 1/8 to lock with the BPM; Ping Pong = bounces L/R.
+- Bypass via the small LED at top-left of any device for instant A/B.
+
+**Where we left off:** Track is mixed (balanced volumes, sensible pans, small reverb on drums) — ready to be exported as an audio file.
+
+**Next:** Session 9 — **Exporting** the track. Set the export range (loop brace), `Cmd+Shift+R` Export Audio dialog, WAV vs MP3, sample rate / bit depth, then drop the finished file into Mixxx or play it on the SC Live 4. After that we'll start branching into **deeper theory** and **sound design** as separate threads.
+
 ---
 
 ## Session 7 — 2026-05-29
