@@ -135,9 +135,13 @@ warket-ios/
 
 > **M4 notes:** Lists screen is a native `List` (primary) with the 2-column grid kept as a persisted `@AppStorage` layout toggle (user choice). Notes editor uses a Write/Preview toggle (plain markdown field + live `MarkdownText` preview) rather than a formatting toolbar.
 
-### M5 — Polish
-- [ ] Loading/empty states, simple toast/banner, safe-area + status-bar styling, font embedding.
+### M5 — Polish ✅
+- [x] Loading/empty states, simple toast/banner, safe-area + status-bar styling, font embedding. *(toast banners replace modal alerts; Instrument Serif + JetBrains Mono embedded & verified via test; body stays system SF — General Sans not embedded)*
 - [ ] Then pull from [[Projects/warket-native/deferred-backlog]].
+
+---
+
+**MVP status (2026-05-29):** M0–M5 complete. Core flow done: unlock → lists → assets → full CRUD → reorder → search/tag filtering, on embedded brand fonts. Builds clean; 6/6 tests pass. Next: deferred backlog.
 
 ## Kickoff after /clear
 
