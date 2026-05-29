@@ -42,7 +42,7 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 
 ### Path 3 — 🎚 Deeper Mixing & First Mastering
 - **Status:** 🟡 Started
-- **Progress:** ~20% *(volume/pan/Reverb/Delay covered in [[Ableton/mixing-basics-and-effects|Session 8]])*
+- **Progress:** ~25% *(volume/pan/Reverb/Delay in [[Ableton/mixing-basics-and-effects|Session 8]]; rhythmic kick/bass interlock as sidechain prep — see [[Techniques/kick-bass-interlock|note]])*
 - **Difficulty:** ★★★☆☆
 - **Unlocks:** Tracks that sound polished and competitive with releases
 - **Topics:** EQ (frequency shaping), compression (dynamics), **sidechain ducking** (the "pumping" sound), automation, limiter on Master
@@ -66,7 +66,7 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 
 ### Path 6 — 🎨 Make a Real Track Sketch  ⭐ **ACTIVE**
 - **Status:** 🟢 In progress
-- **Progress:** ~10% *(project set up at 130 BPM / A minor, foundational drum loop done — see [[Track-Sketches/techno-sketch-01|Techno Sketch 01]])*
+- **Progress:** ~20% *(project set up at 130 BPM / A minor; drum + bass foundation loop done — see [[Track-Sketches/techno-sketch-01|Techno Sketch 01]])*
 - **Difficulty:** ★★★★☆ *(touches all other paths)*
 - **Goal:** A **1.5–2 minute original track**, in the spirit of **early-90s techno club**
 - **Reference vibe:** warehouse / club energy — driving four-on-the-floor, hypnotic bassline, sparse acid-y melodic stab, raw analog texture, hardly any modern polish

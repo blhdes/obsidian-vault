@@ -21,7 +21,31 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % in [[Roadmap]].
 
-**Sketch in progress:** [[Track-Sketches/techno-sketch-01|Techno Sketch 01 — Foundation]] — 130 BPM, A minor, drum loop done.
+**Sketch in progress:** [[Track-Sketches/techno-sketch-01|Techno Sketch 01 — Foundation]] — 130 BPM, A minor, drum + bass foundation loop done.
+
+---
+
+## Sketch — 2026-05-29 — Techno Sketch 01 (Bass)
+
+**Topic:** Add the **bassline** to the techno sketch. New core concept: **kick / bass interlock** — bass plays in the *spaces* the kick leaves, never *on top of* the kick. This keeps the low end clean and creates the push-pull pulse of dance music.
+
+**Covered:**
+- [[Track-Sketches/techno-sketch-01|Techno Sketch 01 — Foundation]] — bass added; full drum + bass loop now playing
+- [[Techniques/kick-bass-interlock|Kick / Bass Interlock]] — why kick & bass take turns, note length / pitch choice, the prep for sidechain ducking later
+
+**Key takeaways:**
+- **Kick and bass share the same low-frequency space** — if they hit together, the mix gets muddy. Solution: split them in time (kick on the 1/4, bass on the offbeat).
+- The **offbeat bass pattern** = 4 bass notes per bar, all on the "&" between kicks. The bedrock of techno/house bass.
+- **Note length controls feel:** short staccato (1/16) = punchy/techno, long held = smooth/trance.
+- For a one-note bassline (totally normal in techno), use the **root note of the key** — A in A minor.
+- Sit the bass around **A1** — low enough to feel "bass", high enough to have definition.
+- **One instrument per MIDI track.** Drums on the Drum Rack track, bass on its own track with a bass synth.
+- Open hat + bass land on the same offbeat — they **reinforce each other**, making the "&" feel really strong.
+- This rhythmic interlock is the *manual* version of what **sidechain compression** does automatically (Path 3 territory, later).
+
+**Where we left off:** Full drum + bass foundation loop playing in Session View at 130 BPM / A minor. No melodic content yet, no arrangement, no effects beyond the synth's default preset.
+
+**Next:** Add a **synth lead / stab** — short, filter-modulated, "acid"-flavored (iconic for early-90s techno). Requires picking which notes from A minor sound good → first tiny taste of theory.
 
 ---
 

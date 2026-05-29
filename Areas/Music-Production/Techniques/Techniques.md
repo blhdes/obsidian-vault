@@ -20,3 +20,4 @@ Each technique gets its own note (e.g. `four-on-the-floor-drums.md`). We learn o
 ## Notes
 
 - [[open-vs-closed-hihat|Open vs Closed Hi-Hat]] — the two sounds, and why the offbeat open-hat pattern is the engine of techno/house
+- [[kick-bass-interlock|Kick / Bass Interlock]] — why the bass plays in the *spaces* the kick leaves, and how it sets up sidechain ducking later

@@ -28,21 +28,29 @@ The first real original sketch. Target vibe: **early-90s techno club** — wareh
 ## Devices used so far
 
 - **Drum Rack** → 909-style kit preset (Browser → Categories → Drums → search "909" → pick a kit, double-click onto a MIDI track)
+- **Bass synth** → sub-bass preset (Browser → Categories → Sounds → Bass → Sub → any clean preset; or Drift with a sub-bass init)
 
-## Current pattern (1 bar, 1/8 grid)
+## Current pattern (1 bar, 1/16 grid)
 
 ```
-         1 & 2 & 3 & 4 &
-Kick   : ● · ● · ● · ● ·
-Clap   : · · ● · · · ● ·
-ClsHat : ● · ● · ● · ● ·
-OpnHat : · ● · ● · ● · ●
+              1 e & a 2 e & a 3 e & a 4 e & a
+Kick        : ● · · · ● · · · ● · · · ● · · ·
+Clap        : · · · · ● · · · · · · · ● · · ·
+Closed Hat  : ● · · · ● · · · ● · · · ● · · ·
+Open Hat    : · · ● · · · ● · · · ● · · · ● ·
+Bass (A1)   : · · ● · · · ● · · · ● · · · ● ·
 ```
 
-Drum Rack MIDI notes:
+Drum Rack MIDI notes (on the Drums track):
 - Kick: **C1** · Clap: **D#1** · Closed Hat: **F#1** · Open Hat: **A#1**
 
-See [[../Techniques/open-vs-closed-hihat|Open vs Closed Hi-Hat]] for *why* the open hat sits on the offbeat.
+Bass: separate MIDI track, sub-bass preset, all notes on **A1**, **1/16 length** (staccato).
+
+See:
+- [[../Techniques/open-vs-closed-hihat|Open vs Closed Hi-Hat]] — why open hats on offbeats drive the loop
+- [[../Techniques/kick-bass-interlock|Kick / Bass Interlock]] — why bass sits *between* the kicks, never *on* them
+
+**Note:** The open hat and the bass land on the same column (offbeat 1/8s). Same rhythmic position, different instruments — they reinforce each other.
 
 ## Session log
 
@@ -55,11 +63,21 @@ See [[../Techniques/open-vs-closed-hihat|Open vs Closed Hi-Hat]] for *why* the o
 - **Didn't work / to revisit:** clap on every 2&4 feels a little obvious — might delay clap's entry to a later section for tension. Open hats are at full velocity, can probably sit ~20% quieter so the kick stays dominant.
 - **Status:** 1-bar drum loop done, plays in Session View.
 
+### Session 2 — 2026-05-29 — Bass
+
+- Added a second MIDI track (`Cmd+Shift+T`), loaded a sub-bass preset, renamed track to `Bass`.
+- Created a 1-bar MIDI clip on the **same scene** as the drum clip.
+- Drew 4 bass notes, all on **A1**, on every offbeat 1/8 (the "&" between kicks). **Staccato** length (1/16).
+- Launched the scene → drums + bass play together in lockstep.
+- **Worked:** Kick and bass interlock cleanly — no muddiness, the low end has space to breathe. Loop now has the unmistakable techno push-pull.
+- **Worth noticing:** bass and open hat hit the same offbeat position. Together they make the "&" feel really strong; if it gets too thick, drop the open-hat velocity further.
+- **Didn't work / to revisit:** monotone A is solid but a little static — variations are in the technique note ([[../Techniques/kick-bass-interlock]]).
+- **Status:** drum + bass foundation loop done, playing in Session View. Ready for melodic content.
+
 ## What's next
 
-- **Next session:** Add the **bassline**. A rolling 1/16-note pattern locked to A minor, sitting around A1, with the bass *not* hitting on the kick downbeats (the classic "kick on 1/4s, bass on the 1/16 spaces" interlock — which is also the setup for sidechain ducking later).
-- **After that:** Pick / design a synth lead or stab — probably a short, filter-modulated sound (acid territory).
-- **Then:** Arrangement — break into Intro/Drop/Break scenes and record into Arrangement View.
+- **Next session:** Add a **synth lead or stab** — short, filter-modulated, in A minor. Probably an "acid" flavor (303-style filter sweep) since it's the iconic early-90s techno texture. Will involve a tiny bit of theory (which notes from A minor sound good).
+- **After that:** Arrangement — break into Intro/Drop/Break scenes and record into Arrangement View.
 
 ## File location on disk
 
