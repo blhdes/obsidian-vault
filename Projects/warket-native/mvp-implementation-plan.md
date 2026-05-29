@@ -103,35 +103,37 @@ warket-ios/
 
 ## Milestones (execution order)
 
-### M0 — Scaffold + foundation
-- [ ] Create `warket-ios/` Xcode project (SwiftUI app lifecycle, iOS 17 deployment target, bundle id e.g. `com.blhdes.warket`).
-- [ ] Add `supabase-swift` via SPM.
-- [ ] `Secrets.xcconfig` (gitignored) with Supabase URL + anon key (copy from `.env`); add to `.gitignore`.
-- [ ] `Theme.swift` — Color + radius constants from tokens above (dark only for MVP).
-- [ ] `Models/` — `Resource`, `VaultList`, `Asset` Codable structs matching DB columns.
-- [ ] `SeedPhrase.swift` — `hashSeedPhrase`, `deriveShareHash` (CryptoKit). Optionally port the 534-word wordlist from `src/features/auth/wordlist.ts` for Generate.
+### M0 — Scaffold + foundation ✅
+- [x] Create `warket-ios/` Xcode project (SwiftUI app lifecycle, iOS 17 deployment target, bundle id e.g. `com.blhdes.warket`). *(via XcodeGen — `project.yml` generates `warket.xcodeproj`)*
+- [x] Add `supabase-swift` via SPM.
+- [x] `Secrets.xcconfig` (gitignored) with Supabase URL + anon key (copy from `.env`); add to `.gitignore`.
+- [x] `Theme.swift` — Color + radius constants from tokens above (dark only for MVP).
+- [x] `Models/` — `Resource`, `VaultList`, `Asset` Codable structs matching DB columns.
+- [x] `SeedPhrase.swift` — `hashSeedPhrase`, `deriveShareHash` (CryptoKit). Optionally port the 534-word wordlist from `src/features/auth/wordlist.ts` for Generate. *(536 words auto-ported)*
 
-### M1 — Hash-parity checkpoint (do before any UI)
-- [ ] `HashParityTests.swift` asserting the reference vectors above. **Must pass** before proceeding.
+### M1 — Hash-parity checkpoint (do before any UI) ✅
+- [x] `HashParityTests.swift` asserting the reference vectors above. **Must pass** before proceeding. *(5/5 tests pass; vault + share hashes match byte-for-byte)*
 
-### M2 — Data layer + unlock + lists load
-- [ ] `VaultClient.swift` — Supabase client factory with global `x-vault-hash` header.
-- [ ] `VaultRepository.swift` — list/asset operations above.
-- [ ] `Session.swift` — remember-me (AppStorage; Keychain optional).
-- [ ] `UnlockView.swift` — phrase entry + Generate + "keep session open" + Access → hash → route to vault.
-- [ ] App nav: `NavigationStack`; root = Unlock, success → ListsView. Auto-resume if remembered.
-- [ ] `ListsView.swift` — grid of `ListCard`s with asset counts loaded from Supabase. **Read path verified against real data.**
+### M2 — Data layer + unlock + lists load ✅
+- [x] `VaultClient.swift` — Supabase client factory with global `x-vault-hash` header.
+- [x] `VaultRepository.swift` — list/asset operations above.
+- [x] `Session.swift` — remember-me (AppStorage; Keychain optional).
+- [x] `UnlockView.swift` — phrase entry + Generate + "keep session open" + Access → hash → route to vault.
+- [x] App nav: `NavigationStack`; root = Unlock, success → ListsView. Auto-resume if remembered. *(`RootView` auth gate)*
+- [x] `ListsView.swift` — grid of `ListCard`s with asset counts loaded from Supabase. **Read path verified against real data.**
 
-### M3 — Assets browse + detail
-- [ ] `AssetsView.swift` — list of `AssetRow`s for a tapped list.
-- [ ] `AssetDetailView.swift` — summary, markdown description (render via `AttributedString(markdown:)`), tags, resources (open links, favicons), image.
+### M3 — Assets browse + detail ✅
+- [x] `AssetsView.swift` — list of `AssetRow`s for a tapped list.
+- [x] `AssetDetailView.swift` — summary, markdown description (render via `AttributedString(markdown:)`), tags, resources (open links, favicons), image. *(block-level markdown needed a custom `MarkdownText` renderer — `AttributedString` alone only does inline)*
 
-### M4 — Full CRUD + reorder + search
-- [ ] Create/edit/delete lists (`ListEditorSheet`) and assets (`AddAssetSheet`, inline edits).
-- [ ] Resources: add (`AddResourceSheet`), remove, reorder; image via `ImageURLSheet`.
-- [ ] Drag-reorder lists/assets/resources with `.onMove` → persist positions.
-- [ ] Search + tag-pill filtering on both lists and assets screens.
-- [ ] Haptics via `UIImpactFeedbackGenerator` (light on reorder, etc.).
+### M4 — Full CRUD + reorder + search ✅
+- [x] Create/edit/delete lists (`ListEditorSheet`) and assets (`AssetEditorSheet`, inline edits).
+- [x] Resources: add (`AddResourceSheet`), remove, reorder; image via inline field in the asset editor *(not a separate `ImageURLSheet`)*.
+- [x] Drag-reorder lists/assets/resources with `.onMove` → persist positions.
+- [x] Search + tag-pill filtering on both lists and assets screens.
+- [x] Haptics via `UIImpactFeedbackGenerator` (light on reorder, etc.).
+
+> **M4 notes:** Lists screen is a native `List` (primary) with the 2-column grid kept as a persisted `@AppStorage` layout toggle (user choice). Notes editor uses a Write/Preview toggle (plain markdown field + live `MarkdownText` preview) rather than a formatting toolbar.
 
 ### M5 — Polish
 - [ ] Loading/empty states, simple toast/banner, safe-area + status-bar styling, font embedding.
