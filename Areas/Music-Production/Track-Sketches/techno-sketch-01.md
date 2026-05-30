@@ -29,7 +29,7 @@ The first real original sketch. Target vibe: **early-90s techno club** — wareh
 
 - **Drum Rack** → 909-style kit preset (Browser → Categories → Drums → search "909" → pick a kit, double-click onto a MIDI track)
 - **Bass synth** → sub-bass preset (Browser → Categories → Sounds → Bass → Sub → any clean preset; or Drift with a sub-bass init)
-- **Lead synth** → Drift loaded with an acid preset (Browser → search "acid" → 303/Bass/Lead-tagged Drift preset; resonance ~60–80%, filter envelope active)
+- **Lead synth** → **Simpler** loaded with the **`Synth Bass Acid F`** preset (Browser search "acid" → Simpler-based preset). Voices set to 1 (mono). Filter section enabled, Frequency around 1–3 kHz, Res ~70% for the squelch. *Drift was the original plan but Simpler's acid preset was a faster start; either works.*
 
 ## Current pattern (1 bar, 1/16 grid)
 
@@ -80,13 +80,23 @@ See:
 - **Didn't work / to revisit:** monotone A is solid but a little static — variations are in the technique note ([[../Techniques/kick-bass-interlock]]).
 - **Status:** drum + bass foundation loop done, playing in Session View. Ready for melodic content.
 
+### Session 4 — 2026-05-30 — Filter Cutoff Automation
+
+- **Extended the Lead clip from 1 → 8 bars** (dragged the right edge of the clip's loop brace in the MIDI editor). Notes still only in bar 1; bars 2–8 empty (the bar-1 motif fires once every 8 bars instead of every bar = sparser).
+- Opened the clip's **Envelopes** panel (`E` button on the left of Clip View).
+- Set **Device = Simpler**, **Control = Filter Freq**.
+- Drew a slow ramp: **~200 Hz at bar 1 → ~5 kHz at bar 8**. Lead now starts dark, opens up over 8 bars — classic acid build-up.
+- **Worked:** the slow sweep transforms a static loop into something that feels like it's *going somewhere*. Even with no other changes, the track has tension and release now.
+- **Worth noticing:** the resonant peak gets louder as the cutoff sweeps through the upper mids — that's the squelch becoming more prominent. It's also what makes a build-up *feel like a build-up*.
+- **Status:** 8-bar skeleton loop with filter automation playing. The loop now has internal motion, not just repetition.
+
 ### Session 3 — 2026-05-30 — Acid Lead
 
-- Added a third MIDI track named `Lead`, loaded **Drift** with an "acid" preset (search "acid" in Browser).
+- Added a third MIDI track named `Lead`, loaded **Simpler** with the **`Synth Bass Acid F`** preset (search "acid" in Browser). Drift was the planned synth but its factory presets aren't tagged "acid"; the Simpler preset was the path of least resistance and sounds great.
 - Created a 1-bar MIDI clip on the same scene as drums + bass.
 - Drew a 4-note motif using only A minor triad notes: **A2 → C3 → A2 → E3** at positions 1, 2&, 3, 4&.
-- Confirmed the synth was set to **mono** (one note at a time — acid is always monophonic).
-- Tested filter knobs in real time: turning **Cutoff** opens/closes brightness; **Resonance** at ~70% adds the signature squelch.
+- Set Simpler's **`Voices`** (top-right of the device) to **1** for monophonic playback.
+- Enabled Simpler's **Filter** section (checkbox bottom-left). Tested in real time: **Frequency** knob = cutoff (opens/closes brightness); **Res** knob at ~70% adds the signature squelch.
 - **Worked:** The 4-note triad outline (A-C-A-E) sounds unmistakably "in A minor"; lead sits clearly above the bass; resonant filter gives each note that little "wow" character.
 - **Worth noticing:** Because the lead uses only A, C, E (the A minor triad), it sounds resolved no matter the order. This is the "safe" subset of the safer-still pentatonic.
 - **Didn't work / to revisit:** lead is a touch loud — pulled fader down ~3 dB so it sits *with* the loop rather than on top.

@@ -44,8 +44,9 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 - A **filter** removes frequencies. A **low-pass filter** removes highs; the **cutoff** is the dividing line.
 - **Resonance** boosts the frequencies right at the cutoff — high resonance = the squelchy peak (the "acid" character).
 - A **filter envelope** = the cutoff automatically opens then closes on each note → the "wow" on every hit.
-- **Acid is always monophonic** — one note at a time. Set the synth's Voicing to **Mono**.
+- **Acid is always monophonic** — one note at a time. In Simpler, set **`Voices`** (top-right) to **1**; in Drift, set Voicing to Mono.
 - **Start from a preset.** Sound design from scratch is its own Path (2); for now, load an "acid" preset and tweak the cutoff + resonance.
+- **Tool note:** Ended up using **Simpler** (`Synth Bass Acid F` preset), not Drift, because Drift's factory library doesn't tag presets "acid". Simpler's Filter section (bottom-left of the device) has the same Frequency + Res knobs and works identically for our purposes.
 - Higher octaves for melodic content (A2/A3) keep the lead clearly above the bass (A1).
 
 **Where we left off:** Full skeleton loop playing in Session View — kick, clap, hats, bass, acid lead, all locked at 130 BPM in A minor. Same building blocks as a typical early-90s warehouse cut. No automation, no arrangement, no effects beyond preset defaults.
