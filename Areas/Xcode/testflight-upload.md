@@ -138,6 +138,7 @@ Trade-off: no Apple review (instant), but capped to the devices you registered a
 
 ## Related
 
+- [[app-store-submission]] — the next step: take this uploaded build to a **public** App Store release
 - [[Projects/Culla/Culla|Culla]] — the app we ship through this pipeline
 - [[instruments-profiler]] — profiling before you ship
 - [[Xcode]] — index

@@ -104,8 +104,8 @@ See:
 
 ## What's next
 
-- **Next session:** **Cutoff automation** — draw a slow filter sweep on the lead so it opens and closes over multiple bars (the classic acid build-up). Will introduce Live's automation lane.
-- **After that:** Arrangement — break into Intro/Drop/Break scenes and record into Arrangement View, then mix → export.
+- **Next session:** **Multiple scenes** — duplicate the current scene into 3 variations (Intro = drums only, Drop = full loop with filter sweep, Break = drop the kick + bass, leave hats + lead). Sets up the song's *structure* before we commit to Arrangement.
+- **After that:** Record the scene jumps into Arrangement View, mix the levels, add reverb/delay where useful, export.
 
 ## File location on disk
 

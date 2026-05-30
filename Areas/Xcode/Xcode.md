@@ -12,6 +12,7 @@ Ongoing notes about Xcode — tips, settings, workflows, schemes, build configur
 
 - [[instruments-profiler]] — profiling stutters and dropped frames (with a Culla swipe-deck example)
 - [[testflight-upload]] — archiving and shipping a build to TestFlight / App Store Connect
+- [[app-store-submission]] — turning an uploaded build into a public App Store release (full review)
 
 ## Related
 

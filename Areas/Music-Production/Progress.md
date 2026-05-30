@@ -21,7 +21,31 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % in [[Roadmap]].
 
-**Sketch in progress:** [[Track-Sketches/techno-sketch-01|Techno Sketch 01 — Foundation]] — 130 BPM, A minor. Drums + bass + acid lead skeleton done.
+**Sketch in progress:** [[Track-Sketches/techno-sketch-01|Techno Sketch 01 — Foundation]] — 130 BPM, A minor. 8-bar skeleton loop with filter automation playing.
+
+---
+
+## Sketch — 2026-05-30 — Techno Sketch 01 (Filter Automation)
+
+**Topic:** Add **filter cutoff automation** to the acid lead — Live opens the filter slowly over 8 bars on its own, turning a static loop into a build-up. First taste of **clip envelopes**, Live's Session-View automation system.
+
+**Covered:**
+- [[Ableton/clip-envelopes|Clip Envelopes (Automating Parameters Inside a Clip)]] — what they are, how to add one, the Device/Control dropdowns, why clip length matters for slow automation
+- [[Track-Sketches/techno-sketch-01|Techno Sketch 01]] — lead clip extended to 8 bars; filter cutoff sweeps low → high across the clip
+
+**Key takeaways:**
+- **Automation** = Live moves a knob/fader for you over time. You draw it once; it plays back perfectly every loop.
+- **Clip envelopes** live *inside a clip* — they run while the clip plays, stop when it stops.
+- Open via the **`E`** button on the left of Clip View, OR right-click any parameter → **Show Automation** (shortcut).
+- The two key dropdowns: **Device** (which device on the track) and **Control** (which parameter on that device).
+- **Clip length controls automation length.** A slow 8-bar sweep needs an 8-bar clip — extend the loop brace first.
+- Clips on the same scene can have **different lengths** and loop independently. Drum/bass clips stay at 1 bar (loop 8 times); lead clip is 8 bars (single play through, with automation).
+- A filter opening up = the iconic "build-up" sound. Resonance makes the squelch more audible as the cutoff sweeps through the mids — that's *why* the build-up *feels like a build-up*.
+- **Linked vs Unlinked envelopes** — by default an envelope matches its clip's length. Unlinking lets the envelope have a different length (advanced, skip for now).
+
+**Where we left off:** 8-bar loop with kick + clap + hats + bass + acid lead, where the lead's filter slowly opens from dark to bright across the 8 bars. Loop has internal motion now, not just repetition. Still no song *structure* (just one scene playing on repeat).
+
+**Next:** **Multiple scenes for song sections** — duplicate the current scene into 3 variations (Intro / Drop / Break) by removing or keeping different clips per scene. Sets up the song's structure before we move into Arrangement View. (Reinforces Session 6 from the foundations.)
 
 ---
 
