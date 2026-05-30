@@ -35,6 +35,11 @@ You don't re-upload anything to go from TestFlight to the App Store. You attach 
 | Category | **Music** |
 | Price | **Free** (v1) |
 | Key permission | Apple Music library access (`NSAppleMusicUsageDescription`) |
+| Landing page | `https://culla.app/music/` |
+| **Privacy Policy URL** | `https://culla.app/music/#privacy` |
+| **Support URL** | `https://culla.app/music/#support` |
+
+> The landing/privacy/support page lives in the `culla-web` repo at `/music/` and auto-deploys to `culla.app` via Netlify on push to `main`. Both anchor URLs above are what you paste into App Store Connect.
 
 ---
 
@@ -68,7 +73,7 @@ Left sidebar → **Pricing and Availability**.
 
 Left sidebar → **App Privacy**. **This is required — you cannot submit without it.**
 
-1. **Privacy Policy URL** — *mandatory*, even for a free app that collects nothing. It must be a real, reachable web page. (A simple GitHub Pages or Notion page stating "Culla Music does not collect or transmit personal data; library access stays on your device" is enough.)
+1. **Privacy Policy URL** — *mandatory*, even for a free app that collects nothing. It must be a real, reachable web page. **Ours: `https://culla.app/music/#privacy`** (lives in the `culla-web` repo, see the values table above).
 2. **Data collection questionnaire** — Apple asks what data types you collect and why.
    - CullaMusic reads your Apple Music library **on-device** and stores playlist choices locally (SwiftData). If nothing is sent to a server, the honest answer is **"Data Not Collected."**
    - ⚠️ "Data Not Collected" means *nothing leaves the device*. If you later add analytics, crash reporting (e.g. a third-party SDK), or any network call that sends user data, you must update this.
@@ -91,7 +96,7 @@ Open it — the status banner reads **"Prepare for Submission."** Fill in:
 - **Promotional text** — up to 170 chars. Shows above the description. **Editable any time without a new review** — handy for "what's new this week" blurbs.
 - **Description** — up to 4000 chars. What the app does, in plain language.
 - **Keywords** — up to 100 chars total, **comma-separated, no spaces** (`playlist,swipe,music,apple music,sort`). These feed search.
-- **Support URL** — *required*. A page where users can get help (can be the same simple page as the privacy policy).
+- **Support URL** — *required*. A page where users can get help. **Ours: `https://culla.app/music/#support`** (same page as the privacy policy, different anchor).
 - **Marketing URL** — optional.
 - **What's New** — only appears for **updates** (version > 1.0), describing changes since the last release.
 

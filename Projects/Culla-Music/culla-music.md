@@ -9,6 +9,7 @@ tags: [culla-music, ios, swiftui, musickit, active]
 Apple Music swipe-sorter. One song at a time — swipe right to add to a playlist, left to dismiss. A standalone SwiftUI app, built to eventually merge back into [[Projects/Culla/Culla|Culla]] as a feature once it reaches v1.
 
 **Repo:** https://github.com/blhdes/culla-music (private)  
+**Web:** [culla.app/music](https://culla.app/music) — landing + privacy (`#privacy`) + support (`#support`), in the `culla-web` repo. App Store submission guide → [[Areas/Xcode/app-store-submission|App Store submission]].  
 **Started:** 2026-05-03 | **Status (2026-05-28):** Phase 5 shipped — a **design-language** phase: a Liquid Glass vocabulary rolled out app-wide, then a deliberate **restraint pass** back toward minimalism (scoped accent to critical surfaces, calm Settings tier, neutral cover shadows, flush artist hub). A new **artist hub** surface landed and was redesigned twice (badges → "About" bio → flush layout). → [[Phases/phase-05-liquid-glass-and-restraint|Phase 5]]. Since then a **post-Phase-5 polish** pass (2026-05-26 → 28): a richer swipe card (album + year, accent-tinted chips), a scrubbable progress bar, a per-playlist **library queue filter**, read-only / "Move out" correctness fixes, and a batch of iOS 26 Liquid Glass / mesh / live-theme fixes.
 
 **QA:** All manual testing lives in a single tracker → [[qa-testing-tracker|QA Testing Tracker]].
