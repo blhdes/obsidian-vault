@@ -122,8 +122,23 @@ See:
 
 ## What's next
 
-- **Next session:** **Record the scene jumps into Arrangement View** — turn the live performance (Intro → Build → Drop → Break → Drop) into a real song timeline that always plays the same way. Global Record + scene launches, then editing the captured clips.
-- **After that:** Mix levels (Drums vs Bass vs Lead balance, Master headroom), add light reverb on the lead, export to WAV.
+**Entering a deepening sub-phase before recording.** The skeleton (drums + bass + acid lead + 4 scenes + filter sweep) works, but the user wants the sketch to feel fuller before committing it to Arrangement. Each upcoming session adds **one layer or effect**, then we revisit whether the track is ready to commit.
+
+**Deepening menu** (mirrored in Progress.md):
+- Percussion layer (shaker / clave / rim on offbeats)
+- Pad / atmosphere (long A minor chord bed under the lead)
+- Counter-melody / second stab
+- Sidechain compression (bass ducking under kick)
+- Lead distortion / saturation
+- Reverb + delay send on the lead
+- Riser / noise sweep into the Drop
+- Drum variation clips (no-kick drums for Break; fill clip)
+- Lead motif variations across Drops
+- Per-scene volume / filter automation
+
+User picks the next addition each session. Don't bundle.
+
+**After deepening is done:** Record scene jumps into Arrangement (foundation Session 7), mix pass, export to WAV.
 
 ## File location on disk
 

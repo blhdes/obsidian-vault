@@ -23,6 +23,27 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Sketch in progress:** [[Track-Sketches/techno-sketch-01|Techno Sketch 01 — Foundation]] — 130 BPM, A minor. 4-scene mini-arrangement (Intro / Build / Drop / Break) playable in Session View.
 
+## 🌱 Active sub-phase: Deepening
+
+Before recording into Arrangement and exporting, the user wants to **deepen the sketch** — add layers, effects, and complexity so the final track has more depth than the minimum skeleton.
+
+**Open candidates (next session picks 1, applies it across the relevant scenes):**
+
+- **Percussion layer** — add a second drum clip with shaker / clave / conga / rim on offbeats and 1/16s. Adds movement without crowding the kick. Could vary per scene.
+- **Pad / atmosphere** — long sustained chords (A minor triad notes) under the lead. Cinematic depth, room tone. Often filtered low so it sits as a "bed", not a melody.
+- **Counter-melody / secondary stab** — a second synth line answering the acid lead. Different timbre (e.g. plucky / metallic vs squelchy).
+- **Sidechain compression** — bass ducks under the kick (the "pumping" feel). Path 3 territory; turns the rhythmic interlock into proper pumping.
+- **Lead distortion / saturation** — push the acid lead into Saturator or Overdrive for grit. Classic 90s warehouse texture.
+- **Reverb send + delay throw on lead** — short delay on specific notes for echo tails, hall reverb so the lead sits in a space, not in the listener's face.
+- **Riser / noise sweep into the Drop** — a white-noise sweep with reverb tail that builds into the kick re-entry. Universal transition technique.
+- **Drum variation clips** — a "no-kick" drums clip for the Break (the sacred kick drop), a "drums + fill" clip for the bar before each Drop.
+- **Lead motif variations** — 2nd lead clip with a different note pattern; alternate across Drops so the track evolves.
+- **Volume / filter automation per section** — per-scene clip envelopes that ride the mix.
+
+**Next-session protocol:** Open by reading this list back to the user as a menu. Let them pick one (or two if light). Don't dump them all in one session. Each deepening session reinforces a Path % as well (sound design / mixing / drum-depth / etc.).
+
+When the user says they're done deepening, *then* move to Session 6 (record into Arrangement, mix pass, export).
+
 ---
 
 ## Sketch — 2026-05-30 — Techno Sketch 01 (Song Sections)
