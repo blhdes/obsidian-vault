@@ -66,7 +66,7 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 
 ### Path 6 — 🎨 Make a Real Track Sketch  ⭐ **ACTIVE**
 - **Status:** 🟢 In progress
-- **Progress:** ~45% *(skeleton + filter automation on the lead — 8-bar build-up loop now playing; see [[Track-Sketches/techno-sketch-01|Techno Sketch 01]])*
+- **Progress:** ~60% *(4-scene mini-arrangement playable: Intro / Build / Drop / Break — see [[Track-Sketches/techno-sketch-01|Techno Sketch 01]])*
 - **Difficulty:** ★★★★☆ *(touches all other paths)*
 - **Goal:** A **1.5–2 minute original track**, in the spirit of **early-90s techno club**
 - **Reference vibe:** warehouse / club energy — driving four-on-the-floor, hypnotic bassline, sparse acid-y melodic stab, raw analog texture, hardly any modern polish

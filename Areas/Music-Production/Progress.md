@@ -21,7 +21,31 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % in [[Roadmap]].
 
-**Sketch in progress:** [[Track-Sketches/techno-sketch-01|Techno Sketch 01 — Foundation]] — 130 BPM, A minor. 8-bar skeleton loop with filter automation playing.
+**Sketch in progress:** [[Track-Sketches/techno-sketch-01|Techno Sketch 01 — Foundation]] — 130 BPM, A minor. 4-scene mini-arrangement (Intro / Build / Drop / Break) playable in Session View.
+
+---
+
+## Sketch — 2026-05-30 — Techno Sketch 01 (Song Sections)
+
+**Topic:** Turn the single loop into a **4-scene mini-arrangement** — Intro / Build / Drop / Break — using only the 3 existing clips. Reinforces foundation Session 6 ("Multiple Scenes & Song Sections") and introduces the **techno-specific arrangement vocabulary**: what each section is *for*, and why the kick drop is the most powerful move in dance music.
+
+**Covered:**
+- [[Techniques/techno-arrangement-sections|Techno Arrangement — Intro / Build / Drop / Break]] — what each section does, scene-mapping tables, the "kick drop" principle
+- [[Track-Sketches/techno-sketch-01|Techno Sketch 01]] — built the 4 scenes; performance is now jumpable Intro → Build → Drop → Break → back to Drop
+
+**Key takeaways:**
+- A finished track = the same loop shown in **different combinations**, sequenced to create tension and release.
+- **One scene per section.** Intro / Build / Drop / Break = 4 scenes.
+- **Empty cell = stop signal** — the same rule from foundation Session 6 does *all* the section-switching work.
+- **Intro** = drums only (establishes pulse). **Build** = + bass (low end joins). **Drop** = + lead (full energy). **Break** = - lead (often - kick too; pulls floor away).
+- Removing and re-adding the **kick** is the single most reliable emotional move in dance music. The break exists to set up the drop's re-entry.
+- The 8-bar lead clip **resets to cutoff-closed every time the Drop scene is launched** → every drop gets a fresh filter sweep for free, no extra automation work.
+- **Launch Quantization (`1 Bar`)** is critical — scene jumps wait for the next bar so transitions land musically, not whenever you clicked.
+- For fancier section work later: duplicate clips and vary them (e.g. a "no-kick drums" clip for breaks).
+
+**Where we left off:** Playable 4-scene mini-arrangement at 130 BPM, A minor. Can perform a full Intro → Build → Drop → Break → Drop sequence live by launching scenes. Not yet committed to a timeline (no Arrangement, no export).
+
+**Next:** **Record the scene jumps into Arrangement View** — turn the live performance into a fixed song timeline (Global Record + scene launches). Reinforces foundation Session 7. Then mix → reverb → export to a final WAV.
 
 ---
 

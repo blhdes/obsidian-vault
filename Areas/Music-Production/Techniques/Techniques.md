@@ -22,3 +22,4 @@ Each technique gets its own note (e.g. `four-on-the-floor-drums.md`). We learn o
 - [[open-vs-closed-hihat|Open vs Closed Hi-Hat]] — the two sounds, and why the offbeat open-hat pattern is the engine of techno/house
 - [[kick-bass-interlock|Kick / Bass Interlock]] — why the bass plays in the *spaces* the kick leaves, and how it sets up sidechain ducking later
 - [[acid-lead-sound|Acid Lead Sound (Filter + Resonance)]] — the filter knobs (cutoff + resonance + envelope) that make a synth squelch like a TB-303
+- [[techno-arrangement-sections|Techno Arrangement — Intro / Build / Drop / Break]] — what each section is *for*, scene-mapping tables, the sacred "kick drop" move

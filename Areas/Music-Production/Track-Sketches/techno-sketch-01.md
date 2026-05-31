@@ -80,6 +80,24 @@ See:
 - **Didn't work / to revisit:** monotone A is solid but a little static — variations are in the technique note ([[../Techniques/kick-bass-interlock]]).
 - **Status:** drum + bass foundation loop done, playing in Session View. Ready for melodic content.
 
+### Session 5 — 2026-05-30 — Song Sections (4 Scenes)
+
+- Built a 4-scene mini-arrangement using the existing 3 clips, no new clips needed:
+
+  |              | Intro | Build | Drop  | Break |
+  |--------------|-------|-------|-------|-------|
+  | Drums        | clip  | clip  | clip  | clip  |
+  | Bass         |   —   | clip  | clip  | clip  |
+  | Lead         |   —   |   —   | clip  |   —   |
+
+- Created scenes 2–4 via duplicate-and-edit (right-click scene → Duplicate), then **Option-dragged** the bass / lead clips onto the right cells. Empty cells stop their tracks per the empty-cell rule.
+- Renamed scenes (right-click → Rename): `Intro`, `Build`, `Drop`, `Break`.
+- Confirmed **Launch Quantization** is `1 Bar` (top of Transport) so scene jumps land cleanly on bar lines.
+- Performed: launched Intro → after 4 bars → Build → after 4 bars → Drop (with the filter sweep doing its 8-bar build) → Break → back to Drop.
+- **Worked:** The Drop hits hard when the lead enters, because the previous 8 bars were drumless of lead. The Break removing kick + lead leaves only bass + hats — feels like the floor is half-gone — and the return to Drop slams.
+- **Worth noticing:** The 8-bar lead clip resets to bar 1 (cutoff closed) every time the Drop scene is launched. So *every drop has the full sweep again* automatically. Free build-up, no extra work.
+- **Status:** Track-as-performance is playable from scenes. Not yet committed to a timeline.
+
 ### Session 4 — 2026-05-30 — Filter Cutoff Automation
 
 - **Extended the Lead clip from 1 → 8 bars** (dragged the right edge of the clip's loop brace in the MIDI editor). Notes still only in bar 1; bars 2–8 empty (the bar-1 motif fires once every 8 bars instead of every bar = sparser).
@@ -104,8 +122,8 @@ See:
 
 ## What's next
 
-- **Next session:** **Multiple scenes** — duplicate the current scene into 3 variations (Intro = drums only, Drop = full loop with filter sweep, Break = drop the kick + bass, leave hats + lead). Sets up the song's *structure* before we commit to Arrangement.
-- **After that:** Record the scene jumps into Arrangement View, mix the levels, add reverb/delay where useful, export.
+- **Next session:** **Record the scene jumps into Arrangement View** — turn the live performance (Intro → Build → Drop → Break → Drop) into a real song timeline that always plays the same way. Global Record + scene launches, then editing the captured clips.
+- **After that:** Mix levels (Drums vs Bass vs Lead balance, Master headroom), add light reverb on the lead, export to WAV.
 
 ## File location on disk
 
