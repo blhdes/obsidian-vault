@@ -58,7 +58,7 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 
 ### Path 5 — 🥁 Drum Pattern Depth
 - **Status:** 🟡 Started
-- **Progress:** ~20% *(four-on-the-floor + backbeat in [[Ableton/making-a-midi-clip|Session 4]]; [[Techniques/open-vs-closed-hihat|open vs closed hi-hat + offbeat opens]] in the techno sketch kickoff)*
+- **Progress:** ~30% *(four-on-the-floor + backbeat in [[Ableton/making-a-midi-clip|Session 4]]; [[Techniques/open-vs-closed-hihat|open vs closed hi-hat + offbeat opens]] in the techno sketch kickoff; [[Techniques/percussion-layering|percussion layering]] — shaker in the 16th gaps)*
 - **Difficulty:** ★★☆☆☆
 - **Unlocks:** Beats that feel human, not robotic
 - **Topics:** ghost notes, fills, **swing / groove**, percussion layering, breakbeats

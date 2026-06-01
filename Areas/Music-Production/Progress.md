@@ -27,9 +27,11 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 Before recording into Arrangement and exporting, the user wants to **deepen the sketch** — add layers, effects, and complexity so the final track has more depth than the minimum skeleton.
 
-**Open candidates (next session picks 1, applies it across the relevant scenes):**
+**Plan decided 2026-06-01:** the user committed to doing **all** deepening candidates, **in the listed order below, one per session** (not bundled). Work down the list top-to-bottom; mark each ✅ as it's done.
 
-- **Percussion layer** — add a second drum clip with shaker / clave / conga / rim on offbeats and 1/16s. Adds movement without crowding the kick. Could vary per scene.
+**Candidates (in order):**
+
+- ✅ **Percussion layer** *(done 2026-06-01 — shaker on 16th gaps; see [[Techniques/percussion-layering]])* — second drum clip with shaker / clave / conga / rim on offbeats and 1/16s. Adds movement without crowding the kick. Could vary per scene.
 - **Pad / atmosphere** — long sustained chords (A minor triad notes) under the lead. Cinematic depth, room tone. Often filtered low so it sits as a "bed", not a melody.
 - **Counter-melody / secondary stab** — a second synth line answering the acid lead. Different timbre (e.g. plucky / metallic vs squelchy).
 - **Sidechain compression** — bass ducks under the kick (the "pumping" feel). Path 3 territory; turns the rhythmic interlock into proper pumping.
@@ -40,9 +42,31 @@ Before recording into Arrangement and exporting, the user wants to **deepen the 
 - **Lead motif variations** — 2nd lead clip with a different note pattern; alternate across Drops so the track evolves.
 - **Volume / filter automation per section** — per-scene clip envelopes that ride the mix.
 
-**Next-session protocol:** Open by reading this list back to the user as a menu. Let them pick one (or two if light). Don't dump them all in one session. Each deepening session reinforces a Path % as well (sound design / mixing / drum-depth / etc.).
+**Next-session protocol:** The order is now fixed (see plan above). Confirm where we are, then deliver the **next unchecked candidate** — one per session, never bundled. Up next: **Pad / atmosphere** (#2). Each deepening session reinforces a Path % as well (sound design / mixing / drum-depth / etc.).
 
 When the user says they're done deepening, *then* move to Session 6 (record into Arrangement, mix pass, export).
+
+---
+
+## Sketch — 2026-06-01 — Techno Sketch 01 (Percussion Layer)
+
+**Topic:** First **deepening** layer. Add a **percussion layer** — a quieter shaker running 16th notes in the gaps the main kit leaves — for movement and groove without crowding the kick. The user committed to working through *all* deepening candidates in order, one per session; this is #1.
+
+**Covered:**
+- [[Techniques/percussion-layering|Percussion Layering]] — what it is, why frequency + low volume keep it out of the kick's way, where the hits go, sound choices, per-scene variation
+- [[Track-Sketches/techno-sketch-01|Techno Sketch 01]] — shaker track added on the 16th-note offbeats; loop now has continuous forward shimmer
+
+**Key takeaways:**
+- The kick/clap/hats are the **skeleton**; a percussion layer is the **connective tissue** that fills the micro-gaps so the loop flows instead of stamping.
+- Two levers keep it from crowding the kick: **frequency** (pick a high, short sound — shaker/rim/tambourine — so it lives *above* the low end) and **volume** (low velocity → texture, not a lead).
+- Our kit covers the 8th-note grid (closed hat on beats, open hat on `&`); the **16th in-betweens** (`e` and `a`) are empty — that's exactly where the shaker goes.
+- Sound choice is what makes it style-specific: shaker = techno/house; rim/clave = latin/hip-hop; conga = house/afro; tambourine = disco/pop. The *gap-filling principle* is genre-neutral.
+- **Velocity groove** (vary hit loudness) and **panning slightly off-center** (kick/bass stay dead-center) make it breathe and widen the stereo image — both already-known tools from Session 8.
+- **Per-scene variation:** shaker off in Intro, sparse in Build, full in Drop, off/sparse in Break — brings in extra energy exactly at the Drop.
+
+**Where we left off:** Drum + bass + acid lead + 4 scenes + filter sweep, now with a 16th-note shaker layer for groove. Still a Session-View performance — not committed to Arrangement.
+
+**Next:** Deepening #2 — **Pad / atmosphere**: long sustained A-minor chords, filtered low, sitting under the lead as a room-tone "bed". First taste of holding a chord (multiple notes at once) vs. the single-note lines so far.
 
 ---
 

@@ -39,9 +39,12 @@ Kick        : ● · · · ● · · · ● · · · ● · · ·
 Clap        : · · · · ● · · · · · · · ● · · ·
 Closed Hat  : ● · · · ● · · · ● · · · ● · · ·
 Open Hat    : · · ● · · · ● · · · ● · · · ● ·
+Shaker      : · ● · ● · ● · ● · ● · ● · ● · ●
 Bass (A1)   : · · ● · · · ● · · · ● · · · ● ·
 Lead        : ● · · · · · ● · ● · · · · · ● ·
 ```
+
+Shaker fills the 16th-note gaps (the `e` and `a` columns) the hats leave open — continuous forward shimmer. Lower velocity than the hats; panned slightly off-center.
 
 Lead notes (left to right): **A2, C3, A2, E3** — outlines the A minor triad.
 
@@ -119,6 +122,16 @@ See:
 - **Worth noticing:** Because the lead uses only A, C, E (the A minor triad), it sounds resolved no matter the order. This is the "safe" subset of the safer-still pentatonic.
 - **Didn't work / to revisit:** lead is a touch loud — pulled fader down ~3 dB so it sits *with* the loop rather than on top.
 - **Status:** Drum + bass + lead loop playing in Session View. The "skeleton" of the track is done — same elements as a typical early-90s warehouse cut.
+
+### Deepening 1 — 2026-06-01 — Percussion Layer
+
+- Added a new MIDI track named `Shaker`, loaded a shaker/perc preset.
+- Drew 8 hits on the **16th-note offbeats** (the `e` and `a` columns) — every gap the hats leave → continuous 16th shimmer (see grid above).
+- Pulled velocity **down** so it reads as texture, not a main hit; panned **slightly off-center** for width (kick/bass stay dead-center).
+- **Worked:** the loop went from "stamping" to "flowing" — the shaker glues the offbeats together and adds forward drive without touching the low end. The classic kick/bass/hat skeleton now has connective tissue.
+- **Worth noticing:** because the shaker is high and short, it sits *above* the kick — no mud, even running 16ths under a busy four-on-the-floor. Same "stay out of each other's way" logic as kick/bass interlock, but in frequency.
+- **To try later:** per-scene variation — shaker off in Intro, full in the Drop — to add energy at the drop. Also a velocity groove (accent the `a` over the `e`) so it breathes.
+- **Status:** drums + bass + lead + shaker, 4 scenes, filter sweep. First deepening layer in. See [[../Techniques/percussion-layering|Percussion Layering]].
 
 ## What's next
 
