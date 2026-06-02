@@ -16,6 +16,7 @@ Home for everything related to learning to DJ on the **Serato Stems Live 4 (SC L
 | [[Tracklists/Tracklists\|Tracklists]] | Setlists, crates, prepared playlists, "songs I want to mix next" |
 | [[Tutorials/Tutorials\|Tutorials]] | Index of video tutorials I'm watching with my own notes/takeaways |
 | [[Genre-Studies/Genre-Studies\|Genre-Studies]] | Genre breakdowns, BPM/key cheatsheets, transition theory, history |
+| [[resources\|Resources & Tools]] | Useful pages, discovery databases, and software (Discogs, etc.) |
 
 > Claude Code skills I use here (e.g. `/download-music`) live in [[../Claude/Skills/_index|Areas/Claude/Skills]] alongside all other Claude skills.
 
