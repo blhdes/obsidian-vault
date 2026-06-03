@@ -110,8 +110,8 @@ What makes a track read as *Villalobos / minimal*:
 ## Open threads to expand later
 
 - [ ] Listen through *Alcachofa* front to back and jot a track note for "Dexter" in `notes/`.
-- [ ] Dedicated **dub techno** genre note (Basic Channel / Rhythm & Sound lineage) — the harmonic backbone behind Villalobos's chords.
-- [ ] Dedicated **rominimal** note (Arpiar / Cabinet) once I've explored it.
+- [x] Dedicated **dub techno** genre note → [[dub-techno]] (the harmonic backbone behind his chords).
+- [x] Dedicated **rominimal** note → [[rominimal]] (the Romanian scene he championed).
 - [ ] Try a patient, layered minimal blend in Engine DJ — practise 2–3 minute EQ-led transitions instead of quick cuts.
 - [ ] Check the picked early records (*Heike*, *808 The Bassqueen*) against Discogs for accurate years/labels.
 

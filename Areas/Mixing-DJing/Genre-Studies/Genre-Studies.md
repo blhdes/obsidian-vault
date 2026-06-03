@@ -56,6 +56,8 @@ tags: [genre, <genre-slug>]
 - [[idm]] — Warp-lineage "intelligent dance music", off-the-dancefloor electronica (to explore)
 - [[industrial-gothic-techno]] — EBM + industrial + goth convergence, Berlin 2010s–20s
 - [[ricardo-villalobos]] — artist-as-genre: minimal techno + microhouse, the deep/hypnotic Perlon world
+- [[dub-techno]] — Basic Channel / Chain Reaction lineage: one detuned chord, drenched in echo (the deep-minimal ancestor)
+- [[rominimal]] — Romanian minimal ([a:rpia:r] / Bucharest): drier, deeper, marathon-set minimal (the descendant)
 - [[notes/notes|notes/]] — small slices on individual tracks, artists, and labels (max 500 lines each)
 
 ## Related
