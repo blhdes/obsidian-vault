@@ -16,7 +16,7 @@ status: failed
 > **Update 2026-06-03:** the arc code (`GalleryArcView.swift`, `FanArcShape`,
 > `SidebarLayout.swift`) was **deleted** when the two-signal sidebar shipped — it now
 > lives only in git history (recover from commit `d6d443a`). See
-> [[Projects/Culla/Phases/phase-sidebar-v2-port|phase-sidebar-v2-port]].
+> [[phase-sidebar-v2-port]].
 
 ## The Idea
 

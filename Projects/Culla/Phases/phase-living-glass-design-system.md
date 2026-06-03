@@ -32,15 +32,15 @@ A reusable set of glass surfaces in `culla/Helpers/`, ported and adapted from th
 
 Ported from culla-music's `PlaylistSidebarView`. Replaced the single weak highlight (`neonColor.opacity(0.85)`, which fails for pale neons) with a **two-signal** pattern: gradient fill **+** a 3pt solid leading bar (luminance-independent, works for any color). Plus a continuous `textOpacity` ramp tied to `dragProgress` (no snap at the drag boundary) and a material cap so a sliver of the photo always bleeds through.
 
-The dead **arc layout** (`GalleryArcView`, `FanArcShape`, `SidebarLayout`) was **deleted** in the same effort — see [[Projects/Culla/Ideas/c-arc-gallery-layout|the arc postmortem]] and [[Projects/Culla/Phases/phase-sidebar-v2-port|phase-sidebar-v2-port]].
+The dead **arc layout** (`GalleryArcView`, `FanArcShape`, `SidebarLayout`) was **deleted** in the same effort — see [[c-arc-gallery-layout|the arc postmortem]] and [[phase-sidebar-v2-port]] (both archived).
 
 ## 3. Carousel refine (`/swift-refine`)
 
-`PhotoCarouselBackground.swift` tightened (commit `aba8ba8`): cancel-aware load (fixes a wrong-album race on fast switching), caching released per batch, noise grain computed once, and `manager.images` hoisted in the `Canvas` draw closure. Details in [[Projects/Culla/Dev-Insights/calendar-and-carousel-performance-journey|the carousel performance journey (§11)]].
+`PhotoCarouselBackground.swift` tightened (commit `aba8ba8`): cancel-aware load (fixes a wrong-album race on fast switching), caching released per batch, noise grain computed once, and `manager.images` hoisted in the `Canvas` draw closure. Details in [[calendar-and-carousel-performance-journey|the carousel performance journey (§11)]].
 
 ## 4. Features turned off (code retained)
 
-- **Freemium model + paywall** — `SubscriptionManager.isPro` is hard-coded to `true`; everyone is treated as Pro, every gate is dormant. See [[Projects/Culla/Phases/phase-paywall-redesign|phase-paywall-redesign]] and [[Projects/Culla/Phases/phase-freemium-gates|phase-freemium-gates]].
+- **Freemium model + paywall** — `SubscriptionManager.isPro` is hard-coded to `true`; everyone is treated as Pro, every gate is dormant. See [[phase-paywall-redesign]] and [[phase-freemium-gates]] (both archived).
 - **CullaEyes mascot** — every call site is commented out; the Settings toggle is removed. `CullaEyes.swift` retained.
 
 ## Related

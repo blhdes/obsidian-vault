@@ -125,8 +125,8 @@ enum OnboardingKey {
 - **`drawingGroup()` required** — Canvas blend mode `.destinationOut` only works correctly when the view is composited off-screen first.
 - **`GallerySelectionSheet` kept** — still accessible from SwipeView's Manage button as a quick-access shortcut during active sessions.
 
-Related: [[Projects/Culla/Phases/phase-onboarding-gallery-selection]]
-See also: [[Projects/Culla/Culla]]
+Related: [[phase-onboarding-gallery-selection]]
+See also: [[Culla]]
 
 ---
 

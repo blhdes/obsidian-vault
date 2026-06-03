@@ -51,5 +51,5 @@ Dismissible per session (`@State var limitedBannerDismissed`).
 
 ## Related
 
-- [[Projects/Culla/Phases/phase-onboarding-gallery-selection|Phase: Onboarding Gallery Selection]]
-- [[Projects/Culla/Culla|Culla]]
+- [[phase-onboarding-gallery-selection|Phase: Onboarding Gallery Selection]]
+- [[Culla]]

@@ -8,7 +8,7 @@ tags: [culla, freemium, monetisation, phase]
 
 Commit: `d3fb7c7` — *feat: add freemium gates for free tier limits*
 
-Related: [[Projects/Culla/Phases/phase-paywall-redesign]]
+Related: [[phase-paywall-redesign]]
 
 ## What we built
 

@@ -86,7 +86,7 @@ No new files. No data-model changes. No new helpers. `isLongPress` parameter and
 
 **Decisions:** (1) **Deleted** the arc enum + `GalleryArcView` (recoverable from `d6d443a`). (2) Per-row identity → **skipped**; text-only rows, the two-signal highlight carries it. (3) Reduce-motion → left the focal `isHighlighted` spring on. Original reasoning preserved below.
 
-1. **Delete the arc enum + `GalleryArcView`, or keep them dormant?** They carry a "restore in vNext" TODO, but if the arc shape has known SwiftUI clip-shape problems, it's speculative storage. Lean **delete** — easier to resurrect from git history than to debug stale dead branches. Related: see [[Projects/Culla/Ideas/c-arc-gallery-layout|c-arc-gallery-layout]] in Ideas.
+1. **Delete the arc enum + `GalleryArcView`, or keep them dormant?** They carry a "restore in vNext" TODO, but if the arc shape has known SwiftUI clip-shape problems, it's speculative storage. Lean **delete** — easier to resurrect from git history than to debug stale dead branches. Related: see [[c-arc-gallery-layout]] in Ideas.
 2. **Per-row identity element** — count badge (cheap: `gallery.sortedPhotos.count`), latest-photo thumb (expensive: async Photos fetch), or skip both? Current proposal skips both.
 3. **Reduce-motion** — the existing `.spring(response: 0.32...)` on `isHighlighted` is focal (responding to user input), not ambient → leave on per SKILL.md convention.
 
@@ -101,6 +101,6 @@ No new files. No data-model changes. No new helpers. `isLongPress` parameter and
 
 ## Related
 
-- [[Projects/Culla/Ideas/c-arc-gallery-layout|c-arc-gallery-layout]] — original arc idea
+- [[c-arc-gallery-layout]] — original arc idea
 - culla-music repo at `/Users/agomezu/Claude/culla-music-app` — reference implementation
 - `LEARNINGS.md` entries (2026-05-20) on Liquid Glass gating + (2026-05-27) on List re-skinning — relevant background
