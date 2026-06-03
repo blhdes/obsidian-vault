@@ -23,7 +23,7 @@ Hardware and software manuals, plus my own distilled cheatsheets.
 
 ## Notes in this folder
 
-_None yet — add the first one._
+- [[engine-dj-sc-live-4-workflow|Engine DJ → SC Live 4 Workflow]] — import, prep cues/loops, export to USB/SD, sync back (Engine DJ 5.0)
 
 ## Related
 
