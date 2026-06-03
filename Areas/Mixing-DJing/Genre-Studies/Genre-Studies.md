@@ -55,6 +55,7 @@ tags: [genre, <genre-slug>]
 - [[ambient]] — beatless / drone / hauntology lineage from Eno to Burial
 - [[idm]] — Warp-lineage "intelligent dance music", off-the-dancefloor electronica (to explore)
 - [[industrial-gothic-techno]] — EBM + industrial + goth convergence, Berlin 2010s–20s
+- [[ricardo-villalobos]] — artist-as-genre: minimal techno + microhouse, the deep/hypnotic Perlon world
 - [[notes/notes|notes/]] — small slices on individual tracks, artists, and labels (max 500 lines each)
 
 ## Related
