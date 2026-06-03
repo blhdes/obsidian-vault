@@ -2,10 +2,18 @@
 title: "Phase: Custom Paywall & Pre-Release Polish"
 date: 2026-04-25
 tags: [culla, paywall, revenuecat, phase, pre-release, app-store]
-status: in-progress
+status: shipped-then-shelved
 ---
 
 # Phase: Custom Paywall & Pre-Release Polish
+
+> [!note] Status 2026-06-03 — shipped, then shelved
+> The custom paywall, trial logic, and visual redesign all shipped. Since then the
+> **entire freemium model was temporarily disabled** — `SubscriptionManager.isPro`
+> returns `true` for everyone, so the paywall and every gate are dormant in the current
+> build. The "Open / pending" checklist below (ASC intro offer, sandbox end-to-end,
+> App Store submission) is therefore **deferred** until freemium is re-enabled, not
+> active work. Code is fully retained.
 
 Pre-release phase focused on replacing the RevenueCatUI dependency with a fully custom paywall, wiring up trial logic, and polishing the UI to match Culla's visual identity before App Store submission.
 

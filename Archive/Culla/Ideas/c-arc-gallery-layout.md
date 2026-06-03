@@ -13,7 +13,10 @@ status: failed
 > shipped behind a setting never reached "design final," so it's now **deactivated**
 > (forced back to Panels). The ambitious radial / angle-hit-test version below was
 > never built. Worth **revisiting in the future** — see the postmortem at the bottom.
-> Code kept for a future attempt: `GalleryArcView.swift` + `FanArcShape`.
+> **Update 2026-06-03:** the arc code (`GalleryArcView.swift`, `FanArcShape`,
+> `SidebarLayout.swift`) was **deleted** when the two-signal sidebar shipped — it now
+> lives only in git history (recover from commit `d6d443a`). See
+> [[Projects/Culla/Phases/phase-sidebar-v2-port|phase-sidebar-v2-port]].
 
 ## The Idea
 
@@ -122,7 +125,9 @@ much simpler version than the radial design sketched above:
 
 **Decision:** deactivated — `SwipeView.sidebarLayout` is forced to `.panels`, and the
 Settings picker is hidden (both behind `ARC SIDEBAR … restore in vNext` markers). The
-arc code (`GalleryArcView`, `FanArcShape`) is **kept** for a future attempt.
+arc code (`GalleryArcView`, `FanArcShape`, `SidebarLayout`) was kept dormant at the time —
+but **deleted on 2026-06-03** (recover from git `d6d443a`) once it was clear the dead
+branches were only bloating `SwipeView` / `SettingsView`.
 
 **If revisited:** don't clip a VStack. Build it from geometry — place each gallery
 segment on the arc directly (Canvas or absolute positioning) and hit-test by drag

@@ -238,6 +238,32 @@ One gotcha discovered later: if the id doesn't encode everything the task depend
 
 ---
 
+## 11. Carousel: `.task(id:)` cancellation doesn't reach a continuation-based load (2026-06-03)
+
+Section #10 says `.task(id:)` "cancels the old task and fires a new one." True — but that's only half the story, and the other half was a real bug.
+
+`PhotoBackgroundManager.load()` fetches up to 36 thumbnails in a loop: `for asset { await fetch(asset) }`, where `fetch` wraps Photos' callback `requestImage` in `withCheckedContinuation`. **A bare continuation does not honor cancellation** — it keeps awaiting until its callback fires. So on a fast album switch:
+
+- The superseded load kept fetching all remaining images for an album the user had already left (pure waste).
+- Worse, the old and new `load()` interleave on the same `@MainActor` object, and **both assign `self.images` at the end**. Last writer wins — which could be the *old* album. Fast switching could leave the wrong album's photos on screen.
+
+The fix (`/swift-refine`, commit `aba8ba8`): opt into cancellation explicitly.
+
+```swift
+for asset in assets {
+    if Task.isCancelled { return }        // stop fetching for the stale album
+    if let img = await fetch(asset) { loaded.append(img) }
+}
+guard !Task.isCancelled else { return }   // don't let a superseded load clobber the current album
+images = loaded
+```
+
+**Lesson:** cancellation only reaches an `await` site that opts in. Any callback bridge (`withCheckedContinuation`, delegate, completion handler) won't return on cancel by itself — put `if Task.isCancelled { return }` at the top of the awaiting loop *and* a `guard` right before the final state write. A "sometimes shows the previous album after a fast switch" symptom that tracks *switch speed* is this race, not a fetch bug.
+
+Same pass also: released the previous batch's `stopCachingImagesForAllAssets()` before priming a new one (caching used to accumulate across switches), computed the noise grain once instead of per switch, and hoisted `manager.images` to a local inside the `Canvas` draw closure (was an observation-tracked read per cell per frame).
+
+---
+
 ## The before/after, roughly
 
 | | Before | After |
