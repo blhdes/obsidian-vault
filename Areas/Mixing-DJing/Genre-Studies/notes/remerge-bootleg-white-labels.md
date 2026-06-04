@@ -43,4 +43,5 @@ A concept to dig into: the underground world of **bootleg white-label 12" mashup
 
 - [[ambient]] — Burial's home lineage
 - [[dub-techno]] — Basic Channel's home lineage
-- [[Genre-Studies|Genre Studies index]]
+- [[blaou]] — the label that put out one of these (`blaou 036`)
+- [[../Genre-Studies|Genre Studies index]]

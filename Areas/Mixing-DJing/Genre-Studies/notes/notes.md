@@ -18,6 +18,8 @@ Small slices of info about specific tracks, artists, or labels worth remembering
 ## Notes in this folder
 
 - [[mcqueens-beat-dj-rush]] — relentless Chicago ghetto/hard house from *Traks Couture* (1996)
+- [[blaou]] — **label** · Berlin house/techno imprint since 1996 (Mathias Schaffhäuser); first label met via a vinyl rip
+- [[remerge-bootleg-white-labels]] — **concept** · bootleg white-label 12" mashups (Remerge / RE-XXX); anchor track Burial vs Basic Channel "Arch Trak"
 
 ## Related
 

@@ -58,9 +58,7 @@ tags: [genre, <genre-slug>]
 - [[ricardo-villalobos]] — artist-as-genre: minimal techno + microhouse, the deep/hypnotic Perlon world
 - [[dub-techno]] — Basic Channel / Chain Reaction lineage: one detuned chord, drenched in echo (the deep-minimal ancestor)
 - [[rominimal]] — Romanian minimal ([a:rpia:r] / Bucharest): drier, deeper, marathon-set minimal (the descendant)
-- [[remerge-bootleg-white-labels]] — bootleg white-label 12" mashups (Remerge / RE-XXX); anchor track Burial vs Basic Channel "Arch Trak" (to explore)
-- [[blaou]] — **label** · Berlin house/techno imprint since 1996 (Mathias Schaffhäuser); first label I met via a vinyl rip (to explore)
-- [[notes/notes|notes/]] — small slices on individual tracks, artists, and labels (max 500 lines each)
+- [[notes/notes|notes/]] — small slices on individual tracks, artists, and labels (max 500 lines each) — incl. [[blaou]] and [[remerge-bootleg-white-labels]]
 
 ## Related
 

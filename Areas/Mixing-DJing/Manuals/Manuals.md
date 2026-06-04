@@ -25,6 +25,7 @@ Hardware and software manuals, plus my own distilled cheatsheets.
 
 - [[engine-dj-sc-live-4-workflow|Engine DJ → SC Live 4 Workflow]] — import, prep cues/loops, export to USB/SD, sync back (Engine DJ 5.0)
 - [[sc-live-4-fx-pad-cheatsheet|SC Live 4 — FX & Pad Cheatsheet]] — what every Sweep/Touch/Main FX and pad mode does (Engine OS 5.0)
+- [[sc-live-4-stems|SC Live 4 — Stems Manual]] — license, pre-render in Engine Desktop, export, and play stems on the unit
 
 ## Related
 

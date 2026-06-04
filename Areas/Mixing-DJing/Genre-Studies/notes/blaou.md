@@ -15,6 +15,7 @@ The first **classic Berlin house/techno label** I ran into via a vinyl rip. Wort
 - **Run by:** Dittmar Frohmann; **Mathias Schaffhäuser** is the label's central, most-prolific artist (a German house/techno producer who also ran the *Ware* label).
 - **Base:** Berlin (Neukölln → Kreuzberg). Label code **LC 2119**.
 - **Size:** ~**52 releases**, mostly 12" vinyl, running from 1996 through the mid/late-2000s.
+- **Discogs:** [Blaou — label page](https://www.discogs.com/label/1376611-Blaou) (catalogue, releases, profile).
 
 ## Why it stuck with me
 
@@ -36,6 +37,7 @@ I encountered it through `blaou 036` — **The KLF vs. Ricardo Villalobos – Wh
 
 - [[ricardo-villalobos]] — the artist behind my first Blaou release
 - [[remerge-bootleg-white-labels]] — the bootleg/white-label side of the story
-- [[Genre-Studies|Genre Studies index]]
+- [Blaou on Discogs](https://www.discogs.com/label/1376611-Blaou)
+- [[../Genre-Studies|Genre Studies index]]
 
 > 🗂️ **Label note.** Once there are a few of these, split a dedicated `Labels/` folder out of Genre-Studies and move the `label`-tagged notes there.

@@ -98,6 +98,20 @@ Swipe in any direction on the XY pad to morph an effect — instant build-ups, d
 
 ---
 
+## When to reach for what
+
+| Moment | Grab |
+|---|---|
+| Long build into a drop | **Reverb Rise** or **Riser** (16–32 beats) |
+| Pump / drop feel on the kick | **Reverb Drop** |
+| Hard cut, leave a tail | **Echo Out** or **Wash Out** |
+| Smooth blend between tracks | Sweep **Filter** to carve space, **Echo** to bridge |
+| Hypnotic movement (dub / minimal) | **LFO Filter** or **Auto Gate** |
+| Drum fill / breakbeat moment | **Beat Break** or **Roll** |
+| Stop the track dead | **Brake** or **Backspin** |
+
+---
+
 ## Related
 
 - [[engine-dj-sc-live-4-workflow|Engine DJ → SC Live 4 Workflow]] — getting tracks/cues/loops onto the unit
