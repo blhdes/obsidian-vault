@@ -17,3 +17,4 @@ One note per sketch. Useful things to jot down:
 ## Sketches
 
 - [[techno-sketch-01|Techno Sketch 01 — Foundation]] — 130 BPM · A minor · early-90s techno club; 4-scene mini-arrangement (Intro/Build/Drop/Break) playable in Session View; Arrangement + mix + export next
+  - 🎛 [[techno-sketch-01-deepening/techno-sketch-01-deepening|Deepening Phase]] — dedicated folder, 10 numbered layer-by-layer steps + live checklist (1/10 done)

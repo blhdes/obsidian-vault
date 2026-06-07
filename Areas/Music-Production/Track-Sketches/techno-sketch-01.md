@@ -131,25 +131,13 @@ See:
 - **Worked:** the loop went from "stamping" to "flowing" — the shaker glues the offbeats together and adds forward drive without touching the low end. The classic kick/bass/hat skeleton now has connective tissue.
 - **Worth noticing:** because the shaker is high and short, it sits *above* the kick — no mud, even running 16ths under a busy four-on-the-floor. Same "stay out of each other's way" logic as kick/bass interlock, but in frequency.
 - **To try later:** per-scene variation — shaker off in Intro, full in the Drop — to add energy at the drop. Also a velocity groove (accent the `a` over the `e`) so it breathes.
-- **Status:** drums + bass + lead + shaker, 4 scenes, filter sweep. First deepening layer in. See [[../Techniques/percussion-layering|Percussion Layering]].
+- **Status:** drums + bass + lead + shaker, 4 scenes, filter sweep. First deepening layer in. See [[techno-sketch-01-deepening/01-percussion-layer|Percussion Layering]].
 
 ## What's next
 
-**Entering a deepening sub-phase before recording.** The skeleton (drums + bass + acid lead + 4 scenes + filter sweep) works, but the user wants the sketch to feel fuller before committing it to Arrangement. Each upcoming session adds **one layer or effect**, then we revisit whether the track is ready to commit.
+**Entering a deepening sub-phase before recording.** The skeleton (drums + bass + acid lead + 4 scenes + filter sweep) works, but the user wants the sketch to feel fuller before committing it to Arrangement. Each session adds **one layer or effect**, in a fixed order, one per session.
 
-**Deepening menu** (mirrored in Progress.md):
-- Percussion layer (shaker / clave / rim on offbeats)
-- Pad / atmosphere (long A minor chord bed under the lead)
-- Counter-melody / second stab
-- Sidechain compression (bass ducking under kick)
-- Lead distortion / saturation
-- Reverb + delay send on the lead
-- Riser / noise sweep into the Drop
-- Drum variation clips (no-kick drums for Break; fill clip)
-- Lead motif variations across Drops
-- Per-scene volume / filter automation
-
-User picks the next addition each session. Don't bundle.
+> 🎛 **The deepening phase has its own home base:** [[techno-sketch-01-deepening/techno-sketch-01-deepening|Techno Sketch 01 — Deepening Phase]] — all 10 numbered steps, a live checklist, and a "you are here" resume pointer. That folder is the source of truth for what's done and what's next.
 
 **After deepening is done:** Record scene jumps into Arrangement (foundation Session 7), mix pass, export to WAV.
 

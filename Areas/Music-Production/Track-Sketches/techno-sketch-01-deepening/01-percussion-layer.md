@@ -1,12 +1,17 @@
 ---
-title: Percussion Layering
+title: "Deepening 01 — Percussion Layer"
 date: 2026-06-01
 tags: [ableton, percussion, drums, groove, techno, deepening]
+status: done
+step: 1
+feeds-path: "Path 5 — Drum Pattern Depth"
 ---
 
-# Percussion Layering
+# 🥁 Deepening 01 — Percussion Layer
 
-Adding a **second, quieter percussion element** that fills the rhythmic gaps the main kit (kick / clap / hats) leaves open. It adds *movement* and *groove* without fighting the kick. The first "deepening" layer on [[../Track-Sketches/techno-sketch-01|Techno Sketch 01]].
+> Part of [[techno-sketch-01-deepening|Techno Sketch 01 — Deepening Phase]] · Step **1 of 10** · ✅ done 2026-06-01
+
+Adding a **second, quieter percussion element** that fills the rhythmic gaps the main kit (kick / clap / hats) leaves open. It adds *movement* and *groove* without fighting the kick.
 
 ## The idea in one line
 
@@ -51,7 +56,7 @@ The shaker takes every gap the hats leave → a continuous 16th-note shimmer tha
 ## Two finishing moves (both already in your toolkit)
 
 - **Velocity groove** — don't draw every shaker hit at the same loudness. Make the `a` hits a touch louder than the `e` hits (or vice-versa) and the line breathes instead of buzzing flatly. (You met velocity in mixing — Session 8.)
-- **Pan it off-center** — kick & bass stay dead-center; percussion can drift slightly left or right for width. (Panning rule from [[../Ableton/mixing-basics-and-effects|Session 8]].) Even ±15% opens up the stereo image.
+- **Pan it off-center** — kick & bass stay dead-center; percussion can drift slightly left or right for width. (Panning rule from [[mixing-basics-and-effects|Session 8]].) Even ±15% opens up the stereo image.
 
 ## Per-scene variation (deepening payoff)
 
@@ -70,4 +75,5 @@ Bringing the percussion *in* at the Drop adds one more layer of energy exactly w
 
 - [[open-vs-closed-hihat|Open vs Closed Hi-Hat]] — the hat pattern this layer interlocks with
 - [[kick-bass-interlock|Kick / Bass Interlock]] — same "take turns" logic
-- [[../Ableton/mixing-basics-and-effects|Mixing Basics & First Effects]] — velocity, panning, headroom
+- [[mixing-basics-and-effects|Mixing Basics & First Effects]] — velocity, panning, headroom
+- ⬆ Back to [[techno-sketch-01-deepening|Deepening home base]]

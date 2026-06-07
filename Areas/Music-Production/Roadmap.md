@@ -58,7 +58,7 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 
 ### Path 5 — 🥁 Drum Pattern Depth
 - **Status:** 🟡 Started
-- **Progress:** ~30% *(four-on-the-floor + backbeat in [[Ableton/making-a-midi-clip|Session 4]]; [[Techniques/open-vs-closed-hihat|open vs closed hi-hat + offbeat opens]] in the techno sketch kickoff; [[Techniques/percussion-layering|percussion layering]] — shaker in the 16th gaps)*
+- **Progress:** ~30% *(four-on-the-floor + backbeat in [[Ableton/making-a-midi-clip|Session 4]]; [[Techniques/open-vs-closed-hihat|open vs closed hi-hat + offbeat opens]] in the techno sketch kickoff; [[Track-Sketches/techno-sketch-01-deepening/01-percussion-layer|percussion layering]] — shaker in the 16th gaps)*
 - **Difficulty:** ★★☆☆☆
 - **Unlocks:** Beats that feel human, not robotic
 - **Topics:** ghost notes, fills, **swing / groove**, percussion layering, breakbeats
@@ -66,7 +66,8 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 
 ### Path 6 — 🎨 Make a Real Track Sketch  ⭐ **ACTIVE**
 - **Status:** 🟢 In progress
-- **Progress:** ~60% *(4-scene mini-arrangement playable: Intro / Build / Drop / Break — see [[Track-Sketches/techno-sketch-01|Techno Sketch 01]])*
+- **Progress:** ~62% *(4-scene mini-arrangement playable; now in the deepening phase — 1 of 10 layers done)*
+- **Current phase:** 🎛 **Deepening** — home base: [[Track-Sketches/techno-sketch-01-deepening/techno-sketch-01-deepening|Techno Sketch 01 — Deepening Phase]] (10-step checklist + resume pointer)
 - **Difficulty:** ★★★★☆ *(touches all other paths)*
 - **Goal:** A **1.5–2 minute original track**, in the spirit of **early-90s techno club**
 - **Reference vibe:** warehouse / club energy — driving four-on-the-floor, hypnotic bassline, sparse acid-y melodic stab, raw analog texture, hardly any modern polish

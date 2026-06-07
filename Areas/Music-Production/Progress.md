@@ -27,11 +27,13 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 Before recording into Arrangement and exporting, the user wants to **deepen the sketch** — add layers, effects, and complexity so the final track has more depth than the minimum skeleton.
 
+> 🎛 **Home base for this phase:** [[Track-Sketches/techno-sketch-01-deepening/techno-sketch-01-deepening|Techno Sketch 01 — Deepening Phase]] — the dedicated folder with all 10 numbered steps, a live checklist, and a "you are here" resume pointer. **Start there each session.**
+
 **Plan decided 2026-06-01:** the user committed to doing **all** deepening candidates, **in the listed order below, one per session** (not bundled). Work down the list top-to-bottom; mark each ✅ as it's done.
 
 **Candidates (in order):**
 
-- ✅ **Percussion layer** *(done 2026-06-01 — shaker on 16th gaps; see [[Techniques/percussion-layering]])* — second drum clip with shaker / clave / conga / rim on offbeats and 1/16s. Adds movement without crowding the kick. Could vary per scene.
+- ✅ **Percussion layer** *(done 2026-06-01 — shaker on 16th gaps; see [[Track-Sketches/techno-sketch-01-deepening/01-percussion-layer|01 — Percussion Layer]])* — second drum clip with shaker / clave / conga / rim on offbeats and 1/16s. Adds movement without crowding the kick. Could vary per scene.
 - **Pad / atmosphere** — long sustained chords (A minor triad notes) under the lead. Cinematic depth, room tone. Often filtered low so it sits as a "bed", not a melody.
 - **Counter-melody / secondary stab** — a second synth line answering the acid lead. Different timbre (e.g. plucky / metallic vs squelchy).
 - **Sidechain compression** — bass ducks under the kick (the "pumping" feel). Path 3 territory; turns the rhythmic interlock into proper pumping.
@@ -53,7 +55,7 @@ When the user says they're done deepening, *then* move to Session 6 (record into
 **Topic:** First **deepening** layer. Add a **percussion layer** — a quieter shaker running 16th notes in the gaps the main kit leaves — for movement and groove without crowding the kick. The user committed to working through *all* deepening candidates in order, one per session; this is #1.
 
 **Covered:**
-- [[Techniques/percussion-layering|Percussion Layering]] — what it is, why frequency + low volume keep it out of the kick's way, where the hits go, sound choices, per-scene variation
+- [[Track-Sketches/techno-sketch-01-deepening/01-percussion-layer|Percussion Layering]] — what it is, why frequency + low volume keep it out of the kick's way, where the hits go, sound choices, per-scene variation
 - [[Track-Sketches/techno-sketch-01|Techno Sketch 01]] — shaker track added on the 16th-note offbeats; loop now has continuous forward shimmer
 
 **Key takeaways:**
