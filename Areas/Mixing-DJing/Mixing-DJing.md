@@ -13,6 +13,7 @@ Home for everything related to learning to DJ on the **Denon DJ SC LIVE 4** (sta
 | Folder | What lives here |
 |---|---|
 | [[Manuals/Manuals\|Manuals]] | Hardware + software manuals, quick-reference cheatsheets (SC LIVE 4, Engine DJ, etc.) |
+| [[Library/Library\|Library]] | Monthly snapshots of what's *in* `~/Music/Library/` — exact on-disk tags per imported release |
 | [[Tracklists/Tracklists\|Tracklists]] | Setlists, crates, prepared playlists, "songs I want to mix next" |
 | [[Tutorials/Tutorials\|Tutorials]] | Index of video tutorials I'm watching with my own notes/takeaways |
 | [[Genre-Studies/Genre-Studies\|Genre-Studies]] | Genre breakdowns, BPM/key cheatsheets, transition theory, history |
