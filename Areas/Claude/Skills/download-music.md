@@ -10,7 +10,8 @@ A toolkit for building and cleaning up my local DJ library under `~/Music/Librar
 
 - **Download** — pull audio from YouTube at max quality and embed the album art.
 - **Covers** — make sure files already on disk show artwork (Discogs first, MusicBrainz / iTunes as fallbacks). Works on *any* audio, not just things this skill downloaded.
-- **Tags** — fix artist / title / album / year from MusicBrainz, optionally renaming files to match.
+- **Tags** — fix artist / title / album / year from MusicBrainz **and** refine the genre from Discogs styles, optionally renaming files to match.
+- **Library notes** — snapshot what's actually *in* the Library each month (Soulseek imports + their on-disk tags) into the Obsidian vault.
 
 Implemented as a **slash command** (not a `SKILL.md`): typing `/download-music …` loads `~/.claude/commands/download-music.md` and Claude follows it.
 
@@ -24,8 +25,10 @@ Implemented as a **slash command** (not a `SKILL.md`): typing `/download-music �
 | `/download-music covers <folder>` | Backfill art into every file in a folder that's missing it |
 | `/download-music covers options <file-or-folder>` | List the different Discogs cover versions (with viewable URLs) |
 | `/download-music covers set <file-or-folder> <n>` | Embed the version `n` you picked |
-| `/download-music tags <file-or-folder>` | Fix artist/title/album/year (previews first, writes nothing) |
+| `/download-music tags <file-or-folder>` | Fix artist/title/album/year from MusicBrainz **and** refine genre from Discogs (previews first, writes nothing) |
+| `/download-music tags genre <file-or-folder>` | Refine **only** the genre from Discogs styles — for an already-clean library |
 | `/download-music tags rename <file-or-folder>` | Same as `tags`, plus rename files to the clean title |
+| `/download-music library [month-year]` | Snapshot this month's Soulseek imports + their on-disk tags into the vault (`Areas/Mixing-DJing/Library/`) |
 
 Accepts a single track, a playlist URL, or "grab the rest of the EP too" from one track.
 
@@ -98,17 +101,28 @@ The cover commands need a free Discogs personal access token; everything else wo
 ├── embed_cover.py    ← cover for one downloaded file
 ├── cover_folder.py   ← backfill covers across a folder
 ├── cover_picker.py   ← list / set a specific Discogs version
-├── fix_metadata.py   ← MusicBrainz tag fixer (+ rename)
+├── fix_metadata.py   ← MusicBrainz tags + Discogs genre fixer (+ rename)
 ├── queue.md          ← the download queue
 └── .discogs_token    ← optional Discogs token
 ```
 
 For the step-by-step bash and edge-case rules, read the command file above — this note is just the map.
 
+## Monthly library note
+
+`/download-music library` keeps a human-readable record of what's actually **in** the Library, in the vault at `Areas/Mixing-DJing/Library/`. One note per month (`june-2026.md`, …) lists every release moved in from Soulseek that month with its **exact on-disk tags** — artist / title / album / year / genre / format — so I can audit genres (the tag Engine DJ reads but never fixes) without opening files.
+
+- **Source of truth for *what* to include:** the Soulseek log (`~/Soulseek Downloads/_downloaded-sources.md`). Anything not logged there is skipped.
+- **Source of truth for the *tags*:** the files on disk.
+- Each release gets a provenance line (uploader · quality · move date) + a per-track table, plus a "tag-check notes" section flagging missing/weak genres.
+
+See [[../../Mixing-DJing/Library/Library|the Library index]].
+
 ## Related notes
 
 - [[_index]] — Claude skills index
 - [[../claude-config-files|claude-config-files]] — how Claude's config layering works
 - [[../../Mixing-DJing/Mixing-DJing|Mixing & DJing area]] — main consumer of this skill
+- [[../../Mixing-DJing/Library/Library|Library notes]] — the monthly snapshots this skill writes
 </content>
 </invoke>
