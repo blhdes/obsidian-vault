@@ -20,8 +20,9 @@ Where we are in getting **Culla Music** onto the App Store. Picking this up tomo
   - Added a debug switch to preview it: `Helpers/DebugFlags.swift` → flip `previewLegacyUI` to `true`, build, look around, flip back. It's `#if DEBUG`-wrapped, so it can never ship enabled.
 - **Launch screen** — already auto-generated (`UILaunchScreen_Generation = YES`). Nothing to do.
 - **First-use onboarding (2026-06-09)** — added before shipping so new users aren't dropped into the gesture-heavy swipe screen blind. Three one-time hints, each shown once then never again:
-  - **Swipe gesture guide** — a dimmed compass overlay on first populated deck (↑ Love · ← Dismiss · → Add to playlist · ↓ Share), plus "drag right, then slide up/down to pick the playlist" and "double-tap to skip". New file `Views/SwipeGuideOverlay.swift`.
-  - **Home hero hint** — "Drag to peek · tap to browse covers" capsule under the cover stack (the fan looked static; its drag/tap gestures were undiscoverable).
+  - **Swipe gesture guide** — full-screen compass on first populated deck (↑ Love · ← Dismiss · → Add to playlist · ↓ Share), on an *opaque* `systemBackground` (not a see-through scrim, so it doesn't blend with the deck) and all-semantic colors (correct in light + dark). Also teaches "drag right → slide up/down to pick the playlist", "double-tap to skip", and "tap a card's ⓘ for artist details". New file `Views/SwipeGuideOverlay.swift`.
+  - **Home hero hint** — "Drag to peek · tap to browse covers" capsule, floated as an *overlay* on the hero (not a layout row) so dismissing it fades without reflowing the screen. The fan looked static; its drag/tap gestures were undiscoverable.
+  - **Note:** sidebar drop-targets are auto-seeded on first launch and an empty sidebar auto-opens Manage on a right-swipe, so no "make a playlist first" tooltip is needed.
   - Existing **Dismissed long-press tip** folded into a shared `CoachTip` (`Helpers/CoachTip.swift`), which also holds `OnboardingFlags` (one place for all the once-seen keys).
   - **Testing:** the tips only show once. To replay them on device without reinstalling, flip `Helpers/DebugFlags.swift` → `replayOnboardingTips = true`, build, then back to `false`. `#if DEBUG`-wrapped, can't reach Release.
 
