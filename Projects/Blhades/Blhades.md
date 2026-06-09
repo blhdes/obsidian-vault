@@ -23,9 +23,12 @@ A monochrome (black/white only) collection of heavyweight boxy t-shirts, treated
 - **IX — ✻** (houndstooth-filled star glyph)
 
 ## Status
-- Storefront built privately at `/preview` (see web project `blhades-web-temp`).
+- Storefront built privately at `/preview` (repo `blhades-web-temp`): home catalog + product pages + waitlist all working locally, nothing deployed yet.
+- "Reserve" collects a waitlist email (→ Buttondown). Pending: add the API key to `backend/.env`.
 - Design locked: white surface + Inter captions + stagger layout.
 - Planned swap to live `/` on **12 Aug 2026** launch.
+- Full detail → [[Projects/Blhades/web-build-status|Web Build Status]].
 
 ## Notes
+- [[Projects/Blhades/web-build-status|Web Build Status]] — what's built, architecture, and next steps.
 - [[Projects/Blhades/couture-references|Couture & luxury-house references]] — where the aesthetic sits in the fashion landscape.
