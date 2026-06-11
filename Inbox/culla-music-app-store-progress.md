@@ -127,6 +127,16 @@ https://culla.app/music
 
 **Copyright** — `2026 ` + your full legal name as on the Apple Developer account. No © symbol (App Store Connect adds it). Not "Culla Music" — the field names the rights *holder* (you), not the brand.
 
+### Accessibility Nutrition Label (checked against code 2026-06-11)
+
+Check **only**: **Dark Interface** ✅ and **Reduced Motion** ✅ (15 files honor the system setting).
+
+Everything else stays unchecked:
+- **VoiceOver / Voice Control** — the swipe deck is gesture-only; no accessibility actions or button equivalents for add/dismiss/love, so the core flow is inoperable. *Best post-launch a11y improvement: add `accessibilityAction`s to the song card.*
+- **Larger Text** — 35 fixed-size fonts on real text; untested at accessibility sizes.
+- **Differentiate Without Color / Sufficient Contrast** — no handling, no audit.
+- **Captions / Audio Descriptions** — N/A, no video or spoken-word content.
+
 ### #6 — Reviewer notes
 
 > App Store Connect → your version → **App Review Information → Notes**.
