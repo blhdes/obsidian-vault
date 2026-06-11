@@ -64,13 +64,28 @@ swipe,sort,playlist,organize,library,cleanup,declutter,curate,songs,tracks,manag
 ```
 86 chars. No "Apple Music" (Apple's trademark, gets flagged). Room for ~1 more, e.g. `,triage`.
 
-**Promotional Text** — *max 170 chars, editable anytime without re-review*
+**Promotional Text** — *max 170 chars, editable anytime without re-review* ✏️ *final wording (2026-06-11)*
 ```
-Stop scrolling, start swiping. Culla Music turns sorting your library into one quick decision at a time — swipe right to file a song, left to skip, up to love it.
+Stop scrolling, start swiping. Culla Music turns sorting your library into one quick decision at a time — swipe right to playlist a song, left to dismiss, up to love it.
 ```
-159 chars.
+169 chars — just under the limit, so don't add anything without removing something.
 
-**Description** — *max 4000 chars (this draft ≈ 1,750)*
+**Description** — *max 4000 chars* ✏️ *short first version (2026-06-11, 972 chars) — paste this one*
+```
+Culla Music is the fast way to sort your Apple Music library. It deals you one song at a time, starts playing it, and you decide with a swipe: right adds it to a playlist, left dismisses it, up sends it to your Loved playlist. Small pills show which playlists a song is already in, so you never sort the same song twice.
+
+Sort from anywhere you like: your whole library, just the songs that aren't in any playlist yet, the pile you dismissed earlier, or any playlist or artist you pick.
+
+Make it feel like yours. The Settings screen lets you customize the whole experience, from themes and accent colors to haptics and playback.
+
+Culla Music works with your existing Apple Music library. With a subscription you hear full songs; without one you hear 30-second previews, and the sorting flow stays exactly the same. Support for more platforms, starting with Spotify, is already on our roadmap.
+
+No accounts, no data collection, no tracking. Everything stays on your device.
+```
+*Heads-up: Apple's metadata rules (Guideline 2.3) want the description to match what the app does today, so the Spotify/roadmap sentence is the one a reviewer could push back on. If the submission gets flagged for it, cut that sentence first.*
+
+<details><summary>Longer description (≈ 1,750 chars) — saved for a later update once the listing is live</summary>
+
 ```
 Culla Music turns the chore of organizing your music into something you'll actually finish. It shows you one song at a time and asks a single question: where does this go? Swipe right to file it onto a playlist, swipe left to skip it, swipe up to love it. One decision at a time, until your library is sorted.
 
@@ -87,7 +102,6 @@ WHAT YOU CAN DO
 • Never re-sort a song — small pills show which playlists each song already lives in.
 • Audition new music — scope the deck to an Apple-curated or editorial playlist to discover tracks that aren't in your library yet.
 • Artist hub — tap a song's info for the artist's top tracks, similar artists, and a short bio.
-• Undo anything — every swipe is reversible, including the change made to your Apple Music playlists.
 • Make it yours — light/dark themes, accent colors, haptics, auto-play, and more in Settings.
 
 WORKS WITH OR WITHOUT A SUBSCRIPTION
@@ -96,6 +110,8 @@ Culla Music works with your existing Apple Music library. With an Apple Music su
 YOUR DATA STAYS YOURS
 Culla Music collects no data and includes no tracking. Your library and your choices never leave your device.
 ```
+
+</details>
 
 ### #6 — Reviewer notes
 
