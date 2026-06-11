@@ -31,5 +31,6 @@ A monochrome (black/white only) collection of heavyweight boxy t-shirts, treated
 
 ## Notes
 - [[Projects/Blhades/web-build-status|Web Build Status]] — what's built, architecture, and next steps.
-- [[Projects/Blhades/production-plan|Production Plan]] — print-on-demand model, the Freestyler blank, producer shortlist, sample next steps.
+- [[Projects/Blhades/production-plan|Production Plan]] — Phase 0 Barcelona bootstrap, producer/printer directory, fabric spec, next steps.
+- [[Projects/Blhades/printing-techniques|Printing Techniques — Reference Paper]] — every print method (screen, DTG, DTF, HTV, sublimation, embroidery, tampography) with Wikipedia references + fabric vocabulary appendix.
 - [[Projects/Blhades/couture-references|Couture & luxury-house references]] — where the aesthetic sits in the fashion landscape.
