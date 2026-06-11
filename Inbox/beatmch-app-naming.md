@@ -6,7 +6,10 @@ tags: [beatmch, naming, branding, idea]
 
 # beatmch app naming exploration
 
-**Status:** decision still open — no name picked yet.
+**Status:** ✅ **decided 2026-06-10 — the app is named Doppio.**
+*Doppio movimento* — the score marking for "twice as fast" — plus the espresso
+double-shot wink. Chosen over Twixt (runner-up) after the App Store search-lane
+check below.
 
 ## The reframe (important)
 
@@ -41,5 +44,39 @@ Short for "betwixt" = *in between*. The app is the space **between** half and do
 - **Tempt** if keeping the name already liked (now that it has a reason).
 - **Twixt** if the cleverness should be self-evident without explaining it.
 
-## If/when a name is chosen
-Rename touches: `project.yml`, `Info.plist`, the `beatmch/` folder, the `.xcodeproj`, and `README.md`.
+## 2026-06-10 — App Store reality check + Italian round
+
+Checked the actual App Store search lane for each shortlist name (a name is only good
+if people can find the app by typing it):
+
+- **Tempt** — effectively taken: *Tempt: Romance Audiobooks* is established and owns
+  the word in search. Discoverability would lean entirely on the subtitle.
+- **Twixt** — nearly clear; only neighbour is *Twixt Time*, a dormant $9.99
+  watch-accuracy app from 2013. A free real-English word — rare.
+- **Dubble** — homophone swamp (Doubble dating, Double, Dubble Bubble Shooter,
+  dubbii). Autocorrect fights the spelling forever. Effectively out.
+
+Useful fact: the App Store subtitle (30 chars) is indexed for search, so a
+non-descriptive name costs nothing if the subtitle carries the keywords
+(e.g. "Half & double time BPM").
+
+### New candidates — real musical Italian for half/double
+
+- **Doppio** — *doppio movimento* is the actual score marking for "twice as fast";
+  plus the espresso double-shot wink. Strongest payoff so far: not wordplay *about*
+  the app, it's the literal instruction the app performs. Lane: a coffee-shop app
+  cluster, none dominant — but espresso comes to mind before tempo.
+- **Ottava** — Italian for *octave*; ×2/×½ IS the octave ratio (the parked 8va idea
+  as a pronounceable word). Clearest lane of everything checked (one restaurant POS).
+  Con: autocorrect/search confusion with "Ottawa."
+- **Mezzo** — Italian for *half* and *middle* — carries both the default view (half)
+  and the Twixt in-between idea. Lane: scattered small utilities. Con: names one pole.
+
+Parked this round: **Duple** (real duple-meter term, but dry), **33/45** (the vinyl
+speed switch — a perfect physical metaphor for one record at two speeds, but an
+unsearchable name).
+
+### Standing after this round
+**Twixt** and **Doppio** lead: Twixt for the in-between idea + clearest-search,
+Doppio for the deepest meaning. Tempt is out on search grounds; Dubble out on
+spelling grounds.

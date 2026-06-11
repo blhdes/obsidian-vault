@@ -41,9 +41,14 @@ If the collection collapsed into a single sentence: **"Givenchy-by-Tisci religio
 - Closest *living* sibling brand: **Enfants Riches Déprimés** (luxury price, punk-religious nihilism, art-object scarcity).
 - Closest *historical* couture anchor: **Tisci's Givenchy**.
 
+## Watch — runway videos
+- **Atelier Versace Fall 1991 Couture (the Byzantine collection)** — https://www.youtube.com/watch?v=FiF5cXLPfBY
+  The root of "religious icon on a garment": gold Byzantine crosses and Theodora-of-Ravenna mosaics. Versace did it hot and gold; BLH*DES stripped it to cold black/white — shows exactly what was *subtracted* (thread #1). Givenchy/Tisci runway videos → [[Projects/Blhades/tisci-givenchy#Watch — runway videos|Tisci deep dive]].
+
 ## To go deeper later
-- Pull the specific Givenchy / Versace / JPG collections piece-by-piece against the nine.
+- ✅ Givenchy (Tisci) piece-by-piece → [[Projects/Blhades/tisci-givenchy|Tisci's Givenchy deep dive]].
+- Pull the specific Versace / JPG / D&G Byzantine collections piece-by-piece against the nine.
 - Map where the aesthetic is *diverging* from these references (matters more than where it matches, if the goal is owning a lane).
 
 ---
-Related: [[Projects/Blhades/Blhades|BLH*DES index]]
+Related: [[Projects/Blhades/Blhades|BLH*DES index]] · [[Projects/Blhades/tisci-givenchy|Tisci's Givenchy]]
