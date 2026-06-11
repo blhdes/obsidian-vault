@@ -70,7 +70,7 @@ Stop scrolling, start swiping. Culla Music turns sorting your library into one q
 ```
 169 chars — just under the limit, so don't add anything without removing something.
 
-**Description** — *max 4000 chars* ✏️ *short first version (2026-06-11, 972 chars) — paste this one*
+**Description** — *max 4000 chars* ✏️ *short first version (2026-06-11, 961 chars) — paste this one*
 ```
 Culla Music is the fast way to sort your Apple Music library. It deals you one song at a time, starts playing it, and you decide with a swipe: right adds it to a playlist, left dismisses it, up sends it to your Loved playlist. Small pills show which playlists a song is already in, so you never sort the same song twice.
 
@@ -78,11 +78,10 @@ Sort from anywhere you like: your whole library, just the songs that aren't in a
 
 Make it feel like yours. The Settings screen lets you customize the whole experience, from themes and accent colors to haptics and playback.
 
-Culla Music works with your existing Apple Music library. With a subscription you hear full songs; without one you hear 30-second previews, and the sorting flow stays exactly the same. Support for more platforms, starting with Spotify, is already on our roadmap.
+Culla Music works with your existing Apple Music library, with or without an Apple Music subscription. Every song plays a quick preview right on its card, so you always hear what you're deciding on. With a subscription, you can play the full song too.
 
 No accounts, no data collection, no tracking. Everything stays on your device.
 ```
-*Heads-up: Apple's metadata rules (Guideline 2.3) want the description to match what the app does today, so the Spotify/roadmap sentence is the one a reviewer could push back on. If the submission gets flagged for it, cut that sentence first.*
 
 <details><summary>Longer description (≈ 1,750 chars) — saved for a later update once the listing is live</summary>
 
