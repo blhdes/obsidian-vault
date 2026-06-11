@@ -196,8 +196,9 @@ Blank (Freestyler-class, wholesale) ~€8–12 + screen setup ~€30–60 per de
 ## Next steps
 
 **Phase 0 (now):**
-- [ ] Book an appointment at **Wrong Culture** — bring the artwork, ask: heavy oversized blank options, max print size, price for 10 units × 2 designs, custom neck labels.
-- [ ] Seriously consider their screen-printing course: ~5 garments printed by us + the skill, likely cheaper than any sample order.
+- [x] Contact Wrong Culture → **message sent via their web form, 2026-06-11** (text below). Asked: blank options 250–300 gsm oversize, max print size, quote for ~10 units / 2–3 designs, custom neck labels; offered to visit the studio.
+- [ ] **Waiting on Wrong Culture's reply.** When it arrives, judge against: max print size fits the full-front artwork (VII), heavy oversized blank available, quote vs the ~€15–22/unit Phase 0 math.
+- [ ] At the studio visit: mention the underground/techno affinity in person + ask about the screen-printing course (~5 garments printed by us, likely the cheapest first run).
 - [x] Pick the 2–3 starter designs → **decided 2026-06-11:**
   - **V — REPENT** (hero): most underground-coded, pure type = 1 screen/placement, front+back feels premium, photos exist.
   - **IX — ✻** (entry piece): the brand mark itself, cheapest print, easiest first purchase; houndstooth detail tests the studio's mesh quality.
@@ -218,5 +219,28 @@ Blank (Freestyler-class, wholesale) ~€8–12 + screen setup ~€30–60 per de
 - [ ] Email Portugal Textile (info@portugaltextile.com) the target fabric spec — ask sample cost, real MOQ, and max print size.
 - [ ] Contact ASBX (WhatsApp) — quote the target fabric spec above, ask for a fit sample + quote for a ~30–50 pc batch, to plan Phase 2.
 - [ ] Pick the launch producer before **12 Aug 2026**.
+
+## Sent messages
+
+### Wrong Culture — web form, 2026-06-11
+
+> buenos días!
+>
+> os escribo porque estoy lanzando una marca personal de streetwear y, tras una larga búsqueda, vuestra filosofía y enfoque son los que más me han encajado.
+>
+> aquí podéis ver la colección: https://www.blhades.com/preview/
+>
+> para empezar me gustaría hacer una primera tirada de prueba: unas 10 unidades entre 2–3 diseños. los que tengo en mente son **V — REPENT** (tipográfico, delante y detrás), **IX — ✻** (1 tinta) y **VII — THE WORLD IS ON FIRE** (estampado que ocupa casi todo el delantero), aunque estoy abierto a vuestras recomendaciones.
+>
+> en cuanto a la prenda: camiseta oversize unisex de gramaje alto (250–300 gsm). he visto que distribuís varias marcas de blanks de calidad — ¿qué opciones tenéis en esa línea?
+>
+> tres dudas concretas:
+> 1. ¿tamaño máximo de estampación? (es lo que más me condiciona)
+> 2. presupuesto aproximado para una tirada así
+> 3. ¿hacéis etiquetas de cuello personalizadas?
+>
+> si os encaja, me paso por el estudio con los diseños cuando me digáis.
+>
+> gracias!
 
 Related: [[Projects/Blhades/Blhades|BLH*DES index]] · [[Projects/Blhades/web-build-status|Web Build Status]]
