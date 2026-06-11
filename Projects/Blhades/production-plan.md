@@ -198,7 +198,12 @@ Blank (Freestyler-class, wholesale) ~€8–12 + screen setup ~€30–60 per de
 **Phase 0 (now):**
 - [ ] Book an appointment at **Wrong Culture** — bring the artwork, ask: heavy oversized blank options, max print size, price for 10 units × 2 designs, custom neck labels.
 - [ ] Seriously consider their screen-printing course: ~5 garments printed by us + the skill, likely cheaper than any sample order.
-- [ ] Pick the 2–3 starter designs (favour 1–2 colour type pieces: REPENT, NO RULES, ✻).
+- [x] Pick the 2–3 starter designs → **decided 2026-06-11:**
+  - **V — REPENT** (hero): most underground-coded, pure type = 1 screen/placement, front+back feels premium, photos exist.
+  - **IX — ✻** (entry piece): the brand mark itself, cheapest print, easiest first purchase; houndstooth detail tests the studio's mesh quality.
+  - **VII — THE WORLD IS ON FIRE** (statement + stress test): near-full-front — if the studio's max screen handles it, the whole collection is printable.
+  - Held back: III (photographic icon), IV/VIII (blur = gradients), VI (black-on-black photographs as a plain tee — needs an audience first).
+- [ ] Phase 0 pricing: **€40–45 as numbered "first pressing" (?/10 hand-numbered inside)** — rarer than the future €55 edition, not discounted against it.
 - [ ] Decide test channels (Etsy + Instagram/waitlist links recommended over Vinted/Wallapop for brand image).
 
 **Phase 1+ (the goal track):**

@@ -112,6 +112,21 @@ Culla Music collects no data and includes no tracking. Your library and your cho
 
 </details>
 
+### URLs & copyright (added 2026-06-11)
+
+**Support URL**
+```
+https://culla.app/music#support
+```
+Verified live — lands on the FAQ + contact email.
+
+**Marketing URL** *(optional)*
+```
+https://culla.app/music
+```
+
+**Copyright** — `2026 ` + your full legal name as on the Apple Developer account. No © symbol (App Store Connect adds it). Not "Culla Music" — the field names the rights *holder* (you), not the brand.
+
 ### #6 — Reviewer notes
 
 > App Store Connect → your version → **App Review Information → Notes**.
