@@ -6,7 +6,7 @@ tags: [halftime, idea, dj, swift, swiftui, ios]
 
 # BPM Half/Double DJ App
 
-The founding idea for [[Projects/HalfTime/HalfTime|HalfTime]]. A minimalist iOS app
+The founding idea for [[Projects/Doppio/Doppio|HalfTime]]. A minimalist iOS app
 (Swift/SwiftUI) for DJs that does quick BPM math live.
 
 ## Core idea
@@ -35,4 +35,4 @@ Fast halftime/double-time reference without doing the math in your head mid-set.
 - Persist between launches: done. Haptics: done. Fractional: done.
 
 ---
-Built: scaffold at `/Users/agomezu/Claude/halftime-app/` — see [[Projects/HalfTime/HalfTime|HalfTime]] index.
+Built: scaffold at `/Users/agomezu/Claude/halftime-app/` — see [[Projects/Doppio/Doppio|HalfTime]] index.

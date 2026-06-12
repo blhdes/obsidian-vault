@@ -147,12 +147,80 @@ Tested idea: buy WATC blanks, print locally in Barcelona. Verdict: **fine for sa
 Strategy shift: René Bassett-level is **the goal**, but with no budget and no registered business yet, we start local and tiny: **5–10 units of 2–3 designs**, printed in Barcelona, sold online as individuals after the collection goes public on blhades.com. Quality may be imperfect — accepted; starting beats waiting. The underground angle (techno/rave/vanguardism) makes local studio printing *on-brand*, not a compromise: "first pressing, printed in Barcelona" is a story, not an apology.
 
 ### Local studio candidates (Barcelona)
-- **Wrong Culture — C/ Murcia 37, Barcelona · ⭐ CHOSEN DIRECTION (2026-06-11).** Screen-print studio founded on graphic design + music culture, explicitly supports the local independent designer/artist scene. Sells blanks from "an extensive selection of textile brands" (ask for a heavy oversized blank — Freestyler-class), does custom labels, garment manufacturing, transfers, packaging. By appointment. Bonus: their 4-person course (~4–5h) ends with **5 printed garments you take home** — possibly the cheapest first run imaginable, and we learn the craft. https://wrong-culture.es/
+- **Wrong Culture — C/ Murcia 37, Barcelona · ⭐ CHOSEN DIRECTION (2026-06-11). Replied — see [[#Wrong Culture — their reply (2026-06-11)|their reply]] below.** Screen-print studio founded on graphic design + music culture, explicitly supports the local independent designer/artist scene. Sells blanks from "an extensive selection of textile brands" (ask for a heavy oversized blank — Freestyler-class), does custom labels, garment manufacturing, transfers, packaging. By appointment. Bonus: their 4-person course (~4–5h) ends with **5 printed garments you take home** — possibly the cheapest first run imaginable, and we learn the craft. https://wrong-culture.es/
   - **"Only serigraphy" is a feature, not a bug:** screen print = densest ink (only method where white-on-black is truly solid), most durable, the premium-streetwear standard. Its weakness (gradients/photos cost per colour) doesn't apply to a monochrome, type-driven collection — most pieces are 1 screen = cheapest *and* best quality simultaneously.
 - **Divuit Studio — Poblenou.** ~~Creative studio: branding + artisanal screen printing, embroidery, digital, tampography.~~ Skipped 2026-06-11: "design-led" means paying for creative direction we already have. Designs are done; we need execution only. https://www.divuitstudio.com/
 - **Print Workers Barcelona — artisan serigraphy** (150+ artists, limited hand-pulled editions, by appointment). More art-print than apparel production, but underground credibility and courses; good contact to have. https://printworkersbarcelona.com/en/
 - **Stampatex** — textile printing Barcelona, unvetted. https://stampatex.es/
 - **Correction:** **Rockwear Serigrafía is in Leganés (Madrid)**, not Barcelona, and aims at work uniforms/events — wrong vibe. BUT useful fact: they're an **official Stanley/Stella dealer** doing DTG from 5 units of one design — a remote fallback for printing on the Freestyler.
+
+### Wrong Culture — their reply (2026-06-11)
+
+Answered by **Grzesiek**. The three questions from our message, answered:
+
+**1. Print sizes** ✅ passes the hard requirement
+- Standard: **32 × 46 cm**.
+- Maximum on textile: **59 × 45 cm** — they explicitly said this suits the near-full-front oversize design (VII). Confirm the orientation (which number is width) against the real artwork at the showroom.
+
+**2. Budget — but with an MOQ catch** ⚠️
+- **Minimum is 20 units per model/design** (screens aren't viable below that). Our 10-units-across-3-designs plan doesn't fit their standard production.
+- Reference pricing at 20 units on the **Stanley/Stella Blaster 2.0**, garment + print included, 1 color, standard size:
+  - Front only: **€16.32/unit + IVA** (≈ €19.75 incl. 21% IVA).
+  - Front + back: **€21.02/unit + IVA** (≈ €25.43 incl. IVA).
+- Max-size prints (VII) may adjust the price — they'll close it after seeing final files.
+- Vs the Phase 0 math (~€15–22/unit): front-only fits; front+back lands slightly above. The real change isn't per-unit price, it's **total outlay**: 20 units of one design ≈ €395 incl. IVA; all 3 designs at 20 each = 60 units ≈ €1,200–1,500.
+
+**3. Blank** ✅ — they quoted the **Blaster 2.0** (Stanley/Stella's heavy oversized model — same family as the Freestyler; verify gsm in person). Alternatives in catalog: **Build Your Brand**, **EarthPositive**.
+
+**Neck labels + finishings:** "best discussed in person."
+
+**They invited us to the showroom** — touch the blanks/gramajes, see print finishes. They asked which days work to book the appointment. **That's the open action.**
+
+**Caveat spotted (2026-06-11): 59×45 still doesn't cover seam-crossing designs — but no screen would.** Piece **I — ETERNAL ABODE**'s top text block runs seam-to-seam *across the sleeves* (~80+ cm visual width). A finished tee is printed flat on the body panel only, and ink can't lay cleanly over a seam — so this isn't a screen-size problem, it's a construction one. The real method is **cut & sew / panel printing**: print the flat fabric panels first, sew the garment after. Wrong Culture lists *confección* (garment manufacturing) on their site → ask at the showroom: "¿estampáis sobre panel cortado antes de confeccionar, para diseños que cruzan costuras?" Fallbacks: shrink I into 59×45 on the body (loses the seam-to-seam effect, the point of the piece) or deliberately print over the seams and accept ink cracking as a distressed feature. Phase 0 unaffected — V, IX, VII are all body-panel prints.
+
+**Strategy implications (decide before/at the visit):**
+- Option A — **1 design × 20 units** (REPENT front+back ≈ €509 total, or ✻ front-only ≈ €395). Edition becomes ?/20 instead of ?/10. → **Chosen 2026-06-11, see the drop cascade below.**
+- Option B — ask in person if **10 units of 1 design** is possible at a worse per-unit price (they said "standard" minimum — maybe negotiable for a first collaboration).
+- Option C — the **screen-printing course** (~5 garments printed by us) as the sub-MOQ first pressing; ask about it at the showroom either way.
+
+### The drop cascade — decided Phase 0 shape (2026-06-11)
+
+No budget → each pressing must pay for the next one. The model:
+
+1. **One design per pressing, 20 units, mixed sizes** (e.g. 5 S / 15 M–L — one screen prints every size, so mixing should be fine; confirm with Grzesiek in one line). Sizes weighted toward M/L.
+2. **Hide the rest of the collection on the webpage.** Only the live drop is purchasable; previous pieces show as sold out. This is the streetwear scarcity-drop model, not a compromise — "sold out" on past pieces sells the live one.
+3. **No new pressing until the current one sells out.** Each drop self-funds the next.
+
+**First drop chosen (2026-06-11): V — REPENT** (front+back) — the favourite after 2–3 years on this project, and the most underground-coded piece. Starting with the most expensive design is deliberate: if the hero piece works at full cost, everything cheaper after it is downhill.
+
+**Pricing reset (2026-06-11): €70, not €40–45.** Reasoning: price is part of a luxury product's meaning — €40 *argues against* the brand story (numbered pressing, custom labels, Edition of 50). Premium heavyweight screen-printed tees from small independent brands sit at €60–90, so €70 is inside the believable band. **Constraint: luxury never lowers price** → €70 must become the brand price everywhere, including the storefront (was hardcoded `PRICE = '€55'` in `frontend/src/preview/data.js` — updated to €70 on 2026-06-11). The first pressing's premium is rarity (?/20 hand-numbered), not a surcharge.
+
+The math (REPENT, front+back, 1 color, 20 units, IVA included):
+| | Amount |
+|---|---|
+| Print + garment | ~€509 |
+| Neck labels + hang tags (run estimate) | ~€60–120 |
+| **Total pressing cost** | **~€600 (~€30/unit)** |
+| Revenue @ €70 × 20 | €1,400 |
+| **Surplus** | **~€800** |
+
+Surplus funds the next pressing *plus* photography/packaging — which a €70 price demands.
+
+**Trade-off accepted:** at €70 with zero sales history the buyer isn't impulsive — sell-out will take longer than at €40, and the unboxing (packaging, numbered card, photos) has to carry the price. The cascade is patient by design; slow is survivable, cheap-feeling at €70 is not. Surplus goes there.
+
+### Legal/tax roadmap (the two IVAs — clarified 2026-06-11)
+
+Two different IVAs, often confused:
+
+- **IVA we PAY (on Wrong Culture's invoice):** unavoidable. As a private individual = final consumer, the +21% is simply part of the cost (~€69–88 per pressing). Only a registered business can deduct/recover it.
+- **IVA we'd CHARGE (on sales):** only businesses add IVA. Selling as a particular, the €40 is the €40 — but recurring sales of new self-produced goods is **by definition economic activity** in Spain, however small.
+
+The key distinction most people miss — these are **two separate registrations**:
+
+1. **Alta censal (modelo 036/037, Hacienda)** — registers the activity with the tax office. **Free.** Allows legal invoicing, charging IVA on sales, and **deducting the IVA paid to Wrong Culture** (the €69–88/pressing comes back). Requires quarterly IVA returns.
+2. **Autónomo (RETA, Seguridad Social)** — the expensive part (~€200/month; tarifa plana ~€87 first year). Court doctrine says it's not required while the activity isn't habitual and income stays below the minimum wage → many small side projects run "alta in Hacienda, no RETA." Tolerated gray zone, not a guarantee.
+
+**The roadmap:** first pressing as a private individual (eat the purchase IVA, sell quietly — under the DAC7 thresholds noted below). If drops become recurring → do the **alta censal** (costs nothing, saves the purchase IVA) and book one session with a **gestor (~€50–100)** to set it up right. RETA only when income justifies it. Spain has no small-business IVA exemption regime in force yet (the EU franchise scheme was pending transposition) — re-check when registering.
 
 ### Phase 0 math (10 units, screen print, 1-color design)
 Blank (Freestyler-class, wholesale) ~€8–12 + screen setup ~€30–60 per design/colour amortized + ~€3–5/print → **~€15–22/unit**. At €40–55 retail that works even at this scale. Favour the **1–2 colour, type-driven designs** for screen printing (REPENT, NO RULES, ✻); leave the photographic/multi-tone pieces for later.
@@ -197,14 +265,19 @@ Blank (Freestyler-class, wholesale) ~€8–12 + screen setup ~€30–60 per de
 
 **Phase 0 (now):**
 - [x] Contact Wrong Culture → **message sent via their web form, 2026-06-11** (text below). Asked: blank options 250–300 gsm oversize, max print size, quote for ~10 units / 2–3 designs, custom neck labels; offered to visit the studio.
-- [ ] **Waiting on Wrong Culture's reply.** When it arrives, judge against: max print size fits the full-front artwork (VII), heavy oversized blank available, quote vs the ~€15–22/unit Phase 0 math.
-- [ ] At the studio visit: mention the underground/techno affinity in person + ask about the screen-printing course (~5 garments printed by us, likely the cheapest first run).
+- [x] **Wrong Culture replied (2026-06-11)** — judged against the criteria: max print 59×45 cm ✅ (VII fits), heavy oversized blank ✅ (Blaster 2.0), price ✅ (€16.32–21.02 +IVA/unit) — **but MOQ is 20 units/design**, not the 10-total plan. Details in [[#Wrong Culture — their reply (2026-06-11)|the reply section]].
+- [ ] **Reply to Grzesiek with showroom days** → book the visit. Include the one-line question: can the 20 units mix sizes (e.g. 5 S / 15 M–L)?
+- [x] MOQ strategy decided (2026-06-11): **Option A — the drop cascade.** 1 design × 20 units mixed sizes, rest of the collection hidden on the site, next pressing only after sell-out (see [[#The drop cascade — decided Phase 0 shape (2026-06-11)|the drop cascade]]).
+- [x] First drop design picked (2026-06-11): **V — REPENT**, front+back, ~€600 all-in with labels/tags.
+- [ ] Before the visit: measure VII's real artwork dimensions in cm. Sized check 2026-06-11: **59×45 covers almost all current designs** — only seam-crossing pieces (I) are out of scope for on-garment printing.
+- [ ] At the studio visit: mention the underground/techno affinity in person, ask about neck labels + finishings (they deferred to in-person), confirm Blaster 2.0 gsm + touch the BYB/EarthPositive alternatives, ask whether 59×45 is width or height, ask about **panel printing before sewing (cut & sew)** for seam-crossing designs like I — ETERNAL ABODE, + ask about the screen-printing course (~5 garments printed by us, likely the cheapest first run).
 - [x] Pick the 2–3 starter designs → **decided 2026-06-11:**
   - **V — REPENT** (hero): most underground-coded, pure type = 1 screen/placement, front+back feels premium, photos exist.
   - **IX — ✻** (entry piece): the brand mark itself, cheapest print, easiest first purchase; houndstooth detail tests the studio's mesh quality.
   - **VII — THE WORLD IS ON FIRE** (statement + stress test): near-full-front — if the studio's max screen handles it, the whole collection is printable.
   - Held back: III (photographic icon), IV/VIII (blur = gradients), VI (black-on-black photographs as a plain tee — needs an audience first).
-- [ ] Phase 0 pricing: **€40–45 as numbered "first pressing" (?/10 hand-numbered inside)** — rarer than the future €55 edition, not discounted against it.
+- [x] Phase 0 pricing decided (2026-06-11): **€70, hand-numbered ?/20** — superseding the €40–45 idea *and* the €55 site price. €70 becomes the brand price everywhere (luxury never lowers price); reasoning + math in [[#The drop cascade — decided Phase 0 shape (2026-06-11)|the drop cascade]].
+- [x] Update the storefront `PRICE` constant from €55 → €70 (`frontend/src/preview/data.js`) — **done 2026-06-11**, deployed bundle rebuilt.
 - [ ] Decide test channels (Etsy + Instagram/waitlist links recommended over Vinted/Wallapop for brand image).
 
 **Phase 1+ (the goal track):**
@@ -220,9 +293,9 @@ Blank (Freestyler-class, wholesale) ~€8–12 + screen setup ~€30–60 per de
 - [ ] Contact ASBX (WhatsApp) — quote the target fabric spec above, ask for a fit sample + quote for a ~30–50 pc batch, to plan Phase 2.
 - [ ] Pick the launch producer before **12 Aug 2026**.
 
-## Sent messages
+## Correspondence
 
-### Wrong Culture — web form, 2026-06-11
+### Wrong Culture — web form, 2026-06-11 (sent)
 
 > buenos días!
 >
@@ -242,5 +315,35 @@ Blank (Freestyler-class, wholesale) ~€8–12 + screen setup ~€30–60 per de
 > si os encaja, me paso por el estudio con los diseños cuando me digáis.
 >
 > gracias!
+
+### Wrong Culture — reply from Grzesiek, 2026-06-11 (received)
+
+> Hola!
+>
+> Te respondemos detalladamente a tus dudas y te dejamos los datos clave de producción para que puedas valorarlo:
+>
+> **Tamaños de estampación**
+> Tamaño estándar: El que solemos trabajar habitualmente es de 32 x 46 cm.
+> Tamaño máximo en textil: El área máxima con la que podemos estampar es de 59 x 45 cm (esto te vendrá genial para ese diseño oversize que quieres que ocupe casi todo el delantero).
+>
+> **Pedidos mínimos y Presupuesto**
+> Para que el proceso de producción y pantallas sea viable, nuestro pedido mínimo es de 20 unidades por cada modelo/diseño. Para la tirada inicial que planteas de 10 unidades combinando varios diseños, se nos queda un poco corta como producción estándar, pero para que tengas una referencia de precios con nuestro mínimo (20 uds) utilizando el modelo Blaster 2.0 de Stanley/Stella, serían los siguientes:
+>
+> Estampación pecho (1 color, tamaño estándar) en Blaster 2.0: 16,32 € / unidad + IVA.
+> Estampación pecho & espalda (1 color, tamaño estándar) en Blaster 2.0: 21,02 € / unidad + IVA.
+>
+> (Si finalmente los diseños con tamaño máximo conllevan un ajuste en el presupuesto, lo terminaríamos de cerrar al ver los archivos finales).
+>
+> **Prendas (Camisetas Oversize de alto gramaje)**
+> Para el presupuesto te hemos valorado el modelo Blaster 2.0, que encaja perfectamente con el corte oversize. Además de esta opción, trabajamos con los mejores catálogos de blanks de alta calidad del mercado y tenemos otras alternativas excelentes de marcas como Build Your Brand o EarthPositive.
+>
+> Respecto a las etiquetas de cuello personalizadas y los acabados finales de las prendas, lo mejor es que lo hablemos en persona.
+>
+> Si quieres ver los distintos modelos de camisetas, tocar los gramajes y comprobar los acabados de estampación que hacemos, podemos quedar un día en nuestro showroom. Coméntanos qué días te van mejor y agendamos una cita para que te pases por el showroom.
+>
+> ¡Cualquier cosa nos comentas!
+>
+> Saludos,
+> Grzesiek
 
 Related: [[Projects/Blhades/Blhades|BLH*DES index]] · [[Projects/Blhades/web-build-status|Web Build Status]]

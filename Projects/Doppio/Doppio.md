@@ -1,7 +1,7 @@
 ---
 title: Doppio (formerly beatmch / HalfTime)
 date: 2026-06-01
-updated: 2026-06-10
+updated: 2026-06-11
 tags: [project, ios, swift, dj, doppio, halftime, beatmch]
 ---
 
@@ -9,10 +9,10 @@ tags: [project, ios, swift, dj, doppio, halftime, beatmch]
 
 > Renamed from **HalfTime** → **beatmch** → **Doppio** (decided 2026-06-10, see
 > [[Inbox/beatmch-app-naming|the naming note]] — *doppio movimento* = "twice as
-> fast"). The vault folder stays `HalfTime/` so existing `[[wikilinks]]` keep
-> working; everything else was renamed on 2026-06-10 — codebase (folder `Doppio/`,
+> fast"). Everything was renamed on 2026-06-10 — codebase (folder `Doppio/`,
 > `Doppio.xcodeproj`, bundle id `agu.doppio`), the local repo folder
-> (`Claude/doppio/`), and the GitHub repo (`blhdes/doppio`).
+> (`Claude/doppio/`), and the GitHub repo (`blhdes/doppio`) — and the vault folder
+> followed on 2026-06-11 (`Projects/HalfTime/` → `Projects/Doppio/`, links updated).
 
 Index note for the **Doppio** iOS app — a minimalist BPM half-time / double-time
 tool for DJs, built as a *living metronome*, not a calculator. Source code lives at

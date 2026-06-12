@@ -6,7 +6,7 @@ tags: [beatmch, dev-insight, swift, swiftui, themes, motion]
 
 # Themes & motion polish pass — 2026-06-04
 
-A batch of refinements to [[Projects/HalfTime/HalfTime|beatmch]], all shipped and
+A batch of refinements to [[Projects/Doppio/Doppio|beatmch]], all shipped and
 pushed to `blhdes/beatmch`. Mostly about making the look calmer and the motion
 *honest* to the actual tempo.
 
@@ -40,4 +40,4 @@ is telling you; quieter text = nothing shouting for attention while you're mixin
 - Beat-style motion + Reduce-Motion centring: `beatmch/Views/PulseOrb.swift`.
 - Shake handling + theme-name text: `beatmch/Views/ContentView.swift`.
 
-Related: [[Projects/HalfTime/HalfTime|beatmch index]]
+Related: [[Projects/Doppio/Doppio|beatmch index]]
