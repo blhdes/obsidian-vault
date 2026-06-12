@@ -41,7 +41,7 @@ A **personal website in English** that shows work, not credentials. Four section
 ## Roadmap
 
 - [x] **Site structure** — one-page scroll, see [[Projects/Portfolio/site-structure|site-structure]]
-- [ ] **Bio / About** ← current step (draft from conversation, English)
+- [ ] **Bio / About** ← current step — draft v1 written, see [[Projects/Portfolio/bio|bio]]
 - [ ] Gather raw material: app names + screenshots, best photos, past-projects list
 - [ ] Build the site
 - [ ] Publish (free hosting + domain decision)
