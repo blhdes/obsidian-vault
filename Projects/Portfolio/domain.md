@@ -4,9 +4,11 @@ date: 2026-06-13
 tags: [portfolio, domain, website]
 ---
 
-# Custom domain — research (pending decision)
+# Custom domain — DECIDED: alegomez.studio ✓
 
-Site is live at https://blhdes.github.io/portfolio/ — a custom domain is optional polish. `alegomez.com` is **taken**. Availability below checked against the real registries (RDAP) on 2026-06-13; can change any day, so don't sit on a favorite for weeks.
+**Bought 2026-06-13 on Porkbun** (renewal ~$25/yr, next: June 2027, auto-renew ON). DNS pointed at GitHub Pages same day: 4 A records (185.199.108–111.153) + `www` CNAME → `blhdes.github.io`. Site answers at http://alegomez.studio; HTTPS cert auto-issued by GitHub/Let's Encrypt, then `https_enforced` switched on. Porkbun settings verified: domain lock ON, contact privacy ON, Porkbun SSL not needed (GitHub provides the cert).
+
+Research below kept for reference (decision was option 1 of the shortlist).
 
 ## Availability check (2026-06-13)
 

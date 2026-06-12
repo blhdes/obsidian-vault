@@ -47,7 +47,7 @@ A **personal website in English** that shows work, not credentials. Four section
 	- [ ] Photography: 10–20 best shots, user gathering them, ETA ~**2026-06-19**
 	- [ ] Projects (pending): short film as **DOP**, distributed on **MUBI**: https://mubi.com/es/es/films/mia-marc, plus 2 more pieces to gather
 - [ ] **Build the site** — skeleton built 2026-06-13 at `/Users/agomezu/Claude/portfolio/` (plain HTML/CSS/JS). Design: minimal editorial, warm paper + ink + vermilion accent, Switzer typeface, name **Ale Gómez**. Pending: real screenshots, photos, portrait.
-- [x] **Publish** — live at https://blhdes.github.io/portfolio/ since 2026-06-13 (GitHub Pages, repo: https://github.com/blhdes/portfolio). Custom domain still an open decision — research + shortlist in [[Projects/Portfolio/domain|domain]].
+- [x] **Publish** — live at **https://alegomez.studio** since 2026-06-13 (GitHub Pages, repo: https://github.com/blhdes/portfolio, domain via Porkbun). Details in [[Projects/Portfolio/domain|domain]].
 - [ ] Add fashion brand section at launch
 - [ ] Start applying
 
