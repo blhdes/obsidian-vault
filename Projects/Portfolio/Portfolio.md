@@ -41,8 +41,11 @@ A **personal website in English** that shows work, not credentials. Four section
 ## Roadmap
 
 - [x] **Site structure** — one-page scroll, see [[Projects/Portfolio/site-structure|site-structure]]
-- [ ] **Bio / About** ← current step — draft v1 written, see [[Projects/Portfolio/bio|bio]]
-- [ ] Gather raw material: app names + screenshots, best photos, past-projects list
+- [x] **Bio / About** — draft v2 approved 2026-06-13, see [[Projects/Portfolio/bio|bio]]
+- [ ] **Gather raw material** ← current step (user's task)
+	- [x] App info: **Culla** (live: https://apps.apple.com/us/app/culla/id6761316914) and **CullaMusic** (pending Apple review). Both live at **culla.app**. Screenshots still needed.
+	- [ ] Photography: 10–20 best shots, user gathering them, ETA ~**2026-06-19**
+	- [ ] Projects (pending): short film as **DOP**, distributed on **MUBI**: https://mubi.com/es/es/films/mia-marc, plus 2 more pieces to gather
 - [ ] Build the site
 - [ ] Publish (free hosting + domain decision)
 - [ ] Add fashion brand section at launch
