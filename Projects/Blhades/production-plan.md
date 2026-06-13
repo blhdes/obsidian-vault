@@ -208,6 +208,16 @@ Surplus funds the next pressing *plus* photography/packaging — which a €70 p
 
 **Trade-off accepted:** at €70 with zero sales history the buyer isn't impulsive — sell-out will take longer than at €40, and the unboxing (packaging, numbered card, photos) has to carry the price. The cascade is patient by design; slow is survivable, cheap-feeling at €70 is not. Surplus goes there.
 
+### ⭐ Commercial ranking — the drop order (2026-06-13)
+
+If the cascade releases one design at a time, this is the order by commercial potential:
+
+1. **V — REPENT.** Gothic blackletter + religious irony is the best-selling formula in streetwear right now; instantly legible as "premium underground" even to strangers; strongest assets (front+back print, on-model photos). The favourite and the most commercial are the same shirt.
+2. **VII — THE WORLD IS ON FIRE.** A wearable statement strangers ask about; both colourways; the near-full-front print is the collection's most arresting piece on a rack or a feed.
+3. **III — ANNUNCIATION.** The only colour moment (blue sacred-art print) in a monochrome collection — pops in any product grid; continues the religious thread REPENT establishes, so they sell each other.
+
+**IX — ✻** stays the entry piece, but a logo mark only gains commercial power *after* the brand means something — it follows success rather than creating it.
+
 ### Legal/tax roadmap (the two IVAs — clarified 2026-06-11)
 
 Two different IVAs, often confused:
