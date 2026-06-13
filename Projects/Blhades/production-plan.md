@@ -218,6 +218,35 @@ If the cascade releases one design at a time, this is the order by commercial po
 
 **IX — ✻** stays the entry piece, but a logo mark only gains commercial power *after* the brand means something — it follows success rather than creating it.
 
+### ⭐ Pricing revision + sourcing re-check (2026-06-13)
+
+**Decision: first drop = V — REPENT, front+back, launch at €60 (down from €70); drop the rigid "€70 everywhere" rule in favour of tiered pricing by piece.**
+
+Trigger: gut-check (family feedback) that €70 is a hard ask for a brand with *zero* sales history — the classic first-product objection: buyers hesitate at premium prices before the brand means anything. Re-ran the unit economics (20-unit run at Wrong Culture, incl. IVA, + ~€7/unit labels & simple packaging):
+
+| | Cost to make | @€40 | @€50 | @€60 | @€70 |
+|---|---|---|---|---|---|
+| Front-only (1 screen) | ~€27 | €13 | €23 | €33 | €43 |
+| Front+back | ~€32 | €8 | €18 | €28 | €38 |
+
+(margin/unit, before ~€2–4/unit payment + shipping fees)
+
+What this reframed:
+- **€40 is the danger zone, not €50.** Front+back @€40 ≈ €8/unit — fees + one return wipe it out. But @€50 front+back still nets ~€18/unit (**~€350 surplus** on 20) — enough to fund a cheaper next drop. The earlier "€40–50 = zero/negative benefit" worry was too pessimistic; only €40 truly is.
+- **Tier by production cost, don't flat-price.** Front+back genuinely costs ~€5 more to make than a 1-screen front-only → hero/front+back pieces €60–75, entry/front-only pieces ~€50. Same Edition of 50; pricing tiers are normal in fashion, not a compromise.
+- **"Luxury never lowers price" was being applied backwards.** The rule forbids *discounting an already-launched price* (that signals desperation). Launching lower and *raising* later — early buyers got in first, the brand visibly appreciates — is the safe direction. Launching at the €70 ceiling with no proof and being *forced* to discount is the actual disaster. **Up is safe, down is fatal** → start REPENT at €60, climb on later pieces.
+
+Chosen: **REPENT @ €60** — lead with the strongest seller (the best answer to "will it sell?" is the most sellable piece per the commercial ranking, not the cheapest), at a premium-but-approachable price. ~€28/unit margin → **~€450 surplus** on 20.
+
+**Sourcing re-check — does splitting blanks + a local printer beat Wrong Culture? No, at 20 units.** Re-ran the split route with *cheap* blanks (the earlier WATC costing used €21 blanks):
+- Blank prices found: Wordans SOL'S 03806 boxy oversized **€7.54**, Mantis MT003 heavyweight organic €8.79; blanks.it 190gsm boxy ~€15 retail (lighter *and* pricier).
+- Printing on **customer-supplied** garments carries penalties: ecamisetas tariff = **+20% surcharge** for own garments, **+€30/colour** for an oversized stencil, min ~25 units, +21% IVA. The screen *setup* (per-colour stencil fee) doesn't disappear — DIY pays near-retail blanks **and** setup **and** a handling surcharge.
+- Net: front+back, 20 units, DIY ≈ **€20–30/unit** — a wash vs WC's €25.43, often worse, plus two suppliers, quality risk on supplied garments, own logistics, nobody accountable for the finished shirt. Verdict confirms the existing split-route section: samples only, not the production line.
+- DTF (no screen setup) only wins *below* ~20 units and trades away the dense screen-print hand-feel the brand sells. Barcelona DTF shops that print on own garments + dropship (Textiltransfer, Pintapack) — keep as a sub-20 fallback only.
+- **Correction:** the **Blaster 2.0 (STTU959)** WC quoted is **200 gsm** combed ring-spun — nicer yarn, but *lighter* than the 240–300 target. Confirm in person; ask about heavier and/or cheaper alternatives (Build Your Brand / EarthPositive).
+
+**Real cost levers (all keep Wrong Culture as the single partner):** front-only vs front+back (€16.32 vs €21.02/unit), the cheaper blank options WC offers, and the screen-print course for sub-MOQ first pieces — **not** the split route.
+
 ### Legal/tax roadmap (the two IVAs — clarified 2026-06-11)
 
 Two different IVAs, often confused:
@@ -288,6 +317,8 @@ Blank (Freestyler-class, wholesale) ~€8–12 + screen setup ~€30–60 per de
   - Held back: III (photographic icon), IV/VIII (blur = gradients), VI (black-on-black photographs as a plain tee — needs an audience first).
 - [x] Phase 0 pricing decided (2026-06-11): **€70, hand-numbered ?/20** — superseding the €40–45 idea *and* the €55 site price. €70 becomes the brand price everywhere (luxury never lowers price); reasoning + math in [[#The drop cascade — decided Phase 0 shape (2026-06-11)|the drop cascade]].
 - [x] Update the storefront `PRICE` constant from €55 → €70 (`frontend/src/preview/data.js`) — **done 2026-06-11**, deployed bundle rebuilt.
+- [x] Re-price storefront `PRICE` €70 → €60 in `data.js` (REPENT launch / hero tier) — **source updated 2026-06-13**.
+- [ ] **Rebuild `backend/dist` bundle + redeploy** so blhades.com/preview shows €60 — before any further Wrong Culture contact.
 - [ ] Decide test channels (Etsy + Instagram/waitlist links recommended over Vinted/Wallapop for brand image).
 
 **Phase 1+ (the goal track):**

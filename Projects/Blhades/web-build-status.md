@@ -14,7 +14,7 @@ tags: [blhades, web, dev, status]
 
 ## What's built
 - **Home storefront** (`/preview/`) — logo header, big hero artwork, the 9-piece *White Canvas* catalog in the "stagger" layout (hover reveals each piece's name + back/model shots), footer. Header has a light/dark toggle that's remembered.
-- **Product page** (`/preview/piece/<slug>`) — big image + thin details column: numeral, name, **€55**, **Edition of 50**, sizes **XS–XL**, composition line. Every catalog tile links here.
+- **Product page** (`/preview/piece/<slug>`) — big image + thin details column: numeral, name, **€60** (was €55 → €70 → €60 on 2026-06-13; see production-plan pricing revision), **Edition of 50**, sizes **XS–XL**, composition line. Every catalog tile links here.
 - **Waitlist** — the drop isn't on sale yet, so **"Reserve" collects an email** instead of taking payment. Each signup is saved + tagged with which piece it came from, then a quiet "On the list" confirmation shows.
 
 ## Design locked
