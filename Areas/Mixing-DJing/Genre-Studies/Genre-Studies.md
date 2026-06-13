@@ -53,13 +53,12 @@ tags: [genre, <genre-slug>]
 ## Notes in this folder
 
 - [[ambient]] — beatless / drone / hauntology lineage from Eno to Burial
-- [[idm]] — Warp-lineage "intelligent dance music", off-the-dancefloor electronica (to explore)
 - [[industrial-gothic-techno]] — EBM + industrial + goth convergence, Berlin 2010s–20s
 - [[ricardo-villalobos]] — artist-as-genre: minimal techno + microhouse, the deep/hypnotic Perlon world
 - [[dub-techno]] — Basic Channel / Chain Reaction lineage: one detuned chord, drenched in echo (the deep-minimal ancestor)
 - [[rominimal]] — Romanian minimal ([a:rpia:r] / Bucharest): drier, deeper, marathon-set minimal (the descendant)
 - [[soul-to-techno-transitions]] — transition recipe: bridging 1960s soul into 4/4 techno (the slam + the echo-out), worked through the Johnnie Mae Matthews 45
-- [[notes/notes|notes/]] — small slices on individual tracks, artists, and labels (max 500 lines each) — incl. [[blaou]] and [[remerge-bootleg-white-labels]]
+- [[notes/notes|notes/]] — short seeds: individual tracks, artists, labels, and genres-to-explore (max 500 lines each, promoted up here once they outgrow it) — incl. [[deconstructed-club]], [[idm]], [[blaou]] and [[remerge-bootleg-white-labels]]
 
 ## Related
 

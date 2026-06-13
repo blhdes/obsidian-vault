@@ -22,5 +22,5 @@ tags: [genre, idm, electronic, to-explore]
 ## Related
 
 - [[ambient]] — overlapping scene/era (same Warp lineage; *Selected Ambient Works* sits between the two)
-- [[Genre-Studies|Genre Studies index]]
-- [[../Mixing-DJing|Mixing & DJing index]]
+- [[deconstructed-club]] — the *club* side of "off-the-dancefloor" electronica; both prize sound design over a steady beat
+- [[../Genre-Studies|Genre Studies index]]
