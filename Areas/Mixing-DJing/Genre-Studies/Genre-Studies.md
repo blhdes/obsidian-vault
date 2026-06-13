@@ -54,7 +54,6 @@ tags: [genre, <genre-slug>]
 
 - [[ambient]] — beatless / drone / hauntology lineage from Eno to Burial
 - [[idm]] — Warp-lineage "intelligent dance music", off-the-dancefloor electronica (to explore)
-- [[deconstructed-club]] — "post-club" experimental electronica: club signals broken apart into arrhythmic collage (PAN / Janus / Total Freedom; the world Evian Christ's *Ultra* borrows from)
 - [[industrial-gothic-techno]] — EBM + industrial + goth convergence, Berlin 2010s–20s
 - [[ricardo-villalobos]] — artist-as-genre: minimal techno + microhouse, the deep/hypnotic Perlon world
 - [[dub-techno]] — Basic Channel / Chain Reaction lineage: one detuned chord, drenched in echo (the deep-minimal ancestor)
