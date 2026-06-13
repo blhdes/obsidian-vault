@@ -10,9 +10,9 @@ Result of a full AI-slop audit (2026-06-13). These rules protect the site from d
 
 ## What we keep (deliberate choices)
 
-- Warm paper background (#faf8f3), ink text, **one vermilion accent** (#d9432b, the cinema red)
+- Warm paper background (#faf8f3), ink text, **one vermilion accent** (#d9432b, the cinema red); dark version follows the system scheme (#181613 / #ece9e2 / #e8553d), no toggle
 - Switzer typeface
-- Hairline rules to open sections, generous spacing
+- Sections separated by **typographic scale + whitespace**: oversized section titles as landmarks, note on the same baseline. **No hairline/border dividers anywhere** (user: "they look very simple and HTML coded") — added 2026-06-13, replaced the original hairline approach
 - Plain underlined links, like print
 
 ## Banned patterns (found and removed in the audit)
