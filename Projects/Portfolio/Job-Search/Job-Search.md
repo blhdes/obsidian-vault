@@ -32,6 +32,8 @@ Honest assets for an assistant role: real **photography** experience, a trained 
 | 4 | **London** | Largest creative/music market (mind post-Brexit visa) |
 | 5 | **Barcelona / Spain** | Last resort — only if the conditions below are met |
 
+**Wildcards on the table (added 2026-06-14, not yet fetched):** **Mexico City** (native-language + cinema soul — the bold far-leap), **Milan** (fashion capital + Mediterranean warmth), **Malta** (English-official, EU, sunny tech hub). *(Berlin also reads as the best day-to-day personality fit.)*
+
 **Conditions that make a move worth it** (Spain rarely clears these — hence abroad):
 - **Salary** clearly above the current ~€1,000/mo.
 - **Housing** affordable **alone** — room for a **home studio**: books, computers, screens, DJ decks.
@@ -46,6 +48,9 @@ One note per city — each a table of companies:
 - [[Projects/Portfolio/Job-Search/companies-berlin|Berlin]]
 - [[Projects/Portfolio/Job-Search/companies-london|London]]
 - [[Projects/Portfolio/Job-Search/companies-barcelona|Barcelona / Spain]]
+- [[Projects/Portfolio/Job-Search/companies-milan|Milan]]
+- [[Projects/Portfolio/Job-Search/companies-mexico-city|Mexico City]]
+- [[Projects/Portfolio/Job-Search/companies-malta|Malta]]
 
 Each company row holds: **Industry · Size · Why it fits · Links · Status**.
 
@@ -76,7 +81,6 @@ Starts **only once the portfolio is a shareable v1** (needs real screenshots + p
 
 ## Status
 
-- Phase 0 done ✅. **Phase 1 in progress.** Fetched on 2026-06-14:
-	- **[[Projects/Portfolio/Job-Search/companies-berlin|Berlin]]** — ~23 companies (fashion · arts · design · **tech/product** · ads; music parked).
-	- **[[Projects/Portfolio/Job-Search/companies-amsterdam|Amsterdam]]** — ~20 companies (tech · design · fashion · arts/photography · ads).
-- **Next single step (yours):** skim the two lists, mark a few `★` or `✗` (gut feeling only). Or tell me the next city to fetch — remaining: **Paris · London · Barcelona**.
+- Phase 0 done ✅. **Phase 1 in progress.** Fetched 2026-06-14: **Berlin** (~23) + **Amsterdam** (~20). Scaffolded (no fetch yet): **Milan · Mexico City · Malta**.
+- **Now:** you're skimming Berlin + Amsterdam to mark `★` / `✗`.
+- **Cities still to fetch:** Paris · London · Barcelona · Milan · Mexico City · Malta.
