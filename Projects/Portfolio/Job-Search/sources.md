@@ -51,7 +51,8 @@ The databases, directories and job boards we crawl to fill the [[Projects/Portfo
 - **Local startup maps** — Berlin Startup Map, StartupAmsterdam, Station F (Paris) directory.
 
 ## City-specific job boards (great for entry/junior, English-friendly)
-- **Berlin** — Creative City Berlin https://www.creative-city-berlin.de/en/jobs/all/ · Berlin Design Network https://berlin-design-network.org/jobs · iAgora (English speakers) https://www.iagora.com/work/en
+- **Berlin** — Creative City Berlin https://www.creative-city-berlin.de/en/jobs/all/ · Berlin Design Network https://berlin-design-network.org/jobs · iAgora (English speakers) https://www.iagora.com/work/en · startup lists: Failory / Seedtable / Wellfound (Berlin)
+- **Amsterdam** — StartupAmsterdam https://www.startupamsterdam.org · I amsterdam business https://www.iamsterdam.com/en/business · Welcome to the Jungle (NL) · Glassdoor "creative Amsterdam"
 - *(Add equivalents for the other cities as we fetch them.)*
 
 ## How to use this list

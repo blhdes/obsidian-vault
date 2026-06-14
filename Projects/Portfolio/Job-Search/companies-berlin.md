@@ -40,6 +40,16 @@ Berlin is very **English-friendly** for creative work. Roles below skew toward a
 |---|---|---|---|---|---|
 | AKQA Berlin | ads · tech/product | Big | Global digital agency, hires juniors (saw a Junior Copywriter role) | akqa.com | todo |
 
+## Tech / product
+| Company | Industry | Size | Why it fits | Links | Status |
+|---|---|---|---|---|---|
+| Zalando | tech/product · fashion | Big | **Fashion-tech** — the crossover sweet spot (fashion + product + engineering) | zalando.com | todo |
+| N26 | tech/product | Big | Design-led mobile bank, English-first; iOS / product | n26.com | todo |
+| Pitch | tech/product · design-studio | Small | Design-led presentation tool, strong craft | pitch.com | todo |
+| Contentful | tech/product | Big | Headless CMS / dev platform — fits front- & back-end | contentful.com | todo |
+| Parloa | tech/product · AI | Big | Conversational / agentic **AI** platform — matches your AI / agentic-engineering skills | parloa.com | todo |
+| Trade Republic | tech/product | Big | Mobile-first fintech (iOS), English | traderepublic.com | todo |
+
 ## Music — *future / aspirational only*
 | Company | Industry | Size | Why it fits | Links | Status |
 |---|---|---|---|---|---|

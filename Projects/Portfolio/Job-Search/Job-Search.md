@@ -76,5 +76,7 @@ Starts **only once the portfolio is a shareable v1** (needs real screenshots + p
 
 ## Status
 
-- Phase 0 done ✅. **Phase 1 in progress** — first batch fetched: **[[Projects/Portfolio/Job-Search/companies-berlin|Berlin]]** (~17 companies, mostly fashion / arts / design) on 2026-06-14.
-- **Next single step (yours):** skim the Berlin list when you have a moment, mark a few `★` or `✗` — gut feeling only. Or tell me the next city to fetch (Paris / Amsterdam / London / Barcelona).
+- Phase 0 done ✅. **Phase 1 in progress.** Fetched on 2026-06-14:
+	- **[[Projects/Portfolio/Job-Search/companies-berlin|Berlin]]** — ~23 companies (fashion · arts · design · **tech/product** · ads; music parked).
+	- **[[Projects/Portfolio/Job-Search/companies-amsterdam|Amsterdam]]** — ~20 companies (tech · design · fashion · arts/photography · ads).
+- **Next single step (yours):** skim the two lists, mark a few `★` or `✗` (gut feeling only). Or tell me the next city to fetch — remaining: **Paris · London · Barcelona**.
