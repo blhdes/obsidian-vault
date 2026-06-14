@@ -49,8 +49,9 @@ A **personal website in English** that shows work, not credentials. Four section
 - [ ] **Build the site** — skeleton built 2026-06-13 at `/Users/agomezu/Claude/portfolio/` (plain HTML/CSS/JS). Design: minimal editorial, warm paper + ink + vermilion accent, Switzer typeface, name **Ale Gómez**. Pending: real screenshots, photos, portrait.
 - [x] **Publish** — live at **https://alegomez.studio** since 2026-06-13 (GitHub Pages, repo: https://github.com/blhdes/portfolio, domain via Porkbun). Details in [[Projects/Portfolio/domain|domain]].
 - [ ] Add fashion brand section at launch
-- [ ] Start applying
+- [ ] **Job search & relocation** — workstream started 2026-06-14, see [[Projects/Portfolio/Job-Search/Job-Search|Job-Search]]. Phase 1 (fetch companies) in progress; outreach gated on a shareable portfolio v1.
 
 ## Related
 
+- Job search: [[Projects/Portfolio/Job-Search/Job-Search|Job-Search & Relocation]]
 - App projects: [[Projects/Culla/Culla|Culla]], [[Projects/Doppio/Doppio|Doppio]], Warket, Village
