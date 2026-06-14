@@ -247,6 +247,15 @@ Chosen: **REPENT @ €60** — lead with the strongest seller (the best answer t
 
 **Real cost levers (all keep Wrong Culture as the single partner):** front-only vs front+back (€16.32 vs €21.02/unit), the cheaper blank options WC offers, and the screen-print course for sub-MOQ first pieces — **not** the split route.
 
+### First-drop piece — REPENT vs LIBERATED FROM (2026-06-14, parked ~1–2 weeks)
+
+Considered swapping the first drop to **II — LIBERATED FROM** (loved for its back graphic). Checked the actual artwork — verdict: **REPENT stays the better first piece.**
+
+- **REPENT** = flat white blackletter both sides ("REPENT REPENT" front, "all glory be to thee O'Lord" back) → **1 white screen per side**: the cheapest *and* highest-quality screen job (solid white on black is screen print at its best), exactly what the €21.02 front+back quote assumes. Front reads instantly → strong storefront/feed thumbnail.
+- **LIBERATED FROM** = front is a 1-colour **neckline wrap** ("LIBERATED FROM MATERIAL EXISTENCE") — on-trend but an otherwise-empty front = **weak thumbnail** (the power is hidden on the back). Back is a **photographic greyscale Byzantine Christ Pantocrator icon** = continuous-tone → the hard/expensive screen-print category (white underbase + halftone screens, muddy-risk on a first run). Same class as the held-back pieces (III, IV/VIII). Would re-quote *above* €21.02 or force DTF on the back (loses the screen-print hand-feel).
+- **Plan:** keep REPENT as drop 1; save LIBERATED FROM for a later **"photographic" drop** alongside III — ANNUNCIATION, once a sale funds a halftone/photo print. If LIBERATED FROM is ever wanted first, get a specific WC quote on the greyscale back (halftone screen vs DTF) before committing.
+- **Status:** final first-drop piece **deferred ~1–2 weeks** (revisit ~late June 2026) before replying to Grzesiek. The Wrong Culture reply (showroom dates + "can 20 units mix sizes?") is on hold until then.
+
 ### Legal/tax roadmap (the two IVAs — clarified 2026-06-11)
 
 Two different IVAs, often confused:
