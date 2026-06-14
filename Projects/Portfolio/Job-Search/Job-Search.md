@@ -10,7 +10,17 @@ The plan to land a **creative job abroad** and move there. Companion to [[Projec
 
 ## The target
 
-A role that uses the **whole mixed profile** — visual storytelling (cinema), photography, app/product building, and brand. Best fits: **creative technologist, design-studio generalist, brand / content, experiential / scenography, music-tech, or digital-creative agency** roles. Not the film industry.
+**Entry point: an assistant / junior / auxiliary role** — not senior. Somewhere to get in the door and grow.
+
+**Areas of interest, by current fit:**
+1. **Fashion & arts** — brands, studios, galleries, ateliers.
+2. **Design / creative studios & agencies** — brand, content, digital craft.
+3. **Tech / product** — *strongest hands-on experience*: shipped iOS apps (Swift), front- & back-end, AI / agentic engineering. Favour design-led / creative product companies and the **fashion- / culture-tech crossover** (where tech meets the creative interests).
+4. **Photography / visual** — the photography + cinema eye.
+
+**Music = future interest, not a current hook.** Only ~1–2 months of DJ/producing; we want to grow into it later, so keep music companies *secondary / aspirational*, never the headline pitch.
+
+Honest assets for an assistant role: real **photography** experience, a trained **visual eye** (cinema), **organised project execution**, **app/product** building, languages (ES/CA/EN). Not the film industry.
 
 ## Where (priority order)
 
@@ -66,5 +76,5 @@ Starts **only once the portfolio is a shareable v1** (needs real screenshots + p
 
 ## Status
 
-- Phase 0 done. Phase 1 not started — first fetch batch pending.
-- **Next single step:** pick the first city to research. Suggested: **Berlin** — the music-tech angle is the strongest hook right now.
+- Phase 0 done ✅. **Phase 1 in progress** — first batch fetched: **[[Projects/Portfolio/Job-Search/companies-berlin|Berlin]]** (~17 companies, mostly fashion / arts / design) on 2026-06-14.
+- **Next single step (yours):** skim the Berlin list when you have a moment, mark a few `★` or `✗` — gut feeling only. Or tell me the next city to fetch (Paris / Amsterdam / London / Barcelona).

@@ -50,6 +50,10 @@ The databases, directories and job boards we crawl to fill the [[Projects/Portfo
 - **Wellfound** (ex-AngelList) — https://wellfound.com — startup jobs.
 - **Local startup maps** — Berlin Startup Map, StartupAmsterdam, Station F (Paris) directory.
 
+## City-specific job boards (great for entry/junior, English-friendly)
+- **Berlin** — Creative City Berlin https://www.creative-city-berlin.de/en/jobs/all/ · Berlin Design Network https://berlin-design-network.org/jobs · iAgora (English speakers) https://www.iagora.com/work/en
+- *(Add equivalents for the other cities as we fetch them.)*
+
 ## How to use this list
 1. Pick **one source + one city** per session.
 2. Pull companies that fit the hybrid profile → drop into the matching city note as `todo`.
