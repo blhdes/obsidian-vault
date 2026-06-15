@@ -1,8 +1,10 @@
 ---
 title: First-launch onboarding flow
 date: 2026-05-12
-tags: [culla-music, idea, feature, onboarding, ux]
+tags: [culla-music, idea, feature, onboarding, ux, shipped]
 ---
+
+> **✅ Shipped — Phase 6 (2026-06-05 → 2026-06-10).** Landed as a lighter-weight design than the 3-screen walkthrough sketched below: a brand-forward first-launch screen + gated splash (`f45efec`, `4bf09d9`), then a **one-time, looping swipe-guide overlay** (`SwipeGuideOverlay` + `CoachTip`) that previews the real next cover and animates the drag hints (`868d2ec`, `641b503`, `436ed74`), plus a stronger one-time hero hint (`1f07d0b`). The mental model is taught *in place* on the deck rather than in a separate paged flow. See [[Projects/Culla-Music/Phases/phase-06-surfaces-onboarding-and-release|Phase 6]]. Original reasoning kept below.
 
 # First-launch onboarding flow
 

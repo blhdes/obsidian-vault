@@ -7,6 +7,8 @@ status: implemented (compiles; on-device testing in progress)
 
 # Phase 4 — Dismissed Mode Tooling
 
+> **⚠️ Partly superseded (Phase 6, 2026-06-09):** The **long-press cleanup menu** described in §3–§4 (`RemoveFromPlaylistsSheet`, the `removedFromPlaylists` / `forgotDismissal` undo cases, `PlaylistRemovalSnapshot`, the discoverability tip + context-menu haptic) was **removed** in `436ed74` — its headline "remove from playlists" only worked on Culla-made playlists, so it misled on Apple-made ones. **Undo now lives in the [[Phases/phase-06-surfaces-onboarding-and-release|Phase 6]] History sheet.** §1–§2 (30-day resurface, gesture rework, dismissed-age chip) are still in the app. Kept below for the original reasoning.
+
 > **Status (2026-05-15):** All features merged on `main`. Builds clean against iOS 26 SDK. On-device validation tracked in [[qa-dismissed-cleanup-menu|QA — Dismissed-mode cleanup menu]].
 
 Phase 3 left the Dismissed deck as a one-trick view: see what you'd rejected, optionally un-dismiss by right-swiping into a playlist. Phase 4 turns it into a real cleanup workspace — old rejections resurface for reconsideration, each gesture means something different, and a long-press exposes surgical playlist tools with full undo coverage.

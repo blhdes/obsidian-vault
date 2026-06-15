@@ -18,6 +18,8 @@ Ideas that have shipped. Source of truth for "what's in the app today" stays in 
 - [[up-swipe-heart-loved|Up-swipe = Heart / Loved]] — 2026-05-13.
 - [[sort-songs-from-this-artist|Sort songs from this artist]] — 2026-05-19 via `00b7e2b feat: scope swipe sessions by library artist`. Final shape diverged from the original sketch: surfaced through the source picker's Artists tab rather than a button inside the artist hub.
 - [[artist-bio-from-musicbrainz-wikipedia|Artist bio from MusicBrainz + Wikipedia]] — 2026-05-25 via `74bdfe7`. "About" card in the artist hub (chained MusicBrainz → Wikipedia + disk cache).
+- [[onboarding-flow|First-launch onboarding]] — Phase 6 (2026-06-05 → 2026-06-10). Shipped lighter than the 3-screen sketch: brand splash + a one-time looping swipe-guide overlay (`868d2ec`, `f45efec`, `4bf09d9`).
+- [[album-about-editorial-notes|Album "About" from Apple editorial notes]] — Phase 6 (`dce03b5`, 2026-06-04). Dedicated album liner-notes sheet from the card's album info button + artist editorial notes in the hub (`77178c4`).
 
 ## Related
 

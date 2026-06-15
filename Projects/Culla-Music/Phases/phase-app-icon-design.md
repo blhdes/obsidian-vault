@@ -1,8 +1,10 @@
 ---
 title: App Icon Design — Recraft Prompts
 date: 2026-05-18
-tags: [culla, phase, design, icon, branding]
+tags: [culla-music, phase, design, icon, branding, implemented]
 ---
+
+> **✅ Shipped — Phase 5 (`28c1875`, `e21b801`).** The vinyl-disc direction landed as the app icon with light / dark / tinted variants. This note is kept for the reusable Recraft prompts. Belongs to **Culla Music** (was mistagged `culla`).
 
 ## Goal
 
@@ -50,10 +52,10 @@ What "iOS ecosystem" means in practice:
 
 ## Next steps
 
-- [x] Pick a direction (gradient/mono/vinyl/letter-mark)
+- [x] Pick a direction (gradient/mono/vinyl/letter-mark) — vinyl disc
 - [x] Generate 3–5 variants in Recraft
 - [x] Decide on final palette (tie into Culla's existing color system?)
-- [ ] Export at 1024×1024 + run through an iOS icon resizer for all required sizes
-- [ ] Drop into `Assets.xcassets/AppIcon.appiconset/`
+- [x] Export at 1024×1024 + run through an iOS icon resizer for all required sizes
+- [x] Drop into `Assets.xcassets/AppIcon.appiconset/` — shipped light/dark/tinted (`28c1875`, `e21b801`)
 
-Related: [[Projects/Culla/Culla]]
+Related: [[Projects/Culla-Music/culla-music|Culla Music]]

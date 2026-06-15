@@ -1,8 +1,10 @@
 ---
 title: Album "About" section from Apple editorial notes
 date: 2026-05-25
-tags: [culla-music, idea, feature, album, musickit, discovery]
+tags: [culla-music, idea, feature, album, musickit, discovery, shipped]
 ---
+
+> **✅ Shipped — Phase 6 (2026-06-04 → 2026-06-09).** Shipped as the *bigger* of the two placement options below — a dedicated **album liner-notes sheet** opened from an inline album info button on the card (`dce03b5`), with the album sleeve later integrated into one cohesive layout (`d334ffa`). Apple Music **artist** editorial notes were also surfaced above the Wikipedia bio in the artist hub (`77178c4`, `2596669`). Source is MusicKit `editorialNotes` as planned (no Wikipedia, no disambiguation), empty-hides like the artist bio. See [[Projects/Culla-Music/Phases/phase-06-surfaces-onboarding-and-release|Phase 6]]. Original reasoning kept below.
 
 # Album "About" section from Apple editorial notes
 

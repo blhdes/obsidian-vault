@@ -10,7 +10,9 @@ Apple Music swipe-sorter. One song at a time — swipe right to add to a playlis
 
 **Repo:** https://github.com/blhdes/culla-music (private)  
 **Web:** [culla.app/music](https://culla.app/music) — landing + privacy (`#privacy`) + support (`#support`), in the `culla-web` repo. App Store submission guide → [[Areas/Xcode/app-store-submission|App Store submission]].  
-**Started:** 2026-05-03 | **Status (2026-05-28):** Phase 5 shipped — a **design-language** phase: a Liquid Glass vocabulary rolled out app-wide, then a deliberate **restraint pass** back toward minimalism (scoped accent to critical surfaces, calm Settings tier, neutral cover shadows, flush artist hub). A new **artist hub** surface landed and was redesigned twice (badges → "About" bio → flush layout). → [[Phases/phase-05-liquid-glass-and-restraint|Phase 5]]. Since then a **post-Phase-5 polish** pass (2026-05-26 → 28): a richer swipe card (album + year, accent-tinted chips), a scrubbable progress bar, a per-playlist **library queue filter**, read-only / "Move out" correctness fixes, and a batch of iOS 26 Liquid Glass / mesh / live-theme fixes.
+**Started:** 2026-05-03 | **Status (2026-06-15):** **Phase 6 shipped** — new surfaces (History sheet, album liner-notes sheet, date jump), a real first-run experience (brand splash + one-time swipe guide), deeper iOS 26 Liquid Glass morphing, data-integrity fixes, and the full **release-readiness** push: **localization into 8 languages** + App Store prep (bundle id `app.culla.music`, iPhone-only, version-only footer). The Phase 4 Dismissed cleanup menu was dropped (undo now lives in History). → [[Phases/phase-06-surfaces-onboarding-and-release|Phase 6]].
+
+_Earlier:_ Phase 5 shipped — a **design-language** phase: a Liquid Glass vocabulary rolled out app-wide, then a deliberate **restraint pass** back toward minimalism (scoped accent to critical surfaces, calm Settings tier, neutral cover shadows, flush artist hub). A new **artist hub** surface landed and was redesigned twice (badges → "About" bio → flush layout). → [[Phases/phase-05-liquid-glass-and-restraint|Phase 5]]. Since then a **post-Phase-5 polish** pass (2026-05-26 → 28): a richer swipe card (album + year, accent-tinted chips), a scrubbable progress bar, a per-playlist **library queue filter**, read-only / "Move out" correctness fixes, and a batch of iOS 26 Liquid Glass / mesh / live-theme fixes.
 
 **QA:** All manual testing lives in a single tracker → [[qa-testing-tracker|QA Testing Tracker]].
 
@@ -158,6 +160,7 @@ Up/down gestures, autoplay, favorites, share, stats, paywall, duplicate scanning
   - **Read-only / "Move out" correctness** — recover playlists stuck read-only from the retired editability latch (`71840a4`; editability is re-derived each sync, never latched); gate "Move out" to app-created playlists, killing a false move + oversized toast (`0339162`); stop user playlists being mislabeled read-only with a zero count (`d54e551`).
   - **Misc** — solid accent fill + contrast-aware text on the selected mode tile (`4c115c2`); artist sheet collapsed into one loading state then reveal (`de8ff5a`); scoped playlist/artist source now persists across Home ⇄ Swipe (`b7ab445`).
   - **iOS 26 fixes** (2026-05-28) — Manage Playlists slab no longer renders transparent over the animated mesh (`c515bc8`, a compositor quirk → [[Dev-Insights/Liquid Glass Transparent Over Animated Mesh 2026-05-28|write-up]]); Settings sheet reacts to theme changes live (`9ee8c3b`); mesh side-middle points anchored at the screen edges (`3ce79c2`).
+- **Phase 6** — [[Phases/phase-06-surfaces-onboarding-and-release|New Surfaces, Onboarding & Release Readiness]]. ~73 commits, 2026-05-29 → 2026-06-14. New surfaces (History sheet w/ swipe-to-undo, album liner-notes sheet, date jump), first-run swipe guide + brand splash, deeper iOS 26 glass morphing, sort/filter refinements (sort chips, filter-by-artist, 33-color palette, swipe-to-rename), catalog auditioning + sort reconciliation, swipe-down to share, marquee now-playing title, **localization into 8 languages** (`618ca12`), App Store prep, and dev tooling (`cullaScreenshotMode`, `DebugFlags.forceLegacyUI`). Dropped the Phase 4 Dismissed cleanup menu (`436ed74`).
 
 ## Ideas
 
@@ -170,12 +173,12 @@ Up/down gestures, autoplay, favorites, share, stats, paywall, duplicate scanning
 - ✅ [[Archive/Culla-Music/Ideas/up-swipe-heart-loved|Up-swipe = Heart / Loved]] — post-Phase-3 polish, 2026-05-13.
 - ✅ [[Archive/Culla-Music/Ideas/sort-songs-from-this-artist|Sort songs from this artist]] — shipped 2026-05-19 via `00b7e2b feat: scope swipe sessions by library artist`. Surfaced through the source picker's Artists tab rather than the artist hub.
 - ✅ [[Archive/Culla-Music/Ideas/artist-bio-from-musicbrainz-wikipedia|Artist bio from MusicBrainz + Wikipedia]] — shipped 2026-05-25 via `74bdfe7`; "About" card in the artist hub (chained MusicBrainz → Wikipedia + disk cache). [[Phases/phase-05-liquid-glass-and-restraint|Phase 5]].
+- ✅ [[Archive/Culla-Music/Ideas/onboarding-flow|First-launch onboarding]] — shipped Phase 6 as a one-time swipe guide + brand splash (lighter than the 3-screen sketch). [[Phases/phase-06-surfaces-onboarding-and-release|Phase 6]].
+- ✅ [[Archive/Culla-Music/Ideas/album-about-editorial-notes|Album "About" from Apple editorial notes]] — shipped Phase 6 as a dedicated album liner-notes sheet (`dce03b5`) + artist editorial notes in the hub. [[Phases/phase-06-surfaces-onboarding-and-release|Phase 6]].
 
 **Still open:**
-- [[Ideas/stats-activity-view|Stats / activity view]] — local-only Charts dashboard (sorts per day, top playlists, streak).
+- [[Ideas/stats-activity-view|Stats / activity view]] — local-only Charts dashboard (sorts per day, top playlists, streak). *(Adjacent: the Phase-6 History sheet logs actions but isn't a stats dashboard.)*
 - [[Ideas/smart-playlist-suggestion|Smart playlist suggestion chip]] — uses the membership index to hint a likely target.
-- [[Ideas/onboarding-flow|First-launch onboarding]] — 3 screens, skippable, mirrors photo Culla's pattern. Eligible for a 4th screen now that up-swipe = Loved has shipped.
-- [[Ideas/album-about-editorial-notes|Album "About" from Apple editorial notes]] — sibling to the shipped artist bio, but uses MusicKit `Album.editorialNotes` (no Wikipedia, no disambiguation). Needs an album surface — MVP is a "From the album X" card on the hub.
 - [[Ideas/artist-count-name-fallback|Name-based fallback for missing artist counts]] — name-based catalog lookup for the small subset of artists where MusicKit's `\.artists, contains:` filter returns 0.
 
 ## Dev-Insights
@@ -194,7 +197,7 @@ Debugging write-ups kept as live reference (consult before touching the related 
 
 - Playlists created via `MusicLibrary.shared.createPlaylist(...)` get stamped with `curatorName = "CullaMusic"` (Apple's third-party-app attribution policy). Sidestepped via kind-based detection, but the "CullaMusic" label still shows up in Apple Music's UI as a created-via attribution. No public way to suppress.
 - `MusicLibraryRequest.offset` pagination: verify behavior on edge cases (libraries with < 100 songs, libraries > 10k).
-- **Hands-on QA gap** — [[qa-testing-tracker|QA Testing Tracker]] is the live source of truth, but its last logged pass is 2026-05-22. The post-Phase-5 polish (swipe-card metadata, scrubbable bar, queue filter, iOS 26 fixes; 2026-05-24 → 28) still wants an on-device pass logged.
+- **Hands-on QA gap (now large)** — [[qa-testing-tracker|QA Testing Tracker]]'s last logged pass is **2026-05-22**. The post-Phase-5 polish *and the entire Phase 6* (History sheet, album sheet, date jump, onboarding/swipe guide, iOS 26 glass morphing, localization, App Store prep) are unverified on device — ~3 weeks / 70+ commits behind. Biggest pre-TestFlight risk. Localized layouts (longer DE/FR strings) especially need an eyeball.
 - `MusicLibraryService.startClipPositionObserver` concurrency warning (see memory `project_avplayer_concurrency_warnings`) — still present; small follow-up next time that file is touched.
 - **Refactor backlog R1–R6** (from the now-closed [[Archive/Culla-Music/Dev-Insights/Code Audit Findings 2026-05-20|code audit]]) — non-blocking: split `SourceScopePickerSheet`, decompose `HomeView.body`, extract `ArtistLibraryService` + `MusicPreviewPlayer` from `MusicLibraryService` (935 lines), `CountCache`, `ToastCoordinator`.
 - Eventually: merge into Culla as a tab or modal flow. Name collision audit done — all Culla Music types are uniquely prefixed.
