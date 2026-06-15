@@ -29,6 +29,8 @@ Reference: [[culla-music|Culla Music — Project Index]]
 
 ## At a glance — what still needs hands-on coverage
 
+> **⚠️ Large backlog (2026-06-15):** this tracker stops at `2ce722a` (2026-05-22). The entire **[[Phases/phase-06-surfaces-onboarding-and-release|Phase 6]]** window (2026-05-29 → 2026-06-14, ~73 commits) is **not yet sectioned here** — History sheet, album liner-notes sheet, date jump, first-run swipe guide + brand splash, iOS 26 glass morphing, sort/filter refinements, catalog auditioning + sort reconciliation, swipe-down to share, marquee title, **localization (8 languages)**, and App Store prep all want on-device passes. Add sections as you verify; check localized layouts (longer DE/FR strings) too.
+
 Items below are the ones with at least one un-ticked box.
 
 - 2026-05-22 — Settings + playlist sheets glass redesign
