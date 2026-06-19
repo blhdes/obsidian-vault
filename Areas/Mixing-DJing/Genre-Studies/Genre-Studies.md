@@ -54,6 +54,7 @@ tags: [genre, <genre-slug>]
 
 - [[ambient]] — beatless / drone / hauntology lineage from Eno to Burial
 - [[industrial-gothic-techno]] — EBM + industrial + goth convergence, Berlin 2010s–20s
+- [[hard-techno]] — fast (145–155), bouncy, release-driven techno; the melodic/vocal/uplifting wave (KUKO, Indira Paganotto, Klangkuenstler) vs. the dark peak-time end
 - [[ricardo-villalobos]] — artist-as-genre: minimal techno + microhouse, the deep/hypnotic Perlon world
 - [[dub-techno]] — Basic Channel / Chain Reaction lineage: one detuned chord, drenched in echo (the deep-minimal ancestor)
 - [[rominimal]] — Romanian minimal ([a:rpia:r] / Bucharest): drier, deeper, marathon-set minimal (the descendant)

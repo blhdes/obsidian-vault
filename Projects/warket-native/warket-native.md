@@ -39,6 +39,7 @@ Full step-by-step build plan: [[Projects/warket-native/mvp-implementation-plan|M
 
 - [[Projects/warket-native/mvp-implementation-plan|MVP implementation plan]] — detailed step-by-step build plan.
 - [[Projects/warket-native/deferred-backlog|Deferred backlog]] — everything beyond the MVP.
+- [[Projects/warket-native/Phases/liquid-glass-redesign|Phase 1 — Liquid Glass Redesign]] — first post-MVP design pass.
 - Related learning: [[Resources/Swift/swift|Swift]]
 
 ## Status
@@ -46,6 +47,7 @@ Full step-by-step build plan: [[Projects/warket-native/mvp-implementation-plan|M
 - [x] Audit existing Capacitor/web project
 - [x] Lock design / scope / target decisions
 - [x] Plan the SwiftUI project structure (see MVP plan)
-- [ ] Scaffold Xcode project + add supabase-swift (M0)
-- [ ] Port crypto (CryptoKit) + verify hash parity (M1)
-- [ ] Build MVP screens (M2–M5)
+- [x] Scaffold Xcode project + add supabase-swift (M0)
+- [x] Port crypto (CryptoKit) + verify hash parity (M1)
+- [x] Build MVP screens (M2–M5)
+- [x] Phase 1 — Liquid Glass redesign (merged to `main`, PR #11)
