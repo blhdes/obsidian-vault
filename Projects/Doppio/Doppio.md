@@ -1,7 +1,7 @@
 ---
 title: Doppio (formerly beatmch / HalfTime)
 date: 2026-06-01
-updated: 2026-06-11
+updated: 2026-06-21
 tags: [project, ios, swift, dj, doppio, halftime, beatmch]
 ---
 
@@ -34,6 +34,7 @@ tool for DJs, built as a *living metronome*, not a calculator. Source code lives
 
 ## Sections
 
+- **[[Beat-Styles]]** — the five orb modes, what each draws, and their pace.
 - **[[Ideas]]** — product ideas, feature sketches, UX experiments not yet decided.
 - **[[Dev-Insights]]** — lessons learned while coding.
 - **Phases** — milestones / releases (create when there's a first milestone).
