@@ -12,6 +12,7 @@ A toolkit for building and cleaning up my local DJ library under `~/Music/Librar
 - **Covers** — make sure files already on disk show artwork (Discogs first, MusicBrainz / iTunes as fallbacks). Works on *any* audio, not just things this skill downloaded.
 - **Tags** — fix artist / title / album / year from MusicBrainz **and** refine the genre from Discogs styles, optionally renaming files to match.
 - **Library notes** — snapshot what's actually *in* the Library each month (Soulseek imports + their on-disk tags) into the Obsidian vault.
+- **Port** — the last phase: flush the whole Library onto an external SSD and delete the local copies, to free up the internal disk.
 
 Implemented as a **slash command** (not a `SKILL.md`): typing `/download-music …` loads `~/.claude/commands/download-music.md` and Claude follows it.
 
@@ -29,6 +30,8 @@ Implemented as a **slash command** (not a `SKILL.md`): typing `/download-music �
 | `/download-music tags genre <file-or-folder>` | Refine **only** the genre from Discogs styles — for an already-clean library |
 | `/download-music tags rename <file-or-folder>` | Same as `tags`, plus rename files to the clean title |
 | `/download-music library [month-year]` | Snapshot this month's Soulseek imports + their on-disk tags into the vault (`Areas/Mixing-DJing/Library/`) |
+| `/download-music port <SSD>` | **Preview** moving the whole Library onto an external SSD (dry-run, changes nothing) |
+| `/download-music port <SSD> --apply` | **Flush** the Library onto the SSD and delete the local copies (frees disk) |
 
 Accepts a single track, a playlist URL, or "grab the rest of the EP too" from one track.
 
@@ -102,6 +105,7 @@ The cover commands need a free Discogs personal access token; everything else wo
 ├── cover_folder.py   ← backfill covers across a folder
 ├── cover_picker.py   ← list / set a specific Discogs version
 ├── fix_metadata.py   ← MusicBrainz tags + Discogs genre fixer (+ rename)
+├── port_library.py   ← move the Library → external SSD, then delete locals
 ├── queue.md          ← the download queue
 └── .discogs_token    ← optional Discogs token
 ```
@@ -117,6 +121,26 @@ For the step-by-step bash and edge-case rules, read the command file above — t
 - Each release gets a provenance line (uploader · quality · move date) + a per-track table, plus a "tag-check notes" section flagging missing/weak genres.
 
 See [[../../Mixing-DJing/Library/Library|the Library index]].
+
+## Porting the Library to an external SSD
+
+The **last phase** of the pipeline, for when the internal disk fills up. `port_library.py` moves everything in `~/Music/Library/` onto an external SSD and deletes the local copies. Run it **only when I say so** — it's a deliberate flush, not automatic. It's **repeatable**: the Library *folder* is kept (only its contents move), so new Soulseek imports keep landing there and the next flush just merges them in.
+
+```bash
+python3 ~/.claude/skills/download-music/port_library.py /Volumes/<SSD>          # dry-run preview (default)
+python3 ~/.claude/skills/download-music/port_library.py /Volumes/<SSD> --apply  # move + delete locals
+```
+
+Default destination is `<SSD>/Music/Library/` (mirrors the local layout). It moves **everything** — audio, `cover.jpg`, and vinyl-rip lineage `.txt`/`.nfo` files + scans travel with their release.
+
+**Why it's safe** (it deletes local files, so this is the whole point):
+
+- **Dry-run by default** — nothing moves until `--apply`.
+- **Refuses anything but a real external drive** — destination must be mounted *and* on a different physical disk than the source. Blocks the macOS trap where an unplugged SSD's `/Volumes/<name>` is silently a folder on the internal disk (a naive move would then delete the originals off the boot drive).
+- **Copy → checksum-verify → delete, per file** — a local file is deleted only after its SSD copy is proven byte-identical (SHA-256). A mismatch leaves both files in place.
+- **Resumable / idempotent** — a file already on the SSD (same size + checksum) is skipped and only its local copy removed.
+
+> ⚠ **Engine DJ caveat:** Engine stores track paths relative to the internal disk (`../Library/…`), so after the move it shows those tracks as missing until I point Engine at the SSD (add it as a drive, or relink). The script does **not** touch Engine's database — re-linking is a separate manual step, and it prints this reminder when it finishes. See [[../../Mixing-DJing/Manuals/engine-dj-sc-live-4-workflow|Engine DJ → SC Live 4 Workflow]].
 
 ## Related notes
 
