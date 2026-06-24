@@ -8,7 +8,7 @@ tags: [project, ios, swift, dj, doppio, halftime, beatmch]
 # ⏱️ Doppio
 
 > Renamed from **HalfTime** → **beatmch** → **Doppio** (decided 2026-06-10, see
-> [[Inbox/beatmch-app-naming|the naming note]] — *doppio movimento* = "twice as
+> [[beatmch-app-naming|the naming note]] — *doppio movimento* = "twice as
 > fast"). Everything was renamed on 2026-06-10 — codebase (folder `Doppio/`,
 > `Doppio.xcodeproj`, bundle id `agu.doppio`), the local repo folder
 > (`Claude/doppio/`), and the GitHub repo (`blhdes/doppio`) — and the vault folder
