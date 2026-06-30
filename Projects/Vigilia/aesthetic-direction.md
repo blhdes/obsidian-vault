@@ -69,4 +69,13 @@ Everything moves **slowly, at the tempo of a breath, not of a UI animation.** No
 
 > Test every future animation or transition against that sentence: *does it hold the space, or does it react quickly?* If it feels responsive, it is wrong here.
 
-Related: [[Vigilia|Vigilia]] · [[interaction-flow|The interaction flow]] · [[ephemerality-and-transmutation|Ephemerality & transmutation]] · [[open-questions|Scope & open questions]]
+## The first furniture: the handle and the glass (2026-06-26)
+
+For most of its life the screen was nothing but text on dark. Two small pieces of *furniture* were added during the build, each to solve a real on-device problem, and each is kept deliberately quiet so it does not break the austerity.
+
+- **The dimming glass scrim** at the bottom. A dark glass that fades in from the top, **deepening the existing darkness rather than laying a panel over it**. It exists to protect the bottom of the screen, where the fixed seal-handle now lives, so the writing dissolves into it instead of colliding with the gesture (see [[interaction-flow|the build revisions]]). The rule: it must read as the dark getting deeper, never as a bright bar.
+- **The breathing handle hint.** A faint, slowly pulsing chevron marking the fixed handle and the direction to draw it. It is the one concession to **discoverability** — the seal gesture used to be invisible and unfindable. It is kept barely-there, and it holds still under Reduce Motion. The rule: the hint may whisper *where* to act; it must never become a button or a label.
+
+These are the first elements beyond pure text. Each earned its place by solving a genuine problem (text colliding with the gesture; the gesture being undiscoverable), and each is held to the same test as everything else: *does it deepen the candlelit quiet, or clutter it?*
+
+Related: [[Vigilia|Vigilia]] · [[interaction-flow|The interaction flow]] · [[four-registers|The four registers of grief]] · [[ephemerality-and-transmutation|Ephemerality & transmutation]] · [[open-questions|Scope & open questions]]

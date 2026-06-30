@@ -71,4 +71,14 @@ Finally, the screen returns to **total black**. The note **exists nowhere** — 
 
 Every transition above is **slow, at the tempo of a breath** — see the motion note in [[aesthetic-direction|the aesthetic direction]]. Nothing here should ever feel snappy or responsive; the app holds a space, it does not react quickly.
 
-Related: [[Vigilia|Vigilia]] · [[ephemerality-and-transmutation|Ephemerality & transmutation]] · [[aesthetic-direction|The aesthetic direction]] · [[open-questions|Scope & open questions]]
+## Build revisions (2026-06-26)
+
+The beats above still describe the *intent* of the session, and the reasoning under each still holds. But several **mechanisms** changed once the app ran on a real phone. Recorded here so the note stays honest, and so future-me knows the original was not wrong, only refined.
+
+- **The welcome line now draws a register, not just a phrase.** Each open picks one of [[four-registers|four registers of grief]] (a person, yourself, a shared situation, a formless loss) and shows a welcome line *and* its matching turn from that same register. Beats 1 and 5 are unchanged in spirit; there is simply a coherent pair behind them now.
+- **The welcome line leaves on *press*, not on the first keystroke.** The original intent (beat 1) was that it "vanishes the moment you start typing." On a device, that left the seed sitting under the writing for a beat, which read as raw and overlapping. Tying it to focus — it leaves the instant you press in — is cleaner. There is also **no auto-focus**: you press to begin, which keeps the entry deliberate (consistent with the voluntariness in beat 3).
+- **The seal moved from "swipe down anywhere" to a fixed pull-handle at the bottom centre.** This is the biggest change to beat 3. Reading a drag *over the text field* was unreliable: the field fought the gesture and the seal often simply failed. A fixed handle is robust and always in the same place. The original reasoning still holds — it is voluntary (chosen, not detected), it carries the single low haptic at the lock, and drawing it *down* still embodies pushing the wound into the dark. The **live feedback is kept**: as you draw the handle down, the wound dims and sinks in real time.
+- **A dimming glass scrim protects the bottom** (see [[aesthetic-direction|the aesthetic direction]]). The writing fades into it so text never collides with the handle.
+- **The ascension technique is resolved** (beat 7): a **per-glyph dissolve**. Each letter lifts, drifts, blurs, and fades on a staggered schedule, via iOS 18's `TextRenderer` — the literal realization of "the words themselves come apart into light." Chosen over a particle system, which risked the confetti failure mode. Under Reduce Motion it becomes a quiet fade. See [[open-questions|the resolved questions]].
+
+Related: [[Vigilia|Vigilia]] · [[four-registers|The four registers of grief]] · [[ephemerality-and-transmutation|Ephemerality & transmutation]] · [[aesthetic-direction|The aesthetic direction]] · [[open-questions|Scope & open questions]]

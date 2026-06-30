@@ -2,7 +2,7 @@
 title: Vigilia
 date: 2026-06-25
 tags: [project, ios, swift, swiftui, vigilia, design]
-status: concept locked
+status: building
 ---
 
 # 🕯️ Vigilia
@@ -13,9 +13,9 @@ If a later idea contradicts something here, that is allowed, but it should be a 
 
 ## What it is
 
-An iOS app, Swift / SwiftUI, that turns a loving-kindness meditation (**Metta Bhavana**) into a single digital ritual. The guiding premise is *"love your enemy as you love yourself."*
+An iOS app, Swift / SwiftUI, that turns a loving-kindness meditation (**Metta Bhavana**) into a single digital ritual. You bring to mind something that weighs on you, name it, and then **turn toward wishing it well** — and then let it go. The app does not help you vent, analyze, or record the grievance; it helps you make the turn from the wound to the well-wishing, once.
 
-You open the app and bring to mind someone who has recently hurt you: a betrayal, an insult, a disrespect. The entire purpose is then to **turn toward wishing that person well** — praying for them, picturing them bathed in light, bringing positive energy to that person and that situation. The app does not help you vent, analyze, or record the grievance. It helps you make the turn from the wound to the well-wishing, once, and then let it go.
+The original premise was the hardest case, *"love your enemy as you love yourself"*: bring to mind someone who has recently hurt you, and turn toward wishing *them* well. That case is still the sharpest one the app offers, but it is no longer the only one. The app now holds space for **four registers** of grief — a person who hurt you, a way you have hurt yourself, a shared situation, or a loss with no one to blame. Full reasoning in [[four-registers|The four registers of grief]]; the short version is that grief is not only caused by others, and an enemy-only app would sit unused on the many nights you are simply grieving.
 
 ## The spirit: a frame, not a journal
 
@@ -29,12 +29,13 @@ This is the crux of the whole app, and it is easy to mistake for a missing featu
 
 ## The map
 
-The substance lives in four notes. Read them in this order:
+The substance lives in five notes. Read them in this order:
 
 1. **[[ephemerality-and-transmutation|Ephemerality & transmutation]]** — the defining feature, and why disappearance is an offering rather than an erasure.
-2. **[[interaction-flow|The interaction flow]]** — the single session, beat by beat, with the reasoning under each beat: welcome seed → naming the wound → the swipe that locks it → the loving-kindness seed → the well-wishing → the ascension → the void.
-3. **[[aesthetic-direction|The aesthetic direction]]** — "Vigilia" the look and feel: a darkened chapel lit by one candle. Light, colour, typography, the sacred suggested-not-named, and motion.
-4. **[[open-questions|Scope & open questions]]** — what is in v1, what was deferred, and the decisions still to settle before or during the build.
+2. **[[four-registers|The four registers of grief]]** — how the app widened from enemy-only to four kinds of grief (a person, yourself, a situation, a formless loss), and why.
+3. **[[interaction-flow|The interaction flow]]** — the single session, beat by beat, with the reasoning under each beat: welcome seed → naming the wound → the gesture that locks it → the loving-kindness seed → the well-wishing → the ascension → the void. (Includes the build revisions, where several mechanisms changed on contact with a real device.)
+4. **[[aesthetic-direction|The aesthetic direction]]** — "Vigilia" the look and feel: a darkened chapel lit by one candle. Light, colour, typography, the sacred suggested-not-named, and motion.
+5. **[[open-questions|Scope & open questions]]** — what is in v1, what was deferred, and the decisions still to settle (and the ones now resolved).
 
 ## On the name
 
@@ -42,4 +43,6 @@ The substance lives in four notes. Read them in this order:
 
 ## Status
 
-**Concept locked.** Next step is the SwiftUI scaffolding. Technically the app is small by design: local-only, no backend, a single writing surface and a handful of animated states. The hard part was never the engineering; it is protecting the atmosphere, which is what these notes exist to do.
+**Built and iterating on device** (as of 2026-06-26). Well past the scaffold: the full flow runs end to end — name, seal, wish, ascend, void. The code lives at `/Users/agomezu/Claude/vigilia/` and is pushed public to **github.com/blhdes/vigilia**. Several decisions evolved once it was running on a real phone (the seal gesture, how the welcome line leaves, the ascension technique); those revisions and their reasoning are recorded at the foot of [[interaction-flow|the interaction flow]], and the open items are in [[open-questions|scope & open questions]].
+
+Technically the app is small by design: local-only, no backend, a single writing surface and a handful of animated states. The hard part was never the engineering; it is protecting the atmosphere, which is what these notes exist to do.

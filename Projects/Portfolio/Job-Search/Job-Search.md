@@ -77,7 +77,7 @@ You read the candidates at your own pace and mark `★ shortlist` or `✗ pass`.
 For each `★`: find the right contact (person + email), note their recent work and the exact angle for the pitch.
 
 **Phase 4 — Contact** 🔒 *gated*
-Starts **only once the portfolio is a shareable v1** (needs real screenshots + photos + portrait — see [[Projects/Portfolio/Portfolio|Portfolio]] roadmap). Then: a short, personal email + a tailored letter per shortlisted company. Track replies here.
+Starts **only once the portfolio is a shareable v1** (needs real screenshots + photos + portrait — see [[Projects/Portfolio/Portfolio|Portfolio]] roadmap). Then: a short, personal email + a tailored letter per shortlisted company. Reuse the [[Projects/Portfolio/Job-Search/application-templates|base application texts (EN)]] — just swap the `[brackets]`. Track replies here.
 
 ## Status
 
