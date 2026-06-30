@@ -46,6 +46,7 @@ tags: [tracklist, <genre>, <bpm-range>]
 ## Notes in this folder
 
 - [[may-2026|May 2026 Tracklist]] — first playlist, WIP toward 10–15 tracks
+- [[set-2026-07-01|Set – 2026-07-01]] — opener (3 tracks, deep→groove→techno, all Engine key 7), WIP
 
 ## Related
 
