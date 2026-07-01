@@ -110,7 +110,39 @@ Genre can't say "dark / hypnotic / emotional". A small controlled vocabulary goe
 
 **This is manual and gradual** — mood is heard, not deduced. Tag tracks while auditioning / prepping a set, not all at once. **Start small:** make `#peak`, `#dark`, `#hypnotic`, `#emotional` first and tag a batch of tracks I know well; add the rest once the habit sticks.
 
+---
 
+## 2026-07-01 — Collect vs. play, and hot cues
+
+### Collect ≠ play — the working set
+
+The trap once the library grows: loving a track isn't a reason to play it in a set. Pros play from a small selection they know cold, not the whole library. Separate the two:
+
+- **Collect freely → `New`.** Everything that grabs me lands in the `New` smart playlist (Date Added · last 30 days). No decision here, just capture — 300+ is fine.
+- **Promote by auditioning *in the mix*.** A track only earns a spot once I've actually mixed it and it does a job nothing else does (this energy / this key bridge / this moment). If two do the same job, the better one wins for that set.
+- **`Current` — the working crate.** Make it as a **normal Playlist in Engine** (not a smart one): 40–60 tracks I'm actively playing and know cold (where it breaks, what it mixes into). Sets come from here. Refresh ~monthly; everything else stays in the library ready for its turn.
+- **⭐ rating = floor-tested.** Star the ones that have worked on a real floor, so the cream rises to the top of any list.
+
+Rule that frees you: **you'll play ~10% of the library 90% of the time** — that depth beats a big pile.
+
+**Flow:** `New` (capture) → audition in the mix → `Current` (working crate) → per-set playlist (e.g. `Set – <date>`).
+
+### Hot cues — where to place them
+
+Cues only work if the **beatgrid is correct first** (bad grid → cues drift, fix it before cueing). **Golden rule:** put every cue on the **first beat of a phrase** (the "1" of an 8- or 16-bar section), snapped to the grid — so when I drop or jump, both tracks' phrases line up.
+
+The 3–4 that actually earn their place (house/techno):
+
+1. **Intro / first solid kick** — where the beat truly starts; for dropping in time with the track already playing.
+2. **Breakdown** — where it strips back / drops the kick; to anticipate it or jump there.
+3. **Drop / groove return** — where the energy comes back after the breakdown.
+4. **Mix-out** — the phrase where I start pulling this track and bringing in the next.
+
+Don't over-cue: 3–4 on the "1" beat 8 messy ones. Start with just **intro + breakdown** — the two that save you live.
+
+---
+
+## Related
 
 - [[Mixing-DJing]] — area index
 - [[../Claude/Skills/download-music|/download-music skill]] — now refines genre from Discogs styles (`tags genre`)
