@@ -45,7 +45,7 @@ The genre is young, but its DNA is old. The three feeder lineages:
 
 **The convergence (the actual genre)**
 - **1993** — **Downwards** label (Regis & Surgeon, Birmingham) — industrial techno proper. The bridge from industrial *noise* to industrial *techno*.
-- **~2007–2012** — **Ancient Methods**, Perc, Sandwell District push distorted, militant techno back toward its industrial roots.
+- **~2007–2012** — **Ancient Methods**, Perc, [[notes/sandwell-district|Sandwell District]] push distorted, militant techno back toward its industrial roots.
 - **2013** — **aufnahme + wiedergabe** (Berlin, run by Philipp Strobel) becomes the hub label fusing EBM, post-punk, coldwave and techno. This is ground zero for the modern sound.
 - **~2015–2018** — **Phase Fatale** rises and founds **BITE** records; the "gothic techno" tag becomes legible. Schwefelgelb, Years of Denial, Codex Empire, Imperial Black Unit fill out the scene.
 - **2020s** — Full **EBM / coldwave revival**. Boy Harsher and Kontravoid cross into wider audiences; the sound is a Berghain / dark-rave staple.
