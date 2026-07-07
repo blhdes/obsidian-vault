@@ -12,7 +12,7 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 ## Setup status
 
-- **DAW:** Ableton Live **Suite (30-day trial)** installed — trial ends **~2026-06-27**
+- **DAW:** ⏸ **Between installs.** Suite 30-day trial expired (~2026-06-27) and was **uninstalled 2026-07-07** (app + system data → Trash; all project files kept safe in `~/Music/Ableton/`). Next: install **Ableton Live Lite** and restart the hands-on journey from scratch on the smaller set.
 - **Hardware:** none yet (mouse + keyboard only)
 
 ## 🎯 Active path
@@ -47,6 +47,22 @@ Before recording into Arrangement and exporting, the user wants to **deepen the 
 **Next-session protocol:** The order is now fixed (see plan above). Confirm where we are, then deliver the **next unchecked candidate** — one per session, never bundled. Up next: **Pad / atmosphere** (#2). Each deepening session reinforces a Path % as well (sound design / mixing / drum-depth / etc.).
 
 When the user says they're done deepening, *then* move to Session 6 (record into Arrangement, mix pass, export).
+
+---
+
+## Status — 2026-07-07 — Suite trial expired → uninstalled, moving to Lite
+
+**What happened:** The Ableton Live **Suite** 30-day trial expired (~2026-06-27) and has now been **uninstalled** (app + all system data moved to Trash). Every project file was left untouched in `~/Music/Ableton/` — `techno-sketch-01` and its 11 backups, the `test/000` project, the User Library, and the Factory Packs.
+
+**Plan:** Install **Ableton Live Lite** (the free tier) and restart the hands-on journey from scratch on the smaller set. Lite is a good fit — everything covered so far (Sessions 1–9 + the sketch work) is core workflow that Lite fully supports.
+
+**What changes on Lite:**
+- Lite caps the number of tracks/scenes and ships a **smaller device + sound library** than Suite — some Suite-only instruments/effects won't exist.
+- Opening `techno-sketch-01` in Lite may show **missing or greyed-out devices** (anything that was Suite-only). That's expected, not a broken file — the notes and structure survive. Keep the old sketch as a **reference** and start a **fresh sketch** on Lite.
+
+**Where the deepening plan stands:** ⏸ **Paused** at candidate #2 (**Pad / atmosphere**) — #1 (Percussion layer) is done. Resume the list once Lite is in, or fold the remaining ideas into a clean Lite sketch.
+
+**Next:** Install Ableton Live Lite → confirm it opens → decide: continue `techno-sketch-01` (repairing any missing devices) *or* start `techno-sketch-02` fresh on Lite. Then pick the learning thread back up.
 
 ---
 
