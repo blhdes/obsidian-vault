@@ -12,8 +12,8 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 ## Setup status
 
-- **DAW:** ⏸ **Between installs.** Suite 30-day trial expired (~2026-06-27) and was **uninstalled 2026-07-07** (app + system data → Trash; all project files kept safe in `~/Music/Ableton/`). Next: install **Ableton Live Lite** and restart the hands-on journey from scratch on the smaller set.
-- **Hardware:** none yet (mouse + keyboard only)
+- **DAW:** ⏸ **Between installs.** Suite 30-day trial expired (~2026-06-27) and was **uninstalled 2026-07-07** (app + system data → Trash; all project files kept safe in `~/Music/Ableton/`). Next: install **Ableton Live Lite** (arriving with the APC Mini MK2 bundle) and restart the hands-on journey from scratch on the smaller set.
+- **Hardware:** 🎛 **Akai APC Mini MK2** ordered 2026-07-08 (arriving soon) — an 8×8 clip-launch grid + 8 faders. Ships with the **Ableton Live Lite** license (our route onto Lite). Its grid maps 1:1 to Session View, where all the sketch work already lives — so we go from mouse-clicking clips to launching them by hand.
 
 ## 🎯 Active path
 
@@ -47,6 +47,16 @@ Before recording into Arrangement and exporting, the user wants to **deepen the 
 **Next-session protocol:** The order is now fixed (see plan above). Confirm where we are, then deliver the **next unchecked candidate** — one per session, never bundled. Up next: **Pad / atmosphere** (#2). Each deepening session reinforces a Path % as well (sound design / mixing / drum-depth / etc.).
 
 When the user says they're done deepening, *then* move to Session 6 (record into Arrangement, mix pass, export).
+
+---
+
+## Status — 2026-07-08 — Ordered Akai APC Mini MK2 (ships with Live Lite)
+
+**What happened:** Ordered an **Akai Professional APC Mini MK2** — an 8×8 grid controller with 8 faders. It bundles an **Ableton Live Lite** license, so this is how we get onto Lite (no separate download hunt needed). Waiting on delivery.
+
+**Why it fits:** The MK2's 8×8 pad grid mirrors Session View's clip grid exactly — the same grid every sketch session has used. Faders map to track volumes. First hardware in the setup: we shift from clicking clips with a mouse to **launching scenes/clips by hand**, which is the whole point of Session View.
+
+**Next:** When it arrives → use the included code to install **Ableton Live Lite** → confirm it opens and the MK2 lights up → then start fresh (likely `techno-sketch-02` on Lite). First hands-on lesson candidate: **mapping the APC grid to Session View + launching clips from the pads.**
 
 ---
 
