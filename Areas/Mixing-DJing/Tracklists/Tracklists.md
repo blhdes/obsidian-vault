@@ -47,6 +47,7 @@ tags: [tracklist, <genre>, <bpm-range>]
 
 - [[may-2026|May 2026 Tracklist]] — first playlist, WIP toward 10–15 tracks
 - [[set-2026-07-01|Set – 2026-07-01]] — opener (3 tracks, deep→groove→techno, all Engine key 7), WIP
+- [[raw-mental-techno-131-147|Raw / Mental Techno — 131→147]] — 10-track climb from Regis to Alarico, all from the June–July imports
 
 ## Related
 
