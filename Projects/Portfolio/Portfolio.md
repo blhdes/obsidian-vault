@@ -10,7 +10,7 @@ Index note for the **portfolio website** project — the bridge to the next chap
 
 ## The goal
 
-Land a **creative job abroad** (creative/tech, advertising, or audiovisual in nice contexts like music or fashion) within **6–8 months → Dec 2026 – Feb 2027**. Target cities: Paris, Amsterdam, or anywhere with better professional outcomes than Spain.
+**Updated 2026-07-11 — two stages.** Stage 1 (now): land a better-paying **local creative job** (Barcelona area / Sant Cugat, or Madrid) — creative agencies, production houses, marketing — to earn and save. Stage 2 (mid-/long-term): the original dream, a **creative job abroad** (Paris, Amsterdam, or anywhere with better professional outcomes than Spain), funded by Stage 1. The original Dec 2026 – Feb 2027 window now applies to landing the *local* job.
 
 The blocker isn't experience — it's **visibility**. The work exists (shipped apps, cinema background, photography, soon a fashion brand) but lives nowhere anyone can see it. The portfolio fixes that.
 
@@ -43,14 +43,17 @@ A **personal website in English** that shows work, not credentials. Four section
 - [x] **Site structure** — one-page scroll, see [[Projects/Portfolio/site-structure|site-structure]]
 - [x] **Bio / About** — draft v2 approved 2026-06-13, see [[Projects/Portfolio/bio|bio]]
 - [x] **Hero repositioned** 2026-07-11 — from personal intro to professional candidacy (Product design · UX · Photography, "story and image" line, AI as headline skill, fashion brand removed). Final copy + decisions in [[Projects/Portfolio/bio|bio]]
+- [x] **Hero precision pass** 2026-07-11 — name scales to 8.5rem desktop, vermilion middots in the kicker (the hero's one accent, echoing nav Contact), tightened spacing rhythm, slightly shallower top padding so the work stays near the fold. Composition unchanged (kept quiet per [[Projects/Portfolio/design-principles|design-principles]]; "film credits" hero idea considered and declined)
 - [ ] **Gather raw material** ← current step (user's task)
 	- [x] App info: **Culla** (live: https://apps.apple.com/us/app/culla/id6761316914) and **CullaMusic** (pending Apple review). Both live at **culla.app**. Screenshots still needed.
 	- [ ] Photography: 10–20 best shots, user gathering them, ETA ~**2026-06-19**
 	- [ ] Projects (pending): short film as **DOP**, distributed on **MUBI**: https://mubi.com/es/es/films/mia-marc, plus 2 more pieces to gather
-- [ ] **Build the site** — skeleton built 2026-06-13 at `/Users/agomezu/Claude/portfolio/` (plain HTML/CSS/JS). Design: minimal editorial, warm paper + ink + vermilion accent, Switzer typeface, name **Ale Gómez**. Pending: real screenshots, photos, portrait.
+- [x] **CV section zoned** 2026-07-11 — #cv is sent directly to recruiters, so it now reads as a distinct document: full-bleed band one paper-tone deeper (new `--paper-2` token, both themes, no divider lines) + two-column desktop layout (Experience left, Education/Skills/Languages/Interests right) so the whole CV reads at a glance. **About integrated into the band** (opens the document: portrait + story, then the structured CV below); the separate About nav link removed, `#about` anchor kept working for old links
+- [x] **Site typeface decided** 2026-07-11 — **SF Mono** (JetBrains Mono fallback for non-Apple), chosen via a 21-font cycle test on the live hero; test apparatus removed after the decision. Details in [[Projects/Portfolio/design-principles|design-principles]]
+- [ ] **Build the site** — skeleton built 2026-06-13 at `/Users/agomezu/Claude/portfolio/` (plain HTML/CSS/JS). Design: minimal editorial, warm paper + ink + vermilion accent, SF Mono typeface (since 2026-07-11), name **Ale Gómez**. Pending: real screenshots, photos, portrait.
 - [x] **Publish** — live at **https://alegomez.studio** since 2026-06-13 (GitHub Pages, repo: https://github.com/blhdes/portfolio, domain via Porkbun). Details in [[Projects/Portfolio/domain|domain]].
 - [ ] Add fashion brand section at launch
-- [ ] **Job search & relocation** — workstream started 2026-06-14, see [[Projects/Portfolio/Job-Search/Job-Search|Job-Search]]. Phase 1 (fetch companies) in progress; outreach gated on a shareable portfolio v1.
+- [ ] **Job search & relocation** — workstream started 2026-06-14, see [[Projects/Portfolio/Job-Search/Job-Search|Job-Search]]. **Pivot 2026-07-11: local-first** (Barcelona/Sant Cugat + Madrid) to earn & save; abroad stays the mid-term goal. Barcelona fetched (~26 companies) — next: user reviews the list. Outreach still gated on a shareable portfolio v1.
 
 ## Related
 
