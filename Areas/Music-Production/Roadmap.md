@@ -42,7 +42,7 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 
 ### Path 3 — 🎚 Deeper Mixing & First Mastering
 - **Status:** 🟡 Started
-- **Progress:** ~30% *(volume/pan/Reverb/Delay in [[Ableton/mixing-basics-and-effects|Session 8]]; rhythmic kick/bass interlock as sidechain prep — see [[Techniques/kick-bass-interlock|note]]; clip-envelope automation in [[Ableton/clip-envelopes|note]])*
+- **Progress:** ~35% *(volume/pan/Reverb/Delay in [[Ableton/mixing-basics-and-effects|Session 8]]; rhythmic kick/bass interlock as sidechain prep — see [[Techniques/kick-bass-interlock|note]]; clip-envelope automation in [[Ableton/clip-envelopes|note]]; effects as sound-generators — the [[Techniques/rumble-bass|rumble]] chain)*
 - **Difficulty:** ★★★☆☆
 - **Unlocks:** Tracks that sound polished and competitive with releases
 - **Topics:** EQ (frequency shaping), compression (dynamics), **sidechain ducking** (the "pumping" sound), automation, limiter on Master
@@ -58,7 +58,7 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 
 ### Path 5 — 🥁 Drum Pattern Depth
 - **Status:** 🟡 Started
-- **Progress:** ~40% *(four-on-the-floor + backbeat in [[Ableton/making-a-midi-clip|Session 4]]; [[Techniques/open-vs-closed-hihat|open vs closed hi-hat + offbeat opens]]; [[Track-Sketches/techno-sketch-01-deepening/01-percussion-layer|percussion layering]]; [[Techniques/swing-and-groove|swing & groove]] — 16th swing via the Groove Pool, applied to Ticket to Detroit)*
+- **Progress:** ~50% *(four-on-the-floor + backbeat in [[Ableton/making-a-midi-clip|Session 4]]; [[Techniques/open-vs-closed-hihat|open vs closed hi-hat + offbeat opens]]; [[Track-Sketches/techno-sketch-01-deepening/01-percussion-layer|percussion layering]]; [[Techniques/swing-and-groove|swing & groove]] — 16th swing via the Groove Pool, applied to Ticket to Detroit; [[Techniques/ghost-notes-and-fills|ghost notes & fills]] — on Solo Sketch 138)*
 - **Difficulty:** ★★☆☆☆
 - **Unlocks:** Beats that feel human, not robotic
 - **Topics:** ghost notes, fills, **swing / groove**, percussion layering, breakbeats
@@ -68,6 +68,7 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 - **Status:** 🟢 In progress *(restarted 2026-07-09 on Live Lite — sketch 01 deleted, its notes kept as reference)*
 - **Progress:** ~48% *(full 5-layer loop stack playing — drums, bass, stab, pad, bleep motif; structure next)*
 - **Current sketch:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM · A minor · club techno with Detroit-style influence
+- **Side sketch (self-driven):** [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — 138 BPM · A minor · Cashon Kit; user leads, sessions log + advise
 - **Difficulty:** ★★★★☆ *(touches all other paths)*
 - **Goal:** A club techno track with a real Detroit vocabulary: swung 909 drums, syncopated bass, the minor 7th/9th chord stab, string pads
 - **Working sketch lives in:** [[Track-Sketches/Track-Sketches]]

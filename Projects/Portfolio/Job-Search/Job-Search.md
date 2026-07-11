@@ -95,7 +95,7 @@ Starts **only once the portfolio is a shareable v1** (needs real screenshots + p
 ## Status
 
 - Phase 0 done ✅. **Phase 1 in progress.**
-- **2026-07-11 — Phase 1 scaled up:** target **≥150 companies with direct-contact emails** (user request) for the Stage-1 local search. Progress: 17 captured. Live tracker: [[Projects/Portfolio/Job-Search/outreach-directory|Outreach Directory]].
+- **2026-07-11 — Phase 1 scaled up and delivered:** target was ≥150 companies with direct-contact emails (user request) — **✅ 202 captured** in [[Projects/Portfolio/Job-Search/outreach-directory|Outreach Directory]] (+ flat `outreach-contacts.csv` for mail-merge). Sources: El Publicista directory, APCP member sites, company websites, BCN Film Commission directory (first ~130 of ~500 — more tranches available).
 - **2026-07-11 — pivot to local-first.** Fetched **Barcelona / Sant Cugat** (~26 companies: production houses, agencies, studios, culture, tech, Sant Cugat locals). Scaffolded **Madrid** (3 seeds, own fetch session pending).
 - Earlier fetches (Stage 2, on ice for now): **Berlin** (~23) + **Amsterdam** (~20). Scaffolded: **Milan · Mexico City · Malta**.
 - **Now:** you review **Barcelona** and mark `★` / `✗` — gut feeling is enough.

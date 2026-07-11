@@ -24,7 +24,32 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Sketch in progress:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM, A minor. Club techno with strong Detroit-style influence, restarted from scratch on Live Lite. The sketch note holds the **Detroit reference map** (drums/groove/bass/chords/pads/structure in production terms) and the 8-track plan.
 
+**Side sketch (self-driven, started 2026-07-12):** [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — 138 BPM, A minor. The user's first track built alone, no lesson plan; sessions on it log what happened + what to try next.
+
 **Approach decided 2026-07-09:** repeat the first-track exercise (foundation drum loop) first, then move through the other layers of production one by one. The [[Track-Sketches/techno-sketch-01-deepening/techno-sketch-01-deepening|old deepening checklist]] (pads, stab, sidechain, saturation, sends, riser, drum variations, motif variations, automation) is now **reference material** for this track's later layers — the paused sketch-01 plan itself is retired.
+
+---
+
+## Sketch — 2026-07-12 — Solo Sketch 138 (Kickoff)
+
+**Topic:** The user's first **self-driven** sketch (138 BPM, A minor, Cashon Kit): built a drum loop + break variation alone, then asked "what would a pro do next?". New technique queued: the **rumble** — a reverb-generated low-end layer under the kick.
+
+**Covered:**
+- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — the new sketch: stats, state, observations, next-steps list
+- [[Techniques/rumble-bass|Rumble (Reverb Low-End Layer)]] — kick copy → 100%-wet reverb → EQ out the highs → quiet fader
+- [[Techniques/techno-production-arc|Techno Production Arc]] — the 7-stage high-level map, few-elements principle, 8-bar rule, Lite track budget
+- [[Techniques/stab-vs-bleep|Stab vs Bleep]] — comparison reference; neither is required — user chose a drums-focused direction
+- [[Techniques/ghost-notes-and-fills|Ghost Notes & Fills]] — vel 20–40 hits on `e`/`a` + phrase-end fills every 4/8 bars via the clip Duplicate button
+
+**Key takeaways:**
+- Built unprompted: four-on-the-floor kicks, offbeat rides (open-hat job, darker color), bar-end accents, velocity ramp, swing groove, and a no-kick break clip — all known concepts, self-applied. Solid.
+- **Swing 16ths had nothing to move** — every hit sat on quarters/`&`s (the known "swing needs 16ths" rule, caught in the wild). Fix: low-velocity `e`/`a` hits.
+- **The rumble** = low end generated *from the kick* via reverb, on a separate track so the dry kick keeps its punch. Style-specific: raw/hypnotic techno at 130–145.
+- Priority order for a bare drum loop: low end first, then one hypnotic mid element, then variations/structure.
+
+**Where we left off:** Drums + rumble + offbeat A1 bass rolling at 138. Direction decided: **drums-focused, no melodic element for now**. Ghost notes & fills lesson delivered as homework (ghosts on `e`/`a` also finally feed the Swing 16ths groove).
+
+**Next:** Hear the ghosted/filled 4-bar loop. Then queued, user's pick: **polymeter percussion**, **sampling** (Path 4 opener), or **sidechain ducking** when bass+rumble get muddy.
 
 ---
 

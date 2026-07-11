@@ -33,6 +33,12 @@ Result of a full AI-slop audit (2026-06-13). These rules protect the site from d
 - Full-viewport hero that hides the work below the fold
 - Dramatic inverted (black) footer; the footer is quiet, same paper
 
+## The one sanctioned effect (2026-07-11)
+
+The **hero middot field**: a grid of dots behind the hero text, invisible at rest, that wake in vermilion near the pointer and settle back when it leaves. It extends the site's existing middot accent rather than importing a new motif.
+
+Why it doesn't break the rules — and the two tests any future effect must pass: **at rest, the page is indistinguishable from having no effect at all** (motion only ever answers the visitor's own movement, never plays at them), and **the effect never competes with text** — it decorates around the content, dampened or excluded wherever type sits (rule added 2026-07-12; the field uses a legibility mask over the hero text). Autonomous animation (load reveals, loops, parallax) stays banned. Touch screens and reduced-motion visitors get the plain hero.
+
 ## The principle behind all of it
 
 Confidence is quiet. Every effect removed says "the work is enough." When in doubt, simplify; never decorate.

@@ -17,5 +17,6 @@ One note per sketch. Useful things to jot down:
 ## Sketches
 
 - [[ticket-to-detroit|Ticket to Detroit]] ⭐ **ACTIVE** — 128 BPM · A minor · club techno with Detroit-style influence, on Live Lite + APC Mini MK2; foundation drum loop done, hat swing + bassline next
+- [[solo-sketch-138|Solo Sketch 138]] 🧭 **SELF-DRIVEN** — 138 BPM · A minor · Cashon Kit; the first track built alone — drum loop + break clip done, rumble layer next
 - [[techno-sketch-01|Techno Sketch 01 — Foundation]] 🗄 *(project file deleted 2026-07-09 — notes kept as reference)* — 130 BPM · A minor · early-90s techno club; got to a 4-scene mini-arrangement on the Suite trial
   - 🎛 [[techno-sketch-01-deepening/techno-sketch-01-deepening|Deepening Phase]] — 10-step layer checklist; now the later-layers reference for Ticket to Detroit
