@@ -8,7 +8,7 @@ tags: [roadmap, paths, learning, game, music-production]
 
 Six paths to explore. Each has a **status**, a rough **progress %**, and a **difficulty**. Pick whichever calls to you in the moment — no fixed order, dip in and out.
 
-> 🎯 **Active path:** **Path 6 — Make a Real Track Sketch** (early-90s techno club, 1.5–2 min). Pulls from paths 1–5 *as the track demands*.
+> 🎯 **Active path:** **Path 6 — Make a Real Track Sketch** — [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] (club techno, Detroit-style, on Live Lite + APC Mini MK2). Pulls from paths 1–5 *as the track demands*.
 
 ---
 
@@ -26,7 +26,7 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 
 ### Path 1 — 🎼 Theory Basics
 - **Status:** 🟡 Started
-- **Progress:** ~15% *(what a key is, A minor scale, pentatonic + triad shortcuts — see [[Theory-Basics/a-minor-pentatonic|note]])*
+- **Progress:** ~35% *(keys, A minor, pentatonic/triads — [[Theory-Basics/a-minor-pentatonic|note]]; [[Techniques/syncopated-bassline|syncopation]]; [[Theory-Basics/sevenths-and-ninths|7th/9th chord extensions]]; motif writing — call & response, variation, space — [[Techniques/bleep-lead-motif|note]])*
 - **Difficulty:** ★★☆☆☆
 - **Unlocks:** Writing real melodies; knowing why certain notes "work" together
 - **Topics:** notes, scales, keys, intervals, chord triads, common chord progressions
@@ -34,7 +34,7 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 
 ### Path 2 — 🎛 Sound Design
 - **Status:** 🟡 Started
-- **Progress:** ~10% *(low-pass filter, cutoff, resonance, filter envelope — applied to acid lead, see [[Techniques/acid-lead-sound|note]])*
+- **Progress:** ~25% *(low-pass filter, cutoff, resonance, filter envelope — [[Techniques/acid-lead-sound|note]]; [[Techniques/adsr-envelopes|ADSR amplitude envelopes]] — the stab/pad contrast; first from-scratch patch — the Drift bleep)*
 - **Difficulty:** ★★★☆☆
 - **Unlocks:** Designing your own signature sounds instead of grabbing presets
 - **Topics:** oscillators, filters, envelopes (ADSR), LFOs, subtractive vs. FM synthesis
@@ -58,21 +58,20 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 
 ### Path 5 — 🥁 Drum Pattern Depth
 - **Status:** 🟡 Started
-- **Progress:** ~30% *(four-on-the-floor + backbeat in [[Ableton/making-a-midi-clip|Session 4]]; [[Techniques/open-vs-closed-hihat|open vs closed hi-hat + offbeat opens]] in the techno sketch kickoff; [[Track-Sketches/techno-sketch-01-deepening/01-percussion-layer|percussion layering]] — shaker in the 16th gaps)*
+- **Progress:** ~40% *(four-on-the-floor + backbeat in [[Ableton/making-a-midi-clip|Session 4]]; [[Techniques/open-vs-closed-hihat|open vs closed hi-hat + offbeat opens]]; [[Track-Sketches/techno-sketch-01-deepening/01-percussion-layer|percussion layering]]; [[Techniques/swing-and-groove|swing & groove]] — 16th swing via the Groove Pool, applied to Ticket to Detroit)*
 - **Difficulty:** ★★☆☆☆
 - **Unlocks:** Beats that feel human, not robotic
 - **Topics:** ghost notes, fills, **swing / groove**, percussion layering, breakbeats
 - **First step:** Apply a swing groove template to the basic four-on-the-floor
 
 ### Path 6 — 🎨 Make a Real Track Sketch  ⭐ **ACTIVE**
-- **Status:** 🟢 In progress
-- **Progress:** ~62% *(4-scene mini-arrangement playable; now in the deepening phase — 1 of 10 layers done)*
-- **Current phase:** 🎛 **Deepening** — home base: [[Track-Sketches/techno-sketch-01-deepening/techno-sketch-01-deepening|Techno Sketch 01 — Deepening Phase]] (10-step checklist + resume pointer)
+- **Status:** 🟢 In progress *(restarted 2026-07-09 on Live Lite — sketch 01 deleted, its notes kept as reference)*
+- **Progress:** ~48% *(full 5-layer loop stack playing — drums, bass, stab, pad, bleep motif; structure next)*
+- **Current sketch:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM · A minor · club techno with Detroit-style influence
 - **Difficulty:** ★★★★☆ *(touches all other paths)*
-- **Goal:** A **1.5–2 minute original track**, in the spirit of **early-90s techno club**
-- **Reference vibe:** warehouse / club energy — driving four-on-the-floor, hypnotic bassline, sparse acid-y melodic stab, raw analog texture, hardly any modern polish
+- **Goal:** A club techno track with a real Detroit vocabulary: swung 909 drums, syncopated bass, the minor 7th/9th chord stab, string pads
 - **Working sketch lives in:** [[Track-Sketches/Track-Sketches]]
-- **Plan:** start with the foundation (drums + bass), add an acid lead, sculpt an arrangement, then mix → export. Theory / sound design / mixing get pulled in *just-in-time* as the track needs them — each pull also bumps the relevant path's progress %.
+- **Plan:** layer by layer — drums ✅ → hat swing ✅ → bass ✅ → chord stab ✅ → pads ✅ → lead ✅ → FX → arrange → mix → export. Theory / sound design / mixing get pulled in *just-in-time*; each pull bumps that path's %. The old [[Track-Sketches/techno-sketch-01-deepening/techno-sketch-01-deepening|deepening checklist]] doubles as the later-layers reference.
 
 ---
 

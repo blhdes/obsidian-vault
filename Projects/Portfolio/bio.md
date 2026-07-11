@@ -20,9 +20,30 @@ Rewritten 2026-06-13 without em dashes (v1 had them; user flagged them as an AI-
 >
 > What drives me is where creativity and technology meet. A new world is taking shape, and I want to help build it.
 
-## Hero one-liner, options
+## Hero, final (decided 2026-07-11)
 
-1. *Creative from Barcelona. I build apps, shoot photographs, and I'm launching my first fashion brand.*
+Live on the site since 2026-07-11. Repositioned from "personal intro" to "professional candidacy":
+
+> **Kicker:** Product design · UX · Photography
+> **Name:** Ale Gómez
+> **Line:** Cinema trained me in story and image. Now I design apps and ship them with AI, and shoot for brands and magazines.
+> **Meta:** Barcelona · open to creative roles in Europe
+
+Page `<title>`: *Ale Gómez · Product Design, UX & Photography*.
+
+### Positioning decisions behind it (2026-07-11)
+
+- **Hero = candidacy, not biography.** The site exists to get hired; the hero must map to roles companies hire for (product design, UX), not list activities.
+- **Fashion brand OUT of the hero** — personal project, unlaunched = promise, not proof. Returns when it launches (~Sep 2026) with real work to show.
+- **No "marketing" claims** — nothing on the site demonstrates it yet; unproven claims weaken proven ones.
+- **Don't claim "I write the code."** The honest split: design decisions, interfaces and taste are his; AI agents are how he builds. In 2026 "ships real products with AI" is a headline skill, not a confession.
+- **No app counts** ("two apps live") — already outdated, more shipping. Present tense "ship" implies the pipeline.
+- **Cinema stays broad** — "story and image" covers writing + directing, not just directing.
+- **Multi-hyphenate identity kept** via the discipline triad kicker instead of one job title; the unique hook is the arc *cinema → photography → shipping apps with AI*.
+
+## Hero one-liner, earlier options (superseded)
+
+1. *Creative from Barcelona. I build apps, shoot photographs, and I'm launching my first fashion brand.* ← was live until 2026-07-11
 2. *From film school to the App Store. Apps, photography, and a fashion brand on the way.*
 3. *Building where creativity and technology meet.*
 

@@ -42,6 +42,7 @@ A **personal website in English** that shows work, not credentials. Four section
 
 - [x] **Site structure** — one-page scroll, see [[Projects/Portfolio/site-structure|site-structure]]
 - [x] **Bio / About** — draft v2 approved 2026-06-13, see [[Projects/Portfolio/bio|bio]]
+- [x] **Hero repositioned** 2026-07-11 — from personal intro to professional candidacy (Product design · UX · Photography, "story and image" line, AI as headline skill, fashion brand removed). Final copy + decisions in [[Projects/Portfolio/bio|bio]]
 - [ ] **Gather raw material** ← current step (user's task)
 	- [x] App info: **Culla** (live: https://apps.apple.com/us/app/culla/id6761316914) and **CullaMusic** (pending Apple review). Both live at **culla.app**. Screenshots still needed.
 	- [ ] Photography: 10–20 best shots, user gathering them, ETA ~**2026-06-19**

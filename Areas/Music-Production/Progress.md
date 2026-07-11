@@ -12,41 +12,154 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 ## Setup status
 
-- **DAW:** ⏸ **Between installs.** Suite 30-day trial expired (~2026-06-27) and was **uninstalled 2026-07-07** (app + system data → Trash; all project files kept safe in `~/Music/Ableton/`). Next: install **Ableton Live Lite** (arriving with the APC Mini MK2 bundle) and restart the hands-on journey from scratch on the smaller set.
-- **Hardware:** 🎛 **Akai APC Mini MK2** ordered 2026-07-08 (arriving soon) — an 8×8 clip-launch grid + 8 faders. Ships with the **Ableton Live Lite** license (our route onto Lite). Its grid maps 1:1 to Session View, where all the sketch work already lives — so we go from mouse-clicking clips to launching them by hand.
+- **DAW:** ✅ **Ableton Live Lite installed and working** (2026-07-09). Lite caps projects at 8 tracks and ships a smaller library than Suite — plan sketches within that.
+- **Hardware:** ✅ **Akai APC Mini MK2 connected and mapped** (2026-07-09) — 8×8 clip-launch grid + 9 faders, mirroring Session View 1:1. See [[Ableton/apc-mini-mk2-grid|APC Mini MK2 Grid]].
+- **Old projects:** 🗑 **All pre-Lite local projects deleted 2026-07-09** at the user's request (`techno-sketch-01` + backups, `test/000`, a Desktop `Untitled` — moved to Trash). `User Library` and `Factory Packs` kept. The vault notes for sketch 01 remain as reference.
 
 ## 🎯 Active path
 
-**Path 6 — Make a Real Track Sketch** (early-90s techno club, 1.5–2 min). See [[Roadmap]] for all paths & progress %.
+**Path 6 — Make a Real Track Sketch**. See [[Roadmap]] for all paths & progress %.
 
 Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % in [[Roadmap]].
 
-**Sketch in progress:** [[Track-Sketches/techno-sketch-01|Techno Sketch 01 — Foundation]] — 130 BPM, A minor. 4-scene mini-arrangement (Intro / Build / Drop / Break) playable in Session View.
+**Sketch in progress:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM, A minor. Club techno with strong Detroit-style influence, restarted from scratch on Live Lite. The sketch note holds the **Detroit reference map** (drums/groove/bass/chords/pads/structure in production terms) and the 8-track plan.
 
-## 🌱 Active sub-phase: Deepening
+**Approach decided 2026-07-09:** repeat the first-track exercise (foundation drum loop) first, then move through the other layers of production one by one. The [[Track-Sketches/techno-sketch-01-deepening/techno-sketch-01-deepening|old deepening checklist]] (pads, stab, sidechain, saturation, sends, riser, drum variations, motif variations, automation) is now **reference material** for this track's later layers — the paused sketch-01 plan itself is retired.
 
-Before recording into Arrangement and exporting, the user wants to **deepen the sketch** — add layers, effects, and complexity so the final track has more depth than the minimum skeleton.
+---
 
-> 🎛 **Home base for this phase:** [[Track-Sketches/techno-sketch-01-deepening/techno-sketch-01-deepening|Techno Sketch 01 — Deepening Phase]] — the dedicated folder with all 10 numbered steps, a live checklist, and a "you are here" resume pointer. **Start there each session.**
+## Sketch — 2026-07-10 — Ticket to Detroit (Bleep Lead)
 
-**Plan decided 2026-06-01:** the user committed to doing **all** deepening candidates, **in the listed order below, one per session** (not bundled). Work down the list top-to-bottom; mark each ✅ as it's done.
+**Topic:** Layer 5: the **bleep lead** — the first *written melody* (motif craft: call-and-response, space, variation) and the first **from-scratch synth patch** (a plain bleep on Drift, using only known dials).
 
-**Candidates (in order):**
+**Covered:**
+- [[Techniques/bleep-lead-motif|Bleep Lead & Motif Writing]] — the 2-bar call/response motif, three craft rules, the register-lanes map, the bleep recipe
+- [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — lead track added; the full loop stack (drums/bass/stab/pad/lead) now plays
 
-- ✅ **Percussion layer** *(done 2026-06-01 — shaker on 16th gaps; see [[Track-Sketches/techno-sketch-01-deepening/01-percussion-layer|01 — Percussion Layer]])* — second drum clip with shaker / clave / conga / rim on offbeats and 1/16s. Adds movement without crowding the kick. Could vary per scene.
-- **Pad / atmosphere** — long sustained chords (A minor triad notes) under the lead. Cinematic depth, room tone. Often filtered low so it sits as a "bed", not a melody.
-- **Counter-melody / secondary stab** — a second synth line answering the acid lead. Different timbre (e.g. plucky / metallic vs squelchy).
-- **Sidechain compression** — bass ducks under the kick (the "pumping" feel). Path 3 territory; turns the rhythmic interlock into proper pumping.
-- **Lead distortion / saturation** — push the acid lead into Saturator or Overdrive for grit. Classic 90s warehouse texture.
-- **Reverb send + delay throw on lead** — short delay on specific notes for echo tails, hall reverb so the lead sits in a space, not in the listener's face.
-- **Riser / noise sweep into the Drop** — a white-noise sweep with reverb tail that builds into the kick re-entry. Universal transition technique.
-- **Drum variation clips** — a "no-kick" drums clip for the Break (the sacred kick drop), a "drums + fill" clip for the bar before each Drop.
-- **Lead motif variations** — 2nd lead clip with a different note pattern; alternate across Drops so the track evolves.
-- **Volume / filter automation per section** — per-scene clip envelopes that ride the mix.
+**Key takeaways:**
+- **A club melody = a motif**: a 3–5 note cell + space, repeated with small variations — not a vocal line.
+- **Call and response:** bar 1 rises away from home (A4 C5 E5), bar 2 falls back and lands on the root (G5 E5 A4). Ending on A closes the breath.
+- **Change one dimension at a time** — both bars share the same `e/&/e` rhythm; only the pitches vary.
+- **Silence is a note:** beat 4 stays empty in both bars. Sparse = hypnotic.
+- **Register lanes:** kick/bass low, stab+pad mid (A3–B4), lead on top (octave 5), hats above — nobody fights.
+- First hand-built patch: **sine/triangle + fast attack + short release + mono** on Drift = a bleep. Every dial was already known (ADSR, mono, osc).
+- Lead clip gets the swing groove — its `e` hits must move with the hats.
 
-**Next-session protocol:** The order is now fixed (see plan above). Confirm where we are, then deliver the **next unchecked candidate** — one per session, never bundled. Up next: **Pad / atmosphere** (#2). Each deepening session reinforces a Path % as well (sound design / mixing / drum-depth / etc.).
+**Where we left off:** The full 5-track loop stack — swung drums, syncopated bass, Am9 stab, string pad, bleep motif — playing as one groove at 128 BPM from the APC row. The loop is *done*; what remains is structure.
 
-When the user says they're done deepening, *then* move to Session 6 (record into Arrangement, mix pass, export).
+**Next:** Either the **FX/riser layer** or straight to **arranging scenes** (Intro/Build/Drop/Break on the APC grid — known from sketch 01, now with 5 real layers).
+
+---
+
+## Sketch — 2026-07-10 — Ticket to Detroit (String Pad)
+
+**Topic:** Layer 4: the **string pad** — one held Am9 as a dark bed under everything. New concept: the **ADSR amplitude envelope**, taught through the stab/pad contrast (same chord, opposite envelope = opposite instrument).
+
+**Covered:**
+- [[Techniques/adsr-envelopes|ADSR Envelopes (Stab vs Pad)]] — the four dials, the envelope diagram, the pad recipe
+- [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — pad track added; also logged the user's own Channel EQ on the stab + the three stab A/B clips
+
+**Key takeaways:**
+- **ADSR = the loudness shape of a note:** Attack (time to full volume), Decay (time to fall to sustain), Sustain (a *level*, not a time), Release (fade after key-up).
+- The acid lead's filter envelope was the same mechanism aimed at cutoff instead of volume.
+- **Stab vs pad = the same chord at opposite envelope settings** — fast A/short R = percussion, slow A/long R = atmosphere. The envelope decides the instrument.
+- Pad rules: darken with the low-pass, mix quiet (felt, not heard) — the mute test should reveal an emptier room, not a stopped instrument.
+- **Grooves only apply to rhythmic clips** — a held whole note has nothing on the swung positions.
+- Clips of different lengths loop independently (2-bar pad over 1-bar drums/bass/stab) — known from sketch 01, reapplied.
+
+**Where we left off:** Four tracks — drums, bass, stab (+Channel EQ), pad — looping as one swung groove at 128 BPM from the APC row.
+
+**Next:** The **bleep lead** — a sparse pentatonic Detroit melody on top; melody-writing rules of thumb over a fixed groove.
+
+---
+
+## Sketch — 2026-07-10 — Ticket to Detroit (Chord Stab)
+
+**Topic:** The Detroit signature: the **minor 9th chord stab**. New theory: **chord extensions** — stacking past the triad to the 7th and 9th. First polyphonic clip in the sketch.
+
+**Covered:**
+- [[Theory-Basics/sevenths-and-ninths|Sevenths and Ninths (Chord Extensions)]] — the 1-3-5-7-9 stacking pattern, why "9" not "2", triad vs 7th vs 9th character
+- [[Techniques/detroit-chord-stab|Detroit Chord Stab]] — poly voices, fast attack + filtered dark, mid-range voicing, sparse weak-position rhythm, Option-drag for stacked notes
+- [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — stab track added; drums + bass + Am9 stab now loop together
+
+**Key takeaways:**
+- **Chords stack every other scale note:** A→C→E→G→B. Triad = 1-3-5 (Am), add 7 (G) = Am7, add 9 (B, the 2nd an octave up) = Am9.
+- More extensions = more color: triad states the key plainly, the 9th *floats* in it. The m7/m9-as-stab is the Detroit-specific use of a universal concept.
+- A **stab is a rhythm instrument** — one chord repeated on syncopated weak positions; the rhythm is the interest, not chord changes.
+- **Voices ≥ 5 on the stab synth** — the exact opposite of the mono-bass rule; five notes must ring at once.
+- Voice it mid-range (A3–B4), above bass / below hats; optionally drop the root since the bass owns A.
+- Same swing groove file on every rhythmic clip — the stab's `a`-of-2 hit must move with the hats.
+- Drawing chords: draw the 5-note stack once, lasso it, **Option-drag** copies to the other hits.
+
+**Where we left off:** Drums + syncopated bass + Am9 stab looping as one swung groove at 128 BPM, launchable as a row from the APC.
+
+**Next:** The **string pad** — same chord knowledge stretched into a long sustained bed (slow attack, the anti-stab), filtered to sit under everything.
+
+---
+
+## Sketch — 2026-07-10 — Ticket to Detroit (Syncopated Bassline)
+
+**Topic:** Second layer: a **syncopated bassline** in A minor pentatonic. New concept: **syncopation** — accenting the weak positions (`e`/`a`, offbeats) so the line pulls forward instead of stamping. Extends the known kick/bass interlock from "avoid the kick" to "actively push around it".
+
+**Covered:**
+- [[Techniques/syncopated-bassline|Syncopated Bassline (Detroit Bass)]] — syncopation, the anchor/push/turnaround pattern anatomy, design rules, matching grooves across clips
+- [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — bass track added; drums + bass now swing together
+
+**Key takeaways:**
+- **Syncopation = emphasis on weak positions.** The ear expects weight on the beats; accents between them create the forward pull.
+- Pattern anatomy: **anchor** (offbeat root hits — the known interlock), **push** (a 16th anticipation, e.g. the `a` of 3), **turnaround** (C→G at bar's end resolving to A).
+- Extra notes come from **A minor pentatonic** (A C D E G) — guaranteed to fit; root-heavy keeps it Detroit.
+- New hits go on `e`/`a`/offbeats only — never on the kick's quarters. Interlock still rules.
+- Short staccato 1/16 lengths, mono voice, ~A1 — all known settings, reapplied.
+- **The bass clip gets the SAME swing groove as the drums** — mismatched swing between rhythmic clips makes them flam. One groove file for the whole project.
+
+**Where we left off:** Drums + syncopated bass looping together at 128 BPM, both on the Swing 16ths 59 groove, launchable as a row from the APC.
+
+**Next:** The **Detroit chord stab** — a minor 7th/9th chord as a short rhythmic hit. First real chord work (Path 1 territory: what a 7th/9th actually is).
+
+---
+
+## Sketch — 2026-07-10 — Ticket to Detroit (Hat Swing)
+
+**Topic:** Put the *Detroit* into the drums: **swing/groove**. Fill the closed hats to a 16th stream, then push the offbeat 16ths late with a groove from Live's **Groove Pool** — the DAW version of the 909's shuffle function.
+
+**Covered:**
+- [[Techniques/swing-and-groove|Swing & Groove (The Detroit Shuffle)]] — swing %, why swing needs 16th content, Groove Pool mechanics (Base/Timing/Random/Velocity/Amount, Commit)
+- [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 16th closed hats added, swing groove applied
+
+**Key takeaways:**
+- **Swing = the offbeat 16ths (`e`/`a`) land late.** 50% = straight; 54–58% = subtle classic house/Detroit roll; 66% ≈ triplet shuffle.
+- **Swing needs 16ths to act on** — quarters, 2 & 4, and `&`s don't move. An all-8ths pattern sounds identical with swing on.
+- Closed hats fill to 16ths but **skip the `&`** so they don't choke the ringing open hat; new `e`/`a` hits sit at low velocity.
+- **Grooves are non-destructive**: drag from Browser onto a clip; notes on screen don't move. Groove Pool (wave button, bottom-left of Browser) holds the dials; **Commit** prints it into the notes.
+- The kick stays straight even in the same clip — swing only moves notes on `e`/`a`, so one drum clip is fine.
+- Salt rule: set swing higher than feels right, back it off, and A/B against Groove = None.
+
+**Where we left off:** Foundation loop now rolls — 16th hats with velocity variation + a ~54–58% swing groove, still launchable from the APC pads.
+
+**Next:** The **syncopated Detroit bassline** — A minor pentatonic notes pushing around the kick (reuses kick/bass interlock, adds real syncopation).
+
+---
+
+## Sketch — 2026-07-09 — Ticket to Detroit (Kickoff)
+
+**Topic:** Fresh start on Live Lite. Deleted all old local projects, then kicked off the new sketch **Ticket to Detroit** (128 BPM, A minor, club techno with Detroit influence): rebuilt the foundation drum loop as a repeat of the first-track exercise, and learned the **APC Mini MK2 → Session View mapping** — first hardware lesson.
+
+**Covered:**
+- [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — the new sketch: stats, the Detroit production reference map, the 8-track plan, kickoff log
+- [[Ableton/apc-mini-mk2-grid|APC Mini MK2 Grid]] — pads = clip slots, right column = scenes, faders = volumes, pad colors, the red frame
+
+**Key takeaways:**
+- **Detroit-style, in production terms:** 909 palette + four-on-the-floor, **swing on the hats**, syncopated moving bassline, the **minor 7th/9th chord stab**, string-machine pads, raw velocity variation, DJ-friendly layered structure.
+- **128 BPM**, staying in **A minor** — known note vocabulary, fits the minor-key Detroit palette.
+- The foundation loop is the same known skeleton: kick on quarters, clap on 2 & 4, closed hats on beats, open hats on the `&`s.
+- The APC's 8×8 grid **is** Session View: pad = clip slot, right column = scene launch, faders 1–8 = track volumes, fader 9 = Master.
+- Pads obey the same **1-Bar Launch Quantization** as mouse clicks — hardware presses land musically for free.
+- Lite's 8-track cap ↔ the APC's 8-wide grid: the whole project stays visible on the hardware, and the track plan was budgeted to fit.
+
+**Where we left off:** Old projects deleted; `ticket to detroit.als` exists with the foundation drum loop on a 909-style kit at 128 BPM, launchable from the APC pads.
+
+**Next:** **Swing/groove on the hats** — the Detroit shuffle (Path 5 territory) — then the syncopated bassline.
 
 ---
 

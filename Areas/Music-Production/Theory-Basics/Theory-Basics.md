@@ -19,3 +19,4 @@ Each concept gets its own short, example-driven note.
 ## Notes
 
 - [[a-minor-pentatonic|A Minor and the Pentatonic Shortcut]] — what a key is, A minor's notes, and the 5-note (pentatonic) / 3-note (triad) cheats for "always sounds right"
+- [[sevenths-and-ninths|Sevenths and Ninths (Chord Extensions)]] — stack every other scale note past the triad: Am → Am7 → Am9, why "9" not "2", and what each layer adds
