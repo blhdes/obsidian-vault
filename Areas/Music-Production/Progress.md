@@ -40,6 +40,8 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 - [[Techniques/techno-production-arc|Techno Production Arc]] — the 7-stage high-level map, few-elements principle, 8-bar rule, Lite track budget
 - [[Techniques/stab-vs-bleep|Stab vs Bleep]] — comparison reference; neither is required — user chose a drums-focused direction
 - [[Techniques/ghost-notes-and-fills|Ghost Notes & Fills]] — vel 20–40 hits on `e`/`a` + phrase-end fills every 4/8 bars via the clip Duplicate button
+- [[Techniques/polymeter-percussion|Polymeter Percussion]] — 3-beat perc clip rotating against the 4-beat bar; one static pattern = 3 bars of variation
+- [[Techniques/sidechain-ducking|Sidechain Ducking]] — Compressor + sidechain from the kick pad's chain; duck the rumble 6–10 dB, Release = the groove knob
 
 **Key takeaways:**
 - Built unprompted: four-on-the-floor kicks, offbeat rides (open-hat job, darker color), bar-end accents, velocity ramp, swing groove, and a no-kick break clip — all known concepts, self-applied. Solid.
@@ -47,9 +49,9 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 - **The rumble** = low end generated *from the kick* via reverb, on a separate track so the dry kick keeps its punch. Style-specific: raw/hypnotic techno at 130–145.
 - Priority order for a bare drum loop: low end first, then one hypnotic mid element, then variations/structure.
 
-**Where we left off:** Drums + rumble + offbeat A1 bass rolling at 138. Direction decided: **drums-focused, no melodic element for now**. Ghost notes & fills lesson delivered as homework (ghosts on `e`/`a` also finally feed the Swing 16ths groove).
+**Where we left off:** 4-scene structure built and performed from the APC (Intro/Build/Drop/Break). Sidechain ducking lesson delivered as homework — Compressor on the rumble, sidechained to the kick pad's chain.
 
-**Next:** Hear the ghosted/filled 4-bar loop. Then queued, user's pick: **polymeter percussion**, **sampling** (Path 4 opener), or **sidechain ducking** when bass+rumble get muddy.
+**Next:** Hear the ducked loop. Then queued: **sampling** (Path 4 opener), FX/riser for transitions, record the performance to Arrangement, mix pass, export.
 
 ---
 
