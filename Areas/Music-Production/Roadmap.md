@@ -42,19 +42,19 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 
 ### Path 3 — 🎚 Deeper Mixing & First Mastering
 - **Status:** 🟡 Started
-- **Progress:** ~45% *(volume/pan/Reverb/Delay in [[Ableton/mixing-basics-and-effects|Session 8]]; rhythmic kick/bass interlock as sidechain prep — see [[Techniques/kick-bass-interlock|note]]; clip-envelope automation in [[Ableton/clip-envelopes|note]]; effects as sound-generators — the [[Techniques/rumble-bass|rumble]] chain; [[Techniques/sidechain-ducking|sidechain ducking]] — the headline topic, done on Solo Sketch 138)*
+- **Progress:** ~50% *(volume/pan/Reverb/Delay in [[Ableton/mixing-basics-and-effects|Session 8]]; rhythmic kick/bass interlock as sidechain prep — see [[Techniques/kick-bass-interlock|note]]; clip-envelope automation in [[Ableton/clip-envelopes|note]]; effects as sound-generators — the [[Techniques/rumble-bass|rumble]] chain; [[Techniques/sidechain-ducking|sidechain ducking]] — done on Solo Sketch 138; [[Techniques/riser-fx|riser FX]] — stacking two envelope lanes on one clip)*
 - **Difficulty:** ★★★☆☆
 - **Unlocks:** Tracks that sound polished and competitive with releases
 - **Topics:** EQ (frequency shaping), compression (dynamics), **sidechain ducking** (the "pumping" sound), automation, limiter on Master
 - **First step:** Sidechain the bass to the kick — the defining sound of dance music
 
 ### Path 4 — ✂️ Sampling
-- **Status:** ⚪ Not started
-- **Progress:** 0%
+- **Status:** 🟡 Started
+- **Progress:** ~25% *(Simpler basics — [[Ableton/sampling-with-simpler|note]]: dragging audio in, key/pitch mapping, Classic vs One-Shot vs Slice, Start/Length trimming; applied on [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — Stab Dub Direct sample, trimmed, One-Shot)*
 - **Difficulty:** ★★★☆☆
 - **Unlocks:** Pulling *any* audio (vocal, vinyl, YouTube rip) into your tracks
 - **Topics:** Simpler vs. Sampler, slicing, time-warp modes, key/pitch shifting, looping samples
-- **First step:** Drag any audio file into **Simpler**, play it across the keyboard
+- **First step:** ✅ Drag any audio file into **Simpler**, play it across the keyboard
 
 ### Path 5 — 🥁 Drum Pattern Depth
 - **Status:** 🟡 Started

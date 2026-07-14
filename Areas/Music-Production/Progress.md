@@ -30,6 +30,82 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 ---
 
+## Sketch — 2026-07-13 — Solo Sketch 138 (FX/Riser)
+
+**Topic:** The tension-tool layer: a **riser** built from Drift's **Noise oscillator** with two stacked clip envelopes (Filter Cutoff + Track Volume) rising together on one non-looping clip.
+
+**Covered:**
+- [[Techniques/riser-fx|Riser FX (Noise Build-Up)]] — Noise as a pitch-free source, the stacked-envelope build recipe, Loop off, launching by hand before the Drop
+- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — homework queued: build the Riser track (slot 6 of the 8-track budget)
+
+**Key takeaways:**
+- A riser = brightness (filter opening) + loudness (volume rising) compounding together over 1–2 bars — reads as one "build" event, not two separate sweeps.
+- **Noise** (new oscillator type on Drift, alongside the sine/triangle used before) has no clear pitch, so it never clashes with the track's key — ideal raw material for transition FX.
+- This is the first time **two envelope lanes stack on the same clip** — every earlier automation move (acid lead, etc.) only touched one parameter at a time.
+- **Loop off** matters — a riser that repeats turns into a siren; it should fire once and stop.
+- It isn't tied to a scene — it gets launched by hand a bar or two before the Drop pad, the same performance instinct already used for scene jumps.
+
+**Where we left off:** Concept covered; sketch itself unchanged pending homework.
+
+**Next:** Homework — build the Riser track and try launching it into the Drop. Then: record the performance into Arrangement, mix pass, export.
+
+---
+
+## Sketch — 2026-07-13 — Solo Sketch 138 (Sampling Applied)
+
+**Topic:** Homework check-in: the **Stab Dub Direct** sample loaded into Simpler on a new track, trimmed, and set to **One-Shot** — first real use of the sampling lesson.
+
+**Covered:**
+- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — sample-based accent added, dub-techno-flavored texture layer
+
+**Key takeaways:**
+- One-Shot was the right call for a stab-as-texture: it fires the whole hit once per trigger, no held-note behavior to manage.
+- Using a sampled stab as an accent (not a repeated harmonic hook) keeps it in the "texture" role — consistent with the earlier decision to skip a written stab/bleep for this sketch.
+
+**Where we left off:** Sampling layer in; drums, rumble, bass (both ducked), 4-scene structure, and now a dub-flavored one-shot accent all in the sketch.
+
+**Next:** FX/riser for transitions, record the performance into Arrangement, mix pass, export.
+
+---
+
+## Sketch — 2026-07-13 — Solo Sketch 138 (Sampling — Simpler Basics)
+
+**Topic:** Path 4 opener: **sampling** in Simpler — key/pitch-mapped playback (Classic mode) vs. **One-Shot mode** for percussive/texture hits, and trimming a sample's Start/Length.
+
+**Covered:**
+- [[Ableton/sampling-with-simpler|Sampling with Simpler]] — dragging audio in, key/pitch mapping, Classic vs One-Shot vs Slice, Start/Length trimming
+- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — homework queued: add a one-shot texture/hit as an accent
+
+**Key takeaways:**
+- Simpler plays back *your* audio the same way Drift plays an oscillator — familiar shape (MIDI track, arm, play), new source material. Already used once, hidden inside the Acid Bass preset on Sketch 01.
+- Key mapping: root key (default C3) plays the sample at original speed; every semitone away transposes it, same mechanism as a synth oscillator.
+- **Classic** = plays/loops while the key is held (tonal/sustained material). **One-Shot** = plays the full sample once regardless of key length — the right fit for percussive/texture hits, matching the sketch's drums-first direction. **Slice** auto-chops across keys — flagged for a later session (e.g. chopping a drum break).
+- **Start/Length** markers trim dead air so a hit fires exactly on the beat.
+
+**Where we left off:** Concept covered; sketch itself unchanged pending homework.
+
+**Next:** Homework — drag a short one-shot texture or hit into Simpler on a new track, trim it, set to One-Shot, place it as a bar-end accent alongside the existing Tamb Chop/Triangle Build hits. Then: FX/riser, record the performance to Arrangement, mix pass, export.
+
+---
+
+## Sketch — 2026-07-13 — Solo Sketch 138 (Sidechain Applied)
+
+**Topic:** Homework check-in: sidechain ducking applied — the Compressor sidechains the rumble to the kick (the essential case), and the user also chose to duck the bass the same way (the "optional" case from [[Techniques/sidechain-ducking|the note]]).
+
+**Covered:**
+- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — rumble and bass both duck against the kick now
+
+**Key takeaways:**
+- Rumble ducking is the essential case — continuous low end has to get out of the kick's way on every hit.
+- Bass ducking is the optional case — the offbeat bass already dodges the kick in time, so sidechaining it stacks an extra rhythmic pump on top of that existing manual [[Techniques/kick-bass-interlock|interlock]], rather than fixing a clash.
+- Both ducks pulling from the same kick chain keeps the pump locked together musically.
+
+**Where we left off:** 4-scene structure (Intro/Build/Drop/Break) built and performed from the APC; rumble + bass both sidechained to the kick. The sound-design/mixing layers for this sketch are essentially closed out.
+
+**Next:** Structure + polish stage — record the performance into Arrangement, FX/riser for transitions, sampling (Path 4 opener) for texture, mix pass, export.
+
+---
+
 ## Sketch — 2026-07-12 — Solo Sketch 138 (Kickoff)
 
 **Topic:** The user's first **self-driven** sketch (138 BPM, A minor, Cashon Kit): built a drum loop + break variation alone, then asked "what would a pro do next?". New technique queued: the **rumble** — a reverb-generated low-end layer under the kick.

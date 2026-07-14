@@ -35,3 +35,4 @@ Each technique gets its own note (e.g. `four-on-the-floor-drums.md`). We learn o
 - [[ghost-notes-and-fills|Ghost Notes & Fills]] — quiet in-between hits (vel 20–40, on `e`/`a`) for micro-groove + phrase-end fills every 4/8 bars; the Duplicate-to-4-bars workflow
 - [[polymeter-percussion|Polymeter Percussion]] — a 3-beat perc clip rotating against the 4-beat bar; three bars of free variation from one static pattern; hypnotic-techno staple
 - [[sidechain-ducking|Sidechain Ducking]] — a compressor on the rumble listening to the kick: ducks on every hit for punch + pump; Release is the groove knob
+- [[riser-fx|Riser FX (Noise Build-Up)]] — Drift's Noise oscillator + stacked Filter Cutoff/Volume envelopes on one clip, Loop off, launched by hand before the Drop

@@ -35,7 +35,7 @@ Result of a full AI-slop audit (2026-06-13). These rules protect the site from d
 
 ## The one sanctioned effect (2026-07-11)
 
-The **hero middot field**: a grid of dots behind the hero text, invisible at rest, that wake in vermilion near the pointer and settle back when it leaves. It extends the site's existing middot accent rather than importing a new motif.
+The **middot field**: a grid of dots behind the hero, invisible at rest, that wake in vermilion near the pointer and settle back when it leaves. It extends the site's existing middot accent rather than importing a new motif. Since 2026-07-13 the field has no bottom edge: it dissolves gradually into the Apps section (dots get scarcer and softer until they're gone partway into the app grid), so the one effect introduces the work rather than living in a fixed box.
 
 Why it doesn't break the rules — and the two tests any future effect must pass: **at rest, the page is indistinguishable from having no effect at all** (motion only ever answers the visitor's own movement, never plays at them), and **the effect never competes with text** — it decorates around the content, dampened or excluded wherever type sits (rule added 2026-07-12; the field uses a legibility mask over the hero text). Autonomous animation (load reveals, loops, parallax) stays banned. Touch screens and reduced-motion visitors get the plain hero.
 

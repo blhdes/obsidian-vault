@@ -43,8 +43,8 @@ Two 1-bar drum clips:
 3. ⏭ **Stab/bleep — deliberately skipped for now.** Direction decided 2026-07-12: drums-focused, punchy hard groove — identity from percussion/texture, not melody ([[../Techniques/stab-vs-bleep|stab vs bleep]]). Revisit only if the track wants a hook later.
 4. ✅ **Ghosts + fills** — built 2026-07-12 ([[../Techniques/ghost-notes-and-fills|note]]): ghosts at low velocity, clip duplicated to 4 bars, TWO fill versions as separate clips — ride roll + kick drop, and a perc-run variant. (Also fixed: pads dead = drum track lost record-arm when new tracks were added.)
 5. ✅ **Polymeter perc clip** — built 2026-07-12 ([[../Techniques/polymeter-percussion|note]]): "Wood Under The Rug" preset, track 4, Length 0.3.0, hits every 3 sixteenths (constant dotted-8th roll). Fixes flagged: raise notes A1 → A3/A4 (was in bass register), add the Swing 16ths groove to the clip.
-6. **Scenes (in progress 2026-07-12)** — 4-scene plan: Intro (main drums + rumble) → Build (+ bass) → Drop (perc-run drum variant + all) → Break (no-kick clip + perc only, bass optional). Perform Intro→Build→Drop→Break→Drop from the APC.
-7. **Sidechain ducking** (🆕 queued) — trigger the lesson when bass+rumble get muddy.
-8. Then: record the performance into Arrangement, FX/riser, sampling for textures. High-level map: [[../Techniques/techno-production-arc|Techno Production Arc]].
-5. **Sidechain ducking** (🆕 queued) — Compressor's sidechain to make the rumble duck under the kick; trigger the lesson when bass+rumble get muddy.
-6. More clip variations → scenes for structure (known). High-level map: [[../Techniques/techno-production-arc|Techno Production Arc]].
+6. ✅ **Scenes** — built 2026-07-12: 4-scene structure (Intro/Build/Drop/Break), performed from the APC.
+7. ✅ **Sidechain ducking** — built 2026-07-13: rumble sidechained to the kick (the essential case), and the bass ducked too on top ([[../Techniques/sidechain-ducking|note]] — the "optional" case, the user's own call).
+8. ✅ **Sampling** — built 2026-07-13: **Stab Dub Direct** sample loaded into Simpler on a new track, trimmed (Start past the dead air), mode set to **One-Shot** — a dub-techno-flavored stab used as a texture accent, not a repeated harmonic element (keeps the drums-first direction intact). See [[../Ableton/sampling-with-simpler|Sampling with Simpler]].
+9. 🆕 **FX/riser** — lesson delivered 2026-07-13, see [[../Techniques/riser-fx|Riser FX]]. Homework: build the Noise-riser track (Drift, stacked Filter Cutoff + Volume envelopes, Loop off), launch it by hand before the Drop scene.
+10. Next: record the performance into Arrangement, mix pass, export. High-level map: [[../Techniques/techno-production-arc|Techno Production Arc]].

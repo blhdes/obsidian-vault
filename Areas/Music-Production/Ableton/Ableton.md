@@ -29,3 +29,4 @@ Each distinct topic gets its own kebab-case note (e.g. `session-vs-arrangement-v
 - [[exporting-your-track|Exporting Your Track]] — render the Arrangement to a WAV/MP3, set the export range, Render Tail for reverb, format choices (44.1 kHz / 16-bit for DJ), drop into Mixxx / SC Live 4
 - [[clip-envelopes|Clip Envelopes]] — automate any device parameter inside a clip; the Session-View automation system (filter sweeps, volume rises, etc.)
 - [[apc-mini-mk2-grid|APC Mini MK2 Grid]] — the hardware mirror of Session View: pads = clip slots, right column = scene launch, faders = track volumes + Master, pad colors, the red frame
+- [[sampling-with-simpler|Sampling with Simpler]] — drag your own audio into Simpler, key/pitch mapping, Classic vs One-Shot vs Slice playback modes, trimming with Start/Length
