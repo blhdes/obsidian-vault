@@ -46,6 +46,10 @@ This is the fastest way to turn your Session scenes into a real timeline.
 
 > 💡 Don't worry about timing your scene launches perfectly — **Launch Quantization** still works during recording, so scene jumps land on bar boundaries.
 
+### Recording individual clip launches too (not just scenes)
+
+Global Record captures **every** launch you make in Session View while it's armed — not only whole-scene launches. If a clip lives outside your scene rows (like a one-shot [[../Techniques/riser-fx|riser]] you trigger by hand a bar or two before the Drop), just click that clip's play button at the right moment during the same take. It lands on the timeline exactly where you fired it, alongside the scene clips. One take, mixed sources, still one continuous recording.
+
 ## Playing back the Arrangement
 
 - **`Spacebar`** → play / stop.

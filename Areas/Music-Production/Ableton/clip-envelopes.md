@@ -25,10 +25,14 @@ Anything that's a knob, fader, or dropdown on a device or mixer → you can auto
 
 With a clip selected (Session or Arrangement), in Clip View:
 
-1. **Toggle the Envelopes box** — click the small **`E`** button on the left edge of Clip View, OR look for the **Envelopes** tab. A new panel opens showing the envelope editor.
-2. **Pick the Device** — dropdown labelled `Device` → choose the device on the track (e.g. **Simpler**, **Drift**, **Mixer**, **Reverb**, etc.).
-3. **Pick the Control** — dropdown labelled `Control` → choose the specific parameter (e.g. **Filter Freq**, **Track Volume**, **Dry/Wet**).
-4. A horizontal line appears across the envelope view — that's the current value of the parameter. **Pencil tool `B`** to draw, or click and drag breakpoints to shape a curve.
+1. Click the **Envelopes** tab — top-right of Clip View, next to **Notes** and **MPE**. That swaps the note grid for the envelope editor.
+2. Two dropdowns sit at the **bottom** of that pane. First = **Device** → choose the device on the track (e.g. **Drift**, **Mixer**, **Reverb**, etc.). Defaults to whatever's already loaded.
+3. Second = **Control** → choose the specific parameter (e.g. **Filter Freq**, **Track Volume**, **Dry/Wet**). It usually defaults to something unrelated (like LFO Wave) — always check and change it.
+4. A horizontal line appears across the grid — that's the current value of the parameter. Press **Pencil tool `B`** and drag across the clip to draw a rising/falling ramp, or click to drop breakpoints and drag them into a curve.
+
+### Stacking more than one envelope on the same clip
+
+Only one Device/Control pair is shown at a time, but each pair's drawn automation is stored **independently** — switching the dropdowns to a different parameter and drawing there doesn't erase what you drew for the first one. This is how you build something like a [[../Techniques/riser-fx|riser]]: draw Filter Freq rising, then switch Control to Track Volume and draw that rising too — both play back together, even though you only ever see one at a time.
 
 ### Shortcut
 

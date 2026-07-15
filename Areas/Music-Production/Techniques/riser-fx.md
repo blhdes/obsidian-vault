@@ -12,13 +12,13 @@ A **riser** is a sound that gets **louder and brighter** (often higher-pitched t
 
 ## The source: Noise
 
-Every riser needs raw material with **no clear pitch** — otherwise it clashes with the track's key. Drift's oscillators aren't limited to the tuned waveforms used so far (sine/triangle for the bleep); switch **OSC 1's type to Noise** and you get hiss instead of a note — pure texture, nothing to clash.
+Every riser needs raw material with **no clear pitch** — otherwise it clashes with the track's key. Drift has a **separate Noise generator**, bottom-left of the device next to Osc 1/Osc 2 — its own **N** toggle and dB knob (defaults to `-∞ dB`, i.e. off). Enable it and turn the dB up for hiss instead of a tuned note — pure texture, nothing to clash.
 
 ## The recipe
 
 ```
 New MIDI track ("Riser," slot 6 of the 8-track budget)
-  → Drift, OSC 1 = Noise
+  → Drift: Noise ON (N toggle + dB up), Osc 1/Osc 2 OFF
   → one held note across a 1–2 bar clip
   → stack two clip envelopes on that same clip:
        Filter Cutoff:  closed ──────▶ open   (across the whole clip)
@@ -26,9 +26,9 @@ New MIDI track ("Riser," slot 6 of the 8-track budget)
   → Loop OFF (plays once, doesn't repeat)
 ```
 
-1. New MIDI track, load **Drift**, set **OSC 1 → Noise**.
+1. New MIDI track, load **Drift**. Click the **N** toggle to enable Noise, bring its dB up from `-∞`. Click the **1** and **2** toggles off so Osc 1/Osc 2 don't blend in — Noise alone feeds the Filter.
 2. Draw **one held note** spanning the clip (1 or 2 bars — however long you want the swell).
-3. Open the clip's automation (`E` button, same as [[../Ableton/clip-envelopes|clip envelopes]]) and add **two** lanes on this one clip:
+3. Click the **Envelopes** tab (top-right of Clip View, same as [[../Ableton/clip-envelopes|clip envelopes]]) and add **two** lanes on this one clip:
    - **Device: Drift → Control: Filter Cutoff** — draw it rising from closed to open across the clip (identical move to the acid lead's build-up sweep).
    - **Device: Mixer → Control: Track Volume** (or the track's own volume automation) — draw it rising from very quiet to full across the same span. This second lane is *what actually makes it a riser* — the filter sweep alone only brightens, the volume rise is what "builds."
 4. Optional third lane: **Transpose/pitch**, rising an octave over the clip, for extra lift on top of brightness + loudness.

@@ -66,13 +66,13 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 
 ### Path 6 — 🎨 Make a Real Track Sketch  ⭐ **ACTIVE**
 - **Status:** 🟢 In progress *(restarted 2026-07-09 on Live Lite — sketch 01 deleted, its notes kept as reference)*
-- **Progress:** ~48% *(full 5-layer loop stack playing — drums, bass, stab, pad, bleep motif; structure next)*
+- **Progress:** ~65% *(Solo Sketch 138: all planned layers built — drums, rumble, bass, sidechain ducking, sample accent, riser, 4-scene structure. Ticket to Detroit: full 5-layer loop stack playing — drums, bass, stab, pad, bleep motif. Structure/mix/export remain on both.)*
 - **Current sketch:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM · A minor · club techno with Detroit-style influence
-- **Side sketch (self-driven):** [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — 138 BPM · A minor · Cashon Kit; user leads, sessions log + advise
+- **Side sketch (self-driven):** [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — 138 BPM · A minor · Cashon Kit; user leads, sessions log + advise — layering stage complete, now in finishing stage
 - **Difficulty:** ★★★★☆ *(touches all other paths)*
 - **Goal:** A club techno track with a real Detroit vocabulary: swung 909 drums, syncopated bass, the minor 7th/9th chord stab, string pads
 - **Working sketch lives in:** [[Track-Sketches/Track-Sketches]]
-- **Plan:** layer by layer — drums ✅ → hat swing ✅ → bass ✅ → chord stab ✅ → pads ✅ → lead ✅ → FX → arrange → mix → export. Theory / sound design / mixing get pulled in *just-in-time*; each pull bumps that path's %. The old [[Track-Sketches/techno-sketch-01-deepening/techno-sketch-01-deepening|deepening checklist]] doubles as the later-layers reference.
+- **Plan:** layer by layer — drums ✅ → hat swing ✅ → bass ✅ → chord stab ✅ → pads ✅ → lead ✅ → FX ✅ (Solo Sketch 138) → arrange → mix → export. Theory / sound design / mixing get pulled in *just-in-time*; each pull bumps that path's %. The old [[Track-Sketches/techno-sketch-01-deepening/techno-sketch-01-deepening|deepening checklist]] doubles as the later-layers reference.
 
 ---
 

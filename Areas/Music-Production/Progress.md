@@ -30,6 +30,42 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 ---
 
+## Sketch — 2026-07-15 — Solo Sketch 138 (Recorded to Arrangement)
+
+**Topic:** Homework check-in: the performance is recorded into Arrangement. Applied the "mixed scene + individual clip launches" addendum from [[Ableton/arrangement-view-basics|Arrangement View Basics]] — drums/bass ran continuously, Polymeter perc + Rumble entered together partway through, the Stab Dub Direct sample fired once, and the Riser fired twice back-to-back around the new-layer entrance.
+
+**Covered:**
+- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — full take recorded; see the sketch note's Observations for the arrangement read and two open questions (riser double-trigger intent, unused Audio track)
+
+**Key takeaways:**
+- Staggering track entrances (rather than only whole-scene launches) reads as real arrangement dynamics — a valid, more granular alternative to the Intro/Build/Drop/Break scene model.
+- **A retriggered clip resets its envelopes.** Firing the same riser clip twice in a row gives two short re-attacks, not one longer continuous swell — if a longer build is wanted, extend the clip (and its envelope lengths) instead of repeating it.
+- Riser placement (right before a new layer enters, not only before a "drop") generalizes the technique correctly.
+
+**Where we left off:** Take recorded. Two open questions before the mix pass: is the double riser intentional, and is the empty Audio track (7) meant to be used or freed up.
+
+**Next:** Resolve the riser question, then the mix pass, then export.
+
+---
+
+## Sketch — 2026-07-14 — Solo Sketch 138 (FX/Riser Applied)
+
+**Topic:** Homework check-in: the riser is built and working — Noise generator enabled on Drift (Osc 1/2 off), Filter Freq and Track Volume both automated rising across the clip as two stacked lanes in the Envelopes tab, Loop off.
+
+**Covered:**
+- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — riser track complete, all 8 planned layers now in place (drums, rumble, bass, sample accent, riser + the 4-scene structure)
+- [[Ableton/clip-envelopes|Clip Envelopes]] — corrected: the Envelopes tab sits top-right of Clip View (not a small "E" button), and its Device/Control dropdowns live at the *bottom* of the pane, not the top — fixed after two rounds of screenshots. Also documented: each Device/Control pair's automation is stored independently, which is *how* stacking two envelopes on one clip actually works.
+
+**Key takeaways:**
+- Live's UI for this (Live 12) differs from the vault's original 2026-05-30 description — Envelopes is a tab, not an icon button. Vault corrected to match the real interface.
+- The sketch's layering stage is now fully closed: every item from the original 8-track plan is built.
+
+**Where we left off:** All planned layers built. Nothing left to *add* — remaining work is finishing/polish.
+
+**Next:** Record the performance into Arrangement, then mix pass, then export — the home stretch for this sketch.
+
+---
+
 ## Sketch — 2026-07-13 — Solo Sketch 138 (FX/Riser)
 
 **Topic:** The tension-tool layer: a **riser** built from Drift's **Noise oscillator** with two stacked clip envelopes (Filter Cutoff + Track Volume) rising together on one non-looping clip.
