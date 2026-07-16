@@ -36,6 +36,13 @@ Two 1-bar drum clips:
 - An unused **Audio** track (track 7, Ext. In, no clips) is sitting in the project — worth deciding whether to use that slot (Lite caps at 8 tracks) or remove it to free up the budget.
 - Unclear from the take alone whether a Break/reduction section exists later in the timeline — check before moving to the mix pass.
 
+### Arrangement take v2 — 2026-07-15 (rearranged)
+
+- **Two-act shape now:** drums+bass constant floor throughout → **Build 1** (riser → Polymeter+Rumble enter + one Stab hit) → thins back to drums+bass only (the breakout/break moment) → **riser** → **Build 2 / bigger climax** (Polymeter+Rumble again + Stab now as an *extended repeated run* instead of one hit, more energy the second time).
+- Turning the single Stab hit into a repeated rhythmic run for the second build is a real escalation move — gives the climax more identity than a simple repeat of Build 1.
+- **Riser asymmetry:** Build 1's riser still fires twice back-to-back (same retrigger/envelope-reset behavior as before); Build 2's riser is a single hit. Worth confirming this is deliberate (shorter second build since the ear already knows what's coming) vs. an oversight on the first one.
+- Track 7 (Audio) confirmed intentionally empty/reserved — only 6 MIDI/Sample tracks in use for now, no action needed.
+
 ## Techniques used
 
 - Four-on-the-floor + offbeat long-sound pattern ([[../Techniques/open-vs-closed-hihat|known]])

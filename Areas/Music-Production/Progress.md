@@ -30,6 +30,42 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 ---
 
+## Sketch — 2026-07-16 — Solo Sketch 138 (Session vs Arrangement Clip Debugging)
+
+**Topic:** Tracked down why the extended 8-bar riser "still sounded like the original": the Session View clip slot and its recorded Arrangement copy are **independent objects** once captured — editing one doesn't touch the other. Soloing/playing from the Session clip slot played the old, unedited version.
+
+**Covered:**
+- [[Ableton/arrangement-view-basics|Arrangement View Basics]] — new addendum: Session clip vs. its Arrangement copy are separate after Capture; always audition fixes from the Arrangement timeline itself, not the Session slot
+
+**Key takeaways:**
+- This was a multi-step debug chain: Loop-off clip's End vs. Loop-section Length (fixed) → note not extended with the clip (fixed) → finally, testing via the *wrong* clip entirely (the stale Session copy).
+- Resolution: play back via the Arrangement timeline (`Spacebar` with playhead there) to judge the real, fixed automation.
+- Open decision: the original Session clip is still stale — matters only if the user wants to keep performing this track live from Session/APC later.
+
+**Where we left off:** Root cause found; riser automation confirmed correct once tested from the right place.
+
+**Next:** Confirm the Arrangement playback now sounds right, then the mix pass, then export.
+
+---
+
+## Sketch — 2026-07-15 — Solo Sketch 138 (Arrangement Rearranged)
+
+**Topic:** Follow-up: the arrangement now has a two-act shape — Build 1 (riser → Polymeter+Rumble enter + one Stab hit) → breakout/thin back to drums+bass → riser → Build 2, a bigger climax where the Stab sample became a repeated rhythmic run instead of one hit.
+
+**Covered:**
+- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — updated Observations with the "Arrangement take v2" read
+
+**Key takeaways:**
+- Turning a single one-shot into a repeated run for the second pass is a real escalation device — the climax gets its own identity instead of just repeating Build 1.
+- The riser retrigger question from the first take is now partially resolved: Build 2's riser is a single clean hit, Build 1's is still the back-to-back double — worth confirming whether that asymmetry (longer first build, shorter second) is deliberate.
+- Track 7 confirmed intentionally empty — only 6 MIDI/Sample tracks in use, no action needed.
+
+**Where we left off:** Two-act arrangement in place. One open question (Build 1's riser doubling) before moving to the mix pass.
+
+**Next:** Resolve the riser question, then the mix pass, then export.
+
+---
+
 ## Sketch — 2026-07-15 — Solo Sketch 138 (Recorded to Arrangement)
 
 **Topic:** Homework check-in: the performance is recorded into Arrangement. Applied the "mixed scene + individual clip launches" addendum from [[Ableton/arrangement-view-basics|Arrangement View Basics]] — drums/bass ran continuously, Polymeter perc + Rumble entered together partway through, the Stab Dub Direct sample fired once, and the Riser fired twice back-to-back around the new-layer entrance.

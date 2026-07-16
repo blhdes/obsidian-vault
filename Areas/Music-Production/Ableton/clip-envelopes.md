@@ -66,6 +66,15 @@ A 1-bar clip with a slow filter sweep = the sweep happens in 1 bar (way too fast
 
 Meanwhile, drums and bass clips on the same scene can stay at 1 bar — they'll just loop 8 times underneath. Clips on a scene loop independently; they don't have to match length.
 
+### If Loop is OFF, extend End — not the Loop section's Length
+
+The Clip box has **two separate length controls**, and only one of them matters depending on whether **Loop** is toggled on:
+
+- **Start / End** (top of the Clip box) — the clip's actual overall boundaries. Always in effect.
+- **Position / Length** (inside the **Loop** section, below the Loop toggle) — defines the loop bracket. Only matters **while Loop is switched on**.
+
+A one-shot clip (like a [[../Techniques/riser-fx|riser]]) has **Loop turned off on purpose**, so it plays once and stops. That means the Loop section's Position/Length fields are inert — typing a bigger number there does nothing, because Loop is off. To actually make the clip longer, change **End** instead (e.g. Start `1.1.1`, End `9.1.1` = an 8-bar clip). Only then does the Envelopes grid have real editable territory past bar 1 — and any envelope drawn before the extension won't auto-stretch, so redraw it across the new length.
+
 ## Drawing tips
 
 - **Pencil tool (`B`)** = freeform draw.

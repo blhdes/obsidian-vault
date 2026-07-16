@@ -60,6 +60,10 @@ Global Record captures **every** launch you make in Session View while it's arme
 
 If you trigger a Session clip *while* Arrangement is playing, the Session takes over for that track. A small **yellow rectangle icon** appears at the top of Arrangement View → click it to **return to Arrangement playback** for all tracks.
 
+### The Session clip and its recorded Arrangement copy are independent
+
+Once Global Record captures a Session clip onto the Arrangement timeline, the two become **separate objects** — editing notes/envelopes on the Arrangement copy does **not** change the original clip still sitting in its Session View slot, and vice versa. If you solo a track and hit play from its **Session clip slot**, you'll hear the old, unedited version, not whatever you've since fixed in Arrangement — easy to mistake for "my edit didn't work." Always audition fixes by playing back the **Arrangement timeline itself** (click the ruler, `Spacebar`), not the Session clip. If you still want to perform the track live from Session/APC later, that original clip needs the same fixes applied separately — or just drag the corrected Arrangement clip back into the Session slot to replace it.
+
 ## Basic editing on the timeline
 
 Once your clips are in Arrangement, you can shape them:

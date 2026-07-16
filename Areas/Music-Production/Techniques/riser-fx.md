@@ -45,5 +45,7 @@ Every earlier automation move (acid lead filter sweep, chord/pad work) touched *
 ## Gotchas
 
 - **Don't loop it.** A looping riser turns into a siren — the whole point is a one-way trip to the drop.
+- **Want it longer instead of retriggering it twice?** Since Loop is off, extend the clip's **End** field (top of the Clip box), not the Loop section's Length field — the latter is inert while Loop is off. See [[../Ableton/clip-envelopes|Clip Envelopes]] for the Start/End vs. Loop distinction.
+- **Extending the clip isn't enough on its own** — the held note itself has to be dragged out to match (Notes tab, drag its right edge to the new End). If the note stays short, Drift's own Release fades it to silence long before the envelope automation finishes, so the extra bars end up silent regardless of what's drawn there.
 - If it feels EDM-cheesy, shorten the clip (1 bar instead of 2) or tone down how far the volume climbs — restraint keeps it hypnotic-techno rather than festival-trailer.
 - Counts against the 8-track cap like every other Lite track.
