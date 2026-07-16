@@ -43,6 +43,17 @@ Two 1-bar drum clips:
 - **Riser asymmetry:** Build 1's riser still fires twice back-to-back (same retrigger/envelope-reset behavior as before); Build 2's riser is a single hit. Worth confirming this is deliberate (shorter second build since the ear already knows what's coming) vs. an oversight on the first one.
 - Track 7 (Audio) confirmed intentionally empty/reserved — only 6 MIDI/Sample tracks in use for now, no action needed.
 
+### Riser debugging saga — resolved 2026-07-16
+
+Extending the riser to 8 bars surfaced a chain of Ableton gotchas before it actually worked:
+1. Typed the new length into the Loop section's Length field while **Loop was off** — inert, needed **End** (top of Clip box) instead.
+2. Extended the clip but not the **note** — it kept releasing early via Drift's own Release time.
+3. Tested via the **stale Session View clip** instead of the fixed Arrangement copy — the two are independent objects once captured, so edits to one never reached the other; deleted the old Session clip.
+4. Still off — traced to **Drift's default internal modulation** (Freq Mod: Env 2 at 80%, present from Drift's default patch) fighting the drawn automation; zeroed it out.
+5. Even then, leftover **duplicate/un-fixed riser blocks** from the earlier double-fire experiment were still sitting in Arrangement. Fix: rebuilt the riser clean in Session View, verified it solo, deleted every old Arrangement riser block, then **re-recorded fresh**. ✅ Confirmed working.
+
+Lesson banked: when a device/automation "isn't working," check in this order — clip End vs. Loop length, note length matching clip length, which physical clip you're actually auditioning (Session vs. Arrangement copies), and any internal device modulation already routed to the same parameter.
+
 ## Techniques used
 
 - Four-on-the-floor + offbeat long-sound pattern ([[../Techniques/open-vs-closed-hihat|known]])
@@ -62,4 +73,9 @@ Two 1-bar drum clips:
 8. ✅ **Sampling** — built 2026-07-13: **Stab Dub Direct** sample loaded into Simpler on a new track, trimmed (Start past the dead air), mode set to **One-Shot** — a dub-techno-flavored stab used as a texture accent, not a repeated harmonic element (keeps the drums-first direction intact). See [[../Ableton/sampling-with-simpler|Sampling with Simpler]].
 9. ✅ **FX/riser** — built 2026-07-14: Riser track on Drift (Noise on, Osc 1/2 off), Filter Freq + Track Volume both automated rising across the clip via stacked Envelopes-tab lanes, Loop off. See [[../Techniques/riser-fx|Riser FX]].
 10. ✅ **Recorded to Arrangement** — 2026-07-15: performed a take mixing scene launches with individual track entrances ([[../Ableton/arrangement-view-basics|known move]], extended per the mixed-source addendum) — see Observations below for what landed and what to check.
-11. Next: settle the riser question (see Observations), then mix pass, export.
+11. ✅ **Mix pass** — built 2026-07-16: [[../Techniques/eq-carving|EQ Carving]] applied (high-pass on Polymeter perc + Stab Dub Direct), [[../Ableton/master-limiter|Master Limiter]] added (Ceiling ~-0.3dB).
+12. ✅ **Exported** — 2026-07-16: rendered to WAV via Main, Render Length padded past the last clip for the Reverb/Delay tail (Live 12 dropped the separate Render Tail field). **First fully self-driven track, start to finish.** 🎉
+
+## State — 2026-07-16 (Complete)
+
+All 8 planned layers built, arranged into a two-act structure, mixed, and exported. This is the first Solo Sketch 138 milestone: entirely self-directed from the original drum loop through export, including working through several genuine Ableton debugging chains independently (Loop vs. End fields, note length vs. clip length, Session/Arrangement clip independence, Drift's internal modulation). High-level map: [[../Techniques/techno-production-arc|Techno Production Arc]].

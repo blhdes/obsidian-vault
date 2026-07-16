@@ -8,7 +8,7 @@ tags: [roadmap, paths, learning, game, music-production]
 
 Six paths to explore. Each has a **status**, a rough **progress %**, and a **difficulty**. Pick whichever calls to you in the moment — no fixed order, dip in and out.
 
-> 🎯 **Active path:** **Path 6 — Make a Real Track Sketch** — [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] (club techno, Detroit-style, on Live Lite + APC Mini MK2). Pulls from paths 1–5 *as the track demands*.
+> 🎯 **Active path:** **Path 6 — Make a Real Track Sketch** — [[Track-Sketches/hardgroove-134|Hardgroove 134]] (hardgroove techno, 134 BPM, 100% hand-built in Ableton's UI). [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] is paused. Pulls from paths 1–5 *as the track demands*.
 
 ---
 
@@ -38,11 +38,11 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 - **Difficulty:** ★★★☆☆
 - **Unlocks:** Designing your own signature sounds instead of grabbing presets
 - **Topics:** oscillators, filters, envelopes (ADSR), LFOs, subtractive vs. FM synthesis
-- **First step:** Open **Drift** with all presets cleared, build a bass from a single sine wave
+- **First step:** 🔄 **In progress** — [[Track-Sketches/hardgroove-134|Hardgroove 134]]'s KICK patch: Drift cleared to a single sine, pitch envelope next
 
 ### Path 3 — 🎚 Deeper Mixing & First Mastering
 - **Status:** 🟡 Started
-- **Progress:** ~50% *(volume/pan/Reverb/Delay in [[Ableton/mixing-basics-and-effects|Session 8]]; rhythmic kick/bass interlock as sidechain prep — see [[Techniques/kick-bass-interlock|note]]; clip-envelope automation in [[Ableton/clip-envelopes|note]]; effects as sound-generators — the [[Techniques/rumble-bass|rumble]] chain; [[Techniques/sidechain-ducking|sidechain ducking]] — done on Solo Sketch 138; [[Techniques/riser-fx|riser FX]] — stacking two envelope lanes on one clip)*
+- **Progress:** ~85% *(volume/pan/Reverb/Delay in [[Ableton/mixing-basics-and-effects|Session 8]]; rhythmic kick/bass interlock as sidechain prep — see [[Techniques/kick-bass-interlock|note]]; clip-envelope automation in [[Ableton/clip-envelopes|note]]; effects as sound-generators — the [[Techniques/rumble-bass|rumble]] chain; [[Techniques/sidechain-ducking|sidechain ducking]] — done on Solo Sketch 138; [[Techniques/riser-fx|riser FX]] — stacking two envelope lanes on one clip; [[Techniques/eq-carving|EQ carving]] + [[Ableton/master-limiter|Master Limiter]] — full mix-to-export cycle completed on Solo Sketch 138. Remaining: real mastering (multiband compression, loudness targets) — flagged as a later topic.)*
 - **Difficulty:** ★★★☆☆
 - **Unlocks:** Tracks that sound polished and competitive with releases
 - **Topics:** EQ (frequency shaping), compression (dynamics), **sidechain ducking** (the "pumping" sound), automation, limiter on Master
@@ -65,14 +65,15 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 - **First step:** Apply a swing groove template to the basic four-on-the-floor
 
 ### Path 6 — 🎨 Make a Real Track Sketch  ⭐ **ACTIVE**
-- **Status:** 🟢 In progress *(restarted 2026-07-09 on Live Lite — sketch 01 deleted, its notes kept as reference)*
-- **Progress:** ~65% *(Solo Sketch 138: all planned layers built — drums, rumble, bass, sidechain ducking, sample accent, riser, 4-scene structure. Ticket to Detroit: full 5-layer loop stack playing — drums, bass, stab, pad, bleep motif. Structure/mix/export remain on both.)*
-- **Current sketch:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM · A minor · club techno with Detroit-style influence
-- **Side sketch (self-driven):** [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — 138 BPM · A minor · Cashon Kit; user leads, sessions log + advise — layering stage complete, now in finishing stage
+- **Status:** 🟢 In progress *(third sketch, [[Track-Sketches/hardgroove-134|Hardgroove 134]], kicked off 2026-07-16 — 100% hand-built in Ableton's UI, no programmatic control)*
+- **Progress:** ~80% *([[Track-Sketches/solo-sketch-138|Solo Sketch 138]] is a **complete, exported track** — every stage done: layers, arrangement, mix, export. Ticket to Detroit: full 5-layer loop stack playing — drums, bass, stab, pad, bleep motif; structure/mix/export still remain there, paused for now.)*
+- **Current sketch:** [[Track-Sketches/hardgroove-134|Hardgroove 134]] — 134 BPM · C major · hardgroove techno; rebuilding the low end from zero in Drift, KICK in progress
+- **Paused sketch:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM · A minor · club techno with Detroit-style influence — resumes whenever
+- **Completed sketch (self-driven):** [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — 138 BPM · A minor · Cashon Kit — 🎉 finished and exported 2026-07-16
 - **Difficulty:** ★★★★☆ *(touches all other paths)*
-- **Goal:** A club techno track with a real Detroit vocabulary: swung 909 drums, syncopated bass, the minor 7th/9th chord stab, string pads
+- **Goal (Hardgroove 134):** Rolling, percussive hardgroove techno with a real kick/sub interlock as its engine — built patch-by-patch from blank Drift presets
 - **Working sketch lives in:** [[Track-Sketches/Track-Sketches]]
-- **Plan:** layer by layer — drums ✅ → hat swing ✅ → bass ✅ → chord stab ✅ → pads ✅ → lead ✅ → FX ✅ (Solo Sketch 138) → arrange → mix → export. Theory / sound design / mixing get pulled in *just-in-time*; each pull bumps that path's %. The old [[Track-Sketches/techno-sketch-01-deepening/techno-sketch-01-deepening|deepening checklist]] doubles as the later-layers reference.
+- **Plan (Hardgroove 134):** KICK (Drift → Saturator → EQ Three) → SUB (Drift → EQ Three) → sidechain SUB to KICK → 3 distinct 8-bar kick+sub loops, then PERC/HATS/STAB-LEAD/ATMOS/FX-RISER layer by layer. Theory / sound design / mixing get pulled in *just-in-time*; each pull bumps that path's %. The old [[Track-Sketches/techno-sketch-01-deepening/techno-sketch-01-deepening|deepening checklist]] doubles as later-layers reference.
 
 ---
 

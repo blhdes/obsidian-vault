@@ -22,11 +22,91 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % in [[Roadmap]].
 
-**Sketch in progress:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM, A minor. Club techno with strong Detroit-style influence, restarted from scratch on Live Lite. The sketch note holds the **Detroit reference map** (drums/groove/bass/chords/pads/structure in production terms) and the 8-track plan.
+**Sketch in progress:** [[Track-Sketches/hardgroove-134|Hardgroove 134]] — 134 BPM, C major. Hardgroove techno, kicked off 2026-07-16 with a stricter hand-built-only workflow. Weeks 1–2: rebuild the low end from zero in Drift (KICK + SUB only).
 
-**Side sketch (self-driven, started 2026-07-12):** [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — 138 BPM, A minor. The user's first track built alone, no lesson plan; sessions on it log what happened + what to try next.
+**Paused:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM, A minor. Club techno with strong Detroit-style influence. Full 5-layer loop stack done (drums/bass/stab/pad/lead); still needs FX/arrangement/mix/export whenever it resumes.
+
+**Side sketch (self-driven, started 2026-07-12):** [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — 138 BPM, A minor. The user's first track built alone, no lesson plan — 🎉 **completed and exported 2026-07-16**.
 
 **Approach decided 2026-07-09:** repeat the first-track exercise (foundation drum loop) first, then move through the other layers of production one by one. The [[Track-Sketches/techno-sketch-01-deepening/techno-sketch-01-deepening|old deepening checklist]] (pads, stab, sidechain, saturation, sends, riser, drum variations, motif variations, automation) is now **reference material** for this track's later layers — the paused sketch-01 plan itself is retired.
+
+---
+
+## Sketch — 2026-07-16 — Hardgroove 134 (Kickoff)
+
+**Topic:** Third track sketch kicked off — **hardgroove techno at 134 BPM**, rebuilding the low end from zero in Drift. A deliberate fresh start, not a continuation: [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] is paused (Solo Sketch 138 also wrapped the same day — see below).
+
+**Covered:**
+- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — new sketch: 134 BPM, C major, 8-track budget (KICK/SUB/PERC/HATS/STAB-LEAD/ATMOS/FX-RISER/RETURN), stock-devices-only rule (Drift/EQ Three/Saturator/Compressor/Drum Rack/Simpler), Weeks 1–2 goal (KICK + SUB only, three distinct 8-bar loops)
+- KICK track started: Drift loaded, oscillator isolated to a single plain sine (Osc 2/Sub/Noise off) — checkpoint before the pitch envelope
+
+**Key takeaways:**
+- New house rule for this project: **100% hand-built in Ableton's UI** — no Producer Pal, no MCP, no programmatic control. The point is learning the interface directly, not the fastest path to a finished loop.
+- Live Lite's 8-track ceiling now forces a **pre-committed instrument budget** up front (KICK/SUB/PERC/HATS/STAB-LEAD/ATMOS/FX-RISER/RETURN) rather than adding tracks ad hoc as the sketch grows.
+- Drift is the sound-design workhorse here (no Operator/Wavetable/EQ Eight allowed) — building "from a blank preset" means actively zeroing Drift's default pre-routing (recall: Env 2 → Freq Mod ships at 80% out of the box), not just loading the device and assuming it's silent/neutral.
+- This directly picks up Path 2's flagged first step (Roadmap: "Open Drift with all presets cleared, build a bass from a single sine wave") — now literally underway on the kick patch.
+
+**Where we left off:** KICK track created, Drift loaded, oscillator isolated to a single plain sine — waiting on user confirmation before wiring the pitch envelope.
+
+**Next:** Pitch envelope on the kick (short decay routed to pitch → the thump/click transient), then the amp envelope, Saturator, EQ Three. Then mirror the whole process for SUB.
+
+---
+
+## Sketch — 2026-07-16 — Solo Sketch 138 (Exported — Sketch Complete 🎉)
+
+**Topic:** Rendered the final WAV. **Solo Sketch 138 is done, start to finish** — the user's first fully self-driven track, from the original drum loop through export.
+
+**Covered:**
+- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — marked complete; full State summary added
+- [[Ableton/exporting-your-track|Exporting Your Track]] — corrected for this Live version: "Master" renamed to **Main** in the Rendered Track field, and the standalone **Render Tail** field is gone — pad **Render Length** a couple bars past the last clip instead so Reverb/Delay tails have room
+
+**Key takeaways:**
+- Live 12's Export dialog is leaner than what was originally documented — no dedicated tail control, Spanish-localized labels for this user (Pista renderizada, Duración de renderización, etc.), both now reflected in the vault note.
+- This sketch's arc covered nearly every mixing topic in Path 3 (interlock → clip envelopes → rumble → sidechain ducking → riser stacked envelopes → EQ carving → limiter) plus Path 4's opener (sampling) — a genuinely full production cycle, independently driven.
+- Real value came from working through non-obvious Ableton debugging (Loop vs. End fields, note length vs. clip length, Session/Arrangement clip independence, default device modulation) rather than from any single lesson.
+
+**Where we left off:** Track exported. Solo Sketch 138 closed as a complete, finished piece.
+
+**Next:** Open — could return focus to [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] (still needs FX/arrangement/mix/export), start a fresh self-driven sketch, or dive into Path 2 (sound design from scratch) / Path 1 (chord progressions), both flagged earlier as things the user wants more of.
+
+---
+
+## Sketch — 2026-07-16 — Solo Sketch 138 (Mix Pass — EQ + Limiter)
+
+**Topic:** The mix pass. Two new closing concepts for Path 3: **EQ carving** (subtractive EQ — cut, don't boost; high-pass anything that isn't the kick/rumble/bass) and the **Master Limiter** (a hard ceiling as the last device on Master, safety net against clipping).
+
+**Covered:**
+- [[Techniques/eq-carving|EQ Carving (Subtractive EQ)]] — the cut-don't-boost philosophy, the high-pass-everything-else rule, applied per-track to the sketch's 6 tracks
+- [[Ableton/master-limiter|Master Limiter (Mix Safety Net)]] — Ceiling ~-0.3dB, small Gain, why this isn't full mastering
+- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — homework queued: high-pass Polymeter perc + Stab Dub Direct, add the Limiter, verify Build 2 doesn't clip
+
+**Key takeaways:**
+- Subtractive EQ: when two elements clash in the same frequency range, cut the one that doesn't need it there, rather than boosting the other to compete.
+- The single highest-value move for a beginner: high-pass everything except the kick/rumble/bass, since almost nothing else needs true low end.
+- A Limiter is an extreme compressor with a hard ceiling — catches summed peaks across 6 tracks that no individual track's level would predict.
+- This closes out Path 3's remaining topics (EQ, limiter) — sidechain and automation were already done.
+
+**Where we left off:** Concepts covered; sketch itself unchanged pending homework.
+
+**Next:** Homework — apply the EQ carving + Limiter, confirm the Master meter behaves on Build 2. Then: export, the finish line for this sketch.
+
+---
+
+## Sketch — 2026-07-16 — Solo Sketch 138 (Riser Debugging Resolved)
+
+**Topic:** Closed out the riser debugging chain: rebuilt the riser clean in Session View (Freq Mod zeroed, envelopes redrawn), verified it solo, cleared every stale/duplicate riser block from Arrangement, then re-recorded. Confirmed working.
+
+**Covered:**
+- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — full debugging saga logged under "Riser debugging saga — resolved 2026-07-16"
+
+**Key takeaways:**
+- The real fix wasn't any single tweak — it was **removing accumulated stale state** (old Session clip, leftover duplicate Arrangement blocks) and rebuilding from one verified source, then re-recording once.
+- General debugging order for "my automation isn't working" in Live: clip End vs. Loop-section Length, note length vs. clip length, which physical clip copy is actually playing (Session vs. Arrangement), then any of the device's own internal modulation already routed to that parameter.
+- Drift's default patch ships with **Env 2 → Freq Mod at 80%** already routed — worth zeroing on any fresh Drift instance where a clean, externally-automated filter sweep is wanted.
+
+**Where we left off:** Riser confirmed working correctly in Arrangement. Structure layer is genuinely done.
+
+**Next:** Mix pass, then export.
 
 ---
 

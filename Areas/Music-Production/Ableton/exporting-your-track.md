@@ -39,7 +39,7 @@ A dialog opens with a long list of options. Most you can ignore. Focus on these:
 
 ### Rendered Track
 
-Leave it on **"Master"** — that renders the whole mix (all tracks combined). You *can* also render individual tracks separately (called "stems"), but for a finished track you want Master.
+Leave it on **"Main"** (renamed from "Master" in Live 12) — that renders the whole mix (all tracks combined). You *can* also render individual tracks separately (called "stems"), but for a finished track you want Main.
 
 ### Render Start / Render Length
 
@@ -90,7 +90,7 @@ You can tick **both WAV and MP3** and Live renders both at once. Handy.
 A checkbox that boosts the final file's loudest peak to **0 dB** (maximum).
 
 - **Off (recommended for now):** keeps the mix you balanced. Good practice.
-- **On:** can be useful if your mix is quiet, but it doesn't make the song *louder-sounding* — just maxes the peak. For real loudness you need a **limiter** on the Master (a later topic).
+- **On:** can be useful if your mix is quiet, but it doesn't make the song *louder-sounding* — just maxes the peak. For real loudness you want a **[[master-limiter|Limiter]]** on Main instead.
 
 Leave **Normalize OFF** for now. Trust your mix.
 

@@ -36,3 +36,4 @@ Each technique gets its own note (e.g. `four-on-the-floor-drums.md`). We learn o
 - [[polymeter-percussion|Polymeter Percussion]] — a 3-beat perc clip rotating against the 4-beat bar; three bars of free variation from one static pattern; hypnotic-techno staple
 - [[sidechain-ducking|Sidechain Ducking]] — a compressor on the rumble listening to the kick: ducks on every hit for punch + pump; Release is the groove knob
 - [[riser-fx|Riser FX (Noise Build-Up)]] — Drift's Noise oscillator + stacked Filter Cutoff/Volume envelopes on one clip, Loop off, launched by hand before the Drop
+- [[eq-carving|EQ Carving (Subtractive EQ)]] — cut, don't boost; high-pass everything that isn't the kick/rumble/bass to free up low-end space
