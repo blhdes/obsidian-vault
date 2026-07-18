@@ -6,7 +6,7 @@ tags: [theory, scales, keys, a-minor, pentatonic]
 
 # A Minor and the Pentatonic Shortcut
 
-When a track is **in a key**, that key gives us a small set of notes that "belong" together — they sound resolved, intentional, musical. Notes *outside* the key tend to sound wrong (clashing, accidental). For [[../Track-Sketches/techno-sketch-01|Techno Sketch 01]] we chose **A minor**, so the first useful theory bit is: *which notes are in A minor*, and the even shorter list of notes that *always* sound right.
+When a track is **in a key**, that key gives us a small set of notes that "belong" together — they sound resolved, intentional, musical. Notes *outside* the key tend to sound wrong (clashing, accidental). For an early sketch (since retired) we chose **A minor**, so the first useful theory bit is: *which notes are in A minor*, and the even shorter list of notes that *always* sound right.
 
 ## What "in a key" means in plain words
 
@@ -86,6 +86,6 @@ We'll add those as separate notes when a real task needs them.
 
 ## Related
 
-- [[../Track-Sketches/techno-sketch-01|Techno Sketch 01]] — first place these notes get used in anger
+- *(first used in an early sketch, since retired)*
 - [[../Techniques/acid-lead-sound|Acid Lead Sound]] — sound design for the lead carrying these notes
 - [[../../Mixing-DJing/Mixing-DJing|DJ key/Camelot notes]] — A minor = **Camelot 8A** (handy for harmonic mixing later)

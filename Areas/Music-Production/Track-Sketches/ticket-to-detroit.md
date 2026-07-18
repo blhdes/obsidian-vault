@@ -6,7 +6,7 @@ tags: [ableton, track-sketch, techno, detroit, live-lite]
 
 # Ticket to Detroit
 
-The second track sketch — and the first one on **Ableton Live Lite** with the **Akai APC Mini MK2** in the loop. A fresh start: all previous local projects (`techno-sketch-01`, `test/000`, a Desktop `Untitled`) were deleted on 2026-07-09. The old sketch's *notes* survive in [[techno-sketch-01|Techno Sketch 01]] and its [[techno-sketch-01-deepening/techno-sketch-01-deepening|deepening checklist]] — they're now reference material, not an open project.
+The second track sketch — and the first one on **Ableton Live Lite** with the **Akai APC Mini MK2** in the loop. A fresh start: all previous local projects (`techno-sketch-01`, `test/000`, a Desktop `Untitled`) were deleted on 2026-07-09; the vault notes for that first sketch were cleared too on 2026-07-17, keeping only the one applied technique that came out of it ([[../Techniques/percussion-layering|Percussion Layering]]).
 
 ## Stats
 

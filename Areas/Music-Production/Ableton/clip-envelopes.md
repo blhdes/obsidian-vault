@@ -91,5 +91,5 @@ You can **Unlink** it (small chain icon in the envelope view) → then you can h
 ## Related
 
 - [[../Techniques/acid-lead-sound|Acid Lead Sound]] — the parameters you'd most want to automate on an acid lead (cutoff, resonance)
-- [[../Track-Sketches/techno-sketch-01|Techno Sketch 01]] — first place clip envelopes get used in anger (Session 4)
+- *(first used in an early sketch, since retired — Session 4)*
 - [[arrangement-view-basics|Arrangement View Basics]] — the *other* place automation lives (track-level, on the timeline)

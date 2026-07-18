@@ -76,4 +76,4 @@ In dance music, **removing and re-adding the kick** is the single most reliable 
 
 - [[../Ableton/multiple-scenes-and-song-sections|Multiple Scenes & Song Sections]] — the mechanical how-to (scene creation, duplicate, launch quantization, empty-cell rule)
 - [[../Ableton/arrangement-view-basics|Arrangement View Basics]] — moving from scenes (live performance) to timeline (committed song)
-- [[../Track-Sketches/techno-sketch-01|Techno Sketch 01]] — first place these sections show up in a real sketch
+- *(first used in an early sketch, since retired)*

@@ -92,5 +92,5 @@ Play your 4-note lead motif and listen for:
 ## Related
 
 - [[a-minor-pentatonic|A Minor Pentatonic]] is not a typo — meant [[../Theory-Basics/a-minor-pentatonic|A Minor and the Pentatonic Shortcut]] — what notes the lead plays
-- [[../Track-Sketches/techno-sketch-01|Techno Sketch 01]] — first acid lead in context
+- *(first used in an early sketch, since retired)*
 - [[kick-bass-interlock|Kick / Bass Interlock]] — the rhythm bed this lead sits on top of

@@ -69,4 +69,4 @@ For now: offbeat opens = the techno / house engine.
 ## Related
 
 - [[../Ableton/making-a-midi-clip|Making a MIDI Clip]] — how to actually draw this in
-- [[../Track-Sketches/techno-sketch-01|Techno Sketch 01]] — first place it's used in a real sketch
+- *(first used in an early sketch, since retired)*

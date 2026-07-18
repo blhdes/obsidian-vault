@@ -1,15 +1,10 @@
 ---
-title: "Deepening 01 — Percussion Layer"
+title: Percussion Layering
 date: 2026-06-01
-tags: [ableton, percussion, drums, groove, techno, deepening]
-status: done
-step: 1
-feeds-path: "Path 5 — Drum Pattern Depth"
+tags: [ableton, percussion, drums, groove, techno]
 ---
 
-# 🥁 Deepening 01 — Percussion Layer
-
-> Part of [[techno-sketch-01-deepening|Techno Sketch 01 — Deepening Phase]] · Step **1 of 10** · ✅ done 2026-06-01
+# 🥁 Percussion Layering
 
 Adding a **second, quieter percussion element** that fills the rhythmic gaps the main kit (kick / clap / hats) leaves open. It adds *movement* and *groove* without fighting the kick.
 
@@ -30,7 +25,7 @@ This is the same logic as [[kick-bass-interlock|kick/bass interlock]] — instru
 
 ## Where the hits go
 
-Our drum kit currently covers the 8th-note grid: closed hat on the beats (`1 2 3 4`), open hat on the offbeats (`&`). The **16th-note in-betweens** — the `e` and `a` columns — are empty. That's exactly where a shaker running 16ths drops in:
+A typical kit covers the 8th-note grid: closed hat on the beats (`1 2 3 4`), open hat on the offbeats (`&`). The **16th-note in-betweens** — the `e` and `a` columns — are empty. That's exactly where a shaker running 16ths drops in:
 
 ```
               1 e & a 2 e & a 3 e & a 4 e & a
@@ -46,21 +41,21 @@ The shaker takes every gap the hats leave → a continuous 16th-note shimmer tha
 
 | Sound | Feel | Common in |
 |---|---|---|
-| **Shaker** | continuous 16th shimmer | techno, house — our pick |
+| **Shaker** | continuous 16th shimmer | techno, house |
 | **Rim / clave** | sparse, sharp accents (1–2 per bar) | latin house, afro, hip-hop |
 | **Conga / bongo** | tonal, melodic-ish bounce | house, afro, disco |
 | **Tambourine** | bright, jangly offbeats | disco, pop, gospel-house |
 
 *Genre-neutral principle:* any short, high percussion sound placed in the gaps works. The **choice of sound** is what makes it style-specific.
 
-## Two finishing moves (both already in your toolkit)
+## Two finishing moves
 
-- **Velocity groove** — don't draw every shaker hit at the same loudness. Make the `a` hits a touch louder than the `e` hits (or vice-versa) and the line breathes instead of buzzing flatly. (You met velocity in mixing — Session 8.)
-- **Pan it off-center** — kick & bass stay dead-center; percussion can drift slightly left or right for width. (Panning rule from [[mixing-basics-and-effects|Session 8]].) Even ±15% opens up the stereo image.
+- **Velocity groove** — don't draw every shaker hit at the same loudness. Make the `a` hits a touch louder than the `e` hits (or vice-versa) and the line breathes instead of buzzing flatly.
+- **Pan it off-center** — kick & bass stay dead-center; percussion can drift slightly left or right for width. Even ±15% opens up the stereo image.
 
-## Per-scene variation (deepening payoff)
+## Per-scene variation
 
-You don't have to run the shaker everywhere. A clean move:
+A clean move for a 4-scene arrangement:
 
 | Scene | Shaker |
 |---|---|
@@ -75,5 +70,4 @@ Bringing the percussion *in* at the Drop adds one more layer of energy exactly w
 
 - [[open-vs-closed-hihat|Open vs Closed Hi-Hat]] — the hat pattern this layer interlocks with
 - [[kick-bass-interlock|Kick / Bass Interlock]] — same "take turns" logic
-- [[mixing-basics-and-effects|Mixing Basics & First Effects]] — velocity, panning, headroom
-- ⬆ Back to [[techno-sketch-01-deepening|Deepening home base]]
+- [[../Ableton/mixing-basics-and-effects|Mixing Basics & First Effects]] — velocity, panning, headroom

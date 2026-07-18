@@ -45,7 +45,7 @@ Four native object types. **Takes** and **Clippings** are the user-generated con
 
 ### Clippings — saved/reposted content (`user_clippings` table)
 
-A clipping has a `type` field with 4 variants — this is the key to understanding the data model:
+A clipping has a `type` field with 5 variants — this is the key to understanding the data model:
 
 | `type` | Source | How it's created |
 |---|---|---|
@@ -53,6 +53,7 @@ A clipping has a `type` field with 4 variants — this is the key to understandi
 | `repost` | Full Letterboxd review | Swipe-left on ReviewCard → `saveRepost()` |
 | `take-repost` | Native Village take | Repost action on TakeCard / TakeInteractionBar → `saveRepostTake()` |
 | `clipping-repost` | Another user's clipping | Repost action on a clipping → `saveRepostClipping()` |
+| `comment-repost` | A comment on a take | Repost action on a comment row (`CommentInteractionBar`) → `saveRepostComment()` — added 2026-07-17 |
 
 The original object is preserved as JSON in `clipping.review_json` for rich rendering when reposted in someone else's feed.
 
@@ -61,11 +62,12 @@ The original object is preserved as JSON in `clipping.review_json` for rich rend
 - 280 chars, replies to a take.
 - **Flat thread** — no nested replies, oldest-first.
 - Created in `TakeDetailScreen`.
-- Author can delete; no edit, no like, no repost.
+- Author can delete; no edit.
+- **Likeable + repostable since 2026-07-17** — each comment row shows a `CommentInteractionBar` (heart + repeat). A repost becomes a `comment-repost` clipping rendered by `CommentRepostCard` in the feed/profiles.
 
-### Likes (`take_likes` table)
+### Likes (`take_likes` + `comment_likes` tables)
 
-- 1-per-user toggle on a take. Heart icon on TakeCard / TakeInteractionBar.
+- 1-per-user toggle on a take (`take_likes`) or a comment (`comment_likes`, cascade-deletes with the comment).
 - That's it — likes are not entities you interact with further.
 
 ## 🟢 Master table — what's possible on native content
@@ -79,10 +81,11 @@ This is the answer to "what is commentable and repostable and what is not":
 | **Clipping — `repost`** (LB review) | Swipe-left on ReviewCard | ❌ | ❌ | ✅ → `clipping-repost` | ❌ | ✅ (author) |
 | **Clipping — `take-repost`** | Repost action on a Take | ❌ | ❌ | ✅ → `clipping-repost` | ❌ | ✅ (author) |
 | **Clipping — `clipping-repost`** | Repost action on a Clipping | ❌ | ❌ | ✅ → `clipping-repost` | ❌ | ✅ (author) |
-| **Comment** | Reply in `TakeDetailScreen` | ❌ | ❌ | ❌ | ❌ | ✅ (author) |
-| **Like** | Heart toggle on a Take | n/a | n/a | n/a | n/a | toggle off |
+| **Clipping — `comment-repost`** | Repost action on a Comment | ❌ | ❌ | ✅ → `comment-repost` (same comment, re-shared) | ❌ | ✅ (author) |
+| **Comment** | Reply in `TakeDetailScreen` | ✅ (`comment_likes`) | ❌ | ✅ → `comment-repost` clipping | ❌ | ✅ (author) |
+| **Like** | Heart toggle on a Take or Comment | n/a | n/a | n/a | n/a | toggle off |
 
-**Key asymmetry to remember:** only **Takes** have social interactions (likes, comments). Clippings can only be reposted — never liked or commented on. Comments are terminal — nothing chains off them.
+**Key asymmetry to remember:** only **Takes** are commentable. Clippings can only be reposted — never liked or commented on. Comments (since 2026-07-17) can be liked and reposted, but not replied to — the thread stays flat.
 
 ## Cross-source interaction model
 
@@ -95,7 +98,9 @@ Letterboxd review ──repost─▶ Clipping (repost)
 Take ──repost──▶ Clipping (take-repost) ──repost──▶ Clipping (clipping-repost)
  │
  ├──like──▶ take_likes row
- └──comment──▶ Comment (terminal — nothing chains off)
+ └──comment──▶ Comment ──like──▶ comment_likes row
+                │
+                └──repost──▶ Clipping (comment-repost) ──repost──▶ Clipping (comment-repost)
 ```
 
 - **One-way flow Letterboxd → Village**: a Letterboxd review becomes Village content only via quote or repost. It cannot be commented or liked at its origin.
@@ -111,7 +116,8 @@ Tables that exist on `feature/tos-compliant-rebuild`:
 | `takes` | Native short-form posts |
 | `take_likes` | Like toggles (composite PK `user_id` + `take_id`) |
 | `take_comments` | Replies on takes |
-| `user_clippings` | All four clipping variants (`type` discriminator + nullable `review_json`) |
+| `comment_likes` | Like toggles on comments (composite PK `user_id` + `comment_id`, cascade on comment delete) |
+| `user_clippings` | All five clipping variants (`type` discriminator + nullable `review_json`) |
 
 **No table caches Letterboxd reviews** — they're always live-fetched. This is what keeps the app TOS-compliant.
 
@@ -134,6 +140,7 @@ Tables that exist on `feature/tos-compliant-rebuild`:
 - `types/database.ts` — `Review`, `Take`, `Clipping`, etc.
 - `screens/CreateTakeScreen.tsx`, `screens/QuotePreviewScreen.tsx`, `screens/ReviewReaderScreen.tsx`, `screens/TakeDetailScreen.tsx`
 - `components/TakeCard.tsx`, `components/TakeInteractionBar.tsx`, `components/ReviewCard.tsx`
+- `components/CommentInteractionBar.tsx`, `components/feed/CommentRepostCard.tsx`, `hooks/useCommentLike.ts` — comment likes + reposts (2026-07-17)
 
 ## Related
 

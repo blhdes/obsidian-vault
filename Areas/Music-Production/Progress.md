@@ -14,7 +14,7 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 - **DAW:** ✅ **Ableton Live Lite installed and working** (2026-07-09). Lite caps projects at 8 tracks and ships a smaller library than Suite — plan sketches within that.
 - **Hardware:** ✅ **Akai APC Mini MK2 connected and mapped** (2026-07-09) — 8×8 clip-launch grid + 9 faders, mirroring Session View 1:1. See [[Ableton/apc-mini-mk2-grid|APC Mini MK2 Grid]].
-- **Old projects:** 🗑 **All pre-Lite local projects deleted 2026-07-09** at the user's request (`techno-sketch-01` + backups, `test/000`, a Desktop `Untitled` — moved to Trash). `User Library` and `Factory Packs` kept. The vault notes for sketch 01 remain as reference.
+- **Old projects:** 🗑 **All pre-Lite local projects deleted 2026-07-09** at the user's request (`techno-sketch-01` + backups, `test/000`, a Desktop `Untitled` — moved to Trash). `User Library` and `Factory Packs` kept. **2026-07-17:** the vault notes for sketch 01 (its Track-Sketches note + the 10-step deepening folder) were also cleared, keeping only the one applied technique that came out of it ([[Techniques/percussion-layering|Percussion Layering]]). Sessions 1–9 and the general Ableton/Techniques manuals are unaffected.
 
 ## 🎯 Active path
 
@@ -22,13 +22,93 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % in [[Roadmap]].
 
-**Sketch in progress:** [[Track-Sketches/hardgroove-134|Hardgroove 134]] — 134 BPM, C major. Hardgroove techno, kicked off 2026-07-16 with a stricter hand-built-only workflow. Weeks 1–2: rebuild the low end from zero in Drift (KICK + SUB only).
+**Sketch in progress:** [[Track-Sketches/hardgroove-134|Hardgroove 134]] — 134 BPM, C major. Hardgroove techno, kicked off 2026-07-16 with a stricter hand-built-only workflow. Weeks 1–2 goal (KICK + SUB, interlocked, sidechained, 3 loop variations) is **complete** — next up is PERC/HATS.
 
 **Paused:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM, A minor. Club techno with strong Detroit-style influence. Full 5-layer loop stack done (drums/bass/stab/pad/lead); still needs FX/arrangement/mix/export whenever it resumes.
 
 **Side sketch (self-driven, started 2026-07-12):** [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — 138 BPM, A minor. The user's first track built alone, no lesson plan — 🎉 **completed and exported 2026-07-16**.
 
-**Approach decided 2026-07-09:** repeat the first-track exercise (foundation drum loop) first, then move through the other layers of production one by one. The [[Track-Sketches/techno-sketch-01-deepening/techno-sketch-01-deepening|old deepening checklist]] (pads, stab, sidechain, saturation, sends, riser, drum variations, motif variations, automation) is now **reference material** for this track's later layers — the paused sketch-01 plan itself is retired.
+---
+
+## Sketch — 2026-07-18 — Hardgroove 134 (Drift Deep-Dive — LFO as a Second Transient)
+
+**Topic:** Free exploration session on the KICK's Drift patch — used the LFO as a second, independent modulation source (Filter Freq) alongside the existing pitch envelope, and hit a real synthesis principle: LFO Rate decides whether modulation reads as *movement* or as *tone*.
+
+**Covered:**
+- [[Techniques/drift-kick-from-scratch|Building a Kick From Scratch in Drift]] — new section 7: Retrigger mode, Sine vs Saw Down shape (symmetric wobble vs one-directional decay), and the ~20Hz audio-rate threshold, with this build's A/B result (999Hz = texture/buzz, 30–80Hz = a shaped hit — the latter preferred)
+
+**Key takeaways:**
+- The LFO tab's own local "Amount/Mod" pair is just an internal send level — the actual destination assignment (Source → Target → Amount) lives in the separate **"Mod" tab**, Drift's real Mod Matrix.
+- **Sine LFO shape swings both above and below center** — modulating a filter with it doesn't just brighten, the below-center half also darkens, which can read as the sound getting more grave/dark rather than a clean pop. **Saw Down** only falls once per trigger, behaving more like an actual decay envelope.
+- **Any LFO's Rate has an audible threshold, not just a fast/slow dial:** below ~20Hz it's felt as shaped movement (a sweep/snap with contour); at/above ~20Hz it enters audio rate and starts to sound like its own texture/tone (a subtle buzz), because the ear hears the modulation frequency itself. This is a general Drift/synthesis principle, not kick-specific — relevant to any future patch with modulation (pads, risers, etc.).
+- Explored purely by ear/experimentation rather than a fixed lesson plan — a genuine "keep playing with the synth" session.
+
+**Where we left off:** KICK now has two independent transient layers — the original pitch-envelope click, plus an LFO-driven filter snap at 30–80Hz (Saw Down, Retrigger on).
+
+**Next:** Open — more Drift/chain experiments queued if wanted (Noise-oscillator click layer, a rawer Saturator curve, a non-sidechain Compressor on KICK for glue, EQ Three's unused Mid band for presence), or move on to PERC/HATS.
+
+---
+
+## Sketch — 2026-07-17 — Hardgroove 134 (3 Loop Variations — Weeks 1–2 Goal Complete 🎉)
+
+**Topic:** Built the final piece of the original workflow — **3 distinct 8-bar kick+sub loops**, each with its own character, derived from one base pattern using only placement/velocity edits.
+
+**Covered:**
+- [[Techniques/loop-character-variations|Loop Character Variations (Placement-Only)]] — new technique note: derive several loop personalities from one pattern via small targeted edits (leave alone / add a phrase-boundary anticipation / remove one hit periodically) rather than writing unrelated patterns
+- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — Loop 1 (Straight Roller, unedited), Loop 2 (Rolling Push — added anticipation note in bars 4/8), Loop 3 (Stripped/Hypnotic — removed one hit in bars 2/4/6/8) all built and confirmed
+
+**Key takeaways:**
+- **Three *unrelated* patterns feel like three different songs; three *variations of one pattern* feel like the same idea breathing differently.** Small, targeted edits to specific bars beat inventing new patterns from scratch.
+- The **anticipation-note push** (Loop 2) directly exploits the sidechain groove tool from the previous session — the added note lands close enough to the kick that it catches the compressor's release/recovery and audibly swells in, confirmed by ear ("feels rolling").
+- The **skip-a-note strip** (Loop 3) needs only one removed hit per alternating bar to read as meaningfully sparser — over-removing would have undercut the effect.
+- **This closes the entire original Weeks 1–2 goal from kickoff:** KICK, SUB, interlock, sidechain, and 3 character loops — all hand-built, no programmatic control, taught one parameter/concept at a time with confirmation before advancing.
+
+**Where we left off:** Low end (KICK + SUB) fully built and grooving in 3 distinct flavors, nothing else in the mix yet.
+
+**Next:** Open-ended — move into the rest of the 8-track budget (**PERC** via Drum Rack, then **HATS**), building outward from the kick/sub foundation.
+
+---
+
+## Sketch — 2026-07-17 — Hardgroove 134 (SUB Built, Interlock + Sidechain Done)
+
+**Topic:** Finished the Weeks 1–2 core workflow: **SUB** patch mirroring KICK, the kick/sub interlock pattern placed, and the sidechain wired up and confirmed.
+
+**Covered:**
+- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — SUB built, interlock pattern in, sidechain confirmed; all of steps 1–4 of the original plan done
+- [[Techniques/kick-sub-interlock-sidechain|Kick/Sub Interlock as a Sidechain Groove Tool]] — new technique note: when the ducked element never overlaps the kick (already interlocked), sidechain Release becomes a pure groove/motion tool — tuned right, the sub swells into its own hit instead of sounding static
+
+**Key takeaways:**
+- **SUB's Envelope 1 is the mirror-opposite of KICK's:** Sustain 100% (holds while the note plays) instead of 0% (self-terminating). This flips which parameter controls duration — for the kick, note length barely matters (the envelope decays to silence on its own); for the sub, **note length is the only thing controlling how long it rings**, since there's no decay to cut it short.
+- Ableton's bar.beat.sixteenth notation: an 8th note = 2 sixteenths. As a Length/duration value that's `0.0.2`; as an end position computed from a start of `X.X.1`, the correct end is `X.X.3` (not `X.X.2`, which is only a 16th note and would leave a gap).
+- **This project's groove rule (no swing/FX, placement + velocity only)** was respected — the interlock is a straight 8th-note grid, unlike Ticket to Detroit's swung hats.
+- **Sidechain as a groove tool, not just cleanup:** since KICK and SUB are already time-separated (never overlapping), the duck isn't preventing a frequency clash — Release timing (137ms here) is tuned so the sub is still recovering/swelling as its own note begins, producing the "rolling" motion this genre is built on.
+- SC Filter (~80Hz) on the sidechain's trigger input — filters *what triggers the compressor*, not the compressed audio, so only the kick's low thump fires the duck, ignoring saturation edge on top.
+
+**Where we left off:** KICK + SUB interlocked and sidechained, sounding like a real rolling low end with nothing else in the mix. Weeks 1–2 core workflow (steps 1-4) complete.
+
+**Next:** Build the **3 distinct 8-bar kick+sub loops**, each with its own character — the final target for this phase, using velocity variation and placement as the differentiation tools (not swing/FX).
+
+---
+
+## Sketch — 2026-07-17 — Hardgroove 134 (KICK Patch Complete)
+
+**Topic:** Finished the KICK's full signal chain in Drift — **Drift → Saturator → EQ Three** — built entirely from a blank patch, one parameter at a time.
+
+**Covered:**
+- [[Techniques/drift-kick-from-scratch|Building a Kick From Scratch in Drift]] — the full recipe: oscillator isolation, Pitch Mod vs Freq Mod, Envelope 1 as the hardwired Amp Envelope, killing hidden LFO/Drift-macro wobble, Saturator, EQ Three
+- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — KICK chain complete; session log has the full debugging trail
+
+**Key takeaways:**
+- **Pitch Mod and Freq Mod are separate controls that both default to "Env 2"** — easy to raise the wrong one. The first "click" heard was actually the filter popping open (Freq Mod), not a real pitch drop, since Pitch Mod's own amount was still at 0%.
+- **Envelope 1 is Drift's hardwired Amp Envelope** — always controls volume, no Mod Matrix assignment needed (unlike Envelope 2, which needs an explicit Pitch Mod / Freq Mod slot).
+- Debugging a "periodic" volume drift ruled out fixed-value parameters first (a static Attack time can't create a multi-beat cycle — it's identical on every note), then found real candidates: **LFO Rate in Hz** (drifts out of phase with the tempo grid unless synced to `1:1`), the **global Drift macro** (deliberate per-note randomness), and finally the **Mod tab's** actual Mod Matrix — an LFO→Volume routing at low amount, sine-shaped, producing a slow loudness swell across many loop repeats.
+- **Saturator** (new device this session): drives a waveshaping curve for harmonic weight, not obvious distortion. Added brightness/edge is a normal side effect of the added harmonics, not a mistake — EQ Three is the next stage specifically for taming it if needed.
+- **EQ Three** recipe for a kick sharing space with a separate sub: narrow the Low band via the Low/Mid crossover Freq (~50-60Hz) and trim Gain a couple dB, rather than killing the band outright — the kick keeps some low body, just doesn't encroach on SUB's territory.
+- This directly completes Path 2's flagged first step (from-scratch Drift patch) — first genuinely deep sound-design session of this project.
+
+**Where we left off:** KICK is fully built and sounding right ("groovier"). Nothing else on the track yet.
+
+**Next:** Mirror the process for **SUB** — pure sine, no pitch envelope, full sustain, EQ Three killing everything above ~180Hz, offbeat pattern interlocked with the kick. Then sidechain SUB to KICK, then the 3 target 8-bar loop variations.
 
 ---
 
@@ -441,153 +521,6 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Where the deepening plan stands:** ⏸ **Paused** at candidate #2 (**Pad / atmosphere**) — #1 (Percussion layer) is done. Resume the list once Lite is in, or fold the remaining ideas into a clean Lite sketch.
 
 **Next:** Install Ableton Live Lite → confirm it opens → decide: continue `techno-sketch-01` (repairing any missing devices) *or* start `techno-sketch-02` fresh on Lite. Then pick the learning thread back up.
-
----
-
-## Sketch — 2026-06-01 — Techno Sketch 01 (Percussion Layer)
-
-**Topic:** First **deepening** layer. Add a **percussion layer** — a quieter shaker running 16th notes in the gaps the main kit leaves — for movement and groove without crowding the kick. The user committed to working through *all* deepening candidates in order, one per session; this is #1.
-
-**Covered:**
-- [[Track-Sketches/techno-sketch-01-deepening/01-percussion-layer|Percussion Layering]] — what it is, why frequency + low volume keep it out of the kick's way, where the hits go, sound choices, per-scene variation
-- [[Track-Sketches/techno-sketch-01|Techno Sketch 01]] — shaker track added on the 16th-note offbeats; loop now has continuous forward shimmer
-
-**Key takeaways:**
-- The kick/clap/hats are the **skeleton**; a percussion layer is the **connective tissue** that fills the micro-gaps so the loop flows instead of stamping.
-- Two levers keep it from crowding the kick: **frequency** (pick a high, short sound — shaker/rim/tambourine — so it lives *above* the low end) and **volume** (low velocity → texture, not a lead).
-- Our kit covers the 8th-note grid (closed hat on beats, open hat on `&`); the **16th in-betweens** (`e` and `a`) are empty — that's exactly where the shaker goes.
-- Sound choice is what makes it style-specific: shaker = techno/house; rim/clave = latin/hip-hop; conga = house/afro; tambourine = disco/pop. The *gap-filling principle* is genre-neutral.
-- **Velocity groove** (vary hit loudness) and **panning slightly off-center** (kick/bass stay dead-center) make it breathe and widen the stereo image — both already-known tools from Session 8.
-- **Per-scene variation:** shaker off in Intro, sparse in Build, full in Drop, off/sparse in Break — brings in extra energy exactly at the Drop.
-
-**Where we left off:** Drum + bass + acid lead + 4 scenes + filter sweep, now with a 16th-note shaker layer for groove. Still a Session-View performance — not committed to Arrangement.
-
-**Next:** Deepening #2 — **Pad / atmosphere**: long sustained A-minor chords, filtered low, sitting under the lead as a room-tone "bed". First taste of holding a chord (multiple notes at once) vs. the single-note lines so far.
-
----
-
-## Sketch — 2026-05-30 — Techno Sketch 01 (Song Sections)
-
-**Topic:** Turn the single loop into a **4-scene mini-arrangement** — Intro / Build / Drop / Break — using only the 3 existing clips. Reinforces foundation Session 6 ("Multiple Scenes & Song Sections") and introduces the **techno-specific arrangement vocabulary**: what each section is *for*, and why the kick drop is the most powerful move in dance music.
-
-**Covered:**
-- [[Techniques/techno-arrangement-sections|Techno Arrangement — Intro / Build / Drop / Break]] — what each section does, scene-mapping tables, the "kick drop" principle
-- [[Track-Sketches/techno-sketch-01|Techno Sketch 01]] — built the 4 scenes; performance is now jumpable Intro → Build → Drop → Break → back to Drop
-
-**Key takeaways:**
-- A finished track = the same loop shown in **different combinations**, sequenced to create tension and release.
-- **One scene per section.** Intro / Build / Drop / Break = 4 scenes.
-- **Empty cell = stop signal** — the same rule from foundation Session 6 does *all* the section-switching work.
-- **Intro** = drums only (establishes pulse). **Build** = + bass (low end joins). **Drop** = + lead (full energy). **Break** = - lead (often - kick too; pulls floor away).
-- Removing and re-adding the **kick** is the single most reliable emotional move in dance music. The break exists to set up the drop's re-entry.
-- The 8-bar lead clip **resets to cutoff-closed every time the Drop scene is launched** → every drop gets a fresh filter sweep for free, no extra automation work.
-- **Launch Quantization (`1 Bar`)** is critical — scene jumps wait for the next bar so transitions land musically, not whenever you clicked.
-- For fancier section work later: duplicate clips and vary them (e.g. a "no-kick drums" clip for breaks).
-
-**Where we left off:** Playable 4-scene mini-arrangement at 130 BPM, A minor. Can perform a full Intro → Build → Drop → Break → Drop sequence live by launching scenes. Not yet committed to a timeline (no Arrangement, no export).
-
-**Next:** **Record the scene jumps into Arrangement View** — turn the live performance into a fixed song timeline (Global Record + scene launches). Reinforces foundation Session 7. Then mix → reverb → export to a final WAV.
-
----
-
-## Sketch — 2026-05-30 — Techno Sketch 01 (Filter Automation)
-
-**Topic:** Add **filter cutoff automation** to the acid lead — Live opens the filter slowly over 8 bars on its own, turning a static loop into a build-up. First taste of **clip envelopes**, Live's Session-View automation system.
-
-**Covered:**
-- [[Ableton/clip-envelopes|Clip Envelopes (Automating Parameters Inside a Clip)]] — what they are, how to add one, the Device/Control dropdowns, why clip length matters for slow automation
-- [[Track-Sketches/techno-sketch-01|Techno Sketch 01]] — lead clip extended to 8 bars; filter cutoff sweeps low → high across the clip
-
-**Key takeaways:**
-- **Automation** = Live moves a knob/fader for you over time. You draw it once; it plays back perfectly every loop.
-- **Clip envelopes** live *inside a clip* — they run while the clip plays, stop when it stops.
-- Open via the **`E`** button on the left of Clip View, OR right-click any parameter → **Show Automation** (shortcut).
-- The two key dropdowns: **Device** (which device on the track) and **Control** (which parameter on that device).
-- **Clip length controls automation length.** A slow 8-bar sweep needs an 8-bar clip — extend the loop brace first.
-- Clips on the same scene can have **different lengths** and loop independently. Drum/bass clips stay at 1 bar (loop 8 times); lead clip is 8 bars (single play through, with automation).
-- A filter opening up = the iconic "build-up" sound. Resonance makes the squelch more audible as the cutoff sweeps through the mids — that's *why* the build-up *feels like a build-up*.
-- **Linked vs Unlinked envelopes** — by default an envelope matches its clip's length. Unlinking lets the envelope have a different length (advanced, skip for now).
-
-**Where we left off:** 8-bar loop with kick + clap + hats + bass + acid lead, where the lead's filter slowly opens from dark to bright across the 8 bars. Loop has internal motion now, not just repetition. Still no song *structure* (just one scene playing on repeat).
-
-**Next:** **Multiple scenes for song sections** — duplicate the current scene into 3 variations (Intro / Drop / Break) by removing or keeping different clips per scene. Sets up the song's structure before we move into Arrangement View. (Reinforces Session 6 from the foundations.)
-
----
-
-## Sketch — 2026-05-30 — Techno Sketch 01 (Acid Lead)
-
-**Topic:** Add the **acid lead** to the sketch. Two threads come together:
-- **Theory:** A minor's note vocabulary, and the **pentatonic / triad shortcut** for "notes that always sound right".
-- **Sound design:** **filter cutoff + resonance** — the two knobs that make a synth squelch like a Roland TB-303.
-
-**Covered:**
-- [[Theory-Basics/a-minor-pentatonic|A Minor and the Pentatonic Shortcut]] — what a key is, A minor's 7 notes, the 5-note pentatonic subset, the 3-note A minor triad
-- [[Techniques/acid-lead-sound|Acid Lead Sound (Filter + Resonance)]] — how low-pass filter + high resonance + filter envelope make the acid sound
-- [[Track-Sketches/techno-sketch-01|Techno Sketch 01]] — lead added; full drum + bass + lead loop now playing
-
-**Key takeaways:**
-- A **key** = a home note + a scale (a small vocabulary of notes that belong together).
-- **A minor's full scale = A B C D E F G** (all white keys, no sharps/flats — easiest minor key to think in).
-- **A minor pentatonic = A C D E G** — drops B and F (the two riskiest notes), giving you 5 notes that sound good in any combination.
-- **A minor triad = A C E** — the *safest* subset; any motif using only these three sounds resolved and minor.
-- A **filter** removes frequencies. A **low-pass filter** removes highs; the **cutoff** is the dividing line.
-- **Resonance** boosts the frequencies right at the cutoff — high resonance = the squelchy peak (the "acid" character).
-- A **filter envelope** = the cutoff automatically opens then closes on each note → the "wow" on every hit.
-- **Acid is always monophonic** — one note at a time. In Simpler, set **`Voices`** (top-right) to **1**; in Drift, set Voicing to Mono.
-- **Start from a preset.** Sound design from scratch is its own Path (2); for now, load an "acid" preset and tweak the cutoff + resonance.
-- **Tool note:** Ended up using **Simpler** (`Synth Bass Acid F` preset), not Drift, because Drift's factory library doesn't tag presets "acid". Simpler's Filter section (bottom-left of the device) has the same Frequency + Res knobs and works identically for our purposes.
-- Higher octaves for melodic content (A2/A3) keep the lead clearly above the bass (A1).
-
-**Where we left off:** Full skeleton loop playing in Session View — kick, clap, hats, bass, acid lead, all locked at 130 BPM in A minor. Same building blocks as a typical early-90s warehouse cut. No automation, no arrangement, no effects beyond preset defaults.
-
-**Next:** **Filter cutoff automation** — draw a slow filter sweep on the lead so it opens up and closes back down over multiple bars. This is the classic acid build-up move and introduces Live's automation system, which we'll use everywhere from here on.
-
----
-
-## Sketch — 2026-05-29 — Techno Sketch 01 (Bass)
-
-**Topic:** Add the **bassline** to the techno sketch. New core concept: **kick / bass interlock** — bass plays in the *spaces* the kick leaves, never *on top of* the kick. This keeps the low end clean and creates the push-pull pulse of dance music.
-
-**Covered:**
-- [[Track-Sketches/techno-sketch-01|Techno Sketch 01 — Foundation]] — bass added; full drum + bass loop now playing
-- [[Techniques/kick-bass-interlock|Kick / Bass Interlock]] — why kick & bass take turns, note length / pitch choice, the prep for sidechain ducking later
-
-**Key takeaways:**
-- **Kick and bass share the same low-frequency space** — if they hit together, the mix gets muddy. Solution: split them in time (kick on the 1/4, bass on the offbeat).
-- The **offbeat bass pattern** = 4 bass notes per bar, all on the "&" between kicks. The bedrock of techno/house bass.
-- **Note length controls feel:** short staccato (1/16) = punchy/techno, long held = smooth/trance.
-- For a one-note bassline (totally normal in techno), use the **root note of the key** — A in A minor.
-- Sit the bass around **A1** — low enough to feel "bass", high enough to have definition.
-- **One instrument per MIDI track.** Drums on the Drum Rack track, bass on its own track with a bass synth.
-- Open hat + bass land on the same offbeat — they **reinforce each other**, making the "&" feel really strong.
-- This rhythmic interlock is the *manual* version of what **sidechain compression** does automatically (Path 3 territory, later).
-
-**Where we left off:** Full drum + bass foundation loop playing in Session View at 130 BPM / A minor. No melodic content yet, no arrangement, no effects beyond the synth's default preset.
-
-**Next:** Add a **synth lead / stab** — short, filter-modulated, "acid"-flavored (iconic for early-90s techno). Requires picking which notes from A minor sound good → first tiny taste of theory.
-
----
-
-## Sketch — 2026-05-29 — Techno Sketch 01 (Kickoff)
-
-**Topic:** Kick off the active track sketch. Set up the Live project for early-90s techno (130 BPM, A minor) and build the foundational drum loop with a 909-style Drum Rack. New technique introduced: **open vs closed hi-hat and the offbeat open-hat pattern** that drives techno (and house).
-
-**Covered:**
-- [[Track-Sketches/techno-sketch-01|Techno Sketch 01 — Foundation]] — the working sketch; stats, 1-bar pattern, devices, current status
-- [[Techniques/open-vs-closed-hihat|Open vs Closed Hi-Hat]] — the two sounds, why offbeat opens give techno its forward pull
-
-**Key takeaways:**
-- **Techno BPM** typically sits at **125–135**; we picked **130** (squarely "club" tempo).
-- **A minor** is a friendly default key for techno — minor scale = darker/hypnotic, A minor has no sharps/flats so it's easy to think in.
-- **Set tempo first**, before anything else: top-left of Transport, click the number, type 130.
-- Drum Rack pad → MIDI note mapping is fixed: **Kick C1**, **Clap D#1**, **Closed Hat F#1**, **Open Hat A#1**.
-- **Closed hat = short tick**, **open hat = long sizzle**. A closed hat *cuts off* a ringing open hat (same physical cymbals).
-- The **offbeat open-hat pattern** (open hat on every "&") is what makes a four-on-the-floor loop feel like it's *moving forward* instead of stamping in place.
-- Same trick works for **house**; **trap/hip-hop** uses opens more decoratively.
-
-**Where we left off:** 1-bar drum loop (kick + clap + closed + open hat) is playing in Session View at 130 BPM. No bass yet, no melody, no arrangement. Project saved as `techno-sketch-01.als`.
-
-**Next:** Add the **bassline** — a rolling 1/16-note pattern in A minor, sitting around A1, deliberately *avoiding* the kick downbeats so kick and bass interlock (this is also the setup for sidechain ducking down the line). New concepts: choosing a bass synth preset for techno, rhythmic interlock with the kick.
 
 ---
 

@@ -50,7 +50,7 @@ In Ableton's MIDI editor, **drag the right edge of a note** to change its length
 
 For a one-note bassline (totally normal in techno), use the **root note of the key**.
 
-For [[techno-sketch-01|our sketch in A minor]], that's **A**. We sit it at **A1** — one octave below middle A. That's deep enough to feel "bass" but high enough to have definition. (Drop another octave to A0 and you'd lose audibility on small speakers; up at A2 it starts to sound like a synth lead instead of a bass.)
+For an early sketch in A minor (since retired), that was **A**. We sit it at **A1** — one octave below middle A. That's deep enough to feel "bass" but high enough to have definition. (Drop another octave to A0 and you'd lose audibility on small speakers; up at A2 it starts to sound like a synth lead instead of a bass.)
 
 **Tip — Drum Rack and Bass live on different MIDI tracks.** Each instrument gets its own track. The MIDI note "A1" played on a bass synth → bass note. The same A1 played into a Drum Rack → whatever pad lives on A1 in that kit (often nothing, or open hat).
 
@@ -71,4 +71,4 @@ Keep these as variations on the foundation — don't ditch the offbeat pattern.
 ## Related
 
 - [[open-vs-closed-hihat|Open vs Closed Hi-Hat]] — the *other* core piece of the techno engine
-- [[../Track-Sketches/techno-sketch-01|Techno Sketch 01]] — where this pattern goes to work
+- *(first used in an early sketch, since retired)*
