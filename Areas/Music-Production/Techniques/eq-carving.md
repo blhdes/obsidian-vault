@@ -36,6 +36,13 @@ Drop a **Channel EQ** or **EQ Eight** after the instrument on the track's Device
 
 Sweep the frequency up while listening: **stop right before the sound loses its "body"** — that point is usually well below the sting/character of the sound, meaning it can go.
 
+## Stock-devices-only version (EQ Three)
+
+Hardgroove 134's rule bans Channel EQ/EQ Eight — high-pass has to come from **EQ Three** instead, and the knob to reach for isn't the obvious one:
+
+- **FreqHi** is the Mid/High crossover (for brightness/shimmer) — by design it won't go low enough to serve as a rumble-removal high-pass (floor is ~200Hz on this build).
+- **FreqLow** is the real tool: it's the Low/Mid crossover. Set it to the target cutoff (~150–250Hz for percussion), then hit the **"L"** button under GainLow to fully switch that band off. That L toggle — not the GainLow knob — is what turns it into a genuine hard cut rather than a partial shelf reduction.
+
 ## Gotchas
 
 - **Cut don't boost** is the default instinct, not a hard rule — a small boost is fine once cuts have already made room.

@@ -15,6 +15,8 @@ You've actually touched Simpler once already: the acid bass on Sketch 01 was a S
 - **Browser → Samples** (Live Lite's built-in library, smaller than Suite's), or drag **any audio file from Finder** straight onto a track.
 - Drop it on an **empty MIDI track slot** → Simpler loads automatically with that file as its source.
 - Drop it into an **existing track's Device chain** → same result, replaces/adds the instrument.
+- **Capturing external/found audio (not already a file):** record it into Live first. On Mac, install a loopback driver (**BlackHole**, free) and build a **Multi-Output Device** in Audio MIDI Setup (BlackHole + your normal speakers, so you still hear it while it's captured) → set that as the system output → in Live, Preferences → Audio → enable BlackHole's channels in Input Config → new **Audio track**, Input = BlackHole → arm, record, play the source. The result lands as a normal clip (in Arrangement if you used the transport's Record button, since arming a track only enables it, it doesn't itself choose Session vs Arrangement).
+- **Moving a clip you already recorded into Simpler:** drag the clip itself (from Arrangement or Session) onto an empty MIDI track (auto-creates a Simpler) or onto an already-open Simpler's waveform zone. If the drag between views misbehaves, the recording also exists as a real file in the project's `Samples/Recorded` folder — drag that from Finder instead, identical to any other sample.
 
 ## Key mapping — the new concept
 

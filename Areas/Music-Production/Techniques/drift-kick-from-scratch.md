@@ -78,3 +78,14 @@ So far only Envelope 2 (via Pitch Mod) shapes the kick's transient. Drift's **LF
 - The **destination assignment lives in the separate "Mod" tab** (Drift's actual Mod Matrix — Source/Target/Amount), not in the LFO tab's own local "Amount/Mod" pair, which is just an internal send level, not a real parameter target.
 
 This is a general Drift/synthesis principle, not kick-specific: **any LFO's Rate decides whether it reads as movement or as tone** — worth remembering for future patches (pads, risers, anything with modulation).
+
+## 8. Octave down for real depth, and why hits still aren't perfectly identical
+
+**Making the kick actually sound lower/deeper** — EQ and Saturator can't manufacture a missing fundamental, they only rebalance what's already there. The real levers, in order of directness:
+1. **Osc 1's Oct knob** (or transposing the note down) — the only thing that changes the actual fundamental. Confirmed on this build: **Oct -2** made the kick noticeably deeper.
+2. **Amp Envelope (Envelope 1) Decay** — stretching it slightly (e.g. 250-350ms) gives the low frequency more time to actually register as bass rather than being cut off before it's audible.
+3. **Pitch envelope depth** (Envelope 2 → Pitch Mod amount) — a bigger drop means more of the transient starts genuinely sub-range before settling.
+
+**Why the compressor's GR curve — and the kick's actual sound — isn't perfectly identical hit to hit**, even with Drift's instability macro at 0%, Auto Release off, no external sidechain, and uniform velocity: the most likely remaining cause is that **Drift's oscillator phase isn't reset on every note-on**. This is separate from the LFO's own Retrigger setting (which only resets the LFO's phase, not the oscillator's) — many analog-modeled oscillators (Drift's whole design premise) deliberately let the waveform free-run continuously rather than snapping to a fixed start point per note, mirroring how real analog hardware oscillators never actually stop. Each note's first few milliseconds then start from a slightly different point in the cycle, which a fast-Attack Peak-detecting compressor will register as a slightly different transient every time.
+
+**Decision on this build:** kept as-is rather than chased further. This kind of subtle non-quantized inconsistency is consistent with a raw/hardgroove aesthetic that leans on alive, non-identical repetition rather than pristine digital uniformity — real drum machines and analog synths aren't perfectly identical hit to hit either.

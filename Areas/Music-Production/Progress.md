@@ -22,11 +22,151 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % in [[Roadmap]].
 
-**Sketch in progress:** [[Track-Sketches/hardgroove-134|Hardgroove 134]] — 134 BPM, C major. Hardgroove techno, kicked off 2026-07-16 with a stricter hand-built-only workflow. Weeks 1–2 goal (KICK + SUB, interlocked, sidechained, 3 loop variations) is **complete** — next up is PERC/HATS.
+**Sketch in progress:** [[Track-Sketches/hardgroove-134|Hardgroove 134]] — 134 BPM, C Phrygian (reconsidered from C major 2026-07-22). Hardgroove techno, kicked off 2026-07-16 with a stricter hand-built-only workflow. Weeks 1–2 goal (KICK + SUB, interlocked, sidechained, 3 loop variations) is **complete**. **PERC** and **HATS** are built and confirmed (full rhythmic skeleton mixed as a group). **STAB** built from scratch in Drift (Cm(b9)), plus Auto Filter + Chorus-Ensemble confirmed on its chain. Next: a second STAB hit (maybe), then **LEAD** (Phaser-Flanger already queued for it).
 
 **Paused:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM, A minor. Club techno with strong Detroit-style influence. Full 5-layer loop stack done (drums/bass/stab/pad/lead); still needs FX/arrangement/mix/export whenever it resumes.
 
 **Side sketch (self-driven, started 2026-07-12):** [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — 138 BPM, A minor. The user's first track built alone, no lesson plan — 🎉 **completed and exported 2026-07-16**.
+
+---
+
+## Sketch — 2026-07-23 — Hardgroove 134 (STAB FX Decision — Chorus-Ensemble Kept)
+
+**Topic:** Closed out the STAB effects-exploration arc. Decision: **Chorus-Ensemble stays** on STAB (confirmed by ear); Phaser-Flanger's sweep is reserved for **LEAD** instead of stacking it here too.
+
+**Covered:**
+- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — STAB chain finalized for now: Drift → Auto Filter → Chorus-Ensemble
+- [[Roadmap|Roadmap]] — Chorus-Ensemble marked confirmed/applied; Phaser-Flanger stays flagged, now specifically earmarked for LEAD
+
+**Key takeaways:**
+- **The "try in isolation, then decide" approach paid off** — rather than stacking all three movement effects on one voice, the user judged each by ear and kept only the one that added something without competing (width, via Chorus-Ensemble) alongside Auto Filter's existing rhythmic pulse.
+- Phaser-Flanger isn't discarded — it's queued specifically for LEAD, where its more dramatic sweep suits an exposed melodic line better than a background chord stab.
+- This closes the FX-exploration detour cleanly: STAB now has both its static tone (Drift's filter) and its two chosen movement layers (Auto Filter + Chorus-Ensemble) confirmed.
+
+**Where we left off:** STAB chain done: Drift → Auto Filter → Chorus-Ensemble, confirmed sounding good.
+
+**Next:** The STAB variation (second hit, if it still feels sparse) — then **LEAD**, where Phaser-Flanger is already queued as a first option to try.
+
+---
+
+## Sketch — 2026-07-22 — Hardgroove 134 (STAB FX Round 2 — Chorus-Ensemble + Phaser-Flanger)
+
+**Topic:** Confirmed Auto Filter sounds good on STAB (and answered why it's called "Auto" — it moves the filter by itself via its own LFO, vs. hand-drawing a clip envelope like the earlier riser). Continued the same effects-exploration arc with two more merged devices: **Chorus-Ensemble** (pitch/time thickening) and **Phaser-Flanger** (notch/delay sweep) — plus a direct trade-off discussion on stacking too many movement effects on one voice.
+
+**Covered:**
+- [[Techniques/chorus-ensemble-width|Chorus-Ensemble Width]] — new note: Classic (2-voice) vs Ensemble (3-voice) modes, Rate/Amount/Width/Feedback, why it's a different movement dimension (pitch/time) than Auto Filter (cutoff)
+- [[Techniques/phaser-flanger-sweep|Phaser-Flanger Sweep]] — new note: Phaser (all-pass notch sweep, smooth) vs Flanger (short delay + feedback, metallic), and an explicit "don't stack all three movement effects" caution
+- [[Roadmap|Roadmap]] — both devices moved from "not yet" to in-progress on the 4-month device list
+
+**Key takeaways:**
+- **"Auto" in Auto Filter means the movement is automatic** (its own internal LFO), as opposed to hand-automating a knob or drawing a clip envelope (the riser technique) — same destination (a moving filter), different mechanism for getting the movement.
+- **Auto Filter, Chorus-Ensemble, and Phaser-Flanger are all LFO-driven movement effects, but each moves a different thing:** cutoff brightness (Auto Filter), pitch/time thickness (Chorus-Ensemble), or notch/delay sweep (Phaser-Flanger) — genuinely different dimensions, which is *why* some can layer cleanly while others compete.
+- **Stacking risk flagged directly:** three independent modulation sources on one STAB voice risks mush, working against this project's stated "tight and dry" hardgroove aesthetic — the call is to keep at most one or two on STAB and hold the rest in reserve for **LEAD**, a different role where a different character may fit better.
+- Recommendation given (not yet decided by the user): Chorus-Ensemble's width is the most complementary layer to keep alongside Auto Filter on STAB (different axis of movement); Phaser-Flanger's more dramatic sweep may suit LEAD's more exposed melodic line better than a background chord stab.
+
+**Where we left off:** Both new devices' concepts and recipes handed off; not yet auditioned/confirmed in the actual project.
+
+**Next:** Homework — try Chorus-Ensemble and Phaser-Flanger on STAB (each solo A/B'd against Auto Filter alone), decide what stays permanently vs. what gets reserved for LEAD. Then: the STAB variation (second hit) — then **LEAD**.
+
+---
+
+## Sketch — 2026-07-22 — Hardgroove 134 (STAB FX Exploration — Auto Filter Movement)
+
+**Topic:** Before adding a second STAB hit or moving to LEAD, a deliberate detour: layering movement/texture effects onto the STAB chain. First new device: **Auto Filter**, an effects-chain filter with its own tempo-synced LFO — distinct from Drift's internal static Low Pass already shaping the STAB's tone.
+
+**Covered:**
+- [[Techniques/auto-filter-movement|Auto Filter Movement]] — new technique note: what an effects-chain filter is and how it differs from an instrument's internal filter, the LFO section (Rate: Hz vs. tempo-synced note division, Amount, Waveform), and the starter recipe applied after Drift on STAB
+- [[Roadmap|Roadmap]] — Auto Filter moved from "not yet" to in-progress on the 4-month "explore all of Live Lite" device list
+
+**Key takeaways:**
+- **An effects-chain filter (Auto Filter) is a separate tool from a synth's built-in filter** — Drift's own Low Pass (Type I, ~900Hz) sets the STAB's static tone; Auto Filter, placed after Drift in the chain, adds rhythmic *movement* on top via its own LFO, without touching Drift's patch itself.
+- **Auto Filter's LFO Rate can sync to the tempo grid** (note divisions like 1/16, 1/8) instead of running in free Hz — this reapplies the earlier "sync vs. free-running Hz" lesson from Drift's own LFO, now on a dedicated effect.
+- The same **audio-rate-vs-movement threshold** (~20Hz) from the Drift kick deep-dive applies here too — a slow synced rate reads as pulsing/wobble, a very fast one turns into its own buzz/texture.
+- Flagged for later in this same exploration arc, not yet taught in depth: **Chorus-Ensemble** (thickening/width via modulated short delays) and **Phaser-Flanger** (sweeping comb-filter movement) — both genre-neutral options to compare against Auto Filter's rhythmic pulse once it's been tried.
+
+**Where we left off:** Auto Filter recipe handed off as homework — not yet added/confirmed in the actual project.
+
+**Next:** Homework — add Auto Filter after Drift on STAB, dial in the recipe, A/B against LFO Amount at 0. Once the movement layer feels right (whether that's Auto Filter alone or after comparing Chorus-Ensemble/Phaser-Flanger too), move to the STAB variation (second hit) — then **LEAD**.
+
+---
+
+## Sketch — 2026-07-22 — Hardgroove 134 (PERC Built + HATS Kicked Off)
+
+**Topic:** Finished PERC (rim + layered shaker, EQ Three high-pass, Saturator grit) and kicked off HATS with a new concept: **Choke Groups**.
+
+**Covered:**
+- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — PERC built: Rim on C1 (Option B — sparse accent), Shaker layered via a second pad + a simultaneous piano-roll note (not a shared key), EQ Three high-pass (FreqLow + the "L" cut button), Saturator added for grit
+- [[Ableton/drum-rack-anatomy|Drum Rack Anatomy]] — corrected/expanded: Key Range editing confirmed to live behind the **I/O** toggle in the Chain List; direct drag onto an occupied pad **replaces**, doesn't layer; **Choke Groups** section written for real (assign the same group number to two chains so one cuts the other's ring)
+- [[Techniques/eq-carving|EQ Carving]] — new "stock-devices-only" addendum: EQ Three's high-pass is **FreqLow + the "L" button**, not FreqHi (which is the Mid/High crossover and can't reach low enough)
+- HATS kickoff: pattern plan handed off — closed hat doubles KICK's quarters, open hat doubles SUB's `&`s, safe to overlap in time because hats occupy a different frequency register than kick/sub (unlike PERC, which needed genuinely free time slots)
+
+**Key takeaways:**
+- **Dragging a new sample onto an occupied Drum Rack pad replaces the chain, it does not layer.** To play two one-shots together on the same beat, put each on its own pad and place both notes at the same time position in the clip — ordinary MIDI polyphony, audibly identical to sharing a key, and keeps independent Vol/Pan/Mute per layer.
+- **Fold mode** on a Drum Rack's MIDI clip shows one row per loaded pad, labeled by sample name — no chromatic keyboard or Scale setting shown, because pads are triggers, not musical pitches.
+- **Key Range editing is behind the I/O toggle** in the Chain List, not a separate "Zone Editor" — Choke Group assignment lives in that same toggle row.
+- **EQ Three's two crossover knobs are not interchangeable for high-pass duty:** FreqLow (Low/Mid crossover) is the one that reaches low enough for rumble removal; FreqHi (Mid/High crossover) floors out around 200Hz by design. The "L" cut button (not the GainLow knob) is what turns a lowered FreqLow into an actual hard cut.
+- **Choke Groups fake a real hi-hat's physical constraint** — two independent one-shot samples don't know about each other by default; grouping them makes triggering one cut the other's ring.
+- **Hats can safely double kick/sub's exact time positions** — PERC needed genuinely open time slots because rim/shaker compete more directly for the same sonic space, but a thin/bright hi-hat is frequency-separated enough from a deep kick/sub that time-overlap alone isn't a problem. A useful refinement of the general "take turns in time AND frequency" rule: sometimes frequency separation alone is enough.
+
+**Update, same day:** HATS built and confirmed — Choke Group cuts the open hat's tail cleanly. Rather than moving straight to STAB/LEAD, the user chose to pause and deepen the layers already built:
+- Simpler's internal **Filter** (Low Pass + a touch of Resonance) added to both hats — same cutoff/resonance concept already known from the acid lead, applied inside a Drum Rack pad for the first time.
+- **User caught a real gotcha themselves:** the Filter/Vol "< Vel" modulation amounts do nothing without actual velocity variation to modulate — a flat velocity input multiplies by the same constant every hit. Fixed by adding a velocity groove to HATS (closed hats ~90-110, open hat accents ~115-120), mirroring the groove already applied to rim/shaker.
+- **Full ensemble pass** — KICK/SUB/PERC/HATS heard together for the first time, checked pan/level/masking. **Confirmed: the best-sounding sketch of the project so far.**
+
+**Update, same day — sampling detour:** before STAB/LEAD, a deliberate side-experiment: sampling a short found dialogue+music fragment from an external video source, to try Simpler's **Slice** mode on real-world material.
+- **New technique:** capturing external/system audio directly into Live via a **BlackHole** loopback + Multi-Output Device (Mac) — lands as a normal Audio-track clip, no download/ripping tool needed. See [[Ableton/sampling-with-simpler|Sampling with Simpler]] for the full setup, now documented as a third way to get audio in (alongside Browser and Finder drag).
+- Clip captured, dragged into a fresh **Simpler**. **Slice mode** (transient-detection vs. equal-division chopping) introduced as the next new tool — genuinely new, flagged since the original sampling lesson — but not yet applied. **User chose to pause here** and pick the creative chopping back up later.
+- Open question parked for later: chop the dialogue+music mix as one blob ("found" character), or separate voice from music first (Live 12 Suite/Standard has native stem extraction; unconfirmed whether Lite includes it) for cleaner individual slices.
+
+**Where we left off:** Full rhythmic skeleton (KICK/SUB/PERC/HATS) built, individually characterized, velocity-grooved, and mixed as a group — a genuine milestone for this sketch. Separately, the sampling pipeline (capture → Simpler) is proven end-to-end but parked before the creative (Slice) stage.
+
+**Next:** Open — resume the Slice-mode chop on the sampled fragment, continue deepening the rhythm section further, or move on to **STAB/LEAD**, the next track in the budget.
+
+---
+
+## Sketch — 2026-07-22 — Hardgroove 134 (Key → C Phrygian + STAB Built From Scratch)
+
+**Topic:** Reconsidered the project's key now that a tonal layer finally makes it matter, confirmed Live Lite's real device ceiling against official sources, set a 4-month "explore all of Lite" goal, and built the STAB from a blank Drift patch.
+
+**Covered:**
+- [[Theory-Basics/phrygian-mode|The Phrygian Mode]] — new theory: identical to natural minor except a flattened 2nd degree; the tension that gives hard/industrial techno its bite; applied as a Cm(b9) chord (the mode's own 9th, not a plain one)
+- [[Techniques/drift-stab-from-scratch|Drift Stab From Scratch]] — full recipe: Voices 32 (poly, opposite of the kick/sub mono rule), Osc 1 Square isolated, Envelope 1 shaped for stab (not pad), Drift's Low Pass **Type I** (12dB/oct, grittier DFM-1 circuit) vs **Type II** (24dB/oct, cleaner Cytomic MS2) — Type I chosen, Freq ~900Hz. Chord Eb3-G3-Db4 (b3/5/b9, no root, no 7th — the leanest of four voicings compared), placed at the `a` of beat 3, one hit per bar
+- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — key changed to C Phrygian; STAB layer complete and confirmed sounding good
+- [[Roadmap|Roadmap]] — new **4-Month Goal** section: explore every stock Live Lite instrument/effect (confirmed list, official Ableton source) across future sketches, before upgrading to Standard/Suite
+
+**Key takeaways:**
+- **Ableton's Scale dropdown may list mode names in English even in a Spanish-localized build** — "Phrygian," not "Frigio."
+- **The project's/clip's Scale setting is a note-input guide only** — it doesn't retune anything already placed (drum hits, existing notes). It only matters going forward, for what you draw next.
+- **Confirmed against Ableton's official Live 12 Lite Features page:** Hardgroove 134's "stock devices only" list (Drift/EQ Three/Saturator/Compressor/Drum Rack/Simpler) is a chosen creative subset, not Lite's real ceiling — Lite also includes Impulse, Channel EQ, Reverb, Delay, Auto Filter, Auto Pan, Beat Repeat, Chorus-Ensemble, Gate, Limiter, Looper, Phaser-Flanger, Tuner, Utility. Operator/Wavetable/EQ Eight, however, are genuinely absent from Lite.
+- **Drift's Filter "Type" switch is Low Pass I vs II, not Low/High/Band-pass** — both are low-pass; Type I (12dB/oct) is a grittier, internally-distorting circuit, Type II (24dB/oct) a cleaner, steeper one. There's also a separate always-on HP knob in the same section, unrelated to the Type switch.
+- **A mode's own altered scale degree makes a great extension-chord color tone** — stacking a Phrygian scale's 9th naturally produces a b9, putting the mode's signature tension directly in the chord rather than only in a melody played over it.
+- **Fewer notes in a chord voicing = more tension per note** — comparing all four voicings (bare triad+b9 vs adding b7 vs adding the root vs both) confirmed the leanest version suited this track's raw aesthetic best.
+- **New 4-month goal set:** explore every device Live Lite actually offers (not just each sketch's self-imposed subset) across the next ~4 months, while saving for Standard/Suite. Tracked as a checklist in [[Roadmap|Roadmap]].
+
+**Where we left off:** STAB built and confirmed good, playing alongside the finished rhythmic skeleton (KICK/SUB/PERC/HATS). LEAD (this track's other planned role) intentionally deferred for now.
+
+**Next:** Open — add a second stab hit if it feels sparse once heard more, consider the LEAD half of the STAB/LEAD slot, resume the sampling detour's Slice-mode chop, or move to **ATMOS**.
+
+---
+
+## Sketch — 2026-07-21 — Hardgroove 134 (PERC — Drum Rack Basics + Placement Plan)
+
+**Topic:** First move into PERC. New concept: **Drum Rack anatomy** — building the rack from empty (not a preset kit) — plus working out exactly where the percussion layer's hits go against the existing kick/sub interlock.
+
+**Covered:**
+- [[Ableton/drum-rack-anatomy|Drum Rack Anatomy]] — new note: pads as nested Simplers, why one Drum Rack track solves Lite's 8-track budget squeeze for a multi-sound percussion layer, choke groups flagged for the HATS session
+- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — placement plan: KICK + SUB already interlock across every 8th-note pulse, so PERC's job is the leftover 16th (`e`/`a`) slots; two starter options given (continuous 16th shimmer vs. sparse 2-hit accent)
+
+**Key takeaways:**
+- A Drum Rack pad = a nested Simpler (Start/Length, Classic vs One-Shot — all already known). The rack itself is just several Simplers behind one shared pad grid, one MIDI track.
+- **Why Drum Rack over individual Simpler tracks:** Live Lite's 8-track cap can't afford 3-4 separate tracks for rim/shaker/clave — one Drum Rack track holds all of them.
+- **Kick + Sub together already claim every 8th-note pulse** (kick on the quarters, sub on the `&`s) — there is no 8th-note gap left for PERC to fill. This reapplies the [[Techniques/percussion-layering|percussion-layering]] "take turns" principle one subdivision level deeper: PERC lives entirely in the 16th (`e`/`a`) in-betweens.
+- Two genre-neutral starter patterns handed off as homework rather than dictated — continuous 16th shimmer (smoother/hypnotic) vs. sparse 2-hit accent (punchier/hardgroove-leaning) — the choice is the user's to make by ear.
+- Choke groups (pads muting each other) exist and matter for HATS (open/closed hat exclusivity) but aren't needed yet for a non-overlapping percussion layer — flagged, not taught in depth this session.
+
+**Where we left off:** Concept covered and placement plan set; PERC track itself not yet built — pending homework.
+
+**Next:** Homework — build the PERC track (empty Drum Rack, 1-2 one-shot samples on separate pads, Start/Length trimmed), place hits per Option A or B, confirm by ear. Then move to **HATS**.
 
 ---
 
@@ -46,6 +186,30 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Where we left off:** KICK now has two independent transient layers — the original pitch-envelope click, plus an LFO-driven filter snap at 30–80Hz (Saw Down, Retrigger on).
 
 **Next:** Open — more Drift/chain experiments queued if wanted (Noise-oscillator click layer, a rawer Saturator curve, a non-sidechain Compressor on KICK for glue, EQ Three's unused Mid band for presence), or move on to PERC/HATS.
+
+---
+
+## Sketch — 2026-07-18 — Hardgroove 134 (Compressor/Mid EQ + Depth Fix + Hit-to-Hit Diagnostic)
+
+**Topic:** Added a non-sidechain Compressor and an EQ Three Mid boost to KICK for punch/presence, fixed a genuine "too high" complaint by dropping Osc 1's octave, then chased down why the kick still sounds slightly different hit-to-hit — down to a real synthesis-level explanation rather than a fixable bug.
+
+**Covered:**
+- [[Techniques/drift-kick-from-scratch|Building a Kick From Scratch in Drift]] — new §8: Oct as the only true depth fix (EQ/Saturator can't add a missing fundamental), and the oscillator-phase-continuity explanation for hit-to-hit inconsistency
+- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — Compressor (Peak, slow-ish Attack to let transient through, fast Release, Makeup) and EQ Three Mid (+2-3dB) added; Oct dropped to -2, confirmed deeper
+
+**Key takeaways:**
+- **Depth is a pitch problem, not an EQ/Saturator problem.** Those tools can only rebalance or add harmonics to what's already there — the only real fix for "too high" is lowering the actual fundamental (Osc Oct, or the note itself).
+- **EQ Three's Mid band is broad** (spans the full Low/Mid and Mid/High crossover gap — 50Hz–2.5kHz on this build), so a Mid boost reads as general thickening, not a surgical presence/click boost. Saturator/Drive is the better tool for a narrower "click" if that's specifically wanted.
+- **A non-sidechained Compressor with a slower Attack (letting the initial transient spike through before clamping) is a classic punch technique** — the spike ends up relatively louder than the body once the sustain gets squashed.
+- **Diagnosed inconsistent hit-to-hit output via systematic elimination:** Auto Release (off) → External sidechain (off) → Drift's instability macro (0%) → LFO Retrigger (confirmed on) → velocity (confirmed uniform across all notes) — each ruled out in turn. Landed on the most likely remaining explanation: **the oscillator's own phase isn't reset per note-on**, a separate mechanism from the LFO's Retrigger (which only resets the LFO). This is consistent with Drift being explicitly analog-modeled — real analog oscillators free-run continuously, never fully stopping/resetting, same as real hardware.
+- **Decision: kept as-is.** This subtle non-identical repetition reads as raw/alive character, which fits the hardgroove aesthetic better than chasing perfect digital uniformity would.
+- Side question answered: **Ableton Live has no native autotune device in any edition, and Live Lite doesn't support third-party VST/AU plugins at all** — moot for this project's stock-devices-only rule, but useful to know generally.
+
+**Where we left off:** KICK chain finalized for now: Drift (Oct -2, dual transient via pitch envelope + LFO-driven filter snap) → Saturator → EQ Three (Mid boost added) → Compressor (punch). Hit-to-hit variation understood and accepted as character, not a bug.
+
+**Next:** Move into the rest of the 8-track budget — **PERC** (Drum Rack), then **HATS**.
+
+---
 
 ---
 
