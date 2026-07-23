@@ -44,9 +44,17 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 - **Deliberately not re-teaching melody-writing basics** — call & response, register lanes, space-as-a-note, and the from-scratch mono-synth patch process were all covered on Ticket to Detroit's bleep lead; LEAD here reuses that knowledge rather than repeating it. The only genuinely new material this session was the track-sharing mechanism.
 - User's own working style noted: variations/polish (like a second STAB hit) are being deliberately batched for a later "build more tracks, prep Arrangement" pass rather than done inline — a sequencing preference, not a quality call.
 
-**Where we left off:** Instrument Rack plan handed off — not yet built. STAB itself unchanged (Drift → Auto Filter → Chorus-Ensemble, confirmed).
+**Update, same day — a real `Cmd+G` gotcha caught on step 1:** selecting the *track header* and pressing `Cmd+G` creates a **Track Group** (a folder for organizing/collapsing tracks in the track list) instead of a Rack — a completely different feature, confirmed by the user hitting it directly (a new "Group" track appeared, Drift stayed on its own track, no space saved). The fix: `Cmd+G` only groups devices into a Rack when the *devices themselves* are selected inside the track's Device View, not the track header. [[Ableton/instrument-rack-key-zones|Instrument Rack Key Zones]] corrected in place with this distinction.
 
-**Next:** Homework — build the 2-chain Instrument Rack (key-zoned), the LEAD Drift patch (Phaser-Flanger in its chain), and a short C Phrygian motif.
+**Where we left off:** Instrument Rack plan handed off, corrected after the Cmd+G mix-up — not yet built. STAB itself unchanged (Drift → Auto Filter → Chorus-Ensemble, confirmed).
+
+**Next:** Homework — ungroup the accidental Track Group, then build the 2-chain Instrument Rack correctly (select devices in Device View, not the track), key-zone both chains, build the LEAD Drift patch (Phaser-Flanger in its chain), and a short C Phrygian motif.
+
+**Update, same day — Chain 1 + Chain 2 built, a second real gotcha caught:** Drift/Auto Filter/Chorus-Ensemble successfully grouped as Chain 1 (STAB); a second Drift dropped into the Chain List as Chain 2 (LEAD). Then: **unlike Drum Rack, a plain Instrument Rack's Chain List has no I/O button** — Key Range is exposed directly via a **Key** toggle (alongside Vel/Chain/Hide), confirmed on this Live 12 Lite build. [[Ableton/instrument-rack-key-zones|Instrument Rack Key Zones]] corrected again in place.
+
+**Where we left off:** Both chains exist on one track; Key Ranges not yet set.
+
+**Next:** Drag each chain's Key Range into place (STAB low, LEAD high) via the Key toggle, then build the LEAD Drift patch inside Chain 2.
 
 ---
 

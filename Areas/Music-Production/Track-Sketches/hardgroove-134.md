@@ -199,3 +199,19 @@ Perc (opt B): · · · · · · · ● · · · · · · · ●    ← sparse ac
 **Where we left off:** Concept + plan handed off; Instrument Rack not yet built.
 
 **Next:** Homework — build the Instrument Rack (2 chains, key-zoned), the LEAD Drift patch, and a short motif in C Phrygian.
+
+**Update, same day — `Cmd+G` gotcha on step 1:** selecting the Drift *track header* and pressing `Cmd+G` created a **Track Group** (track-list folder), not a Rack — confirmed directly (new "Group" track appeared, Drift unchanged on its own track, no space saved). Corrected: a Rack only forms when the *devices* are selected inside the track's Device View first. [[../Ableton/instrument-rack-key-zones|Instrument Rack Key Zones]] updated with this distinction.
+
+**Where we left off:** Track Group needs undoing; correct device-selection method handed off, not yet executed.
+
+**Next:** Ungroup the Track Group, select Drift + Auto Filter + Chorus-Ensemble in the Device View, `Cmd+G` there to form Chain 1, then build Chain 2 (LEAD).
+
+**Update, same day — Chain 1 confirmed:** Drift + Auto Filter + Chorus-Ensemble successfully grouped into an Instrument Rack via the corrected method (devices selected in Device View, not the track header) — this is Chain 1 (STAB), on the original track, no new track spent.
+
+**Next:** Open the Rack's Chain List, drag in a second instrument to form Chain 2 (LEAD), set both chains' Key Ranges via I/O, then build the LEAD Drift patch.
+
+**Update, same day — Chain 2 created, Key Range mechanic corrected:** second Drift dropped into the Chain List, forming Chain 2 (LEAD) alongside Chain 1 (STAB). Real gotcha: unlike Drum Rack, a plain Instrument Rack's Chain List has **no I/O button** — Key Range is exposed directly via the **Key** toggle (next to Vel / Chain / Hide). Confirmed on this Live 12 Lite build. [[../Ableton/instrument-rack-key-zones|Instrument Rack Key Zones]] corrected in place.
+
+**Where we left off:** Both chains exist; Key Ranges not yet dragged into place.
+
+**Next:** Click Key, drag STAB's chain low and LEAD's chain high (non-overlapping), then build the LEAD Drift patch inside Chain 2.

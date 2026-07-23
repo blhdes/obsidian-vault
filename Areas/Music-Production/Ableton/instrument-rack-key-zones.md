@@ -14,9 +14,10 @@ Live Lite's 8-track cap means a project can't always give every distinct sound i
 
 ## Building one
 
-- Select an instrument (+ any effects already on it) on a track, `Cmd+G` (Group) — this wraps them into a Rack, becoming **Chain 1**.
-- Add a second chain: drag another instrument into the Chain List panel, or right-click → new chain.
-- Open the **I/O** toggle on each chain to reveal its **Key Range** editor (same mechanic as a Drum Rack pad's key zone) and set non-overlapping ranges — e.g. Chain 1 low, Chain 2 high.
+- **`Cmd+G` is context-sensitive — a real gotcha.** Selecting a *track header* and pressing `Cmd+G` creates a **Track Group** (a folder for organizing/collapsing tracks in the track list) — a completely different feature, no device fusion, no space saved. To build a Rack, the *devices themselves* (inside the track's Device View) must be selected first.
+- In the Device View, click the instrument's title bar (+ shift-click any effects after it already on the track) to select them, **then** `Cmd+G` — this wraps the selection into a Rack, becoming **Chain 1**, still on the same track.
+- Add a second chain: open the Rack's **Chain List** view, drag another instrument in and drop it below Chain 1 to create Chain 2.
+- **Confirmed on Live 12 Lite: a plain Instrument Rack's Chain List exposes Key Range directly** — unlike Drum Rack, where it hides behind the I/O toggle. Click the **Key** button (alongside Vel / Chain / Hide at the top of the Chain List) to reveal a Key Zone editor bar above the chain rows, and drag each chain's range boundaries directly in that bar — non-overlapping, e.g. Chain 1 low, Chain 2 high.
 - Each chain can carry its own effects *after* its own instrument, inside the chain — separate from any effects on the other chain.
 
 ## Applied: STAB/LEAD sharing one track ([[../Track-Sketches/hardgroove-134|Hardgroove 134]])
