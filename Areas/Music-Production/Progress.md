@@ -22,11 +22,31 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % in [[Roadmap]].
 
-**Sketch in progress:** [[Track-Sketches/hardgroove-134|Hardgroove 134]] — 134 BPM, C Phrygian (reconsidered from C major 2026-07-22). Hardgroove techno, kicked off 2026-07-16 with a stricter hand-built-only workflow. Weeks 1–2 goal (KICK + SUB, interlocked, sidechained, 3 loop variations) is **complete**. **PERC** and **HATS** are built and confirmed (full rhythmic skeleton mixed as a group). **STAB** built from scratch in Drift (Cm(b9)), plus Auto Filter + Chorus-Ensemble confirmed on its chain. Next: a second STAB hit (maybe), then **LEAD** (Phaser-Flanger already queued for it).
+**Sketch in progress:** [[Track-Sketches/hardgroove-134|Hardgroove 134]] — 134 BPM, C Phrygian (reconsidered from C major 2026-07-22). Hardgroove techno, kicked off 2026-07-16 with a stricter hand-built-only workflow. Weeks 1–2 goal (KICK + SUB, interlocked, sidechained, 3 loop variations) is **complete**. **PERC** and **HATS** are built and confirmed (full rhythmic skeleton mixed as a group). **STAB** built from scratch in Drift (Cm(b9)), plus Auto Filter + Chorus-Ensemble confirmed on its chain — a second STAB hit is deferred to a later variations/arrangement-prep pass. **LEAD** kicked off 2026-07-23 via an Instrument Rack splitting track 5 into STAB/LEAD key-zoned chains, homework pending.
 
 **Paused:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM, A minor. Club techno with strong Detroit-style influence. Full 5-layer loop stack done (drums/bass/stab/pad/lead); still needs FX/arrangement/mix/export whenever it resumes.
 
 **Side sketch (self-driven, started 2026-07-12):** [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — 138 BPM, A minor. The user's first track built alone, no lesson plan — 🎉 **completed and exported 2026-07-16**.
+
+---
+
+## Sketch — 2026-07-23 — Hardgroove 134 (LEAD Kickoff — Instrument Rack Key Zones)
+
+**Topic:** Deferred the STAB variation (second hit) to a later "build out more tracks / prep Arrangement" pass, and moved straight to **LEAD**. Hit a real constraint immediately: track 5 was budgeted **STAB/LEAD together** since kickoff, and Live Lite's 8-track cap is fully spent — solved with a genuinely new concept, **Instrument Rack Key Zones**.
+
+**Covered:**
+- [[Ableton/instrument-rack-key-zones|Instrument Rack Key Zones]] — new note: a plain Instrument Rack is the general form of a Drum Rack (already known) — several melodic instrument chains sharing one track, split by Key Range via the same I/O toggle mechanic. Plan: STAB's existing Drift→Auto Filter→Chorus-Ensemble becomes Chain 1 (key-zoned to its current register), a new Drift→Phaser-Flanger patch becomes Chain 2 (key-zoned above it) — reusing the known "lead sits on top" register-lane rule
+- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — LEAD kickoff logged; STAB variation explicitly deferred, not abandoned
+
+**Key takeaways:**
+- **Drum Rack is a specialized case of the more general Instrument Rack** — same Chain List / I/O Key Range mechanic, just pre-built for one-shot samples on pads. Knowing Drum Rack anatomy transfers directly.
+- **Instrument Rack Key Zones is the idiomatic fix for "two distinct voices, one track budgeted"** under Lite's 8-track cap — reapplies the exact problem-solving pattern that justified Drum Rack for PERC, now for melodic content.
+- **Deliberately not re-teaching melody-writing basics** — call & response, register lanes, space-as-a-note, and the from-scratch mono-synth patch process were all covered on Ticket to Detroit's bleep lead; LEAD here reuses that knowledge rather than repeating it. The only genuinely new material this session was the track-sharing mechanism.
+- User's own working style noted: variations/polish (like a second STAB hit) are being deliberately batched for a later "build more tracks, prep Arrangement" pass rather than done inline — a sequencing preference, not a quality call.
+
+**Where we left off:** Instrument Rack plan handed off — not yet built. STAB itself unchanged (Drift → Auto Filter → Chorus-Ensemble, confirmed).
+
+**Next:** Homework — build the 2-chain Instrument Rack (key-zoned), the LEAD Drift patch (Phaser-Flanger in its chain), and a short C Phrygian motif.
 
 ---
 

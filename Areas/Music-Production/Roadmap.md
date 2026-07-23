@@ -24,7 +24,7 @@ Build real tracks/moods/full sketches using **every stock instrument and effect 
 | Drift | ✅ | Kick/Sub (+ Stab, in progress) — Hardgroove 134; Bleep Lead — Ticket to Detroit |
 | Simpler | ✅ | Stab Dub Direct, PERC pads, sampling sessions |
 | Drum Rack | ✅ | PERC/HATS — Hardgroove 134 |
-| Instrument Rack | 🟡 partial | Used implicitly (Drum Rack is a Rack); Macro knobs not yet used |
+| Instrument Rack | 🟡 partial | Key Zones now used to split STAB/LEAD on one track — Hardgroove 134 (homework pending); Macro knobs still not yet used |
 | **Impulse** | ❌ | Not yet touched |
 
 ### Effects (16 in Lite)
@@ -104,7 +104,7 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 ### Path 6 — 🎨 Make a Real Track Sketch  ⭐ **ACTIVE**
 - **Status:** 🟢 In progress *(third sketch, [[Track-Sketches/hardgroove-134|Hardgroove 134]], kicked off 2026-07-16 — 100% hand-built in Ableton's UI, no programmatic control)*
 - **Progress:** ~80% *([[Track-Sketches/solo-sketch-138|Solo Sketch 138]] is a **complete, exported track** — every stage done: layers, arrangement, mix, export. Ticket to Detroit: full 5-layer loop stack playing — drums, bass, stab, pad, bleep motif; structure/mix/export still remain there, paused for now.)*
-- **Current sketch:** [[Track-Sketches/hardgroove-134|Hardgroove 134]] — 134 BPM · **C Phrygian** (reconsidered from C major 2026-07-22) · hardgroove techno; Weeks 1–2 goal complete; **PERC** + **HATS** built and mixed; **STAB** built from scratch (Cm(b9), Drift), chain finalized with Auto Filter + Chorus-Ensemble — next a possible second hit, then **LEAD** (Phaser-Flanger queued), then ATMOS
+- **Current sketch:** [[Track-Sketches/hardgroove-134|Hardgroove 134]] — 134 BPM · **C Phrygian** (reconsidered from C major 2026-07-22) · hardgroove techno; Weeks 1–2 goal complete; **PERC** + **HATS** built and mixed; **STAB** finalized (Drift Cm(b9) → Auto Filter → Chorus-Ensemble), its second-hit variation deferred to a later pass — now building **LEAD** via an Instrument Rack splitting track 5 into key-zoned STAB/LEAD chains (Phaser-Flanger in LEAD's chain), then ATMOS
 - **Paused sketch:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM · A minor · club techno with Detroit-style influence — resumes whenever
 - **Completed sketch (self-driven):** [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — 138 BPM · A minor · Cashon Kit — 🎉 finished and exported 2026-07-16
 - **Difficulty:** ★★★★☆ *(touches all other paths)*
