@@ -215,3 +215,11 @@ Perc (opt B): · · · · · · · ● · · · · · · · ●    ← sparse ac
 **Where we left off:** Both chains exist; Key Ranges not yet dragged into place.
 
 **Next:** Click Key, drag STAB's chain low and LEAD's chain high (non-overlapping), then build the LEAD Drift patch inside Chain 2.
+
+**Update, same day — LEAD patch built + motif confirmed:** Key Ranges dragged into place (STAB low, LEAD C5+). LEAD's Drift patch built inside Chain 2 — Mono voice, isolated oscillator, Low Pass brought down from wide-open to ~2-3kHz (Type I), light Resonance, HP dropped from a too-aggressive 829Hz down to ~150-200Hz to keep body. Clip extended from 1.0.0 to **2.0.0** to hold the full 2-bar motif — the STAB chord hit (at 1.3.4, the "a" of beat 3) had to be manually duplicated to 2.3.4 since it no longer auto-repeats every bar once the clip itself became 2 bars.
+- **Motif drawn and confirmed sounding**, all notes ≥C5 (inside LEAD's key zone): **Bar 1 (call):** C5 → Db5 (e of 2) → Eb5 (& of 3), beat 4 silent, ending unresolved on Eb5. **Bar 2 (response):** Eb5 → Db5 (e of 2) → C5 (& of 3), beat 4 silent, resolving to the root. Db5 reuses the same b9 tension already established in the STAB chord, tying the two layers together.
+- Phaser-Flanger (queued earlier for LEAD's chain) **not yet added**.
+
+**Where we left off:** LEAD patch + motif built and confirmed sounding against the full ensemble.
+
+**Next:** Add Phaser-Flanger to the LEAD chain (still pending), then this track's STAB/LEAD slot is essentially done — remaining work is the deferred STAB variation, ATMOS, and eventual arrangement.

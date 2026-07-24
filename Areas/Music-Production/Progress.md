@@ -22,7 +22,7 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % in [[Roadmap]].
 
-**Sketch in progress:** [[Track-Sketches/hardgroove-134|Hardgroove 134]] — 134 BPM, C Phrygian (reconsidered from C major 2026-07-22). Hardgroove techno, kicked off 2026-07-16 with a stricter hand-built-only workflow. Weeks 1–2 goal (KICK + SUB, interlocked, sidechained, 3 loop variations) is **complete**. **PERC** and **HATS** are built and confirmed (full rhythmic skeleton mixed as a group). **STAB** built from scratch in Drift (Cm(b9)), plus Auto Filter + Chorus-Ensemble confirmed on its chain — a second STAB hit is deferred to a later variations/arrangement-prep pass. **LEAD** kicked off 2026-07-23 via an Instrument Rack splitting track 5 into STAB/LEAD key-zoned chains, homework pending.
+**Sketch in progress:** [[Track-Sketches/hardgroove-134|Hardgroove 134]] — 134 BPM, C Phrygian (reconsidered from C major 2026-07-22). Hardgroove techno, kicked off 2026-07-16 with a stricter hand-built-only workflow. Weeks 1–2 goal (KICK + SUB, interlocked, sidechained, 3 loop variations) is **complete**. **PERC** and **HATS** are built and confirmed (full rhythmic skeleton mixed as a group). **STAB** built from scratch in Drift (Cm(b9)), plus Auto Filter + Chorus-Ensemble confirmed on its chain — a second STAB hit is deferred to a later variations/arrangement-prep pass. **LEAD** built via an Instrument Rack splitting track 5 into STAB/LEAD key-zoned chains — patch + 2-bar C Phrygian motif confirmed sounding; Phaser-Flanger on LEAD's chain still pending.
 
 **Paused:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM, A minor. Club techno with strong Detroit-style influence. Full 5-layer loop stack done (drums/bass/stab/pad/lead); still needs FX/arrangement/mix/export whenever it resumes.
 
@@ -55,6 +55,12 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Where we left off:** Both chains exist on one track; Key Ranges not yet set.
 
 **Next:** Drag each chain's Key Range into place (STAB low, LEAD high) via the Key toggle, then build the LEAD Drift patch inside Chain 2.
+
+**Update, same day — LEAD patch + motif built and confirmed:** Key Ranges set (STAB low, LEAD C5+). LEAD's Drift patch: Mono, isolated oscillator, Low Pass brought down to ~2-3kHz (from wide-open default), light Resonance, HP corrected down from an overly aggressive 829Hz to ~150-200Hz. Clip extended 1.0.0 → **2.0.0** to hold a 2-bar motif — required manually duplicating the STAB chord hit into bar 2 (it no longer auto-repeats now that the clip itself is 2 bars). **Motif confirmed sounding:** Bar 1 (call) C5→Db5→Eb5 ending unresolved; Bar 2 (response) Eb5→Db5→C5 resolving to root; beat 4 silent both bars; Db5 reuses the STAB chord's own b9 tension, tying the layers together. Phaser-Flanger still not yet added to LEAD's chain.
+
+**Where we left off:** LEAD patch and motif built, confirmed sounding against the full ensemble. Phaser-Flanger pending.
+
+**Next:** Add Phaser-Flanger to LEAD's chain — then the STAB/LEAD track slot is essentially closed, leaving the deferred STAB variation, ATMOS, and arrangement prep as open threads.
 
 ---
 
