@@ -43,9 +43,22 @@ Top-left of the Simpler device, a **Classic / One-Shot / Slice** selector:
 |---|---|---|
 | **Classic** | Plays (and can loop/sustain) for as long as the key is held — a synth voice built from your sample | Tonal or sustained material (a vocal note, a pad-like texture) |
 | **One-Shot** | Plays the *entire* sample through once, no matter how long you hold or release the key | Percussive hits, foley, texture stabs — fire-and-forget accents |
-| **Slice** | Auto-chops the sample into segments, one per key across the keyboard | Chopping a drum break/loop into playable pieces (flagged for a later session) |
+| **Slice** | Auto-chops the sample into segments, one per key across the keyboard | Chopping a drum break/loop, or any found audio, into playable pieces |
 
 For a drums/texture-first sketch, **One-Shot** is the natural starting mode — it behaves like an extra drum hit, not a held note.
+
+### Slice mode, in depth
+
+Selecting Slice reveals a **"Slice By"** choice:
+
+| Slice By | What it does | Fits |
+|---|---|---|
+| **Transient** | Detects the audio's own attacks/onsets (words, musical hits) and cuts there | Organic material where the content's own events should stay intact — spoken word, a found-audio fragment |
+| **Beat / Division** | Cuts into equal-length pieces (1/16, 1/8, etc.) regardless of content | Deliberately glitchy/granular chopping — can cut mid-word or mid-note on purpose |
+
+Transient has a **Sensitivity** control — too high gives too many tiny slices, too low merges real events together; dial it until the slice count feels right for the material (roughly 8–16 for a short fragment is a reasonable starting range). Each resulting slice lands on its own key, same key-mapping mechanic as any Simpler sample — just segmented.
+
+**Applied:** [[../Track-Sketches/hardgroove-134|Hardgroove 134]]'s ATMOS layer — the captured found-audio fragment (dialogue+music, kept as one mixed blob rather than stem-separated) sliced via Transient, then only 2-4 interesting slices picked out and placed sparsely across a clip for texture rather than rhythm.
 
 ## Trimming — Start / Length
 

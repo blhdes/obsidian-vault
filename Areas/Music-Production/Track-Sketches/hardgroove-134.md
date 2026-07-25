@@ -223,3 +223,58 @@ Perc (opt B): · · · · · · · ● · · · · · · · ●    ← sparse ac
 **Where we left off:** LEAD patch + motif built and confirmed sounding against the full ensemble.
 
 **Next:** Add Phaser-Flanger to the LEAD chain (still pending), then this track's STAB/LEAD slot is essentially done — remaining work is the deferred STAB variation, ATMOS, and eventual arrangement.
+
+### 2026-07-24 — LEAD finalized — raw character via oscillator unison detune
+
+- **Phaser-Flanger added** to LEAD's chain (after Saturator): Mode Phaser, Freq 0.17Hz (slow, breathing swirl across the 2-bar phrase rather than a fast wobble), Amount 33%, Feedback 20%. Confirmed sounding.
+- **Still "too clean" after Saturator + Resonance + Phaser-Flanger** — all post-processing. Root cause traced to the oscillator stage itself, not something fixable downstream: new technique, [[../Techniques/oscillator-unison-detune|Oscillator Unison Detune]] — **Osc 2 re-enabled**, same waveform as Osc 1 (Sawtooth), Detune ~5-15 cents, creating real beating between two actual oscillators (grittier than a post-effect like Chorus-Ensemble, which only processes one waveform's echo).
+- **Confirmed: this was the fix.** The LEAD now reads raw/analog as intended.
+- **LEAD chain, finalized:** Drift (Mono, Sawtooth + detuned Osc 2 unison, Low Pass ~2-3kHz Type I, Resonance up, HP ~150-200Hz) → Saturator → Phaser-Flanger.
+- **This closes the STAB/LEAD track slot (track 5)** — both halves built, characterized, and confirmed. Remaining open threads on this sketch: the deferred STAB variation (second hit), the parked sampling/Slice-mode detour, and the next track in the original budget, **ATMOS**.
+
+**Where we left off:** STAB/LEAD track fully done. Full ensemble now: KICK, SUB, PERC, HATS, STAB, LEAD — all built and confirmed.
+
+**Next:** Open — **ATMOS** (next in the original 8-track budget) is the natural next step; the STAB variation and the sampling detour remain parked, available whenever.
+
+### 2026-07-24 — ATMOS built via the sampling detour
+
+- Resumed the sampling detour parked since 2026-07-22, this time to fill **ATMOS (track 6)** — closing both an open thread and the next slot in the original budget at once.
+- Decision on the parked open question: kept the captured dialogue+music fragment as **one mixed blob**, not stem-separated — the "found" character suits an atmospheric layer, and sidesteps the unconfirmed stem-extraction-on-Lite question entirely.
+- **Slice mode finally applied** (introduced but not used back on 07-22): Simpler set to Slice, **Slice By: Transient** — respects the fragment's own words/musical hits rather than chopping blind. Full mechanics now documented: [[../Ableton/sampling-with-simpler|Sampling with Simpler]] (Slice mode section).
+- **Built:** a 4-bar clip on track 6, a handful of loose/scattered notes triggering a few chosen slices — sparse by design, texture rather than rhythm.
+
+**Where we left off:** ATMOS built and in place — track 6 of the original 8-track budget now has real content. 6 of 8 tracks now built: KICK, SUB, PERC, HATS, STAB/LEAD, ATMOS. Only **FX/RISER** (track 7) and **RETURN** (track 8) remain from the original plan, alongside the deferred STAB variation.
+
+**Next:** Open — confirm ATMOS sitting well against the full ensemble, then **FX/RISER** is the next unbuilt slot, or return to the deferred STAB variation whenever preparing for Arrangement.
+
+### 2026-07-24 — ATMOS reverse-mix idea deferred; back to LEAD for a dissonance fix
+
+- Explored making the ATMOS sample more unrecognizable further: Reverse (confirmed via right-click "Invertir muestra" — reverses the whole loaded sample, not per-slice) and a dual-chain (normal + reversed) Instrument Rack Key Zone setup for a forward/reversed mix. **Decision: parked for later**, same as the STAB variation.
+- Returned to **LEAD**: the user felt the melody clashed with the rest of the piece. Diagnosis: the STAB chord is **Eb-G-Db** (no root). Checking what LEAD note sustains under the STAB's hit (the "a" of beat 3) in each bar — Bar 1 had **Eb5** there (a chord tone, fine); Bar 2 had **C5** there (the intended "resolve home" note) — C clashes a half-step against the STAB's Db, likely the source of the dissonance.
+- **Fix applied and kept:** Bar 2 reworked — a chord-tone **Eb5** now sits under the STAB's hit (replacing the clashing C5), and the **C5 resolution moved later, to beat 4's "&"** — landing clear of the STAB's attack instead of on top of it. Trade-off: beat 4 (previously silent, per the "space is a note" rule) is now used for the resolution — a deliberate, reasoned exception.
+
+**Where we left off:** LEAD's bar 2 reworked (Eb5 under the STAB hit, C5 resolution moved to beat 4); sound not yet re-confirmed by ear.
+
+**Next:** Confirm the reworked LEAD sounds resolved against the STAB. Then: **FX/RISER**, or the deferred STAB variation / ATMOS reverse-mix whenever revisited.
+
+### 2026-07-24 — LEAD confirmed; FX/RISER kicked off
+
+- **LEAD confirmed by ear** — the reworked bar 2 (Eb5 under the STAB hit, C5 resolution moved to beat 4) reads as resolved, no more clash. Closes that loose end for good.
+- **FX/RISER (track 7) kicked off** — no new mechanic needed here: this reapplies the exact recipe from [[../Techniques/riser-fx|Riser FX (Noise Build-Up)]], built once already on Solo Sketch 138 (Noise oscillator on Drift, two stacked clip envelopes — Filter Cutoff + Track Volume — Loop off).
+- **One real design difference from Solo Sketch 138:** that sketch had explicit Intro/Build/Drop/Break scenes to build into; Hardgroove 134 has no Arrangement structure yet — its only "sections" so far are the **3 loop variations** (Straight Roller / Rolling Push / Stripped-Hypnotic). Open question handed to the user: build the riser now as a standalone clip and decide its exact placement during the later Arrangement pass (consistent with the user's already-stated preference to batch such decisions — see 2026-07-23), or aim it specifically at one loop-variation transition now.
+- **Restraint call for this genre:** per the existing note's own genre flag ("keep it understated for hypnotic/raw techno"), lean toward 1 bar (not 2) and a modest volume climb — this project's whole ethos is tight/dry/no-wash, the opposite of an EDM-scale riser.
+
+**Where we left off:** Recipe hand-off given; FX/RISER track not yet built.
+
+**Next:** Homework — new MIDI track (slot 7, "FX/RISER"), Drift with Noise on / Osc 1+2 off, one held note over a 1-bar clip, stack Filter Cutoff + Track Volume envelopes rising across it, Loop off. Audition solo, then decide (or report back on) where it best serves this sketch. After this, only **RETURN** (track 8) remains from the original 8-track budget.
+
+### 2026-07-25 — FX/RISER pivot: Beat Repeat instead of a second Noise riser
+
+- **User pushback:** reapplying the Noise-riser recipe verbatim (same device, same two envelopes, same result) felt stale — a fair call, since the technique was already fully mastered on Solo Sketch 138.
+- **Pivot: [[../Techniques/beat-repeat-stutter-build|Beat Repeat Stutter Build]]** — a genuinely new stock Lite device, never touched before. Chops real audio into an accelerating stutter (shrinking **Interval** + rising **Chance** over 1–2 bars), rather than synthesizing a sweep from nothing.
+- **Placement decided:** since Beat Repeat needs existing audio to chop (unlike Drift's Noise, which generates its own), it's inserted as the **last device on HATS's chain** instead of a new empty track — hats are already high/percussive, so a shrinking-Interval stutter reads as a hi-hat-roll build without touching the KICK/SUB groove. This **frees up the original track-7 "FX/RISER" slot** — left open for later (could become the RETURN track, or something else, decided whenever it's actually needed).
+- **Genre reasoning:** a real drum-content stutter/glitch edit is a more idiomatic techno transition device than a synthesized noise sweep, which reads more EDM-coded.
+
+**Where we left off:** Beat Repeat recipe handed off, not yet built. HATS's existing chain/pattern unchanged so far.
+
+**Next:** Homework — add Beat Repeat as the last device on HATS, set a baseline (Interval 1/8, Chance 100%, Gate full) to hear the raw effect, then build a transition clip with Interval stepping down (1/8 → 1/32) and Chance rising (~30% → 100%) via clip envelopes. Keep Chance at 0% outside the transition. Confirm by ear against the full ensemble.

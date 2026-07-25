@@ -22,11 +22,111 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % in [[Roadmap]].
 
-**Sketch in progress:** [[Track-Sketches/hardgroove-134|Hardgroove 134]] — 134 BPM, C Phrygian (reconsidered from C major 2026-07-22). Hardgroove techno, kicked off 2026-07-16 with a stricter hand-built-only workflow. Weeks 1–2 goal (KICK + SUB, interlocked, sidechained, 3 loop variations) is **complete**. **PERC** and **HATS** are built and confirmed (full rhythmic skeleton mixed as a group). **STAB** built from scratch in Drift (Cm(b9)), plus Auto Filter + Chorus-Ensemble confirmed on its chain — a second STAB hit is deferred to a later variations/arrangement-prep pass. **LEAD** built via an Instrument Rack splitting track 5 into STAB/LEAD key-zoned chains — patch + 2-bar C Phrygian motif confirmed sounding; Phaser-Flanger on LEAD's chain still pending.
+**Sketch in progress:** [[Track-Sketches/hardgroove-134|Hardgroove 134]] — 134 BPM, C Phrygian (reconsidered from C major 2026-07-22). Hardgroove techno, kicked off 2026-07-16 with a stricter hand-built-only workflow. Weeks 1–2 goal (KICK + SUB, interlocked, sidechained, 3 loop variations) is **complete**. **PERC**, **HATS**, **STAB**, **LEAD**, and now **ATMOS** are all built and confirmed — 6 of the original 8 budgeted tracks now have real content. STAB and LEAD share track 5 via an Instrument Rack (Key Zones); ATMOS (track 6) reused the parked sampling detour via Simpler's Slice mode. A second STAB hit remains deliberately parked. Next: **FX/RISER** (track 7).
 
 **Paused:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM, A minor. Club techno with strong Detroit-style influence. Full 5-layer loop stack done (drums/bass/stab/pad/lead); still needs FX/arrangement/mix/export whenever it resumes.
 
 **Side sketch (self-driven, started 2026-07-12):** [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — 138 BPM, A minor. The user's first track built alone, no lesson plan — 🎉 **completed and exported 2026-07-16**.
+
+---
+
+## Sketch — 2026-07-25 — Hardgroove 134 (FX/RISER Pivot — Beat Repeat)
+
+**Topic:** The user pushed back on the FX/RISER homework handed off last session — reapplying the Noise-riser recipe verbatim felt stale since it's already fully mastered. Pivoted to a genuinely new device, **Beat Repeat**, chopping real drum audio into an accelerating stutter instead of synthesizing a sweep.
+
+**Covered:**
+- [[Techniques/beat-repeat-stutter-build|Beat Repeat Stutter Build]] — new technique note: Interval/Grid/Chance/Gate/Variation/Filter parameters, the shrinking-Interval + rising-Chance build technique, and why it needs a host track (existing audio) rather than a fresh empty one
+- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — FX/RISER plan changed: Beat Repeat added as the last device on **HATS**'s chain instead of a new track; the original track-7 slot freed up for later
+- [[Roadmap|Roadmap]] — Beat Repeat moved from "not yet" to in-progress on the 4-month device list
+
+**Key takeaways:**
+- **A "known technique, new track" reapplication can feel like busywork even when it's pedagogically efficient** — worth checking in on whether the user wants genuine variation (new device/approach) rather than a copy-paste recipe, even when the copy-paste option is the path of least resistance.
+- **Beat Repeat generates nothing on its own** — unlike Drift's Noise oscillator (a real sound source), it needs audio already passing through it to chop. This is *why* it's placed on an existing, already-playing track (HATS) rather than a dedicated empty track like the Noise riser was.
+- **Same "two parameters climbing = one build" principle as the riser, applied rhythmically instead of tonally:** Interval shrinking (faster chops) + Chance rising (more of the signal affected) compound into one build event, the same way Filter Cutoff + Volume did for the Noise riser.
+- **A stutter/glitch edit built from the track's own drum content reads as a more idiomatic techno transition than a synthesized noise sweep**, which leans more EDM-coded — a genre-fit upgrade, not just a novelty swap.
+- **This frees the original track-7 "FX/RISER" budget slot** rather than spending it — left open for later (RETURN, or anything else) since Beat Repeat lives on HATS's own chain.
+
+**Where we left off:** Beat Repeat recipe handed off as homework; not yet built or confirmed in the project.
+
+**Next:** Homework — add Beat Repeat to HATS, dial in a baseline, build the transition clip with Interval/Chance automation, confirm by ear. Then: the freed track-7 slot, **RETURN**, or the deferred STAB variation / ATMOS reverse-mix whenever Arrangement prep begins.
+
+---
+
+## Sketch — 2026-07-24 — Hardgroove 134 (LEAD Confirmed, FX/RISER Kicked Off)
+
+**Topic:** Closed the LEAD dissonance fix (confirmed by ear), then kicked off **FX/RISER** (track 7) — a straight reapplication of the riser technique already learned on Solo Sketch 138, with one genuine design question specific to this sketch's lack of an Arrangement structure.
+
+**Covered:**
+- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — LEAD's reworked bar 2 confirmed sounding resolved; FX/RISER kicked off, recipe handed off as homework
+
+**Key takeaways:**
+- **No new mechanic needed for the riser** — [[Techniques/riser-fx|Riser FX (Noise Build-Up)]] already covers it in full (Noise oscillator, stacked Filter Cutoff + Track Volume envelopes, Loop off); this session is pure application, not new teaching.
+- **A genuine difference from its first use:** Solo Sketch 138 had explicit Intro/Build/Drop/Break scenes to build the riser into. Hardgroove 134 has no Arrangement yet — its closest thing to "sections" are the **3 loop variations** (Straight Roller/Rolling Push/Stripped-Hypnotic) built back in the Weeks 1–2 phase. Left open for the user: build it standalone now and decide placement later (batching with Arrangement prep, matching the user's stated preference from 2026-07-23), or aim it at a specific loop-variation transition now.
+- **Restraint calibration for hardgroove:** the technique note already flags "keep it understated for hypnotic/raw techno" as a genre note — leaned into that here (1 bar, modest volume climb) rather than Solo Sketch 138's more dramatic build, consistent with this project's "tight and dry, no wash" ethos.
+- **This is track 7 of the original 8-track budget** — once built, only **RETURN** (track 8, the shared return track) remains unbuilt.
+
+**Where we left off:** LEAD closed out. FX/RISER recipe handed off, not yet built.
+
+**Next:** Homework — build the FX/RISER track (Drift, Noise on, 1-bar held note, stacked envelopes, Loop off), audition it, and weigh in on where it fits. Then: **RETURN** (the last unbuilt track slot), or the deferred STAB variation / ATMOS reverse-mix whenever Arrangement prep begins.
+
+---
+
+## Sketch — 2026-07-24 — Hardgroove 134 (LEAD Dissonance Fix)
+
+**Topic:** Parked a further ATMOS unrecognizability idea (reverse + dual-chain mix), then returned to **LEAD** because the melody felt dissonant against the rest of the piece — diagnosed and fixed a real harmonic clash between the LEAD motif and the STAB chord.
+
+**Covered:**
+- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — LEAD's bar 2 reworked: a chord-tone Eb5 now sits under the STAB's chord hit (replacing a clashing C5), and the C5 resolution moved later to beat 4
+
+**Key takeaways:**
+- **Diagnostic method: check which note is sustaining at the exact instant a harmonically "loaded" hit fires.** The STAB (Eb-G-Db, rootless) fires once per bar — in bar 1, Eb5 was sounding there (a chord tone, fine); in bar 2, C5 was sounding there (the melody's "resolve home" note) — a half-step clash against the STAB's own Db, since C isn't in the STAB's rootless voicing at all.
+- **A melody note can be scale-correct and still clash** — all of C/Db/Eb belong to C Phrygian, but *simultaneity* with a specific chord voicing (not just scale membership) is what determines consonance at any given instant.
+- **Fix: move the clash, don't necessarily remove the note.** Swapping in a chord tone under the STAB's attack, and relocating the resolution to a moment after the chord has already rung (beat 4), resolved the harshness without abandoning the "resolve to root" idea.
+- **A reasoned exception to an existing rule:** beat 4 (previously silent, per the "space is a note" principle from [[Techniques/bleep-lead-motif|Bleep Lead & Motif Writing]]) is now used for the resolution — a deliberate trade-off, not a violation of the rule.
+- **ATMOS unrecognizability, parked for later:** Reverse (confirmed via Simpler's right-click "Invertir muestra") reverses the whole loaded sample, not per-slice; a forward/reversed *mix* would need a second chain (reusing today's Instrument Rack Key Zones trick) — deferred alongside the STAB variation.
+
+**Where we left off:** LEAD's bar 2 reworked; sound not yet re-confirmed by ear against the STAB.
+
+**Next:** Confirm the reworked LEAD by ear. Then: **FX/RISER**, or the deferred STAB variation / ATMOS reverse-mix whenever revisited.
+
+---
+
+## Sketch — 2026-07-24 — Hardgroove 134 (ATMOS Built — Sampling Detour Closed)
+
+**Topic:** Resumed the sampling detour parked since 2026-07-22 to build **ATMOS** (track 6) — closing an open thread and the next slot in the original 8-track budget in one move. Finally applied **Simpler's Slice mode**, introduced two sessions ago but never used until now.
+
+**Covered:**
+- [[Ableton/sampling-with-simpler|Sampling with Simpler]] — expanded with a full Slice mode section: **Transient** (cuts at the audio's own attacks/onsets) vs. **Beat/Division** (equal-length, content-blind chopping) as the two "Slice By" methods, plus the Sensitivity control for tuning slice count
+- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — ATMOS built: the captured dialogue+music fragment, kept as one mixed blob (not stem-separated), sliced via Transient, a handful of chosen slices scattered sparsely across a 4-bar clip
+
+**Key takeaways:**
+- **Decision on the parked question:** the fragment stays as one mixed blob rather than being stem-separated first — the "found" character actually suits an atmospheric layer better than clean isolated stems would, and it sidesteps the unconfirmed question of whether Lite supports stem extraction at all.
+- **Transient-based slicing respects the source material's own events** (words, musical hits) rather than cutting blind on a grid — the right choice for organic/found audio, as opposed to Beat/Division's deliberately blind (and optionally glitchy) equal chopping.
+- **Sparse, scattered placement (not a pattern) is what makes a sliced sample read as ATMOS rather than a new rhythmic element** — reapplies the project's broader "few elements, give things room" principle to a genuinely new sound source.
+- **This closes 6 of the original 8 budgeted tracks**: KICK, SUB, PERC, HATS, STAB/LEAD (shared via Instrument Rack), and now ATMOS. Only FX/RISER and RETURN remain unbuilt.
+
+**Where we left off:** ATMOS built and in place. Full ensemble (KICK/SUB/PERC/HATS/STAB/LEAD/ATMOS) now plays together.
+
+**Next:** Open — confirm ATMOS against the full mix, then **FX/RISER** (the next unbuilt slot) or the deferred STAB variation whenever arrangement prep begins.
+
+---
+
+## Sketch — 2026-07-24 — Hardgroove 134 (LEAD Finalized — STAB/LEAD Track Closed)
+
+**Topic:** Closed out the LEAD build. Phaser-Flanger added and confirmed, but the patch still read "too clean" through Saturator + Resonance + Phaser-Flanger alone — traced to the oscillator stage itself and fixed with a new technique, **Oscillator Unison Detune**. This closes the entire STAB/LEAD track slot.
+
+**Covered:**
+- [[Techniques/oscillator-unison-detune|Oscillator Unison Detune]] — new note: two real oscillators, same waveform, a few cents apart, beating against each other for raw/analog character — grittier than a post-effect like Chorus-Ensemble because the beating is native to the waveform, not a delayed echo of it
+- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — LEAD chain finalized: Drift (Mono, Sawtooth + detuned Osc 2 unison, Low Pass ~2-3kHz, Resonance up, HP ~150-200Hz) → Saturator → Phaser-Flanger
+
+**Key takeaways:**
+- **"Too clean" can be an oscillator-stage problem, not a post-processing problem.** Saturator, Resonance, and Phaser-Flanger are all downstream fixes — they couldn't solve what turned out to be a lack of grit at the actual waveform-generation stage. Worth checking the oscillator itself before stacking more effects when a patch still feels too polished.
+- **True unison detune vs. an effect like Chorus-Ensemble:** both create "beating," but unison uses two real, simultaneously-generated oscillators (grittier, more physical); Chorus-Ensemble processes one oscillator's signal against a delayed copy of itself (smoother, more "effected"). Different tools for related but distinct goals.
+- **This closes the STAB/LEAD track (track 5)** from the original 8-track budget — both the chord layer and the melodic layer are now built, characterized, and confirmed, sharing one track via the Instrument Rack Key Zones solved earlier this arc.
+
+**Where we left off:** Full ensemble now playing together — KICK, SUB, PERC, HATS, STAB, LEAD all built and confirmed. Only the deferred STAB variation and the parked sampling/Slice-mode detour remain open from earlier work.
+
+**Next:** Open — **ATMOS** (track 6, next in the original budget) is the natural next step; the STAB variation and sampling detour remain available whenever the user wants to return to them.
 
 ---
 
