@@ -12,7 +12,7 @@ The *detailed knowledge* lives in the topic notes (`Ableton/`, `Theory-Basics/`,
 
 ## Setup status
 
-- **DAW:** ✅ **Ableton Live Lite installed and working** (2026-07-09). Lite caps projects at 8 tracks and ships a smaller library than Suite — plan sketches within that.
+- **DAW:** ✅ **Upgraded to Ableton Live 12 Suite** (2026-07-26) — full version, no track cap, full instrument/effect library, Max for Live, and third-party VST/AU support. *(Previously Live Lite, installed 2026-07-09 and capped at 8 tracks/smaller library — that constraint shaped some existing decisions, e.g. Hardgroove 134's Instrument Rack Key Zones, which remain valid even though the cap is gone.)*
 - **Hardware:** ✅ **Akai APC Mini MK2 connected and mapped** (2026-07-09) — 8×8 clip-launch grid + 9 faders, mirroring Session View 1:1. See [[Ableton/apc-mini-mk2-grid|APC Mini MK2 Grid]].
 - **Old projects:** 🗑 **All pre-Lite local projects deleted 2026-07-09** at the user's request (`techno-sketch-01` + backups, `test/000`, a Desktop `Untitled` — moved to Trash). `User Library` and `Factory Packs` kept. **2026-07-17:** the vault notes for sketch 01 (its Track-Sketches note + the 10-step deepening folder) were also cleared, keeping only the one applied technique that came out of it ([[Techniques/percussion-layering|Percussion Layering]]). Sessions 1–9 and the general Ableton/Techniques manuals are unaffected.
 

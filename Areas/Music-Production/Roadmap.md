@@ -12,11 +12,11 @@ Six paths to explore. Each has a **status**, a rough **progress %**, and a **dif
 
 ---
 
-## 🗓 4-Month Goal (from 2026-07-22, through ~Nov 2026): Explore All of Live Lite
+## 🗓 Live Lite Device Coverage (2026-07-22 → 2026-07-26) — superseded by the Suite upgrade
 
-Build real tracks/moods/full sketches using **every stock instrument and effect Live Lite actually offers** — not just the narrower subset any one sketch chooses to constrain itself to (e.g. Hardgroove 134's own stricter rule) — before upgrading to Standard/Suite. Confirmed device list against Ableton's official Live 12 Lite Features page ([[Track-Sketches/hardgroove-134|see the note]]).
+Originally a 4-month goal (through ~Nov 2026) to explore every stock Live Lite instrument/effect before upgrading. **Superseded early:** the user upgraded straight to **Ableton Live 12 Suite on 2026-07-26**, skipping the rest of the Lite-first runway. Kept below as a historical coverage record — the still-untouched Lite devices (Impulse, Auto Pan, Gate, Looper, Utility) remain fair game, just no longer gated by "before upgrading."
 
-**Rule for the next 4 months:** a new track/sketch/technique is a chance to reach for something from the "not yet" list below before defaulting to already-familiar devices. Goal is *coverage*, not just depth with favorites.
+See **🚀 Suite Unlocked** below for what's newly available.
 
 ### Instruments (5 in Lite)
 | Device | Explored? | Where |
@@ -46,6 +46,20 @@ Build real tracks/moods/full sketches using **every stock instrument and effect 
 | **Phaser-Flanger** | 🟡 in progress | Tried on STAB, not kept — queued for **LEAD** instead |
 | Tuner | — | Utility tool, not a musical device |
 | **Utility** | ❌ | Not yet |
+
+---
+
+## 🚀 Suite Unlocked (from 2026-07-26)
+
+Ableton Live 12 Suite — full version, no more Lite constraints. Newly available:
+
+- **Unlimited tracks/scenes** — no more 8-track budget forcing tricks like Drum Rack/Instrument Rack sharing (those techniques are still useful skills, just optional now, not survival tools).
+- **New instruments:** Operator (FM synthesis), Wavetable, Analog, Electric, Tension, Collision, Meld, full Sampler (vs. Simpler-only), Drum Sampler, Session Drums, Granulator III.
+- **New effects:** EQ Eight, Multiband Dynamics, Spectral Time/Resonator/Blur, Hybrid Reverb, Amp + Cabinet + Pedal, Vocoder, Corpus, Roar, PitchLoop89, Complex Pro warp mode.
+- **Max for Live** — the full device library (audio/MIDI/instrument M4L devices), plus room to build custom devices later.
+- **Third-party VST/AU plugin support** — Lite didn't support plugins at all; Suite does.
+
+Same "reach for something new when it fits" philosophy as the old Lite-coverage goal, just against a much bigger pool — not a mandate to use everything at once. Existing sketches keep their own house rules (e.g. Hardgroove 134's stock-devices-only rule) unless the user says otherwise.
 
 ---
 
