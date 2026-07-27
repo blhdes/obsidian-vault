@@ -12,26 +12,26 @@ Legend → **Size:** Big / Small / Micro · **Status:** `todo` → `★ shortlis
 ## Production houses (cinema craft → ads & music videos)
 *The sweet spot for the cinema eye: real film craft, but in advertising/music-video production — steadier and better paid than the film industry itself.*
 
-| Company | Industry | Size | Why it fits | Links | Status |
-|---|---|---|---|---|---|
-| CANADA | production · music · ads | Small | Poblenou-born, world-class — music videos (Rosalía, Dua Lipa, Tame Impala) + spots (Apple, Louis Vuitton). The dream version of "cinema without the film industry" | lawebdecanada.com | todo |
-| Garage Films | production · ads | Small | 20+ yrs, ads/film/TV; BCN + Madrid + CDMX + LA; runs Fake Studio (post) & Infinito (fiction) | garagefilms.net | todo |
-| Agosto | production · ads | Small | Director-founded production co (BCN/Madrid/Buenos Aires), creative-first approach | agosto.tv | todo |
-| Mun Films | production · branded content | Micro | 10+ yrs branded content for brands across Spain — assistant-friendly scale | munfilms.com | todo |
-| Sunomono Films | production · branded content | Small | 15 yrs, 1,000+ projects of brand video — volume shop, likely entry roles | sunomonofilms.com | todo |
-| Physalia | production · VFX/motion | Micro | Inventive VFX/motion studio (builds its own motion-control rigs) — craft + tech crossover | physaliastudio.com *(verify)* | todo |
-| Device | motion · animation | Micro | Story-driven multi-style animation studio | devicers.com | todo |
+| Company        | Industry                     | Size  | Why it fits                                                                                                                                                        | Links                         | Status |
+| -------------- | ---------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------- | ------ |
+| CANADA         | production · music · ads     | Small | Poblenou-born, world-class — music videos (Rosalía, Dua Lipa, Tame Impala) + spots (Apple, Louis Vuitton). The dream version of "cinema without the film industry" | lawebdecanada.com             | todo   |
+| Garage Films   | production · ads             | Small | 20+ yrs, ads/film/TV; BCN + Madrid + CDMX + LA; runs Fake Studio (post) & Infinito (fiction)                                                                       | garagefilms.net               | todo   |
+| Agosto         | production · ads             | Small | Director-founded production co (BCN/Madrid/Buenos Aires), creative-first approach                                                                                  | agosto.tv                     | todo   |
+| Mun Films      | production · branded content | Micro | 10+ yrs branded content for brands across Spain — assistant-friendly scale                                                                                         | munfilms.com                  | todo   |
+| Sunomono Films | production · branded content | Small | 15 yrs, 1,000+ projects of brand video — volume shop, likely entry roles                                                                                           | sunomonofilms.com             | todo   |
+| Physalia       | production · VFX/motion      | Micro | Inventive VFX/motion studio (builds its own motion-control rigs) — craft + tech crossover                                                                          | physaliastudio.com *(verify)* | todo   |
+| Device         | motion · animation           | Micro | Story-driven multi-style animation studio                                                                                                                          | devicers.com                  | todo   |
 
 ## Advertising & creative agencies
-| Company | Industry | Size | Why it fits | Links | Status |
-|---|---|---|---|---|---|
-| Herraiz Soto & Co | ads · digital | Small | Historic BCN creative-digital agency — branding, branded content, digital experiences | herraizsoto.com *(verify)* | todo |
-| DoubleYou | ads · digital | Small | Pioneer Spanish digital-creative agency | doubleyou.com *(verify)* | todo |
-| &Rosàs | ads | Small | Respected indie BCN ad agency | *(verify URL)* | todo |
-| Soon in Tokyo | ads | Small | Indie creative agency, bold campaign work | soonintokyo.com *(verify)* | todo |
-| Honest | ads · strategy | Small | Independent creative agency — strategy + design + content | *(verify URL)* | todo |
-| The George | ads · digital | Small | Independent creative agency: branding → web → digital campaigns | *(verify URL)* | todo |
-| Manifiesto | ads · digital | Small | BCN digital-creative agency | manifiesto.biz *(verify)* | todo |
+| Company           | Industry       | Size  | Why it fits                                                                           | Links                      | Status |
+| ----------------- | -------------- | ----- | ------------------------------------------------------------------------------------- | -------------------------- | ------ |
+| Herraiz Soto & Co | ads · digital  | Small | Historic BCN creative-digital agency — branding, branded content, digital experiences | herraizsoto.com *(verify)* | todo   |
+| DoubleYou         | ads · digital  | Small | Pioneer Spanish digital-creative agency                                               | doubleyou.com *(verify)*   | todo   |
+| &Rosàs            | ads            | Small | Respected indie BCN ad agency                                                         | *(verify URL)*             | todo   |
+| Soon in Tokyo     | ads            | Small | Indie creative agency, bold campaign work                                             | soonintokyo.com *(verify)* | todo   |
+| Honest            | ads · strategy | Small | Independent creative agency — strategy + design + content                             | *(verify URL)*             | todo   |
+| The George        | ads · digital  | Small | Independent creative agency: branding → web → digital campaigns                       | *(verify URL)*             | todo   |
+| Manifiesto        | ads · digital  | Small | BCN digital-creative agency                                                           | manifiesto.biz *(verify)*  | todo   |
 
 ## Design / creative studios
 | Company | Industry | Size | Why it fits | Links | Status |
