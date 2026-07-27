@@ -10,15 +10,15 @@ Legend → **Size:** Big / Small / Micro · **Status:** `todo` → `★ shortlis
 Berlin is very **English-friendly** for creative work. Roles below skew toward assistant / junior / coordinator.
 
 ## Fashion & culture
-| Company | Industry | Size | Why it fits | Links | Status |
-|---|---|---|---|---|---|
-| Highsnobiety | fashion · media · ads | Big | Fashion/culture media + creative agency, English-first — content, photo, junior creative | highsnobiety.com | todo |
-| 032c | fashion · arts · media | Small | Cult Berlin fashion/culture magazine + label — editorial + brand | 032c.com | todo |
-| Reference Studios | fashion · ads | Small | Fashion communications/creative agency (events, PR, content) | reference-studios.com *(verify)* | todo |
-| Aeyde | fashion | Small | Design-led footwear/accessories brand, English — e-com/brand/studio support | aeyde.com | todo |
-| GmbH | fashion | Small | Avant-garde Berlin label (Berlin Fashion Week) | *(verify URL)* | todo |
-| Lala Berlin | fashion | Small | Established Berlin womenswear label | lalaberlin.com | todo |
-| Horizn Studios | fashion · tech/product | Small | Design-led travel brand — product + brand | horizn-studios.com | todo |
+| Company           | Industry               | Size  | Why it fits                                                                              | Links                            | Status |
+| ----------------- | ---------------------- | ----- | ---------------------------------------------------------------------------------------- | -------------------------------- | ------ |
+| Highsnobiety      | fashion · media · ads  | Big   | Fashion/culture media + creative agency, English-first — content, photo, junior creative | highsnobiety.com                 | todo   |
+| 032c              | fashion · arts · media | Small | Cult Berlin fashion/culture magazine + label — editorial + brand                         | 032c.com                         | todo   |
+| Reference Studios | fashion · ads          | Small | Fashion communications/creative agency (events, PR, content)                             | reference-studios.com *(verify)* | todo   |
+| Aeyde             | fashion                | Small | Design-led footwear/accessories brand, English — e-com/brand/studio support              | aeyde.com                        | todo   |
+| GmbH              | fashion                | Small | Avant-garde Berlin label (Berlin Fashion Week)                                           | *(verify URL)*                   | todo   |
+| Lala Berlin       | fashion                | Small | Established Berlin womenswear label                                                      | lalaberlin.com                   | todo   |
+| Horizn Studios    | fashion · tech/product | Small | Design-led travel brand — product + brand                                                | horizn-studios.com               | todo   |
 
 ## Arts / galleries
 | Company | Industry | Size | Why it fits | Links | Status |
@@ -60,12 +60,12 @@ Berlin is very **English-friendly** for creative work. Roles below skew toward a
 ## Music-industry creative agencies (avant-garde / alternative) — current focus
 *Added 2026-07-27 at user's request — labels/agencies/studios working inside the music industry with an alternative or avant-garde bent.*
 
-| Company | Industry | Size | Why it fits | Links | Status |
-|---|---|---|---|---|---|
-| PAN | music · label · arts | Micro | Berlin label for sound art & experimental electronic music, interdisciplinary with contemporary art (Anne Imhof, Arca) | p-a-n.org | todo (seed) |
-| Keinemusik | music · label · culture | Small | Berlin electronic label/collective known as much for its visual and event culture as its sound | keinemusik.com | todo (seed) |
-| Ostgut Ton | music · label · culture | Small | Berghain's in-house record label — as avant-garde/underground as Berlin techno gets | ostgut.de | todo (seed) |
-| GUESSTIMATE | music · agency | Small | Self-described "360° Music Agency" out of Berlin | guesstimate.de | todo (seed) |
-| CRT Studio | design-studio · music · arts | Micro | Berlin studio doing branding, motion and visual identity for cultural institutions and artists (domain unconfirmed) | crtdev.webflow.io *(verify)* | todo (seed) |
+| Company     | Industry                     | Size  | Why it fits                                                                                                            | Links                        | Status      |
+| ----------- | ---------------------------- | ----- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ----------- |
+| PAN         | music · label · arts         | Micro | Berlin label for sound art & experimental electronic music, interdisciplinary with contemporary art (Anne Imhof, Arca) | p-a-n.org                    | todo (seed) |
+| Keinemusik  | music · label · culture      | Small | Berlin electronic label/collective known as much for its visual and event culture as its sound                         | keinemusik.com               | todo (seed) |
+| Ostgut Ton  | music · label · culture      | Small | Berghain's in-house record label — as avant-garde/underground as Berlin techno gets                                    | ostgut.de                    | todo (seed) |
+| GUESSTIMATE | music · agency               | Small | Self-described "360° Music Agency" out of Berlin                                                                       | guesstimate.de               | todo (seed) |
+| CRT Studio  | design-studio · music · arts | Micro | Berlin studio doing branding, motion and visual identity for cultural institutions and artists (domain unconfirmed)    | crtdev.webflow.io *(verify)* | todo (seed) |
 
 **Mine more from:** Creative City Berlin (`creative-city-berlin.de/en/jobs`), Berlin Design Network (`berlin-design-network.org/jobs`), iAgora (English-speaker jobs Berlin), Welcome to the Jungle, FashionUnited DE, The Brand Identity.
