@@ -57,4 +57,15 @@ Berlin is very **English-friendly** for creative work. Roles below skew toward a
 | Native Instruments | music · tech/product | Big | Music tech; for later | native-instruments.com | todo (future) |
 | SoundCloud | music · tech/product | Big | Audio platform; for later | soundcloud.com | todo (future) |
 
+## Music-industry creative agencies (avant-garde / alternative) — current focus
+*Added 2026-07-27 at user's request — labels/agencies/studios working inside the music industry with an alternative or avant-garde bent.*
+
+| Company | Industry | Size | Why it fits | Links | Status |
+|---|---|---|---|---|---|
+| PAN | music · label · arts | Micro | Berlin label for sound art & experimental electronic music, interdisciplinary with contemporary art (Anne Imhof, Arca) | p-a-n.org | todo (seed) |
+| Keinemusik | music · label · culture | Small | Berlin electronic label/collective known as much for its visual and event culture as its sound | keinemusik.com | todo (seed) |
+| Ostgut Ton | music · label · culture | Small | Berghain's in-house record label — as avant-garde/underground as Berlin techno gets | ostgut.de | todo (seed) |
+| GUESSTIMATE | music · agency | Small | Self-described "360° Music Agency" out of Berlin | guesstimate.de | todo (seed) |
+| CRT Studio | design-studio · music · arts | Micro | Berlin studio doing branding, motion and visual identity for cultural institutions and artists (domain unconfirmed) | crtdev.webflow.io *(verify)* | todo (seed) |
+
 **Mine more from:** Creative City Berlin (`creative-city-berlin.de/en/jobs`), Berlin Design Network (`berlin-design-network.org/jobs`), iAgora (English-speaker jobs Berlin), Welcome to the Jungle, FashionUnited DE, The Brand Identity.

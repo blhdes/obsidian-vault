@@ -100,3 +100,5 @@ Starts **only once the portfolio is a shareable v1** (needs real screenshots + p
 - Earlier fetches (Stage 2, on ice for now): **Berlin** (~23) + **Amsterdam** (~20). Scaffolded: **Milan · Mexico City · Malta**.
 - **Now:** you review **Barcelona** and mark `★` / `✗` — gut feeling is enough.
 - **Still to fetch:** Madrid (Stage 1) · Paris · London · Milan · Mexico City · Malta (Stage 2).
+- **2026-07-27 — first Phase-4 outreach sent**, ahead of the Stage-1-first sequencing (user's explicit call — couldn't wait, wanted to start now): **Division Global** (Paris, talent agency spanning fashion/luxury film, commercials, music videos), a short personal email to their internship address, subject "Hello from Barcelona". Portfolio checked and confirmed shareable v1 (real portrait, curated photography, wired app screenshots, CV) — the Phase-4 gate held.
+- **2026-07-27 — second outreach sent**: **Folch** (Barcelona design studio, cinematic brand storytelling), same short personal email, subject "Hello". Skipped straight from `todo` to `→ contacted` (no Phase-2/3 pass first — same fast-moving mode as Division).

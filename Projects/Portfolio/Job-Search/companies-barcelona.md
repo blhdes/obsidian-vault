@@ -36,7 +36,7 @@ Legend → **Size:** Big / Small / Micro · **Status:** `todo` → `★ shortlis
 ## Design / creative studios
 | Company | Industry | Size | Why it fits | Links | Status |
 |---|---|---|---|---|---|
-| Folch | design-studio · fashion | Small | Editorial/brand studio famous for **cinematic** brand storytelling — direct hit for the cinema→brand angle | folchstudio.com | todo |
+| Folch | design-studio · fashion | Small | Editorial/brand studio famous for **cinematic** brand storytelling — direct hit for the cinema→brand angle | folchstudio.com | → contacted |
 | Hey Studio | design-studio | Micro | Graphic/branding/illustration studio with global reach | heystudio.es | todo |
 | Vasava | design-studio | Small | Branding + type + motion since 1997 (Nike, Adobe, FC Barcelona) | vasava.es | todo |
 | Mucho | design-studio | Small | BCN + SF; premium identities for cultural institutions | *(verify URL)* | todo |
@@ -50,6 +50,17 @@ Legend → **Size:** Big / Small / Micro · **Status:** `todo` → `★ shortlis
 | Primavera Sound | music · events · brand | Big | Global festival brand HQ'd in BCN — content, photo/video, production-assistant roles | primaverasound.com | todo |
 | Sónar (Advanced Music) | music · events | Small | Music + creativity + tech festival — same crossover as the profile | sonar.es | todo |
 | Domestika | tech/product · creative learning | Big | Creative-learning platform — product + content + creative | domestika.org | todo |
+
+## Music-industry creative agencies (avant-garde / alternative) — current focus
+*Added 2026-07-27 at user's request — production/branding studios working inside the music industry with an alternative or avant-garde bent.*
+
+| Company | Industry | Size | Why it fits | Links | Status |
+|---|---|---|---|---|---|
+| Basora | design-studio · music | Micro | Record cover design & creative direction for an electronic music label/agency | basora.info | todo (seed) |
+| Stylofoam | design-studio · music · film | Micro | One-person Barcelona studio building branding/web for artists across music, film and art | stylofoam.com | todo (seed) |
+| Åkerblom Studio | production · music · arts | Micro | Barcelona video makers crafting visual narratives across music, design and architecture | akerblomstudio.com | todo (seed) |
+| SIERRA Production House | production · video/photo | Small | Barcelona + Amsterdam production house, video & photo for lifestyle-driven brands | sierraproductionhouse.com | todo (seed) |
+| Ready.barcelona | production · music · ads | Small | Filmmaker/producer team handling music videoclips alongside Netflix/Nike/Apple work | ready.barcelona | todo (seed) |
 
 ## Tech / product (design-led)
 | Company | Industry | Size | Why it fits | Links | Status |
