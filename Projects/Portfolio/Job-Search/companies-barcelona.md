@@ -54,13 +54,13 @@ Legend → **Size:** Big / Small / Micro · **Status:** `todo` → `★ shortlis
 ## Music-industry creative agencies (avant-garde / alternative) — current focus
 *Added 2026-07-27 at user's request — production/branding studios working inside the music industry with an alternative or avant-garde bent.*
 
-| Company | Industry | Size | Why it fits | Links | Status |
-|---|---|---|---|---|---|
-| Basora | design-studio · music | Micro | Record cover design & creative direction for an electronic music label/agency | basora.info | todo (seed) |
-| Stylofoam | design-studio · music · film | Micro | One-person Barcelona studio building branding/web for artists across music, film and art | stylofoam.com | todo (seed) |
-| Åkerblom Studio | production · music · arts | Micro | Barcelona video makers crafting visual narratives across music, design and architecture | akerblomstudio.com | todo (seed) |
-| SIERRA Production House | production · video/photo | Small | Barcelona + Amsterdam production house, video & photo for lifestyle-driven brands | sierraproductionhouse.com | todo (seed) |
-| Ready.barcelona | production · music · ads | Small | Filmmaker/producer team handling music videoclips alongside Netflix/Nike/Apple work | ready.barcelona | todo (seed) |
+| Company                 | Industry                     | Size  | Why it fits                                                                              | Links                     | Status      |
+| ----------------------- | ---------------------------- | ----- | ---------------------------------------------------------------------------------------- | ------------------------- | ----------- |
+| Basora                  | design-studio · music        | Micro | Record cover design & creative direction for an electronic music label/agency            | basora.info               | todo (seed) |
+| Stylofoam               | design-studio · music · film | Micro | One-person Barcelona studio building branding/web for artists across music, film and art | stylofoam.com             | todo (seed) |
+| Åkerblom Studio         | production · music · arts    | Micro | Barcelona video makers crafting visual narratives across music, design and architecture  | akerblomstudio.com        | todo (seed) |
+| SIERRA Production House | production · video/photo     | Small | Barcelona + Amsterdam production house, video & photo for lifestyle-driven brands        | sierraproductionhouse.com | → contacted |
+| Ready.barcelona         | production · music · ads     | Small | Filmmaker/producer team handling music videoclips alongside Netflix/Nike/Apple work      | ready.barcelona           | todo (seed) |
 
 ## Tech / product (design-led)
 | Company | Industry | Size | Why it fits | Links | Status |
@@ -71,9 +71,9 @@ Legend → **Size:** Big / Small / Micro · **Status:** `todo` → `★ shortlis
 ## Sant Cugat & nearby (zero commute — pragmatic options)
 *Smaller local marketing shops: less craft-driven than the studios above, but on the doorstep. Judge in Phase 2 whether the trade-off is worth it.*
 
-| Company | Industry | Size | Why it fits | Links | Status |
-|---|---|---|---|---|---|
-| Pimienta | ads · marketing | Micro | Creative marketing agency in Sant Cugat itself — identity, web, social | pimienta.biz | todo |
-| MediaClick | marketing · digital | Small | 10+ yrs digital marketing agency in Sant Cugat | mediaclick.es *(verify)* | todo |
+| Company    | Industry            | Size  | Why it fits                                                            | Links                    | Status |
+| ---------- | ------------------- | ----- | ---------------------------------------------------------------------- | ------------------------ | ------ |
+| Pimienta   | ads · marketing     | Micro | Creative marketing agency in Sant Cugat itself — identity, web, social | pimienta.biz             | todo   |
+| MediaClick | marketing · digital | Small | 10+ yrs digital marketing agency in Sant Cugat                         | mediaclick.es *(verify)* | todo   |
 
 **Mine more from:** Sortlist (`sortlist.com/s/creative/barcelona-es`), Clutch (Barcelona), The Brand Identity (Barcelona listings), Domestika jobs, BCN Film Commission company directory (`bcncatfilmcommission.com` — production companies), APCP (Spanish production companies association).
