@@ -24,6 +24,7 @@ These notes only cover releases pulled from **Soulseek** and logged in `~/Soulse
 ## Other notes
 
 - [[incomplete-albums|Incomplete Albums]] — partial pulls still missing tracks, kept for research/hunting: 21 releases · 113 missing tracks
+- [[commercial-cull-candidates|Commercial Cull Candidates]] — releases flagged against the anti-commercial-EDM identity shift, awaiting a keep/delete decision
 
 ## How to add a month
 
