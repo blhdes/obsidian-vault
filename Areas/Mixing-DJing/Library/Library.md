@@ -21,6 +21,10 @@ These notes only cover releases pulled from **Soulseek** and logged in `~/Soulse
 - [[july-2026|July 2026 — Library Imports]] — 52 releases · 204 tracks · 45 uploaders
 - [[august-2026|August 2026 — Library Imports]] — 4 releases · 21 tracks · 4 uploaders
 
+## Other notes
+
+- [[incomplete-albums|Incomplete Albums]] — partial pulls still missing tracks, kept for research/hunting: 21 releases · 113 missing tracks
+
 ## How to add a month
 
 1. Copy the previous month's note to `<month>-YYYY.md`.
