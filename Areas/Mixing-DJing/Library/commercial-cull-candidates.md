@@ -62,3 +62,13 @@ Major-label pop/soul icons, not part of the festival/EDM circuit this rule targe
 ## Next step
 
 Nothing deleted yet. Once you confirm which rows to act on, deleting is a straightforward `rm -rf` per path above (plus removing the entry from the relevant monthly note and the Soulseek source log if you want the record to reflect the cull).
+
+## Resumen (ES)
+
+**Candidatos claros a purgar** (~15 releases, ~26 pistas) — pop/dance de chart y "business techno"/melodic house de circuito de festival: Alice DeeJay, Fatboy Slim, Empire Of The Sun, RÜFÜS DU SOL, KREAM, Kosheen, Depeche Mode, todo lo de Keinemusik (Send Return, singles, más los de Reznik que están vinculados a ellos), Kölsch (el álbum entero KINEMA, 10 pistas), Adriatique & WhoMadeWho, Tinlicker, Tiga & Hudson Mohawke, Sophia Stel, Moby. Casi todos entraron en junio, **antes** del giro de identidad del 4 de julio — son resaca del gusto anterior, no fallos recientes.
+
+**Zona gris** — Charlotte de Witte, Kobosil e I Hate Models: la propia nota de dirección musical los marca explícitamente como "business techno de nombre grande, decides caso por caso", así que no se metieron en la lista de purga automática.
+
+**Mainstream pero no EDM** — Sade y Grimes: son iconos de sello mayor, pero no forman parte del circuito de festival/EDM que se rechaza; quedan señalados pero sin recomendar borrado, porque la excepción para material "underground-credible" (Burial, Basic Channel, Villalobos, soul 45s) podría aplicarles igual si son solo para escuchar.
+
+No se ha borrado nada todavía — la nota incluye las rutas exactas en disco para cuando se confirme qué filas ejecutar.
