@@ -26,7 +26,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 ## Tracks by release
 
-### FJAAK — FJAAK 003
+### FJAAK — FJAAK 003 ✅
 > Chewy · WEB · FLAC 16/44 · moved 2026-08-07 · `FJAAK/Fjaak - FJAAK 003 [16B-44.1kHz]/`
 
 | # | Title | Year | Genre | Format |
@@ -36,7 +36,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/11917497)
 
-### Arca — KiCk i
+### Arca — KiCk i ✅
 > Faeton73 · WEB · FLAC 16/44 · moved 2026-08-07 · `Arca/2020 - KiCk i/`
 
 | # | Artist | Title | Year | Genre | Format |
@@ -56,7 +56,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/15543321)
 
-### Quelza — Above the Clouds I Finally Found Peace
+### Quelza — Above the Clouds I Finally Found Peace ✅
 > jordifcg · WEB · FLAC 24/48 · moved 2026-08-07 · `Quelza/Quelza - Above The Clouds I Finally Found Peace/`
 
 | # | Title | Year | Genre | Format |
@@ -69,7 +69,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/36657835)
 
-### Arca — Puta / Sola
+### Arca — Puta / Sola ✅
 > tankersleeve · WEB · FLAC 24/44 · moved 2026-08-07 · `Arca/(2025) Puta _ Sola/`
 
 | # | Title | Year | Genre | Format |
@@ -79,7 +79,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/33983199)
 
-### Isabel Soto — Morphosis EP
+### Isabel Soto — Morphosis EP ✅
 > beachsloth · WEB · FLAC 24/44 · moved 2026-08-08 · `Isabel Soto/Isabel_Soto-Morphosis-OTON128D-24BIT-WEB-FLAC-2025-WAVED/`
 
 | # | Title | Year | Genre | Format |
@@ -93,7 +93,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/35896258)
 
-### Quelza — Les Somnolentes
+### Quelza — Les Somnolentes ✅
 > koalabeer · WEB · FLAC 16/44 · moved 2026-08-08 · `Quelza/Quelza-Les_Somnolentes-MORD097-16BIT-WEB-FLAC-2023-WAVED/`
 
 | # | Title | Year | Genre | Format |
@@ -112,7 +112,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/28685404)
 
-### Quelza — Pensa poetico
+### Quelza — Pensa poetico ✅
 > koalabeer · WEB · FLAC 16/44 · moved 2026-08-08 · `Quelza/Quelza-Pensa_Poetico_EP-DKMNTLUFO16-16BIT-WEB-FLAC-2025-WAVED/`
 
 | # | Title | Year | Genre | Format |
@@ -124,7 +124,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/34051525)
 
-### FKA twigs — EP1
+### FKA twigs — EP1 ✅
 > skittleguy · WEB · FLAC 24/44 · moved 2026-08-08 · `FKA twigs/EP1/`
 
 | # | Title | Year | Genre | Format |
@@ -136,7 +136,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/12668776)
 
-### Ignez — SMV017
+### Ignez — SMV017 ✅
 > username909 · WEB · FLAC 24/48 · moved 2026-08-08 · `Ignez/Ignez-SMV017-24BIT-WEB-FLAC-2026-WAVED/`
 
 | # | Title | Year | Genre | Format |
