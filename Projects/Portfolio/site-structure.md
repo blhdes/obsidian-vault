@@ -6,6 +6,8 @@ tags: [portfolio, website, structure]
 
 # Site structure — one-page scroll
 
+> **Superseded 2026-08-08 — the site is now multi-page.** Reference: biancacensori.com (sparse gallery feel, user's call). The home page is a bare index: name, one meta line, five links. Each body of work lives on its own page: **/photography/** (editorial archive), **/apps/**, **/projects/**, **/cv/** (printable, letterhead + Download PDF), **/info/** (portrait, 3-line bio, email, phone, © — replaces the footer band, which is gone site-wide). Old one-page anchors (/#apps, /#cv, /#contact...) forward to the new pages via a JS map in main.js. The middot field lives on the home index, dissolving through the lower half of the screen. The section-by-section plan below documents the original one-page layout for history.
+
 Decided 2026-06-12. One single page; the menu doesn't open other pages, it scrolls you to each section. Order matters: strongest proof first, contact last.
 
 ## 1. Hero (the first screen)

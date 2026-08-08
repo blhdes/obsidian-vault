@@ -19,7 +19,7 @@ These notes only cover releases pulled from **Soulseek** and logged in `~/Soulse
 
 - [[june-2026|June 2026 — Library Imports]] — first month: 109 releases · 280 tracks · 80 uploaders
 - [[july-2026|July 2026 — Library Imports]] — 52 releases · 204 tracks · 45 uploaders
-- [[august-2026|August 2026 — Library Imports]] — 4 releases · 21 tracks · 4 uploaders
+- [[august-2026|August 2026 — Library Imports]] — 9 releases · 50 tracks · 8 uploaders
 
 ## Other notes
 
