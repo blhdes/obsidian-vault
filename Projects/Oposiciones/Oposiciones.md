@@ -112,6 +112,18 @@ Dos recursos oficiales y gratis, encontrados hoy, para arrancar ya:
 
 No hace falta decidir nada más grande que esto ahora mismo.
 
+### Mientras no se compra el manual: alternativas gratis con fiabilidad cercana al libro
+
+Para cuando no quieras comprar el manual completo todavía (2026-08-17):
+
+1. **Biblioteca pública (préstamo, gratis)** — las bibliotecas catalanas suelen tener sección de oposiciones. Buscar "Técnico Auxiliar Informática" o "TAI" en el catálogo: [Catàlegs — Biblioteques públiques de Catalunya](https://biblioteques.gencat.cat/ca/biblioteques/catalegs/). Si la biblioteca de barrio no lo tiene, se puede pedir por **préstec interbibliotecari** (lo traen gratis de cualquier otra biblioteca de la red). Es la opción más fiable de todas — es literalmente el libro, solo que prestado en vez de comprado.
+2. **Primer tema gratis de academias reales** (no blogs de dudosa fiabilidad) — OpositaOnline y PreparaOposiciones dejan descargar un tema completo de muestra sin pagar, con el mismo desarrollo que el contenido de pago. Sirve para tener ya hoy un tema del Bloque II con nivel real.
+3. **Apuntes universitarios abiertos** — arquitectura de ordenadores, estructuras de datos, sistemas operativos y bases de datos (el Bloque II entero) son temario de primer curso de cualquier grado de informática. Hay mucho material universitario gratuito de sobra de profundidad (más que la oposición pide) — solo hay que ceñirlo al alcance del índice oficial ya guardado en [[Projects/Oposiciones/temario-tai|Temario TAI]].
+
+**Deliberadamente fuera de la lista:** los PDFs "compartidos" de manuales de pago que circulan por foros/Telegram — son copias piratas de contenido con derechos.
+
+**Truco de verificación:** después de estudiar un tema con cualquiera de estas fuentes gratuitas, contrastarlo contra las preguntas reales del examen de mayo 2026 (enlazadas arriba) — si se responden bien, la fuente gratuita vale.
+
 ## Cuánto tiempo real de estudio hace falta
 
 - **Dedicación completa (jornada de estudio tipo tiempo completo):** 9–15 meses
