@@ -77,6 +77,23 @@ Las academias de oposiciones (no el BOE) estiman, para una plaza de nuevo ingres
 
 Es una horquilla de fuentes de preparación, no una tabla oficial — para la cifra exacta de un puesto concreto habría que mirar la RPT (relación de puestos de trabajo) del destino específico.
 
+## ¿Hace falta academia? No
+
+No es obligatorio por ley ni por el proceso — se puede preparar 100% por libre y apuntarse por cuenta propia. Dos cosas separadas:
+
+**Estudiar el temario:** no requiere pasar por una academia. Opciones:
+- Comprar solo el manual/temario editorial (Adams, MAD, CEF lo venden suelto, sin el resto del pack)
+- Estudiar por libre con disciplina propia — mucha gente aprueba así, sobre todo en cuerpos C1 donde el temario es más manejable que en A1/A2
+- Modelo mixto: temario por libre + algún simulacro o clase suelta cerca del examen, sin apuntarse al año completo
+
+Lo que compra una academia (aparte del propio temario) es sobre todo estructura: seguimiento, seguimiento del ritmo de estudio, tests de práctica y simulacros — útil si te cuesta auto-organizarte, no imprescindible.
+
+**Apuntarse a la convocatoria:** trámite 100% online, sin intermediario:
+- Se presenta a través del **Servicio de Inscripción en Pruebas Selectivas (IPS)**, vía la Sede electrónica del INAP o el Punto de Acceso General (administracion.gob.es)
+- Identificación con **Cl@ve** (o DNI electrónico)
+- Se rellena la instancia (modelo 790) y se paga una **tasa de examen pequeña** (importe exacto en el BOE de cada convocatoria; hay exenciones para desempleados, familia numerosa, discapacidad, etc.)
+- Plazo habitual: 20 días hábiles desde la publicación en el BOE
+
 ## Ascenso: el camino de carrera es real
 
 Confirmado — una vez aprobado el TAI (C1), hay una vía de **promoción interna** bien establecida:
