@@ -10,6 +10,8 @@ Nota nueva, en español, para explorar una vía de **estabilidad económica** en
 
 **2026-08-17 — arrancado el estudio real.** Primera sesión hecha (Bloque II, Tema 1 — Arquitectura de ordenadores), sin manual todavía: biblioteca pública sin ediciones recientes, muestras gratis de academia descartadas (solo dan el Tema 1 del Bloque I, no encajan con empezar por Bloque II). Sesiones construidas paso a paso en `Projects/Oposiciones/Estudio/`, una nota por tema, cada una cerrando con un contraste contra el examen real de mayo 2026. **Ritmo confirmado para el primer mes: 30-45 min, 3-4 días por semana.** Seguimiento en [[Projects/Oposiciones/temario-tai|Temario TAI]].
 
+**2026-08-17 — el contenido de estudio también se publica en el portfolio.** A petición del usuario, cada bloque estudiado se sube además a `alegomez.studio/oposiciones/` (repo público `github.com/blhdes/portfolio`, mismo `git push` que despliega el resto del sitio). **Deliberadamente público pero sin enlazar desde el nav principal** (Photography · Apps · Projects · CV se quedan igual de curados) y con `<meta name="robots" content="noindex">` para no mezclarse con las búsquedas de su nombre profesional. Publicado hasta ahora: `/oposiciones/index.html` (índice de los 4 bloques) y `/oposiciones/bloque-ii/index.html` (Tema 1 completo). **De aquí en adelante, cada sesión de estudio se guarda en ambos sitios**: la nota en `Projects/Oposiciones/Estudio/` (fuente, en Obsidian) y su reflejo en `/Users/agomezu/Claude/portfolio/oposiciones/` (publicado). Al tocar `css/style.css` o `js/main.js`, recordar el cache-bust `?v=N` en las 8+ páginas del sitio (iba por v=75 a fecha de hoy).
+
 ## Confirmado: es exactamente lo que creías
 
 Tu recuerdo era correcto en los tres puntos:
