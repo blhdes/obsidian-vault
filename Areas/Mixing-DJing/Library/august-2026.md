@@ -8,7 +8,7 @@ tags: [library, soulseek, imports, august-2026, dj]
 
 Every release pulled from **Soulseek** into `~/Music/Library/` this month, with the **exact tags currently written on disk**. Source uploaders, quality notes and move dates come from the Soulseek log (`~/Soulseek Downloads/_downloaded-sources.md`) — this note only covers folders recorded there.
 
-**This month:** 11 releases · 66 tracks · from 9 Soulseek uploaders.
+**This month:** 14 releases · 79 tracks · from 11 Soulseek uploaders.
 
 ## Releases (summary)
 
@@ -25,6 +25,9 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 | 08-08 | Ignez — SMV017 | 4 | FLAC 24/48 | Techno | username909 |
 | 08-17 | Mathys Lenne — The Poet And The Muse *(completes 1/11 → full 11)* | 11 | FLAC 16/44 | Techno, Raw / Deep / Hypnotic | s3NNheis3R |
 | 08-17 | Temudo — And The Pattern Repeats | 5 | FLAC 24/44 | Techno | username909 |
+| 08-17 | Lewis Fautzi & The Advent — Gravity Won't Hold Me | 4 | FLAC 24/44 | Techno | Grenoybel |
+| 08-17 | Lewis Fautzi — Ghosts Don't Text Me | 5 | FLAC 16/44 | Techno | username909 |
+| 08-17 | Nørbak — Chuva | 4 | FLAC 16/44 | Techno, Deep Techno, Hypnotic Techno, Raw Techno | fishingpvalues |
 
 ## Tracks by release
 
@@ -183,6 +186,43 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/36895375)
 
+### Lewis Fautzi & The Advent — Gravity Won't Hold Me ✅
+> Grenoybel · scene WEB · FLAC 24/44 · moved 2026-08-17 · `Lewis Fautzi/Lewis_Fautzi_And_The_Advent-Gravity_Wont_Hold_Me-FAUT067-24BIT-WEB-FLAC-2025-WAVED/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 1 | Graviton Field | 2025 | Techno | FLAC 24/44 |
+| 2 | Deep Sector | 2025 | Techno | FLAC 24/44 |
+| 3 | Cosmic Static | 2025 | Techno | FLAC 24/44 |
+| 4 | Echoes Of The Void | 2025 | Techno | FLAC 24/44 |
+
+[Discogs ↗](https://www.discogs.com/release/36180820)
+
+### Lewis Fautzi — Ghosts Don't Text Me ✅
+> username909 · scene WEB · FLAC 16/44 · moved 2026-08-17 · `Lewis Fautzi/Lewis_Fautzi-Ghosts_Dont_Text_Me-FAUT071-16BIT-WEB-FLAC-2026-WAVED/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 1 | Alignment Of Stars | 2026 | Techno | FLAC 16/44 |
+| 2 | Paranoid Signals | 2026 | Techno | FLAC 16/44 |
+| 3 | Against The System | 2026 | Techno | FLAC 16/44 |
+| 4 | No Return Zone | 2026 | Techno | FLAC 16/44 |
+| 5 | Last Warning | 2026 | Techno | FLAC 16/44 |
+
+[Discogs ↗](https://www.discogs.com/release/37652505)
+
+### Nørbak — Chuva ✅
+> fishingpvalues · WEB · FLAC 16/44 · moved 2026-08-17 · `Nørbak/Chuva/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 1 | Sonho | 2026 | Techno, Deep Techno, Hypnotic Techno, Raw Techno | FLAC 16/44 |
+| 2 | Leveza | 2026 | Techno, Deep Techno, Hypnotic Techno, Raw Techno | FLAC 16/44 |
+| 3 | Chuva | 2026 | Techno, Deep Techno, Hypnotic Techno, Raw Techno | FLAC 16/44 |
+| 4 | Capa | 2026 | Techno, Deep Techno, Hypnotic Techno, Raw Techno | FLAC 16/44 |
+
+[Discogs ↗](https://www.discogs.com/release/36427657)
+
 ## Tag-check notes
 
 - **FJAAK — FJAAK 003:** artist normalized `Fjaak` → `FJAAK`; genre trimmed from a French Apple tag (`Électronique, Techno`) to Discogs' `Techno`.
@@ -194,3 +234,6 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 - **Ignez — SMV017:** track 2 is `Moonblur` on disk (matches the WEB nfo), but Discogs' only listed pressing (vinyl) has that slot as `Sight` — kept the WEB title, flagging in case it's worth a second look.
 - **Mathys Lenne — The Poet And The Muse:** genre kept as label's own `Techno, Raw / Deep / Hypnotic` (reformatted from a parenthetical) rather than Discogs' bare `Techno`; replaced the old single-track folder from July's partial pull, same 16/44 FLAC quality.
 - **Temudo — And The Pattern Repeats:** arrived fully and correctly tagged (artist/title/album/year/label all clean); checked Bandcamp for a richer genre per the label's own tagging but it only carries one tag (`Berlin`, a location, not a style) — kept Discogs' `Techno`, which matches both the vinyl and digital listings.
+- **Lewis Fautzi & The Advent — Gravity Won't Hold Me:** filed under `Lewis Fautzi/` (recurring artist across both new Faut Section pulls this batch); Bandcamp's own tags are just `electronic, techno` (no niche subgenre) so kept `Techno`; Discogs' only listing (36180820) has typo'd track titles (`Gravition Field`, `Cosmic Sector`) and a later 2026-01 vinyl press date — ignored both, on-disk tags already match the Nov 2025 Bandcamp digital release.
+- **Lewis Fautzi — Ghosts Don't Text Me:** same label, same result — Bandcamp tags are generic (`electronic, techno`, one duplicated/typo'd), kept `Techno`; arrived correctly tagged otherwise.
+- **Nørbak — Chuva:** arrived with all 4 tracks tagged `tracknumber 1` and `date 0000` — fixed track order (Sonho, Leveza, Chuva, Capa) and year (2026) from Bandcamp; genre upgraded from bare `Techno` to the label's own `Techno, Deep Techno, Hypnotic Techno, Raw Techno` (Bandcamp had 4 real style tags here vs. Discogs' plain `Techno`); added missing label field (Token Records, TOKEN137).
