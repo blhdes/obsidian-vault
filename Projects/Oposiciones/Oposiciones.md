@@ -43,14 +43,22 @@ Para promoción interna (si ya eres funcionario de un grupo inferior) el examen 
 
 ## El temario
 
-33 temas repartidos en 4 bloques:
+33 temas repartidos en 4 bloques, **los 4 obligatorios** (no hay bloques opcionales):
 
-- **Bloque I** — Organización del Estado y Administración Electrónica
-- **Bloque II** — Tecnología (bases de hardware/software, redes, seguridad)
-- **Bloque III** — Desarrollo de Sistemas
-- **Bloque IV** — Comunicaciones
+- **Bloque I** — Organización del Estado y Administración Electrónica (9 temas)
+- **Bloque II** — Tecnología básica (5 temas)
+- **Bloque III** — Desarrollo de Sistemas (9 temas)
+- **Bloque IV** — Sistemas y Comunicaciones (10 temas)
 
-El BOE de la convocatoria trae el temario oficial completo, tema por tema, como anexo.
+La parte 1 del examen (el test de 80 preguntas) entra de los 4 bloques enteros. La parte 2 (el supuesto práctico) se elige entre uno del Bloque III o uno del IV — pero para llegar con margen conviene dominar ambos, no apostarlo todo a uno solo.
+
+El BOE de la convocatoria trae el temario oficial completo, tema por tema, como anexo (Anexo V). **El índice de temas es gratis y estable entre convocatorias**: el programa de la convocatoria de diciembre 2025 es el mismo que el de la resolución de 9 de julio de 2024 — así que lo que estudies ahora con este índice debería servir también para la próxima convocatoria. Lo que no es gratis es el contenido desarrollado de cada tema (el "manual" explicado) — eso lo venden las editoriales especializadas (ver más abajo) o te lo curras tú con las leyes que cita cada tema.
+
+## Cuánto tiempo real de estudio hace falta
+
+- **Dedicación completa (jornada de estudio tipo tiempo completo):** 9–15 meses
+- **Part-time**, compaginando con trabajo (tu caso, con el club de tenis): más realista pensar en **1–2 años**
+- Varía según tu base técnica previa — si ya tienes soltura con redes/sistemas/desarrollo, los bloques II-IV te cuestan menos; si partes de cero en informática, cuenta con la parte alta de esa horquilla.
 
 ## Plazas y convocatorias — dónde estamos ahora
 
@@ -87,6 +95,17 @@ No es obligatorio por ley ni por el proceso — se puede preparar 100% por libre
 - Modelo mixto: temario por libre + algún simulacro o clase suelta cerca del examen, sin apuntarse al año completo
 
 Lo que compra una academia (aparte del propio temario) es sobre todo estructura: seguimiento, seguimiento del ritmo de estudio, tests de práctica y simulacros — útil si te cuesta auto-organizarte, no imprescindible.
+
+### Dónde comprar el temario (manuales sueltos, sin academia)
+
+El temario cambió de 42 a 33 temas hace pocas convocatorias — al comprar, comprobar que la edición sea de 2025/2026 y cubra los 33 temas actuales, no una edición vieja.
+
+- **MAD — colección completa, los 4 bloques, edición 2026** (recomendado, ver por qué abajo): [Colección Temario TAI 2026 — MAD](https://mad.es/auxiliar-de-informatica/33048-coleccion-temario-tecnico-auxiliar-informatica-estado-tai-2000000068558.html)
+- **MAD — Bloque I suelto**, edición de julio 2026 (confirmado al día, incluye preguntas del examen de mayo 2026): [Bloque I — MAD](https://mad.es/auxiliar-de-informatica/29416-tecnico-auxiliar-informatica-administracion-general-estado-libre-9788414295519.html)
+- **Adams — colección completa, los 4 bloques**: [Colección TAI — Adams](https://www.adams.es/producto/libros/oposiciones/coleccion-tecnico-auxiliar-de-informatica-administracion-del-estado-tai-4647/)
+- **Tienda BOE** (la editorial del propio Estado): [Cuerpo de Técnicos Auxiliares de Informática de la AE](https://tienda.boe.es/detail.php?id=9788434028210)
+
+**Edición recomendada: la colección completa de MAD (enlace arriba).** Motivos: es una de las dos editoriales especializadas en oposiciones AGE más establecidas (junto a Adams), tiene el temario TAI actualizado al programa vigente (mismo que se confirmó en la convocatoria de diciembre 2025), y comprar los 4 bloques del mismo editorial mantiene el mismo estilo/estructura de un tema a otro — más fácil de seguir que mezclar editoriales sueltas. Adams es la alternativa igual de válida si prefieres comparar precio o maquetación antes de decidir.
 
 **Apuntarse a la convocatoria:** trámite 100% online, sin intermediario:
 - Se presenta a través del **Servicio de Inscripción en Pruebas Selectivas (IPS)**, vía la Sede electrónica del INAP o el Punto de Acceso General (administracion.gob.es)
