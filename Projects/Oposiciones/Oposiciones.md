@@ -175,6 +175,7 @@ Lo que compra una academia (aparte del propio temario) es sobre todo estructura:
 El temario cambió de 42 a 33 temas hace pocas convocatorias — al comprar, comprobar que la edición sea de 2025/2026 y cubra los 33 temas actuales, no una edición vieja.
 
 - **MAD — colección completa, los 4 bloques, edición 2026** (recomendado, ver por qué abajo): [Colección Temario TAI 2026 — MAD](https://mad.es/auxiliar-de-informatica/33048-coleccion-temario-tecnico-auxiliar-informatica-estado-tai-2000000068558.html)
+  - Extensión real de la colección (ficha técnica de cada volumen): Bloque I — 726 pág. · Bloques II+III (temas 1-7) — 586 pág. · Bloques III (cont.)+IV — 750 pág. · Test y supuestos prácticos — 194 pág. **Total: ~2.256 páginas** entre teoría y práctica. Da la escala real del temario, más allá de los "33 temas" en abstracto.
 - **MAD — Bloque I suelto**, edición de julio 2026 (confirmado al día, incluye preguntas del examen de mayo 2026): [Bloque I — MAD](https://mad.es/auxiliar-de-informatica/29416-tecnico-auxiliar-informatica-administracion-general-estado-libre-9788414295519.html)
 - **Adams — colección completa, los 4 bloques**: [Colección TAI — Adams](https://www.adams.es/producto/libros/oposiciones/coleccion-tecnico-auxiliar-de-informatica-administracion-del-estado-tai-4647/)
 - **Tienda BOE** (la editorial del propio Estado): [Cuerpo de Técnicos Auxiliares de Informática de la AE](https://tienda.boe.es/detail.php?id=9788434028210)
