@@ -192,14 +192,16 @@ El temario cambió de 42 a 33 temas hace pocas convocatorias — al comprar, com
 - Se rellena la instancia (modelo 790) y se paga una tasa de examen — en la última convocatoria (dic. 2025) fue de **15,57 €** (Grupo C1); familia numerosa general paga la mitad (7,79 €), familia numerosa especial y otros supuestos quedan exentos. El importe puede variar ligeramente de una convocatoria a otra.
 - Plazo habitual: 20 días hábiles desde la publicación en el BOE
 
-## Ascenso: el camino de carrera es real
+## Ascenso: real, pero con un matiz importante (corregido 2026-08-17)
 
-Confirmado — una vez aprobado el TAI (C1), hay una vía de **promoción interna** bien establecida:
+Existe una vía de **promoción interna** desde TAI:
 
-1. **TAI → Cuerpo de Gestión de Sistemas e Informática (GSI)**, Grupo A2. El temario para este salto es más reducido, hay plazas reservadas específicamente para promoción interna (muchas veces sin cubrir del todo), y se conceden permisos retribuidos para preparar el examen mientras sigues trabajando.
-2. **GSI → Cuerpo Superior de Sistemas y Tecnologías de la Información**, Grupo A1 — el nivel más alto de la carrera informática en el Estado.
+1. **TAI → Cuerpo de Gestión de Sistemas e Informática (GSI)**, Grupo A2. Temario algo más reducido, plazas reservadas para promoción interna, permisos retribuidos para preparar el examen mientras sigues trabajando.
+2. **GSI → Cuerpo Superior de Sistemas y Tecnologías de la Información**, Grupo A1.
 
-Es decir: entras por la puerta más accesible (solo Bachillerato) y desde dentro, siendo ya funcionario, el camino hacia arriba es más corto que empezar de cero por libre.
+**Pero, investigado a fondo:** GSI (A2) exige **titulación universitaria de grado** — y todo apunta a que ese requisito **también aplica a la promoción interna**, no solo al turno libre. Existe un mecanismo real en el EBEP que permite sustituir el título por antigüedad (10 años, o 5 años + curso específico), **pero está documentado específicamente para el salto C2→C1, no para C1→A2** (que es justo el salto TAI→GSI). No se encontró una excepción equivalente confirmada para este salto en concreto, pese a buscarla directamente en las bases oficiales.
+
+**Conclusión honesta:** si no tienes un grado universitario oficial homologado, el ascenso TAI→GSI probablemente queda bloqueado igual que otras vías exploradas hoy (ver RTVE más abajo) — a menos que se obtenga un grado por otra vía en paralelo (ej. Grado online en la UOC compaginado con el trabajo de TAI, camino real y frecuente entre funcionarios). **Lo que no cambia**: TAI en sí (solo Bachillerato) sigue siendo plenamente accesible y da el mismo empleo estable, con o sin plan de ascenso futuro.
 
 ### Los tres cuerpos de informática del Estado, de un vistazo
 
@@ -208,6 +210,17 @@ Es decir: entras por la puerta más accesible (solo Bachillerato) y desde dentro
 | **Técnico Auxiliar de Informática (TAI)** ← este | C1 | Bachillerato / Técnico FP |
 | Gestión de Sistemas e Informática (GSI) | A2 | Grado / Diplomatura |
 | Superior de Sistemas y Tecnologías de la Información | A1 | Grado / Licenciatura |
+
+## Otras oposiciones exploradas (2026-08-17) — decisión tomada
+
+**Confirmado por el usuario: no tiene título universitario de grado/licenciatura homologado.** Esto cierra la pregunta que condicionaba varias ramas: **RTVE Realizador/a y el ascenso TAI→GSI quedan descartados** (ambos lo exigen). **TAI se confirma como la vía a seguir** — es la única de las exploradas que no depende de esa titulación, y sigue dando empleo estable sin ningún condicionante adicional. El plan de ascenso a futuro dependería de sacar un grado por otra vía (ej. UOC online, compaginado con el trabajo de TAI) si algún día interesa retomarlo — no es necesario decidirlo ahora.
+
+- **RTVE — Realizador/a de televisión**: encaje fuerte con el perfil (DOP en *Mia & Marc*, *Three Impro Pieces*) — temario específico es prácticamente su terreno (lenguaje técnico de cámara, iluminación, sonido, montaje, producción de directos). Pero **exige titulación universitaria de grado/licenciatura homologada** — misma pregunta pendiente de arriba. Personal laboral (Convenio Colectivo RTVE), no funcionario EBEP. Proceso: test 100 preguntas + prueba práctica (corte a 800 candidatos) + concurso de méritos (30%). Plazas escasas y concentradas en Madrid (en la convocatoria de referencia: 3 de 23 turno libre en Barcelona, 15 en Madrid). Fuente: Bases Específicas RTVE Realización Televisión (III Convenio Colectivo RTVE), vía CCOO-RTVE.
+- **GSI, vía promoción interna desde TAI**: ver sección "Ascenso" arriba — probablemente bloqueada por el mismo motivo (título universitario).
+- **Tècnic/a Auxiliar de Disseny Gràfic** (administración local catalana): fuerte fit con BLHADES/branding, mismo patrón fragmentado que la informática catalana (convocatorias sueltas por ayuntamiento/diputación), solo Bachillerato + català B2. No bloqueada por titulación universitaria.
+- **Auxiliar de Archivos, Bibliotecas y Museos** (AGE): accesible (C1/C2) pero encaje flojo, ángulo cultura/patrimonio no directamente relacionado con su perfil.
+- **Técnico de sonido** (RTVE, teatros públicos): adyacente al interés de producción/DJing pero orientado a sonido en directo/radio-TV, no a producción musical — con solo 1-2 meses de EBM, no es un camino realista todavía.
+- **Academias recomendadas si se retoma TAI en serio**: forjaTIC (forjatic.es, 110€/mes sin permanencia, profesorado funcionario TAI/GSI activo) y Supera Oposiciones — ambas especializadas en TIC, mejor encaje que MAD/Adams (generalistas) dado el peso técnico del temario.
 
 ## Fuentes oficiales consultadas
 
