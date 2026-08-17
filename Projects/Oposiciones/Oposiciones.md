@@ -105,7 +105,11 @@ El temario cambió de 42 a 33 temas hace pocas convocatorias — al comprar, com
 - **Adams — colección completa, los 4 bloques**: [Colección TAI — Adams](https://www.adams.es/producto/libros/oposiciones/coleccion-tecnico-auxiliar-de-informatica-administracion-del-estado-tai-4647/)
 - **Tienda BOE** (la editorial del propio Estado): [Cuerpo de Técnicos Auxiliares de Informática de la AE](https://tienda.boe.es/detail.php?id=9788434028210)
 
-**Edición recomendada: la colección completa de MAD (enlace arriba).** Motivos: es una de las dos editoriales especializadas en oposiciones AGE más establecidas (junto a Adams), tiene el temario TAI actualizado al programa vigente (mismo que se confirmó en la convocatoria de diciembre 2025), y comprar los 4 bloques del mismo editorial mantiene el mismo estilo/estructura de un tema a otro — más fácil de seguir que mezclar editoriales sueltas. Adams es la alternativa igual de válida si prefieres comparar precio o maquetación antes de decidir.
+**Edición recomendada: la colección completa de MAD (enlace arriba), por delante de Adams y de la Tienda BOE.** Motivos:
+- MAD y Adams son las dos editoriales especializadas en oposiciones AGE más establecidas — comprar los 4 bloques del mismo editorial mantiene el mismo estilo/estructura de un tema a otro, más fácil de seguir que mezclar sueltos.
+- MAD tiene el temario TAI actualizado al programa vigente (el mismo que se confirmó en la convocatoria de diciembre 2025).
+- **La edición de la Tienda BOE no es mejor por ser "oficial"**: lo oficial de verdad es el índice de temas publicado en el BOE de la convocatoria (gratis, ya enlazado arriba) — el libro de la Tienda BOE es solo una edición comercial más, sin los esquemas, tests ni actualización constante al programa que sí tienen MAD/Adams, pensados específicamente para opositar.
+- Adams queda como alternativa igual de válida si al comparar precio/maquetación prefieres esa.
 
 **Apuntarse a la convocatoria:** trámite 100% online, sin intermediario:
 - Se presenta a través del **Servicio de Inscripción en Pruebas Selectivas (IPS)**, vía la Sede electrónica del INAP o el Punto de Acceso General (administracion.gob.es)
@@ -138,6 +142,25 @@ Es decir: entras por la puerta más accesible (solo Bachillerato) y desde dentro
 - [INAP — Cuerpo de Gestión de Sistemas e Informática (promoción a A2)](https://www.inap.es/cuerpo-de-gestion-de-sistemas-e-informatica-de-la-administracion-del-estado)
 
 Las cifras de sueldo vienen de webs de academias de oposiciones (Adams, RedOpositor, OpoTips, etc.) porque el BOE no publica una tabla de "sueldo neto" directa — están marcadas arriba como estimación, no como dato oficial.
+
+## Alternativa: la vía catalana (Generalitat) en vez de la estatal (AGE)
+
+La Generalitat de Catalunya también contrata perfiles equivalentes — el puesto se llama **"Tècnic/a Especialista Informàtic/a"** (a veces "Suport Tècnic Informàtic"), también Grupo **C1**. Pero la estructura es bastante distinta a la del TAI estatal, y no siempre mejor:
+
+| | **AGE — TAI** (estatal, explorado arriba) | **Generalitat — Tècnic Especialista Informàtic** |
+|---|---|---|
+| Estructura | **Un cuerpo único**, una convocatoria centralizada y periódica, gestionada por el INAP | **No hay un cuerpo único ni convocatoria centralizada** — cada departamento (Presidència, Interior, Justícia, Institut Català de la Salut, Cultura, Governació, museus como el MNAC...) convoca sus propias plazas por separado, de forma dispersa a lo largo de todo el año |
+| Catalán | No se exige | Se exige certificado oficial de catalán — normalmente **nivel B2**, a veces C1 según la convocatoria concreta |
+| Temario | Único y oficial: los mismos 33 temas para toda convocatoria (Anexo V del BOE) | Varía por convocatoria/departamento — no encontré un índice único y centralizado equivalente; **pendiente de investigar si decides tirar por aquí en serio** |
+| Tamaño de las convocatorias | Cientos a la vez (1.030 plazas en la última) | Tandas pequeñas y sueltas — de 1 a 45 plazas por convocatoria departamental |
+| Sueldo | ~1.400–1.800 €/mes netos estimados (fuentes de academias) | Un ejemplo real encontrado (Tècnic/a Suport Informàtica C1): ~2.180 €/mes netos — más alto, pero es **un solo dato de una convocatoria concreta**, no una media confirmada para todo el cuerpo |
+| Dónde vigilar | BOE + sede electrónica del INAP | El DOGC (Diari Oficial de la Generalitat) es la fuente oficial; el portal [CIDO de la Diputació de Barcelona](https://cido.diba.cat) agrega todas las convocatorias de la Generalitat en un buscador único — muy útil pero no es oficial, solo agregador |
+
+**A favor de la vía catalana:** 100% en Barcelona, sin plantearte moverte ni de barrio; el catalán es un requisito que probablemente ya cumples (a confirmar si tienes el **certificado oficial**, no basta con hablarlo); el único dato de sueldo encontrado es más alto que la estimación estatal.
+
+**En contra:** sistema fragmentado, sin una fecha única ni un temario cerrado que estudiarte de una vez — toca vigilar convocatorias sueltas de distintos departamentos casi todo el año, en vez de apuntar a un examen con fecha fija como el TAI. Ejemplo real de esa dispersión: mientras investigaba esto (17/08/2026) había una convocatoria de 1 plaza en el Departament de Justícia con el plazo cerrando **ese mismo día** — así de repentinas y pequeñas pueden ser.
+
+**Conclusión provisional:** el camino estatal (TAI) es más fácil de planificar (una fecha, un temario, un examen); el catalán puede ser más rentable económicamente y no exige moverte de Barcelona, pero pide vigilancia constante en vez de un objetivo cerrado. Si se decide explorar en serio la vía catalana, el siguiente paso sería mirar 2-3 convocatorias reales recientes en el buscador CIDO para ver si el temario/proceso se parece entre departamentos o es realmente distinto cada vez.
 
 ## Cómo encaja con el resto del plan de este año
 
