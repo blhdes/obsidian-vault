@@ -69,9 +69,11 @@ Sesiones de estudio reales, paso a paso, en `Projects/Oposiciones/Estudio/` — 
 
 **Ritmo confirmado (desde 2026-08-17, primer mes):** 30-45 min, 3-4 días por semana.
 
+**Método (fijado 2026-08-17):** contenido completo desde la primera pasada (no solo introducción), contrastado siempre contra un examen real antes de dar el tema por hecho.
+
 | Bloque | Tema | Estado |
 |---|---|---|
-| II | 1 — Arquitectura de ordenadores | 🟡 en curso — [[Projects/Oposiciones/Estudio/bloque-ii-tema-1-arquitectura-ordenadores\|nota]] |
+| II | 1 — Arquitectura de ordenadores | ✅ repasado — [[Projects/Oposiciones/Estudio/bloque-ii-tema-1-arquitectura-ordenadores\|nota]] |
 | II | 2 — Periféricos | pendiente |
 | II | 3 — Estructuras de datos y ficheros | pendiente |
 | II | 4 — Sistemas operativos | pendiente |
