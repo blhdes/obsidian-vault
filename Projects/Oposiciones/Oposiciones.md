@@ -45,6 +45,8 @@ Para promoción interna (si ya eres funcionario de un grupo inferior) el examen 
 
 33 temas repartidos en 4 bloques, **los 4 obligatorios** (no hay bloques opcionales). Este es el **listado real, sacado directamente del Anexo V** de la Resolución de 18/12/2025 (fuente primaria, no un blog): [Normas específicas TAI — Anexo V, INAP (PDF, pág. 50-53)](https://sede.inap.gob.es/sites/sede/files/public/2025-12/TAILI.pdf)
 
+📖 **Listado completo, para consulta rápida en cualquier momento, en nota aparte:** [[Projects/Oposiciones/temario-tai|Temario TAI]] (incluye tabla de seguimiento por bloque).
+
 > ⚠️ **Corrección**: la página redopositor.com que consultaste da un temario distinto (35 temas, otros nombres de bloque) — comprobado contra el documento oficial, esos datos son incorrectos o de una versión especulativa no real. Usa siempre el Anexo V de arriba, o el listado de aquí abajo, como referencia.
 
 **Bloque I — Organización del Estado y Administración electrónica** (9 temas)
@@ -170,7 +172,7 @@ El temario cambió de 42 a 33 temas hace pocas convocatorias — al comprar, com
 **Apuntarse a la convocatoria:** trámite 100% online, sin intermediario:
 - Se presenta a través del **Servicio de Inscripción en Pruebas Selectivas (IPS)**, vía la Sede electrónica del INAP o el Punto de Acceso General (administracion.gob.es)
 - Identificación con **Cl@ve** (o DNI electrónico)
-- Se rellena la instancia (modelo 790) y se paga una **tasa de examen pequeña** (importe exacto en el BOE de cada convocatoria; hay exenciones para desempleados, familia numerosa, discapacidad, etc.)
+- Se rellena la instancia (modelo 790) y se paga una tasa de examen — en la última convocatoria (dic. 2025) fue de **15,57 €** (Grupo C1); familia numerosa general paga la mitad (7,79 €), familia numerosa especial y otros supuestos quedan exentos. El importe puede variar ligeramente de una convocatoria a otra.
 - Plazo habitual: 20 días hábiles desde la publicación en el BOE
 
 ## Ascenso: el camino de carrera es real
