@@ -220,7 +220,15 @@ Existe una vía de **promoción interna** desde TAI:
 - **Tècnic/a Auxiliar de Disseny Gràfic** (administración local catalana): fuerte fit con BLHADES/branding, mismo patrón fragmentado que la informática catalana (convocatorias sueltas por ayuntamiento/diputación), solo Bachillerato + català B2. No bloqueada por titulación universitaria.
 - **Auxiliar de Archivos, Bibliotecas y Museos** (AGE): accesible (C1/C2) pero encaje flojo, ángulo cultura/patrimonio no directamente relacionado con su perfil.
 - **Técnico de sonido** (RTVE, teatros públicos): adyacente al interés de producción/DJing pero orientado a sonido en directo/radio-TV, no a producción musical — con solo 1-2 meses de EBM, no es un camino realista todavía.
-- **Academias recomendadas si se retoma TAI en serio**: forjaTIC (forjatic.es, 110€/mes sin permanencia, profesorado funcionario TAI/GSI activo) y Supera Oposiciones — ambas especializadas en TIC, mejor encaje que MAD/Adams (generalistas) dado el peso técnico del temario.
+### Academias online — comparativa y decisión final (2026-08-17)
+
+Todas confirmadas como aptas para estudio a tu ritmo (clases grabadas, no exige directo): The Globe Formación, CETIC, forjaTIC, Supera Oposiciones, MAD (MAD360, 160€/12 meses), Adams. ITIC Academy sin datos suficientes verificados.
+
+**Dos finalistas elegidas:**
+1. **Adams** (adams.es) — la marca más asentada y de más confianza de todas, formato grabado a tu ritmo confirmado. Precio exacto no conseguido (web bloquea el acceso automatizado) — consultar directamente.
+2. **The Globe Formación** (theglobeformacion.com) — profesor **Pablo Arellano**, funcionario real del Cuerpo Superior GSI, +20 años preparando específicamente TAI. La credencial más concreta y verificable encontrada para este examen en particular (frente al genérico "profesorado funcionario" de forjaTIC/CETIC/Supera). Precio no confirmado.
+
+Descartadas: forjaTIC (110€/mes sin permanencia, pero presentación de web menos convincente — feedback explícito del usuario), CETIC, Supera, ITIC (info insuficiente), MAD360 (más caro que el papel, generalista).
 
 ## Fuentes oficiales consultadas
 
