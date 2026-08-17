@@ -160,7 +160,21 @@ La Generalitat de Catalunya también contrata perfiles equivalentes — el puest
 
 **En contra:** sistema fragmentado, sin una fecha única ni un temario cerrado que estudiarte de una vez — toca vigilar convocatorias sueltas de distintos departamentos casi todo el año, en vez de apuntar a un examen con fecha fija como el TAI. Ejemplo real de esa dispersión: mientras investigaba esto (17/08/2026) había una convocatoria de 1 plaza en el Departament de Justícia con el plazo cerrando **ese mismo día** — así de repentinas y pequeñas pueden ser.
 
-**Conclusión provisional:** el camino estatal (TAI) es más fácil de planificar (una fecha, un temario, un examen); el catalán puede ser más rentable económicamente y no exige moverte de Barcelona, pero pide vigilancia constante en vez de un objetivo cerrado. Si se decide explorar en serio la vía catalana, el siguiente paso sería mirar 2-3 convocatorias reales recientes en el buscador CIDO para ver si el temario/proceso se parece entre departamentos o es realmente distinto cada vez.
+**Conclusión provisional:** el camino estatal (TAI) es más fácil de planificar (una fecha, un temario, un examen); el catalán puede ser más rentable económicamente y no exige moverte de Barcelona, pero pide vigilancia constante en vez de un objetivo cerrado.
+
+### El temario catalán, ya localizado
+
+Encontrado el temario real de la categoría **"Tècnic/a especialista informàtica" (Grup C, Subgrup C1)** — copia sindical (UGT) del temario oficial de una convocatoria de la Generalitat: [PDF — C1 Tècnic/a Especialista Informàtica (UGT)](https://ugtgeneralitat.cat/generalitatugt/wp-content/uploads/2022/10/C1_Tecnic_a_Especialista_Informatica.pdf)
+
+Son **25 temas** (más corto que el estatal), en dos partes claramente distintas:
+
+- **Temes 1–6 — part comuna** (igual para cualquier C1 de la Generalitat, no solo informática): Estatut d'Autonomia i Govern/Parlament, organització administrativa de la Generalitat, conveni col·lectiu del personal laboral, Estatut Bàsic de l'Empleat Públic, administració electrònica i protecció de dades, prevenció de riscos laborals.
+- **Temes 7–22 — part específica "genèrica" d'informàtica**: hardware i sistemes operatius, Windows a fons, gestió de fitxers i multimèdia, xarxes, seguretat i ciberseguretat, ofimàtica (processador de textos, fulls de càlcul, Outlook), bases de dades i SQL, xarxes socials, núvol i big data. Contenido bastante transferible de una convocatoria a otra.
+- **Últims temes (en este ejemplo: 16, 23, 24 i 25) — específicos del departamento/plaza concreta**: en la convocatoria de donde sale este PDF, salían temas muy puntuales como el sistema de gestión de bibliotecas Alma d'Exlibris, sistemas de videoconferencia judicial (Cisco, ARCONTE), y gestión telemática ganadera (SITRAN) — es decir, **el tramo final del temario cambia según a qué departamento te presentes**, confirma lo que sospechábamos: no hay un temario único fijo como el TAI estatal, sino una base común + una cola que varía por convocatoria.
+
+Dato extra encontrado en el propio documento: en los procesos de **estabilización** (bajo la Ley 20/2021, plazas que regularizan a interinos), el examen solo entra de una parte reducida de estos temas (7, 9, 10, 14, 15, 17, 18, 19, 22, 23 y 24) — si alguna convocatoria futura es de este tipo, el temario a estudiar es aún más corto.
+
+Si se decide explorar en serio la vía catalana, el siguiente paso sería mirar 2-3 convocatorias reales recientes en el buscador CIDO para confirmar cuánto se repite esta misma base de 22 temas entre departamentos distintos.
 
 ## Cómo encaja con el resto del plan de este año
 
