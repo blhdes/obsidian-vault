@@ -225,7 +225,10 @@ Existe una vía de **promoción interna** desde TAI:
 Todas confirmadas como aptas para estudio a tu ritmo (clases grabadas, no exige directo): The Globe Formación, CETIC, forjaTIC, Supera Oposiciones, MAD (MAD360, 160€/12 meses), Adams. ITIC Academy sin datos suficientes verificados.
 
 **Dos finalistas — decisión final (revisada 2026-08-17):**
-1. **Adams** (adams.es) — 1ª opción. La marca más asentada y de más confianza, formato grabado a tu ritmo confirmado. Precio exacto no conseguido (web bloquea el acceso automatizado, no parece ocultamiento deliberado) — consultar directamente.
+1. **Adams** (adams.es) — 1ª opción. Ofrece dos modalidades para TAI (captura de pantalla del usuario, 2026-08-17):
+   - **"Curso Online"** (la que encaja con autoritmo): pago único sin matrícula, acceso 4/6/9 meses, vídeos sin horario fijo. Incluye libros del temario + Adams Test + 3.899 preguntas Adams Test + 4.500 preguntas tipo examen + 114 píldoras audiovisuales + 85h de vídeo.
+   - **"Clase videoconferencia"** (descartada para este caso): en directo, planes 6/9/12 meses, pero el acceso en diferido a las clases **caduca a los 15 días** — no vale para estudio autoritmo sin fecha límite.
+   - Precio exacto pendiente: solo aparece al usar el configurador "Configurar oposición" en su web (no lo esconden tras un embudo de ventas tipo The Globe, es un configurador por duración).
 2. **forjaTIC** (forjatic.es) — 2ª opción, sustituye a The Globe Formación. **110€/mes, sin permanencia, precio publicado abierto y sin tapujos.** La presentación de su web es más modesta, pero gana en el criterio que más pesó al final: **transparencia de precio**.
 
 **The Globe Formación descartada explícitamente**: oculta el precio detrás de checkout/"a consultar" en varias fuentes — el usuario identificó esto como una táctica de marketing agresivo típica (embudo hacia llamada de ventas) y prefirió evitarlo, aunque tuviera la mejor credencial de profesorado (Pablo Arellano, funcionario GSI, +20 años en TAI). También descartadas: CETIC, Supera, ITIC (info insuficiente), MAD360 (más caro que el papel, generalista).
