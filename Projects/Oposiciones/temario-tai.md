@@ -63,11 +63,21 @@ Referencia rápida de consulta. Contexto completo (requisitos, examen, sueldo, c
 - **Parte 2:** supuesto práctico, a elegir entre uno del Bloque III o uno del Bloque IV (20 preguntas)
 - Ambas partes obligatorias y eliminatorias
 
-## Estado de estudio (rellenar a mano)
+## Estado de estudio
 
-| Bloque | Temas | Estado |
+Sesiones de estudio reales, paso a paso, en `Projects/Oposiciones/Estudio/` — una nota por tema, construida en sesión, con contraste final contra el examen real.
+
+**Ritmo confirmado (desde 2026-08-17, primer mes):** 30-45 min, 3-4 días por semana.
+
+| Bloque | Tema | Estado |
 |---|---|---|
-| I — Organización del Estado | 1-9 | pendiente |
-| II — Tecnología básica | 1-5 | pendiente |
-| III — Desarrollo de sistemas | 1-9 | pendiente |
-| IV — Sistemas y comunicaciones | 1-10 | pendiente |
+| II | 1 — Arquitectura de ordenadores | 🟡 en curso — [[Projects/Oposiciones/Estudio/bloque-ii-tema-1-arquitectura-ordenadores\|nota]] |
+| II | 2 — Periféricos | pendiente |
+| II | 3 — Estructuras de datos y ficheros | pendiente |
+| II | 4 — Sistemas operativos | pendiente |
+| II | 5 — Bases de datos (SGBD) | pendiente |
+| I | 1-9 | pendiente |
+| III | 1-9 | pendiente |
+| IV | 1-10 | pendiente |
+
+Leyenda: `pendiente` → 🟡 `en curso` → ✅ `repasado` (con contraste de examen hecho).

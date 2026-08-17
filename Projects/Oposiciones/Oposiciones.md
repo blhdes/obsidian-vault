@@ -8,6 +8,8 @@ tags: [career, oposiciones, funcionario, informatica, estabilidad]
 
 Nota nueva, en español, para explorar una vía de **estabilidad económica** en paralelo al resto del plan de este año. No sustituye el objetivo creativo (ver [[Projects/Portfolio/Portfolio|Portfolio]] y [[Projects/Portfolio/Job-Search/Job-Search|Job-Search]]) — corre por otro carril, como red de seguridad mientras siguen en marcha: club de tenis (part-time), búsqueda de trabajo creativo + portfolio, inglés en la EOI, y producción musical/DJing EBM (autodidacta).
 
+**2026-08-17 — arrancado el estudio real.** Primera sesión hecha (Bloque II, Tema 1 — Arquitectura de ordenadores), sin manual todavía: biblioteca pública sin ediciones recientes, muestras gratis de academia descartadas (solo dan el Tema 1 del Bloque I, no encajan con empezar por Bloque II). Sesiones construidas paso a paso en `Projects/Oposiciones/Estudio/`, una nota por tema, cada una cerrando con un contraste contra el examen real de mayo 2026. **Ritmo confirmado para el primer mes: 30-45 min, 3-4 días por semana.** Seguimiento en [[Projects/Oposiciones/temario-tai|Temario TAI]].
+
 ## Confirmado: es exactamente lo que creías
 
 Tu recuerdo era correcto en los tres puntos:

@@ -8,7 +8,7 @@ tags: [library, soulseek, imports, august-2026, dj]
 
 Every release pulled from **Soulseek** into `~/Music/Library/` this month, with the **exact tags currently written on disk**. Source uploaders, quality notes and move dates come from the Soulseek log (`~/Soulseek Downloads/_downloaded-sources.md`) — this note only covers folders recorded there.
 
-**This month:** 9 releases · 50 tracks · from 8 Soulseek uploaders.
+**This month:** 10 releases · 61 tracks · from 9 Soulseek uploaders.
 
 ## Releases (summary)
 
@@ -23,6 +23,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 | 08-08 | Quelza — Pensa poetico | 4 | FLAC 16/44 | Techno, Drum n Bass | koalabeer |
 | 08-08 | FKA twigs — EP1 | 4 | FLAC 24/44 | Contemporary R&B, Downtempo, Bass Music, Ethereal, Experimental, Leftfield | skittleguy |
 | 08-08 | Ignez — SMV017 | 4 | FLAC 24/48 | Techno | username909 |
+| 08-17 | Mathys Lenne — The Poet And The Muse *(completes 1/11 → full 11)* | 11 | FLAC 16/44 | Techno, Raw / Deep / Hypnotic | s3NNheis3R |
 
 ## Tracks by release
 
@@ -148,6 +149,26 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/37669119)
 
+### Mathys Lenne — The Poet And The Muse
+> s3NNheis3R · WEB · FLAC 16/44 · moved 2026-08-17 · `Mathys Lenne/[MORDLP006] Mathys Lenne - The Poet And The Muse (2026)/`
+> Completes the partial pull logged in [[july-2026]] (1/11, bernbarn) — now the full release.
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 1 | A Blue Room | 2026 | Techno, Raw / Deep / Hypnotic | FLAC 16/44 |
+| 2 | The Lodge | 2026 | Techno, Raw / Deep / Hypnotic | FLAC 16/44 |
+| 3 | Tambur | 2026 | Techno, Raw / Deep / Hypnotic | FLAC 16/44 |
+| 4 | The Poet And The Muse | 2026 | Techno, Raw / Deep / Hypnotic | FLAC 16/44 |
+| 5 | Carnets | 2026 | Techno, Raw / Deep / Hypnotic | FLAC 16/44 |
+| 6 | Floating | 2026 | Techno, Raw / Deep / Hypnotic | FLAC 16/44 |
+| 7 | Marcel's Walk | 2026 | Techno, Raw / Deep / Hypnotic | FLAC 16/44 |
+| 8 | Hold Me Close | 2026 | Techno, Raw / Deep / Hypnotic | FLAC 16/44 |
+| 9 | Evolove | 2026 | Techno, Raw / Deep / Hypnotic | FLAC 16/44 |
+| 10 | Revival | 2026 | Techno, Raw / Deep / Hypnotic | FLAC 16/44 |
+| 11 | Goncharov | 2026 | Techno, Raw / Deep / Hypnotic | FLAC 16/44 |
+
+[Discogs ↗](https://www.discogs.com/release/37265355)
+
 ## Tag-check notes
 
 - **FJAAK — FJAAK 003:** artist normalized `Fjaak` → `FJAAK`; genre trimmed from a French Apple tag (`Électronique, Techno`) to Discogs' `Techno`.
@@ -157,3 +178,4 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 - **Quelza — Pensa poetico:** declined an auto-fix that would've matched track 4 to an unrelated "Best of 2025" comp — pinned album/year so all 4 stayed on the actual EP.
 - **FKA twigs — EP1:** no scene nfo, artist identified from embedded tags; MusicBrainz kept mismatching individual tracks to unrelated FKA twigs releases, so only album (`EP` → `EP1`) was fixed by hand — genre pulled from Discogs only.
 - **Ignez — SMV017:** track 2 is `Moonblur` on disk (matches the WEB nfo), but Discogs' only listed pressing (vinyl) has that slot as `Sight` — kept the WEB title, flagging in case it's worth a second look.
+- **Mathys Lenne — The Poet And The Muse:** genre kept as label's own `Techno, Raw / Deep / Hypnotic` (reformatted from a parenthetical) rather than Discogs' bare `Techno`; replaced the old single-track folder from July's partial pull, same 16/44 FLAC quality.
