@@ -43,16 +43,72 @@ Para promoción interna (si ya eres funcionario de un grupo inferior) el examen 
 
 ## El temario
 
-33 temas repartidos en 4 bloques, **los 4 obligatorios** (no hay bloques opcionales):
+33 temas repartidos en 4 bloques, **los 4 obligatorios** (no hay bloques opcionales). Este es el **listado real, sacado directamente del Anexo V** de la Resolución de 18/12/2025 (fuente primaria, no un blog): [Normas específicas TAI — Anexo V, INAP (PDF, pág. 50-53)](https://sede.inap.gob.es/sites/sede/files/public/2025-12/TAILI.pdf)
 
-- **Bloque I** — Organización del Estado y Administración Electrónica (9 temas)
-- **Bloque II** — Tecnología básica (5 temas)
-- **Bloque III** — Desarrollo de Sistemas (9 temas)
-- **Bloque IV** — Sistemas y Comunicaciones (10 temas)
+> ⚠️ **Corrección**: la página redopositor.com que consultaste da un temario distinto (35 temas, otros nombres de bloque) — comprobado contra el documento oficial, esos datos son incorrectos o de una versión especulativa no real. Usa siempre el Anexo V de arriba, o el listado de aquí abajo, como referencia.
+
+**Bloque I — Organización del Estado y Administración electrónica** (9 temas)
+1. Constitución Española de 1978. Derechos y deberes fundamentales. La Corona
+2. Cortes Generales. Tribunal Constitucional. Defensor del Pueblo
+3. El Gobierno: composición, funciones, relación con las Cortes
+4. Estatuto Básico del Empleado Público. Ley 19/2013 de transparencia. Agenda 2030
+5. Políticas de igualdad, no discriminación LGTBI, discapacidad y dependencia
+6. Sociedad de la información. Identidad y firma electrónica. DNI electrónico. Agenda Digital
+7. Protección de datos personales: principios, derechos, obligaciones. Derechos digitales
+8. Acceso electrónico a servicios públicos. Esquema Nacional de Seguridad e Interoperabilidad
+9. Instrumentos de acceso electrónico: sedes, identificación, autenticación
+
+**Bloque II — Tecnología básica** (5 temas)
+1. Informática básica. Arquitectura de ordenadores. Componentes internos
+2. Periféricos: conectividad, impresión, almacenamiento, visualización
+3. Tipos y estructuras de datos. Organización de ficheros. Algoritmos
+4. Sistemas operativos: Windows, Unix/Linux, móviles
+5. Sistemas de gestión de bases de datos: relacionales, orientadas a objetos, NoSQL
+
+**Bloque III — Desarrollo de sistemas** (9 temas)
+1. Modelado de datos. Diseño de bases de datos. Normalización
+2. Lenguajes de programación: tipos, operadores, bucles, funciones
+3. SQL estándar ANSI. Procedimientos almacenados. Triggers
+4. Programación orientada a objetos. Patrones de diseño. UML
+5. Java EE/Jakarta EE y .NET: componentes, persistencia, seguridad
+6. Arquitectura cliente/servidor y multicapa. Servicios web
+7. Aplicaciones web: front-end y servidor. HTML, XML, JS
+8. Accesibilidad, diseño universal, usabilidad, seguridad en el desarrollo
+9. Repositorios, control de versiones, metodologías de desarrollo, pruebas
+
+**Bloque IV — Sistemas y comunicaciones** (10 temas)
+1. Administración del sistema operativo y software de base
+2. Administración de bases de datos. Backup y virtualización
+3. Servidores de correo. Administración de contenedores y microservicios
+4. Administración de redes de área local. Gestión de usuarios y dispositivos
+5. Seguridad de sistemas: física, lógica, criptografía, firma digital, CPD
+6. Comunicaciones: medios de transmisión, equipos, redes
+7. Modelo TCP/IP y modelo OSI
+8. Internet: arquitectura, servicios, HTTP/HTTPS/SSL/TLS
+9. Seguridad en redes: perimetral, VPN, acceso remoto
+10. Redes locales: tipología, transmisión, dispositivos de interconexión
 
 La parte 1 del examen (el test de 80 preguntas) entra de los 4 bloques enteros. La parte 2 (el supuesto práctico) se elige entre uno del Bloque III o uno del IV — pero para llegar con margen conviene dominar ambos, no apostarlo todo a uno solo.
 
-El BOE de la convocatoria trae el temario oficial completo, tema por tema, como anexo (Anexo V). **El índice de temas es gratis y estable entre convocatorias**: el programa de la convocatoria de diciembre 2025 es el mismo que el de la resolución de 9 de julio de 2024 — así que lo que estudies ahora con este índice debería servir también para la próxima convocatoria. Lo que no es gratis es el contenido desarrollado de cada tema (el "manual" explicado) — eso lo venden las editoriales especializadas (ver más abajo) o te lo curras tú con las leyes que cita cada tema.
+**El índice de temas es gratis y estable entre convocatorias**: el programa de la convocatoria de diciembre 2025 es el mismo que el de la resolución de 9 de julio de 2024 — así que lo que estudies ahora con este índice debería servir también para la próxima convocatoria. Lo que no es gratis es el contenido desarrollado de cada tema (el "manual" explicado) — eso lo venden las editoriales especializadas (ver más abajo) o te lo curras tú con las leyes que cita cada tema.
+
+## Cómo empezar hoy mismo, sin academia ni gastar nada
+
+Dos recursos oficiales y gratis, encontrados hoy, para arrancar ya:
+
+1. **El temario real** (arriba, o el PDF del Anexo V enlazado) — ya localizado, no hace falta comprar nada para tener el índice.
+2. **El examen real de mayo 2026**, con las preguntas que cayeron de verdad, gratis en la sede del INAP:
+   - [Cuestionario Modelo A (examen real, mayo 2026)](https://sede.inap.gob.es/sites/sede/files/public/2026-05/Cuestionario%20TAI-L-ModeloA.pdf)
+   - [Cuestionario Modelo B (examen real, mayo 2026)](https://sede.inap.gob.es/sites/sede/files/public/2026-05/Cuestionario%20TAI-L-ModeloB.pdf)
+   - Mirar estas preguntas hoy mismo te dice, sin comprar nada, qué nivel y estilo de pregunta esperar — mejor termómetro que cualquier blog.
+
+**Plan concreto para arrancar esta semana:**
+1. Hoy: abrir uno de los dos cuestionarios reales y leer 15-20 preguntas sueltas, sin estudiar nada aún — solo para calibrar el nivel real (no el que cuentan las academias).
+2. Elegir **un tema para empezar** — recomendación: arrancar por el **Bloque II** (solo 5 temas, el más cercano a lo que ya sabes por tu experiencia construyendo apps) en vez del Bloque I (el más árido, derecho/administrativo) — así el primer contacto con el temario no se hace cuesta arriba.
+3. Dedicarle 30-45 min, 3-4 días esta semana, a ese primer tema: leerlo con calma usando fuentes propias o normativa citada, sin manual todavía.
+4. Al cabo de la semana, decidir con datos reales (no en abstracto) si compensa comprar el manual de MAD para acelerar el resto.
+
+No hace falta decidir nada más grande que esto ahora mismo.
 
 ## Cuánto tiempo real de estudio hace falta
 
