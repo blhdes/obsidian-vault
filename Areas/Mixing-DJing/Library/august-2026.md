@@ -8,7 +8,7 @@ tags: [library, soulseek, imports, august-2026, dj]
 
 Every release pulled from **Soulseek** into `~/Music/Library/` this month, with the **exact tags currently written on disk**. Source uploaders, quality notes and move dates come from the Soulseek log (`~/Soulseek Downloads/_downloaded-sources.md`) — this note only covers folders recorded there.
 
-**This month:** 10 releases · 61 tracks · from 9 Soulseek uploaders.
+**This month:** 11 releases · 66 tracks · from 9 Soulseek uploaders.
 
 ## Releases (summary)
 
@@ -24,6 +24,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 | 08-08 | FKA twigs — EP1 | 4 | FLAC 24/44 | Contemporary R&B, Downtempo, Bass Music, Ethereal, Experimental, Leftfield | skittleguy |
 | 08-08 | Ignez — SMV017 | 4 | FLAC 24/48 | Techno | username909 |
 | 08-17 | Mathys Lenne — The Poet And The Muse *(completes 1/11 → full 11)* | 11 | FLAC 16/44 | Techno, Raw / Deep / Hypnotic | s3NNheis3R |
+| 08-17 | Temudo — And The Pattern Repeats | 5 | FLAC 24/44 | Techno | username909 |
 
 ## Tracks by release
 
@@ -169,6 +170,19 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/37265355)
 
+### Temudo — And The Pattern Repeats ✅
+> username909 · WEB · FLAC 24/44 · moved 2026-08-17 · `Temudo/Temudo-And_The_Pattern_Repeats-PI11-24BIT-WEB-FLAC-2026-WAVED/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 1 | Over You | 2026 | Techno | FLAC 24/44 |
+| 2 | U Used To Laugh At My Jokes | 2026 | Techno | FLAC 24/44 |
+| 3 | Lax To Ams | 2026 | Techno | FLAC 24/44 |
+| 4 | The Accident | 2026 | Techno | FLAC 24/44 |
+| 5 | And The Pattern Repeats | 2026 | Techno | FLAC 24/44 |
+
+[Discogs ↗](https://www.discogs.com/release/36895375)
+
 ## Tag-check notes
 
 - **FJAAK — FJAAK 003:** artist normalized `Fjaak` → `FJAAK`; genre trimmed from a French Apple tag (`Électronique, Techno`) to Discogs' `Techno`.
@@ -179,3 +193,4 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 - **FKA twigs — EP1:** no scene nfo, artist identified from embedded tags; MusicBrainz kept mismatching individual tracks to unrelated FKA twigs releases, so only album (`EP` → `EP1`) was fixed by hand — genre pulled from Discogs only.
 - **Ignez — SMV017:** track 2 is `Moonblur` on disk (matches the WEB nfo), but Discogs' only listed pressing (vinyl) has that slot as `Sight` — kept the WEB title, flagging in case it's worth a second look.
 - **Mathys Lenne — The Poet And The Muse:** genre kept as label's own `Techno, Raw / Deep / Hypnotic` (reformatted from a parenthetical) rather than Discogs' bare `Techno`; replaced the old single-track folder from July's partial pull, same 16/44 FLAC quality.
+- **Temudo — And The Pattern Repeats:** arrived fully and correctly tagged (artist/title/album/year/label all clean); checked Bandcamp for a richer genre per the label's own tagging but it only carries one tag (`Berlin`, a location, not a style) — kept Discogs' `Techno`, which matches both the vinyl and digital listings.
