@@ -16,7 +16,7 @@ The blocker isn't experience — it's **visibility**. The work exists (shipped a
 
 ## What it is
 
-A **personal website in English** that shows work, not credentials. Four sections:
+A **personal website** that shows work, not credentials. English is the primary version; a full **Spanish mirror lives under `/es/`** since 2026-08-18 (see the bilingual entry in the Roadmap), for the local Barcelona/Madrid track. Four sections:
 
 1. **Apps** — the 2 apps live on the App Store are the strongest proof: *"I shipped real products."* Doppio, Warket and Village join as they're finished.
 2. **Photography** — a curated selection (10–20 best shots, not everything).
@@ -26,7 +26,7 @@ A **personal website in English** that shows work, not credentials. Four section
 ## Principles
 
 - **Free hosting** (GitHub Pages or similar) — no monthly cost.
-- **English first** — written for the cities we're aiming at.
+- **English first** — written for the cities we're aiming at. Spanish is a full mirror, not a rewrite: same structure, same work, translated copy (since 2026-08-18).
 - **Show, don't list** — every section is work you can look at, not bullet points.
 - It should feel *designed* — the site itself is a portfolio piece.
 
