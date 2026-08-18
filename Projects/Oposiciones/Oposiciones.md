@@ -233,6 +233,15 @@ Todas confirmadas como aptas para estudio a tu ritmo (clases grabadas, no exige 
 
 **The Globe Formación descartada explícitamente**: oculta el precio detrás de checkout/"a consultar" en varias fuentes — el usuario identificó esto como una táctica de marketing agresivo típica (embudo hacia llamada de ventas) y prefirió evitarlo, aunque tuviera la mejor credencial de profesorado (Pablo Arellano, funcionario GSI, +20 años en TAI). También descartadas: CETIC, Supera, ITIC (info insuficiente), MAD360 (más caro que el papel, generalista).
 
+### Conclusión final de esta sesión de research (2026-08-18): no comprar nada todavía
+
+Precio real del "Curso Online" de Adams (autoritmo, la modalidad que encaja): **440€ a 4 meses, ~716€ a 9 meses** (con 20% dto. vigente en el momento de mirarlo).
+
+- **4 meses no llega**: a ritmo normal (30-45 min, 3-4 días/semana) da ~33h de estudio en ese plazo, frente a las 85h de vídeo del paquete por sí solas. Y aunque se estudie muy intensivo (3-4h/día, solo 2 días libres al mes → ~350-400h en 4 meses), **el plazo de acceso caduca antes de que exista la próxima convocatoria real** (esperada a finales de 2026, examen ~primavera 2027 → 8-9 meses vista, no 4). Pagar 4 meses es pagar una ventana que se cierra antes de necesitarla.
+- **9 meses encaja mejor con el calendario real**, si se compra algo.
+- **Preparar solo con los libros (sin academia ni curso online) no es una locura** — es el camino clásico para un cuerpo C1 como TAI (no es una A1 de miles de páginas de derecho), no exigido por ley ni proceso, y ya se está demostrando hoy con buen resultado. Lo único que de verdad aporta una academia/curso es el banco masivo de tests (miles de preguntas) — para un examen tipo test con penalización eso sí tiene valor, pero se puede comprar suelto más adelante (solo el banco de tests, sin el curso completo) si hace falta, sin comprometerse a todo el paquete ahora.
+- **Decisión para ahora mismo: no comprar nada.** Seguir el mes de prueba gratis en marcha (DIY + contraste con exámenes reales) y decidir con datos de cómo va, antes de comprometer 440-716€. Cuando llegue el momento de comprar algo, el orden de preferencia queda: 1) Adams Curso Online (9 meses, cerca del examen real) o solo un banco de tests suelto más adelante, 2) forjaTIC como alternativa transparente en precio.
+
 ## Fuentes oficiales consultadas
 
 - [INAP — Cuerpo de Técnicos Auxiliares de Informática de la AGE](https://www.inap.es/es/seleccion/procesos-selectivos-de-cuerposescalas-generales/cuerpo-de-tecnicos-auxiliares-de-informatica-de-la-administracion-del-estado)
