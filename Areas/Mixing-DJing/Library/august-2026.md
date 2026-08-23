@@ -8,7 +8,7 @@ tags: [library, soulseek, imports, august-2026, dj]
 
 Every release pulled from **Soulseek** into `~/Music/Library/` this month, with the **exact tags currently written on disk**. Source uploaders, quality notes and move dates come from the Soulseek log (`~/Soulseek Downloads/_downloaded-sources.md`) — this note only covers folders recorded there.
 
-**This month:** 14 releases · 79 tracks · from 11 Soulseek uploaders.
+**This month:** 15 releases · 87 tracks · from 11 Soulseek uploaders.
 
 ## Releases (summary)
 
@@ -28,6 +28,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 | 08-17 | Lewis Fautzi & The Advent — Gravity Won't Hold Me | 4 | FLAC 24/44 | Techno | Grenoybel |
 | 08-17 | Lewis Fautzi — Ghosts Don't Text Me | 5 | FLAC 16/44 | Techno | username909 |
 | 08-17 | Nørbak — Chuva | 4 | FLAC 16/44 | Techno, Deep Techno, Hypnotic Techno, Raw Techno | fishingpvalues |
+| 08-23 | Nastia Reigel — Identity | 8 | FLAC 24/44 | Techno | koalabeer |
 
 ## Tracks by release
 
@@ -222,6 +223,22 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 | 4 | Capa | 2026 | Techno, Deep Techno, Hypnotic Techno, Raw Techno | FLAC 16/44 |
 
 [Discogs ↗](https://www.discogs.com/release/36427657)
+
+### Nastia Reigel — Identity ✅
+> koalabeer · WEB · FLAC 24/44 · moved 2026-08-23 · `Nastia Reigel/Nastia_Reigel-Identity-INF027-24BIT-WEB-FLAC-2025-WAVED/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 1 | Do It Now | 2025 | Techno | FLAC 24/44 |
+| 2 | Identity | 2025 | Techno | FLAC 24/44 |
+| 3 | Ray Catcher | 2025 | Techno | FLAC 24/44 |
+| 4 | Xoirce | 2025 | Techno | FLAC 24/44 |
+| 5 | End Up Here | 2025 | Techno | FLAC 24/44 |
+| 6 | Accidents | 2025 | Techno | FLAC 24/44 |
+| 7 | Dream Trade | 2025 | Techno | FLAC 24/44 |
+| 8 | Perfect | 2025 | Techno | FLAC 24/44 |
+
+[Discogs ↗](https://www.discogs.com/release/35233408)
 
 ## Tag-check notes
 
