@@ -8,7 +8,7 @@ tags: [library, soulseek, imports, august-2026, dj]
 
 Every release pulled from **Soulseek** into `~/Music/Library/` this month, with the **exact tags currently written on disk**. Source uploaders, quality notes and move dates come from the Soulseek log (`~/Soulseek Downloads/_downloaded-sources.md`) — this note only covers folders recorded there.
 
-**This month:** 15 releases · 87 tracks · from 11 Soulseek uploaders.
+**This month:** 16 releases · 93 tracks · from 12 Soulseek uploaders.
 
 ## Releases (summary)
 
@@ -29,6 +29,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 | 08-17 | Lewis Fautzi — Ghosts Don't Text Me | 5 | FLAC 16/44 | Techno | username909 |
 | 08-17 | Nørbak — Chuva | 4 | FLAC 16/44 | Techno, Deep Techno, Hypnotic Techno, Raw Techno | fishingpvalues |
 | 08-23 | Nastia Reigel — Identity | 8 | FLAC 24/44 | Techno | koalabeer |
+| 08-23 | IMOGEN — Metanoia | 6 | FLAC 16/44 | Techno | PartsUnxnown |
 
 ## Tracks by release
 
@@ -154,7 +155,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/37669119)
 
-### Mathys Lenne — The Poet And The Muse
+### Mathys Lenne — The Poet And The Muse ✅
 > s3NNheis3R · WEB · FLAC 16/44 · moved 2026-08-17 · `Mathys Lenne/[MORDLP006] Mathys Lenne - The Poet And The Muse (2026)/`
 > Completes the partial pull logged in [[july-2026]] (1/11, bernbarn) — now the full release.
 
@@ -240,6 +241,20 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/35233408)
 
+### IMOGEN — Metanoia ✅
+> PartsUnxnown · WEB · FLAC 16/44 · moved 2026-08-23 · `IMOGEN/(TRESOR 367) Imogen-Metanoia/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 1 | The Way She Moves | 2024 | Techno | FLAC 16/44 |
+| 2 | Summer Kiss | 2024 | Techno | FLAC 16/44 |
+| 3 | Tired Bones | 2024 | Techno | FLAC 16/44 |
+| 4 | Growing In The Dark | 2024 | Techno | FLAC 16/44 |
+| 5 | Breathe Again | 2024 | Techno | FLAC 16/44 |
+| 6 | Melancholyflower | 2024 | Techno | FLAC 16/44 |
+
+[Discogs ↗](https://www.discogs.com/release/31952945)
+
 ## Tag-check notes
 
 - **FJAAK — FJAAK 003:** artist normalized `Fjaak` → `FJAAK`; genre trimmed from a French Apple tag (`Électronique, Techno`) to Discogs' `Techno`.
@@ -254,3 +269,4 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 - **Lewis Fautzi & The Advent — Gravity Won't Hold Me:** filed under `Lewis Fautzi/` (recurring artist across both new Faut Section pulls this batch); Bandcamp's own tags are just `electronic, techno` (no niche subgenre) so kept `Techno`; Discogs' only listing (36180820) has typo'd track titles (`Gravition Field`, `Cosmic Sector`) and a later 2026-01 vinyl press date — ignored both, on-disk tags already match the Nov 2025 Bandcamp digital release.
 - **Lewis Fautzi — Ghosts Don't Text Me:** same label, same result — Bandcamp tags are generic (`electronic, techno`, one duplicated/typo'd), kept `Techno`; arrived correctly tagged otherwise.
 - **Nørbak — Chuva:** arrived with all 4 tracks tagged `tracknumber 1` and `date 0000` — fixed track order (Sonho, Leveza, Chuva, Capa) and year (2026) from Bandcamp; genre upgraded from bare `Techno` to the label's own `Techno, Deep Techno, Hypnotic Techno, Raw Techno` (Bandcamp had 4 real style tags here vs. Discogs' plain `Techno`); added missing label field (Token Records, TOKEN137).
+- **IMOGEN — Metanoia:** genre `Electro` → Discogs' `Techno`; artist stylization `IMOGEN` (all caps) confirmed against MusicBrainz, kept as-is.
