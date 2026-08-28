@@ -8,7 +8,7 @@ tags: [library, soulseek, imports, august-2026, dj]
 
 Every release pulled from **Soulseek** into `~/Music/Library/` this month, with the **exact tags currently written on disk**. Source uploaders, quality notes and move dates come from the Soulseek log (`~/Soulseek Downloads/_downloaded-sources.md`) — this note only covers folders recorded there.
 
-**This month:** 16 releases · 93 tracks · from 12 Soulseek uploaders.
+**This month:** 19 releases · 106 tracks · from 15 Soulseek uploaders.
 
 ## Releases (summary)
 
@@ -30,6 +30,9 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 | 08-17 | Nørbak — Chuva | 4 | FLAC 16/44 | Techno, Deep Techno, Hypnotic Techno, Raw Techno | fishingpvalues |
 | 08-23 | Nastia Reigel — Identity | 8 | FLAC 24/44 | Techno | koalabeer |
 | 08-23 | IMOGEN — Metanoia | 6 | FLAC 16/44 | Techno | PartsUnxnown |
+| 08-28 | Lobster — Zykr EP | 5 | FLAC 24/44 | Techno | beatrice.songbird2 |
+| 08-28 | Oscar Mulero — Only Dead Fish Go With the Flow | 4 | FLAC 16/44 | Techno | Mymf |
+| 08-28 | Mike Parker & Steve Bicknell — In the Years Ahead | 4 | FLAC 16/44 | Techno | parak0vsky |
 
 ## Tracks by release
 
@@ -255,6 +258,43 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/31952945)
 
+### Lobster — Zykr EP ✅
+> beatrice.songbird2 · scene WEB · FLAC 24/44 · moved 2026-08-28 · `Lobster/Lobster-Zykr_EP-VAULTREC015-24BIT-WEB-FLAC-2026-WAVED/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 1 | Silver Sally | 2026 | Techno | FLAC 24/44 |
+| 2 | Fenris | 2026 | Techno | FLAC 24/44 |
+| 3 | Zykr | 2026 | Techno | FLAC 24/44 |
+| 4 | Multishot | 2026 | Techno | FLAC 24/44 |
+| 5 | Devil's Creek | 2026 | Techno | FLAC 24/44 |
+
+[Qobuz ↗](https://www.qobuz.com/album/x/n9qkxq7ul7dse)
+
+### Oscar Mulero — Only Dead Fish Go With the Flow ✅
+> Mymf · WEB · FLAC 16/44 · moved 2026-08-28 · `Oscar Mulero/[TRESOR 230] Oscar Mulero - Only Dead Fish Go With The Flow/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| A1 | Still the One I Was | 2007 | Techno | FLAC 16/44 |
+| A2 | Like I've Been Here Before | 2007 | Techno | FLAC 16/44 |
+| B1 | Faithless Days | 2007 | Techno | FLAC 16/44 |
+| B2 | Faithless Days (Pacou remix) | 2007 | Techno | FLAC 16/44 |
+
+[Discogs ↗](https://www.discogs.com/release/1060675)
+
+### Mike Parker & Steve Bicknell — In the Years Ahead ✅
+> parak0vsky · WEB · FLAC 16/44 · moved 2026-08-28 · `Mike Parker/Parker, Mike & Steve Bicknell - In The Years Ahead (2024 WF)/`
+
+| # | Artist | Title | Year | Genre | Format |
+|---|---|---|---|---|---|
+| 1 | Mike Parker | Solar Limb | 2024 | Techno | FLAC 16/44 |
+| 2 | Mike Parker | Badlands | 2024 | Techno | FLAC 16/44 |
+| 3 | Steve Bicknell | Chaotic World | 2024 | Techno | FLAC 16/44 |
+| 4 | Steve Bicknell | In the Years Ahead | 2024 | Techno | FLAC 16/44 |
+
+[Discogs ↗](https://www.discogs.com/release/35705686)
+
 ## Tag-check notes
 
 - **FJAAK — FJAAK 003:** artist normalized `Fjaak` → `FJAAK`; genre trimmed from a French Apple tag (`Électronique, Techno`) to Discogs' `Techno`.
@@ -270,3 +310,4 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 - **Lewis Fautzi — Ghosts Don't Text Me:** same label, same result — Bandcamp tags are generic (`electronic, techno`, one duplicated/typo'd), kept `Techno`; arrived correctly tagged otherwise.
 - **Nørbak — Chuva:** arrived with all 4 tracks tagged `tracknumber 1` and `date 0000` — fixed track order (Sonho, Leveza, Chuva, Capa) and year (2026) from Bandcamp; genre upgraded from bare `Techno` to the label's own `Techno, Deep Techno, Hypnotic Techno, Raw Techno` (Bandcamp had 4 real style tags here vs. Discogs' plain `Techno`); added missing label field (Token Records, TOKEN137).
 - **IMOGEN — Metanoia:** genre `Electro` → Discogs' `Techno`; artist stylization `IMOGEN` (all caps) confirmed against MusicBrainz, kept as-is.
+- **Lobster — Zykr EP:** too new for MusicBrainz/Discogs (20 Aug 2026 release) — `discogs_url.py`'s search false-matched to an unrelated 2016 "Lobster Lobster" album; rejected, linked the label's Qobuz page instead (verified). Arrived correctly tagged (genre `Techno` from the scene nfo) — no changes needed.

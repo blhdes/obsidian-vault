@@ -32,6 +32,26 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 ---
 
+## Session 10 — 2026-08-25
+
+**Topic:** Survey session (not tied to a specific sketch's homework) — what types of drum patterns exist to explore for techno/raw/hypnotic, proposed with examples ahead of picking one to actually build.
+
+**Covered:**
+- [[Techniques/hypnotic-raw-techno-drum-patterns|Hypnotic & Raw Techno Drum Pattern Types]] — new survey note: 4 already-known types named as deliberate archetypes (rolling interlock, polymeter drift, stripped/subtractive, ghost-note micro-groove), plus 4 new proposed types (odd-length sixteenth-resolution polymeter, rolling/non-kick-locked groove, percussion call & response, rhythmic found-sound hits) — 2 illustrated with ASCII patterns
+
+**Key takeaways:**
+- **Naming known techniques as a "type" menu has value on its own** — the user already has rolling interlock, polymeter, subtractive, and ghost-notes in hand from earlier sessions; surfacing them as a deliberate palette (not just things that happened to get built) makes them choosable rather than incidental.
+- **The polymeter note's own parked idea ("5 or 7 sixteenths rotate faster/weirder — try later") was the most direct new thread to pull** — same mechanic as the known 3-beat version, just measured in sixteenths instead of beats, so realignment takes longer and drifts less predictably.
+- **Rolling/non-kick-locked groove is a genuine contrast to Hardgroove 134's established approach** — that sketch has consistently used call-and-response, non-overlapping placement (kick/sub interlock, PERC in the leftover 16ths, HATS doubling the kick/sub grid); a continuous soft roll that deliberately avoids the kick's quarters is a different rhythmic philosophy, not a replacement for the interlock style.
+- **Found-sound material has two distinct jobs, not one** — ATMOS used the captured fragment texturally (sparse, off-grid, atmosphere); the same source placed on-grid as an actual rhythmic accent is a different pattern type entirely, even from identical raw audio.
+- This is a **proposal/menu session** — nothing built or confirmed yet; homework is to audition one or two types before committing.
+
+**Where we left off:** 8 pattern types named and described (4 known, 4 new); two of the new ones illustrated with concrete ASCII examples and a 5–10 minute homework recipe each. Not yet applied to any actual track.
+
+**Next:** User picks a type (or two) from the menu; build and confirm it by ear — either inside [[Track-Sketches/hardgroove-134|Hardgroove 134]] or as a standalone experiment. Hardgroove 134 itself still has the unconfirmed Beat Repeat homework on HATS queued separately.
+
+---
+
 ## Sketch — 2026-07-25 — Hardgroove 134 (FX/RISER Pivot — Beat Repeat)
 
 **Topic:** The user pushed back on the FX/RISER homework handed off last session — reapplying the Noise-riser recipe verbatim felt stale since it's already fully mastered. Pivoted to a genuinely new device, **Beat Repeat**, chopping real drum audio into an accelerating stutter instead of synthesizing a sweep.
