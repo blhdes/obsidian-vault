@@ -8,7 +8,7 @@ tags: [library, soulseek, imports, august-2026, dj]
 
 Every release pulled from **Soulseek** into `~/Music/Library/` this month, with the **exact tags currently written on disk**. Source uploaders, quality notes and move dates come from the Soulseek log (`~/Soulseek Downloads/_downloaded-sources.md`) — this note only covers folders recorded there.
 
-**This month:** 19 releases · 106 tracks · from 15 Soulseek uploaders.
+**This month:** 20 releases · 110 tracks · from 16 Soulseek uploaders.
 
 ## Releases (summary)
 
@@ -33,6 +33,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 | 08-28 | Lobster — Zykr EP | 5 | FLAC 24/44 | Techno | beatrice.songbird2 |
 | 08-28 | Oscar Mulero — Only Dead Fish Go With the Flow | 4 | FLAC 16/44 | Techno | Mymf |
 | 08-28 | Mike Parker & Steve Bicknell — In the Years Ahead | 4 | FLAC 16/44 | Techno | parak0vsky |
+| 08-30 | AFX — Analord 05 | 4 | FLAC 16/44 | Techno, Electro, Acid | Psybin |
 
 ## Tracks by release
 
@@ -295,6 +296,18 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/35705686)
 
+### AFX — Analord 05
+> Psybin · WEB · FLAC 16/44 · moved 2026-08-30 · `AFX/Analord 05/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 1 | Reunion 2 | 2005 | Techno, Electro, Acid | FLAC 16/44 |
+| 2 | Cilonen | 2005 | Techno, Electro, Acid | FLAC 16/44 |
+| 3 | Gong Acid | 2005 | Techno, Electro, Acid | FLAC 16/44 |
+| 4 | Reunion 2 (Alt. Version) | 2005 | Techno, Electro, Acid | FLAC 16/44 |
+
+[Discogs ↗](https://www.discogs.com/release/2062180)
+
 ## Tag-check notes
 
 - **FJAAK — FJAAK 003:** artist normalized `Fjaak` → `FJAAK`; genre trimmed from a French Apple tag (`Électronique, Techno`) to Discogs' `Techno`.
@@ -311,3 +324,4 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 - **Nørbak — Chuva:** arrived with all 4 tracks tagged `tracknumber 1` and `date 0000` — fixed track order (Sonho, Leveza, Chuva, Capa) and year (2026) from Bandcamp; genre upgraded from bare `Techno` to the label's own `Techno, Deep Techno, Hypnotic Techno, Raw Techno` (Bandcamp had 4 real style tags here vs. Discogs' plain `Techno`); added missing label field (Token Records, TOKEN137).
 - **IMOGEN — Metanoia:** genre `Electro` → Discogs' `Techno`; artist stylization `IMOGEN` (all caps) confirmed against MusicBrainz, kept as-is.
 - **Lobster — Zykr EP:** too new for MusicBrainz/Discogs (20 Aug 2026 release) — `discogs_url.py`'s search false-matched to an unrelated 2016 "Lobster Lobster" album; rejected, linked the label's Qobuz page instead (verified). Arrived correctly tagged (genre `Techno` from the scene nfo) — no changes needed.
+- **AFX — Analord 05:** genre `Electronic` → the release's own embedded Discogs style tag `Techno, Electro, Acid`; artist/title/album/year arrived already clean (Discogs release 2062180).
