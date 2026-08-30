@@ -6,7 +6,7 @@ tags: [ableton, groove, arrangement, techno, hardgroove]
 
 # Loop Character Variations (Placement-Only)
 
-A way to get several distinct-feeling loops out of one working pattern, using only **note placement and velocity** — no swing, no effects. Built on [[../Track-Sketches/hardgroove-134|Hardgroove 134]], applied to its kick+sub interlock, but the principle generalizes to any rhythmic element.
+A way to get several distinct-feeling loops out of one working pattern, using only **note placement and velocity** — no swing, no effects. Built on Hardgroove 134, applied to its kick+sub interlock, but the principle generalizes to any rhythmic element.
 
 ## The idea
 

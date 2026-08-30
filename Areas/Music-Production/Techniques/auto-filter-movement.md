@@ -10,7 +10,7 @@ An **effects-chain filter** — a separate device from a synth's own internal fi
 
 ## Why add it if the instrument already has a filter
 
-Drift's internal Low Pass (Type I, ~900Hz) already shapes [[../Track-Sketches/hardgroove-134|Hardgroove 134]]'s STAB into a dark, filtered chord — but that cutoff sits still. Auto Filter, dropped into the STAB's device chain right after Drift, reopens the question of *movement*: does the cutoff wobble, breathe, or stay put? It's a separate creative decision from the instrument's own tone, layered on afterward.
+Drift's internal Low Pass (Type I, ~900Hz) already shapes Hardgroove 134's STAB into a dark, filtered chord — but that cutoff sits still. Auto Filter, dropped into the STAB's device chain right after Drift, reopens the question of *movement*: does the cutoff wobble, breathe, or stay put? It's a separate creative decision from the instrument's own tone, layered on afterward.
 
 ## The device, briefly
 

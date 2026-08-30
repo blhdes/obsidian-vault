@@ -6,7 +6,7 @@ tags: [ableton, sidechain, compressor, groove, techno, hardgroove]
 
 # Kick/Sub Interlock as a Sidechain Groove Tool
 
-A different use of [[sidechain-ducking|sidechain ducking]] than the usual case. Built on [[../Track-Sketches/hardgroove-134|Hardgroove 134]].
+A different use of [[sidechain-ducking|sidechain ducking]] than the usual case. Built on Hardgroove 134.
 
 ## The usual case vs. this one
 

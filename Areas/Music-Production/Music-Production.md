@@ -6,7 +6,7 @@ tags: [music, production, ableton, electronic, area-index]
 
 # Music Production
 
-Home for learning to **produce electronic music** from absolute zero, in **Ableton Live Lite**. The natural next step after [[../Mixing-DJing/Mixing-DJing|Mixing & DJing]] — first I learned to play other people's tracks, now I'm learning to make my own.
+Home for learning to **produce electronic music** from absolute zero, in **Ableton Live**. The natural next step after [[../Mixing-DJing/Mixing-DJing|Mixing & DJing]] — first I learned to play other people's tracks, now I'm learning to make my own.
 
 This is a passion project, taken in **small steps and with a lot of humility**. No music theory background yet (just the basic notes), no fixed genre — we experiment with whatever feels interesting and build up to full tracks over time.
 
@@ -23,7 +23,7 @@ This is a passion project, taken in **small steps and with a lot of humility**. 
 
 ## Current setup
 
-- **DAW:** Ableton Live Lite (starter edition that ships with lots of hardware)
+- **DAW:** Ableton Live 12 Suite
 - **Background:** Total beginner — no theory, no production experience. Learning technique-by-technique, not genre-first.
 - **Approach:** Technical and neutral, no opinionated "YouTuber" framing. Understand *what the software does* and *why*, then combine small pieces into full tracks.
 

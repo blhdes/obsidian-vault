@@ -58,7 +58,7 @@ Selecting Slice reveals a **"Slice By"** choice:
 
 Transient has a **Sensitivity** control — too high gives too many tiny slices, too low merges real events together; dial it until the slice count feels right for the material (roughly 8–16 for a short fragment is a reasonable starting range). Each resulting slice lands on its own key, same key-mapping mechanic as any Simpler sample — just segmented.
 
-**Applied:** [[../Track-Sketches/hardgroove-134|Hardgroove 134]]'s ATMOS layer — the captured found-audio fragment (dialogue+music, kept as one mixed blob rather than stem-separated) sliced via Transient, then only 2-4 interesting slices picked out and placed sparsely across a clip for texture rather than rhythm.
+**Applied:** Hardgroove 134's ATMOS layer — the captured found-audio fragment (dialogue+music, kept as one mixed blob rather than stem-separated) sliced via Transient, then only 2-4 interesting slices picked out and placed sparsely across a clip for texture rather than rhythm.
 
 ## Trimming — Start / Length
 

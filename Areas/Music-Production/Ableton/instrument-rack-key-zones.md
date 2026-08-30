@@ -20,7 +20,7 @@ Live Lite's 8-track cap means a project can't always give every distinct sound i
 - **Confirmed on Live 12 Lite: a plain Instrument Rack's Chain List exposes Key Range directly** — unlike Drum Rack, where it hides behind the I/O toggle. Click the **Key** button (alongside Vel / Chain / Hide at the top of the Chain List) to reveal a Key Zone editor bar above the chain rows, and drag each chain's range boundaries directly in that bar — non-overlapping, e.g. Chain 1 low, Chain 2 high.
 - Each chain can carry its own effects *after* its own instrument, inside the chain — separate from any effects on the other chain.
 
-## Applied: STAB/LEAD sharing one track ([[../Track-Sketches/hardgroove-134|Hardgroove 134]])
+## Applied: STAB/LEAD sharing one track (Hardgroove 134)
 
 Track 5 was budgeted for **STAB/LEAD** together from the project's kickoff. Solution: one Instrument Rack —
 - **Chain 1 (STAB):** existing Drift → Auto Filter → Chorus-Ensemble, key-zoned to cover the STAB chord's existing register (roughly C1–B4).

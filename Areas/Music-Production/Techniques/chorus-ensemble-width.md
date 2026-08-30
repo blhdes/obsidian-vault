@@ -24,7 +24,7 @@ This is a **different dimension of movement than Auto Filter**: Auto Filter move
 | **Width** | Stereo spread of the effect |
 | **Feedback / High Pass** | Feedback re-feeds the delayed signal for a more resonant, metallic edge; High Pass keeps the effect off the low end |
 
-## Starter recipe — STAB ([[../Track-Sketches/hardgroove-134|Hardgroove 134]])
+## Starter recipe — STAB (Hardgroove 134)
 
 - Mode: **Ensemble** for the fuller/wider version (Classic if a more mono-safe/subtle result is wanted).
 - Rate slow-ish, Amount light — this is meant to *thicken*, not obviously "swirl" (that's [[phaser-flanger-sweep|Phaser-Flanger]]'s job).

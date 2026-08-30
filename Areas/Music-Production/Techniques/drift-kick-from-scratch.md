@@ -6,7 +6,7 @@ tags: [ableton, drift, sound-design, synthesis, kick, saturator, eq-three]
 
 # Building a Kick From Scratch in Drift
 
-A from-zero recipe for a punchy, clicky kick using only Drift + Saturator + EQ Three — no presets. Built on [[../Track-Sketches/hardgroove-134|Hardgroove 134]].
+A from-zero recipe for a punchy, clicky kick using only Drift + Saturator + EQ Three — no presets. Built on Hardgroove 134.
 
 ## 1. Isolate the oscillator
 

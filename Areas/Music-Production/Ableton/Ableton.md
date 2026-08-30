@@ -6,7 +6,7 @@ tags: [ableton, daw, software, music, index]
 
 # Ableton
 
-Everything about the **software** itself — how Ableton Live Lite works, regardless of what kind of music we're making.
+Everything about the **software** itself — how Ableton Live works, regardless of what kind of music we're making.
 
 What goes here:
 - Interface basics (Session vs. Arrangement view, the browser, tracks, clips)

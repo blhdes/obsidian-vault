@@ -296,7 +296,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/35705686)
 
-### AFX — Analord 05
+### AFX — Analord 05 ✅
 > Psybin · WEB · FLAC 16/44 · moved 2026-08-30 · `AFX/Analord 05/`
 
 | # | Title | Year | Genre | Format |

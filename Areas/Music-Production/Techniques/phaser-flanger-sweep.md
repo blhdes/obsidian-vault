@@ -27,7 +27,7 @@ Both are still LFO-driven movement, same as [[auto-filter-movement|Auto Filter]]
 | **Feedback** | How much of the effected signal re-enters — higher on Flanger = more resonant/metallic |
 | **Poles / Notch count** (Phaser) | More stages = denser, more complex sweep |
 
-## Starter recipe — if used on STAB ([[../Track-Sketches/hardgroove-134|Hardgroove 134]])
+## Starter recipe — if used on STAB (Hardgroove 134)
 
 - Mode: **Phaser** first (smoother, less likely to clash with Auto Filter's own filter movement already on this chain).
 - Rate in a similar ballpark to Auto Filter's LFO, or deliberately different, to A/B which feels more musical against the existing pulse.
