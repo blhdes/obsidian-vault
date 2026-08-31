@@ -8,58 +8,29 @@ tags: [roadmap, paths, learning, game, music-production]
 
 Six paths to explore. Each has a **status**, a rough **progress %**, and a **difficulty**. Pick whichever calls to you in the moment — no fixed order, dip in and out.
 
-> 🎯 **Active path:** **Path 6 — Make a Real Track Sketch** — [[Track-Sketches/hardgroove-134|Hardgroove 134]] (hardgroove techno, 134 BPM, 100% hand-built in Ableton's UI). [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] is paused. Pulls from paths 1–5 *as the track demands*.
+> 🎯 **Active path:** **Path 6 — Make a Real Track Sketch** — Hardgroove 134 (hardgroove techno, 134 BPM, 100% hand-built in Ableton's UI). Ticket to Detroit is paused. Pulls from paths 1–5 *as the track demands*.
 
 ---
 
-## 🗓 Live Lite Device Coverage (2026-07-22 → 2026-07-26) — superseded by the Suite upgrade
+## 🗓 Device Coverage — history
 
-Originally a 4-month goal (through ~Nov 2026) to explore every stock Live Lite instrument/effect before upgrading. **Superseded early:** the user upgraded straight to **Ableton Live 12 Suite on 2026-07-26**, skipping the rest of the Lite-first runway. Kept below as a historical coverage record — the still-untouched Lite devices (Impulse, Auto Pan, Gate, Looper, Utility) remain fair game, just no longer gated by "before upgrading."
+Originally a 4-month goal to explore every stock instrument/effect before upgrading. **Superseded early:** upgraded straight to **Ableton Live 12 Suite on 2026-07-26**.
 
 See **🚀 Suite Unlocked** below for what's newly available.
-
-### Instruments (5 in Lite)
-| Device | Explored? | Where |
-|---|---|---|
-| Drift | ✅ | Kick/Sub (+ Stab, in progress) — Hardgroove 134; Bleep Lead — Ticket to Detroit |
-| Simpler | ✅ | Stab Dub Direct, PERC pads, sampling sessions |
-| Drum Rack | ✅ | PERC/HATS — Hardgroove 134 |
-| Instrument Rack | 🟡 partial | Key Zones now used to split STAB/LEAD on one track — Hardgroove 134 (homework pending); Macro knobs still not yet used |
-| **Impulse** | ❌ | Not yet touched |
-
-### Effects (16 in Lite)
-| Device | Explored? | Where |
-|---|---|---|
-| Compressor | ✅ | Sidechain, punch — Hardgroove 134 |
-| EQ Three | ✅ | Kick, PERC high-pass |
-| Saturator | ✅ | Kick, PERC grit |
-| Reverb | ✅ | Session 8; the [[Techniques/rumble-bass\|rumble]] technique |
-| Delay | ✅ | Session 8 |
-| Limiter | ✅ | [[Ableton/master-limiter\|Master Limiter]] — Solo Sketch 138 |
-| Channel EQ | ✅ | Solo Sketch 138 (excluded from Hardgroove 134's own stricter rule) |
-| **Auto Filter** | 🟡 in progress | Recipe handed off — STAB, Hardgroove 134 (not yet confirmed) |
-| **Auto Pan** | ❌ | Not yet |
-| **Beat Repeat** | 🟡 in progress | Recipe handed off — accelerating stutter build on HATS, Hardgroove 134 (not yet confirmed) |
-| Chorus-Ensemble | ✅ | STAB, Hardgroove 134 — confirmed and kept |
-| **Gate** | ❌ | Not yet |
-| **Looper** | ❌ | Not yet |
-| **Phaser-Flanger** | 🟡 in progress | Tried on STAB, not kept — queued for **LEAD** instead |
-| Tuner | — | Utility tool, not a musical device |
-| **Utility** | ❌ | Not yet |
 
 ---
 
 ## 🚀 Suite Unlocked (from 2026-07-26)
 
-Ableton Live 12 Suite — full version, no more Lite constraints. Newly available:
+Ableton Live 12 Suite — full version. Newly available:
 
-- **Unlimited tracks/scenes** — no more 8-track budget forcing tricks like Drum Rack/Instrument Rack sharing (those techniques are still useful skills, just optional now, not survival tools).
+- **Unlimited tracks/scenes** — no more track-budget forcing tricks like Drum Rack/Instrument Rack sharing (those techniques are still useful skills, just optional now, not survival tools).
 - **New instruments:** Operator (FM synthesis), Wavetable, Analog, Electric, Tension, Collision, Meld, full Sampler (vs. Simpler-only), Drum Sampler, Session Drums, Granulator III.
 - **New effects:** EQ Eight, Multiband Dynamics, Spectral Time/Resonator/Blur, Hybrid Reverb, Amp + Cabinet + Pedal, Vocoder, Corpus, Roar, PitchLoop89, Complex Pro warp mode.
 - **Max for Live** — the full device library (audio/MIDI/instrument M4L devices), plus room to build custom devices later.
-- **Third-party VST/AU plugin support** — Lite didn't support plugins at all; Suite does.
+- **Third-party VST/AU plugin support.**
 
-Same "reach for something new when it fits" philosophy as the old Lite-coverage goal, just against a much bigger pool — not a mandate to use everything at once. Existing sketches keep their own house rules (e.g. Hardgroove 134's stock-devices-only rule) unless the user says otherwise.
+Same "reach for something new when it fits" philosophy, just against a much bigger pool — not a mandate to use everything at once.
 
 ---
 
@@ -89,7 +60,7 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 - **Difficulty:** ★★★☆☆
 - **Unlocks:** Designing your own signature sounds instead of grabbing presets
 - **Topics:** oscillators, filters, envelopes (ADSR), LFOs, subtractive vs. FM synthesis
-- **First step:** ✅ Done — [[Track-Sketches/hardgroove-134|Hardgroove 134]]'s KICK built from a cleared Drift patch
+- **First step:** ✅ Done — Hardgroove 134's KICK built from a cleared Drift patch
 
 ### Path 3 — 🎚 Deeper Mixing & First Mastering
 - **Status:** 🟡 Started
@@ -101,7 +72,7 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 
 ### Path 4 — ✂️ Sampling
 - **Status:** 🟡 Started
-- **Progress:** ~45% *(Simpler basics — [[Ableton/sampling-with-simpler|note]]: dragging audio in, key/pitch mapping, Classic vs One-Shot vs Slice, Start/Length trimming; applied on [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — Stab Dub Direct sample, trimmed, One-Shot; capturing external/found audio via a BlackHole loopback into an Audio track, then into Simpler — Hardgroove 134's sampling detour; **Slice mode now applied** — Transient vs. Beat/Division slicing, Sensitivity tuning, used to build Hardgroove 134's ATMOS layer from the captured found-audio fragment, kept as one mixed blob rather than stem-separated)*
+- **Progress:** ~45% *(Simpler basics — [[Ableton/sampling-with-simpler|note]]: dragging audio in, key/pitch mapping, Classic vs One-Shot vs Slice, Start/Length trimming; applied on Solo Sketch 138 — Stab Dub Direct sample, trimmed, One-Shot; capturing external/found audio via a BlackHole loopback into an Audio track, then into Simpler — Hardgroove 134's sampling detour; **Slice mode now applied** — Transient vs. Beat/Division slicing, Sensitivity tuning, used to build Hardgroove 134's ATMOS layer from the captured found-audio fragment, kept as one mixed blob rather than stem-separated)*
 - **Difficulty:** ★★★☆☆
 - **Unlocks:** Pulling *any* audio (vocal, vinyl, YouTube rip) into your tracks
 - **Topics:** Simpler vs. Sampler, slicing, time-warp modes, key/pitch shifting, looping samples
@@ -116,11 +87,11 @@ See [[Progress|Progress Log]] for the full session-by-session record.
 - **First step:** Apply a swing groove template to the basic four-on-the-floor
 
 ### Path 6 — 🎨 Make a Real Track Sketch  ⭐ **ACTIVE**
-- **Status:** 🟢 In progress *(third sketch, [[Track-Sketches/hardgroove-134|Hardgroove 134]], kicked off 2026-07-16 — 100% hand-built in Ableton's UI, no programmatic control)*
-- **Progress:** ~87% *([[Track-Sketches/solo-sketch-138|Solo Sketch 138]] is a **complete, exported track** — every stage done: layers, arrangement, mix, export. Ticket to Detroit: full 5-layer loop stack playing — drums, bass, stab, pad, bleep motif; structure/mix/export still remain there, paused for now.)*
-- **Current sketch:** [[Track-Sketches/hardgroove-134|Hardgroove 134]] — 134 BPM · **C Phrygian** (reconsidered from C major 2026-07-22) · hardgroove techno; Weeks 1–2 goal complete; **PERC**, **HATS**, **STAB**, **LEAD**, and **ATMOS** all built and confirmed — 6 of 8 budgeted tracks now have real content. STAB+LEAD share track 5 via Instrument Rack Key Zones; ATMOS used Simpler's Slice mode on the captured found-audio fragment. Deferred: a second STAB hit. **FX/RISER pivoted to Beat Repeat** — an accelerating stutter build on HATS's own chain instead of a dedicated Noise-riser track, freeing the original track-7 slot for later (RETURN or otherwise)
-- **Paused sketch:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM · A minor · club techno with Detroit-style influence — resumes whenever
-- **Completed sketch (self-driven):** [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — 138 BPM · A minor · Cashon Kit — 🎉 finished and exported 2026-07-16
+- **Status:** 🟢 In progress *(third sketch, Hardgroove 134, kicked off 2026-07-16 — 100% hand-built in Ableton's UI, no programmatic control)*
+- **Progress:** ~87% *(Solo Sketch 138 is a **complete, exported track** — every stage done: layers, arrangement, mix, export. Ticket to Detroit: full 5-layer loop stack playing — drums, bass, stab, pad, bleep motif; structure/mix/export still remain there, paused for now.)*
+- **Current sketch:** Hardgroove 134 — 134 BPM · **C Phrygian** (reconsidered from C major 2026-07-22) · hardgroove techno; Weeks 1–2 goal complete; **PERC**, **HATS**, **STAB**, **LEAD**, and **ATMOS** all built and confirmed — 6 of 8 budgeted tracks now have real content. STAB+LEAD share track 5 via Instrument Rack Key Zones; ATMOS used Simpler's Slice mode on the captured found-audio fragment. Deferred: a second STAB hit. **FX/RISER pivoted to Beat Repeat** — an accelerating stutter build on HATS's own chain instead of a dedicated Noise-riser track, freeing the original track-7 slot for later (RETURN or otherwise)
+- **Paused sketch:** Ticket to Detroit — 128 BPM · A minor · club techno with Detroit-style influence — resumes whenever
+- **Completed sketch (self-driven):** Solo Sketch 138 — 138 BPM · A minor · Cashon Kit — 🎉 finished and exported 2026-07-16
 - **Difficulty:** ★★★★☆ *(touches all other paths)*
 - **Goal (Hardgroove 134):** Rolling, percussive hardgroove techno with a real kick/sub interlock as its engine — built patch-by-patch from blank Drift presets
 - **Working sketch lives in:** [[Track-Sketches/Track-Sketches]]

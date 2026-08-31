@@ -45,4 +45,3 @@ Plug in via USB. Live should auto-detect it (pads light up with your clip colors
 
 - A **red frame** appears in Session View on screen — that's the 8×8 window the hardware is currently "looking at".
 - **Launch Quantization still rules.** Pads obey the same `1 Bar` quantization as mouse clicks — press a pad mid-bar and the clip waits for the next bar. Sloppy timing stays musical for free.
-- Live Lite caps projects at **8 tracks**, so the grid covers the entire project — no scrolling needed.

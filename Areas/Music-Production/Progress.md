@@ -24,11 +24,11 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Sketch in progress:** none from the guided path right now — see 2026-07-25 pause below. A new **self-driven** sketch is about to start (user wants to build from a blank project, unguided, no lesson plan — see [[feedback_music_self_directed_experimentation|the standing feedback note]] on this preference). Log it in [[Track-Sketches]] once real content exists.
 
-**Paused (2026-07-25, at the user's request):** [[Track-Sketches/hardgroove-134|Hardgroove 134]] — 134 BPM, C Phrygian. Hardgroove techno, kicked off 2026-07-16 with a stricter hand-built-only workflow. Weeks 1–2 goal (KICK + SUB, interlocked, sidechained, 3 loop variations) is **complete**. PERC, HATS, STAB, LEAD, and ATMOS are all built and confirmed — 6 of the original 8 budgeted tracks have real content. STAB and LEAD share track 5 via an Instrument Rack (Key Zones); ATMOS (track 6) reused the sampling detour via Simpler's Slice mode. **Where it left off:** the Beat Repeat stutter-build recipe for FX/RISER (added to HATS's chain) was handed off as homework but never built/confirmed — pick up there whenever this resumes.
+**Paused (2026-07-25, at the user's request):** **Hardgroove 134** — 134 BPM, C Phrygian. Hardgroove techno, kicked off 2026-07-16 with a stricter hand-built-only workflow. Weeks 1–2 goal (KICK + SUB, interlocked, sidechained, 3 loop variations) is **complete**. PERC, HATS, STAB, LEAD, and ATMOS are all built and confirmed — 6 of the original 8 budgeted tracks have real content. STAB and LEAD share track 5 via an Instrument Rack (Key Zones); ATMOS (track 6) reused the sampling detour via Simpler's Slice mode. **Where it left off:** the Beat Repeat stutter-build recipe for FX/RISER (added to HATS's chain) was handed off as homework but never built/confirmed — pick up there whenever this resumes.
 
-**Paused:** [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 128 BPM, A minor. Club techno with strong Detroit-style influence. Full 5-layer loop stack done (drums/bass/stab/pad/lead); still needs FX/arrangement/mix/export whenever it resumes.
+**Paused:** **Ticket to Detroit** — 128 BPM, A minor. Club techno with strong Detroit-style influence. Full 5-layer loop stack done (drums/bass/stab/pad/lead); still needs FX/arrangement/mix/export whenever it resumes.
 
-**Side sketch (self-driven, started 2026-07-12):** [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — 138 BPM, A minor. The user's first track built alone, no lesson plan — 🎉 **completed and exported 2026-07-16**.
+**Side sketch (self-driven, started 2026-07-12):** **Solo Sketch 138** — 138 BPM, A minor. The user's first track built alone, no lesson plan — 🎉 **completed and exported 2026-07-16**.
 
 ---
 
@@ -48,7 +48,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Where we left off:** 8 pattern types named and described (4 known, 4 new); two of the new ones illustrated with concrete ASCII examples and a 5–10 minute homework recipe each. Not yet applied to any actual track.
 
-**Next:** User picks a type (or two) from the menu; build and confirm it by ear — either inside [[Track-Sketches/hardgroove-134|Hardgroove 134]] or as a standalone experiment. Hardgroove 134 itself still has the unconfirmed Beat Repeat homework on HATS queued separately.
+**Next:** User picks a type (or two) from the menu; build and confirm it by ear — either inside **Hardgroove 134** or as a standalone experiment. Hardgroove 134 itself still has the unconfirmed Beat Repeat homework on HATS queued separately.
 
 ---
 
@@ -58,7 +58,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Covered:**
 - [[Techniques/beat-repeat-stutter-build|Beat Repeat Stutter Build]] — new technique note: Interval/Grid/Chance/Gate/Variation/Filter parameters, the shrinking-Interval + rising-Chance build technique, and why it needs a host track (existing audio) rather than a fresh empty one
-- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — FX/RISER plan changed: Beat Repeat added as the last device on **HATS**'s chain instead of a new track; the original track-7 slot freed up for later
+- **Hardgroove 134** — FX/RISER plan changed: Beat Repeat added as the last device on **HATS**'s chain instead of a new track; the original track-7 slot freed up for later
 - [[Roadmap|Roadmap]] — Beat Repeat moved from "not yet" to in-progress on the 4-month device list
 
 **Key takeaways:**
@@ -79,7 +79,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Topic:** Closed the LEAD dissonance fix (confirmed by ear), then kicked off **FX/RISER** (track 7) — a straight reapplication of the riser technique already learned on Solo Sketch 138, with one genuine design question specific to this sketch's lack of an Arrangement structure.
 
 **Covered:**
-- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — LEAD's reworked bar 2 confirmed sounding resolved; FX/RISER kicked off, recipe handed off as homework
+- **Hardgroove 134** — LEAD's reworked bar 2 confirmed sounding resolved; FX/RISER kicked off, recipe handed off as homework
 
 **Key takeaways:**
 - **No new mechanic needed for the riser** — [[Techniques/riser-fx|Riser FX (Noise Build-Up)]] already covers it in full (Noise oscillator, stacked Filter Cutoff + Track Volume envelopes, Loop off); this session is pure application, not new teaching.
@@ -98,7 +98,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Topic:** Parked a further ATMOS unrecognizability idea (reverse + dual-chain mix), then returned to **LEAD** because the melody felt dissonant against the rest of the piece — diagnosed and fixed a real harmonic clash between the LEAD motif and the STAB chord.
 
 **Covered:**
-- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — LEAD's bar 2 reworked: a chord-tone Eb5 now sits under the STAB's chord hit (replacing a clashing C5), and the C5 resolution moved later to beat 4
+- **Hardgroove 134** — LEAD's bar 2 reworked: a chord-tone Eb5 now sits under the STAB's chord hit (replacing a clashing C5), and the C5 resolution moved later to beat 4
 
 **Key takeaways:**
 - **Diagnostic method: check which note is sustaining at the exact instant a harmonically "loaded" hit fires.** The STAB (Eb-G-Db, rootless) fires once per bar — in bar 1, Eb5 was sounding there (a chord tone, fine); in bar 2, C5 was sounding there (the melody's "resolve home" note) — a half-step clash against the STAB's own Db, since C isn't in the STAB's rootless voicing at all.
@@ -119,10 +119,10 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Covered:**
 - [[Ableton/sampling-with-simpler|Sampling with Simpler]] — expanded with a full Slice mode section: **Transient** (cuts at the audio's own attacks/onsets) vs. **Beat/Division** (equal-length, content-blind chopping) as the two "Slice By" methods, plus the Sensitivity control for tuning slice count
-- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — ATMOS built: the captured dialogue+music fragment, kept as one mixed blob (not stem-separated), sliced via Transient, a handful of chosen slices scattered sparsely across a 4-bar clip
+- **Hardgroove 134** — ATMOS built: the captured dialogue+music fragment, kept as one mixed blob (not stem-separated), sliced via Transient, a handful of chosen slices scattered sparsely across a 4-bar clip
 
 **Key takeaways:**
-- **Decision on the parked question:** the fragment stays as one mixed blob rather than being stem-separated first — the "found" character actually suits an atmospheric layer better than clean isolated stems would, and it sidesteps the unconfirmed question of whether Lite supports stem extraction at all.
+- **Decision on the parked question:** the fragment stays as one mixed blob rather than being stem-separated first — the "found" character actually suits an atmospheric layer better than clean isolated stems would.
 - **Transient-based slicing respects the source material's own events** (words, musical hits) rather than cutting blind on a grid — the right choice for organic/found audio, as opposed to Beat/Division's deliberately blind (and optionally glitchy) equal chopping.
 - **Sparse, scattered placement (not a pattern) is what makes a sliced sample read as ATMOS rather than a new rhythmic element** — reapplies the project's broader "few elements, give things room" principle to a genuinely new sound source.
 - **This closes 6 of the original 8 budgeted tracks**: KICK, SUB, PERC, HATS, STAB/LEAD (shared via Instrument Rack), and now ATMOS. Only FX/RISER and RETURN remain unbuilt.
@@ -139,7 +139,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Covered:**
 - [[Techniques/oscillator-unison-detune|Oscillator Unison Detune]] — new note: two real oscillators, same waveform, a few cents apart, beating against each other for raw/analog character — grittier than a post-effect like Chorus-Ensemble because the beating is native to the waveform, not a delayed echo of it
-- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — LEAD chain finalized: Drift (Mono, Sawtooth + detuned Osc 2 unison, Low Pass ~2-3kHz, Resonance up, HP ~150-200Hz) → Saturator → Phaser-Flanger
+- **Hardgroove 134** — LEAD chain finalized: Drift (Mono, Sawtooth + detuned Osc 2 unison, Low Pass ~2-3kHz, Resonance up, HP ~150-200Hz) → Saturator → Phaser-Flanger
 
 **Key takeaways:**
 - **"Too clean" can be an oscillator-stage problem, not a post-processing problem.** Saturator, Resonance, and Phaser-Flanger are all downstream fixes — they couldn't solve what turned out to be a lack of grit at the actual waveform-generation stage. Worth checking the oscillator itself before stacking more effects when a patch still feels too polished.
@@ -154,15 +154,15 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 ## Sketch — 2026-07-23 — Hardgroove 134 (LEAD Kickoff — Instrument Rack Key Zones)
 
-**Topic:** Deferred the STAB variation (second hit) to a later "build out more tracks / prep Arrangement" pass, and moved straight to **LEAD**. Hit a real constraint immediately: track 5 was budgeted **STAB/LEAD together** since kickoff, and Live Lite's 8-track cap is fully spent — solved with a genuinely new concept, **Instrument Rack Key Zones**.
+**Topic:** Deferred the STAB variation (second hit) to a later "build out more tracks / prep Arrangement" pass, and moved straight to **LEAD**. Hit a real constraint immediately: track 5 was budgeted **STAB/LEAD together** since kickoff, and the track budget was fully spent — solved with a genuinely new concept, **Instrument Rack Key Zones**.
 
 **Covered:**
 - [[Ableton/instrument-rack-key-zones|Instrument Rack Key Zones]] — new note: a plain Instrument Rack is the general form of a Drum Rack (already known) — several melodic instrument chains sharing one track, split by Key Range via the same I/O toggle mechanic. Plan: STAB's existing Drift→Auto Filter→Chorus-Ensemble becomes Chain 1 (key-zoned to its current register), a new Drift→Phaser-Flanger patch becomes Chain 2 (key-zoned above it) — reusing the known "lead sits on top" register-lane rule
-- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — LEAD kickoff logged; STAB variation explicitly deferred, not abandoned
+- **Hardgroove 134** — LEAD kickoff logged; STAB variation explicitly deferred, not abandoned
 
 **Key takeaways:**
 - **Drum Rack is a specialized case of the more general Instrument Rack** — same Chain List / I/O Key Range mechanic, just pre-built for one-shot samples on pads. Knowing Drum Rack anatomy transfers directly.
-- **Instrument Rack Key Zones is the idiomatic fix for "two distinct voices, one track budgeted"** under Lite's 8-track cap — reapplies the exact problem-solving pattern that justified Drum Rack for PERC, now for melodic content.
+- **Instrument Rack Key Zones is the idiomatic fix for "two distinct voices, one track budgeted"** — reapplies the exact problem-solving pattern that justified Drum Rack for PERC, now for melodic content.
 - **Deliberately not re-teaching melody-writing basics** — call & response, register lanes, space-as-a-note, and the from-scratch mono-synth patch process were all covered on Ticket to Detroit's bleep lead; LEAD here reuses that knowledge rather than repeating it. The only genuinely new material this session was the track-sharing mechanism.
 - User's own working style noted: variations/polish (like a second STAB hit) are being deliberately batched for a later "build more tracks, prep Arrangement" pass rather than done inline — a sequencing preference, not a quality call.
 
@@ -172,7 +172,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Next:** Homework — ungroup the accidental Track Group, then build the 2-chain Instrument Rack correctly (select devices in Device View, not the track), key-zone both chains, build the LEAD Drift patch (Phaser-Flanger in its chain), and a short C Phrygian motif.
 
-**Update, same day — Chain 1 + Chain 2 built, a second real gotcha caught:** Drift/Auto Filter/Chorus-Ensemble successfully grouped as Chain 1 (STAB); a second Drift dropped into the Chain List as Chain 2 (LEAD). Then: **unlike Drum Rack, a plain Instrument Rack's Chain List has no I/O button** — Key Range is exposed directly via a **Key** toggle (alongside Vel/Chain/Hide), confirmed on this Live 12 Lite build. [[Ableton/instrument-rack-key-zones|Instrument Rack Key Zones]] corrected again in place.
+**Update, same day — Chain 1 + Chain 2 built, a second real gotcha caught:** Drift/Auto Filter/Chorus-Ensemble successfully grouped as Chain 1 (STAB); a second Drift dropped into the Chain List as Chain 2 (LEAD). Then: **unlike Drum Rack, a plain Instrument Rack's Chain List has no I/O button** — Key Range is exposed directly via a **Key** toggle (alongside Vel/Chain/Hide), confirmed on this Ableton build. [[Ableton/instrument-rack-key-zones|Instrument Rack Key Zones]] corrected again in place.
 
 **Where we left off:** Both chains exist on one track; Key Ranges not yet set.
 
@@ -191,7 +191,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Topic:** Closed out the STAB effects-exploration arc. Decision: **Chorus-Ensemble stays** on STAB (confirmed by ear); Phaser-Flanger's sweep is reserved for **LEAD** instead of stacking it here too.
 
 **Covered:**
-- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — STAB chain finalized for now: Drift → Auto Filter → Chorus-Ensemble
+- **Hardgroove 134** — STAB chain finalized for now: Drift → Auto Filter → Chorus-Ensemble
 - [[Roadmap|Roadmap]] — Chorus-Ensemble marked confirmed/applied; Phaser-Flanger stays flagged, now specifically earmarked for LEAD
 
 **Key takeaways:**
@@ -232,7 +232,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Covered:**
 - [[Techniques/auto-filter-movement|Auto Filter Movement]] — new technique note: what an effects-chain filter is and how it differs from an instrument's internal filter, the LFO section (Rate: Hz vs. tempo-synced note division, Amount, Waveform), and the starter recipe applied after Drift on STAB
-- [[Roadmap|Roadmap]] — Auto Filter moved from "not yet" to in-progress on the 4-month "explore all of Live Lite" device list
+- [[Roadmap|Roadmap]] — Auto Filter moved from "not yet" to in-progress on the device-exploration list
 
 **Key takeaways:**
 - **An effects-chain filter (Auto Filter) is a separate tool from a synth's built-in filter** — Drift's own Low Pass (Type I, ~900Hz) sets the STAB's static tone; Auto Filter, placed after Drift in the chain, adds rhythmic *movement* on top via its own LFO, without touching Drift's patch itself.
@@ -251,7 +251,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Topic:** Finished PERC (rim + layered shaker, EQ Three high-pass, Saturator grit) and kicked off HATS with a new concept: **Choke Groups**.
 
 **Covered:**
-- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — PERC built: Rim on C1 (Option B — sparse accent), Shaker layered via a second pad + a simultaneous piano-roll note (not a shared key), EQ Three high-pass (FreqLow + the "L" cut button), Saturator added for grit
+- **Hardgroove 134** — PERC built: Rim on C1 (Option B — sparse accent), Shaker layered via a second pad + a simultaneous piano-roll note (not a shared key), EQ Three high-pass (FreqLow + the "L" cut button), Saturator added for grit
 - [[Ableton/drum-rack-anatomy|Drum Rack Anatomy]] — corrected/expanded: Key Range editing confirmed to live behind the **I/O** toggle in the Chain List; direct drag onto an occupied pad **replaces**, doesn't layer; **Choke Groups** section written for real (assign the same group number to two chains so one cuts the other's ring)
 - [[Techniques/eq-carving|EQ Carving]] — new "stock-devices-only" addendum: EQ Three's high-pass is **FreqLow + the "L" button**, not FreqHi (which is the Mid/High crossover and can't reach low enough)
 - HATS kickoff: pattern plan handed off — closed hat doubles KICK's quarters, open hat doubles SUB's `&`s, safe to overlap in time because hats occupy a different frequency register than kick/sub (unlike PERC, which needed genuinely free time slots)
@@ -272,7 +272,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Update, same day — sampling detour:** before STAB/LEAD, a deliberate side-experiment: sampling a short found dialogue+music fragment from an external video source, to try Simpler's **Slice** mode on real-world material.
 - **New technique:** capturing external/system audio directly into Live via a **BlackHole** loopback + Multi-Output Device (Mac) — lands as a normal Audio-track clip, no download/ripping tool needed. See [[Ableton/sampling-with-simpler|Sampling with Simpler]] for the full setup, now documented as a third way to get audio in (alongside Browser and Finder drag).
 - Clip captured, dragged into a fresh **Simpler**. **Slice mode** (transient-detection vs. equal-division chopping) introduced as the next new tool — genuinely new, flagged since the original sampling lesson — but not yet applied. **User chose to pause here** and pick the creative chopping back up later.
-- Open question parked for later: chop the dialogue+music mix as one blob ("found" character), or separate voice from music first (Live 12 Suite/Standard has native stem extraction; unconfirmed whether Lite includes it) for cleaner individual slices.
+- Open question parked for later: chop the dialogue+music mix as one blob ("found" character), or separate voice from music first (Live 12 Suite/Standard has native stem extraction) for cleaner individual slices.
 
 **Where we left off:** Full rhythmic skeleton (KICK/SUB/PERC/HATS) built, individually characterized, velocity-grooved, and mixed as a group — a genuine milestone for this sketch. Separately, the sampling pipeline (capture → Simpler) is proven end-to-end but parked before the creative (Slice) stage.
 
@@ -282,22 +282,19 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 ## Sketch — 2026-07-22 — Hardgroove 134 (Key → C Phrygian + STAB Built From Scratch)
 
-**Topic:** Reconsidered the project's key now that a tonal layer finally makes it matter, confirmed Live Lite's real device ceiling against official sources, set a 4-month "explore all of Lite" goal, and built the STAB from a blank Drift patch.
+**Topic:** Reconsidered the project's key now that a tonal layer finally makes it matter, and built the STAB from a blank Drift patch.
 
 **Covered:**
 - [[Theory-Basics/phrygian-mode|The Phrygian Mode]] — new theory: identical to natural minor except a flattened 2nd degree; the tension that gives hard/industrial techno its bite; applied as a Cm(b9) chord (the mode's own 9th, not a plain one)
 - [[Techniques/drift-stab-from-scratch|Drift Stab From Scratch]] — full recipe: Voices 32 (poly, opposite of the kick/sub mono rule), Osc 1 Square isolated, Envelope 1 shaped for stab (not pad), Drift's Low Pass **Type I** (12dB/oct, grittier DFM-1 circuit) vs **Type II** (24dB/oct, cleaner Cytomic MS2) — Type I chosen, Freq ~900Hz. Chord Eb3-G3-Db4 (b3/5/b9, no root, no 7th — the leanest of four voicings compared), placed at the `a` of beat 3, one hit per bar
-- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — key changed to C Phrygian; STAB layer complete and confirmed sounding good
-- [[Roadmap|Roadmap]] — new **4-Month Goal** section: explore every stock Live Lite instrument/effect (confirmed list, official Ableton source) across future sketches, before upgrading to Standard/Suite
+- **Hardgroove 134** — key changed to C Phrygian; STAB layer complete and confirmed sounding good
 
 **Key takeaways:**
 - **Ableton's Scale dropdown may list mode names in English even in a Spanish-localized build** — "Phrygian," not "Frigio."
 - **The project's/clip's Scale setting is a note-input guide only** — it doesn't retune anything already placed (drum hits, existing notes). It only matters going forward, for what you draw next.
-- **Confirmed against Ableton's official Live 12 Lite Features page:** Hardgroove 134's "stock devices only" list (Drift/EQ Three/Saturator/Compressor/Drum Rack/Simpler) is a chosen creative subset, not Lite's real ceiling — Lite also includes Impulse, Channel EQ, Reverb, Delay, Auto Filter, Auto Pan, Beat Repeat, Chorus-Ensemble, Gate, Limiter, Looper, Phaser-Flanger, Tuner, Utility. Operator/Wavetable/EQ Eight, however, are genuinely absent from Lite.
 - **Drift's Filter "Type" switch is Low Pass I vs II, not Low/High/Band-pass** — both are low-pass; Type I (12dB/oct) is a grittier, internally-distorting circuit, Type II (24dB/oct) a cleaner, steeper one. There's also a separate always-on HP knob in the same section, unrelated to the Type switch.
 - **A mode's own altered scale degree makes a great extension-chord color tone** — stacking a Phrygian scale's 9th naturally produces a b9, putting the mode's signature tension directly in the chord rather than only in a melody played over it.
 - **Fewer notes in a chord voicing = more tension per note** — comparing all four voicings (bare triad+b9 vs adding b7 vs adding the root vs both) confirmed the leanest version suited this track's raw aesthetic best.
-- **New 4-month goal set:** explore every device Live Lite actually offers (not just each sketch's self-imposed subset) across the next ~4 months, while saving for Standard/Suite. Tracked as a checklist in [[Roadmap|Roadmap]].
 
 **Where we left off:** STAB built and confirmed good, playing alongside the finished rhythmic skeleton (KICK/SUB/PERC/HATS). LEAD (this track's other planned role) intentionally deferred for now.
 
@@ -310,12 +307,12 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Topic:** First move into PERC. New concept: **Drum Rack anatomy** — building the rack from empty (not a preset kit) — plus working out exactly where the percussion layer's hits go against the existing kick/sub interlock.
 
 **Covered:**
-- [[Ableton/drum-rack-anatomy|Drum Rack Anatomy]] — new note: pads as nested Simplers, why one Drum Rack track solves Lite's 8-track budget squeeze for a multi-sound percussion layer, choke groups flagged for the HATS session
-- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — placement plan: KICK + SUB already interlock across every 8th-note pulse, so PERC's job is the leftover 16th (`e`/`a`) slots; two starter options given (continuous 16th shimmer vs. sparse 2-hit accent)
+- [[Ableton/drum-rack-anatomy|Drum Rack Anatomy]] — new note: pads as nested Simplers, why one Drum Rack track solves the track-budget squeeze for a multi-sound percussion layer, choke groups flagged for the HATS session
+- **Hardgroove 134** — placement plan: KICK + SUB already interlock across every 8th-note pulse, so PERC's job is the leftover 16th (`e`/`a`) slots; two starter options given (continuous 16th shimmer vs. sparse 2-hit accent)
 
 **Key takeaways:**
 - A Drum Rack pad = a nested Simpler (Start/Length, Classic vs One-Shot — all already known). The rack itself is just several Simplers behind one shared pad grid, one MIDI track.
-- **Why Drum Rack over individual Simpler tracks:** Live Lite's 8-track cap can't afford 3-4 separate tracks for rim/shaker/clave — one Drum Rack track holds all of them.
+- **Why Drum Rack over individual Simpler tracks:** the track budget can't afford 3-4 separate tracks for rim/shaker/clave — one Drum Rack track holds all of them.
 - **Kick + Sub together already claim every 8th-note pulse** (kick on the quarters, sub on the `&`s) — there is no 8th-note gap left for PERC to fill. This reapplies the [[Techniques/percussion-layering|percussion-layering]] "take turns" principle one subdivision level deeper: PERC lives entirely in the 16th (`e`/`a`) in-betweens.
 - Two genre-neutral starter patterns handed off as homework rather than dictated — continuous 16th shimmer (smoother/hypnotic) vs. sparse 2-hit accent (punchier/hardgroove-leaning) — the choice is the user's to make by ear.
 - Choke groups (pads muting each other) exist and matter for HATS (open/closed hat exclusivity) but aren't needed yet for a non-overlapping percussion layer — flagged, not taught in depth this session.
@@ -351,7 +348,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Covered:**
 - [[Techniques/drift-kick-from-scratch|Building a Kick From Scratch in Drift]] — new §8: Oct as the only true depth fix (EQ/Saturator can't add a missing fundamental), and the oscillator-phase-continuity explanation for hit-to-hit inconsistency
-- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — Compressor (Peak, slow-ish Attack to let transient through, fast Release, Makeup) and EQ Three Mid (+2-3dB) added; Oct dropped to -2, confirmed deeper
+- **Hardgroove 134** — Compressor (Peak, slow-ish Attack to let transient through, fast Release, Makeup) and EQ Three Mid (+2-3dB) added; Oct dropped to -2, confirmed deeper
 
 **Key takeaways:**
 - **Depth is a pitch problem, not an EQ/Saturator problem.** Those tools can only rebalance or add harmonics to what's already there — the only real fix for "too high" is lowering the actual fundamental (Osc Oct, or the note itself).
@@ -359,7 +356,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 - **A non-sidechained Compressor with a slower Attack (letting the initial transient spike through before clamping) is a classic punch technique** — the spike ends up relatively louder than the body once the sustain gets squashed.
 - **Diagnosed inconsistent hit-to-hit output via systematic elimination:** Auto Release (off) → External sidechain (off) → Drift's instability macro (0%) → LFO Retrigger (confirmed on) → velocity (confirmed uniform across all notes) — each ruled out in turn. Landed on the most likely remaining explanation: **the oscillator's own phase isn't reset per note-on**, a separate mechanism from the LFO's Retrigger (which only resets the LFO). This is consistent with Drift being explicitly analog-modeled — real analog oscillators free-run continuously, never fully stopping/resetting, same as real hardware.
 - **Decision: kept as-is.** This subtle non-identical repetition reads as raw/alive character, which fits the hardgroove aesthetic better than chasing perfect digital uniformity would.
-- Side question answered: **Ableton Live has no native autotune device in any edition, and Live Lite doesn't support third-party VST/AU plugins at all** — moot for this project's stock-devices-only rule, but useful to know generally.
+- Side question answered: **Ableton Live has no native autotune device in any edition** — moot for this project's stock-devices-only rule, but useful to know generally.
 
 **Where we left off:** KICK chain finalized for now: Drift (Oct -2, dual transient via pitch envelope + LFO-driven filter snap) → Saturator → EQ Three (Mid boost added) → Compressor (punch). Hit-to-hit variation understood and accepted as character, not a bug.
 
@@ -375,7 +372,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Covered:**
 - [[Techniques/loop-character-variations|Loop Character Variations (Placement-Only)]] — new technique note: derive several loop personalities from one pattern via small targeted edits (leave alone / add a phrase-boundary anticipation / remove one hit periodically) rather than writing unrelated patterns
-- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — Loop 1 (Straight Roller, unedited), Loop 2 (Rolling Push — added anticipation note in bars 4/8), Loop 3 (Stripped/Hypnotic — removed one hit in bars 2/4/6/8) all built and confirmed
+- **Hardgroove 134** — Loop 1 (Straight Roller, unedited), Loop 2 (Rolling Push — added anticipation note in bars 4/8), Loop 3 (Stripped/Hypnotic — removed one hit in bars 2/4/6/8) all built and confirmed
 
 **Key takeaways:**
 - **Three *unrelated* patterns feel like three different songs; three *variations of one pattern* feel like the same idea breathing differently.** Small, targeted edits to specific bars beat inventing new patterns from scratch.
@@ -394,7 +391,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Topic:** Finished the Weeks 1–2 core workflow: **SUB** patch mirroring KICK, the kick/sub interlock pattern placed, and the sidechain wired up and confirmed.
 
 **Covered:**
-- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — SUB built, interlock pattern in, sidechain confirmed; all of steps 1–4 of the original plan done
+- **Hardgroove 134** — SUB built, interlock pattern in, sidechain confirmed; all of steps 1–4 of the original plan done
 - [[Techniques/kick-sub-interlock-sidechain|Kick/Sub Interlock as a Sidechain Groove Tool]] — new technique note: when the ducked element never overlaps the kick (already interlocked), sidechain Release becomes a pure groove/motion tool — tuned right, the sub swells into its own hit instead of sounding static
 
 **Key takeaways:**
@@ -416,7 +413,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Covered:**
 - [[Techniques/drift-kick-from-scratch|Building a Kick From Scratch in Drift]] — the full recipe: oscillator isolation, Pitch Mod vs Freq Mod, Envelope 1 as the hardwired Amp Envelope, killing hidden LFO/Drift-macro wobble, Saturator, EQ Three
-- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — KICK chain complete; session log has the full debugging trail
+- **Hardgroove 134** — KICK chain complete; session log has the full debugging trail
 
 **Key takeaways:**
 - **Pitch Mod and Freq Mod are separate controls that both default to "Env 2"** — easy to raise the wrong one. The first "click" heard was actually the filter popping open (Freq Mod), not a real pitch drop, since Pitch Mod's own amount was still at 0%.
@@ -434,15 +431,15 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 ## Sketch — 2026-07-16 — Hardgroove 134 (Kickoff)
 
-**Topic:** Third track sketch kicked off — **hardgroove techno at 134 BPM**, rebuilding the low end from zero in Drift. A deliberate fresh start, not a continuation: [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] is paused (Solo Sketch 138 also wrapped the same day — see below).
+**Topic:** Third track sketch kicked off — **hardgroove techno at 134 BPM**, rebuilding the low end from zero in Drift. A deliberate fresh start, not a continuation: **Ticket to Detroit** is paused (Solo Sketch 138 also wrapped the same day — see below).
 
 **Covered:**
-- [[Track-Sketches/hardgroove-134|Hardgroove 134]] — new sketch: 134 BPM, C major, 8-track budget (KICK/SUB/PERC/HATS/STAB-LEAD/ATMOS/FX-RISER/RETURN), stock-devices-only rule (Drift/EQ Three/Saturator/Compressor/Drum Rack/Simpler), Weeks 1–2 goal (KICK + SUB only, three distinct 8-bar loops)
+- **Hardgroove 134** — new sketch: 134 BPM, C major, 8-track budget (KICK/SUB/PERC/HATS/STAB-LEAD/ATMOS/FX-RISER/RETURN), stock-devices-only rule (Drift/EQ Three/Saturator/Compressor/Drum Rack/Simpler), Weeks 1–2 goal (KICK + SUB only, three distinct 8-bar loops)
 - KICK track started: Drift loaded, oscillator isolated to a single plain sine (Osc 2/Sub/Noise off) — checkpoint before the pitch envelope
 
 **Key takeaways:**
 - New house rule for this project: **100% hand-built in Ableton's UI** — no Producer Pal, no MCP, no programmatic control. The point is learning the interface directly, not the fastest path to a finished loop.
-- Live Lite's 8-track ceiling now forces a **pre-committed instrument budget** up front (KICK/SUB/PERC/HATS/STAB-LEAD/ATMOS/FX-RISER/RETURN) rather than adding tracks ad hoc as the sketch grows.
+- A fixed track budget forces a **pre-committed instrument budget** up front (KICK/SUB/PERC/HATS/STAB-LEAD/ATMOS/FX-RISER/RETURN) rather than adding tracks ad hoc as the sketch grows.
 - Drift is the sound-design workhorse here (no Operator/Wavetable/EQ Eight allowed) — building "from a blank preset" means actively zeroing Drift's default pre-routing (recall: Env 2 → Freq Mod ships at 80% out of the box), not just loading the device and assuming it's silent/neutral.
 - This directly picks up Path 2's flagged first step (Roadmap: "Open Drift with all presets cleared, build a bass from a single sine wave") — now literally underway on the kick patch.
 
@@ -457,7 +454,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Topic:** Rendered the final WAV. **Solo Sketch 138 is done, start to finish** — the user's first fully self-driven track, from the original drum loop through export.
 
 **Covered:**
-- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — marked complete; full State summary added
+- **Solo Sketch 138** — marked complete; full State summary added
 - [[Ableton/exporting-your-track|Exporting Your Track]] — corrected for this Live version: "Master" renamed to **Main** in the Rendered Track field, and the standalone **Render Tail** field is gone — pad **Render Length** a couple bars past the last clip instead so Reverb/Delay tails have room
 
 **Key takeaways:**
@@ -467,7 +464,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Where we left off:** Track exported. Solo Sketch 138 closed as a complete, finished piece.
 
-**Next:** Open — could return focus to [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] (still needs FX/arrangement/mix/export), start a fresh self-driven sketch, or dive into Path 2 (sound design from scratch) / Path 1 (chord progressions), both flagged earlier as things the user wants more of.
+**Next:** Open — could return focus to **Ticket to Detroit** (still needs FX/arrangement/mix/export), start a fresh self-driven sketch, or dive into Path 2 (sound design from scratch) / Path 1 (chord progressions), both flagged earlier as things the user wants more of.
 
 ---
 
@@ -478,7 +475,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Covered:**
 - [[Techniques/eq-carving|EQ Carving (Subtractive EQ)]] — the cut-don't-boost philosophy, the high-pass-everything-else rule, applied per-track to the sketch's 6 tracks
 - [[Ableton/master-limiter|Master Limiter (Mix Safety Net)]] — Ceiling ~-0.3dB, small Gain, why this isn't full mastering
-- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — homework queued: high-pass Polymeter perc + Stab Dub Direct, add the Limiter, verify Build 2 doesn't clip
+- **Solo Sketch 138** — homework queued: high-pass Polymeter perc + Stab Dub Direct, add the Limiter, verify Build 2 doesn't clip
 
 **Key takeaways:**
 - Subtractive EQ: when two elements clash in the same frequency range, cut the one that doesn't need it there, rather than boosting the other to compete.
@@ -497,7 +494,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Topic:** Closed out the riser debugging chain: rebuilt the riser clean in Session View (Freq Mod zeroed, envelopes redrawn), verified it solo, cleared every stale/duplicate riser block from Arrangement, then re-recorded. Confirmed working.
 
 **Covered:**
-- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — full debugging saga logged under "Riser debugging saga — resolved 2026-07-16"
+- **Solo Sketch 138** — full debugging saga logged under "Riser debugging saga — resolved 2026-07-16"
 
 **Key takeaways:**
 - The real fix wasn't any single tweak — it was **removing accumulated stale state** (old Session clip, leftover duplicate Arrangement blocks) and rebuilding from one verified source, then re-recording once.
@@ -533,7 +530,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Topic:** Follow-up: the arrangement now has a two-act shape — Build 1 (riser → Polymeter+Rumble enter + one Stab hit) → breakout/thin back to drums+bass → riser → Build 2, a bigger climax where the Stab sample became a repeated rhythmic run instead of one hit.
 
 **Covered:**
-- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — updated Observations with the "Arrangement take v2" read
+- **Solo Sketch 138** — updated Observations with the "Arrangement take v2" read
 
 **Key takeaways:**
 - Turning a single one-shot into a repeated run for the second pass is a real escalation device — the climax gets its own identity instead of just repeating Build 1.
@@ -551,7 +548,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Topic:** Homework check-in: the performance is recorded into Arrangement. Applied the "mixed scene + individual clip launches" addendum from [[Ableton/arrangement-view-basics|Arrangement View Basics]] — drums/bass ran continuously, Polymeter perc + Rumble entered together partway through, the Stab Dub Direct sample fired once, and the Riser fired twice back-to-back around the new-layer entrance.
 
 **Covered:**
-- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — full take recorded; see the sketch note's Observations for the arrangement read and two open questions (riser double-trigger intent, unused Audio track)
+- **Solo Sketch 138** — full take recorded; see the sketch note's Observations for the arrangement read and two open questions (riser double-trigger intent, unused Audio track)
 
 **Key takeaways:**
 - Staggering track entrances (rather than only whole-scene launches) reads as real arrangement dynamics — a valid, more granular alternative to the Intro/Build/Drop/Break scene model.
@@ -569,7 +566,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Topic:** Homework check-in: the riser is built and working — Noise generator enabled on Drift (Osc 1/2 off), Filter Freq and Track Volume both automated rising across the clip as two stacked lanes in the Envelopes tab, Loop off.
 
 **Covered:**
-- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — riser track complete, all 8 planned layers now in place (drums, rumble, bass, sample accent, riser + the 4-scene structure)
+- **Solo Sketch 138** — riser track complete, all 8 planned layers now in place (drums, rumble, bass, sample accent, riser + the 4-scene structure)
 - [[Ableton/clip-envelopes|Clip Envelopes]] — corrected: the Envelopes tab sits top-right of Clip View (not a small "E" button), and its Device/Control dropdowns live at the *bottom* of the pane, not the top — fixed after two rounds of screenshots. Also documented: each Device/Control pair's automation is stored independently, which is *how* stacking two envelopes on one clip actually works.
 
 **Key takeaways:**
@@ -588,7 +585,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Covered:**
 - [[Techniques/riser-fx|Riser FX (Noise Build-Up)]] — Noise as a pitch-free source, the stacked-envelope build recipe, Loop off, launching by hand before the Drop
-- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — homework queued: build the Riser track (slot 6 of the 8-track budget)
+- **Solo Sketch 138** — homework queued: build the Riser track (slot 6 of the 8-track budget)
 
 **Key takeaways:**
 - A riser = brightness (filter opening) + loudness (volume rising) compounding together over 1–2 bars — reads as one "build" event, not two separate sweeps.
@@ -608,7 +605,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Topic:** Homework check-in: the **Stab Dub Direct** sample loaded into Simpler on a new track, trimmed, and set to **One-Shot** — first real use of the sampling lesson.
 
 **Covered:**
-- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — sample-based accent added, dub-techno-flavored texture layer
+- **Solo Sketch 138** — sample-based accent added, dub-techno-flavored texture layer
 
 **Key takeaways:**
 - One-Shot was the right call for a stab-as-texture: it fires the whole hit once per trigger, no held-note behavior to manage.
@@ -626,7 +623,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Covered:**
 - [[Ableton/sampling-with-simpler|Sampling with Simpler]] — dragging audio in, key/pitch mapping, Classic vs One-Shot vs Slice, Start/Length trimming
-- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — homework queued: add a one-shot texture/hit as an accent
+- **Solo Sketch 138** — homework queued: add a one-shot texture/hit as an accent
 
 **Key takeaways:**
 - Simpler plays back *your* audio the same way Drift plays an oscillator — familiar shape (MIDI track, arm, play), new source material. Already used once, hidden inside the Acid Bass preset on Sketch 01.
@@ -645,7 +642,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Topic:** Homework check-in: sidechain ducking applied — the Compressor sidechains the rumble to the kick (the essential case), and the user also chose to duck the bass the same way (the "optional" case from [[Techniques/sidechain-ducking|the note]]).
 
 **Covered:**
-- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — rumble and bass both duck against the kick now
+- **Solo Sketch 138** — rumble and bass both duck against the kick now
 
 **Key takeaways:**
 - Rumble ducking is the essential case — continuous low end has to get out of the kick's way on every hit.
@@ -663,9 +660,9 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Topic:** The user's first **self-driven** sketch (138 BPM, A minor, Cashon Kit): built a drum loop + break variation alone, then asked "what would a pro do next?". New technique queued: the **rumble** — a reverb-generated low-end layer under the kick.
 
 **Covered:**
-- [[Track-Sketches/solo-sketch-138|Solo Sketch 138]] — the new sketch: stats, state, observations, next-steps list
+- **Solo Sketch 138** — the new sketch: stats, state, observations, next-steps list
 - [[Techniques/rumble-bass|Rumble (Reverb Low-End Layer)]] — kick copy → 100%-wet reverb → EQ out the highs → quiet fader
-- [[Techniques/techno-production-arc|Techno Production Arc]] — the 7-stage high-level map, few-elements principle, 8-bar rule, Lite track budget
+- [[Techniques/techno-production-arc|Techno Production Arc]] — the 7-stage high-level map, few-elements principle, 8-bar rule
 - [[Techniques/stab-vs-bleep|Stab vs Bleep]] — comparison reference; neither is required — user chose a drums-focused direction
 - [[Techniques/ghost-notes-and-fills|Ghost Notes & Fills]] — vel 20–40 hits on `e`/`a` + phrase-end fills every 4/8 bars via the clip Duplicate button
 - [[Techniques/polymeter-percussion|Polymeter Percussion]] — 3-beat perc clip rotating against the 4-beat bar; one static pattern = 3 bars of variation
@@ -689,7 +686,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Covered:**
 - [[Techniques/bleep-lead-motif|Bleep Lead & Motif Writing]] — the 2-bar call/response motif, three craft rules, the register-lanes map, the bleep recipe
-- [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — lead track added; the full loop stack (drums/bass/stab/pad/lead) now plays
+- **Ticket to Detroit** — lead track added; the full loop stack (drums/bass/stab/pad/lead) now plays
 
 **Key takeaways:**
 - **A club melody = a motif**: a 3–5 note cell + space, repeated with small variations — not a vocal line.
@@ -712,7 +709,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Covered:**
 - [[Techniques/adsr-envelopes|ADSR Envelopes (Stab vs Pad)]] — the four dials, the envelope diagram, the pad recipe
-- [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — pad track added; also logged the user's own Channel EQ on the stab + the three stab A/B clips
+- **Ticket to Detroit** — pad track added; also logged the user's own Channel EQ on the stab + the three stab A/B clips
 
 **Key takeaways:**
 - **ADSR = the loudness shape of a note:** Attack (time to full volume), Decay (time to fall to sustain), Sustain (a *level*, not a time), Release (fade after key-up).
@@ -735,7 +732,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 **Covered:**
 - [[Theory-Basics/sevenths-and-ninths|Sevenths and Ninths (Chord Extensions)]] — the 1-3-5-7-9 stacking pattern, why "9" not "2", triad vs 7th vs 9th character
 - [[Techniques/detroit-chord-stab|Detroit Chord Stab]] — poly voices, fast attack + filtered dark, mid-range voicing, sparse weak-position rhythm, Option-drag for stacked notes
-- [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — stab track added; drums + bass + Am9 stab now loop together
+- **Ticket to Detroit** — stab track added; drums + bass + Am9 stab now loop together
 
 **Key takeaways:**
 - **Chords stack every other scale note:** A→C→E→G→B. Triad = 1-3-5 (Am), add 7 (G) = Am7, add 9 (B, the 2nd an octave up) = Am9.
@@ -758,7 +755,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Covered:**
 - [[Techniques/syncopated-bassline|Syncopated Bassline (Detroit Bass)]] — syncopation, the anchor/push/turnaround pattern anatomy, design rules, matching grooves across clips
-- [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — bass track added; drums + bass now swing together
+- **Ticket to Detroit** — bass track added; drums + bass now swing together
 
 **Key takeaways:**
 - **Syncopation = emphasis on weak positions.** The ear expects weight on the beats; accents between them create the forward pull.
@@ -780,7 +777,7 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 **Covered:**
 - [[Techniques/swing-and-groove|Swing & Groove (The Detroit Shuffle)]] — swing %, why swing needs 16th content, Groove Pool mechanics (Base/Timing/Random/Velocity/Amount, Commit)
-- [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — 16th closed hats added, swing groove applied
+- **Ticket to Detroit** — 16th closed hats added, swing groove applied
 
 **Key takeaways:**
 - **Swing = the offbeat 16ths (`e`/`a`) land late.** 50% = straight; 54–58% = subtle classic house/Detroit roll; 66% ≈ triplet shuffle.
@@ -798,10 +795,10 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 ## Sketch — 2026-07-09 — Ticket to Detroit (Kickoff)
 
-**Topic:** Fresh start on Live Lite. Deleted all old local projects, then kicked off the new sketch **Ticket to Detroit** (128 BPM, A minor, club techno with Detroit influence): rebuilt the foundation drum loop as a repeat of the first-track exercise, and learned the **APC Mini MK2 → Session View mapping** — first hardware lesson.
+**Topic:** Fresh start. Deleted all old local projects, then kicked off the new sketch **Ticket to Detroit** (128 BPM, A minor, club techno with Detroit influence): rebuilt the foundation drum loop as a repeat of the first-track exercise, and learned the **APC Mini MK2 → Session View mapping** — first hardware lesson.
 
 **Covered:**
-- [[Track-Sketches/ticket-to-detroit|Ticket to Detroit]] — the new sketch: stats, the Detroit production reference map, the 8-track plan, kickoff log
+- **Ticket to Detroit** — the new sketch: stats, the Detroit production reference map, the 8-track plan, kickoff log
 - [[Ableton/apc-mini-mk2-grid|APC Mini MK2 Grid]] — pads = clip slots, right column = scenes, faders = volumes, pad colors, the red frame
 
 **Key takeaways:**
@@ -810,7 +807,6 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 - The foundation loop is the same known skeleton: kick on quarters, clap on 2 & 4, closed hats on beats, open hats on the `&`s.
 - The APC's 8×8 grid **is** Session View: pad = clip slot, right column = scene launch, faders 1–8 = track volumes, fader 9 = Master.
 - Pads obey the same **1-Bar Launch Quantization** as mouse clicks — hardware presses land musically for free.
-- Lite's 8-track cap ↔ the APC's 8-wide grid: the whole project stays visible on the hardware, and the track plan was budgeted to fit.
 
 **Where we left off:** Old projects deleted; `ticket to detroit.als` exists with the foundation drum loop on a 909-style kit at 128 BPM, launchable from the APC pads.
 
@@ -818,29 +814,25 @@ Pulls from paths 1–5 as the track demands. Each pull also bumps that path's % 
 
 ---
 
-## Status — 2026-07-08 — Ordered Akai APC Mini MK2 (ships with Live Lite)
+## Status — 2026-07-08 — Ordered Akai APC Mini MK2
 
-**What happened:** Ordered an **Akai Professional APC Mini MK2** — an 8×8 grid controller with 8 faders. It bundles an **Ableton Live Lite** license, so this is how we get onto Lite (no separate download hunt needed). Waiting on delivery.
+**What happened:** Ordered an **Akai Professional APC Mini MK2** — an 8×8 grid controller with 8 faders. Waiting on delivery.
 
 **Why it fits:** The MK2's 8×8 pad grid mirrors Session View's clip grid exactly — the same grid every sketch session has used. Faders map to track volumes. First hardware in the setup: we shift from clicking clips with a mouse to **launching scenes/clips by hand**, which is the whole point of Session View.
 
-**Next:** When it arrives → use the included code to install **Ableton Live Lite** → confirm it opens and the MK2 lights up → then start fresh (likely `techno-sketch-02` on Lite). First hands-on lesson candidate: **mapping the APC grid to Session View + launching clips from the pads.**
+**Next:** When it arrives → confirm it opens and the MK2 lights up → then start fresh. First hands-on lesson candidate: **mapping the APC grid to Session View + launching clips from the pads.**
 
 ---
 
-## Status — 2026-07-07 — Suite trial expired → uninstalled, moving to Lite
+## Status — 2026-07-07 — Suite trial expired, uninstalled
 
 **What happened:** The Ableton Live **Suite** 30-day trial expired (~2026-06-27) and has now been **uninstalled** (app + all system data moved to Trash). Every project file was left untouched in `~/Music/Ableton/` — `techno-sketch-01` and its 11 backups, the `test/000` project, the User Library, and the Factory Packs.
 
-**Plan:** Install **Ableton Live Lite** (the free tier) and restart the hands-on journey from scratch on the smaller set. Lite is a good fit — everything covered so far (Sessions 1–9 + the sketch work) is core workflow that Lite fully supports.
+**Plan:** Restart the hands-on journey from scratch on the smaller free tier for now. Everything covered so far (Sessions 1–9 + the sketch work) is core workflow that carries over regardless of edition.
 
-**What changes on Lite:**
-- Lite caps the number of tracks/scenes and ships a **smaller device + sound library** than Suite — some Suite-only instruments/effects won't exist.
-- Opening `techno-sketch-01` in Lite may show **missing or greyed-out devices** (anything that was Suite-only). That's expected, not a broken file — the notes and structure survive. Keep the old sketch as a **reference** and start a **fresh sketch** on Lite.
+**Where the deepening plan stands:** ⏸ **Paused** at candidate #2 (**Pad / atmosphere**) — #1 (Percussion layer) is done. Resume the list once the new install is in, or fold the remaining ideas into a fresh sketch.
 
-**Where the deepening plan stands:** ⏸ **Paused** at candidate #2 (**Pad / atmosphere**) — #1 (Percussion layer) is done. Resume the list once Lite is in, or fold the remaining ideas into a clean Lite sketch.
-
-**Next:** Install Ableton Live Lite → confirm it opens → decide: continue `techno-sketch-01` (repairing any missing devices) *or* start `techno-sketch-02` fresh on Lite. Then pick the learning thread back up.
+**Next:** Install the new DAW → confirm it opens → decide: continue `techno-sketch-01` (repairing any missing devices) *or* start `techno-sketch-02` fresh. Then pick the learning thread back up.
 
 ---
 

@@ -14,7 +14,7 @@ A **rumble** is a sustained low-frequency tail that rolls *under* the kick, fill
 
 Reverb on the dry kick track would smear the punch ([[../Ableton/mixing-basics-and-effects|known rule: keep reverb off kick & bass]]). The rumble sidesteps this: the **dry kick track stays untouched**, and a *separate* track carries only the wet tail. Punch and wash coexist because they're on different faders.
 
-## The Live Lite recipe
+## The recipe
 
 ```
 Kick copy ──▶ Reverb (100% wet) ──▶ Channel EQ (highs out) ──▶ fader LOW
@@ -39,5 +39,4 @@ Kick copy ──▶ Reverb (100% wet) ──▶ Channel EQ (highs out) ──▶
 
 - **Too loud = mud.** The most common failure. When in doubt, drop it another 3 dB.
 - Decay too long stacks tails on top of each other and drones; too short leaves gaps. Tune by ear at the track's BPM.
-- The rumble track counts against Lite's 8-track cap — budget for it.
 - The kick + rumble pumping together is later perfected with **sidechain ducking** (Path 3's headline topic — not yet covered).

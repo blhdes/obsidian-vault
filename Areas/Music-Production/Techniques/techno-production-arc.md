@@ -1,16 +1,16 @@
 ---
 title: Techno Production Arc (High-Level Map)
 date: 2026-07-12
-tags: [techniques, techno, workflow, arrangement, live-lite]
+tags: [techniques, techno, workflow, arrangement]
 ---
 
 # Techno Production Arc (High-Level Map)
 
-The stage-by-stage shape of producing a techno track, mapped to Live Lite's toolset. Genre note: the *order* (groove-first, few elements, DJ-friendly structure) is techno-specific; other genres front-load melody/harmony instead.
+The stage-by-stage shape of producing a techno track, mapped to Ableton's toolset. Genre note: the *order* (groove-first, few elements, DJ-friendly structure) is techno-specific; other genres front-load melody/harmony instead.
 
 ## The seven stages
 
-| # | Stage | What it means | Lite tools | Status |
+| # | Stage | What it means | Tools | Status |
 |---|---|---|---|---|
 | 1 | **Groove core** | Drums + swing + low end (kick, rumble and/or bass) | Drum Rack, Groove Pool, Reverb+EQ rumble | ✅ known |
 | 2 | **Hypnotic elements** | 1–3 repeating musical parts max — bass, stab, bleep/perc synth | Drift, [[syncopated-bassline\|syncopation]], [[detroit-chord-stab\|stab]], [[bleep-lead-motif\|motif]] | ✅ known |
@@ -27,7 +27,7 @@ The stage-by-stage shape of producing a techno track, mapped to Live Lite's tool
 - **DJ-friendly structure**: ~16–32 bars of stripped drums at both ends so another track can be mixed in/out.
 - **The 8-bar rule**: the ear notices when nothing has changed for 8 bars. One small change per 8 (a hat enters, a filter moves, a note drops out) keeps a loop hypnotic instead of static.
 
-## Lite 8-track budget (typical techno sketch)
+## Typical track budget (techno sketch)
 
 ```
 1 Drums   2 Rumble   3 Bass   4 Stab/chord

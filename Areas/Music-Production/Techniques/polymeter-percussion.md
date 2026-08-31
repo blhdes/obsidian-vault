@@ -18,7 +18,7 @@ Perc  : ● · · ●|· · ● ·|· ● · ·|
 
 *(perc = one hit every 3 beats; realigns with the kick at bar 4)*
 
-## Recipe (Live Lite)
+## Recipe
 
 1. New MIDI track with one short perc sound (shaker, rim, metallic hit) — or a small 2–3 hit pattern.
 2. In Clip View set **Length to `0.3.0`** (3 beats) — or drag the loop brace to end at beat 4.

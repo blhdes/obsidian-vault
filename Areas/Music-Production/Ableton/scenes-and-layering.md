@@ -26,7 +26,7 @@ A new empty MIDI column appears.
 2. Browser → **Sounds → Bass** → pick any preset (start with something simple like "Sub Bass" or "Analog Bass").
 3. **Double-click** it to load.
 
-> 💡 If "Bass" is empty in Lite, try **Categories → Instruments → Drift / Wavetable / Analog** and pick a Bass preset. Suite has everything; Lite varies.
+> 💡 If "Bass" looks empty, try **Categories → Instruments → Drift / Wavetable / Analog** and pick a Bass preset from there instead.
 
 ## Placing the clip on the **same scene** as the drums
 

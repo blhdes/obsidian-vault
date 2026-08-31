@@ -35,7 +35,7 @@ Automating Interval/Chance only during a transition clip reuses the already-know
 
 ## Why this over the Noise riser here
 
-A synthesized noise sweep is a very EDM-coded build. A stutter/glitch edit built from the track's *own* drum content is a more idiomatic techno transition device, and it exercises a genuinely new stock Lite effect (Beat Repeat) rather than reapplying an already-mastered recipe verbatim.
+A synthesized noise sweep is a very EDM-coded build. A stutter/glitch edit built from the track's *own* drum content is a more idiomatic techno transition device, and it exercises a genuinely new stock effect (Beat Repeat) rather than reapplying an already-mastered recipe verbatim.
 
 ## Gotchas
 

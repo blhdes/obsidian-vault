@@ -30,7 +30,7 @@ Each technique gets its own note (e.g. `four-on-the-floor-drums.md`). We learn o
 - [[adsr-envelopes|ADSR Envelopes (Stab vs Pad)]] — the four dials shaping a note's loudness; same chord + opposite envelope = opposite instrument; the string-pad recipe
 - [[bleep-lead-motif|Bleep Lead & Motif Writing]] — melody as a motif: call & response, keep-the-rhythm-change-the-notes, space as a note, register lanes, the from-scratch bleep patch
 - [[rumble-bass|Rumble (Reverb Low-End Layer)]] — low end generated *from the kick*: kick copy → 100%-wet reverb → EQ out the highs → quiet; raw/hypnotic-techno-specific
-- [[techno-production-arc|Techno Production Arc (High-Level Map)]] — the 7 stages groove→export mapped to Live Lite, the few-elements/8-bar-rule principles, the 8-track budget
+- [[techno-production-arc|Techno Production Arc (High-Level Map)]] — the 7 stages groove→export mapped to Ableton's toolset, the few-elements/8-bar-rule principles
 - [[stab-vs-bleep|Stab vs Bleep]] — quick comparison table (chord vs mono, rhythm vs melody, mid vs top register) + why neither is *required* in harder club techno
 - [[ghost-notes-and-fills|Ghost Notes & Fills]] — quiet in-between hits (vel 20–40, on `e`/`a`) for micro-groove + phrase-end fills every 4/8 bars; the Duplicate-to-4-bars workflow
 - [[polymeter-percussion|Polymeter Percussion]] — a 3-beat perc clip rotating against the 4-beat bar; three bars of free variation from one static pattern; hypnotic-techno staple

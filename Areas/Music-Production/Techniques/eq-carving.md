@@ -30,7 +30,7 @@ Everything else        →  high-pass filter, roll off what they don't need
 | Stab Dub Direct | High-pass ~150–300 Hz | Frees room for the bass underneath it |
 | Raiser | Leave as-is | Already shaped by its own filter automation |
 
-## How (Live Lite)
+## How
 
 Drop a **Channel EQ** or **EQ Eight** after the instrument on the track's Device chain. Both have a high-pass control — Channel EQ's is the **HP** knob/switch, EQ Eight lets you set Band 1 to **HP** and drag its frequency point up.
 

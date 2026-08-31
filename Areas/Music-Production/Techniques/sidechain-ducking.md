@@ -13,7 +13,7 @@ Two payoffs at once:
 1. **Punch** — the kick gets the low end to itself for its transient; no more fighting the rumble.
 2. **Pump** — the rhythmic swelling-back is the "breathing" motion of dance music. This is the *automatic* version of the manual [[kick-bass-interlock|kick/bass interlock]].
 
-## Recipe (Live Lite, rumble track)
+## Recipe (rumble track)
 
 1. Drop a **Compressor** (Audio Effects) on the rumble track, *after* the EQ.
 2. Top-left of the device: unfold the **Sidechain** section (▸ triangle) → turn **Sidechain on**.

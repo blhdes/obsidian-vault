@@ -31,6 +31,6 @@ Each distinct topic gets its own kebab-case note (e.g. `session-vs-arrangement-v
 - [[apc-mini-mk2-grid|APC Mini MK2 Grid]] — the hardware mirror of Session View: pads = clip slots, right column = scene launch, faders = track volumes + Master, pad colors, the red frame
 - [[sampling-with-simpler|Sampling with Simpler]] — drag your own audio into Simpler, key/pitch mapping, Classic vs One-Shot vs Slice playback modes, trimming with Start/Length
 - [[master-limiter|Master Limiter (Mix Safety Net)]] — a hard ceiling as the last device on Master; Ceiling ~-0.3dB, small Gain boost, safety net not full mastering
-- [[drum-rack-anatomy|Drum Rack Anatomy]] — building a Drum Rack from empty (not a preset), pads as nested Simplers, why it solves Lite's track-budget squeeze, choke groups flagged for HATS
+- [[drum-rack-anatomy|Drum Rack Anatomy]] — building a Drum Rack from empty (not a preset), pads as nested Simplers, why it solves the track-budget squeeze for a multi-sound percussion layer, choke groups flagged for HATS
 - [[instrument-rack-key-zones|Instrument Rack Key Zones]] — a plain Instrument Rack is a Drum Rack's general form: several melodic instrument chains sharing one track, split by Key Range via the same I/O toggle; used to fit STAB and LEAD on one track
 - [[snake-arrangement-long-tails|MDD SnAkE en Arrangement — Imprimir Secuencia y Colas Largas]] — por qué SnAkE ignora los clips MIDI, cómo imprimir su salida a una pista aparte (Post FX), y cómo capturar la cola de reverb/delay larga (Ethereal Canyon) como audio vía Resampling o Freeze & Flatten

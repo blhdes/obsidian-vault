@@ -1,7 +1,7 @@
 ---
 title: Drum Rack Anatomy
 date: 2026-07-21
-tags: [ableton, drum-rack, percussion, live-lite]
+tags: [ableton, drum-rack, percussion]
 ---
 
 # Drum Rack Anatomy
@@ -10,7 +10,7 @@ Up to now, "Drum Rack" only meant *loading a preset kit* (Session 3: drop one in
 
 ## The problem it solves
 
-Live Lite caps a project at 8 tracks. A percussion layer might want 3-4 different one-shot sounds (rim, shaker, clave, conga...) — that's 3-4 tracks gone if each got its own Simpler. A **Drum Rack holds all of them on one track**: one pad grid, one MIDI track, as many sounds as pads.
+A percussion layer might want 3-4 different one-shot sounds (rim, shaker, clave, conga...) — that's 3-4 tracks gone if each got its own Simpler. A **Drum Rack holds all of them on one track**: one pad grid, one MIDI track, as many sounds as pads.
 
 This is the same instrument-budget thinking from Hardgroove 134's kickoff (the 8-track plan) — Drum Rack is the tool that makes "PERC — all percussion lives here" possible as a single line in that budget.
 
