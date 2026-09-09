@@ -10,7 +10,7 @@ Releases sitting in `~/Music/Library/` with only *some* of their tracks — each
 
 **Doesn't include:** partial pulls from various-artist compilations (e.g. `VA — Shades Part 2`, `Airod — Exhale VA001`) — those were only ever meant to yield the one wanted track, not the full comp. Also excludes releases where the missing track is already owned separately (e.g. Basic Channel's `BCD-2`).
 
-**20 releases · 103 missing tracks**, as of 2026-08-17.
+**21 releases · 106 missing tracks**, as of 2026-09-09.
 
 ## Tracklist gaps
 
@@ -21,6 +21,7 @@ Releases sitting in `~/Music/Library/` with only *some* of their tracks — each
 | Caterina Barbieri — Myuthafoo | 1/6 | Memory Leak, Math Of You, Myuthafoo, Alphabet Of Light, Sufyosowirl | `Caterina Barbieri/Caterina Barbieri - Myuthafoo (2023) [24Bit-44.1kHz] FLAC/` | [Discogs ↗](https://www.discogs.com/release/27489015) · [[july-2026]] |
 | Croatian Amor — Love Means Taking Action | 1/12 | Nadim Call Emergence, No Sex Club (Man), Any Life You Want, Reality Summit, Like Man, Like Angel, Refugee Turns To Safety, Octopus Web, Nadim Call Emergence II, Like Animal, Love Means Taking Action | `Croatian Amor/[PI-180] Croatian Amor - Love Means Taking Action (2016) {WEB}/` | [Discogs ↗](https://www.discogs.com/release/9090460) · [[july-2026]] |
 | Fire-Toolz — Lavender Networks | 1/10 | Quintessential Fixed Width Unfoldment, Balam =^..^= Says IPv09082024 Strawberry Head, [Codename_Sparkly Lagoon LAN Line], Kiss The Bladed Cat Find Ways To Stretch Time, A Demon & Its Spinal Cord Flapping In The Wind, And Where Is The Heart? I've Searched My Entire Home, The Ocean Gratitude Cylinder Peace Necklace Lemonade Flying Free, Offshore '92, Dear Robin Bears & Love Cloud '24 | `Fire-Toolz/[WAP 509DE] Fire-Toolz - Lavender Networks (2026)/` | [Discogs ↗](https://www.discogs.com/release/37330041) · [[june-2026]] |
+| FJAAK — FJAAK 015 | 1/4 | Threshold, Bio Data, Wax Pack *(full EP not out until 2026-09-17)* | `FJAAK/FJAAK 015/` | [Bandcamp ↗](https://fjaak.bandcamp.com/album/fjaak-015) · [[september-2026]] |
 | FRANKIE & Kelman Duran — McArthur | 3/9 | GRAYT, Bitch I'm scared, Icecream (Interlude), BWV 639, Medicine, McArthur | `Kelman Duran/FRANKIE_And_Kelman_Duran-McArthur-24BIT-44KHZ-WEB-FLAC-2026-OBZEN/` | [Discogs ↗](https://www.discogs.com/release/36881665) · [[july-2026]] |
 | I Hate Models — Forever Melancholia | 1/5 | For My People, Forever Melancholia, Forgotten Future, Nostalgica | `I Hate Models/I Hate Models - Forever Melancholia [24B-44.1kHz]/` | [Discogs ↗](https://www.discogs.com/release/32729361) · [[june-2026]] |
 | Ignez — Aventurine EP | 1/4 | Seraphic, Verdant, Cure | `Ignez/Ignez - Aventurine EP - 2023/` | [Discogs ↗](https://www.discogs.com/release/32525169) · [[july-2026]] |
