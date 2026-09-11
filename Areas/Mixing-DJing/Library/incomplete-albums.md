@@ -10,7 +10,7 @@ Releases sitting in `~/Music/Library/` with only *some* of their tracks — each
 
 **Doesn't include:** partial pulls from various-artist compilations (e.g. `VA — Shades Part 2`, `Airod — Exhale VA001`) — those were only ever meant to yield the one wanted track, not the full comp. Also excludes releases where the missing track is already owned separately (e.g. Basic Channel's `BCD-2`).
 
-**21 releases · 106 missing tracks**, as of 2026-09-09.
+**23 releases · 115 missing tracks**, as of 2026-09-11.
 
 ## Tracklist gaps
 
@@ -19,6 +19,8 @@ Releases sitting in `~/Music/Library/` with only *some* of their tracks — each
 | ANNĒ — Distill EP | 1/5 | Roller, 80's Revisited, Distill, 60's Style | `ANNĒ/Anne-Distill_EP-(HARDGROOVEDIGI022)-16BIT-WEB-FLAC-2023-PTC/` | [Discogs ↗](https://www.discogs.com/release/27692208) · [[july-2026]] |
 | Brutalismus 3000 — Goodbye Salò | 1/6 | Alleswirdgut, Baby G, Scee, Europaträume, Badthiings (Rip Avicii) | `Brutalismus 3000/Brutalismus 3000 - GOODBYE SALÒ [24B-44.1kHz]/` | [Discogs ↗](https://www.discogs.com/release/33302307) · [[july-2026]] |
 | Caterina Barbieri — Myuthafoo | 1/6 | Memory Leak, Math Of You, Myuthafoo, Alphabet Of Light, Sufyosowirl | `Caterina Barbieri/Caterina Barbieri - Myuthafoo (2023) [24Bit-44.1kHz] FLAC/` | [Discogs ↗](https://www.discogs.com/release/27489015) · [[july-2026]] |
+| Chlär — The Architects of Shadows | 9/10 | Insurrection | `Chlär/[PI05] Chlär - The Architects of Shadows (2024)/` | [Discogs ↗](https://www.discogs.com/release/32904288) · [[september-2026]] |
+| Cigarettes After Sex — Cry | 1/9 | Don't Let Me Go, Kiss It Off Me, Heavenly, You're the Only Good Thing in My Life, Touch, Hentai, Falling in Love, Pure | `Cigarettes After Sex/Cry (2019)/` | [Discogs ↗](https://www.discogs.com/master/1622969) · [[september-2026]] |
 | Croatian Amor — Love Means Taking Action | 1/12 | Nadim Call Emergence, No Sex Club (Man), Any Life You Want, Reality Summit, Like Man, Like Angel, Refugee Turns To Safety, Octopus Web, Nadim Call Emergence II, Like Animal, Love Means Taking Action | `Croatian Amor/[PI-180] Croatian Amor - Love Means Taking Action (2016) {WEB}/` | [Discogs ↗](https://www.discogs.com/release/9090460) · [[july-2026]] |
 | Fire-Toolz — Lavender Networks | 1/10 | Quintessential Fixed Width Unfoldment, Balam =^..^= Says IPv09082024 Strawberry Head, [Codename_Sparkly Lagoon LAN Line], Kiss The Bladed Cat Find Ways To Stretch Time, A Demon & Its Spinal Cord Flapping In The Wind, And Where Is The Heart? I've Searched My Entire Home, The Ocean Gratitude Cylinder Peace Necklace Lemonade Flying Free, Offshore '92, Dear Robin Bears & Love Cloud '24 | `Fire-Toolz/[WAP 509DE] Fire-Toolz - Lavender Networks (2026)/` | [Discogs ↗](https://www.discogs.com/release/37330041) · [[june-2026]] |
 | FJAAK — FJAAK 015 | 1/4 | Threshold, Bio Data, Wax Pack *(full EP not out until 2026-09-17)* | `FJAAK/FJAAK 015/` | [Bandcamp ↗](https://fjaak.bandcamp.com/album/fjaak-015) · [[september-2026]] |
