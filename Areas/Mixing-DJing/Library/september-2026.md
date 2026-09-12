@@ -199,7 +199,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 |---|---|---|---|---|
 | 1 | But At What Cost (Original Mix) | 2025 | Techno (Peak Time / Driving) | AIFF 16/44 |
 
-### Sciahri — Moonwake
+### Sciahri — Moonwake ✅
 > bon82 · scene/WEB · FLAC 16/44 · moved 2026-09-11 · `Sciahri/Sciahri - Moonwake (2026) [Mutual Rytm - MR048D] [WEB - FLAC] - Bon82/`
 
 | # | Title | Year | Genre | Format |
@@ -214,7 +214,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/38334063)
 
-### Chlär — The Architects of Shadows *(9 of 10)*
+### Chlär — The Architects of Shadows *(9 of 10)* ✅
 > freaknofreak · WEB · FLAC 16/44 · moved 2026-09-11 · `Chlär/[PI05] Chlär - The Architects of Shadows (2024)/`
 
 | # | Title | Year | Genre | Format |
@@ -231,7 +231,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/32904288)
 
-### Temudo — Meteora
+### Temudo — Meteora ✅
 > Grenoybel · scene/WAVED · FLAC 24/44 · moved 2026-09-11 · `Temudo/Temudo-Meteora-FUSE06-24BIT-WEB-FLAC-2025-WAVED/`
 
 | # | Title | Year | Genre | Format |
@@ -243,7 +243,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/33330924)
 
-### Tensal — Metaphysical Trauma
+### Tensal — Metaphysical Trauma ✅
 > Grenoybel · scene/PTC · FLAC 16/44 · moved 2026-09-11 · `Tensal/Tensal-Metaphysical_Trauma-(V1020D)-16BIT-WEB-FLAC-2025-PTC/`
 
 | # | Title | Year | Genre | Format |
@@ -264,7 +264,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/master/1622969)
 
-### Uun — Panopticon
+### Uun — Panopticon ✅
 > yukyuklogi · WEB · FLAC 16/44 · moved 2026-09-11 · `Uun/Panopticon/`
 
 | # | Title | Year | Genre | Format |
@@ -278,7 +278,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Bandcamp ↗](https://egodeathlabel.bandcamp.com/album/panopticon)
 
-### Oscar Mulero — Paradisaea
+### Oscar Mulero — Paradisaea ✅
 > elmanetES · WEB · FLAC 16/44 · moved 2026-09-11 · `Oscar Mulero/2019 - Paradisaea [EP]/`
 
 | # | Title | Year | Genre | Format |
@@ -288,7 +288,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/34896473)
 
-### Oscar Mulero — Gradual Blending
+### Oscar Mulero — Gradual Blending ✅
 > elmanetES · WEB · FLAC 16/44 · moved 2026-09-11 · `Oscar Mulero/2020 - Gradual Blending [EP]/`
 
 | # | Title | Year | Genre | Format |
@@ -299,7 +299,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/31854245)
 
-### Decka — When Time Stopped
+### Decka — When Time Stopped ✅
 > fitzstudio · scene · FLAC 16/44 · moved 2026-09-11 · `Decka/[SEMANTICA 198] Decka - When Time Stopped/`
 
 | # | Title | Year | Genre | Format |
@@ -313,7 +313,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/37205022)
 
-### Geømmetrisch — Principio de Superposición
+### Geømmetrisch — Principio de Superposición ✅
 > Grenoybel · scene/PTC · FLAC 16/44 · moved 2026-09-11 · `Geømmetrisch/Geommetrisch-Principio_de_Superposicion-(SEMANTICA207)-16BIT-WEB-FLAC-2026-PTC/`
 
 | # | Title | Year | Genre | Format |
@@ -326,7 +326,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Bandcamp ↗](https://semanticarecords.bandcamp.com/album/principio-de-superposici-n-semantica-207)
 
-### Decka — Evolution EP
+### Decka — Evolution EP ✅
 > Mortadela · scene/WAVED · FLAC 24/44 · moved 2026-09-11 · `Decka/Decka-Evolution_EP-FW06X-24BIT-WEB-FLAC-2026-WAVED/`
 
 | # | Title | Year | Genre | Format |
