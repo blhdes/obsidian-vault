@@ -62,19 +62,6 @@ Legend → **Size:** Big / Small / Micro · **Status:** `todo` → `★ shortlis
 | SIERRA Production House | production · video/photo     | Small | Barcelona + Amsterdam production house, video & photo for lifestyle-driven brands        | sierraproductionhouse.com | → contacted |
 | Ready.barcelona         | production · music · ads     | Small | Filmmaker/producer team handling music videoclips alongside Netflix/Nike/Apple work      | ready.barcelona           | todo (seed) |
 
-## Adult film & erotica industry — new focus (opened 2026-08-08)
-*New industry vertical at user's explicit request — a personal interest, distinct from the "moving away from the film industry" rule (that was about mainstream cinema, not this). Starting seed: Erika Lust Films, Barcelona-based "ethical porn" studio built on real film craft — DOP, editor, colorist credits, sex-positive branding — a direct extension of the cinema/DOP → visual-craft angle.*
-
-| Company | Industry | Size | Why it fits | Links | Status |
-|---|---|---|---|---|---|
-| Erika Lust Films | adult film · production | Small | BCN studio (est. 2004/2005), ~67 employees — "ethical," sex-positive adult cinema with real production crews (DOP, editor, colorist); has hired Content-department and Production-department interns/assistants before — an assistant-level entry point that still reads as film craft | erikalust.com · Born HQ, Passeig Picasso 32, 08005 Barcelona | todo |
-| Private Media Group | adult film · media (legacy) | Small | Adult media house rooted in Barcelona since the 1990s (magazines → DVD → digital, ~38 staff); acquired by Czech WGCZ Holding (XVideos' owner) in 2019/2020, so it's unclear whether Barcelona is still an active production studio or now more of a licensing/admin office *(verify before pitching — the least "arthouse," most corporate option of this batch)* | private.com *(verify)* | todo |
-| Bijoux Indiscrets | design-studio · product · adult/wellness | Micro | BCN sexual-wellness brand (est. 2006), woman-founded, ~20 people — real product design, packaging and campaign craft for an intimacy brand, not film, but same industry and a strong design/product angle | bijouxindiscrets.com · Rambla Catalunya 121, Barcelona | todo |
-| Emjoy | tech/product · adult/wellness | Micro | BCN sextech startup (founded 2018), ~10-person international team, VC-backed (Nauta Capital) — a female sexual-wellbeing audio app; closest match to the tech/product strength (app-building experience translates directly) | letsemjoy.com | todo |
-| FICEB (Barcelona Intl. Erotic Film Festival) | adult film · events/culture | Micro | Long-running BCN erotic-film festival, run as a private company — same "festival/assistant" shape as Primavera Sound in the Culture & music section, but inside this industry *(note: an unaffiliated new "Erotic Film Festival Barcelona" launched 2024 — confirm which is currently active before reaching out)* | ficeb.com | todo |
-
-**Mined 2026-08-08** (LinkedIn/Glassdoor/web search, one session): the "ethical porn" niche outside Erika Lust is thin, so this batch widened to adjacent adult-industry company types (legacy media, product/design, sextech, festival) rather than five more film studios. **Mine further from:** the festival's own exhibitor/sponsor lists (past editions), Erika Lust's site for alumni-founded sister studios, and Wellfound/LinkedIn "sextech Barcelona" searches for smaller startups not yet surfaced.
-
 ## Tech / product (design-led)
 | Company | Industry | Size | Why it fits | Links | Status |
 |---|---|---|---|---|---|

@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 2026-04-24
+date: 2026-09-14
 tags: [meta, vault]
 ---
 
@@ -46,6 +46,46 @@ Just describe where it should go. Examples that work:
 
 ## Index notes
 
-- [[Projects/Culla/Culla|Culla (iOS app — photo sorter)]]
-- [[Projects/Culla-Music/culla-music|Culla Music (iOS app — Apple Music swipe-sorter)]]
-- [[Resources/Swift/Swift|Swift — learning & reference]]
+### 📱 Apps
+
+| Project | Note |
+|---|---|
+| Culla — iOS photo sorter | [[Projects/Culla/Culla\|Culla]] |
+| Culla Music — Apple Music swipe-sorter | [[Projects/Culla-Music/culla-music\|Culla Music]] |
+| Doppio — formerly beatmch / HalfTime | [[Projects/Doppio/Doppio\|Doppio]] |
+| warket — native Swift/SwiftUI port | [[Projects/warket-native/warket-native\|warket]] |
+| Vigilia | [[Projects/Vigilia/Vigilia\|Vigilia]] |
+| Ville du Cinéma — web redesign | [[Projects/ville-du-cinema-web/ville-du-cinema-web\|Ville du Cinéma (web)]] |
+| Ville Expo — Ville du Cinéma mobile | [[Projects/Ville-Expo/Ville-Expo\|Ville Expo]] |
+| Ville Native App | [[Projects/Ville-Native-App/Ville-Native-App\|Ville Native App]] |
+| VILLE — Letterboxd reader (independent, paused, pure Swift) | [[Projects/VILLE/VILLE\|VILLE]] |
+
+### 🎨 Brand & career
+
+| Project | Note |
+|---|---|
+| BLH\*DES — fashion brand | [[Projects/Blhades/Blhades\|BLH\*DES]] |
+| Portfolio — job search abroad | [[Projects/Portfolio/Portfolio\|Portfolio]] |
+| Oposiciones — local stability track | [[Projects/Oposiciones/Oposiciones\|Oposiciones]] |
+
+### 💼 Client work
+
+| Project | Note |
+|---|---|
+| Servei Tècnic Integral M.G. — web MVP | [[Projects/servei-tecnic-mg/servei-tecnic-mg\|Servei Tècnic M.G.]] |
+
+### 🌱 Areas
+
+| Area | Note |
+|---|---|
+| Claude — skills, config, backups | [[Areas/Claude/Skills/_index\|Claude Skills]] · [[Areas/Claude/claude-config-files\|Config files]] |
+| Mixing & DJing | [[Areas/Mixing-DJing/Mixing-DJing\|Mixing & DJing]] |
+| Music Production | [[Areas/Music-Production/Music-Production\|Music Production]] |
+| Xcode — build/ship reference | [[Areas/Xcode/Xcode\|Xcode]] |
+| RevenueCat — IAP reference | [[Areas/RC/revenuecat-concepts\|RevenueCat]] |
+
+### 📚 Resources
+
+| Resource | Note |
+|---|---|
+| Swift — learning & reference | [[Resources/Swift/Swift\|Swift]] |
