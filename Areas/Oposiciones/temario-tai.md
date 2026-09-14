@@ -6,7 +6,7 @@ tags: [career, oposiciones, funcionario, informatica, temario]
 
 # 📖 Temario — Técnico Auxiliar de Informática del Estado (TAI, C1)
 
-Referencia rápida de consulta. Contexto completo (requisitos, examen, sueldo, comparativa con la Generalitat, plan para empezar) en [[Projects/Oposiciones/Oposiciones|Oposiciones]].
+Referencia rápida de consulta. Contexto completo (requisitos, examen, sueldo, comparativa con la Generalitat, plan para empezar) en [[Areas/Oposiciones/Oposiciones|Oposiciones]].
 
 **Fuente:** Anexo V, Resolución de 18 de diciembre de 2025 (BOE-A-2025-26262) — [PDF oficial, INAP](https://sede.inap.gob.es/sites/sede/files/public/2025-12/TAILI.pdf), programa en las páginas 50-53. Programa idéntico al de la resolución de 9 de julio de 2024 — estable entre convocatorias.
 
@@ -65,21 +65,23 @@ Referencia rápida de consulta. Contexto completo (requisitos, examen, sueldo, c
 
 ## Estado de estudio
 
-Sesiones de estudio reales, paso a paso, en `Projects/Oposiciones/Estudio/` — una nota por tema, construida en sesión, con contraste final contra el examen real.
+**Método actual (desde 2026-09-14):** estudio por libre con apuntes propios en PDF, guardados en Google Drive (no en GitHub ni en este vault) — ya no notas por tema generadas por Claude aquí. El intento anterior (método fijado 2026-08-17: nota por tema en `Estudio/`, contraste contra examen real, empezando por el Bloque II) se abandonó tras la primera sesión; esa nota (Bloque II, Tema 1) se ha borrado. En algún momento se pueden juntar los apuntes de Drive aquí en local y retomar ese método — no por ahora.
 
-**Ritmo confirmado (desde 2026-08-17, primer mes):** 30-45 min, 3-4 días por semana.
-
-**Método (fijado 2026-08-17):** contenido completo desde la primera pasada (no solo introducción), contrastado siempre contra un examen real antes de dar el tema por hecho.
+**Orden real:** empezó por el **Bloque I** (no el Bloque II como se planteó al principio). Va actualmente por el **tema 7**.
 
 | Bloque | Tema | Estado |
 |---|---|---|
-| II | 1 — Arquitectura de ordenadores | ✅ repasado — [[Projects/Oposiciones/Estudio/bloque-ii-tema-1-arquitectura-ordenadores\|nota]] |
-| II | 2 — Periféricos | pendiente |
-| II | 3 — Estructuras de datos y ficheros | pendiente |
-| II | 4 — Sistemas operativos | pendiente |
-| II | 5 — Bases de datos (SGBD) | pendiente |
-| I | 1-9 | pendiente |
+| I | 1 — Constitución Española de 1978 | ✅ estudiado (apuntes propios, PDF en Drive) |
+| I | 2 — Cortes Generales, Tribunal Constitucional, Defensor del Pueblo | ✅ estudiado (apuntes propios, PDF en Drive) |
+| I | 3 — El Gobierno | ✅ estudiado (apuntes propios, PDF en Drive) |
+| I | 4 — Estatuto Básico del Empleado Público, Ley 19/2013, Agenda 2030 | ✅ estudiado (apuntes propios, PDF en Drive) |
+| I | 5 — Políticas de igualdad, discapacidad y dependencia | ✅ estudiado (apuntes propios, PDF en Drive) |
+| I | 6 — Sociedad de la información, firma electrónica, DNI-e, Agenda Digital | ✅ estudiado (apuntes propios, PDF en Drive) |
+| I | 7 — Protección de datos personales y derechos digitales | 🟡 en curso |
+| I | 8 — Acceso electrónico a servicios públicos, ENS/ENI | pendiente |
+| I | 9 — Instrumentos de acceso electrónico | pendiente |
+| II | 1-5 | pendiente (pausado, se retoma tras el Bloque I) |
 | III | 1-9 | pendiente |
 | IV | 1-10 | pendiente |
 
-Leyenda: `pendiente` → 🟡 `en curso` → ✅ `repasado` (con contraste de examen hecho).
+Leyenda: `pendiente` → 🟡 `en curso` → ✅ `estudiado`. El nivel de detalle por tema ya no se registra aquí (vive en los PDFs de Drive); esta tabla es solo un marcador de avance por bloque.

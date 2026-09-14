@@ -30,9 +30,14 @@ Fast halftime/double-time reference without doing the math in your head mid-set.
 
 ## Still open
 - Show **half *and* double at the same time** instead of toggling? Less tapping in a
-  dark booth — candidate for a future layout.
-- Custom app icon.
-- Persist between launches: done. Haptics: done. Fractional: done.
+  dark booth — candidate for a future layout. (The motion itself already shows both
+  rhythms at once — bold result + faint source — but the *number* still only shows one
+  at a time via tap-to-flip. Genuinely undecided as of 2026-09-14.)
+
+## Done since (checked 2026-09-14)
+- ✅ Custom app icon — shipped 2026-06-21, a magenta "dd" doubled-letterform mark. See
+  [[Projects/Doppio/Phases/phase-rename-theme-refresh-and-app-store-prep|the phase note]].
+- ✅ Persist between launches, haptics, fractional BPM — all done (see Decisions above).
 
 ---
-Built: scaffold at `/Users/agomezu/Claude/halftime-app/` — see [[Projects/Doppio/Doppio|HalfTime]] index.
+Built: scaffold at `/Users/agomezu/Claude/halftime-app/` — see [[Projects/Doppio/Doppio|Doppio]] index (renamed from HalfTime 2026-06-10).

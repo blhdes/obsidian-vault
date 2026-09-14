@@ -1,16 +1,16 @@
 ---
 title: Oposiciones — Técnico Auxiliar de Informática (Estado)
 date: 2026-08-17
-tags: [career, oposiciones, funcionario, informatica, estabilidad]
+tags: [career, oposiciones, funcionario, informatica, estabilidad, area-index]
 ---
 
 # 🏛️ Oposiciones — Técnico Auxiliar de Informática del Estado
 
-Nota nueva, en español, para explorar una vía de **estabilidad económica** en paralelo al resto del plan de este año. No sustituye el objetivo creativo (ver [[Projects/Portfolio/Portfolio|Portfolio]] y [[Projects/Portfolio/Job-Search/Job-Search|Job-Search]]) — corre por otro carril, como red de seguridad mientras siguen en marcha: club de tenis (part-time), búsqueda de trabajo creativo + portfolio, inglés en la EOI, y producción musical/DJing EBM (autodidacta).
+Área (no proyecto de desarrollo) para explorar una vía de **estabilidad económica** en paralelo al resto del plan de este año. No sustituye el objetivo creativo (ver [[Projects/Portfolio/Portfolio|Portfolio]] y [[Projects/Portfolio/Job-Search/Job-Search|Job-Search]]) — corre por otro carril, como red de seguridad mientras siguen en marcha: club de tenis (part-time), búsqueda de trabajo creativo + portfolio, inglés en la EOI, y producción musical/DJing EBM (autodidacta).
 
-**2026-08-17 — arrancado el estudio real.** Primera sesión hecha (Bloque II, Tema 1 — Arquitectura de ordenadores), sin manual todavía: biblioteca pública sin ediciones recientes, muestras gratis de academia descartadas (solo dan el Tema 1 del Bloque I, no encajan con empezar por Bloque II). Sesiones construidas paso a paso en `Projects/Oposiciones/Estudio/`, una nota por tema, cada una cerrando con un contraste contra el examen real de mayo 2026. **Ritmo confirmado para el primer mes: 30-45 min, 3-4 días por semana.** Seguimiento en [[Projects/Oposiciones/temario-tai|Temario TAI]].
+**2026-09-14 — cambio de método: estudio por libre con apuntes propios, en Google Drive.** El estudio real está en marcha, pero ya no como notas generadas por Claude en este vault. Se está estudiando con PDFs propios guardados en Google Drive (no en GitHub ni en este vault). Empezó por el **Bloque I** (no el Bloque II como se planteó el 2026-08-17) y **va actualmente por el tema 7 — "La protección de datos personales y su régimen jurídico: principios, derechos y obligaciones. Derechos digitales"**. El contenido de teoría que Claude había generado el 2026-08-17 (Bloque II, Tema 1 — Arquitectura de ordenadores) se ha borrado de `Estudio/`: ya no es la fuente de estudio real. En algún momento se pueden juntar los apuntes de Drive aquí en local y retomar la generación de apuntes con la skill/área — pero no por ahora. Seguimiento del tema por tema en [[Areas/Oposiciones/temario-tai|Temario TAI]].
 
-**2026-08-17 — el contenido de estudio también se publica en el portfolio.** A petición del usuario, cada bloque estudiado se sube además a `alegomez.studio/oposiciones/` (repo público `github.com/blhdes/portfolio`, mismo `git push` que despliega el resto del sitio). **Deliberadamente público pero sin enlazar desde el nav principal** (Photography · Apps · Projects · CV se quedan igual de curados) y con `<meta name="robots" content="noindex">` para no mezclarse con las búsquedas de su nombre profesional. Publicado hasta ahora: `/oposiciones/index.html` (índice de los 4 bloques) y `/oposiciones/bloque-ii/index.html` (Tema 1 completo). **De aquí en adelante, cada sesión de estudio se guarda en ambos sitios**: la nota en `Projects/Oposiciones/Estudio/` (fuente, en Obsidian) y su reflejo en `/Users/agomezu/Claude/portfolio/oposiciones/` (publicado). Al tocar `css/style.css` o `js/main.js`, recordar el cache-bust `?v=N` en las 8+ páginas del sitio (iba por v=75 a fecha de hoy).
+**2026-08-17 — el contenido de estudio se publicó también en el portfolio (pausado).** A petición del usuario, en su momento cada bloque estudiado se subía además a `alegomez.studio/oposiciones/` (repo público `github.com/blhdes/portfolio`, mismo `git push` que despliega el resto del sitio), deliberadamente público pero sin enlazar desde el nav principal y con `<meta name="robots" content="noindex">`. Lo publicado entonces sigue en `/oposiciones/index.html` y `/oposiciones/bloque-ii/index.html`, pero **ese flujo está en pausa** desde el cambio de método de arriba — ya no se generan notas por tema en el vault para reflejar allí. Si se retoma la generación de apuntes en local, decidir entonces si se vuelve a publicar.
 
 ## Confirmado: es exactamente lo que creías
 
@@ -49,7 +49,7 @@ Para promoción interna (si ya eres funcionario de un grupo inferior) el examen 
 
 33 temas repartidos en 4 bloques, **los 4 obligatorios** (no hay bloques opcionales). Este es el **listado real, sacado directamente del Anexo V** de la Resolución de 18/12/2025 (fuente primaria, no un blog): [Normas específicas TAI — Anexo V, INAP (PDF, pág. 50-53)](https://sede.inap.gob.es/sites/sede/files/public/2025-12/TAILI.pdf)
 
-📖 **Listado completo, para consulta rápida en cualquier momento, en nota aparte:** [[Projects/Oposiciones/temario-tai|Temario TAI]] (incluye tabla de seguimiento por bloque).
+📖 **Listado completo, para consulta rápida en cualquier momento, en nota aparte:** [[Areas/Oposiciones/temario-tai|Temario TAI]] (incluye tabla de seguimiento por bloque).
 
 > ⚠️ **Corrección**: la página redopositor.com que consultaste da un temario distinto (35 temas, otros nombres de bloque) — comprobado contra el documento oficial, esos datos son incorrectos o de una versión especulativa no real. Usa siempre el Anexo V de arriba, o el listado de aquí abajo, como referencia.
 
@@ -122,7 +122,7 @@ Para cuando no quieras comprar el manual completo todavía (2026-08-17):
 
 1. **Biblioteca pública (préstamo, gratis)** — las bibliotecas catalanas suelen tener sección de oposiciones. Buscar "Técnico Auxiliar Informática" o "TAI" en el catálogo: [Catàlegs — Biblioteques públiques de Catalunya](https://biblioteques.gencat.cat/ca/biblioteques/catalegs/). Si la biblioteca de barrio no lo tiene, se puede pedir por **préstec interbibliotecari** (lo traen gratis de cualquier otra biblioteca de la red). Es la opción más fiable de todas — es literalmente el libro, solo que prestado en vez de comprado.
 2. **Primer tema gratis de academias reales** (no blogs de dudosa fiabilidad) — OpositaOnline y PreparaOposiciones dejan descargar un tema completo de muestra sin pagar, con el mismo desarrollo que el contenido de pago. Sirve para tener ya hoy un tema del Bloque II con nivel real.
-3. **Apuntes universitarios abiertos** — arquitectura de ordenadores, estructuras de datos, sistemas operativos y bases de datos (el Bloque II entero) son temario de primer curso de cualquier grado de informática. Hay mucho material universitario gratuito de sobra de profundidad (más que la oposición pide) — solo hay que ceñirlo al alcance del índice oficial ya guardado en [[Projects/Oposiciones/temario-tai|Temario TAI]].
+3. **Apuntes universitarios abiertos** — arquitectura de ordenadores, estructuras de datos, sistemas operativos y bases de datos (el Bloque II entero) son temario de primer curso de cualquier grado de informática. Hay mucho material universitario gratuito de sobra de profundidad (más que la oposición pide) — solo hay que ceñirlo al alcance del índice oficial ya guardado en [[Areas/Oposiciones/temario-tai|Temario TAI]].
 
 **Deliberadamente fuera de la lista:** los PDFs "compartidos" de manuales de pago que circulan por foros/Telegram — son copias piratas de contenido con derechos.
 

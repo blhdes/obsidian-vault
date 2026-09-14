@@ -38,8 +38,9 @@ Full step-by-step build plan: [[Projects/warket-native/mvp-implementation-plan|M
 ## Notes
 
 - [[Projects/warket-native/mvp-implementation-plan|MVP implementation plan]] — detailed step-by-step build plan.
-- [[Projects/warket-native/deferred-backlog|Deferred backlog]] — everything beyond the MVP.
+- [[Projects/warket-native/deferred-backlog|Deferred backlog]] — everything beyond the MVP (mostly shipped now — see Phase 2 below and per-item status in that note).
 - [[Projects/warket-native/Phases/liquid-glass-redesign|Phase 1 — Liquid Glass Redesign]] — first post-MVP design pass.
+- [[Projects/warket-native/Phases/web-parity-pass|Phase 2 — Web Parity Pass]] — sharing, JSON export/import, adaptive theme, resource title auto-fetch; closes out nearly all of the deferred backlog.
 - Related learning: [[Resources/Swift/swift|Swift]]
 
 ## Status
@@ -51,3 +52,4 @@ Full step-by-step build plan: [[Projects/warket-native/mvp-implementation-plan|M
 - [x] Port crypto (CryptoKit) + verify hash parity (M1)
 - [x] Build MVP screens (M2–M5)
 - [x] Phase 1 — Liquid Glass redesign (merged to `main`, PR #11)
+- [x] Phase 2 — Web parity pass: read-only sharing, JSON export/import, system-adaptive theme, resource title auto-fetch (merged to `main`, 2026-06-19) — closes nearly all of the deferred backlog

@@ -59,7 +59,6 @@ Just describe where it should go. Examples that work:
 |---|---|
 | BLH\*DES — fashion brand | [[Projects/Blhades/Blhades\|BLH\*DES]] |
 | Portfolio — job search abroad | [[Projects/Portfolio/Portfolio\|Portfolio]] |
-| Oposiciones — local stability track | [[Projects/Oposiciones/Oposiciones\|Oposiciones]] |
 
 ### 🌱 Areas
 
@@ -68,6 +67,7 @@ Just describe where it should go. Examples that work:
 | Claude — skills, config, backups | [[Areas/Claude/Skills/_index\|Claude Skills]] · [[Areas/Claude/claude-config-files\|Config files]] |
 | Mixing & DJing — active library/DJ practice | [[Areas/Mixing-DJing/Mixing-DJing\|Mixing & DJing]] |
 | Music Production — active learning journey | [[Areas/Music-Production/Music-Production\|Music Production]] |
+| Oposiciones — local stability track (funcionariado, TAI) | [[Areas/Oposiciones/Oposiciones\|Oposiciones]] |
 
 ### 📚 Resources
 

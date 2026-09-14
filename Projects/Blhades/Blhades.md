@@ -23,10 +23,11 @@ A monochrome (black/white only) collection of heavyweight boxy t-shirts, treated
 - **IX — ✻** (houndstooth-filled star glyph)
 
 ## Status
-- Storefront built privately at `/preview` (repo `blhades-web-temp`): home catalog + product pages + waitlist all working locally, nothing deployed yet.
+- **⚠️ Checked 2026-09-14: the `blhades.com` domain has expired and is listed for auction at Porkbun** — the site currently shows Porkbun's domain-sale page, not the countdown or the storefront. This needs action (repurchase/renew) or the brand loses the domain permanently. See [[Projects/Blhades/web-build-status|Web Build Status]] for detail.
+- The planned **12 Aug 2026** swap to a live storefront did not happen — `blhades-web-temp`'s last commit is `7fd088b` (2026-06-21), nearly 2 months before that date, and nothing has moved since (working tree clean).
+- Storefront built privately at `/preview` (repo `blhades-web-temp`): home catalog + product pages + waitlist all working locally as of that last commit, never deployed.
 - "Reserve" collects a waitlist email (→ Buttondown). Pending: add the API key to `backend/.env`.
 - Design locked: white surface + Inter captions + stagger layout.
-- Planned swap to live `/` on **12 Aug 2026** launch.
 - Full detail → [[Projects/Blhades/web-build-status|Web Build Status]].
 
 ## Notes

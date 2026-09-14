@@ -1,13 +1,13 @@
 ---
 name: career-launch
-description: Drive the user's multi-month push to land a creative job abroad — the portfolio website, new work to show, and the job-search/relocation plan — plus a parallel local stability track (Spanish civil-service exams / oposiciones). Use whenever the user wants to work on this theme — triggers include "/career-launch", "/career", "/portfolio", "work on the portfolio", "next chapter", "job search", "apply abroad", "moving to Paris/Amsterdam", "what's next for the portfolio", "oposiciones", "temario", "función pública", or any reference to the career push tied to /Users/agomezu/Claude/Obsidian/Projects/Portfolio/ or /Users/agomezu/Claude/Obsidian/Projects/Oposiciones/. Stateful — ALWAYS reads Portfolio.md (and Oposiciones.md when that track is active) first to bootstrap context.
+description: Drive the user's multi-month push to land a creative job abroad — the portfolio website, new work to show, and the job-search/relocation plan — plus a parallel local stability track (Spanish civil-service exams / oposiciones). Use whenever the user wants to work on this theme — triggers include "/career-launch", "/career", "/portfolio", "work on the portfolio", "next chapter", "job search", "apply abroad", "moving to Paris/Amsterdam", "what's next for the portfolio", "oposiciones", "temario", "función pública", or any reference to the career push tied to /Users/agomezu/Claude/Obsidian/Projects/Portfolio/ or /Users/agomezu/Claude/Obsidian/Areas/Oposiciones/. Stateful — ALWAYS reads Portfolio.md (and Oposiciones.md when that track is active) first to bootstrap context.
 ---
 
 # Career Launch
 
 Drive the user's most important current chore: landing a **creative job abroad** within **6–8 months (≈ Dec 2026 – Feb 2027)**. This skill coordinates three connected workstreams toward that goal — the **portfolio website**, **new work to show**, and the **job-search / relocation** plan — plus a fourth, **separate and parallel** track: **oposiciones**, a Spanish civil-service exam pursued as a local income safety net, not a step toward the abroad goal.
 
-The Obsidian vault at `/Users/agomezu/Claude/Obsidian/Projects/Portfolio/` is the **source of truth** for the abroad push — read it first, act next, save the result, log it. The oposiciones track has its own hub at `/Users/agomezu/Claude/Obsidian/Projects/Oposiciones/Oposiciones.md`, entirely in Spanish.
+The Obsidian vault at `/Users/agomezu/Claude/Obsidian/Projects/Portfolio/` is the **source of truth** for the abroad push — read it first, act next, save the result, log it. The oposiciones track has its own hub at `/Users/agomezu/Claude/Obsidian/Areas/Oposiciones/Oposiciones.md`, entirely in Spanish.
 
 ## Step 1 — Read state FIRST (always, before any output)
 
@@ -16,7 +16,7 @@ Before saying anything, read in this order:
 1. **`/Users/agomezu/Claude/Obsidian/Projects/Portfolio/Portfolio.md`** — the index note: goal, timeline, roadmap, what's done vs. pending, current step.
 2. Whichever supporting notes the task touches: **`bio.md`**, **`site-structure.md`**, **`design-principles.md`**, **`domain.md`**.
 3. For job-search / relocation work: **`Job-Search/Job-Search.md`** (the hub + phased plan + status), **`Job-Search/sources.md`** (directories to mine), and the relevant **`Job-Search/companies-<city>.md`** table.
-4. For oposiciones work: **`/Users/agomezu/Claude/Obsidian/Projects/Oposiciones/Oposiciones.md`** (the hub — context, requirements, exam structure, salary, Catalan-vs-state comparison, status) and **`Projects/Oposiciones/temario-tai.md`** (the syllabus quick-reference + study-tracking table) if the task touches the syllabus.
+4. For oposiciones work: **`/Users/agomezu/Claude/Obsidian/Areas/Oposiciones/Oposiciones.md`** (the hub — context, requirements, exam structure, salary, Catalan-vs-state comparison, status) and **`Areas/Oposiciones/temario-tai.md`** (the syllabus quick-reference + study-tracking table) if the task touches the syllabus.
 
 Then give a tight 1–2 line recap and offer the next move:
 
@@ -59,13 +59,13 @@ Lives in `Projects/Portfolio/Job-Search/` (hub: `Job-Search.md`). A 5-phase pipe
 
 **Not part of the abroad mission.** This is a home-turf economic safety net he wants to explore *this year*, alongside — not instead of — the local job search, the portfolio, English classes at the EOI, and self-taught EBM production/DJing. Keep it framed that way: don't blend it into the "creative job abroad" pitch, and don't let it crowd out the other workstreams.
 
-- **Vault:** `Projects/Oposiciones/Oposiciones.md` (hub — context, requirements, exam structure, salary estimates, academy-vs-self-study, manual recommendations, Catalan-vs-state comparison, "how to start today" plan) and `Projects/Oposiciones/temario-tai.md` (syllabus quick-reference + study-tracking table). **Both written entirely in Spanish** — the one deliberate exception to the rest of the vault being in English; don't "correct" this.
+- **Vault:** `Areas/Oposiciones/Oposiciones.md` (hub — context, requirements, exam structure, salary estimates, academy-vs-self-study, manual recommendations, Catalan-vs-state comparison, "how to start today" plan) and `Areas/Oposiciones/temario-tai.md` (syllabus quick-reference + study-tracking table). **Both written entirely in Spanish** — the one deliberate exception to the rest of the vault being in English; don't "correct" this.
 - **What it is:** **Técnico Auxiliar de Informática del Estado (TAI)**, Grupo C1 — an AGE (state) civil-service IT-support exam. Only Bachillerato required, 33-topic syllabus in 4 blocks (confirmed against the official BOE Anexo V, not blog summaries — some prep-site blogs have been found to state the syllabus incorrectly), single exam with two eliminatory parts, real internal-promotion path afterward (TAI C1 → Gestión de Sistemas e Informática A2 → Superior de Sistemas y Tecnologías de la Información A1).
 - **No academy required:** self-study (buy just the syllabus manual, or study free from primary sources) + self-registration online via IPS/Cl@ve, both confirmed unnecessary to route through a paid academy.
 - **Also explored:** the Catalan Generalitat equivalent (Tècnic/a Especialista Informàtic, C1, 25-topic syllabus, but decentralized — no single body-wide call, scattered small per-department convocatorias, and requires a certified Catalan level) — compared against the state path and the state path was recommended as easier to plan around (one fixed date, one fixed syllabus, far more seats per call).
 - **Next convocatoria:** not yet published as of Aug 2026 — historical pattern points to a call around late 2026 with the exam in spring 2027, giving roughly a year of runway to study, which is why now is a reasonable time to start looking into it.
 - **Tone match:** same rule as everywhere else in this skill — **small, concrete, confidence-building steps**, never a second scary project. Frame it explicitly as slow background work (realistic full study time: 9–15 months full-time / 1–2 years part-time), not a sprint.
-- **Real study sessions, built collaboratively:** since 2026-08-17, per-tema study notes are written together (not just linked externally) in `Projects/Oposiciones/Estudio/<bloque-tema-slug>.md` — teaching content, a quick-reference summary table, and a closing "contraste con el examen real" step checked against the real May-2026 exam PDFs (`Cuestionario TAI-L-ModeloA/B.pdf`, hosted at `sede.inap.gob.es`). Confirmed cadence: **30–45 min, 3–4 days/week**, first month starting Aug 2026.
+- **Real study sessions, built collaboratively:** since 2026-08-17, per-tema study notes are written together (not just linked externally) in `Areas/Oposiciones/Estudio/<bloque-tema-slug>.md` — teaching content, a quick-reference summary table, and a closing "contraste con el examen real" step checked against the real May-2026 exam PDFs (`Cuestionario TAI-L-ModeloA/B.pdf`, hosted at `sede.inap.gob.es`). Confirmed cadence: **30–45 min, 3–4 days/week**, first month starting Aug 2026.
 - **Also published to the live portfolio site, by explicit request:** each study session gets mirrored to `/Users/agomezu/Claude/portfolio/oposiciones/` (e.g. `oposiciones/bloque-ii/index.html`) and deployed with the normal `git push` to the **public** `github.com/blhdes/portfolio` repo. This was a deliberate, confirmed exception — flagged to the user first (public repo, professional domain) before proceeding. Ground rules to keep applying to every future addition here:
   - **Never link it from the main nav** (Photography · Apps · Projects · CV stays exactly as curated) — reachable by direct URL only.
   - **Always add `<meta name="robots" content="noindex">`** to any oposiciones page, so it doesn't surface in searches for his professional name.
@@ -88,7 +88,7 @@ The vault is the safety net for resumability across `/clear`s. After meaningful 
    ```
    Then link it from `Portfolio.md`.
 3. Convert any relative dates to absolute (`YYYY-MM-DD`) before saving.
-4. **For oposiciones progress specifically**: update `Projects/Oposiciones/Oposiciones.md` (and `temario-tai.md`'s tracking table if study actually happened) the same way — in Spanish, dated, honest about what's decided vs. still open.
+4. **For oposiciones progress specifically**: update `Areas/Oposiciones/Oposiciones.md` (and `temario-tai.md`'s tracking table if study actually happened) the same way — in Spanish, dated, honest about what's decided vs. still open.
 
 ## Step 5 — What NOT to do
 

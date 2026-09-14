@@ -30,6 +30,8 @@ Settled on contact with a running build:
 
 ## Status
 
-**Built and iterating on device.** The scaffold is well past done and the full flow runs. What is left is tuning against the phone — the colour and luminosity values and the final seed wording — plus the product-name decision. Nothing structural is blocking.
+**Built and working on device, dormant since 2026-06-26.** The scaffold is well past done and the full flow runs. What is left is tuning against the phone — the colour and luminosity values and the final seed wording — plus the product-name decision. Nothing structural is blocking.
+
+**Checked 2026-09-14:** no commits since 2026-06-26 and none of the three open questions above have moved. `Seeds.swift` still explicitly comments the wording as "still drafts — the voice is the user's to own." The `AccentColor.colorset` is still Xcode's untouched default (a pale cream, not a tuned warm black), so the colour/luminosity work hasn't started either. All three remain genuinely open, not just undocumented.
 
 Related: [[Vigilia|Vigilia]] · [[interaction-flow|The interaction flow]] · [[aesthetic-direction|The aesthetic direction]] · [[ephemerality-and-transmutation|Ephemerality & transmutation]]

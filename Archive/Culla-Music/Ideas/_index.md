@@ -20,6 +20,7 @@ Ideas that have shipped. Source of truth for "what's in the app today" stays in 
 - [[artist-bio-from-musicbrainz-wikipedia|Artist bio from MusicBrainz + Wikipedia]] — 2026-05-25 via `74bdfe7`. "About" card in the artist hub (chained MusicBrainz → Wikipedia + disk cache).
 - [[onboarding-flow|First-launch onboarding]] — Phase 6 (2026-06-05 → 2026-06-10). Shipped lighter than the 3-screen sketch: brand splash + a one-time looping swipe-guide overlay (`868d2ec`, `f45efec`, `4bf09d9`).
 - [[album-about-editorial-notes|Album "About" from Apple editorial notes]] — Phase 6 (`dce03b5`, 2026-06-04). Dedicated album liner-notes sheet from the card's album info button + artist editorial notes in the hub (`77178c4`).
+- [[stats-activity-view|Stats / activity view]] — Phase 7 (first pass `3642c91`, 2026-07-13; round two `c7cc848`, 2026-07-14). Landed as the Insights screen; went beyond the sketch with a taste profile, coverage, and artist tap-through.
 
 ## Related
 

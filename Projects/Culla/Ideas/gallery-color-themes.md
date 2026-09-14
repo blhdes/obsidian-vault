@@ -6,6 +6,12 @@ tags: [culla, idea, theming, ui, design-system]
 
 # Gallery Color Themes
 
+## Status (2026-09-14 audit)
+
+**Partially implemented.** `a507f73` (2026-06-14) shipped a "Sidebar colour" setting in Settings with two modes: *Per gallery* (unchanged — the random neon assignment described below) and *Accent* — a single accent hue walked light→dark across the selected galleries via `accentSpectrum(...)` in `GallerySidebarView.swift`. That's a real, working instance of the **tone-shift algorithm** below (one gradient, not a fixed palette), and it disables per-gallery colour customization while active, with the stored `colorHex` preserved for switching back.
+
+Still open / not built: the `GalleryTheme` abstraction, the 8–10 named themes (Pastel, Metallic, Mono Fade, Cool/Warm Range, Earth, Jewel, Liquid Glass, Sunset/Aurora), a theme picker UI, and per-gallery colour override on top of a theme. The random single-neon-palette default (`Models/Gallery.swift:38`, `Views/GallerySidebarView.swift:69-96`) is still exactly as described below when in *Per gallery* mode. See [[Projects/Culla/Phases/phase-mosaic-video-gallery-polish|the phase note]] for what shipped.
+
 ## Problem
 
 Today, gallery colors are assigned **randomly** from a single hard-coded neon palette:

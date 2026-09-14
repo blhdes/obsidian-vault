@@ -16,11 +16,11 @@ Drives the multi-month push to land a creative job abroad (~Dec 2026–Feb 2027)
 
 ## How to invoke
 
-**Auto-fires** on trigger phrases — no need to type the command name every time. Triggers include: `/career-launch`, `/career`, `/portfolio`, "work on the portfolio", "next chapter", "job search", "apply abroad", "moving to Paris/Amsterdam", "what's next for the portfolio", "oposiciones", "temario", "función pública", or any reference to `Projects/Portfolio/` or `Projects/Oposiciones/`.
+**Auto-fires** on trigger phrases — no need to type the command name every time. Triggers include: `/career-launch`, `/career`, `/portfolio`, "work on the portfolio", "next chapter", "job search", "apply abroad", "moving to Paris/Amsterdam", "what's next for the portfolio", "oposiciones", "temario", "función pública", or any reference to `Projects/Portfolio/` or `Areas/Oposiciones/`.
 
 ## What it does
 
-1. **Always reads state first** — `Projects/Portfolio/Portfolio.md` (and `Projects/Oposiciones/Oposiciones.md` when that track is active) before saying anything, then gives a 1–2 line recap and waits for a go-ahead.
+1. **Always reads state first** — `Projects/Portfolio/Portfolio.md` (and `Areas/Oposiciones/Oposiciones.md` when that track is active) before saying anything, then gives a 1–2 line recap and waits for a go-ahead.
 2. **Coordinates three connected workstreams** toward the abroad goal:
    - **A. Portfolio website** — `~/Claude/portfolio/`, live at alegomez.studio.
    - **B. New work to show** — apps (Culla, CullaMusic live; Doppio/Warket/Village in the pipeline) + the fashion brand (~Aug–Sep 2026) + curated photography/cinema.
@@ -41,4 +41,4 @@ Drives the multi-month push to land a creative job abroad (~Dec 2026–Feb 2027)
 
 - [[../_index|_index]] — Claude skills index
 - [[../../../../Projects/Portfolio/Portfolio|Portfolio project hub]]
-- [[../../../../Projects/Oposiciones/Oposiciones|Oposiciones hub]]
+- [[../../../../Areas/Oposiciones/Oposiciones|Oposiciones hub]]

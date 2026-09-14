@@ -8,6 +8,13 @@ tags: [blhades, web, dev, status]
 
 > Where the website stands (repo: `blhades-web-temp`). Brand index: [[Projects/Blhades/Blhades|BLH*DES]].
 
+## Checked 2026-09-14 — domain expired, launch never happened
+
+- **`blhades.com` is no longer the brand's** — fetching it now shows Porkbun's "this domain has expired and is at auction" page, not the countdown and not the storefront. This is urgent: if it's not reclaimed, the domain could be bought by someone else.
+- The repo (`/Users/agomezu/Claude/blhades-web-temp/`) is untouched since the last commit below (`7fd088b`, 2026-06-21) — `git status` is clean, no work happened after that, and nothing in the repo shows the planned 12 Aug 2026 launch (public `/` swap) was ever executed.
+- Everything in "What's built" below is still accurate **as local, undeployed code** — it just hasn't moved or shipped since 21 Jun. The Buttondown key step is still outstanding too.
+- Practical effect: the "Open next steps" list below is stale — launch day already passed without the swap happening, and the domain situation is now the actual top priority, ahead of anything else on that list.
+
 ## Snapshot (2026-06-09)
 - Storefront is being built **privately at `/preview/`**; the public `/` stays the **launch countdown** until **12 Aug 2026**.
 - Home + product pages + waitlist all work locally. **Nothing is deployed yet** — the live site is untouched.
@@ -29,9 +36,10 @@ tags: [blhades, web, dev, status]
 - **Deploy model**: there's no build step on the server — you build locally and commit the result into `backend/dist`, which *is* the live site. The server only hands out files + runs the waitlist API.
 
 ## Open next steps
+- [ ] **Reclaim/renew `blhades.com`** — expired, at auction on Porkbun as of 2026-09-14. Now blocks everything else below.
 - [ ] **Get the Buttondown key** — make a free account at buttondown.email → Settings → Programming → API key → put it in `backend/.env` as `BUTTONDOWN_API_KEY=...`. **Until this is done, signups save locally only** (they don't reach the email tool).
 - [ ] Decide: deploy `/preview` as an unlisted URL, or keep it local-only until launch.
-- [ ] **Launch day (12 Aug 2026)**: point `/` at the storefront, and email the waitlist that it's live.
+- [ ] ~~Launch day (12 Aug 2026)~~ **Missed** — the date passed with no deployment; needs a new launch date once the domain is sorted, then point `/` at the storefront and email the waitlist.
 - [ ] Decide what data the per-piece **size availability** should reflect (right now all sizes show in stock for every piece).
 - [ ] Optional polish: instant in-app navigation (no full page reload), a back/model image switch on the product page, JPEG fallback for very old browsers.
 
