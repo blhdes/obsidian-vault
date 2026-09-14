@@ -1,9 +1,3 @@
----
-title: Home
-date: 2026-09-14
-tags: [meta, vault]
----
-
 # 🏠 Home
 
 Welcome to my vault. This is where I keep **ideas, dev insights, project phases, and things I learn while coding** — both as a personal research tool and a shared memory with Claude.
@@ -57,7 +51,7 @@ Just describe where it should go. Examples that work:
 | Vigilia | [[Projects/Vigilia/Vigilia\|Vigilia]] |
 | Ville du Cinéma — web redesign | [[Projects/ville-du-cinema-web/ville-du-cinema-web\|Ville du Cinéma (web)]] |
 | Ville Expo — Ville du Cinéma mobile | [[Projects/Ville-Expo/Ville-Expo\|Ville Expo]] |
-| VILLE — Letterboxd reader (independent, paused, pure Swift) | [[Projects/VILLE/VILLE\|VILLE]] |
+| village-swift — VILLE, Letterboxd reader (independent, paused, pure Swift) | [[Projects/village-swift/village-swift\|village-swift]] |
 
 ### 🎨 Brand & career
 

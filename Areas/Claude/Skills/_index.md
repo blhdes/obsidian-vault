@@ -91,4 +91,4 @@ A skill can also be implemented as a **slash command** (`~/.claude/commands/<nam
 
 - [[../claude-config-files|claude-config-files]] — full Claude config file map
 - [[Docs/obsidian-vault|obsidian-vault]] — the meta-skill that wrote this very note
-- [[Home]]
+- [[README|Home]]

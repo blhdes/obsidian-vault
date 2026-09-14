@@ -1,10 +1,16 @@
 ---
-title: VILLE
+title: village-swift (VILLE)
 date: 2026-09-14
-tags: [project, ios, swift, swiftui, swiftdata, ville, letterboxd, paused]
+tags: [project, ios, swift, swiftui, swiftdata, ville, village, letterboxd, paused]
 ---
 
-# 🎬 VILLE
+# 🎬 village-swift — VILLE
+
+> Vault project name is **`village-swift`**, matching the real GitHub repo
+> (**`blhdes/village`**) with a `-swift` suffix that flags what it actually is:
+> the native Swift/SwiftUI remodel of the **village-du-cinema** family (Expo app +
+> web). The app itself is still called **VILLE** in code (product name, bundle,
+> Xcode project) — only the vault/folder naming changed, 2026-09-14.
 
 > ⏸️ **Paused.** Scaffolded (app skeleton + Feed/Models/Services/ViewModels/Views)
 > but not actively worked on right now. Kept as its own project because it's

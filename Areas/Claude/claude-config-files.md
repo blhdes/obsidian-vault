@@ -87,4 +87,4 @@ The deeper file **wins** when rules conflict.
 ## Related notes
 
 - [[Areas/Claude/Skills/Docs/obsidian-vault]]
-- [[Home]]
+- [[README|Home]]

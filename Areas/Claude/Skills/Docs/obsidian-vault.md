@@ -88,6 +88,6 @@ The vault is a **private GitHub repo** (set up 2026-04-24) cloned at `/Users/ago
 
 ## Related notes
 
-- [[Home]] — vault entry point & conventions
+- [[README|Home]] — vault entry point & conventions
 - [[Projects/Culla/Culla]]
 - [[Resources/Swift/Swift]]
