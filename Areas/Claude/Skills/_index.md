@@ -17,7 +17,7 @@ Every Claude skill currently visible in a Claude Code session on this machine, g
 | **Plugins** (marketplace) | `~/.claude/plugins/cache/<marketplace>/<name>/` | Every session |
 | **Built-in** | Bundled with Claude Code itself | Every session |
 
-See [[claude-config-files]] for the full config layering.
+See [[../claude-config-files|claude-config-files]] for the full config layering.
 
 ---
 
@@ -25,19 +25,21 @@ See [[claude-config-files]] for the full config layering.
 
 Skills the user built or heavily customized. These have their own notes because they encode personal workflow.
 
+All notes below live in `Areas/Claude/Skills/Docs/`.
+
 | Skill | Note | Trigger | What it does |
 |---|---|---|---|
-| `obsidian-vault` | [[obsidian-vault]] | "save to vault", "drop in Inbox", "what did I write about…" | Reads/writes notes in `/Users/agomezu/Claude/Obsidian/` following PARA conventions |
-| `swift-refine` | [[swift-refine]] | `/swift-refine`, "tighten", "optimize this view" | Audits a Swift/SwiftUI file for performance, allocations, races, dead branches. Plan-then-implement |
-| `swiftui-redesign` | [[swiftui-redesign]] | `/swiftui-redesign`, "rethink", "modernize this view" | Redesigns a SwiftUI screen using modern Apple APIs (Liquid Glass, MeshGradient, symbolEffect) |
-| `glassify` | [[glassify]] | `/glassify`, "find liquid glass opportunities" | Surgical sweep for iOS 26 Liquid Glass upgrades — taste over coverage, plan-then-implement |
-| `swift-localize` | [[swift-localize]] | `/swift-localize`, "add languages", "translate the app" | Localizes a Swift app end-to-end via String Catalogs (`.xcstrings`) |
-| `download-music` | [[download-music]] | `/download-music <YouTube URL>` | Downloads from YouTube via `yt-dlp`, embeds album art via `embed_cover.py` (MusicBrainz → iTunes → YT thumbnail) |
-| `tunebat` | [[tunebat]] | "look up the BPM/key for X", "tunebat X" | Key/Camelot/BPM/feel-tags — Engine DJ database first, tunebat.com scrape as fallback |
-| `music-production` | [[music-production]] | `/music-production`, "next session", "continue the music journey" | Resumes the Ableton learning journey; vault-stateful, calibrates teaching level to logged progress |
-| `career-launch` | [[career-launch]] | `/career-launch`, `/portfolio`, "job search", "oposiciones" | Drives the portfolio site, new work, job-search/relocation plan, and the parallel oposiciones track |
+| `obsidian-vault` | [[Docs/obsidian-vault|obsidian-vault]] | "save to vault", "drop in Inbox", "what did I write about…" | Reads/writes notes in `/Users/agomezu/Claude/Obsidian/` following PARA conventions |
+| `swift-refine` | [[Docs/swift-refine|swift-refine]] | `/swift-refine`, "tighten", "optimize this view" | Audits a Swift/SwiftUI file for performance, allocations, races, dead branches. Plan-then-implement |
+| `swiftui-redesign` | [[Docs/swiftui-redesign|swiftui-redesign]] | `/swiftui-redesign`, "rethink", "modernize this view" | Redesigns a SwiftUI screen using modern Apple APIs (Liquid Glass, MeshGradient, symbolEffect) |
+| `glassify` | [[Docs/glassify|glassify]] | `/glassify`, "find liquid glass opportunities" | Surgical sweep for iOS 26 Liquid Glass upgrades — taste over coverage, plan-then-implement |
+| `swift-localize` | [[Docs/swift-localize|swift-localize]] | `/swift-localize`, "add languages", "translate the app" | Localizes a Swift app end-to-end via String Catalogs (`.xcstrings`) |
+| `download-music` | [[Docs/download-music|download-music]] | `/download-music <YouTube URL>` | Downloads from YouTube via `yt-dlp`, embeds album art via `embed_cover.py` (MusicBrainz → iTunes → YT thumbnail) |
+| `tunebat` | [[Docs/tunebat|tunebat]] | "look up the BPM/key for X", "tunebat X" | Key/Camelot/BPM/feel-tags — Engine DJ database first, tunebat.com scrape as fallback |
+| `music-production` | [[Docs/music-production|music-production]] | `/music-production`, "next session", "continue the music journey" | Resumes the Ableton learning journey; vault-stateful, calibrates teaching level to logged progress |
+| `career-launch` | [[Docs/career-launch|career-launch]] | `/career-launch`, `/portfolio`, "job search", "oposiciones" | Drives the portfolio site, new work, job-search/relocation plan, and the parallel oposiciones track |
 
-**Raw file backup:** every skill above (source files, not just prose) is mirrored at [[backup/README|Areas/Claude/Skills/backup/]] — for machine migration or sharing the skills with someone else.
+**Raw file backup:** every skill above (source files, not just prose) is mirrored at [[backup/README|Areas/Claude/Skills/backup/]] — for machine migration or sharing the skills with someone else. Backup is a sibling of `Docs/`, not a subfolder of it — the two are kept clearly apart.
 
 ---
 
@@ -87,6 +89,6 @@ A skill can also be implemented as a **slash command** (`~/.claude/commands/<nam
 
 ## Related notes
 
-- [[claude-config-files]] — full Claude config file map
-- [[obsidian-vault]] — the meta-skill that wrote this very note
+- [[../claude-config-files|claude-config-files]] — full Claude config file map
+- [[Docs/obsidian-vault|obsidian-vault]] — the meta-skill that wrote this very note
 - [[Home]]

@@ -40,11 +40,11 @@ The bar is **taste, not coverage** — a good run adds 4 surgical glass moves th
 
 ## Backup
 
-`SKILL.md` + `LEARNINGS.md` are mirrored at [[backup/README|Areas/Claude/Skills/backup/glassify/]], last synced **2026-09-14**. Re-copy them there after any real change to this skill.
+`SKILL.md` + `LEARNINGS.md` are mirrored at [[../backup/README|Areas/Claude/Skills/backup/glassify/]], last synced **2026-09-14**. Re-copy them there after any real change to this skill.
 
 ## Related notes
 
 - [[swiftui-redesign]] — the whole-screen redesign counterpart
 - [[swift-refine]] — the inward (performance/correctness) counterpart
-- [[_index]] — Claude skills index
+- [[../_index|_index]] — Claude skills index
 - [[Resources/Swift/Swift]]

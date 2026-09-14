@@ -48,7 +48,7 @@ Engine only reads the `genre` tag, so good genre crates depend entirely on what'
 
 - **Source: Discogs *styles***, not MusicBrainz (whose genres are weak for electronic music). Discogs styles are the granular sub-genres crates need.
 - **Format: all styles, comma-joined**, e.g. `House, Deep House, Minimal`. Richest for filtering — a Smart List with `genre contains "Minimal"` *or* `contains "Deep House"` both catch it.
-- This is wired into the `[[../Claude/Skills/download-music|/download-music]]` skill: **`tags genre`** (genre-only) refines just the genre from Discogs and leaves the descriptive tags alone — the right tool for a library that's already cleanly tagged.
+- This is wired into the `[[../Claude/Skills/Docs/download-music|/download-music]]` skill: **`tags genre`** (genre-only) refines just the genre from Discogs and leaves the descriptive tags alone — the right tool for a library that's already cleanly tagged.
 - Obscure bootlegs / white-labels often won't match Discogs — set those by hand.
 
 ## 5. The thing that beats any folder scheme: track prep
@@ -145,7 +145,7 @@ Don't over-cue: 3–4 on the "1" beat 8 messy ones. Start with just **intro + br
 ## Related
 
 - [[Mixing-DJing]] — area index
-- [[../Claude/Skills/download-music|/download-music skill]] — now refines genre from Discogs styles (`tags genre`)
+- [[../Claude/Skills/Docs/download-music|/download-music skill]] — now refines genre from Discogs styles (`tags genre`)
 - [[Genre-Studies/Genre-Studies|Genre Studies]] — genre breakdowns & BPM/key cheatsheets
 - [[Tracklists/Tracklists|Tracklists]] — where prepared sets live
 

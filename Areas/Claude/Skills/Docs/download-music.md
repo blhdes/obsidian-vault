@@ -120,7 +120,7 @@ For the step-by-step bash and edge-case rules, read the command file above — t
 - **Source of truth for the *tags*:** the files on disk.
 - Each release gets a provenance line (uploader · quality · move date) + a per-track table, plus a "tag-check notes" section flagging missing/weak genres.
 
-See [[../../Mixing-DJing/Library/Library|the Library index]].
+See [[../../../Mixing-DJing/Library/Library|the Library index]].
 
 ## Porting the Library to an external SSD
 
@@ -140,15 +140,15 @@ Default destination is `<SSD>/Music/Library/` (mirrors the local layout). It mov
 - **Copy → checksum-verify → delete, per file** — a local file is deleted only after its SSD copy is proven byte-identical (SHA-256). A mismatch leaves both files in place.
 - **Resumable / idempotent** — a file already on the SSD (same size + checksum) is skipped and only its local copy removed.
 
-> ⚠ **Engine DJ caveat:** Engine stores track paths relative to the internal disk (`../Library/…`), so after the move it shows those tracks as missing until I point Engine at the SSD (add it as a drive, or relink). The script does **not** touch Engine's database — re-linking is a separate manual step, and it prints this reminder when it finishes. See [[../../Mixing-DJing/Manuals/engine-dj-sc-live-4-workflow|Engine DJ → SC Live 4 Workflow]].
+> ⚠ **Engine DJ caveat:** Engine stores track paths relative to the internal disk (`../Library/…`), so after the move it shows those tracks as missing until I point Engine at the SSD (add it as a drive, or relink). The script does **not** touch Engine's database — re-linking is a separate manual step, and it prints this reminder when it finishes. See [[../../../Mixing-DJing/Manuals/engine-dj-sc-live-4-workflow|Engine DJ → SC Live 4 Workflow]].
 
 ## Backup
 
-The command file + scripts (minus the Discogs token, cover cache, queue, and ignore-list — see the backup README for why) are mirrored at [[backup/README|Areas/Claude/Skills/backup/download-music/]], last synced **2026-09-14**. Re-copy the relevant file there after any real change to this skill.
+The command file + scripts (minus the Discogs token, cover cache, queue, and ignore-list — see the backup README for why) are mirrored at [[../backup/README|Areas/Claude/Skills/backup/download-music/]], last synced **2026-09-14**. Re-copy the relevant file there after any real change to this skill.
 
 ## Related notes
 
-- [[_index]] — Claude skills index
-- [[../claude-config-files|claude-config-files]] — how Claude's config layering works
-- [[../../Mixing-DJing/Mixing-DJing|Mixing & DJing area]] — main consumer of this skill
-- [[../../Mixing-DJing/Library/Library|Library notes]] — the monthly snapshots this skill writes
+- [[../_index|_index]] — Claude skills index
+- [[../../claude-config-files|claude-config-files]] — how Claude's config layering works
+- [[../../../Mixing-DJing/Mixing-DJing|Mixing & DJing area]] — main consumer of this skill
+- [[../../../Mixing-DJing/Library/Library|Library notes]] — the monthly snapshots this skill writes

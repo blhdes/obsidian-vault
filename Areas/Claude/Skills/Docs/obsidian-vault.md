@@ -84,7 +84,7 @@ The vault is a **private GitHub repo** (set up 2026-04-24) cloned at `/Users/ago
 
 ## Backup
 
-`SKILL.md` is mirrored at [[backup/README|Areas/Claude/Skills/backup/obsidian-vault/]], last synced **2026-09-14**. Re-copy it there after any real change to this skill.
+`SKILL.md` is mirrored at [[../backup/README|Areas/Claude/Skills/backup/obsidian-vault/]], last synced **2026-09-14**. Re-copy it there after any real change to this skill.
 
 ## Related notes
 

@@ -34,11 +34,11 @@ Localizes a Swift/SwiftUI app end-to-end via String Catalogs (`.xcstrings`). Def
 
 ## Backup
 
-`SKILL.md` is mirrored at [[backup/README|Areas/Claude/Skills/backup/swift-localize/]], last synced **2026-09-14**. Re-copy it there after any real change to this skill.
+`SKILL.md` is mirrored at [[../backup/README|Areas/Claude/Skills/backup/swift-localize/]], last synced **2026-09-14**. Re-copy it there after any real change to this skill.
 
 ## Related notes
 
 - [[swift-refine]] — inward Swift audits (not localization)
 - [[swiftui-redesign]] — visual redesigns (not localization)
-- [[_index]] — Claude skills index
+- [[../_index|_index]] — Claude skills index
 - [[Resources/Swift/Swift]]

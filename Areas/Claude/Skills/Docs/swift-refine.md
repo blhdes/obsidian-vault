@@ -54,10 +54,10 @@ This is deliberate: catches misalignment before code changes, so you don't end u
 
 ## Backup
 
-`SKILL.md` + `LEARNINGS.md` are mirrored at [[backup/README|Areas/Claude/Skills/backup/swift-refine/]], last synced **2026-09-14**. Re-copy them there after any real change to this skill.
+`SKILL.md` + `LEARNINGS.md` are mirrored at [[../backup/README|Areas/Claude/Skills/backup/swift-refine/]], last synced **2026-09-14**. Re-copy them there after any real change to this skill.
 
 ## Related notes
 
 - [[swiftui-redesign]] — the outward counterpart
-- [[_index]] — Claude skills index
+- [[../_index|_index]] — Claude skills index
 - [[Resources/Swift/Swift]]

@@ -50,4 +50,4 @@ _(empty for now — previous tracklists were removed 2026-08-30, not needed)_
 ## Related
 
 - [[../Mixing-DJing|Mixing & DJing index]]
-- [[../../Claude/Skills/download-music|/download-music skill]] — for grabbing tracks
+- [[../../Claude/Skills/Docs/download-music|/download-music skill]] — for grabbing tracks

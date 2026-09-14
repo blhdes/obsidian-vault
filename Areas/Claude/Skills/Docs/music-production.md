@@ -33,10 +33,10 @@ Resumes the beginner-to-mid electronic-music-production learning journey in Able
 
 ## Backup
 
-`SKILL.md` is mirrored at [[backup/README|Areas/Claude/Skills/backup/music-production/]], last synced **2026-09-14**. Re-copy it there after any real change to this skill.
+`SKILL.md` is mirrored at [[../backup/README|Areas/Claude/Skills/backup/music-production/]], last synced **2026-09-14**. Re-copy it there after any real change to this skill.
 
 ## Related notes
 
-- [[_index]] — Claude skills index
-- [[../../Music-Production/Progress|Music-Production Progress]]
-- [[../../Music-Production/Roadmap|Music-Production Roadmap]]
+- [[../_index|_index]] — Claude skills index
+- [[../../../Music-Production/Progress|Music-Production Progress]]
+- [[../../../Music-Production/Roadmap|Music-Production Roadmap]]

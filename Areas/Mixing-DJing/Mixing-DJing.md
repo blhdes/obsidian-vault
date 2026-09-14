@@ -28,7 +28,7 @@ Home for everything related to learning to DJ on the **Denon DJ SC LIVE 4** (sta
 ## Current setup
 
 - **Controller:** Denon DJ SC LIVE 4 — standalone (runs Engine OS), no laptop required
-- **Library location:** `~/Music/Library/` (filled by [[../Claude/Skills/download-music|/download-music]])
+- **Library location:** `~/Music/Library/` (filled by [[../Claude/Skills/Docs/download-music|/download-music]])
 - **Software:** Engine DJ (desktop) for library prep + export to USB/SD; Engine OS on the SC LIVE 4
 
 ## How to use this area
@@ -42,5 +42,5 @@ Home for everything related to learning to DJ on the **Denon DJ SC LIVE 4** (sta
 ## Related
 
 - [[../Music-Production/Music-Production|Music Production]] — the sister passion; learning to *make* tracks in Ableton, not just mix them
-- [[../Claude/Skills/download-music|/download-music skill]] — one-command YouTube → tagged MP3 pipeline
+- [[../Claude/Skills/Docs/download-music|/download-music skill]] — one-command YouTube → tagged MP3 pipeline
 - [[../Claude/Skills/_index|All Claude skills]]

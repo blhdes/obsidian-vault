@@ -8,7 +8,7 @@ tags: [claude, skill, backup, meta]
 
 A raw copy of every custom Claude Code skill set up on this Mac, as of **2026-09-14**. This exists so the skills survive a machine wipe/migration and so they can be **shared** (a folder to zip and hand over, or push to a public repo later) without exposing personal secrets or library data.
 
-Each subfolder here mirrors a folder under `~/.claude/` on this Mac. The prose explaining *what each skill does and how to use it* lives one level up, in [[_index|the skills index]] and each skill's own note (linked below) — this folder is just the files.
+Each subfolder here mirrors a folder under `~/.claude/` on this Mac. The prose explaining *what each skill does and how to use it* lives in the sibling `Docs/` folder — see [[../_index|the skills index]] and each skill's own note (linked below) — this folder is just the files.
 
 ## What's backed up
 
@@ -36,7 +36,7 @@ This backup is meant to be shareable, so personal secrets and runtime state were
 | `download-music/.engine_sync_ignore` | Personal list of this user's deliberately-excluded library folders |
 | `*/__pycache__/` | Compiled bytecode, not source |
 
-If restoring this backup onto a new Mac, `download-music` still works without `.discogs_token` — the Discogs cover/genre step just gets silently skipped until you generate a new token (see [[download-music]] → "One-time setup: Discogs token").
+If restoring this backup onto a new Mac, `download-music` still works without `.discogs_token` — the Discogs cover/genre step just gets silently skipped until you generate a new token (see [[../Docs/download-music|download-music]] → "One-time setup: Discogs token").
 
 ## Restoring onto a Mac
 
@@ -53,7 +53,7 @@ mkdir -p ~/.claude/skills/download-music
 cp backup/download-music/scripts/*.py ~/.claude/skills/download-music/
 ```
 
-Then, only for `download-music`, redo the one-time Discogs token setup (see above) and install its dependencies (`yt-dlp`, `ffmpeg`, `mutagen`, `requests`, `Pillow` — see [[download-music]]).
+Then, only for `download-music`, redo the one-time Discogs token setup (see above) and install its dependencies (`yt-dlp`, `ffmpeg`, `mutagen`, `requests`, `Pillow` — see [[../Docs/download-music|download-music]]).
 
 ## Keeping this in sync
 
@@ -61,17 +61,19 @@ This backup is a **snapshot**, not a live mirror — it does not auto-update whe
 
 ## Per-skill documentation
 
-- [[career-launch]]
-- [[download-music]]
-- [[glassify]]
-- [[music-production]]
-- [[obsidian-vault]]
-- [[swift-localize]]
-- [[swift-refine]]
-- [[swiftui-redesign]]
-- [[tunebat]]
+All in the sibling `Docs/` folder:
+
+- [[../Docs/career-launch|career-launch]]
+- [[../Docs/download-music|download-music]]
+- [[../Docs/glassify|glassify]]
+- [[../Docs/music-production|music-production]]
+- [[../Docs/obsidian-vault|obsidian-vault]]
+- [[../Docs/swift-localize|swift-localize]]
+- [[../Docs/swift-refine|swift-refine]]
+- [[../Docs/swiftui-redesign|swiftui-redesign]]
+- [[../Docs/tunebat|tunebat]]
 
 ## Related notes
 
-- [[_index]] — Claude skills index
-- [[../claude-config-files|claude-config-files]]
+- [[../_index|_index]] — Claude skills index
+- [[../../claude-config-files|claude-config-files]]

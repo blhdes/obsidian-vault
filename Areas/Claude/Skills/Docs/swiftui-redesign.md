@@ -63,11 +63,11 @@ The user "almost certainly hasn't given full requirements" — the skill expects
 
 ## Backup
 
-`SKILL.md` + `LEARNINGS.md` are mirrored at [[backup/README|Areas/Claude/Skills/backup/swiftui-redesign/]], last synced **2026-09-14**. Re-copy them there after any real change to this skill.
+`SKILL.md` + `LEARNINGS.md` are mirrored at [[../backup/README|Areas/Claude/Skills/backup/swiftui-redesign/]], last synced **2026-09-14**. Re-copy them there after any real change to this skill.
 
 ## Related notes
 
 - [[swift-refine]] — the inward counterpart
-- [[_index]] — Claude skills index
+- [[../_index|_index]] — Claude skills index
 - [[Resources/Swift/Swift]]
 - [[Projects/Culla/Culla]]

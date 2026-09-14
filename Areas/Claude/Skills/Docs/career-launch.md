@@ -35,10 +35,10 @@ Drives the multi-month push to land a creative job abroad (~Dec 2026–Feb 2027)
 
 ## Backup
 
-`SKILL.md` is mirrored at [[backup/README|Areas/Claude/Skills/backup/career-launch/]], last synced **2026-09-14**. Re-copy it there after any real change to this skill.
+`SKILL.md` is mirrored at [[../backup/README|Areas/Claude/Skills/backup/career-launch/]], last synced **2026-09-14**. Re-copy it there after any real change to this skill.
 
 ## Related notes
 
-- [[_index]] — Claude skills index
-- [[../../Portfolio/Portfolio|Portfolio project hub]]
-- [[../../Oposiciones/Oposiciones|Oposiciones hub]]
+- [[../_index|_index]] — Claude skills index
+- [[../../../../Projects/Portfolio/Portfolio|Portfolio project hub]]
+- [[../../../../Projects/Oposiciones/Oposiciones|Oposiciones hub]]
