@@ -342,7 +342,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/36229225)
 
-### Joey Beltram — Ball Park ✅
+### Joey Beltram — Ball Park
 > tehnodruma · vinyl rip · FLAC 16/44 · moved 2026-09-14 · `Joey Beltram/(1998) Ball Park [Tresor (Tresor 90)] [vinyl] [flac]/`
 
 | # | Title | Year | Genre | Format |
@@ -353,7 +353,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/1195518)
 
-### Plastikman — Arkives 1993-2010 *(vinyl edition)* ✅
+### Plastikman — Arkives 1993-2010 *(vinyl edition)*
 > toad · vinyl rip · FLAC 24/96 · moved 2026-09-14 · `Plastikman/Plastikman - Arkives 1993 - 2010 (2011) VINYL FLAC/` · lineage Info.txt kept
 
 | # | Title | Year | Genre | Format |
