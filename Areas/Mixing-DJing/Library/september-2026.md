@@ -8,7 +8,7 @@ tags: [library, soulseek, imports, september-2026, dj]
 
 Every release pulled from **Soulseek** into `~/Music/Library/` this month, with the **exact tags currently written on disk**. Source uploaders, quality notes and move dates come from the Soulseek log (`~/Soulseek Downloads/_downloaded-sources.md`) — this note only covers folders recorded there.
 
-**This month:** 23 releases · 120 tracks · from 16 Soulseek uploaders.
+**This month:** 27 releases · 141 tracks · from 20 Soulseek uploaders.
 
 ## Releases (summary)
 
@@ -37,6 +37,10 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 | 09-11 | Decka — When Time Stopped | 6 | FLAC 16/44 | Techno | fitzstudio |
 | 09-11 | Geømmetrisch — Principio de Superposición | 5 | FLAC 16/44 | Techno | Grenoybel |
 | 09-11 | Decka — Evolution EP | 4 | FLAC 24/44 | Techno | Mortadela |
+| 09-14 | Joey Beltram — Ball Park | 3 | FLAC 16/44 | Techno | tehnodruma |
+| 09-14 | Plastikman — Arkives 1993-2010 *(vinyl edition)* | 13 | FLAC 24/96 | Acid House, Techno, Minimal, Experimental, Ambient | toad |
+| 09-14 | VA — Curation Five: Alarico | 4 | FLAC 24/44 | Techno | beatrice.songbird2 |
+| 09-14 | Steve Bicknell — Space 13 *(Fabric 96 excerpt)* | 1 | FLAC 16/44 | Techno, Minimal Techno | n0h0pe |
 
 ## Tracks by release
 
@@ -338,6 +342,59 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/36229225)
 
+### Joey Beltram — Ball Park ✅
+> tehnodruma · vinyl rip · FLAC 16/44 · moved 2026-09-14 · `Joey Beltram/(1998) Ball Park [Tresor (Tresor 90)] [vinyl] [flac]/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| A1 | Ball Park (original) | 1998 | Techno | FLAC 16/44 |
+| B1 | Ball Park (Steve Bicknell remix) | 1998 | Techno | FLAC 16/44 |
+| B2 | Ball Park (Rush Beat mix) | 1998 | Techno | FLAC 16/44 |
+
+[Discogs ↗](https://www.discogs.com/release/1195518)
+
+### Plastikman — Arkives 1993-2010 *(vinyl edition)* ✅
+> toad · vinyl rip · FLAC 24/96 · moved 2026-09-14 · `Plastikman/Plastikman - Arkives 1993 - 2010 (2011) VINYL FLAC/` · lineage Info.txt kept
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| A | Akoustik (F. K. mix) | 2011 | Acid House, Techno, Minimal, Experimental, Ambient | FLAC 24/96 |
+| B | Lodgikal Nonsense (Matthew Dear Mix) | 2011 | Acid House, Techno, Minimal, Experimental, Ambient | FLAC 24/96 |
+| C1 | Mind In Rewind (Steve Bicknell Mix) | 2011 | Acid House, Techno, Minimal, Experimental, Ambient | FLAC 24/96 |
+| C2 | Mind In Rewind (Berg Nixon Mix) | 2011 | Acid House, Techno, Minimal, Experimental, Ambient | FLAC 24/96 |
+| D | Plasticity (Dubfire Mix) | 2011 | Acid House, Techno, Minimal, Experimental, Ambient | FLAC 24/96 |
+| E | Krakpot (Moby Mix) | 2011 | Acid House, Techno, Minimal, Experimental, Ambient | FLAC 24/96 |
+| F | Helikopter (Green Velvet Mix) | 2011 | Acid House, Techno, Minimal, Experimental, Ambient | FLAC 24/96 |
+| G | Ping Pong (Ambivalent Mix) | 2011 | Acid House, Techno, Minimal, Experimental, Ambient | FLAC 24/96 |
+| H | Mind Rewind (Carl Craig Mix) | 2011 | Acid House, Techno, Minimal, Experimental, Ambient | FLAC 24/96 |
+| I | Oedipus Komplex (Heartthrob Mix) | 2011 | Acid House, Techno, Minimal, Experimental, Ambient | FLAC 24/96 |
+| J | I Don't Know (Psyche Mix) | 2011 | Acid House, Techno, Minimal, Experimental, Ambient | FLAC 24/96 |
+| K | Disconnect (Gaiser Mix) | 2011 | Acid House, Techno, Minimal, Experimental, Ambient | FLAC 24/96 |
+| L | Plastique (Mathew Jonson Mix) | 2011 | Acid House, Techno, Minimal, Experimental, Ambient | FLAC 24/96 |
+
+[Discogs ↗](https://www.discogs.com/release/3066668)
+
+### VA — Curation Five: Alarico ✅
+> beatrice.songbird2 · scene/WAVED · FLAC 24/44 · moved 2026-09-14 · `The Third Room/VA-Curation_Five_Alarico-T3R026-24BIT-WEB-FLAC-2026-WAVED/`
+
+| # | Artist | Title | Year | Genre | Format |
+|---|---|---|---|---|---|
+| 1 | Alarico & Yanamaste | Connection | 2026 | Techno | FLAC 24/44 |
+| 2 | Toru Ikemoto | Crimson Leaf Minstrel | 2026 | Techno | FLAC 24/44 |
+| 3 | Lea Occhi & Amotik | Blue Lights | 2026 | Techno | FLAC 24/44 |
+| 4 | Alarico | IB1809 | 2026 | Techno | FLAC 24/44 |
+
+[Discogs ↗](https://www.discogs.com/release/38211729)
+
+### Steve Bicknell — Space 13 *(Fabric 96 excerpt)*
+> n0h0pe · WEB · FLAC 16/44 · moved 2026-09-14 · `Steve Bicknell/Singles/Space 13 (Mixed)/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 16 | Space 13 (Mixed) | 2017 | Techno, Minimal Techno | FLAC 16/44 |
+
+[Discogs ↗ Fabric 96 (source mix)](https://www.discogs.com/release/11254320)
+
 ## Tag-check notes
 
 - Lady Starlight — Capricorn Rising: no embedded cover; Discogs/MusicBrainz search missed it despite the release existing there, so cover sourced from iTunes instead.
@@ -350,3 +407,5 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 - Oscar Mulero — Paradisaea: arrived with genre set to bare "Electronic" and a stray Hospital Productions comment tag; genre corrected to Techno, IDM per Discogs (the label comment checked out — Paradisaea is a genuine Hospital Productions release).
 - Oscar Mulero — Gradual Blending: genre corrected from "Electronic" to Techno by hand — Discogs match confirmed manually after the automated search missed it.
 - Geømmetrisch — Principio de Superposición: not yet on Discogs (2026 release); no embedded cover, sourced from the folder's own image; link points to the label's Bandcamp instead.
+- Plastikman — Arkives 1993-2010: this is the vinyl-only edition (13 files) of the larger 6-vinyl+CD+DVD box; linked to the full box set release since Discogs has no vinyl-only entry with a matching tracklist.
+- Steve Bicknell — Space 13: single track pulled from the Fabric 96 DJ mix (DVS1) — a mix-exclusive edit with no standalone release; no direct Discogs link exists, so linked to the source Fabric 96 release instead.
