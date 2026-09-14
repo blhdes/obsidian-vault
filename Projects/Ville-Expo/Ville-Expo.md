@@ -33,6 +33,14 @@ When working on the mobile app, ask Claude things like:
 - _"Save this dev-insight — [what I learned wiring up Expo SecureStore with Supabase]"_
 - _"New idea in Ideas/ — [feature sketch]"_
 
-## Status
+## Status (updated 2026-09-14, was 4 months stale)
 
-> Project just (re)started 2026-05-19. Soon picking back up on the `feature/tos-compliant-rebuild` branch. Fill in current focus here as work resumes.
+The "just (re)started 2026-05-19" note below was inaccurate even at the time — the branch already had ~170 commits of real work behind it by then (started 2026-03-01). Checked against the actual repo:
+
+- **Branch:** `feature/tos-compliant-rebuild`, working tree clean, **171 commits total**, most recent **2026-07-17** — dormant since (~2 months).
+- **Build history, Phases 0–6** (ToS-compliant scraping removal → TMDB Film Cards → Takes/Likes/Comments → Discovery → Watchlist/Favorites → Film-Anchored Clippings): fully documented in the repo's own `docs/changelog.md` — that's the authoritative source, not reproduced here.
+- **Phase 7** (undocumented until this audit — social-layer polish, universal reposts, Letterboxd/Village branding, feed-reliability fixes, relative timestamps, through the isolated 2026-07-17 comment-likes/reposts commit): now recorded in [[Projects/Ville-Expo/Phases/phase-07-social-polish-reposts-and-reliability|the new phase note]].
+- **Known open items** (per the repo's own `docs/village-social-layer.md` "Remaining Items" table, not independently re-verified here): TMDB-based "because you saved X" recommendations, unified film+people search, RSS reviews surfaced on Film Cards, Take-as-image sharing, visual lanes distinguishing RSS vs. Village content in the feed.
+- App is a mature, feature-complete social layer per its own `README.md` (feed, Takes, Clippings, Reposts, TMDB film pages, watchlist/favorites, discovery, Google OAuth + guest mode) — this is well past an early rebuild, whatever "current focus" means next is a real product decision, not a resume-from-scratch one.
+
+> Original 2026-05-19 placeholder (kept for history): *"Project just (re)started 2026-05-19. Soon picking back up on the `feature/tos-compliant-rebuild` branch. Fill in current focus here as work resumes."*

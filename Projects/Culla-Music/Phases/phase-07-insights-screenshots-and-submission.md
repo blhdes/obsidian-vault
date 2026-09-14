@@ -25,7 +25,8 @@ Went **beyond** the original idea sketch (taste profile + coverage + artist tap-
 - Flag-gated `cullaScreenshotMode` portfolio sidebar (`eef441a`), demo images dropped in favor of neutral iconographic hero covers (`5f5bb03`), then glass (`42f5467`) and brand-mark (`418c045`) cover variants with depth fade.
 - Rights-safe screenshot plan documented (`47eb120`); Apple Music editorial-notes HTML rendered as rich text so album/artist "About" copy reads correctly in captures (`e98209e`).
 - App Store submission kit for 1.5.0/build 2 (`613c521`), version bump + encryption-exempt flag (`2bf7ded`, 2026-07-11).
-- **Submitted**: store metadata synced to the actual submitted 1.5.0 listing — new name ("Culla Music: Swipe Your Songs"), subtitle, keywords, What's New (`cda1020`, 2026-07-27).
+- **Submitted**: store metadata synced to the actual submitted 1.5.0 listing — new name ("Culla Music: Swipe Your Songs"), subtitle, keywords, What's New (`cda1020`, 2026-07-27). App Store ID `6778348600`, listing at `apps.apple.com/us/app/cullamusic/id6778348600` — the vault had never recorded that Culla Music shipped to the App Store at all before this audit; the index only ever described "App Store prep" as future work.
+- The last commit on the branch (`809fd54`, 2026-09-14) is a lone `Localizable.xcstrings` reformat with no functional change — the repo has been dormant since `cda1020` (2026-07-27), likely paused pending App Store review/release.
 
 ## 3. Interaction choreography
 
@@ -42,6 +43,12 @@ Went **beyond** the original idea sketch (taste profile + coverage + artist tap-
 ## Known gap
 
 **QA is now badly behind** — [[qa-testing-tracker|QA Testing Tracker]]'s last logged pass is still 2026-05-22, so all of Phase 6 *and* this phase (~110+ commits: Insights, screenshot tooling, the submitted 1.5.0 build, choreography rework, reconciliation fixes) are unverified on device. Biggest pre-next-release risk — see [[Projects/Culla-Music/culla-music|project index → Known issues]].
+
+**Refactor backlog (R1–R6, from the 2026-05-20 code audit) still open and has grown**: `Services/MusicLibraryService.swift` is now 1589 lines (was 935 at the last count), `HomeView.swift` 1244 lines, `SourceScopePickerSheet.swift` 524 lines.
+
+**Still-open ideas** — [[Ideas/smart-playlist-suggestion|Smart playlist suggestion chip]] and [[Ideas/artist-count-name-fallback|Name-based artist-count fallback]] show no implementation in the codebase as of this audit.
+
+New files this phase: `Views/InsightsView.swift`, `ViewModels/InsightsModel.swift`, `Views/PlaylistDetailSheet.swift`.
 
 ## Related
 

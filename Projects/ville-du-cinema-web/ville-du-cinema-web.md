@@ -17,6 +17,10 @@ Index note for the **Ville du Cinéma web app** redesign. The goal is to mirror 
 - **Mobile (source of truth for features)** — `/Users/agomezu/Claude/ville-du-cinema-mobile/`
   - Stack: Expo / React Native + Supabase
 
+## Status (checked 2026-09-14)
+
+Still exactly where the [[Projects/ville-du-cinema-web/Phases/mobile-parity-redesign-plan|kickoff plan]] left it: branch exists, **zero commits on it**, none of the 4 phases started. Confirmed against the actual repo, not assumed from the note's age. Meanwhile the mobile source-of-truth has moved further — see [[Projects/Ville-Expo/Ville-Expo|Ville Expo]]'s new Phase 7 note (universal reposts, comments-likeable-and-repostable) — worth a re-skim of the parity table before resuming, it may be missing a row or two.
+
 ## Sections
 
 - **[[Ideas]]** — product ideas, UX experiments, design direction sketches.
