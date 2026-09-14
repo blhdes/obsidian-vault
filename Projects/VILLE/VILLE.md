@@ -32,8 +32,8 @@ strips out everything except the reading experience: no auth (Supabase), no soci
 features (takes, comments, follows-via-Supabase), no web layer, **no React Native /
 Expo / JS at all**. That's the whole point of keeping it a separate project note —
 it doesn't share a codebase, a language, or a dependency graph with
-[[../Ville-Expo/Ville-Expo|Ville Expo]], [[../Ville-Native-App/Ville-Native-App|Ville Native App]],
-or [[../ville-du-cinema-web/ville-du-cinema-web|Ville du Cinéma (web)]] — only the
+[[../Ville-Expo/Ville-Expo|Ville Expo]] or
+[[../ville-du-cinema-web/ville-du-cinema-web|Ville du Cinéma (web)]] — only the
 subject matter (Letterboxd reviews) and some porting reference.
 
 ## Architecture decisions
@@ -67,6 +67,19 @@ VILLE/
     └── ReviewDetailView.swift  ← Immersive full-screen reader
 ```
 
+## Next steps (backlog)
+
+Rough ideas from the original planning note — not committed, not ordered:
+
+- [x] Create the Xcode project and verify the scaffold compiles
+- [ ] Build a followed-users management UI (add/remove Letterboxd usernames)
+- [ ] Replace the basic HTML renderer in `ReviewDetailView` with a proper rich-text view (blockquotes, images, bold)
+- [ ] Word-level text selection in the reader (like the original `ReviewReaderScreen`)
+- [ ] Persist followed usernames in SwiftData (currently hard-coded seed values)
+- [ ] Custom fonts for the cinematic typography
+- [ ] Multi-tab layout: Feed / Saved / Profile
+- [ ] Widget / Live Activities (far future)
+
 ## Quick links
 
 - Repo: `/Users/agomezu/Claude/village/` · GitHub: **`blhdes/village`** (private, initialized 2026-09-14)
@@ -82,4 +95,8 @@ reading `/Users/agomezu/Claude/village/CLAUDE.md` first — it holds the full vi
 architecture decisions, and porting-reference table for pulling logic out of
 [[../Ville-Expo/Ville-Expo|Ville Expo]].
 
-Related: [[../Ville-Expo/Ville-Expo|Ville Expo]] · [[../Ville-Native-App/Ville-Native-App|Ville Native App]] · [[../ville-du-cinema-web/ville-du-cinema-web|Ville du Cinéma (web)]]
+> This note absorbed and replaces `Projects/Ville-Native-App/` (2026-09-14) — an
+> earlier planning-stage note for this exact same app, written 2026-04-25 before
+> any code existed. Archived rather than kept as a duplicate.
+
+Related: [[../Ville-Expo/Ville-Expo|Ville Expo]] · [[../ville-du-cinema-web/ville-du-cinema-web|Ville du Cinéma (web)]]

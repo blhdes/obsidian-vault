@@ -146,7 +146,7 @@ Don't over-cue: 3–4 on the "1" beat 8 messy ones. Start with just **intro + br
 
 - [[Mixing-DJing]] — area index
 - [[../Claude/Skills/Docs/download-music|/download-music skill]] — now refines genre from Discogs styles (`tags genre`)
-- [[Genre-Studies/Genre-Studies|Genre Studies]] — genre breakdowns & BPM/key cheatsheets
+- [[Resources/Mixing-DJing/Genre-Studies/Genre-Studies|Genre Studies]] — genre breakdowns & BPM/key cheatsheets
 - [[Tracklists/Tracklists|Tracklists]] — where prepared sets live
 
 > **Gear:** Denon DJ **SC LIVE 4** (standalone, Engine OS) + **Engine DJ desktop** for library prep and USB/SD export.

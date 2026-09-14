@@ -57,7 +57,6 @@ Just describe where it should go. Examples that work:
 | Vigilia | [[Projects/Vigilia/Vigilia\|Vigilia]] |
 | Ville du Cinéma — web redesign | [[Projects/ville-du-cinema-web/ville-du-cinema-web\|Ville du Cinéma (web)]] |
 | Ville Expo — Ville du Cinéma mobile | [[Projects/Ville-Expo/Ville-Expo\|Ville Expo]] |
-| Ville Native App | [[Projects/Ville-Native-App/Ville-Native-App\|Ville Native App]] |
 | VILLE — Letterboxd reader (independent, paused, pure Swift) | [[Projects/VILLE/VILLE\|VILLE]] |
 
 ### 🎨 Brand & career
@@ -68,24 +67,20 @@ Just describe where it should go. Examples that work:
 | Portfolio — job search abroad | [[Projects/Portfolio/Portfolio\|Portfolio]] |
 | Oposiciones — local stability track | [[Projects/Oposiciones/Oposiciones\|Oposiciones]] |
 
-### 💼 Client work
-
-| Project | Note |
-|---|---|
-| Servei Tècnic Integral M.G. — web MVP | [[Projects/servei-tecnic-mg/servei-tecnic-mg\|Servei Tècnic M.G.]] |
-
 ### 🌱 Areas
 
 | Area | Note |
 |---|---|
 | Claude — skills, config, backups | [[Areas/Claude/Skills/_index\|Claude Skills]] · [[Areas/Claude/claude-config-files\|Config files]] |
-| Mixing & DJing | [[Areas/Mixing-DJing/Mixing-DJing\|Mixing & DJing]] |
-| Music Production | [[Areas/Music-Production/Music-Production\|Music Production]] |
-| Xcode — build/ship reference | [[Areas/Xcode/Xcode\|Xcode]] |
-| RevenueCat — IAP reference | [[Areas/RC/revenuecat-concepts\|RevenueCat]] |
+| Mixing & DJing — active library/DJ practice | [[Areas/Mixing-DJing/Mixing-DJing\|Mixing & DJing]] |
+| Music Production — active learning journey | [[Areas/Music-Production/Music-Production\|Music Production]] |
 
 ### 📚 Resources
 
 | Resource | Note |
 |---|---|
 | Swift — learning & reference | [[Resources/Swift/Swift\|Swift]] |
+| Music Production — Ableton, techniques, theory | [[Resources/Music-Production/Ableton/Ableton\|Ableton]] · [[Resources/Music-Production/Techniques/Techniques\|Techniques]] · [[Resources/Music-Production/Theory-Basics/Theory-Basics\|Theory Basics]] |
+| Mixing & DJing — genre studies, manuals, tutorials | [[Resources/Mixing-DJing/Genre-Studies/Genre-Studies\|Genre Studies]] · [[Resources/Mixing-DJing/Manuals/Manuals\|Manuals]] · [[Resources/Mixing-DJing/Tutorials/Tutorials\|Tutorials]] |
+| Xcode — build/ship reference | [[Resources/Xcode/Xcode\|Xcode]] |
+| RevenueCat — IAP reference | [[Resources/RevenueCat/revenuecat-concepts\|RevenueCat]] |

@@ -140,7 +140,7 @@ Default destination is `<SSD>/Music/Library/` (mirrors the local layout). It mov
 - **Copy → checksum-verify → delete, per file** — a local file is deleted only after its SSD copy is proven byte-identical (SHA-256). A mismatch leaves both files in place.
 - **Resumable / idempotent** — a file already on the SSD (same size + checksum) is skipped and only its local copy removed.
 
-> ⚠ **Engine DJ caveat:** Engine stores track paths relative to the internal disk (`../Library/…`), so after the move it shows those tracks as missing until I point Engine at the SSD (add it as a drive, or relink). The script does **not** touch Engine's database — re-linking is a separate manual step, and it prints this reminder when it finishes. See [[../../../Mixing-DJing/Manuals/engine-dj-sc-live-4-workflow|Engine DJ → SC Live 4 Workflow]].
+> ⚠ **Engine DJ caveat:** Engine stores track paths relative to the internal disk (`../Library/…`), so after the move it shows those tracks as missing until I point Engine at the SSD (add it as a drive, or relink). The script does **not** touch Engine's database — re-linking is a separate manual step, and it prints this reminder when it finishes. See [[Resources/Mixing-DJing/Manuals/engine-dj-sc-live-4-workflow|Engine DJ → SC Live 4 Workflow]].
 
 ## Backup
 

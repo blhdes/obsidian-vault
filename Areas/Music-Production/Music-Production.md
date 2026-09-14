@@ -16,9 +16,9 @@ This is a passion project, taken in **small steps and with a lot of humility**. 
 
 | Folder | What lives here |
 |---|---|
-| [[Ableton/Ableton\|Ableton]] | The software itself: interface, devices/instruments, effects, keyboard shortcuts, workflow cheatsheets |
-| [[Theory-Basics/Theory-Basics\|Theory-Basics]] | Music theory learned from zero — notes, scales, keys, rhythm, chords — explained plainly, only when a real task needs it |
-| [[Techniques/Techniques\|Techniques]] | How to make specific *parts* of a track: drum patterns, basslines, melodies, effects, arrangement |
+| [[Resources/Music-Production/Ableton/Ableton\|Ableton]] | The software itself: interface, devices/instruments, effects, keyboard shortcuts, workflow cheatsheets |
+| [[Resources/Music-Production/Theory-Basics/Theory-Basics\|Theory-Basics]] | Music theory learned from zero — notes, scales, keys, rhythm, chords — explained plainly, only when a real task needs it |
+| [[Resources/Music-Production/Techniques/Techniques\|Techniques]] | How to make specific *parts* of a track: drum patterns, basslines, melodies, effects, arrangement |
 | [[Track-Sketches/Track-Sketches\|Track-Sketches]] | My actual experiments and works-in-progress — even tiny 8-bar loops count |
 
 ## Current setup
@@ -38,4 +38,4 @@ This is a passion project, taken in **small steps and with a lot of humility**. 
 ## Related
 
 - [[../Mixing-DJing/Mixing-DJing|Mixing & DJing]] — the sister passion; genre and key/BPM knowledge from there feeds directly into producing
-- [[../Mixing-DJing/Genre-Studies/Genre-Studies|Genre-Studies]] — useful reference when deciding what kind of track to attempt
+- [[Resources/Mixing-DJing/Genre-Studies/Genre-Studies|Genre-Studies]] — useful reference when deciding what kind of track to attempt

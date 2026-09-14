@@ -6,7 +6,7 @@ tags: [tracks, wip, experiments, index]
 
 # Track Sketches
 
-My actual **experiments and works-in-progress**. Every loop counts — even a single 8-bar drum groove is a sketch worth logging. This is the proof that the [[../Techniques/Techniques|techniques]] and [[../Theory-Basics/Theory-Basics|theory]] are turning into real music.
+My actual **experiments and works-in-progress**. Every loop counts — even a single 8-bar drum groove is a sketch worth logging. This is the proof that the [[Resources/Music-Production/Techniques/Techniques|techniques]] and [[Resources/Music-Production/Theory-Basics/Theory-Basics|theory]] are turning into real music.
 
 One note per sketch. Useful things to jot down:
 - BPM and key

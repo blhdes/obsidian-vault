@@ -42,5 +42,5 @@ It never mixes fields from two sources into one result, and never lets a cross-c
 ## Related notes
 
 - [[download-music]] — the DJ-library skill this one commonly feeds into (`engine_dj_lookup.py` reuse)
-- [[../../../Mixing-DJing/Manuals/engine-dj-sc-live-4-workflow|Engine DJ → SC Live 4 Workflow]]
+- [[Resources/Mixing-DJing/Manuals/engine-dj-sc-live-4-workflow|Engine DJ → SC Live 4 Workflow]]
 - [[../_index|_index]] — Claude skills index
