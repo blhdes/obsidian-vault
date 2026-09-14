@@ -82,6 +82,10 @@ The vault is a **private GitHub repo** (set up 2026-04-24) cloned at `/Users/ago
 
 **Recommendation when you want mobile**: if you edit often from phone → Obsidian Sync. If phone is read-mostly + occasional edits → Working Copy + Git. Skip iCloud Drive (no history, the whole point of the repo would be lost).
 
+## Backup
+
+`SKILL.md` is mirrored at [[backup/README|Areas/Claude/Skills/backup/obsidian-vault/]], last synced **2026-09-14**. Re-copy it there after any real change to this skill.
+
 ## Related notes
 
 - [[Home]] — vault entry point & conventions

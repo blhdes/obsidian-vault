@@ -1,6 +1,6 @@
 ---
 title: Claude skills — index
-date: 2026-05-22
+date: 2026-09-14
 tags: [claude, skill, meta, reference, index]
 ---
 
@@ -30,7 +30,14 @@ Skills the user built or heavily customized. These have their own notes because 
 | `obsidian-vault` | [[obsidian-vault]] | "save to vault", "drop in Inbox", "what did I write about…" | Reads/writes notes in `/Users/agomezu/Claude/Obsidian/` following PARA conventions |
 | `swift-refine` | [[swift-refine]] | `/swift-refine`, "tighten", "optimize this view" | Audits a Swift/SwiftUI file for performance, allocations, races, dead branches. Plan-then-implement |
 | `swiftui-redesign` | [[swiftui-redesign]] | `/swiftui-redesign`, "rethink", "modernize this view" | Redesigns a SwiftUI screen using modern Apple APIs (Liquid Glass, MeshGradient, symbolEffect) |
+| `glassify` | [[glassify]] | `/glassify`, "find liquid glass opportunities" | Surgical sweep for iOS 26 Liquid Glass upgrades — taste over coverage, plan-then-implement |
+| `swift-localize` | [[swift-localize]] | `/swift-localize`, "add languages", "translate the app" | Localizes a Swift app end-to-end via String Catalogs (`.xcstrings`) |
 | `download-music` | [[download-music]] | `/download-music <YouTube URL>` | Downloads from YouTube via `yt-dlp`, embeds album art via `embed_cover.py` (MusicBrainz → iTunes → YT thumbnail) |
+| `tunebat` | [[tunebat]] | "look up the BPM/key for X", "tunebat X" | Key/Camelot/BPM/feel-tags — Engine DJ database first, tunebat.com scrape as fallback |
+| `music-production` | [[music-production]] | `/music-production`, "next session", "continue the music journey" | Resumes the Ableton learning journey; vault-stateful, calibrates teaching level to logged progress |
+| `career-launch` | [[career-launch]] | `/career-launch`, `/portfolio`, "job search", "oposiciones" | Drives the portfolio site, new work, job-search/relocation plan, and the parallel oposiciones track |
+
+**Raw file backup:** every skill above (source files, not just prose) is mirrored at [[backup/README|Areas/Claude/Skills/backup/]] — for machine migration or sharing the skills with someone else.
 
 ---
 

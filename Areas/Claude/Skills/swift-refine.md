@@ -52,6 +52,10 @@ This is deliberate: catches misalignment before code changes, so you don't end u
 - You want a quick edit, not an audit → just ask Claude directly without invoking the skill.
 - You haven't written the code yet — this skill refines, it doesn't draft.
 
+## Backup
+
+`SKILL.md` + `LEARNINGS.md` are mirrored at [[backup/README|Areas/Claude/Skills/backup/swift-refine/]], last synced **2026-09-14**. Re-copy them there after any real change to this skill.
+
 ## Related notes
 
 - [[swiftui-redesign]] — the outward counterpart

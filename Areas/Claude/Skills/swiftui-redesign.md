@@ -61,6 +61,10 @@ The user "almost certainly hasn't given full requirements" — the skill expects
 - ✅ *"modernize the onboarding flow"*
 - ❌ *"what could we do to improve LibraryView?"* (this gets a generic answer, not the skill's full critique)
 
+## Backup
+
+`SKILL.md` + `LEARNINGS.md` are mirrored at [[backup/README|Areas/Claude/Skills/backup/swiftui-redesign/]], last synced **2026-09-14**. Re-copy them there after any real change to this skill.
+
 ## Related notes
 
 - [[swift-refine]] — the inward counterpart
