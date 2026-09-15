@@ -8,7 +8,7 @@ tags: [library, soulseek, imports, september-2026, dj]
 
 Every release pulled from **Soulseek** into `~/Music/Library/` this month, with the **exact tags currently written on disk**. Source uploaders, quality notes and move dates come from the Soulseek log (`~/Soulseek Downloads/_downloaded-sources.md`) — this note only covers folders recorded there.
 
-**This month:** 27 releases · 141 tracks · from 20 Soulseek uploaders.
+**This month:** 29 releases · 148 tracks · from 22 Soulseek uploaders.
 
 ## Releases (summary)
 
@@ -41,6 +41,8 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 | 09-14 | Plastikman — Arkives 1993-2010 *(vinyl edition)* | 13 | FLAC 24/96 | Acid House, Techno, Minimal, Experimental, Ambient | toad |
 | 09-14 | VA — Curation Five: Alarico | 4 | FLAC 24/44 | Techno | beatrice.songbird2 |
 | 09-14 | Steve Bicknell — Space 13 *(Fabric 96 excerpt)* | 1 | FLAC 16/44 | Techno, Minimal Techno | n0h0pe |
+| 09-15 | Kwartz — Death Is Not Defeat | 6 | FLAC 16/44 | Techno | PartsUnxnown |
+| 09-15 | Joy Orbison — play it again | 1 | FLAC 16/44 | Dubstep, UK Garage | Bluestar |
 
 ## Tracks by release
 
@@ -395,6 +397,29 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗ Fabric 96 (source mix)](https://www.discogs.com/release/11254320)
 
+### Kwartz — Death Is Not Defeat ✅
+> PartsUnxnown · scene · FLAC 16/44 · moved 2026-09-15 · `Kwartz/(MORD028) Kwartz - Death Is Not Defeat (2016)/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 1 | Uncontrollable Process Of Self-Destruction | 2016 | Techno | FLAC 16/44 |
+| 2 | Ultraviolence | 2016 | Techno | FLAC 16/44 |
+| 3 | Fallen Into Fear | 2016 | Techno | FLAC 16/44 |
+| 4 | Death Is Not Defeat | 2016 | Techno | FLAC 16/44 |
+| 5 | Death Is Not Defeat (Version 2) | 2016 | Techno | FLAC 16/44 |
+| 6 | Escape To Nowhere | 2016 | Techno | FLAC 16/44 |
+
+[Discogs ↗](https://www.discogs.com/release/8639473)
+
+### Joy Orbison — play it again ✅
+> Bluestar · WEB · FLAC 16/44 · moved 2026-09-15 · `Joy Orbison/Singles/play it again/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 1 | play it again | 2025 | Dubstep, UK Garage | FLAC 16/44 |
+
+[Discogs ↗](https://www.discogs.com/release/36045871)
+
 ## Tag-check notes
 
 - Lady Starlight — Capricorn Rising: no embedded cover; Discogs/MusicBrainz search missed it despite the release existing there, so cover sourced from iTunes instead.
@@ -409,3 +434,4 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 - Geømmetrisch — Principio de Superposición: not yet on Discogs (2026 release); no embedded cover, sourced from the folder's own image; link points to the label's Bandcamp instead.
 - Plastikman — Arkives 1993-2010: this is the vinyl-only edition (13 files) of the larger 6-vinyl+CD+DVD box; linked to the full box set release since Discogs has no vinyl-only entry with a matching tracklist.
 - Steve Bicknell — Space 13: single track pulled from the Fabric 96 DJ mix (DVS1) — a mix-exclusive edit with no standalone release; no direct Discogs link exists, so linked to the source Fabric 96 release instead.
+- Kwartz — Death Is Not Defeat: artist tag arrived polluted with key/BPM (e.g. "8A - 124 - Kwartz") from the ripper's tagging tool; corrected to "Kwartz" by hand. 6 tracks on disk vs. the 4-track vinyl EP — this is the fuller digital edition, not a gap.

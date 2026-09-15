@@ -44,3 +44,17 @@ The "just (re)started 2026-05-19" note below was inaccurate even at the time —
 - App is a mature, feature-complete social layer per its own `README.md` (feed, Takes, Clippings, Reposts, TMDB film pages, watchlist/favorites, discovery, Google OAuth + guest mode) — this is well past an early rebuild, whatever "current focus" means next is a real product decision, not a resume-from-scratch one.
 
 > Original 2026-05-19 placeholder (kept for history): *"Project just (re)started 2026-05-19. Soon picking back up on the `feature/tos-compliant-rebuild` branch. Fill in current focus here as work resumes."*
+
+## 2026-09-15 — DB check-in
+
+Confirmed the last outstanding question from the dormancy audit: the `comment_likes` migration (`20260717_create_comment_likes_table.sql`) was already applied to the live Supabase DB — verified via the REST API after reactivating the project (it had auto-paused from free-tier inactivity). **No DB migrations pending.** Details in [[Projects/Ville-Expo/Phases/phase-07-social-polish-reposts-and-reliability|Phase 7 note]]. Remaining open work is the 5-item product list (TMDB recommendations, unified search, RSS reviews on Film Cards, Take-as-image sharing, RSS/Village feed lanes), not database work.
+
+## 2026-09-15 — First on-device test in ~2 months, Clipping/repost parity shipped
+
+Rebuilt and installed on the physical iPhone (`Alejandro`) for the first time since the July dormancy — found dependency drift (17 packages behind SDK 55 patch, missing `react-native-worklets` peer dep) and fixed it first. Live testing then surfaced a real gap: Clippings and reposted Letterboxd reviews had no like/comment UI, only repost. Built full parity (new `clipping_likes`/`clipping_comments` tables keyed by `original_url`, `ClippingInteractionBar`, `ClippingDetailScreen`) plus UI polish (interaction bar now shares a row with the Letterboxd logo instead of stacking, tighter icon spacing, compact "1.6k"-style counts). Shipped in commits `af975f4`/`775d29c`/`779dd1e` on `feature/tos-compliant-rebuild`, pushed. Full writeup in [[Projects/Ville-Expo/Phases/phase-07-social-polish-reposts-and-reliability|Phase 7 note]].
+
+**Queued next:** comment-on-comment replies for Takes (single-level, user's explicit choice) — a deliberate deviation from the original plan doc, which said no nested threads.
+
+## 2026-09-15 (later) — Reply threading built but unverified, session cut short
+
+Built and pushed (`0345059`) before the session had to end — **not tested on device**. The wireless install hung indefinitely on "Connecting to Alejandro" (build succeeded fine, it's specifically the Wi-Fi device-transfer step). Next session: apply the new migration, retry over USB, then actually test the reply flow. Full detail in [[Projects/Ville-Expo/Phases/phase-07-social-polish-reposts-and-reliability|Phase 7 note]] — read that "pick up here" section first.
