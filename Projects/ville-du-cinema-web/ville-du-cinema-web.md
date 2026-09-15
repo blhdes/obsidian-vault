@@ -14,6 +14,7 @@ Index note for the **Ville du Cinéma web app** redesign. The goal is to mirror 
   - Stack: Next.js 16 (App Router) + React 19 + TypeScript + Tailwind v4 + Supabase + next-intl (fr/en/es)
   - Remote: `https://github.com/blhdes/ville-du-cinema-app.git` (HTTPS fallback — SSH not configured yet)
   - Working branch: `feat/mobile-parity-redesign`
+  - Live: [ville-du-cinema-app.vercel.app](https://ville-du-cinema-app.vercel.app/es) (Vercel, deploys from `main` — the redesign branch has no commits yet, so this is the pre-redesign RSS-aggregator build; checked live 2026-09-14, 200 OK)
 - **Mobile (source of truth for features)** — `/Users/agomezu/Claude/ville-du-cinema-mobile/`
   - Stack: Expo / React Native + Supabase
 

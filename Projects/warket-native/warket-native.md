@@ -9,6 +9,7 @@ tags: [warket, swift, swiftui, ios, project, index]
 Project index for converting **warket** (currently a React + TypeScript web app wrapped in Capacitor) into a **full native iOS app in Swift/SwiftUI**, living in a new folder inside the existing repo. The web app and Supabase backend stay as-is; the native app talks to the **same** Supabase project so existing vaults open on both.
 
 Repo: `/Users/agomezu/Claude/asset.cafe`
+Live web app: [asset-cafe.vercel.app](https://asset-cafe.vercel.app/) (the React web app this note's SwiftUI port targets — checked live 2026-09-14, 200 OK)
 
 ## What warket is
 
