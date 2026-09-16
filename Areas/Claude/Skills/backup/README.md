@@ -6,7 +6,7 @@ tags: [claude, skill, backup, meta]
 
 # 📦 Claude skills backup
 
-A raw copy of every custom Claude Code skill set up on this Mac, as of **2026-09-14**. This exists so the skills survive a machine wipe/migration and so they can be **shared** (a folder to zip and hand over, or push to a public repo later) without exposing personal secrets or library data.
+A raw copy of every custom Claude Code skill set up on this Mac, as of **2026-09-16**. This exists so the skills survive a machine wipe/migration and so they can be **shared** (a folder to zip and hand over, or push to a public repo later) without exposing personal secrets or library data.
 
 Each subfolder here mirrors a folder under `~/.claude/` on this Mac. The prose explaining *what each skill does and how to use it* lives in the sibling `Docs/` folder — see [[../_index|the skills index]] and each skill's own note (linked below) — this folder is just the files.
 

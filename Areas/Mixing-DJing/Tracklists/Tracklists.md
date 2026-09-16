@@ -45,7 +45,7 @@ tags: [tracklist, <genre>, <bpm-range>]
 
 ## Notes in this folder
 
-_(empty for now — previous tracklists were removed 2026-08-30, not needed)_
+- [[solitaire-mixes|solitaire mixes]] — running record of the "solitaire mixes" YouTube series (cookiedeal): tracklist + cover + link per mix
 
 ## Related
 

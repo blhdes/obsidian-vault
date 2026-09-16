@@ -13,6 +13,7 @@ A toolkit for building and cleaning up my local DJ library under `~/Music/Librar
 - **Tags** — fix artist / title / album / year from MusicBrainz **and** refine the genre from Discogs styles, optionally renaming files to match.
 - **Library notes** — snapshot what's actually *in* the Library each month (Soulseek imports + their on-disk tags) into the Obsidian vault.
 - **Port** — the last phase: flush the whole Library onto an external SSD and delete the local copies, to free up the internal disk.
+- **YouTube packaging** — the reverse direction: turn a finished DJ mix (WAV) into an MP4 with the cover art held as a still frame, plus a drafted title/description, ready to upload.
 
 Implemented as a **slash command** (not a `SKILL.md`): typing `/download-music …` loads `~/.claude/commands/download-music.md` and Claude follows it.
 
@@ -32,6 +33,7 @@ Implemented as a **slash command** (not a `SKILL.md`): typing `/download-music �
 | `/download-music library [month-year]` | Snapshot this month's Soulseek imports + their on-disk tags into the vault (`Areas/Mixing-DJing/Library/`) |
 | `/download-music port <SSD>` | **Preview** moving the whole Library onto an external SSD (dry-run, changes nothing) |
 | `/download-music port <SSD> --apply` | **Flush** the Library onto the SSD and delete the local copies (frees disk) |
+| `/download-music youtube <mix-audio> <cover>` | Render an MP4 (cover + audio) for direct YouTube upload, and draft the title/description |
 
 Accepts a single track, a playlist URL, or "grab the rest of the EP too" from one track.
 
@@ -142,9 +144,27 @@ Default destination is `<SSD>/Music/Library/` (mirrors the local layout). It mov
 
 > ⚠ **Engine DJ caveat:** Engine stores track paths relative to the internal disk (`../Library/…`), so after the move it shows those tracks as missing until I point Engine at the SSD (add it as a drive, or relink). The script does **not** touch Engine's database — re-linking is a separate manual step, and it prints this reminder when it finishes. See [[Resources/Mixing-DJing/Manuals/engine-dj-sc-live-4-workflow|Engine DJ → SC Live 4 Workflow]].
 
+## Packaging a mix for YouTube
+
+YouTube only takes video uploads — a WAV can't go up directly, and embedded cover art in the audio file is ignored (YouTube never reads audio metadata). The fix: render a video that holds the cover image as one still frame for the mix's whole length.
+
+```bash
+ffmpeg -y -loop 1 -i "cover.jpg" -i "mix.wav" \
+  -c:v libx264 -tune stillimage -c:a aac -b:a 320k -pix_fmt yuv420p -shortest \
+  "mix.mp4"
+```
+
+**House style** for this channel, artist alias **cookiedeal**:
+
+- Title: `cookiedeal - solitaire mixes NNN` (zero-padded, e.g. `001`)
+- Description: all lowercase, no em dashes, tracklist numbered as `artist - title`
+- No timestamps unless there's an exact Engine DJ session export to source them from
+
+Each mix — source file, cover, tracklist, YouTube link once published — is logged at [[../../Mixing-DJing/Tracklists/solitaire-mixes|Tracklists/solitaire-mixes]], so the series stays numbered and styled consistently. Check that note before drafting a new title/description.
+
 ## Backup
 
-The command file + scripts (minus the Discogs token, cover cache, queue, and ignore-list — see the backup README for why) are mirrored at [[../backup/README|Areas/Claude/Skills/backup/download-music/]], last synced **2026-09-14**. Re-copy the relevant file there after any real change to this skill.
+The command file + scripts (minus the Discogs token, cover cache, queue, and ignore-list — see the backup README for why) are mirrored at [[../backup/README|Areas/Claude/Skills/backup/download-music/]], last synced **2026-09-16**. Re-copy the relevant file there after any real change to this skill.
 
 ## Related notes
 
@@ -152,3 +172,4 @@ The command file + scripts (minus the Discogs token, cover cache, queue, and ign
 - [[../../claude-config-files|claude-config-files]] — how Claude's config layering works
 - [[../../../Mixing-DJing/Mixing-DJing|Mixing & DJing area]] — main consumer of this skill
 - [[../../../Mixing-DJing/Library/Library|Library notes]] — the monthly snapshots this skill writes
+- [[../../../Mixing-DJing/Tracklists/solitaire-mixes|solitaire mixes]] — the YouTube mix series this skill packages

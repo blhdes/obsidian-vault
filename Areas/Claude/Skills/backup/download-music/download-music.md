@@ -42,6 +42,10 @@ The cover and tag jobs work on any audio you already have — ripped, imported, 
 
 - `/download-music master <file>` — **master**: loudness-normalize a full DJ-session recording and cap its true peak so it's ready to upload (SoundCloud, etc.). Two-pass EBU R128 via `master_audio.py`; writes `<name>_master.wav` (24-bit) and prints before/after LUFS/TP/LRA. Default target **-14 LUFS** (transparent); `--lufs -10` for club-loud (compresses a quiet source). Feed the lossless file; copy off slow/removable drives first. See the script header for details.
 
+### Packaging a mix for YouTube
+
+- `/download-music youtube <mix-audio> <cover-image-or-URL>` — **package**: render an MP4 (still cover image + mix audio) ready to upload directly to YouTube, then draft the title and description (tracklist) in house style. See "Packaging a mix for YouTube".
+
 > Setup once: the cover commands need a free Discogs token — see "Discogs setup". Everything else works out of the box.
 
 ## Downloading a song (step by step)
@@ -441,9 +445,49 @@ How it protects against data loss (it deletes local files, so this matters):
 
 > **Engine DJ caveat — always mention this when running `--apply`.** Engine DJ stores each track's path relative to the internal disk (`../Library/<Artist>/…`). Once files live on the SSD, Engine shows them as missing until the user points Engine at the new location (add the SSD as a drive in Engine DJ, or relink). The script does **not** touch Engine's database — re-linking is a separate manual step — and it prints this reminder when it finishes.
 
+## Packaging a mix for YouTube
+
+YouTube only accepts video uploads — a WAV/MP3 file can't be uploaded directly, and it makes no difference if the audio already has embedded cover art (ID3/RIFF artwork): YouTube never reads audio metadata. The fix is to render a video where the cover image sits as a single still frame for the whole length of the mix.
+
+### 1. Get the cover image
+
+A square (1:1) image works best. Download it if it's a URL:
+
+```bash
+curl -sL -o "cover.jpg" "<image URL>"
+```
+
+### 2. Render the video
+
+```bash
+ffmpeg -y -loop 1 -i "<cover.jpg>" -i "<mix.wav>" \
+  -c:v libx264 -tune stillimage -c:a aac -b:a 320k -pix_fmt yuv420p -shortest \
+  "<mix>.mp4"
+```
+
+- `-loop 1 -i cover.jpg` holds the image as a static video frame.
+- `-c:a aac -b:a 320k` re-encodes the audio to a format YouTube accepts, at high quality.
+- `-shortest` stops the video exactly when the audio ends (otherwise the looping image has no natural end point).
+
+Output lands next to the source file. Confirm the file exists and report its size/duration before handing it off.
+
+### 3. Draft the title and description
+
+House style, artist alias **cookiedeal**:
+
+- **Title:** `<artist alias> - <series name> <NNN>` — e.g. `cookiedeal - solitaire mixes 001`, zero-padded to 3 digits.
+- **Description:** all lowercase, no em dashes (use commas or plain hyphens instead), numbered tracklist as `artist - title`. No timestamps unless the user supplies exact cue times (e.g. from an Engine DJ session export) — never estimate them.
+- Tracklist order follows the actual play order in the mix, not a library view's row numbers — a session often includes tracks that got mixed out before the final recording started. Confirm with the user which rows actually made it into the mix, and drop any accidental duplicate plays.
+
+### Vault: the solitaire mixes series
+
+Each mix's source file, cover, tracklist, and YouTube link are logged at `Areas/Mixing-DJing/Tracklists/solitaire-mixes.md` in the Obsidian vault, so numbering and style stay consistent across the series without re-deriving them each time. Check it before drafting a new mix's title, and add/update the entry (including the YouTube link once it's actually published).
+
 ## Notes
 
 - Music library root: `~/Music/Library/`
+- Raw DJ session/mix recordings (source for YouTube packaging): `~/Music/dj mixes <year>/`
+- Solitaire mixes series tracker (Obsidian vault): `Areas/Mixing-DJing/Tracklists/solitaire-mixes.md`
 - Cover art script (single file): `~/.claude/skills/download-music/embed_cover.py`
 - Folder backfill script: `~/.claude/skills/download-music/cover_folder.py`
 - Cover picker (Discogs versions): `~/.claude/skills/download-music/cover_picker.py`

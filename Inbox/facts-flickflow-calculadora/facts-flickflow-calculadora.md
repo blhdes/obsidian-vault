@@ -52,3 +52,8 @@ respetando el sistema de diseño existente del sitio.
   de integración
 - [[ideas-fuera-de-alcance|Ideas fuera de alcance]] — cosas que no forman parte de la
   prueba pero podrían valer la pena más adelante
+- [[stack-y-filesystem|Stack y filesystem]] — el stack explicado con más detalle y una
+  guía carpeta por carpeta / archivo por archivo de cómo se relaciona todo en el repo
+- [[teoria-financiera-calculadora|Teoría financiera de la calculadora]] — qué calcula
+  exactamente la calculadora (tamaño de posición, ticks, apalancamiento, liquidación...),
+  explicado desde cero
