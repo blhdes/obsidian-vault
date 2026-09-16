@@ -20,7 +20,7 @@ Running record of the **solitaire mixes** DJ mix series, published to YouTube un
 
 - **Source file:** `~/Music/dj mixes 2026/solitare dj mix 1.wav`
 - **Cover:** downloaded from a Pinterest pin (1:1, 736×736)
-- **YouTube:** _not yet published_
+- **YouTube:** [cookiedeal - solitaire mixes 001](https://youtu.be/zjAHTpokiWY)
 
 **Tracklist:**
 
