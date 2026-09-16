@@ -40,11 +40,38 @@ respetando el sistema de diseño existente del sitio.
   [[brief-tecnico]]
 - [x] Decisiones de integración confirmadas con el usuario (2026-09-16) — ver
   [[brief-tecnico]]
-- [ ] Construir `src/pages/calculadora.astro`
-- [ ] Añadir el icono `calculator` y la entrada de nav (`src/data/home.ts`)
-- [ ] Probar visualmente en local
+- [x] Servidor local levantado (`npm install && npm run dev`), verificado en Safari
+- [x] **Primera pasada** — `src/pages/calculadora.astro`: traducción literal de la
+  calculadora original a los tokens/clases del sitio, entrada de nav añadida
+  (`src/data/home.ts`, icono placeholder `bolt`), sección de referencia de
+  componentes debajo de una línea divisoria
+- [x] **Página de referencia dev** — `public/dev/calculadora-original.html`, copia
+  byte a byte del archivo original de la prueba, servida sin tocar en
+  `/dev/calculadora-original.html`, para comparar en directo durante el rediseño
+- [ ] **Segunda pasada** — rediseño de interacción de la calculadora apoyado en la
+  sección de referencia de componentes
+  - [x] Bug corregido: los toggles Compra/Venta y Abajo/Arriba en estado activo
+    (fondo claro) dejaban el texto ilegible — `text-text-muted` (pensado para
+    fondo oscuro) se quedaba puesto a la vez que `text-text-inverse`, compitiendo
+    por la cascada. Arreglado con un helper `setSegActive()` que intercambia los
+    dos pares de clases (fondo + texto) en bloque, nunca uno solo
+  - [ ] Resto del rediseño de interacción pendiente
 - [ ] Crear la rama de trabajo, commitear (**solo con aviso previo del usuario**)
 - [ ] Abrir el PR a `prueba-tecnica-calculadora`
+
+## Antes de commitear: qué NO va al PR
+
+Dos archivos viven sin trackear en el repo, solo para nuestro uso durante el
+desarrollo — hay que acordarse de dejarlos fuera del `git add`:
+
+- `README.md` (raíz del repo) — chuleta local de arranque/testing
+- `public/dev/calculadora-original.html` — copia de referencia de la calculadora
+  original, sin procesar
+
+La sección "solo referencia interna" dentro de `calculadora.astro` (los componentes
+de muestra bajo la línea divisoria) también hay que retirarla antes del PR — esa sí
+está dentro del archivo que sí se commitea, así que requiere una edición, no solo
+dejarla fuera del `git add`.
 
 ## Notas relacionadas
 
