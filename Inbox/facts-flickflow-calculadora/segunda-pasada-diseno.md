@@ -117,6 +117,26 @@ Pedidas por el usuario, generadas repasando las HIG Foundations
 **Sigue pendiente, no implementada:** segmented control con indicador deslizante
 (idea #2).
 
+## Verificación en Chrome (2026-09-17, viewport 1476×825)
+
+- ✅ El resultado aparece desde la carga con los placeholders (NQ: E-mini 0 · Micro
+  3 · E-nano 31), igual que el cálculo a mano. Sin errores en consola.
+- ✅ Toggles legibles en estado activo.
+- 🔧 **Arreglado:** el toggle Abajo/Arriba salía descentrado (también en
+  `/calculadora`) — usaba `inline-flex`, y `mx-auto` solo centra cajas de bloque.
+  Cambiado a `flex` en las dos páginas, verificado centrado.
+- 🔧 **Arreglado:** la cabecera del sandbox quedaba debajo de la barra fija del
+  sitio (le faltaba el padding de `--ff-header-h`).
+- ⚠️ **Sin resolver — decisión de diseño:** en pantalla ancha, las filas tipo
+  Settings estiran la etiqueta y su valor a **~1100px** de distancia. El patrón de
+  Ajustes funciona porque iOS es estrecho; a sangre completa en escritorio cuesta
+  relacionar cada etiqueta con su valor.
+- ⚠️ **"Sin scroll" no se cumple:** la calculadora mide 972px y el espacio útil bajo
+  la barra es 752px (~220px de más).
+- ⚠️ **Incoherencia:** "Distancia (puntos)" muestra un valor real (texto blanco)
+  mientras el resto son placeholders (gris) — la sincronización stop↔puntos escribe
+  el valor calculado en el campo.
+
 ## Estado
 
 Apuntes de dirección + primera corrección de v1 ya construidos. Pendiente:
