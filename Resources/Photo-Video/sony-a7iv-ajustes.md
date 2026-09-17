@@ -139,6 +139,21 @@ Para 25p hay que usar **XAVC S 4K**, que sí tiene fila de 30p/25p.
 - **Entra de sobra en U3/V30.** Sony permite hasta 200 Mbps en ese tipo de tarjeta.
 - **Peaje:** es H.264, no H.265, así que pesa más que si XAVC HS tuviera 25p. Es el precio de no recortar el sensor.
 
+### Qué significa estar en PAL
+
+`MENU → (Setup) → [Area/Date] → [NTSC/PAL Selector]`
+
+Es una herencia de la televisión analógica. Hoy ese interruptor solo decide **con qué familia de fotogramas por segundo trabaja la cámara**:
+
+| | Zona | Fotogramas disponibles |
+|---|---|---|
+| **PAL** | Europa, 50 Hz | 25, 50, 100 fps |
+| **NTSC** | América, Japón, 60 Hz | 24, 30, 60, 120 fps |
+
+El motivo práctico de estar en PAL en España es **la luz artificial**. La corriente aquí va a 50 Hz, así que bombillas y fluorescentes parpadean 50 veces por segundo. Grabando a 25 o 50 fps el fotograma cae sincronizado con ese parpadeo y no se nota. Grabando a 30 o 60 fps bajo esa misma luz aparecen bandas horizontales desplazándose por la imagen.
+
+Por eso el **24p está bloqueado en PAL**: pertenece a la otra familia. Si alguna vez lo necesito (es el estándar de cine), hay que cambiar el selector y reiniciar la cámara, y entonces pierdo el 25p y el 50p.
+
 ### Cuánto ocupa
 
 140 Mbps = 17,5 MB por segundo.
