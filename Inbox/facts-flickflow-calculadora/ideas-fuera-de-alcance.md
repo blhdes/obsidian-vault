@@ -22,4 +22,12 @@ mientras se construye. Ver [[facts-flickflow-calculadora|índice del proyecto]].
   concreta (reglas de voz de marca en `home.ts`: nunca prometer rentabilidad, nada de
   relleno). Un bloque explicativo podría añadir valor, pero no lo pidió Lucas y podría
   leerse como sobre-construir la prueba.
+- **Precio en directo como placeholder por defecto** (2026-09-17). Existen opciones
+  gratuitas y sin cuenta: el endpoint no oficial de Yahoo Finance (tickers `NQ=F`,
+  `GC=F`, `^VIX`, `BTC-USD`, etc. — cubre casi todos los activos de la lista) o
+  `stooq.com` como alternativa. Pegas: son endpoints no documentados (pueden
+  romperse o bloquear sin aviso, probablemente haría falta un proxy por CORS desde
+  el navegador), y convertirían una calculadora estática y sin dependencias en algo
+  con llamada de red + estado de carga/error — más alcance del que pide la prueba
+  ("la lógica no se toca").
 - (añadir aquí cualquier otra idea que surja durante el desarrollo)

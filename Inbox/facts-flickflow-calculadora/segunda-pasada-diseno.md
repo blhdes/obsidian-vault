@@ -61,8 +61,51 @@ de tocar código. Ver [[facts-flickflow-calculadora|índice del proyecto]] y
   retícula (`Section`, `border-rule`), así que es una decisión específica para el
   contenido interno de la calculadora, no un cambio del sistema del sitio.
 
+## Versión 1 — correcciones (2026-09-17)
+
+Primer intento construido en `src/pages/dev/calculadora-redesign.astro`
+(`/dev/calculadora-redesign`). Dos correcciones tras la primera revisión del
+usuario:
+
+- **"Full-bleed" no era eso** — la primera versión tenía `max-w-[560px] mx-auto`,
+  justo lo contrario de full-bleed (una caja estrecha centrada). Corregido: el
+  fondo/sección llega al gutter del sitio (`--ff-gutter`), pero cada CAMPO tiene su
+  propio ancho fijo según lo que se escribe en él (números cortos, campos cortos) —
+  full-bleed es el fondo, no el ancho de cada input.
+- **El resultado no aparecía con los placeholders** — el cálculo a mano confirma que
+  la lógica sí producía un resultado real (NQ con los defaults: E-mini→0, Micro→3,
+  E-nano→31), así que no era un bug de cálculo. Sospecha: el script de Astro se
+  cargaba como módulo externo (`type="module"`), con un salto perceptible frente al
+  archivo original (que es inline y síncrono). Solución aplicada: el script pasa a
+  `is:inline` + JS plano (sin TypeScript), ejecutándose de forma síncrona igual que
+  el original — sin depender de la carga de un módulo aparte.
+
+## Ideas HIG (Apple Human Interface Guidelines) — propuestas, no implementadas
+
+Pedidas por el usuario, generadas repasando las HIG Foundations
+(https://developer.apple.com/design/human-interface-guidelines/foundations):
+
+1. **Lista agrupada tipo Settings.app** — en vez de cada campo flotando con su
+   propia etiqueta suelta, agrupar los campos principales en un único panel con
+   borde (como una "inset grouped list"): fila = etiqueta a la izquierda + control a
+   la derecha, filas separadas por `border-rule` dentro del MISMO panel. No es lo
+   mismo que "usar líneas para separar bloques" (que se ha descartado) — es la
+   separación interna esperada de una lista, no una raya suelta entre dos secciones
+   grandes.
+2. **Segmented control con indicador deslizante** — Compra/Venta y Abajo/Arriba ya
+   son conceptualmente el "Segmented Control" de las HIG; llevarlo más lejos:
+   segmentos de ancho igual y un indicador de selección que se desliza (en vez de
+   solo cambiar el color de fondo del botón activo), más cercano al control nativo.
+   Requiere más JS/CSS (medir posición o usar un truco de `peer`/grid) — no
+   implementado todavía.
+
+**Ya implementada en v1** (no solo propuesta): la "ficha del contrato" ahora es un
+`<details>` plegado por defecto — divulgación progresiva, mismo patrón sin JS que ya
+usa el sitio en el mega menú y el nav móvil. Ayuda directamente al objetivo "sin
+scroll" al reducir el alto inicial.
+
 ## Estado
 
-Esto son apuntes de dirección — todavía **no implementados**. Pendiente: confirmar
-si se empieza ya con esta pasada o si van a seguir llegando más notas antes de
-construir.
+Apuntes de dirección + primera corrección de v1 ya construidos. Pendiente:
+revisión del usuario en Safari real, decidir sobre las dos ideas HIG propuestas, y
+si se sigue iterando sobre v1 o se apila una v2.
