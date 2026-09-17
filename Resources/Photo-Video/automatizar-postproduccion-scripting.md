@@ -79,6 +79,41 @@ Instalar algo más ahí dentro:
   ```
 - Aún sin probar sobre un RAW real: no hay ningún `.ARW` en el Mac ahora mismo. La primera sesión de fotos sirve de banco de pruebas.
 
+## ¿Hace falta construir el look en darktable, o se puede desde referencias o instrucciones?
+
+Sí se puede sin tocar la interfaz, con un matiz: el look tiene que acabar siendo **un archivo**, pero cómo nace ese archivo es flexible. Tres caminos.
+
+### 1. GUI una vez, luego por lotes (`.dtstyle`)
+
+Ajustas el look en darktable sobre una foto, "crear estilo", y después se aplica a todo:
+
+```bash
+darktable-cli entrada/ salida/ --style "mi-look" --width 3000
+```
+
+El más fiable, porque usa los módulos buenos de darktable: filmic/sigmoid, calibración de color y los perfiles de ruido específicos de mi cámara.
+
+### 2. LUT `.cube` generada por script
+
+Una LUT (*lookup table*) es una tabla de conversión de color: "este color entra, este sale". Se puede generar desde Python a partir de instrucciones en texto (sombras más frías, pieles algo más saturadas, contraste en S) o deduciéndola de un par de imágenes antes/después. Luego se aplica en darktable con el módulo *lut 3D*, o directamente con `ffmpeg` o `vips`, sin abrir ninguna interfaz.
+
+**Este es el puente real entre "prompt" y revelado**, y es lo que hay dentro de los packs de looks que se venden.
+
+### 3. Transferencia de color desde una referencia visual
+
+Le das una foto que te gusta y se igualan las estadísticas de color entre las dos (media y desviación en espacio Lab, o igualado de histograma). Son unas 20 líneas de numpy.
+
+- Funciona muy bien para **igualar mis propias fotos entre sí** dentro de una misma sesión.
+- Para copiar el look de otro fotógrafo funciona a medias: arrastra también su luz y su escena, no solo su estilo.
+
+### Lo que no es viable
+
+Editar el `.xmp` a mano. Los parámetros de cada módulo van codificados en base64, no son texto legible.
+
+### El límite de siempre
+
+Claude puede generar la LUT, pero no puede ver si el resultado deja las pieles verdosas: sin pantalla calibrada y viendo las imágenes a baja resolución, el color lo valido yo.
+
 ## Siguiente paso
 
 Para dimensionar cuánto del proceso actual es criterio y cuánto es trabajo mecánico automatizable, hace falta definir: qué cámara, en qué programa revelo ahora, y cómo es una entrega típica (cuántas fotos, qué formatos pide el cliente).
