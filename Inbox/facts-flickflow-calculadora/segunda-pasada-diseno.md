@@ -137,6 +137,29 @@ Pedidas por el usuario, generadas repasando las HIG Foundations
   mientras el resto son placeholders (gris) — la sincronización stop↔puntos escribe
   el valor calculado en el campo.
 
+## Ajustes aplicados tras la verificación (2026-09-17)
+
+Aprobados por el usuario y medidos en Chrome headless (1476×825):
+
+- ✅ **Columna a 600px**, alineada al gutter; la página sigue a sangre completa.
+  Distancia etiqueta→valor: de ~1100px a **319px**.
+- ✅ **Notas de la versión movidas debajo del resultado** (idea del usuario), y la
+  cabecera larga del sandbox reducida a una línea — la calculadora empieza ya a
+  125px del borde superior (barra de 73px + aire), como en una página real.
+- ✅ **Más aire bajo las notas de contexto** (riesgo permitido, distancia al stop):
+  8px de separación del panel (antes quedaban pegadas).
+- ✅ **Espaciado más compacto:** filas `py-2.5`, títulos `mt-4`, panel de resultado
+  `py-4`. Alto de la calculadora: de 972px a **879px**.
+- ✅ **Campos derivados en gris:** "Distancia (puntos)" y "Precio de stop" se
+  quedan como placeholder mientras no se haya escrito en sus campos de origen.
+  Probado: escribir entrada 19000 → distancia pasa a valor real (1040); borrar →
+  vuelve a gris (40); pulsar Venta sin nada escrito → el stop gris pasa a 18040;
+  Compra → vuelve a 17960. El resultado se recalcula bien en todos los casos.
+- ⚠️ **Sigue sin caber sin scroll:** el resultado termina en 1004px y la pantalla
+  mide 825px → faltan **~180px**. Quitando solo aire no llega; hace falta una
+  decisión de estructura (ver opciones en el chat del 2026-09-17: resultado fijo
+  abajo tipo sticky, unir paneles, o aceptar scroll en pantallas bajas).
+
 ## Estado
 
 Apuntes de dirección + primera corrección de v1 ya construidos. Pendiente:
