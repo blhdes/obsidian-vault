@@ -201,11 +201,33 @@ Pedido por el usuario, medido en Chrome headless:
 - ✅ **Segmented control con indicador deslizante** (idea HIG #2) en Compra/Venta
   y Abajo/Arriba: carril con dos segmentos iguales y una pastilla clara que se
   desliza bajo el activo; `aria-pressed` en cada botón. Verificado que la pastilla
-  termina exactamente bajo el segmento activo. **La animación del deslizamiento no
-  se pudo ver en headless** (su reloj simulado no avanza transiciones) →
-  pendiente de ver en Safari.
+  termina exactamente bajo el segmento activo. La animación no se pudo ver en
+  headless (su reloj simulado no avanza transiciones), pero **el usuario confirmó
+  en Safari que se desliza bien**.
 - ✅ 1024×768: todo cabe, sin desbordamiento. Móvil 390px: campos → resultado →
   ficha, sin desbordamiento horizontal.
+
+## Modos Personalizado / Perpetuo / FX en el nuevo layout (2026-09-17)
+
+Medido en Chrome headless (1476×825 y 390×844):
+
+- ✅ **Personalizado:** aparece su panel (tick + valor), el resultado y la ficha se
+  recalculan; en escritorio cabe sin scroll (campos hasta 769px).
+- ✅ **Perpetuo:** aparece su panel (apalancamiento), el resultado pasa a
+  "Tamaño de posición" en unidades y el redondeo se oculta. La línea "Nocional ·
+  margen · liq." ocupa 2 líneas en la columna de 380px; se lee bien.
+- ✅ **Aviso de liquidación:** con apalancamiento 500 sale en rojo ("Te liquidan
+  antes del stop…").
+- ✅ **Yen (FX):** la ficha con decimales largos (tick 0,0000005) no desborda.
+- ✅ Sin desbordamiento horizontal en ningún modo, ni en móvil.
+- 💡 **Observación (no es un bug):** los placeholders son los mismos para todos los
+  activos (entrada 18000, stop 17960, pensados para el Nasdaq). Con el Yen, cuyo
+  precio real ronda 0,0067, el resultado sale absurdo ("0, exacto 0,0000005").
+  La calculadora original hace exactamente lo mismo. Posible mejora sin red:
+  precios de ejemplo fijos por activo — pero toca los valores por defecto, que
+  forman parte de la lógica original. Pendiente de decisión del usuario.
+- ⏳ **Pendiente de probar en Safari:** el sembrado del placeholder al pulsar las
+  flechitas del campo con el ratón (heurística de los últimos ~20px).
 
 ## Estado
 
