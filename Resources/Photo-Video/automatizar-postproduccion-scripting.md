@@ -28,6 +28,12 @@ Eso es reproducible, auditable y se ejecuta en minutos sobre cientos de RAW.
 
 O sea: no es un editor, es un ayudante de postproducción. El ojo lo pongo yo una vez, el script lo multiplica por 800.
 
+## Requisito previo: disparar en RAW
+
+Todo lo de abajo asume archivos RAW. Con HEIF o JPEG el margen para recuperar luces y sombras es mucho menor y el revelado automatizado pierde buena parte de su sentido.
+
+Los ajustes concretos de la a7 IV, con las rutas de menú en inglés: [[Resources/Photo-Video/sony-a7iv-ajustes-raw]].
+
 ## Herramientas: entorno ya montado (17-09-2026)
 
 Todo instalado y verificado. Nada de esto depende de Adobe.
