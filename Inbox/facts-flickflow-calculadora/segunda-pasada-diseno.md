@@ -160,6 +160,31 @@ Aprobados por el usuario y medidos en Chrome headless (1476×825):
   decisión de estructura (ver opciones en el chat del 2026-09-17: resultado fijo
   abajo tipo sticky, unir paneles, o aceptar scroll en pantallas bajas).
 
+## Resultado a la derecha (2026-09-17)
+
+Propuesta del usuario: volver a poner el resultado a la derecha, como en la
+original. **Revierte a propósito la "jerarquía vertical"** de los apuntes iniciales,
+pero con una diferencia clave frente a la original: anchos fijos (campos hasta
+600px, resultado 380px) en vez de dos fracciones casi iguales dentro de 720px, que
+era lo que se leía desequilibrado.
+
+- Desde `lg` (1024px): dos columnas. El resultado se queda fijo (sticky) al hacer
+  scroll.
+- En móvil: el resultado vuelve debajo de los campos (orden vertical).
+
+Medido en Chrome headless:
+
+- ✅ **1476×825:** todo cabe sin scroll (campos hasta 680px, resultado 153–473px).
+  Con la ficha del contrato abierta los campos llegan a 805px y siguen cabiendo; al
+  hacer scroll, el resultado se queda visible arriba a la derecha.
+- ✅ **1024×768:** cabe sin scroll; la columna de campos se estrecha a 530px, sin
+  desbordamiento horizontal.
+- ✅ **390×844 (móvil):** resultado debajo, sin desbordamiento horizontal. Aquí sí
+  hay scroll (esperado con orden vertical).
+- Detalle visual menor: el panel del resultado empieza ~8px más abajo que el
+  primer panel de campos, porque su título ("Resultado", tamaño h3) es más alto
+  que "Cuenta y riesgo" (h4).
+
 ## Estado
 
 Apuntes de dirección + primera corrección de v1 ya construidos. Pendiente:
