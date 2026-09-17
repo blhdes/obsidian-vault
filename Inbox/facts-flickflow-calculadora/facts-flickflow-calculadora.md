@@ -79,6 +79,10 @@ dejarla fuera del `git add`.
   de integración
 - [[ideas-fuera-de-alcance|Ideas fuera de alcance]] — cosas que no forman parte de la
   prueba pero podrían valer la pena más adelante
+- [[segunda-pasada-diseno|Segunda pasada — dirección de diseño]] — apuntes del
+  usuario (2026-09-17) para el rediseño de interacción: full-bleed sin scroll,
+  columna única, defaults como placeholder, SpecTable real, headings en vez de
+  líneas
 - [[stack-y-filesystem|Stack y filesystem]] — el stack explicado con más detalle y una
   guía carpeta por carpeta / archivo por archivo de cómo se relaciona todo en el repo
 - [[teoria-financiera-calculadora|Teoría financiera de la calculadora]] — qué calcula
