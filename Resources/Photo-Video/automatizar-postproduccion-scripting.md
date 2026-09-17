@@ -39,6 +39,15 @@ Todo instalado y verificado. Nada de esto depende de Adobe.
 | `vips` | 8.18.6 | procesado rápido de archivos grandes, redimensionado, conversión | `vips`, `vipsthumbnail` |
 | `rawpy` | 0.27.1 (LibRaw 0.22.1) | decodificar RAW desde Python | dentro del entorno `~/.venvs/foto` |
 
+### Qué hace cada una
+
+- **`exiftool`** — lee y escribe los datos invisibles del archivo: cámara, objetivo, ISO, velocidad, fecha, GPS, copyright. Sirve para filtrar ("dame todo lo disparado a más de ISO 6400") y para limpiar o firmar metadatos antes de entregar.
+- **`vips`** — el motor de fuerza bruta. Abre, redimensiona, convierte y exporta imágenes grandes muy rápido y sin cargarlas enteras en memoria. Para generar los tres tamaños de entrega, las miniaturas y las marcas de agua.
+- **`rawpy`** — traduce un `.ARW` a píxeles manejables desde Python. Es lo que permite medir cosas en la foto (nitidez, exposición, dominantes de color) para automatizar el culling.
+- **`darktable-cli`** — darktable sin ventana. Coge un preset de revelado y lo aplica a las 800 fotos por línea de comandos. Es el único de los cuatro que revela de verdad.
+
+El reparto, en una línea: **rawpy mide, darktable-cli revela, vips exporta, exiftool etiqueta.**
+
 ### El entorno de Python
 
 Las librerías de foto viven en un entorno virtual propio, **no** en el Python del sistema, para no mezclarlas con nada más y poder borrarlo entero sin romper nada:
