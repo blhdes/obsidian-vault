@@ -68,8 +68,8 @@ exposición mucho mayor — y el exchange, no el trader, fija cuánto vale cada 
 ## 5. Por qué existen "tiers" (E-mini, Micro, E-nano...)
 
 En el código, cada activo tiene varios `tiers`: por ejemplo el Nasdaq aparece como E-mini (NQ),
-Micro (MNQ) y E-nano (NNQ). **No son productos distintos** — es el mismo índice, con contratos de
-tamaño (multiplicador) distinto, pensados para que cuentas de distinto tamaño puedan operarlo sin
+Micro (MNQ) y E-nano (NNQ). Son **contratos distintos sobre el mismo índice**, de tamaño
+(multiplicador) distinto, pensados para que cuentas de distinto tamaño puedan operarlo sin
 que el riesgo en dólares por contrato se dispare. Un contrato Micro tiene un valor de tick mucho
 más pequeño que uno E-mini, así que hace falta arriesgar mucho menos dinero por cada uno.
 
@@ -98,8 +98,9 @@ No se pueden comprar 0,3125 contratos — solo unidades enteras. La calculadora 
 
 - **Abajo** (por defecto, más conservador): te quedas *por debajo* del riesgo permitido. Nunca
   arriesgas más de lo que decidiste, aunque el uso de tu presupuesto de riesgo sea menos eficiente.
-- **Arriba**: te acerca más al número exacto, pero puede **superar** el % de riesgo que te habías
-  marcado — de ahí el aviso en ámbar que muestra el código cuando esto ocurre.
+- **Arriba**: redondea al entero superior (con 0,3125 contratos, a uno entero), así que puede
+  **superar** el % de riesgo que te habías marcado. De ahí el aviso que muestra el código cuando
+  esto ocurre (ámbar en el original, naranja de acento en la versión integrada).
 
 ## 8. La ficha del contrato: $/punto y $/pip
 
@@ -137,8 +138,10 @@ precio liq.  ≈ entrada × (1 − 1/apalancamiento)   (posición larga)
 - **Nocional**: el valor total de mercado que se controla, como si no hubiera apalancamiento.
 - **Margen**: el capital real que hay que depositar para abrir esa posición apalancada.
 - **Precio de liquidación**: el precio al que el exchange cierra la posición a la fuerza porque el
-  margen depositado ya no cubre la pérdida acumulada. Es una fórmula simplificada (sin comisiones
-  ni funding), pero suficiente para la idea.
+  margen depositado ya no cubre la pérdida acumulada. Es una fórmula simplificada: no tiene en
+  cuenta comisiones, funding ni, sobre todo, el **margen de mantenimiento** (el mínimo que el
+  exchange exige mantener en la posición). En un exchange real la liquidación llega antes, así que
+  el precio real de liquidación está algo más cerca de la entrada que el que muestra la calculadora.
 
 **El aviso crítico** (`stopAntesLiq` en el código): si el stop loss está *más allá* del precio de
 liquidación, el exchange liquida la posición **antes** de que el stop llegue a saltar — se pierde
@@ -148,11 +151,47 @@ justo lo que este aviso previene.
 
 ## 10. Y esto, ¿para qué más sirve?
 
-[[ideas-fuera-de-alcance|Ideas fuera de alcance]] apunta que un bloque de texto instructivo en la
-propia página (explicando qué es el "tamaño de posición" o cómo usar la calculadora) quedó fuera
-del alcance de la prueba técnica, por no pedirlo el cliente y por riesgo de sobre-construir el
-entregable. Esta nota es, en efecto, la base de conocimiento de la que saldría ese texto si algún
-día se decide escribirlo.
+[[ideas-fuera-de-alcance|Ideas fuera de alcance]] apuntaba que un bloque de texto instructivo en
+la propia página quedaba fuera del alcance de la prueba. El 2026-09-17 el usuario propuso una
+versión acotada: un **Info View** inspirado en el de Ableton Live, que explica cada campo al pasar
+el ratón (o al tocarlo en el móvil). Esta nota es la base de la que salen sus textos (ver abajo).
+
+## Revisión (2026-09-17)
+
+Revisada contra el código de la calculadora. Los conceptos y fórmulas son correctos. Correcciones:
+
+- §5: los tiers no son "el mismo producto", son **contratos distintos** sobre el mismo índice.
+- §7: redondear arriba no siempre acerca al número exacto (0,3125 → 1 se aleja más que → 0);
+  lo que hace es subir al entero superior.
+- §9: la fórmula de liquidación tampoco tiene en cuenta el **margen de mantenimiento**, que en
+  la práctica adelanta la liquidación.
+- Duda abierta: no he podido confirmar que los tiers "E-nano" (NNQ, NES, NDOW, N2K) existan como
+  contratos del CME. Son datos del cliente; mejor no afirmar nada sobre ellos en los textos.
+
+Sobre lo "técnico": lo que más pesa son los nombres del código (`riesgoPct`, `syncDesdePrecios`,
+`stopAntesLiq`) mezclados con la explicación. Los conceptos en sí son asequibles.
+
+## Textos del Info View
+
+Una o dos frases por elemento, sin nombres de código. Reglas de voz de Flickflow (`home.ts`):
+se dice "trader", sin promesas de rentabilidad ni señales.
+
+| Elemento | Texto |
+|---|---|
+| Activo | El mercado que quieres operar. Cada activo tiene sus propios contratos, y cada contrato gana o pierde una cantidad fija de dinero por cada salto de precio. |
+| Tamaño de cuenta | El dinero total con el que operas. Es la base sobre la que se calcula cuánto puedes perder en esta operación. |
+| Riesgo por operación | El porcentaje de tu cuenta que aceptas perder si la operación sale mal. Es una regla que te pones tú, no un dato del mercado: muchos traders usan entre el 1 % y el 2 %. |
+| Dirección | Compra si esperas que el precio suba, venta si esperas que baje. Decide a qué lado de la entrada va el stop: por debajo en una compra, por encima en una venta. |
+| Precio de entrada | El precio al que abres la operación. Junto con el stop, marca cuánto puede moverse el precio en tu contra. |
+| Precio de stop | El precio al que se cierra la operación si va en tu contra, para que la pérdida no siga creciendo. Basta con rellenar este campo o la distancia. |
+| Distancia del stop | Cuánto tiene que moverse el precio en tu contra hasta llegar al stop, en puntos. Si la escribes, el precio de stop se calcula solo, y al revés. |
+| Tamaño del tick | El salto mínimo que puede dar el precio de un contrato. Por ejemplo, el Nasdaq 100 se mueve de 0,25 en 0,25 puntos. |
+| Valor del tick | Cuánto dinero gana o pierde un contrato por cada tick. Lo fija el mercado donde cotiza, no se elige. |
+| Apalancamiento | Cuánto mercado controlas por cada dólar que depositas: con 10x, 1.000 $ controlan 10.000 $. Cuanto más alto, más cerca de tu entrada queda el precio de liquidación. |
+| Contratos a operar | Cuántos contratos de cada tamaño puedes abrir sin que la pérdida, si salta el stop, pase de tu riesgo permitido. El número pequeño es el resultado exacto, antes de redondear. |
+| Tamaño de posición (perpetuo) | Cuántas unidades del activo puedes operar sin que la pérdida, si salta el stop, pase de tu riesgo permitido. Debajo: el valor total que controlas, el dinero que depositas y el precio aproximado de liquidación. |
+| Redondeo | No se pueden operar fracciones de contrato. Abajo te mantiene dentro de tu riesgo; arriba sube al entero siguiente y puede pasarse del porcentaje que marcaste. |
+| Ficha del contrato | Los datos fijos de cada contrato: su tick, cuánto vale cada tick y cuánto vale cada punto (o pip, en divisas). De ahí sale el cálculo del resultado. |
 
 ---
 

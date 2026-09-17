@@ -229,6 +229,39 @@ Medido en Chrome headless (1476×825 y 390×844):
 - ⏳ **Pendiente de probar en Safari:** el sembrado del placeholder al pulsar las
   flechitas del campo con el ratón (heurística de los últimos ~20px).
 
+## Info View (2026-09-17)
+
+Idea del usuario, inspirada en la "Info View" de Ableton Live: un texto que explica
+el elemento sobre el que está el ratón, para que alguien sin base en trading pueda
+calcular y aprender a la vez. Decisiones:
+
+- **Debajo de la calculadora** (decisión del usuario), no bajo el resultado. Su alto
+  está reservado (92px): aparece y desaparece fundiendo, sin mover nada. Medido: las
+  notas de debajo no se mueven ni un píxel entre visible y oculto.
+- **Con ratón manda solo el hover**, como en Ableton: fuera de un valor (títulos,
+  huecos) desaparece. Hacer clic en un campo y salir no lo deja encendido.
+- **Tacto:** responde a lo último tocado; tocar fuera lo oculta. **Teclado:** al
+  control enfocado; salir de la calculadora lo oculta. `aria-live="polite"` para
+  lectores de pantalla.
+- 14 textos (13 elementos; el resultado tiene versión normal y versión perpetuo),
+  sacados de [[teoria-financiera-calculadora]] → sección "Textos del Info View".
+  Si cambia uno, hay que cambiarlo en los dos sitios.
+- La nota de teoría se revisó ese día: conceptos correctos, 3 imprecisiones
+  corregidas (tiers, redondeo arriba, margen de mantenimiento) y una duda abierta
+  (si los tiers "E-nano" existen en el CME).
+
+Medido en Chrome headless:
+
+- ✅ Escritorio, modo normal: el Info View termina en 765px de 825 → cabe sin scroll.
+- ✅ Hover en filas, en el redondeo (dentro del panel de resultado), en el resultado
+  en modo perpetuo ("Tamaño de posición"); se oculta en títulos y al salir.
+- ⚠️ **Modo perpetuo/personalizado en escritorio:** su panel extra empuja el Info
+  View hasta 853px (28px por debajo del borde): se ve el título y el principio del
+  texto, no el final.
+- ⚠️ **Móvil:** al tocar "Precio de stop" (fila a 576px), el Info View aparece a
+  1065px, fuera de la pantalla (844px). Con todo apilado, abajo del todo no se ve.
+  Pendiente de decidir cómo mostrarlo en móvil.
+
 ## Estado
 
 Apuntes de dirección + primera corrección de v1 ya construidos. Pendiente:

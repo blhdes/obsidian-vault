@@ -17,8 +17,9 @@ mientras se construye. Ver [[facts-flickflow-calculadora|índice del proyecto]].
   nada, pero conectarlo de verdad implicaría reescribir cómo `Footer.astro` resuelve
   sus enlaces (hoy son solo strings, no objetos con `href`), que es más cambio del que
   pide la prueba.
-- **Texto instructivo.** Explicar en la propia página qué es el "tamaño de posición" o
-  cómo se usa la calculadora. La copy actual del sitio es deliberadamente corta y
+- **Texto instructivo.** *(2026-09-17: pasa a estar en alcance en versión acotada, como
+  Info View; ver [[segunda-pasada-diseno]].)* Explicar en la propia página qué es el
+  "tamaño de posición" o cómo se usa la calculadora. La copy actual del sitio es deliberadamente corta y
   concreta (reglas de voz de marca en `home.ts`: nunca prometer rentabilidad, nada de
   relleno). Un bloque explicativo podría añadir valor, pero no lo pidió Lucas y podría
   leerse como sobre-construir la prueba.
