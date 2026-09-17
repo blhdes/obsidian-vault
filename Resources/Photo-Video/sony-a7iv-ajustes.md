@@ -97,6 +97,16 @@ En S&Q (cámara lenta) los 4K a 200 Mbps suben la exigencia a **V60**.
 
 Por debajo de 60 Mbps vale cualquier SDHC/SDXC Clase 10.
 
+### Aviso en cámara: SDHC vs SDXC
+
+Al configurar XAVC HS 4K con la tarjeta de **32 GB** puesta, la cámara avisa:
+
+> *"To perform shooting with this setting, use a memory card higher than SDXC U3/V30. Slot 2"*
+
+Causa: **una tarjeta de 32 GB nunca es SDXC**, el estándar SDXC empieza por encima de 32 GB. Con la de 64 GB (SDXC) desaparece el aviso. Curioso, porque la tabla oficial de Sony dice "SDHC/SDXC (U3/V30 or higher)" para este formato, pero la cámara es más estricta que el manual.
+
+→ **La de 32 GB no sirve para vídeo 4K en estos formatos.** Queda para fotos o para modos de 60 Mbps o menos.
+
 ## Configuración elegida
 
 ```
@@ -105,33 +115,45 @@ MENU → (Shooting) → [Image Quality] → [Movie Settings]
 
 | Ajuste | Valor |
 |---|---|
-| File Format | **XAVC HS 4K** |
+| File Format | **XAVC S 4K** |
 | Rec Frame Rate | **25p** |
-| Record Setting | **100M 4:2:2 10bit** |
+| Record Setting | **140M 4:2:2 10bit** |
 
 Y en `MENU → (Setup) → [Area/Date] → [NTSC/PAL Selector]`: **PAL**, que es lo que habilita 25p y 50p.
 
-### Por qué esta y no otra
+### El error que casi cometo: XAVC HS 4K no tiene 25p
 
-- **XAVC HS en vez de XAVC S.** XAVC HS es H.265/HEVC, XAVC S es H.264. H.265 comprime mucho mejor, así que 100 Mbps en HS dan aproximadamente la calidad de 200 Mbps en S. Menos peso en tarjeta por la misma imagen. Se edita sin problema en Mac con Apple Silicon, que descodifica HEVC por hardware.
-- **25p y no 50p.** En 4K 50p la a7 IV recorta el sensor a Super35 (factor 1.5x) y deja de submuestrear desde 7K. En 25p usa el ancho completo del sensor y genera el 4K más nítido que sabe hacer. El 50p se reserva para cuando quiera ralentizar.
-- **4:2:2 10 bits.** Es lo que da margen real para corregir color después. En 8 bits 4:2:0 el cielo se escalona en cuanto tocas curvas.
-- **3840×2160 es el techo.** La a7 IV no graba por encima de 4K, así que "máxima resolución" es esto en cualquier formato.
+Primero configuré XAVC HS 4K pensando en grabar a 25p. **No existe esa combinación.** En la a7 IV, XAVC HS 4K solo ofrece:
+
+- **60p/50p**
+- **24p** (y solo con el selector en NTSC)
+
+Estando en PAL, el 24p está bloqueado, así que XAVC HS 4K se queda **fijo en 50p** y la cámara responde *"Cannot change when set to PAL"* al intentar cambiarlo. No es un fallo de la tarjeta ni de la cámara, es que ese formato no tiene ese fotograma.
+
+Para 25p hay que usar **XAVC S 4K**, que sí tiene fila de 30p/25p.
+
+### Por qué esta configuración
+
+- **25p a sensor completo.** En 4K 50p la cámara fuerza el modo APS-C/Super35, o sea recorte 1.5x: la guía oficial dice literalmente que ese modo *"is locked to On when shooting movies in 4K 60p/50p"*. En 25p usa el ancho completo y submuestrea desde 7K, que es el 4K más nítido que sabe hacer.
+- **140M 4:2:2 10 bits** es el techo de calidad de XAVC S 4K a 25p. Los 10 bits 4:2:2 son los que dan margen real para corregir color; en 8 bits 4:2:0 el cielo se escalona en cuanto tocas curvas.
+- **Entra de sobra en U3/V30.** Sony permite hasta 200 Mbps en ese tipo de tarjeta.
+- **Peaje:** es H.264, no H.265, así que pesa más que si XAVC HS tuviera 25p. Es el precio de no recortar el sensor.
 
 ### Cuánto ocupa
 
-100 Mbps = 12,5 MB por segundo.
+140 Mbps = 17,5 MB por segundo.
 
 | Clip | Peso |
 |---|---|
-| 10 s | 125 MB |
-| 60 s | 750 MB |
-| Tarjeta 64 GB llena | ~85 min |
-| Tarjeta 32 GB llena | ~42 min |
+| 10 s | 175 MB |
+| 60 s | ~1,05 GB |
+| Tarjeta 64 GB llena | ~61 min |
 
-### Si quiero cámara lenta
+### Si quiero HEVC o cámara lenta
 
-`Rec Frame Rate` → **50p**, `Record Setting` → **200M 4:2:2 10bit**. Entra en V30 para grabación normal, pero si lo hago desde el modo **S&Q** Sony pide **V60**. Con estas tarjetas, mejor grabar a 50p normal y ralentizar en edición.
+`File Format` → **XAVC HS 4K**, `Rec Frame Rate` → **50p**, `Record Setting` → **200M 4:2:2 10bit**.
+
+Gano la eficiencia de H.265 y el 50p para ralentizar, pero asumo el recorte Super35 1.5x. Entra en V30 para grabación normal; desde el modo **S&Q** Sony sube la exigencia a **V60**.
 
 ### Lo que no puedo usar con estas tarjetas
 
