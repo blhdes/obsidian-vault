@@ -49,13 +49,29 @@ respetando el sistema de diseño existente del sitio.
   byte a byte del archivo original de la prueba, servida sin tocar en
   `/dev/calculadora-original.html`, para comparar en directo durante el rediseño
 - [ ] **Segunda pasada** — rediseño de interacción de la calculadora apoyado en la
-  sección de referencia de componentes
+  sección de referencia de componentes. Dirección en
+  [[segunda-pasada-diseno|segunda-pasada-diseno.md]]
   - [x] Bug corregido: los toggles Compra/Venta y Abajo/Arriba en estado activo
     (fondo claro) dejaban el texto ilegible — `text-text-muted` (pensado para
     fondo oscuro) se quedaba puesto a la vez que `text-text-inverse`, compitiendo
     por la cascada. Arreglado con un helper `setSegActive()` que intercambia los
     dos pares de clases (fondo + texto) en bloque, nunca uno solo
-  - [ ] Resto del rediseño de interacción pendiente
+  - [x] **Sandbox de progresión creado** — `src/pages/dev/calculadora-redesign.astro`
+    (`/dev/calculadora-redesign`), enlazado desde `/calculadora` justo debajo del
+    link a la original. Ids con prefijo `v1-`, `v2-`... para apilar versiones sin
+    colisión; cada versión nueva se añade arriba, las anteriores se conservan
+    debajo para comparar
+  - [x] **Versión 1** construida: full-bleed, columna única (Cuenta+Riesgo y
+    Tick+Valor de tick comparten fila para ahorrar alto, pero sigue siendo lectura
+    vertical), resultado al final. Defaults como `placeholder` + `numField()` que
+    calcula con el placeholder mientras no se escriba nada. Sembrado del spinner
+    vía flechas de teclado (fiable) + heurística de clic en los últimos ~20px del
+    campo (**pendiente de confirmar que se sostiene en Safari real**). Ficha del
+    contrato en un SpecTable con borde propio. Headings h3/h4 en vez de líneas.
+    **Sin resolver todavía:** si el objetivo "sin scroll" se sostiene en pantallas
+    bajas — no se fuerza `overflow:hidden` a propósito, para poder ver un
+    desbordamiento en vez de que se recorte en silencio
+  - [ ] Revisar v1 en Safari real y decidir v2
 - [ ] Crear la rama de trabajo, commitear (**solo con aviso previo del usuario**)
 - [ ] Abrir el PR a `prueba-tecnica-calculadora`
 
@@ -67,6 +83,7 @@ desarrollo — hay que acordarse de dejarlos fuera del `git add`:
 - `README.md` (raíz del repo) — chuleta local de arranque/testing
 - `public/dev/calculadora-original.html` — copia de referencia de la calculadora
   original, sin procesar
+- `src/pages/dev/calculadora-redesign.astro` — sandbox de progresión del rediseño
 
 La sección "solo referencia interna" dentro de `calculadora.astro` (los componentes
 de muestra bajo la línea divisoria) también hay que retirarla antes del PR — esa sí
