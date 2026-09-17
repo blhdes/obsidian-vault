@@ -99,10 +99,23 @@ Pedidas por el usuario, generadas repasando las HIG Foundations
    Requiere más JS/CSS (medir posición o usar un truco de `peer`/grid) — no
    implementado todavía.
 
-**Ya implementada en v1** (no solo propuesta): la "ficha del contrato" ahora es un
-`<details>` plegado por defecto — divulgación progresiva, mismo patrón sin JS que ya
-usa el sitio en el mega menú y el nav móvil. Ayuda directamente al objetivo "sin
-scroll" al reducir el alto inicial.
+**Ya implementadas en v1** (no solo propuestas):
+- La "ficha del contrato" es un `<details>` plegado por defecto — divulgación
+  progresiva, mismo patrón sin JS que ya usa el sitio en el mega menú y el nav
+  móvil. Ayuda directamente al objetivo "sin scroll" al reducir el alto inicial.
+- **Lista agrupada tipo Settings.app** (idea #1) probada: los campos ya no van
+  etiqueta-arriba/input-abajo, sino en paneles con borde propio, fila = etiqueta a
+  la izquierda + control a la derecha, filas separadas por `border-rule` dentro del
+  MISMO panel. Los inputs van sin borde propio (el límite lo da la regla de la
+  fila, como un campo de una fila de Ajustes). Se agrupó en tres paneles con su
+  propio heading encima — "Cuenta y riesgo", "Operación", "Stop loss" — en vez de
+  un único panel gigante, así el heading sigue haciendo el trabajo de separar
+  bloques grandes y el panel agrupa solo lo afín. Efecto lateral bueno: al compartir
+  fila, cada campo ocupa menos alto vertical que antes — ayuda también al objetivo
+  "sin scroll".
+
+**Sigue pendiente, no implementada:** segmented control con indicador deslizante
+(idea #2).
 
 ## Estado
 
