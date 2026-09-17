@@ -185,6 +185,28 @@ Medido en Chrome headless:
   primer panel de campos, porque su título ("Resultado", tamaño h3) es más alto
   que "Cuenta y riesgo" (h4).
 
+## Centrado, ficha bajo el resultado y segmented control (2026-09-17)
+
+Pedido por el usuario, medido en Chrome headless:
+
+- ✅ **Títulos alineados:** "Resultado" pasa a h4 como el resto → los dos paneles
+  empiezan a la misma altura (200px).
+- ✅ **Bloque centrado:** 1020px (campos 600 + 40 + resultado 380). A la izquierda,
+  el aire de la derecha se leía como incompleto. La diferencia de 15px entre
+  márgenes es el hueco reservado para la barra de scroll (`scrollbar-gutter:
+  stable` del sitio), no un descuadre.
+- ✅ **Ficha del contrato bajo el resultado** (idea del usuario: explica el cálculo
+  final, no es un dato de entrada). Plegada sigue cabiendo; abierta, la columna
+  del resultado termina en 649px de 825 → cabe.
+- ✅ **Segmented control con indicador deslizante** (idea HIG #2) en Compra/Venta
+  y Abajo/Arriba: carril con dos segmentos iguales y una pastilla clara que se
+  desliza bajo el activo; `aria-pressed` en cada botón. Verificado que la pastilla
+  termina exactamente bajo el segmento activo. **La animación del deslizamiento no
+  se pudo ver en headless** (su reloj simulado no avanza transiciones) →
+  pendiente de ver en Safari.
+- ✅ 1024×768: todo cabe, sin desbordamiento. Móvil 390px: campos → resultado →
+  ficha, sin desbordamiento horizontal.
+
 ## Estado
 
 Apuntes de dirección + primera corrección de v1 ya construidos. Pendiente:
