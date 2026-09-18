@@ -34,6 +34,12 @@ Todo lo de abajo asume archivos RAW. Con HEIF o JPEG el margen para recuperar lu
 
 Los ajustes concretos de la a7 IV, con las rutas de menú en inglés: [[Resources/Photo-Video/sony-a7iv-ajustes]].
 
+## Límite conocido del filtrado por EXIF
+
+El culling por metadatos funciona para ISO, velocidad, diafragma y focal, pero **no para detectar flash**. Mi speedlight es la versión de Fujifilm, así que la cámara ni siquiera registra que hay un flash montado: graba `FlashStatus: No Flash present` aunque haya disparado en todas las fotos. Detalle completo en [[Resources/Photo-Video/flash-godox-sony-a7iv]].
+
+Para separar las tomas con flash hay que filtrar por la huella del perfil (`1/160` + `ISO 400` + `WhiteBalance Flash`), no por los campos de flash.
+
 ## Herramientas: entorno ya montado (17-09-2026)
 
 Todo instalado y verificado. Nada de esto depende de Adobe.

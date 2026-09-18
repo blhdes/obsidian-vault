@@ -6,6 +6,8 @@ tags: [photo-video, sony, a7iv, raw, heif, video, xavc, camara, ajustes]
 
 Menús en **inglés**, que es como tengo la cámara. Rutas verificadas contra la guía oficial de Sony para la ILCE-7M4.
 
+Los perfiles guardados en el dial: [[Resources/Photo-Video/perfiles-dial-sony-a7iv]].
+
 # Foto
 
 ## El problema
@@ -75,6 +77,79 @@ El previo pesa poco a propósito: no se entrega, sirve para revisar en cámara y
 
 ---
 
+---
+
+# Exposición: ISO Auto
+
+## El detalle que se me escapaba
+
+`ISO AUTO Min. SS` (la velocidad mínima a la que el ISO empieza a subir) **solo funciona en los modos P y A**. La guía de Sony lo dice explícitamente:
+
+> *"If you select [ISO AUTO] when the shooting mode is P (Program Auto) or A (Aperture Priority), you can set the shutter speed at which the ISO sensitivity starts changing."*
+
+En **M** no hace nada, porque la velocidad la elijo yo. Si disparo en M, ese ajuste es irrelevante.
+
+## Lo que sí controlo en M
+
+### Poner tope al ISO Auto
+
+```
+MENU → (Exposure/Color) → [Exposure] → [ISO] → ISO AUTO
+```
+
+Con `ISO AUTO` seleccionado, **pulsar a la derecha** de la rueda de control: aparecen `ISO AUTO Maximum` e `ISO AUTO Minimum`.
+
+**Este es el ajuste importante en M.** Sin tope, la cámara puede irse a ISO 51200 y devolver una foto inservible.
+
+| Situación | Máximo |
+|---|---|
+| Evento en interior | 6400 |
+| Conservador, prioridad a la limpieza | 3200 |
+
+### La compensación de exposición se activa
+
+En M la compensación de exposición normalmente está desactivada, pero **con ISO Auto puesto sí funciona**, de −5 a +5 EV. Pasa a ser mi control de brillo: fijo velocidad y diafragma, y subo o bajo con la compensación mientras el ISO se mueve solo.
+
+## Qué usar en cada caso
+
+| Situación | Ajuste | Por qué |
+|---|---|---|
+| **Con flash** | **ISO fijo** (200-400) | mi flash es manual ([[Resources/Photo-Video/flash-godox-sony-a7iv]]); si el ISO flota según la luz ambiente, cada foto expone el flash distinto y pierdo la consistencia que es la ventaja del manual |
+| **Sin flash, reportaje** | M + ISO Auto con tope | fijo 1/250 y f/2.8, el ISO se ocupa del resto |
+| **Que la cámara decida** | modo A + `ISO AUTO Min. SS` → `Fast` | ahí sí protege de las fotos movidas |
+
+En `ISO AUTO Min. SS` la diferencia entre `Slower`, `Slow`, `Standard`, `Fast` y `Faster` es de **1 EV** entre cada escalón. `Standard` calcula la velocidad según la distancia focal del objetivo.
+
+
+# Luz artificial: el anti-parpadeo en foto
+
+La corriente en España va a 50 Hz, así que la luz artificial (fluorescentes, LED industrial, halogenuros) **parpadea a 100 Hz**. En vídeo eso se resuelve estando en PAL a 25 o 50 fps (ver más abajo). En **foto** es un problema aparte, y tiene su propio ajuste.
+
+Si disparo a velocidades rápidas bajo esa luz, cada foto atrapa el parpadeo en un punto distinto del ciclo. El resultado son **bandas horizontales** y, peor aún, **virajes de color entre fotos consecutivas** que luego hay que corregir una a una.
+
+Es especialmente probable en naves, polideportivos y salas industriales reconvertidas.
+
+## Cómo se activa
+
+```
+MENU → (Shooting) → [Shutter/Silent] → [Anti-flicker Set.] → [Anti-flicker Shoot.] → On
+```
+
+La cámara detecta el parpadeo al apretar el disparador a medias y sincroniza el momento del disparo con la parte buena del ciclo.
+
+| Requisito | Detalle |
+|---|---|
+| Obturador | **mecánico obligatorio**, no funciona con el electrónico |
+| Frecuencias | solo **100 Hz o 120 Hz** — 100 Hz es justo el caso español |
+| Modos | Auto, P, A, S y M |
+| Solo foto | en vídeo no aplica, ahí manda el frame rate |
+
+## Var. Shutter, el hermano mayor
+
+En el mismo menú está `[Var. Shutter]`, que en vez de esperar al momento bueno **ajusta la velocidad de obturación con más finura** de lo normal para que encaje con la frecuencia del parpadeo. Solo en modos manuales, y sirve tanto para foto como para vídeo.
+
+Sony recomienda combinar los dos cuando en la misma sala hay luces con frecuencias distintas, que es lo habitual en un sitio con luz industrial más luz decorativa.
+
 # Vídeo
 
 Pensado para **clips cortos de 10 a 60 segundos**, máxima calidad posible sin cambiar de tarjeta. Zona PAL (España), así que 25p / 50p.
@@ -106,6 +181,18 @@ Al configurar XAVC HS 4K con la tarjeta de **32 GB** puesta, la cámara avisa:
 Causa: **una tarjeta de 32 GB nunca es SDXC**, el estándar SDXC empieza por encima de 32 GB. Con la de 64 GB (SDXC) desaparece el aviso. Curioso, porque la tabla oficial de Sony dice "SDHC/SDXC (U3/V30 or higher)" para este formato, pero la cámara es más estricta que el manual.
 
 → **La de 32 GB no sirve para vídeo 4K en estos formatos.** Queda para fotos o para modos de 60 Mbps o menos.
+
+**Segundo caso, mismo problema (18-09-2026).** Con la de 64 GB ya en el Slot 2 y grabando en 4K, al entrar en modo vídeo saltó:
+
+> *"Cannot record in this recording setting. Either switch to a memory card higher than SDXC U3/V30 or memory card higher than CFexpress VPG200, or change the Record Setting. **Slot 1**"*
+
+La tarjeta buena estaba en el Slot 2 y aun así protestaba, porque la queja era del **Slot 1**, donde seguía puesta la de 32 GB.
+
+Causa: **`Auto Switch Media` estaba en `On`**. Con eso la cámara cuenta con saltar a la otra tarjeta cuando la primera se llene, así que comprueba las dos y bloquea por la más lenta.
+
+**Solución: `Auto Switch Media` → `Off`.** Resuelto.
+
+→ Regla: `Auto Switch Media` en `On` es una buena red de seguridad **para foto**, pero hay que ponerlo en `Off` para grabar vídeo 4K mientras tenga una tarjeta lenta en la otra ranura.
 
 ## Configuración elegida
 
@@ -176,8 +263,14 @@ Gano la eficiencia de H.265 y el 50p para ralentizar, pero asumo el recorte Supe
 
 ## Fuentes
 
+- [Anti-flicker Shoot. (ILCE-7M4)](https://helpguide.sony.net/ilc/2110/v1/en/contents/TP1000659391.html)
+- [Anti-flicker Set. (ILCE-7M4)](https://helpguide.sony.net/ilc/2110/v1/en/contents/TP1000659392.html)
+
 - [File Format (still image)](https://helpguide.sony.net/ilc/2110/v1/en/contents/TP1000659396.html)
 - [RAW File Type](https://helpguide.sony.net/ilc/2110/v1/en/contents/TP1000659395.html)
 - [JPEG/HEIF Switch](https://helpguide.sony.net/ilc/2110/v1/en/contents/TP1000657944.html)
 - [Movie Settings (movie)](https://helpguide.sony.net/ilc/2110/v1/en/contents/TP1000640834.html)
 - [Memory cards that can be used](https://helpguide.sony.net/ilc/2110/v1/en/contents/TP1000640149.html)
+- [ISO (still image/movie)](https://helpguide.sony.net/ilc/2110/v1/en/contents/TP1000640844.html)
+- [ISO AUTO Min. SS](https://helpguide.sony.net/ilc/2110/v1/en/contents/TP1000640843.html)
+- [Rec. Media Settings](https://helpguide.sony.net/ilc/2110/v1/en/contents/TP1000655372.html)
