@@ -162,12 +162,12 @@ Es lo que produce la cantidad de desenfoque de movimiento que el ojo asocia con 
 
 ## 2026-09-18 — Registrado: variante de evento nocturno
 
-Foto 1 y Foto 2 llevan ahora la configuración preparada para la cena del club deportivo, detallada en [[Resources/Photo-Video/evento-interior-techo-alto]].
+Foto 1 y Foto 2 llevan ahora la configuración preparada para la cena del club deportivo (*Sopar del Soci* CTNSC, **2026**), detallada en [[Resources/Photo-Video/evento-interior-techo-alto]].
 
-| Hueco | Antes (perfil base) | Ahora (evento nocturno) |
-|---|---|---|
+| Hueco      | Antes (perfil base)                              | Ahora (evento nocturno)                                        |
+| ---------- | ------------------------------------------------ | -------------------------------------------------------------- |
 | **Foto 1** | 1/160 · f/4 · ISO 400 · WB Flash · AF-S · rebote | **1/80 · f/4-5.6 · ISO 1600 · WB Auto · AF-C · flash directo** |
-| **Foto 2** | 1/250 · abierto · ISO Auto máx 6400 · AF-C | **1/100 · abierto · ISO Auto máx 12800 · AF-C** |
+| **Foto 2** | 1/250 · abierto · ISO Auto máx 6400 · AF-C       | **1/100 · abierto · ISO Auto máx 12800 · AF-C**                |
 
 Los perfiles base siguen documentados más arriba en las secciones de Foto 1 y Foto 2, así que se pueden restaurar cuando haga falta. Los cambios de fondo que conviene mantener pase lo que pase:
 
