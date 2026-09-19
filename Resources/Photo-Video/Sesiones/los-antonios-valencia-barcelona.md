@@ -151,13 +151,13 @@ No se guardan dentro de ningún perfil, hay que dejarlos puestos una vez:
 
 **Vídeo 3 — Barcelona noche**
 
-| | |
-|---|---|
-| Velocidad | **1/50** |
-| Diafragma | **todo abierto** |
-| ISO | **Auto**, máximo **12800** |
+|                    |                                                  |
+| ------------------ | ------------------------------------------------ |
+| Velocidad          | **1/50**                                         |
+| Diafragma          | **todo abierto**                                 |
+| ISO                | **Auto**, máximo **12800**                       |
 | Balance de blancos | **fijo ~3800 K**, ajustar tras un clip de prueba |
-| SteadyShot | Active |
+| SteadyShot         | Active                                           |
 
 → `Camera Set. Memory` → **3**
 
