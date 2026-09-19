@@ -162,7 +162,7 @@ Es lo que produce la cantidad de desenfoque de movimiento que el ojo asocia con 
 
 ## 2026-09-18 — Registrado: variante de evento nocturno
 
-Foto 1 y Foto 2 llevan ahora la configuración preparada para la cena del club deportivo (*Sopar del Soci* CTNSC, **2026**), detallada en [[Resources/Photo-Video/evento-interior-techo-alto]].
+Foto 1 y Foto 2 llevan ahora la configuración preparada para la cena del club deportivo (*Sopar del Soci* CTNSC, **2026**), detallada en [[Resources/Photo-Video/Sesiones/sopar-del-soci-ctnsc]].
 
 | Hueco      | Antes (perfil base)                              | Ahora (evento nocturno)                                        |
 | ---------- | ------------------------------------------------ | -------------------------------------------------------------- |

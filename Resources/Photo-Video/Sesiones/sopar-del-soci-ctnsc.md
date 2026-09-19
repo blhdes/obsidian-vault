@@ -1,7 +1,9 @@
 ---
-title: Evento de interior con techo alto — configuración de dos perfiles
+title: Sopar del Soci CTNSC — interior grande con techo alto
 date: 2026-09-18
-tags: [photo-video, sony, a7iv, flash, eventos, interior, configuracion]
+tags: [photo-video, sesion, sony, a7iv, flash, eventos, interior]
+cliente: CTNSC
+lugar: sala de entrenamiento reacondicionada
 ---
 
 Configuración preparada para la **cena de socios de un club deportivo** (18-09-2026), en una sala de entrenamiento reacondicionada. Sirve de plantilla para cualquier evento nocturno en un interior grande: reportaje con luz ambiente + flash puntual para un momento concreto.
@@ -82,3 +84,17 @@ Empezar bajo y subir. Una foto corta se recupera en RAW, una quemada no. Regla: 
 | **A) Reportaje** | M | 1/100 | abierto (f/3.5) | Auto, máx 12800 | no |
 | **A) Estático** | M | 1/60 | abierto (f/3.5) | Auto, máx 12800 | no |
 | **B) Premios** | M | 1/80 | f/4-5.6 | 1600 fijo | M, 1/64 directo |
+
+## Resultado (comprobado en el EXIF de las 475 fotos)
+
+| | |
+|---|---|
+| Fotos | 475 en dos tramos: Rodri Pista 3 Tenis (149, 17:41-18:18) y Sopar del Soci (326, 19:59-22:5x) |
+| **ISO máximo real** | **4000**, y solo en 2 fotos. Nunca se tocó el tope de 12800 |
+| ISO 1600 fijo (Config B) | 234 fotos |
+| 1/100 con ISO Auto (Config A) | 84 fotos |
+| Diafragma | de f/3.5 a f/6.3, con 121 fotos a f/5.6 |
+
+**Lo que cambié sobre la marcha:** en la parte de flash acabé a **1/125-1/160** en vez de 1/80, para cortar el movimiento de la gente. El fondo aguantó igual porque la sala tenía más luz de la prevista.
+
+**Para la próxima:** subir el tope de ISO a 12800 fue innecesario en esta sala concreta, pero no estorba. La previsión de luz fue pesimista.
