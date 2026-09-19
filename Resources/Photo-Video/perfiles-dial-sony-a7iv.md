@@ -25,14 +25,14 @@ Es decir: el `1` del dial en Foto y el `1` del dial en Vídeo son **dos perfiles
 
 | Hueco | Perfil cargado ahora | Registrado |
 |---|---|---|
-| Foto 1 | **Flash directo, evento techo alto** (variante de "Flash en interior") | ✔ 18-09-2026 |
-| Foto 2 | **Reportaje nocturno interior** (variante de "Reportaje sin flash") | ✔ 18-09-2026 |
+| Foto 1 | **Barcelona noche + flash directo** | ✔ 19-09-2026 |
+| Foto 2 | **Ambiente y sombra** | ✔ 19-09-2026 |
 | Foto 3 | Exterior a pleno sol | ✔ 18-09-2026 |
-| Vídeo 1 | 4K 25p | ✔ 18-09-2026 |
-| Vídeo 2 | libre | — |
-| Vídeo 3 | libre | — |
+| Vídeo 1 | 4K 25p, sombra e interior | ✔ 18-09-2026 |
+| Vídeo 2 | **Día sin ND** | ✔ 19-09-2026 |
+| Vídeo 3 | **Barcelona noche** | ✔ 19-09-2026 |
 
-Quedan dos huecos de vídeo sin usar. Candidatos para cuando haga falta: 4K 50p para ralentizar, o un perfil de interior con ISO alto.
+**Los seis huecos están ocupados.** Si hiciera falta uno más, el candidato a sacrificar es Vídeo 1, que se solapa bastante con Vídeo 2 en sombra.
 
 ## Cómo se graba un perfil
 
@@ -175,6 +175,22 @@ Los perfiles base siguen documentados más arriba en las secciones de Foto 1 y F
 - Donde pone `f/2.8`, leer *"todo lo abierto que dé"*.
 
 Foto 3 sin tocar.
+
+## 2026-09-19 — Registrado: Los Antonios (Valencia + Barcelona)
+
+Primera sesión con foto y vídeo a la vez. Valores completos y hoja de registro en [[Resources/Photo-Video/Sesiones/los-antonios-valencia-barcelona]].
+
+| Hueco | Vel. | f | ISO | WB |
+|---|---|---|---|---|
+| **Foto 1** | 1/100 | f/5.6 | 1600 fijo | Auto |
+| **Foto 2** | 1/100 | abierto | Auto, máx 25600 | Auto |
+| **Vídeo 2** | 1/100 sol · 1/50 sombra | f/16 · f/8 | 100 fijo | Daylight fijo |
+| **Vídeo 3** | 1/50 | abierto | Auto, máx 12800 | fijo ~3800 K |
+
+Foto 3 y Vídeo 1 sin tocar.
+
+> [!note] En vídeo el balance de blancos va fijo, nunca en Auto
+> En foto se dispara RAW y el color se corrige gratis después. En vídeo va cocido en el archivo, y un balance que se mueve a mitad de plano es muy visible y difícil de arreglar.
 
 ## Fuentes
 
