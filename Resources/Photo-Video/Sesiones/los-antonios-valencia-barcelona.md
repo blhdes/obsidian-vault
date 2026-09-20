@@ -186,7 +186,7 @@ Una pieza de 30/60 s para redes se monta casi siempre sobre música, así que el
 | Tarjeta | Contenido | Carpeta de destino | Estado |
 |---|---|---|---|
 | **32 GB** | 83 RAW + 83 JPG | `2026-09-19 - Los Antonios - Boda Fran y Elena Valencia` | **copiada y verificada 20-09**, 166 MD5 idénticos |
-| **64 GB** | vídeos + fotos | misma carpeta, o `... (vídeo)` si conviene separarlos | pendiente, se conecta después |
+| **64 GB** | **solo vídeo**: 107 clips + 107 XML | `2026-09-19 - Los Antonios - Boda Fran y Elena Valencia (vídeo)` | **copiada y verificada 20-09**, 214 MD5 idénticos |
 
 La tarjeta de 32 GB traía además `DCIM/10060918` con las 998 fotos del 18-09. Ya estaban respaldadas en las tres carpetas de aquel día (Cosentino 48 + Rodri 298 + CTNSC 652 = 998, rango `AGU01380`..`AGU01878` sin huecos), así que no se volvieron a copiar. **La tarjeta se puede formatear.**
 
@@ -218,12 +218,12 @@ Efecto colateral del segundo: **22 fotos de la boda salen en Neutral** y las otr
 
 Medido sobre el **brillo medio real del JPG de cámara**, no sobre el tag `BrightnessValue` (que con ISO fijo da lecturas que no cuadran). 0 = negro, 1 = blanco:
 
-| Bloque | Brillo medio | Dispersión | Fotos fuera de rango |
-|---|---|---|---|
-| A 16:49-18:51 | 0,418 | 0,052 | **0** de 43 |
-| B 18:57-18:59 | 0,290 | 0,016 | **0** de 9 |
-| **C 19:33-19:42** | 0,266 | **0,160** | **7** de 23 |
-| D 20:14-20:29 | 0,217 | 0,065 | 1 de 8 |
+| Bloque            | Brillo medio | Dispersión | Fotos fuera de rango |
+| ----------------- | ------------ | ---------- | -------------------- |
+| A 16:49-18:51     | 0,418        | 0,052      | **0** de 43          |
+| B 18:57-18:59     | 0,290        | 0,016      | **0** de 9           |
+| **C 19:33-19:42** | 0,266        | **0,160**  | **7** de 23          |
+| D 20:14-20:29     | 0,217        | 0,065      | 1 de 8               |
 
 *(fuera de rango = brillo < 0,15 o > 0,65)*
 
