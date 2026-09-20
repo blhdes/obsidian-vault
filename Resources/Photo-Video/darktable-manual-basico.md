@@ -6,6 +6,9 @@ tags: [photo-video, darktable, raw, tutorial]
 
 Flujo de trabajo completo desde que tienes una carpeta de RAW hasta que exportas la foto editada. Versión: darktable 5.6.1. Relacionado: [[Resources/Photo-Video/open-source-alternatives]].
 
+> [!tip] Para revelar un lote entero con un mismo look
+> Esta nota cubre editar **una** foto. Para construir un estilo reutilizable y aplicarlo a cientos por línea de comandos: [[Resources/Photo-Video/darktable-crear-estilos]].
+
 ## 0. Antes de abrir darktable
 
 Ten tus RAW ya organizados en una carpeta normal del Finder, por ejemplo:

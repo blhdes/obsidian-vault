@@ -319,6 +319,42 @@ Tiempo total de maquina para las 326: ~8 s de triaje + ~4,5 min de medicion. El 
 >
 > O sea que aqui hay **dos estilos que construir, no tres**: uno para ambiente (81 fotos) y otro para flash (210).
 
+### ¿Se puede automatizar la exposición, curvas, contraste y luces/sombras?
+
+Pregunta del 20-09-2026, y la respuesta se parte en tres, porque no todo lo que suena parecido lo es.
+
+#### 1. Igualar exposición dentro de un bloque: SÍ, y además hace falta
+
+Esto no es gusto, es medir, así que se automatiza bien. Y los datos de esta sesión dicen que en un bloque hace falta y en el otro no:
+
+| Bloque | Fotos | Rango de exposición (p5-p95) | ¿Normalizar? |
+|---|---|---|---|
+| **ambiente** | 81 | **0,67 pasos** | no hace falta, el ISO Auto ya igualó |
+| **flash** | 210 | **1,34 pasos** (extremos: 2,5) | **sí** |
+
+La diferencia tiene una causa clara: en flash el ISO iba fijo a 1600, así que la exposición de cada foto dependía de a qué distancia estaba la gente del destello. Comprobado además que **el revelado por defecto de darktable no lo arregla**: la más oscura y la más clara entran con 2,5 pasos de diferencia y salen con 2,1.
+
+**La solución no es un script, es un ajuste dentro del estilo.** El módulo `exposición` de darktable tiene modo **`automático`** (parámetros `percentile` y `target level`): mira el histograma de cada foto y calcula su propia corrección. Así **el estilo lleva la regla en vez del número**, y cada una se normaliza sola. Detalle en [[Resources/Photo-Video/darktable-crear-estilos]].
+
+Igual de importante: `denoise (profiled)` **ya se adapta solo al ISO de cada foto**, porque lleva los perfiles de ruido medidos de la a7 IV y lee el EXIF. Un mismo estilo sirve para el bloque de ambiente entero aunque vaya de ISO 500 a 4000.
+
+#### 2. Decidir el look (curvas, contraste, color): NO, y no por una limitación técnica
+
+Aquí el problema no es que la máquina no sepa hacerlo, es que **para una entrega la consistencia vale más que el óptimo por foto**.
+
+291 fotos cada una optimizada por separado quedan **peor como conjunto** que 291 con un mismo criterio, aunque foto a foto alguna gane. El cliente no mira una foto, mira la galería, y lo que salta a la vista es la incoherencia: una con las sombras frías y la siguiente cálidas, una contrastada y la siguiente plana. Un lote coherente con un look imperfecto se lee como un trabajo; un lote de óptimos locales se lee como un desastre.
+
+Por eso el reparto correcto es: **el look se decide una vez a mano y se aplica igual a todas**, y lo que varía por foto es solo lo que se puede medir (exposición, ruido).
+
+#### 3. Un modelo de IA mirando las fotos y decidiendo: no, con este montaje
+
+Ya recogido más arriba en "Dónde no sirve", pero conviene repetirlo aquí porque es la pregunta que uno se hace: sin pantalla calibrada, sin gestión de color y viendo las imágenes a baja resolución, **no se puede validar un tono de piel ni un viraje en las sombras**. Se puede generar una LUT o proponer valores, pero alguien con una pantalla buena tiene que decir si vale. Y ese alguien eres tú.
+
+Los modelos de "mejora automática" tipo un clic existen y funcionan razonablemente en una foto suelta, pero fallan justo en lo que importa aquí: **no son consistentes entre fotos**, que es el problema del punto 2.
+
+> [!important] Resumen en una línea
+> Automatiza **lo que se mide** (exposición, ruido), decide a mano **lo que se juzga** (el look), y aplica ese juicio por lotes. Eso ya es el 90% del ahorro de tiempo, y no compra el ahorro a costa de la calidad.
+
 ### Lo que sigue sin poder hacer
 
 Todo lo anterior mide, no mira. Que una foto este enfocada no la hace buena: la expresion, el momento y el encuadre no se miden. Por eso la banda *revisar* existe y por eso el descarte es deliberadamente timido.
@@ -330,7 +366,7 @@ Orden previsto, de menos a más riesgo:
 1. ~~**Triaje por EXIF**~~ → `triaje.py`. **Hecho.**
 2. ~~**Culling asistido**~~ → `culling.py`. **Hecho.**
 3. ~~**Repasar `2-revisar` con `revisar.py`**~~ y ~~`consolidar.py`~~. **Hecho:** 291 RAW listos en `04-para-revelar/`.
-4. **Dos estilos de revelado** (ambiente y flash, ver nota de arriba), construidos a mano en darktable sobre 5-10 fotos de referencia de cada uno y exportados como `.dtstyle`. **Aqui es donde entra el ojo, y es el siguiente paso.**
+4. **Dos estilos de revelado** (ambiente y flash), construidos a mano en darktable y exportados como `.dtstyle`. Manual paso a paso: [[Resources/Photo-Video/darktable-crear-estilos]]. **Aqui es donde entra el ojo, y es el siguiente paso.**
 5. **Revelado por lotes** con `darktable-cli --style`. A 5-7 s por foto son unos 25-30 min para las 291, y se paraleliza.
 6. **Entrega**: tamanos con `vips`, metadatos con `exiftool`.
 
