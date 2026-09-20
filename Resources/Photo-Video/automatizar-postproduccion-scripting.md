@@ -38,7 +38,11 @@ Los ajustes concretos de la a7 IV, con las rutas de menú en inglés: [[Resource
 
 El culling por metadatos funciona para ISO, velocidad, diafragma y focal, pero **no para detectar flash**. Mi speedlight es la versión de Fujifilm, así que la cámara ni siquiera registra que hay un flash montado: graba `FlashStatus: No Flash present` aunque haya disparado en todas las fotos. Detalle completo en [[Resources/Photo-Video/flash-godox-sony-a7iv]].
 
-Para separar las tomas con flash hay que filtrar por la huella del perfil (`1/160` + `ISO 400` + `WhiteBalance Flash`), no por los campos de flash.
+Para separar las tomas con flash hay que filtrar por **la huella del perfil de dial**, no por los campos de flash.
+
+**Huella comprobada sobre las 326 del Sopar del Soci (20-09-2026):** el discriminante bueno es `ISOSetting`, o sea si el ISO estaba **fijo** o en **Auto**. Con flash va fijo por necesidad (si flota, cada foto expone el destello distinto), y sin flash va en Auto. Separó las 326 sin una sola ambigüedad.
+
+Ojo con dar por buena una huella teórica: la prevista para esa noche era `1/160` + `ISO 400` + `WB Flash`, y la real acabó siendo **ISO fijo 1600** con `WB Auto` y velocidades de 1/125 a 1/250. **La huella se lee del EXIF de cada sesión, no se asume.**
 
 ## Herramientas: entorno ya montado (17-09-2026)
 
@@ -46,7 +50,7 @@ Todo instalado y verificado. Nada de esto depende de Adobe.
 
 | Herramienta | Versión | Para qué | Cómo se llama |
 |---|---|---|---|
-| `darktable-cli` | 5.6.1 | aplicar presets `.xmp` por lotes a RAW | `darktable-cli` (enlace creado en `/opt/homebrew/bin` que apunta dentro de darktable.app) |
+| `darktable-cli` | 5.6.1 | aplicar estilos `.dtstyle` por lotes a RAW | `darktable-cli` (**wrapper** en `/opt/homebrew/bin`, no un symlink: ver notas sueltas) |
 | `exiftool` | 13.55 | leer/escribir metadatos EXIF, IPTC, XMP | `exiftool` |
 | `vips` | 8.18.6 | procesado rápido de archivos grandes, redimensionado, conversión | `vips`, `vipsthumbnail` |
 | `rawpy` | 0.27.1 (LibRaw 0.22.1) | decodificar RAW desde Python | dentro del entorno `~/.venvs/foto` |
@@ -85,11 +89,17 @@ Instalar algo más ahí dentro:
 ### Notas sueltas
 
 - `vips` lee RAW de Sony (`.arw`) directamente vía dcraw, además de `.cr2`, `.cr3`, `.nef`, `.dng` y prácticamente cualquier otro formato de cámara.
-- `darktable-cli` no venía en el PATH porque darktable lo esconde dentro del `.app`. El enlace lo arregla. Si algún día actualizas darktable y deja de funcionar, se rehace con:
+- **Corregido el 20-09-2026: el enlace simbólico rompía `darktable-cli`.** Daba `cannot find disk storage module` y no exportaba nada. La causa es que darktable localiza sus módulos con una ruta relativa a `argv[0]`, y a través de un symlink en `/opt/homebrew/bin` busca donde no están. **Un `ln -sf` no vale aquí**; hace falta un wrapper que llame al binario real:
+
   ```bash
-  ln -sf /Applications/darktable.app/Contents/MacOS/darktable-cli /opt/homebrew/bin/darktable-cli
+  cat > /opt/homebrew/bin/darktable-cli <<'EOF'
+  #!/bin/sh
+  exec /Applications/darktable.app/Contents/MacOS/darktable-cli "$@"
+  EOF
+  chmod +x /opt/homebrew/bin/darktable-cli
   ```
-- Aún sin probar sobre un RAW real: no hay ningún `.ARW` en el Mac ahora mismo. La primera sesión de fotos sirve de banco de pruebas.
+
+  Comprobación rápida de que va: `darktable-cli foto.ARW /tmp/x.jpg --width 2000 --core --disable-opencl` debe terminar con `[export_job] exported to ...`.
 
 ## ¿Hace falta construir el look en darktable, o se puede desde referencias o instrucciones?
 
@@ -126,8 +136,47 @@ Editar el `.xmp` a mano. Los parámetros de cada módulo van codificados en base
 
 Claude puede generar la LUT, pero no puede ver si el resultado deja las pieles verdosas: sin pantalla calibrada y viendo las imágenes a baja resolución, el color lo valido yo.
 
+## Cadena verificada sobre RAW real (20-09-2026)
+
+Primera prueba de verdad, sobre `AGU01871.ARW` del Sopar del Soci. Las cuatro herramientas funcionan, con una avería encontrada y arreglada (ver arriba).
+
+| Herramienta | Resultado | Tiempo por foto |
+|---|---|---|
+| `rawpy` | decodifica el `.ARW` sin problema (`half_size`, balance de cámara) | **1,3 s** |
+| `darktable-cli` | **estaba roto**, arreglado con wrapper. Revela y exporta | **5 s** |
+| `vips` | lee `.ARW` directamente, y redimensiona un JPG ya revelado | **0,12 s** |
+| `exiftool` | escribe `Copyright` y `Artist` sobre el JPG exportado | instantáneo |
+
+Escala estimada para una entrega de 326 fotos, en un solo hilo: **~7 min** de medición con rawpy y **~27 min** de revelado con darktable-cli. El revelado se paraleliza por lotes.
+
+## Banco de pruebas: CTNSC Sopar del Soci (326 fotos)
+
+La sesión de [[Resources/Photo-Video/Sesiones/sopar-del-soci-ctnsc]] es el caso de prueba, porque tiene las dos condiciones de luz bien separadas y la nota ya registra el resultado esperado, así que sirve de control.
+
+### El triaje por huella de EXIF funciona y es instantáneo
+
+La nota de la sesión avisa de que **el flash no se puede detectar por EXIF** (el Godox es la versión de Fujifilm y la cámara no registra que hay flash montado). La alternativa es la huella del perfil, y sobre las 326 fotos separa perfecto:
+
+| Config | Huella | Fotos | Tramo |
+|---|---|---|---|
+| **A · reportaje ambiente** | ISO **Auto** + 1/100 | **98** | 19:59-20:29 |
+| **B · premios con flash** | ISO **fijo 1600** | **228** | 20:32-22:19 |
+
+Las 98 de ISO Auto son exactamente las 98 a 1/100: **cero fotos ambiguas**, y los dos bloques salen contiguos en el tiempo. Coste: **8 segundos** de `exiftool` sobre las 326.
+
+> [!important] Por qué este es el primer paso del flujo, y no el revelado
+> Revelar 326 fotos con un solo look es el error de calidad más caro que se puede cometer en lotes, porque ambiente a ISO Auto y flash directo a ISO 1600 necesitan tratamientos distintos de ruido, contraste y balance. El triaje es lo que convierte "un lote de 326" en "dos lotes coherentes", y sin él los pasos siguientes no pueden ser buenos.
+>
+> Además no tiene criterio visual dentro: es determinista, auditable y se comprueba contra lo que ya dice la nota de la sesión.
+
 ## Siguiente paso
 
-Para dimensionar cuánto del proceso actual es criterio y cuánto es trabajo mecánico automatizable, hace falta definir: qué cámara, en qué programa revelo ahora, y cómo es una entrega típica (cuántas fotos, qué formatos pide el cliente).
+Orden previsto, de menos a más riesgo:
+
+1. **Triaje por EXIF** → dos carpetas o dos listas, A y B. *(probado, funciona)*
+2. **Culling asistido**: nitidez por varianza del laplaciano con `rawpy` + detección de ráfagas casi idénticas. Propone descartes en una carpeta aparte, **no borra nada**.
+3. **Dos estilos de revelado**, uno por bloque, construidos a mano en darktable sobre 5-10 fotos de referencia y exportados como `.dtstyle`. Aquí es donde entra el ojo.
+4. **Revelado por lotes** con `darktable-cli --style`, un estilo por bloque.
+5. **Entrega**: tamaños con `vips`, metadatos con `exiftool`.
 
 Plan: convertir todo esto en una **skill de Claude** dedicada a esta área, una vez el flujo esté probado sobre una entrega real. La skill documentada irá en `Areas/Claude/Skills/` según la convención del vault.
