@@ -179,22 +179,81 @@ Girar el dial fuera y volver a cada hueco, y verificar que recupera lo esperado.
 
 Una pieza de 30/60 s para redes se monta casi siempre sobre música, así que el micro interno vale. Aun así, grabar ambiente y **no hablar cerca de la cámara mientras rueda**.
 
-## Después de la sesión (20-09-2026, pendiente de cerrar)
+## Después de la sesión (20-09-2026)
 
-**Solo se hizo Valencia. La sesión de Barcelona no llegó a hacerse.**
-
-Material a respaldar, en dos tarjetas:
+**Solo se hizo Valencia. La sesión de Barcelona no llegó a hacerse.** La boda es de **Fran y Elena**, en Valencia.
 
 | Tarjeta | Contenido | Carpeta de destino | Estado |
 |---|---|---|---|
-| **32 GB** | fotos de la boda | `2026-09-19 - Los Antonios - Boda Fran y Elena Valencia` | pendiente de copia + checksum |
+| **32 GB** | 83 RAW + 83 JPG | `2026-09-19 - Los Antonios - Boda Fran y Elena Valencia` | **copiada y verificada 20-09**, 166 MD5 idénticos |
 | **64 GB** | vídeos + fotos | misma carpeta, o `... (vídeo)` si conviene separarlos | pendiente, se conecta después |
 
-La boda es de **Fran y Elena**, en Valencia.
+La tarjeta de 32 GB traía además `DCIM/10060918` con las 998 fotos del 18-09. Ya estaban respaldadas en las tres carpetas de aquel día (Cosentino 48 + Rodri 298 + CTNSC 652 = 998, rango `AGU01380`..`AGU01878` sin huecos), así que no se volvieron a copiar. **La tarjeta se puede formatear.**
 
-Pendiente también: **auditoría de EXIF** para ver en qué momento se dejaron de usar los diales registrados. Aviso del propio usuario: siguió los esquemas al principio pero es posible que cambiara a otros ajustes sobre la marcha, **sobre todo conforme caía el sol y anochecía en exterior**.
+Dato confirmado en cámara: **no hay ISO 50 en modo vídeo**, así que el plan B quedó en 1/100 + f/16 a pleno sol.
 
-Dato ya confirmado en cámara: **no hay ISO 50 en modo vídeo**, así que el plan B quedó en 1/100 + f/16 a pleno sol.
+## Auditoría de EXIF (20-09-2026)
+
+83 fotos, `AGU01879`..`AGU01961`, de **16:49 a 20:29**. Todas con el FE 28-70, todas en `M`, compensación de exposición a 0, balance de blancos en Auto, disparo Single. **El flash no disparó ni una sola vez.**
+
+### Qué hueco de dial se usó y cuándo
+
+El **techo de ISO Auto** y el **Creative Style** son la huella que identifica cada hueco, porque se guardan dentro del perfil y no se tocan sobre la marcha. Con eso la sesión se parte en cuatro bloques limpios:
+
+| Bloque | Hora | Fotos | Huella EXIF | Qué es |
+|---|---|---|---|---|
+| **A** | 16:49-18:51 | 43 | ISO Auto, máx 25600, Standard | **Foto 2** |
+| **B** | 18:57-18:59 | 9 | ISO Auto, máx 25600, Standard | **Foto 2**, velocidad subida a mano |
+| **C** | 19:33-19:42 | 23 | **ISO fijo, máx 6400, Neutral** | **Foto 1 sin re-registrar** |
+| **D** | 20:14-20:29 | 8 | ISO Auto, máx 25600, Standard | **Foto 2** |
+
+> [!warning] Los dos hallazgos
+> **1. Foto 3 no se usó nunca.** Cero fotos a 1/250 y cero a f/8 en las 83. El perfil del sol de Valencia no llegó a entrar, porque la sesión arrancó a las 16:49 y no a mediodía.
+>
+> **2. El hueco Foto 1 nunca se re-registró.** La nota lo marcaba como "re-registrar" y se quedó sin hacer. Al girar el dial al `1` a las 19:33 salió la configuración de la cena del CTNSC del 18-09: ISO fijo, techo de ISO Auto en 6400 y Creative Style **Neutral**. Se confirma comparando con `AGU01871`..`AGU01878` de aquella noche, que tienen esa huella exacta.
+
+Efecto colateral del segundo: **22 fotos de la boda salen en Neutral** y las otras 61 en Standard, así que hay que igualar el perfil al revelar. (`AGU01937`, a las 19:35, es la única del bloque C en Standard: un vistazo suelto al hueco 2 y vuelta.)
+
+### Consistencia de exposición
+
+Medido sobre el **brillo medio real del JPG de cámara**, no sobre el tag `BrightnessValue` (que con ISO fijo da lecturas que no cuadran). 0 = negro, 1 = blanco:
+
+| Bloque | Brillo medio | Dispersión | Fotos fuera de rango |
+|---|---|---|---|
+| A 16:49-18:51 | 0,418 | 0,052 | **0** de 43 |
+| B 18:57-18:59 | 0,290 | 0,016 | **0** de 9 |
+| **C 19:33-19:42** | 0,266 | **0,160** | **7** de 23 |
+| D 20:14-20:29 | 0,217 | 0,065 | 1 de 8 |
+
+*(fuera de rango = brillo < 0,15 o > 0,65)*
+
+**El bloque C es el problema, y no por estar oscuro sino por ser inconsistente.** Su dispersión triplica la del resto. Con el ISO clavado a mano (1600 → 800 → 640) mientras la luz caía, cada corrección llegaba tarde: van desde `AGU01952` casi negra (0,013) hasta una quemada a 0,809. **Seis de las diez fotos más oscuras de toda la boda están en esos nueve minutos.**
+
+Los bloques A y B no tienen **ni una sola** foto fuera de rango. El ISO Auto con techo aguantó bien incluso de noche: en D tocó el límite de 25600 en cuatro fotos y aún así mantuvo la dispersión baja.
+
+### El obturador dentro de Foto 2
+
+Dentro del hueco 2 la velocidad sí se movió a mano, que es lo normal (el perfil da el punto de partida):
+
+| Hora | Vel. | Fotos |
+|---|---|---|
+| 16:49-16:50 | 1/400 | 3 |
+| 16:59-17:19 | 1/500 | 8 |
+| **17:21-18:51** | **1/100** | **31 seguidas** |
+| 18:57-18:59 | 1/160 | 9 |
+| 20:14-20:29 | 1/100 | 8 |
+
+A las **18:57**, con el sol ya bajo y el ISO Auto en 5000, la velocidad subió de 1/100 a 1/160. Son 2/3 de paso de luz que el ISO tuvo que compensar justo cuando menos margen quedaba, y se ve en los datos: pasa a 6400-8000 en las nueve fotos siguientes. Salieron bien expuestas, pero con más ruido del necesario.
+
+El tramo de **31 fotos seguidas a 1/100 entre las 17:21 y las 18:51**, sin tocar nada, es el más limpio de la sesión entera.
+
+### Para la próxima
+
+1. **Re-registrar los huecos marcados como "re-registrar" antes de salir de casa**, no sobre la marcha. Es el fallo que salió más caro de los tres.
+2. **Comprobar el Creative Style dentro de cada hueco**, no solo velocidad, diafragma e ISO. Es el ajuste que se cuela sin avisar y luego obliga a igualar en revelado.
+3. **Al anochecer la velocidad baja, no sube.** Si hace falta congelar movimiento, abrir el diafragma antes que subir el obturador.
+4. **Con luz cambiante, ISO Auto con techo ganó al ISO manual** por goleada (dispersión 0,05 frente a 0,16). El ISO fijo tiene sentido con flash, donde la exposición la manda el destello; sin flash y con la luz cayéndose es una trampa.
+5. La comprobación final que ya recoge la nota (girar el dial fuera y volver a cada hueco) habría cazado lo de Foto 1 en diez segundos. **Hacerla.**
 
 ### Cómo se hace la copia
 
