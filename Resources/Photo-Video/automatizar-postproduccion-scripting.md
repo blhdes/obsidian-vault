@@ -298,6 +298,27 @@ Lee como has dejado las carpetas y:
 
 Probado de punta a punta: con 10 fotos rescatadas de `2-revisar` y el resto descartadas, sale 282 en seleccion y 44 descartadas, las 326 contabilizadas.
 
+### Resultado real del primer pase completo (20-09-2026)
+
+Las 326 del Sopar del Soci pasadas por el flujo entero, con el repaso hecho en `revisar.py`:
+
+| | Propuesta automatica | Despues de tu repaso |
+|---|---|---|
+| seleccion | 272 | **291** |
+| descartadas | 3 | **35** |
+| a revisar | 51 | 0 |
+
+**Donde te apartaste de la maquina:** rescataste **24** de las que estaban en `2-revisar`, y **descartaste 5 que la maquina habia dado por buenas** y puesto en `1-seleccion`.
+
+Esas 5 son el dato interesante. Confirman que la banda de *seleccion* no es una decision cerrada sino un punto de partida, y que merece la pena pasar el ojo tambien por ahi. Ninguna medida automatica iba a cazarlas: no eran blandas ni casi-duplicadas, simplemente no valian.
+
+Tiempo total de maquina para las 326: ~8 s de triaje + ~4,5 min de medicion. El repaso manual, 51 fotos en 49 pantallas.
+
+> [!note] Los bloques 01 y 02 comparten estilo de revelado
+> El triaje los separa porque tienen distinto `CreativeStyle` (Neutral / Standard), y eso delata un cambio de hueco de dial. Pero **el Creative Style solo afecta al JPG de camara: en el RAW es un metadato que darktable ignora**. Los dos bloques son la misma condicion de luz (ambiente, ISO Auto, 1/100), asi que a la hora de revelar van con **el mismo estilo**.
+>
+> O sea que aqui hay **dos estilos que construir, no tres**: uno para ambiente (81 fotos) y otro para flash (210).
+
 ### Lo que sigue sin poder hacer
 
 Todo lo anterior mide, no mira. Que una foto este enfocada no la hace buena: la expresion, el momento y el encuadre no se miden. Por eso la banda *revisar* existe y por eso el descarte es deliberadamente timido.
@@ -308,9 +329,9 @@ Orden previsto, de menos a más riesgo:
 
 1. ~~**Triaje por EXIF**~~ → `triaje.py`. **Hecho.**
 2. ~~**Culling asistido**~~ → `culling.py`. **Hecho.**
-3. **Repasar `03-culling/2-revisar/` con `revisar.py`** (51 fotos, 49 pantallas) hasta dejarla vacia, y ojear las 3 de descartadas. El criterio es tuyo; la app solo lo hace rapido. Luego `consolidar.py`.
-4. **Dos estilos de revelado**, uno por bloque, construidos a mano en darktable sobre 5-10 fotos de referencia y exportados como `.dtstyle`. Aqui es donde entra el ojo.
-5. **Revelado por lotes** con `darktable-cli --style`, un estilo por bloque. A 5-7 s por foto son unos 25 min para 272, y se paraleliza.
+3. ~~**Repasar `2-revisar` con `revisar.py`**~~ y ~~`consolidar.py`~~. **Hecho:** 291 RAW listos en `04-para-revelar/`.
+4. **Dos estilos de revelado** (ambiente y flash, ver nota de arriba), construidos a mano en darktable sobre 5-10 fotos de referencia de cada uno y exportados como `.dtstyle`. **Aqui es donde entra el ojo, y es el siguiente paso.**
+5. **Revelado por lotes** con `darktable-cli --style`. A 5-7 s por foto son unos 25-30 min para las 291, y se paraleliza.
 6. **Entrega**: tamanos con `vips`, metadatos con `exiftool`.
 
 Plan: convertir todo esto en una **skill de Claude** dedicada a esta área, una vez el flujo esté probado sobre una entrega real. La skill documentada irá en `Areas/Claude/Skills/` según la convención del vault.
