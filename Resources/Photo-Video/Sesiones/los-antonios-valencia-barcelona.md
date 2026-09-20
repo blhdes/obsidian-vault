@@ -179,6 +179,27 @@ Girar el dial fuera y volver a cada hueco, y verificar que recupera lo esperado.
 
 Una pieza de 30/60 s para redes se monta casi siempre sobre música, así que el micro interno vale. Aun así, grabar ambiente y **no hablar cerca de la cámara mientras rueda**.
 
-## Después de la sesión
+## Después de la sesión (20-09-2026, pendiente de cerrar)
 
-Rellenar aquí qué se usó de verdad y qué falló, como en [[Resources/Photo-Video/Sesiones/sopar-del-soci-ctnsc]].
+**Solo se hizo Valencia. La sesión de Barcelona no llegó a hacerse.**
+
+Material a respaldar, en dos tarjetas:
+
+| Tarjeta | Contenido | Estado |
+|---|---|---|
+| **32 GB** | fotos de la boda | pendiente de copia + checksum |
+| **64 GB** | vídeos + fotos | pendiente, se conecta después |
+
+Pendiente también: **auditoría de EXIF** para ver en qué momento se dejaron de usar los diales registrados. Aviso del propio usuario: siguió los esquemas al principio pero es posible que cambiara a otros ajustes sobre la marcha, **sobre todo conforme caía el sol y anochecía en exterior**.
+
+Dato ya confirmado en cámara: **no hay ISO 50 en modo vídeo**, así que el plan B quedó en 1/100 + f/16 a pleno sol.
+
+### Cómo se hace la copia
+
+Convención de carpeta: `<YYYY-MM-DD> - <Cliente> - <Descripción>` dentro de
+`~/Library/CloudStorage/OneDrive-FF8/photo and video/`.
+
+Copiar con **`cp`, nunca `rsync`** (macOS le deniega escribir en CloudStorage), verificar MD5 origen contra destino y dejar el manifiesto en `checksums-md5.txt` dentro de la carpeta.
+
+> [!warning] Si aparece "Operation not permitted" sobre la tarjeta o sobre OneDrive
+> Suele significar que **Claude Code se ha actualizado mientras la sesión estaba abierta**. macOS valida el permiso contra el binario firmado, y si ese binario ya no está en disco la comprobación falla. **Solución: reiniciar Claude Code.** No hace falta tocar Full Disk Access.
