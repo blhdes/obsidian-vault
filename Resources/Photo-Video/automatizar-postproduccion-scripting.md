@@ -169,14 +169,77 @@ Las 98 de ISO Auto son exactamente las 98 a 1/100: **cero fotos ambiguas**, y lo
 >
 > Además no tiene criterio visual dentro: es determinista, auditable y se comprueba contra lo que ya dice la nota de la sesión.
 
+## Los scripts (20-09-2026)
+
+Viven en `~/Pictures/Postpro/bin/` y se llaman con el Python del entorno de foto:
+
+```bash
+~/.venvs/foto/bin/python ~/Pictures/Postpro/bin/triaje.py "<carpeta de OneDrive>"
+~/.venvs/foto/bin/python ~/Pictures/Postpro/bin/culling.py "<carpeta de trabajo>"
+```
+
+### La regla que los gobierna: no se pierde nada
+
+Los dos scripts comparten las mismas salvaguardas, y conviene mantenerlas en todo lo que venga despues:
+
+- **La carpeta de OneDrive es de solo lectura.** Es el archivo verificado con checksums. Ningun script escribe, mueve ni borra dentro de ella. `triaje.py` aborta si le pides que trabaje dentro del origen.
+- **Todo lo que producen son enlaces simbolicos**, asi que organizar 326 fotos en carpetas cuesta 0 bytes y no duplica los 13 GB.
+- **Al limpiar una ejecucion anterior solo borran enlaces.** Si encuentran un archivo real donde esperaban un enlace, se paran y avisan.
+- **Verificacion obligatoria al final**: cada foto tiene que aparecer exactamente una vez. Si falta o se repite alguna, el script sale con error.
+- Comprobado: tras pasar los dos scripts, **los 652 archivos del origen siguen con el mismo MD5**.
+
+### Estructura que queda en el area de trabajo
+
+```
+~/Pictures/Postpro/<nombre de la sesion>/
+  00-manifiesto.csv      EXIF completo de cada foto + bloque asignado
+  00-triaje.log
+  01-triaje/             enlaces, una carpeta por bloque de dial
+  02-medidas.csv         cache de nitidez/exposicion/hash
+  03-culling/
+    1-seleccion/
+    2-revisar/           <- lo dudoso, lo decides tu
+    3-propuesta-descarte/
+    03-decisiones.csv
+    03-culling.log
+```
+
+### Por que el culling propone tres bandas y no dos
+
+La primera version decidia entre *seleccion* y *descarte* con un solo umbral, y el resultado destapo el problema: en el bloque de flash, **dos de las seis fotos marcadas como borrosas estaban al 98% del umbral**. Eso no es una foto borrosa, es un corte arbitrario donde la distribucion es continua.
+
+Con tres bandas la maquina solo afirma lo que puede medir:
+
+| Banda | Criterio | Sopar del Soci |
+|---|---|---|
+| **descarte** | nitidez < 0,25 x la mediana del bloque | **3** |
+| **revisar** | nitidez < 0,45 x la mediana, o casi identica a otra de la misma rafaga | **51** |
+| **seleccion** | el resto | **272** |
+
+Las tres de descarte estan al 27%, 29% y por debajo: esas si son borrosas de verdad. Las 51 de revisar se miran en un par de minutos.
+
+**Las medidas se cachean en `02-medidas.csv`**, asi que reajustar los umbrales cuesta **0,4 s** en vez de los 263 s que tarda decodificar los 326 RAW. Con `--remedir` se fuerza el recalculo.
+
+### Detalles de como mide
+
+- **Nitidez**: varianza del laplaciano, pero partiendo la foto en una rejilla 4x4 y quedandose con **la media de los dos mejores trozos**. La varianza global castigaria el desenfoque de fondo buscado; asi la pregunta que responde es "hay algo enfocado en esta foto", que es la correcta.
+- **Umbrales por bloque**, nunca globales: una foto a ISO 1600 con flash y una de ambiente a ISO Auto no tienen la misma textura de ruido.
+- **Rafagas**: se agrupan fotos consecutivas con menos de 20 s de diferencia **y** un dHash a distancia <= 6. En esta sesion salieron 266 fotos sueltas, 27 parejas y 2 tercetos, coherente con haber disparado en Single.
+- **Avisos** (luces quemadas > 5%, muy oscura): se anotan pero **no descartan por si solos**. Aqui salieron 3.
+
+### Lo que sigue sin poder hacer
+
+Todo lo anterior mide, no mira. Que una foto este enfocada no la hace buena: la expresion, el momento y el encuadre no se miden. Por eso la banda *revisar* existe y por eso el descarte es deliberadamente timido.
+
 ## Siguiente paso
 
 Orden previsto, de menos a más riesgo:
 
-1. **Triaje por EXIF** → dos carpetas o dos listas, A y B. *(probado, funciona)*
-2. **Culling asistido**: nitidez por varianza del laplaciano con `rawpy` + detección de ráfagas casi idénticas. Propone descartes en una carpeta aparte, **no borra nada**.
-3. **Dos estilos de revelado**, uno por bloque, construidos a mano en darktable sobre 5-10 fotos de referencia y exportados como `.dtstyle`. Aquí es donde entra el ojo.
-4. **Revelado por lotes** con `darktable-cli --style`, un estilo por bloque.
-5. **Entrega**: tamaños con `vips`, metadatos con `exiftool`.
+1. ~~**Triaje por EXIF**~~ → `triaje.py`. **Hecho.**
+2. ~~**Culling asistido**~~ → `culling.py`. **Hecho.**
+3. **Repasar a mano la carpeta `2-revisar`** (51 fotos) y las 3 de descarte. Es el unico paso que no se puede automatizar y hay que hacerlo antes de revelar.
+4. **Dos estilos de revelado**, uno por bloque, construidos a mano en darktable sobre 5-10 fotos de referencia y exportados como `.dtstyle`. Aqui es donde entra el ojo.
+5. **Revelado por lotes** con `darktable-cli --style`, un estilo por bloque. A 5-7 s por foto son unos 25 min para 272, y se paraleliza.
+6. **Entrega**: tamanos con `vips`, metadatos con `exiftool`.
 
 Plan: convertir todo esto en una **skill de Claude** dedicada a esta área, una vez el flujo esté probado sobre una entrega real. La skill documentada irá en `Areas/Claude/Skills/` según la convención del vault.
