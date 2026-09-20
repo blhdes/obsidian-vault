@@ -174,8 +174,10 @@ Las 98 de ISO Auto son exactamente las 98 a 1/100: **cero fotos ambiguas**, y lo
 Viven en `~/Pictures/Postpro/bin/` y se llaman con el Python del entorno de foto:
 
 ```bash
-~/.venvs/foto/bin/python ~/Pictures/Postpro/bin/triaje.py "<carpeta de OneDrive>"
-~/.venvs/foto/bin/python ~/Pictures/Postpro/bin/culling.py "<carpeta de trabajo>"
+~/.venvs/foto/bin/python ~/Pictures/Postpro/bin/triaje.py     "<carpeta de OneDrive>"
+~/.venvs/foto/bin/python ~/Pictures/Postpro/bin/culling.py    "<carpeta de trabajo>"
+~/.venvs/foto/bin/python ~/Pictures/Postpro/bin/revisar.py    "<carpeta de trabajo>"   # app visual
+~/.venvs/foto/bin/python ~/Pictures/Postpro/bin/consolidar.py "<carpeta de trabajo>"
 ```
 
 ### La regla que los gobierna: no se pierde nada
@@ -193,39 +195,108 @@ Los dos scripts comparten las mismas salvaguardas, y conviene mantenerlas en tod
 ```
 ~/Pictures/Postpro/<nombre de la sesion>/
   00-manifiesto.csv      EXIF completo de cada foto + bloque asignado
-  00-triaje.log
-  01-triaje/             enlaces, una carpeta por bloque de dial
+  01-triaje/             enlaces a los RAW, una carpeta por bloque de dial
   02-medidas.csv         cache de nitidez/exposicion/hash
-  03-culling/
+  03-culling/            <- aqui trabajas tu, con enlaces a los JPG
+    LEEME.txt
     1-seleccion/
-    2-revisar/           <- lo dudoso, lo decides tu
-    3-propuesta-descarte/
+    2-revisar/a-nitidez-dudosa/
+    2-revisar/b-casi-iguales/
+    3-descartadas/
     03-decisiones.csv
-    03-culling.log
+  04-para-revelar/       enlaces a los RAW de la seleccion, por bloque
 ```
 
-### Por que el culling propone tres bandas y no dos
+> [!important] El culling enlaza los JPG, no los RAW
+> Medir se hace sobre el **RAW**, que es lo honesto: sin el nitidado ni la reduccion de ruido que la camara aplica al JPG. Pero **previsualizar** un `.ARW` en Finder tarda segundos por foto, y repasar 300 asi es inviable.
+>
+> Asi que: **se mide el RAW y se enlaza el JPG hermano**. Abren al instante con la barra espaciadora y se pasan con las flechas. El RAW se recupera despues por el nombre, que es el mismo. De eso se encarga `consolidar.py`.
 
-La primera version decidia entre *seleccion* y *descarte* con un solo umbral, y el resultado destapo el problema: en el bloque de flash, **dos de las seis fotos marcadas como borrosas estaban al 98% del umbral**. Eso no es una foto borrosa, es un corte arbitrario donde la distribucion es continua.
+### El flujo de trabajo: tres carpetas y una regla
 
-Con tres bandas la maquina solo afirma lo que puede medir:
+La parte automatica deja una **propuesta**. Lo que tu haces es corregirla moviendo enlaces entre carpetas en Finder.
 
-| Banda | Criterio | Sopar del Soci |
+| Carpeta | Que hay | Que haces |
 |---|---|---|
-| **descarte** | nitidez < 0,25 x la mediana del bloque | **3** |
-| **revisar** | nitidez < 0,45 x la mediana, o casi identica a otra de la misma rafaga | **51** |
-| **seleccion** | el resto | **272** |
+| `1-seleccion/` | lo que va a revelado | nada, salvo sacar algo que no te guste |
+| `2-revisar/` | lo que la maquina no se atreve a juzgar | **dejarla vacia**: cada foto va a 1 o a 3 |
+| `3-descartadas/` | borrosas de verdad | ojear por encima, rescatar si algo se salva |
 
-Las tres de descarte estan al 27%, 29% y por debajo: esas si son borrosas de verdad. Las 51 de revisar se miran en un par de minutos.
+Dentro de `2-revisar/` hay dos motivos distintos, porque se repasan de forma distinta:
 
-**Las medidas se cachean en `02-medidas.csv`**, asi que reajustar los umbrales cuesta **0,4 s** en vez de los 263 s que tarda decodificar los 326 RAW. Con `--remedir` se fuerza el recalculo.
+- **`a-nitidez-dudosa/`** — salen algo blandas al medirlas pero no lo bastante para tirarlas solas. Se miran una a una.
+- **`b-casi-iguales/`** — cada una tiene otra foto casi identica a segundos de distancia. **La mas nitida de cada pareja ya esta en `1-seleccion/`**; estas son las otras. Si la expresion es mejor en esta, la mueves tu y mandas la otra a descartadas. La columna `ParejaDe` del CSV dice con cual va.
 
-### Detalles de como mide
+La regla es una sola: **`2-revisar/` tiene que acabar vacia.**
 
-- **Nitidez**: varianza del laplaciano, pero partiendo la foto en una rejilla 4x4 y quedandose con **la media de los dos mejores trozos**. La varianza global castigaria el desenfoque de fondo buscado; asi la pregunta que responde es "hay algo enfocado en esta foto", que es la correcta.
-- **Umbrales por bloque**, nunca globales: una foto a ISO 1600 con flash y una de ambiente a ISO Auto no tienen la misma textura de ruido.
-- **Rafagas**: se agrupan fotos consecutivas con menos de 20 s de diferencia **y** un dHash a distancia <= 6. En esta sesion salieron 266 fotos sueltas, 27 parejas y 2 tercetos, coherente con haber disparado en Single.
-- **Avisos** (luces quemadas > 5%, muy oscura): se anotan pero **no descartan por si solos**. Aqui salieron 3.
+Se puede hacer arrastrando enlaces en Finder, pero es mas rapido con `revisar.py` (abajo). Las instrucciones estan tambien en `LEEME.txt` dentro de la propia carpeta.
+
+### `revisar.py`: la app para vaciar `2-revisar`
+
+Repasar 51 fotos arrastrando enlaces en Finder funciona, pero tiene dos problemas serios:
+
+1. **En una vista ajustada a pantalla no se puede juzgar la nitidez.** Para eso hace falta zoom al 100%, y en Finder eso son varios clics por foto.
+2. **Para las casi-iguales tienes que ver las dos a la vez**, y estan en carpetas distintas (la mas nitida ya esta en `1-seleccion/`).
+
+La app resuelve las dos cosas. Es **Tkinter**, que viene con el Python del entorno, asi que no hay nada que instalar:
+
+```bash
+~/.venvs/foto/bin/python ~/Pictures/Postpro/bin/revisar.py "<carpeta de la sesion>"
+```
+
+#### Dos modos
+
+**CASI IGUALES** — Muestra **todas** las fotos del grupo lado a lado, no solo la candidata: recupera la que ya estaba en `1-seleccion/` usando la columna `Grupo` del CSV. Marcas con `1` `2` `3` con cuales te quedas (en verde) y confirmas con INTRO. Puedes quedarte con las dos, con una, o con ninguna.
+
+> [!important] El zoom es sincronizado
+> Al ampliar, **las dos o tres fotos se amplian al mismo punto a la vez**. Es lo que convierte "comparar dos fotos casi identicas" en algo de un segundo en vez de un ejercicio de memoria. Se pulsa `Z`, o se hace clic donde quieras mirar.
+
+**NITIDEZ DUDOSA** — La foto sola y grande, con el mismo zoom al 100%. `K` conserva, `X` descarta.
+
+#### Por grupo, no por pareja
+
+Lo pense como parejas y acabe haciendolo **por grupo**, porque en esta sesion habia **2 tercetos** ademas de 25 parejas, y un modelo de parejas los habria partido mal. Resultado: las 51 fotos se resuelven en **49 pantallas** (27 grupos + 22 sueltas).
+
+#### Teclas
+
+| | |
+|---|---|
+| `1` `2` `3` | marcar/desmarcar cada foto del grupo |
+| `INTRO` | confirmar el grupo |
+| `K` o `->` | conservar (modo suelta) |
+| `X` o `<-` | descartar (modo suelta) |
+| `Z` / clic | zoom 100%, clic elige el punto |
+| `S` | saltar, lo dejo para luego |
+| `U` | deshacer la ultima decision |
+| `Q` | salir |
+
+#### Detalles de diseno
+
+- **Cada decision se escribe en disco al momento.** Puedes cerrar la app a media faena y retomar: al arrancar lee **donde estan las fotos ahora**, no lo que decia el CSV, asi que da igual si has movido cosas a mano en Finder entre medias.
+- **Solo mueve enlaces** dentro de `03-culling/`, con `os.rename`. Si encuentra un archivo real donde esperaba un enlace, se para.
+- **Deshacer real**: cada confirmacion guarda los movimientos y `U` los revierte.
+- Las marcas vienen **preseleccionadas con la propuesta automatica**, asi que si estas de acuerdo basta con pulsar INTRO.
+- Precarga la siguiente pantalla en un hilo aparte. Los JPG de camara son de 8,2 MP y decodifican en **22 ms**, asi que va fluido.
+
+Probado en headless (cola, movimientos, deshacer y los tres modos de pintado) sobre las 326 del Sopar del Soci, con el estado restaurado despues.
+
+### `consolidar.py` cierra el ciclo
+
+Cuando `2-revisar/` esta vacia:
+
+```bash
+~/.venvs/foto/bin/python ~/Pictures/Postpro/bin/consolidar.py "<carpeta de la sesion>"
+```
+
+Lee como has dejado las carpetas y:
+
+- **Comprueba que estan las 326.** Si falta alguna o alguna aparece dos veces, se para y lo dice.
+- **Se niega a seguir si queda algo en `2-revisar/`** (se salta con `--permitir-revisar`, que las trata como descartadas).
+- Avisa si Finder ha **copiado** en vez de mover algun enlace.
+- Traduce los JPG de `1-seleccion/` a sus **RAW**, y los deja en `04-para-revelar/`, **separados por bloque de luz**, mas un `.txt` con las rutas absolutas.
+- Dice **en que te has apartado de la propuesta**: cuantas rescataste y cuantas tiraste.
+
+Probado de punta a punta: con 10 fotos rescatadas de `2-revisar` y el resto descartadas, sale 282 en seleccion y 44 descartadas, las 326 contabilizadas.
 
 ### Lo que sigue sin poder hacer
 
@@ -237,7 +308,7 @@ Orden previsto, de menos a más riesgo:
 
 1. ~~**Triaje por EXIF**~~ → `triaje.py`. **Hecho.**
 2. ~~**Culling asistido**~~ → `culling.py`. **Hecho.**
-3. **Repasar a mano la carpeta `2-revisar`** (51 fotos) y las 3 de descarte. Es el unico paso que no se puede automatizar y hay que hacerlo antes de revelar.
+3. **Repasar `03-culling/2-revisar/` con `revisar.py`** (51 fotos, 49 pantallas) hasta dejarla vacia, y ojear las 3 de descartadas. El criterio es tuyo; la app solo lo hace rapido. Luego `consolidar.py`.
 4. **Dos estilos de revelado**, uno por bloque, construidos a mano en darktable sobre 5-10 fotos de referencia y exportados como `.dtstyle`. Aqui es donde entra el ojo.
 5. **Revelado por lotes** con `darktable-cli --style`, un estilo por bloque. A 5-7 s por foto son unos 25 min para 272, y se paraleliza.
 6. **Entrega**: tamanos con `vips`, metadatos con `exiftool`.
