@@ -247,6 +247,34 @@ A las **18:57**, con el sol ya bajo y el ISO Auto en 5000, la velocidad subió d
 
 El tramo de **31 fotos seguidas a 1/100 entre las 17:21 y las 18:51**, sin tocar nada, es el más limpio de la sesión entera.
 
+### Auditoría del vídeo (107 clips, 16,5 min)
+
+`C0360`..`C0466`, de **16:43 a 20:38**, media de 9 s por clip. Formato correcto y constante en los 107: **3840x2160, 25p, AVC140 4:2:2 10 bit, rec709**. Nada de S-Log3, como estaba planeado.
+
+**El plan B de vídeo duró un clip.** `C0360` es el único a **1/100 + f/16**. A partir de `C0361` y durante los 106 restantes la velocidad es **1/50**, o sea la regla de 180° correcta todo el rato. Con la sesión empezando a las 16:43 y no a mediodía, sobraba luz de menos y el plan B no hizo falta.
+
+**El diafragma hizo de ND**, que es exactamente lo que toca sin filtro:
+
+| Hora | f | ISO | WB |
+|---|---|---|---|
+| 16:43-16:52 | f/16 → f/9 | 100-200 | Daylight |
+| 17:20-18:13 | f/13 → f/5.6 | 100-200 | Daylight |
+| 18:20-18:34 | f/5 → f/3.5 | 200 | **Custom** |
+| 18:41-18:57 | f/4-5 | 400 → 1000 | Custom |
+| 19:08-19:32 | f/3.5-4.5 | 3200 → **8000** | Custom |
+| 20:30-20:38 | f/4-4.5 | 6400 | **Daylight** |
+
+Balance de blancos **siempre fijo, nunca en Auto**: la regla de la nota se cumplió sin fallo. Cambió a Custom sobre las 18:20 y volvió a Daylight en el último bloque de las 20:30.
+
+> [!warning] Dominante naranja fuerte a partir de las 19:14
+> Medida sobre las miniaturas de cámara, la relación R/B pasa de **1,0-1,3** (neutra, de día) a **9-10** desde `C0407`. El brillo medio baja a 0,15-0,21.
+>
+> Parte es la escena (puesta de sol más luz cálida del sitio) y parte es que el balance fijo no se volvió a tocar cuando la luz viró. No se puede separar una cosa de la otra solo con los datos, y varía mucho según lo que entra en cuadro (`C0444` da 2,9 y `C0466` da 9,1). Lo accionable: **en vídeo eso va cocido**, así que hay que corregirlo en el etalonaje y contar con ello al elegir planos para las piezas de 30 y 60 s.
+
+Detalle a favor: el ISO subió de forma escalonada y ordenada (100 → 200 → 400 → 500 → 1000 → 3200 → 6400 → 8000) sin los saltos erráticos que sí tuvo la foto entre las 19:33 y las 19:42.
+
+Hay un hueco de **58 minutos sin grabar** entre `C0443` (19:32) y `C0444` (20:30), el mismo parón que se ve en la foto entre las 19:42 y las 20:14.
+
 ### Para la próxima
 
 1. **Re-registrar los huecos marcados como "re-registrar" antes de salir de casa**, no sobre la marcha. Es el fallo que salió más caro de los tres.
@@ -254,6 +282,8 @@ El tramo de **31 fotos seguidas a 1/100 entre las 17:21 y las 18:51**, sin tocar
 3. **Al anochecer la velocidad baja, no sube.** Si hace falta congelar movimiento, abrir el diafragma antes que subir el obturador.
 4. **Con luz cambiante, ISO Auto con techo ganó al ISO manual** por goleada (dispersión 0,05 frente a 0,16). El ISO fijo tiene sentido con flash, donde la exposición la manda el destello; sin flash y con la luz cayéndose es una trampa.
 5. La comprobación final que ya recoge la nota (girar el dial fuera y volver a cada hueco) habría cazado lo de Foto 1 en diez segundos. **Hacerla.**
+6. **En vídeo, re-fijar el balance de blancos cuando la luz vire**, no solo al empezar. Fijarlo una vez y olvidarlo funcionó hasta la puesta de sol y dejó de funcionar después.
+7. El **ND variable de 55 mm** sigue en la lista, pero esta sesión demuestra que a partir de las 17:00 no hace falta: el diafragma solo ya cubrió el rango a 1/50.
 
 ### Cómo se hace la copia
 
