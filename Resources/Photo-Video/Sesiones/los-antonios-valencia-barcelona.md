@@ -185,10 +185,12 @@ Una pieza de 30/60 s para redes se monta casi siempre sobre música, así que el
 
 Material a respaldar, en dos tarjetas:
 
-| Tarjeta | Contenido | Estado |
-|---|---|---|
-| **32 GB** | fotos de la boda | pendiente de copia + checksum |
-| **64 GB** | vídeos + fotos | pendiente, se conecta después |
+| Tarjeta | Contenido | Carpeta de destino | Estado |
+|---|---|---|---|
+| **32 GB** | fotos de la boda | `2026-09-19 - Los Antonios - Boda Fran y Elena Valencia` | pendiente de copia + checksum |
+| **64 GB** | vídeos + fotos | misma carpeta, o `... (vídeo)` si conviene separarlos | pendiente, se conecta después |
+
+La boda es de **Fran y Elena**, en Valencia.
 
 Pendiente también: **auditoría de EXIF** para ver en qué momento se dejaron de usar los diales registrados. Aviso del propio usuario: siguió los esquemas al principio pero es posible que cambiara a otros ajustes sobre la marcha, **sobre todo conforme caía el sol y anochecía en exterior**.
 
