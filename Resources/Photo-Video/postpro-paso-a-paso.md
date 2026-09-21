@@ -27,6 +27,7 @@ La guía para repetir el proceso completo en cada entrega. Probada de punta a pu
 | 9 | Retoques de fotos concretas | **tú** + Claude | darktable + `darktable-cli --library` | según cuántas |
 | 10 | Elegir las que se entregan | **tú** | `seleccionar.py` | minutos |
 | 11 | Versiones de impresión y web | Claude | `entregar.py` | segundos |
+| 12 | Subir a Google Drive y sacar el enlace | Claude | `rclone` | segundos |
 
 ## Las reglas que no se tocan
 
@@ -196,6 +197,23 @@ $P $B/entregar.py "$S" --nombre "<Cliente-Sesion>"
 
 > [!note] Por qué sRGB también para imprimir
 > Si la imprenta no lo pide expresamente, sRGB es lo más seguro: un AdobeRGB abierto en un programa sin gestión de color se ve apagado. Y en tonos de piel, madera o piedra no se nota diferencia. Si lo piden, se revela otra vez desde el RAW con `--icc-type ADOBERGB`.
+
+### 12 · Enviar: Google Drive + enlace
+
+```bash
+N="<Cliente-Sesion>"
+for v in impresion web; do
+  rclone copy "$S/06-entrega/$N - $v" "gdrive:Entregas/$N/$N - $v"
+  rclone check "$S/06-entrega/$N - $v" "gdrive:Entregas/$N/$N - $v"   # MD5 local = Drive
+done
+rclone link "gdrive:Entregas/$N"    # enlace de solo lectura para el cliente
+```
+
+- El remoto `gdrive` apunta a **agomezurrea@gmail.com**, configurado el 21-09-2026 con permiso mínimo (`scope=drive.file`): rclone solo ve los archivos que ha subido él.
+- El enlace no caduca. Para retirarlo, borra la carpeta en Drive o quita el acceso público desde la web.
+
+> [!warning] Caduca en 2026: el `client_id` compartido de rclone
+> rclone avisa de que el acceso compartido que usa para hablar con Google deja de funcionar en algún momento de 2026. Para evitarlo hay que crear un `client_id` propio en Google Cloud: es gratis y se hace una sola vez, en ~10 min. Guía: https://rclone.org/drive/#making-your-own-client-id
 
 ## Referencia: lo usado hasta ahora
 
