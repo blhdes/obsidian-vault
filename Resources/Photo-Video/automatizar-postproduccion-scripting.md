@@ -178,7 +178,13 @@ Viven en `~/Pictures/Postpro/bin/` y se llaman con el Python del entorno de foto
 ~/.venvs/foto/bin/python ~/Pictures/Postpro/bin/culling.py    "<carpeta de trabajo>"
 ~/.venvs/foto/bin/python ~/Pictures/Postpro/bin/revisar.py    "<carpeta de trabajo>"   # app visual
 ~/.venvs/foto/bin/python ~/Pictures/Postpro/bin/consolidar.py "<carpeta de trabajo>"
+# anadidos el 21-09-2026, tras el revelado:
+~/.venvs/foto/bin/python ~/Pictures/Postpro/bin/seleccionar.py "<carpeta de trabajo>" --objetivo 6   # app visual
+~/.venvs/foto/bin/python ~/Pictures/Postpro/bin/entregar.py    "<carpeta de trabajo>" --nombre "<Cliente-Sesion>"
 ```
+
+> [!tip] Para repetir el proceso entero, la guía corta es [[Resources/Photo-Video/postpro-paso-a-paso]]
+> Esta nota explica el porqué. La guía dice qué comando va en cada paso y quién lo hace.
 
 ### La regla que los gobierna: no se pierde nada
 
@@ -205,6 +211,13 @@ Los dos scripts comparten las mismas salvaguardas, y conviene mantenerlas en tod
     3-descartadas/
     03-decisiones.csv
   04-para-revelar/       enlaces a los RAW de la seleccion, por bloque
+  estilos/               el .dtstyle exportado desde darktable
+  05-reveladas/          JPG revelados con darktable-cli (archivos reales)
+  06-entrega/
+    seleccion/           enlaces a las elegidas para el cliente (seleccionar.py)
+    <Nombre> - impresion/  tamano completo, copia exacta del revelado
+    <Nombre> - web/        2048 px, sin datos de camara
+    indice.csv           de que RAW sale cada archivo entregado
 ```
 
 > [!important] El culling enlaza los JPG, no los RAW
@@ -366,8 +379,12 @@ Orden previsto, de menos a más riesgo:
 1. ~~**Triaje por EXIF**~~ → `triaje.py`. **Hecho.**
 2. ~~**Culling asistido**~~ → `culling.py`. **Hecho.**
 3. ~~**Repasar `2-revisar` con `revisar.py`**~~ y ~~`consolidar.py`~~. **Hecho:** 291 RAW listos en `04-para-revelar/`.
-4. **Dos estilos de revelado** (ambiente y flash), construidos a mano en darktable y exportados como `.dtstyle`. Manual paso a paso: [[Resources/Photo-Video/darktable-crear-estilos]]. **Aqui es donde entra el ojo, y es el siguiente paso.**
-5. **Revelado por lotes** con `darktable-cli --style`. A 5-7 s por foto son unos 25-30 min para las 291, y se paraleliza.
-6. **Entrega**: tamanos con `vips`, metadatos con `exiftool`.
+4. **Estilos de revelado** construidos a mano en darktable y exportados como `.dtstyle`. Manual: [[Resources/Photo-Video/darktable-crear-estilos]].
+5. **Revelado por lotes** con `darktable-cli --style`.
+6. **Entrega**: elegir con `seleccionar.py`; tamaños con `vips` y metadatos con `exiftool`, los dos dentro de `entregar.py`.
 
-Plan: convertir todo esto en una **skill de Claude** dedicada a esta área, una vez el flujo esté probado sobre una entrega real. La skill documentada irá en `Areas/Claude/Skills/` según la convención del vault.
+**Estado (21-09-2026):** los pasos 4, 5 y 6 se estrenaron con la entrega más pequeña, [[Resources/Photo-Video/Sesiones/cosentino-retrato-carolina]] (17 fotos, un estilo). Es el **primer recorrido completo** del flujo, de la tarjeta a la entrega. Los tiempos reales, unos 12 s por foto a tamaño completo, están en [[Resources/Photo-Video/postpro-paso-a-paso]].
+
+**Pendiente:** los dos estilos del **Sopar del Soci** (ambiente y flash), que era el plan original de este paso.
+
+Plan: convertir todo esto en una **skill de Claude** dedicada a esta área. La condición era probarlo sobre una entrega real, y ya se ha cumplido. La skill documentada irá en `Areas/Claude/Skills/` según la convención del vault.
