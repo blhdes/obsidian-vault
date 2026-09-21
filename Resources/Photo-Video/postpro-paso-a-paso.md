@@ -192,7 +192,7 @@ $P $B/entregar.py "$S" --nombre "<Cliente-Sesion>"
 | `impresion/` | completo (7032×4688) | JPG q95 sRGB, **copia exacta** del revelado, sin recomprimir | autor, copyright, fecha y datos de cámara copiados del RAW |
 | `web/` | lado largo 2048 px | JPG q85 sRGB | solo autor, copyright y perfil de color |
 
-Los archivos se llaman `<Nombre>-01.jpg`, `-02`… en orden de disparo. `indice.csv` dice qué RAW hay detrás de cada uno. Si hay que rehacerlo, añade `--rehacer`: solo borra lo que el propio script generó.
+**Sin marcas de agua visibles**, por decisión propia: la firma va solo en los metadatos. Los archivos se llaman `<Nombre>-01.jpg`, `-02`… en orden de disparo. `indice.csv` dice qué RAW hay detrás de cada uno. Si hay que rehacerlo, añade `--rehacer`: solo borra lo que el propio script generó.
 
 > [!note] Por qué sRGB también para imprimir
 > Si la imprenta no lo pide expresamente, sRGB es lo más seguro: un AdobeRGB abierto en un programa sin gestión de color se ve apagado. Y en tonos de piel, madera o piedra no se nota diferencia. Si lo piden, se revela otra vez desde el RAW con `--icc-type ADOBERGB`.

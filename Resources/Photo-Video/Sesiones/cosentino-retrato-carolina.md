@@ -36,7 +36,7 @@ Las 24 fotos tienen exactamente la misma configuración, así que el triaje dio 
 | Culling + `revisar.py` | 3 más fuera: AGU01384, AGU01393 y AGU01397 (de cada pareja casi igual se quedó la más nítida) |
 | Reveladas | **17**, de AGU01385 a AGU01403, a tamaño completo en 3 min 21 s |
 | Retocadas a mano | **4**, de AGU01400 a AGU01403: la cara salía oscura por la mucha pared blanca del encuadre |
-| Entrega | *pendiente: selección con `seleccionar.py`* |
+| Entrega | **7 fotos**: AGU01385, 01386, 01388, 01389, 01390, 01396 y 01402, como `Cosentino-Carolina-01` a `-07`. Impresión a 7032×4688 y web a 2048 px, en `06-entrega/` |
 
 ## El estilo: `Cosentino Retratos Flash`
 
