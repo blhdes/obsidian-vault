@@ -95,7 +95,11 @@ $P $B/culling.py "$S"
 $P $B/revisar.py "$S"
 ```
 
-`1` `2` `3` marcan cuál te quedas de cada grupo y `INTRO` confirma. `K` conserva, `X` descarta, `Z` o clic hace zoom al 100 %, `U` deshace. La regla: `2-revisar/` tiene que acabar vacía.
+- **Grupos** (en cuadrícula, del tamaño que sean): `ESPACIO` o `K` marca la foto bajo el ratón, `1`-`9` por número, `INTRO` confirma. Clic la abre en grande; ahí `←` `→` pasan por el grupo **con el mismo zoom y punto**, para comparar el foco. `G` o `ESC` vuelve.
+- **Sueltas:** `K` conserva, `X` descarta.
+- **Siempre:** `Z` o clic hace zoom al 100 %; arrastrar o deslizar dos dedos mueve la foto. `U` deshace.
+
+La regla: `2-revisar/` tiene que acabar vacía.
 
 ### 5 · Consolidar
 
@@ -173,7 +177,9 @@ Se trabaja siempre sobre **una copia** del catálogo, para no tocar el de verdad
 
 **Tú, en darktable:**
 
-1. Importar los bloques de `04-para-revelar/`. Hacer un ajuste base en una foto y pegarlo a todas (*history stack → copy / paste*; en *selective copy*, solo los módulos tocados).
+1. Importar los bloques de `04-para-revelar/`. Hacer un ajuste base en una foto, **con los mismos módulos y en el mismo orden que en la ruta A** (paso 6.4: `exposure`, `color calibration`, `sigmoid`, `local contrast`), y pegarlo a todas (*history stack → copy / paste*; en *selective copy*, solo los módulos tocados).
+   > [!note] Hueco detectado el 22-09-2026
+   > En CTNSC este paso no enumeraba los módulos y `sigmoid` no se ajustó en el ajuste base: 86 de las 104 entregadas salieron con el contraste por defecto de darktable (1,5), y solo 18 se retocaron a mano (1,47-1,93). Cosentino quedó en 1,88 y Rodri en 1,76.
 2. **Segundo culling:** `R` rechaza la foto; `R` otra vez, `Cmd+Z` o `0` lo deshacen. Nunca *remove* ni *delete*.
 3. Ajustar cada foto que lo pida: `crop` (en *aspect*, `original image` mantiene el 3:2), `rotate and perspective` (clic derecho y arrastrar sobre una línea que debería ser recta), exposición, etc.
 4. **Cerrar darktable.** Y no abrirlo mientras Claude revela: bloquea la configuración y el revelado falla.
@@ -194,7 +200,7 @@ $P $B/seleccionar.py "$S" --objetivo 6
 |---|---|
 | `←` `→` | pasar foto |
 | `ESPACIO` o `K` | marcar o desmarcar (marco verde) |
-| `Z` o clic | zoom al 100 % en ese punto; `ESC` vuelve |
+| `Z` o clic | zoom al 100 % en ese punto; arrastrar o dos dedos mueve la foto; `ESC` vuelve |
 | `G` | cuadrícula con todas: sirve para ver el conjunto, sin dos casi iguales y con variedad de planos |
 | `E` | solo las elegidas, para recortar la lista |
 | `U` / `Q` | deshacer / salir |
@@ -249,7 +255,7 @@ rclone link "gdrive:Entregas/$N"    # enlace de solo lectura para el cliente
 | darktable (app) | donde se decide el look: se construye el estilo y se hacen los retoques puntuales |
 | `darktable-cli` | aplica el estilo por lotes y revela los retoques leyendo el catálogo |
 | `vips` | genera la versión web, rápido y sin cargar la imagen entera en memoria |
-| Tkinter (Python) | las apps `revisar.py` y `seleccionar.py` |
+| Qt (PySide6) | las apps `revisar.py` y `seleccionar.py`, con el visor común `visor.py`. Desde el 22-09-2026: con Tk el arrastre iba a ~7 fotogramas por segundo en esta Mac |
 
 ### Módulos de darktable usados
 

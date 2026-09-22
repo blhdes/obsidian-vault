@@ -96,10 +96,76 @@ respetando el sistema de diseño existente del sitio.
   actualizado aquí y en [[teoria-financiera-calculadora]]. Verificado en Chrome
   headless; la fila mide lo mismo que las demás del panel (margen negativo en el
   selector). A 320px de ancho la etiqueta pasa a dos líneas, sin desbordar.
-- [ ] Icono del menú: `bolt` provisional → decidir
+- [x] **Icono del menú:** `calculator` de Lucide (lucide-static 1.47.0, ISC),
+  geometría tomada del SVG oficial y pasada a un solo trazo en `icons.ts`.
+- [x] **Fundido del Info View**, rehecho el 2026-09-22 porque al pasar de un hover
+  a otro los efectos se solapaban (dos fundidos independientes, panel y texto,
+  con temporizadores propios). Ahora es una sola animación cada vez (Web
+  Animations API) en fases que no se pisan: aparecer (sube 6px, 300ms), cambiar
+  de campo (baja a 0 en 110ms, cambia el texto, sube en 180ms), desaparecer (solo
+  opacidad, 180ms). El texto solo cambia con el panel invisible; en una ráfaga de
+  campos se muestra el último. Espera de 160ms antes de ocultarse. Verificado en
+  tiempo real controlando Chrome por su protocolo de depuración (el reloj
+  simulado del modo headless no avanza animaciones): todos los cambios de texto
+  a opacidad 0, nunca más de una animación a la vez, en escritorio y móvil.
+  - **Segunda corrección, solo Safari (2026-09-22):** el usuario seguía viendo
+    choque entre el bloque saliente y el entrante, con el texto "más blanco". En
+    Chrome no se reproduce (hover con ratón real vía CDP, carga directa y
+    navegación sin recarga: un solo panel, un solo script, cambios a opacidad 0).
+    Causas WebKit conocidas y corregidas: (1) destello del valor final, porque la
+    opacidad de base se fijaba al final antes de que arrancara la animación; ahora
+    la base queda en el punto de partida y el final se fija al terminar, con
+    `fill: 'forwards'`; (2) cambio de suavizado del texto al entrar y salir de su
+    capa de composición; ahora el panel está siempre en su propia capa
+    (`will-change`, `translateZ(0)`), como el blur del header del sitio.
+    **Pendiente: confirmación del usuario en Safari.**
+- [x] **Avisos integrados con el sistema** (2026-09-22). Revisión previa: el sitio no
+  tiene componente de alerta; sí tokens de estado (`info`, `danger`, `success` y sus
+  `-subtle`, sin usar) y la regla "naranja = acción de marca, turquesa = el sistema
+  te señala algo". Los avisos de la calculadora estaban en naranja: error corregido.
+  El usuario eligió 3 opciones:
+  - **Avisos en línea con chapa de icono** (`icon-chip` tintada): turquesa (info)
+    para redondeo hacia arriba y riesgo por encima del capital; rojo (danger) para
+    la liquidación antes del stop. Texto en blanco, color solo en la chapa. Iconos
+    `info` y `alert` de Lucide (1.47.0, ISC) añadidos a `icons.ts`.
+  - **El "—" explica por qué:** cuenta a 0, riesgo a 0, entrada a 0 (perpetuo),
+    stop igual a la entrada, tick sin definir.
+  - **Aviso legal** bajo la ficha: el mismo `footer.disclaimer` del sitio.
+  - Descartados: marcar el panel del resultado (el sistema pide contención) y los
+    diálogos (su propio criterio: nada de avisos flotantes).
+  - Verificado en Chrome headless: todos los casos, colores de chapa e icono
+    correctos, sin desbordamiento en móvil, todo cabe en escritorio.
+- [x] **Revisión de código antes del PR** (2026-09-22, skill `/code-review` +
+  verificación propia). 7 hallazgos, todos confirmados en el código:
+  - Míos, corregidos: (2) la heurística del ratón en las flechas del campo
+    convertía el ejemplo en texto al hacer clic en el borde derecho → quitada, se
+    ocultan las flechas nativas y el sembrado queda solo con teclado; (3) la
+    distancia pasaba a valor real aunque saliera de un stop de ejemplo → un
+    derivado solo es real si todo lo que lo forma está escrito; (6) el "exacto"
+    redondeaba (2,996 → "3,00" junto a un 2) → se trunca; (7) el Info View no se
+    recolocaba al cruzar el breakpoint → se recoloca.
+  - Heredados del original, corregidos: (4) al cambiar la entrada se perdía la
+    distancia escrita → se respeta lo que rellenó el trader (stop o distancia);
+    (5) apalancamiento 0 daba un aviso de liquidación falso → pide un valor > 0.
+  - Encontrado al probar: la dirección se deducía del stop de ejemplo (del
+    Nasdaq), y con otro activo daba la vuelta sola → solo se deduce de un stop
+    escrito.
+  - (1) Contratos en € comparados con un riesgo en $ sin convertir (heredado).
+    **Decisión del usuario (opción 2):** la cuenta y el riesgo van en la divisa del
+    contrato. Con DAX o Euro Stoxx 50, el sufijo de la cuenta, el botón de importe
+    del riesgo (con su `aria-label`), las notas y los avisos pasan a €; en el resto,
+    $. Sin tipo de cambio. El modo del riesgo pasa de `usd` a `importe` en el
+    código. Info View de cuenta y riesgo reescritos (siguen en 2 líneas) y
+    sincronizados con [[teoria-financiera-calculadora]]. Verificado en headless.
+  - Limpiezas: una sola comprobación de validez (la del motivo del "—"), los
+    contratos se calculan una vez, fuera `rpc` (sin uso). Repaso de comentarios:
+    mapa de lectura arriba y un comentario por decisión, no por línea.
+  - Verificado en Chrome (headless y en tiempo real vía CDP): todos los casos,
+    fundido del Info View, ida y vuelta sin recargar, sin errores. Build pasa.
 - [ ] Crear la rama de trabajo, commitear (**solo con aviso previo del usuario**)
+  - Rama: `calculadora-recursos` (el repo usa nombres en español sin prefijo)
   - Van al commit: `src/pages/calculadora.astro`, `src/data/home.ts`,
-    `src/pages/sitemap.xml.ts`
+    `src/pages/sitemap.xml.ts`, `src/components/ui/icons.ts`
   - No van: `package-lock.json` (solo lo tocó `npm install`), `README.md`,
     `public/dev/`, `src/pages/dev/`
 - [ ] Abrir el PR a `prueba-tecnica-calculadora`

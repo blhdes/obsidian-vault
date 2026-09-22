@@ -116,3 +116,31 @@ Siguiendo [[Resources/Photo-Video/postpro-paso-a-paso]], **ruta B**: en la sala 
 - **Entrega:** web 2048 px q85 (39 MB) + impresión 4000 px q90 (234 MB), `CTNSC-Sopar-del-Soci-001` a `-104`.
 - **Drive:** `Entregas/CTNSC-Sopar-del-Soci/`, comprobado por MD5. Enlace: https://drive.google.com/open?id=15P-dLhuNZBwjbOa0zH7R_Id2HRPdnQRE
 - **Enviado** el 22-09-2026 a social@ctnsc.org con copia a Toni Serra, en catalán. ✔️ Entrega cerrada.
+
+## Postpro Rodri Pista 3 (22-09-2026)
+
+El otro tramo de la misma tarjeta, tratado como entrega aparte. Exterior al atardecer, con sol de contraluz entre los árboles: luz mucho más uniforme que la cena, así que se empezó por **ruta A** (un estilo para todas) y se acabó en **ruta B**, porque quisiste recortar y ajustar foto a foto.
+
+| Paso | Fotos |
+|---|---|
+| Rodri en la tarjeta | 149 |
+| Tras el culling asistido | 95 + 2 pruebas descartadas a mano |
+| Tras rechazar en darktable (`R`) | **29** |
+| Entregadas | **29**, todas |
+
+**El ajuste base** (hecho sobre AGU01484, la del brillo medio, y pegado con *selective copy* al resto):
+
+| Módulo | Valor |
+|---|---|
+| `exposure` | **automatic**, percentile 50 %, target level **-3,21 EV** |
+| `color calibration` | cuentagotas sobre los papeles blancos → custom, 5357 K *(invalid)*, hue 281°, chroma 17,3 % |
+| `sigmoid` | contrast **1,759**, skew **+0,20** |
+| `local contrast` | detail 94 %, highlights 85 %, shadows 50 %, midtone 0,431 |
+| `color balance rgb` | *highlights gain* hue 35,6° chroma 4,4 % · *power* hue 25° chroma 0,6 % |
+
+- **`(invalid)` en la temperatura no es un problema.** El manual de darktable dice que solo significa que el número en K no se corresponde con una luz natural; la corrección se aplica igual. Aquí salía así porque al papel le rebotaba verde del seto y de la pared.
+- **`color balance rgb` entra por primera vez en el flujo.** La calibración de color deja la escena neutra y se lleva por delante el dorado del atardecer; este módulo lo devuelve solo en las luces, sin tocar las sombras.
+- **Entrega:** web 2048 px q85 (15 MB) + impresión 4000 px q90 (87 MB), `Rodri-Pista-3-Tenis-01` a `-29`.
+- **Drive:** `Entregas/Rodri-Pista-3-Tenis/`, comprobado por MD5. Enlace: https://drive.google.com/open?id=1p__Ojc9wASLkdnCleVO0xf1xW2XwK4b5
+- Uso previsto por el cliente: redes sociales.
+- **Enviado:** correu programat per al 23-09-2026 a les 8:00 a social@ctnsc.org, amb còpia a Toni Serra, en català ("Fotos dels 95 anys del Rodri"). ✔️ Entrega tancada.

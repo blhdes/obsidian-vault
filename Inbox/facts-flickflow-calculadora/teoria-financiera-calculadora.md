@@ -100,7 +100,7 @@ No se pueden comprar 0,3125 contratos — solo unidades enteras. La calculadora 
   arriesgas más de lo que decidiste, aunque el uso de tu presupuesto de riesgo sea menos eficiente.
 - **Arriba**: redondea al entero superior (con 0,3125 contratos, a uno entero), así que puede
   **superar** el % de riesgo que te habías marcado. De ahí el aviso que muestra el código cuando
-  esto ocurre (ámbar en el original, naranja de acento en la versión integrada).
+  esto ocurre (ámbar en el original; en la versión integrada, un aviso turquesa con chapa de icono).
 
 ## 8. La ficha del contrato: $/punto y $/pip
 
@@ -165,6 +165,9 @@ Revisada contra el código de la calculadora. Los conceptos y fórmulas son corr
   lo que hace es subir al entero superior.
 - §9: la fórmula de liquidación tampoco tiene en cuenta el **margen de mantenimiento**, que en
   la práctica adelanta la liquidación.
+- Divisa (2026-09-22): el original comparaba los contratos en € (DAX, Euro Stoxx 50) con un
+  riesgo en $ sin convertir. La versión integrada asume que la cuenta y el riesgo van en la
+  divisa del contrato (se muestran en € para esos dos), así el cálculo cuadra sin tipo de cambio.
 - Duda abierta: no he podido confirmar que los tiers "E-nano" (NNQ, NES, NDOW, N2K) existan como
   contratos del CME. Son datos del cliente; mejor no afirmar nada sobre ellos en los textos.
 
@@ -179,8 +182,8 @@ se dice "trader", sin promesas de rentabilidad ni señales.
 | Elemento | Texto |
 |---|---|
 | Activo | El mercado que quieres operar. Cada activo tiene sus propios contratos, y cada contrato gana o pierde una cantidad fija de dinero por cada salto de precio. |
-| Tamaño de cuenta | El dinero total con el que operas. Es la base sobre la que se calcula cuánto puedes perder en esta operación. |
-| Riesgo por operación | Lo que aceptas perder si la operación sale mal, en porcentaje de tu cuenta o en dólares (% / $). Es una regla que te pones tú: muchos traders arriesgan entre el 1 % y el 2 %. |
+| Tamaño de cuenta | El dinero total con el que operas, en la divisa del contrato: euros en el DAX y el Euro Stoxx 50, dólares en el resto. Es la base de lo que puedes perder en esta operación. |
+| Riesgo por operación | Lo que aceptas perder si la operación sale mal: un porcentaje de tu cuenta o una cantidad fija (% / importe). Es una regla que te pones tú: muchos traders arriesgan entre el 1 % y el 2 %. |
 | Dirección | Compra si esperas que el precio suba, venta si esperas que baje. Decide a qué lado de la entrada va el stop: por debajo en una compra, por encima en una venta. |
 | Precio de entrada | El precio al que abres la operación. Junto con el stop, marca cuánto puede moverse el precio en tu contra. |
 | Precio de stop | El precio al que se cierra la operación si va en tu contra, para que la pérdida no siga creciendo. Basta con rellenar este campo o la distancia. |
