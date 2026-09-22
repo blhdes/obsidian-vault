@@ -71,8 +71,37 @@ respetando el sistema de diseño existente del sitio.
     **Sin resolver todavía:** si el objetivo "sin scroll" se sostiene en pantallas
     bajas — no se fuerza `overflow:hidden` a propósito, para poder ver un
     desbordamiento en vez de que se recorte en silencio
-  - [ ] Revisar v1 en Safari real y decidir v2
+  - [x] v1 revisada por el usuario en Safari; iterada hasta la versión final
+- [x] **Versión final en `/calculadora`** (2026-09-22). La empresa preguntó cómo iba
+  y el usuario decidió pulir y entregar ya. La v1 pasa a `src/pages/calculadora.astro`,
+  sin sección de componentes ni enlaces de desarrollo. Cambios respecto a la v1:
+  - `Section` del sitio (como el 404), con los raíles verticales de su retícula.
+  - Info View en móvil justo bajo el panel tocado (opción a); en escritorio,
+    hueco reservado de 72px (el texto más largo mide 65px).
+  - Script inline con `data-astro-rerun` y escuchas globales cortadas al salir:
+    sin eso, al volver a la página sin recargar (ClientRouter) llegaba vacía.
+  - `<label for>` en cada campo y títulos de grupo como `h2` bajo el `h1`.
+  - `/calculadora` añadida al sitemap (`src/pages/sitemap.xml.ts`).
+  - Verificado en Chrome headless: escritorio 1476×825 cabe sin scroll en los
+    tres modos; tablet 1024×768 cabe en modo normal (en Personalizado/Perpetuo
+    el texto del Info View queda 30-50px por debajo); móvil sin desbordamiento;
+    ida y vuelta sin recargar sin errores. `npm run build` pasa.
+- [x] **Riesgo en % o en dólares** (idea del usuario, 2026-09-22): selector
+  compacto `% | $` dentro de la fila, con la pastilla deslizante. Al cambiar de
+  unidad, lo escrito se convierte para que el riesgo no cambie (2 % de 25.000 $ →
+  500 $). En $, el ejemplo sigue a la cuenta (el 1 %) y la nota muestra el % que
+  equivale. Si el riesgo supera el capital, se calcula con el 100 % y la nota avisa
+  en naranja, sin reescribir lo tecleado; aplica a los dos modos (antes un 150 % no
+  avisaba). El aviso de redondeo habla en la unidad elegida. Texto del Info View
+  actualizado aquí y en [[teoria-financiera-calculadora]]. Verificado en Chrome
+  headless; la fila mide lo mismo que las demás del panel (margen negativo en el
+  selector). A 320px de ancho la etiqueta pasa a dos líneas, sin desbordar.
+- [ ] Icono del menú: `bolt` provisional → decidir
 - [ ] Crear la rama de trabajo, commitear (**solo con aviso previo del usuario**)
+  - Van al commit: `src/pages/calculadora.astro`, `src/data/home.ts`,
+    `src/pages/sitemap.xml.ts`
+  - No van: `package-lock.json` (solo lo tocó `npm install`), `README.md`,
+    `public/dev/`, `src/pages/dev/`
 - [ ] Abrir el PR a `prueba-tecnica-calculadora`
 
 ## Antes de commitear: qué NO va al PR

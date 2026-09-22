@@ -4,7 +4,7 @@ date: 2026-09-21
 tags: [photo-video, workflow, darktable, scripting, runbook, referencia]
 ---
 
-La guía para repetir el proceso completo en cada entrega. Probada de punta a punta con [[Resources/Photo-Video/Sesiones/cosentino-retrato-carolina]] (21-09-2026).
+La guía para repetir el proceso completo en cada entrega. Probada de punta a punta con [[Resources/Photo-Video/Sesiones/cosentino-retrato-carolina]] (21-09-2026, ruta A) y con [[Resources/Photo-Video/Sesiones/sopar-del-soci-ctnsc]] (22-09-2026, ruta B).
 
 - El porqué de cada pieza: [[Resources/Photo-Video/automatizar-postproduccion-scripting]]
 - El manual de darktable, con capturas mentales de cada módulo: [[Resources/Photo-Video/darktable-crear-estilos]]
@@ -21,10 +21,10 @@ La guía para repetir el proceso completo en cada entrega. Probada de punta a pu
 | 3 | Culling asistido | Claude | `culling.py` | 17 s (24 fotos), 4,5 min (326) |
 | 4 | Vaciar `2-revisar/` | **tú** | `revisar.py` | minutos |
 | 5 | Consolidar la selección | Claude | `consolidar.py` | segundos |
-| 6 | Construir el estilo de revelado | **tú**, guiado | darktable | 30-45 min la primera vez |
-| 7 | Probar el estilo con 1 foto | Claude | `darktable-cli` | 15 s |
-| 8 | Revelado por lotes | Claude | `darktable-cli --style` | ~12 s por foto a tamaño completo |
-| 9 | Retoques de fotos concretas | **tú** + Claude | darktable + `darktable-cli --library` | según cuántas |
+| 6 | **A:** construir el estilo · **B:** editar, rechazar y recortar cada foto | **tú**, guiado | darktable | A: 30-45 min · B: según cuántas |
+| 7 | Probar el revelado con 1-3 fotos | Claude | `darktable-cli` | 15 s por foto |
+| 8 | Revelado por lotes | Claude | **A:** `--style` · **B:** `--library` | ~12-20 s por foto a tamaño completo |
+| 9 | Retoques de fotos concretas (solo ruta A) | **tú** + Claude | darktable + `darktable-cli --library` | según cuántas |
 | 10 | Elegir las que se entregan | **tú** | `seleccionar.py` | minutos |
 | 11 | Versiones de impresión y web | Claude | `entregar.py` | segundos |
 | 12 | Subir a Google Drive y sacar el enlace | Claude | `rclone` | segundos |
@@ -105,6 +105,10 @@ $P $B/consolidar.py "$S"
 
 Traduce los JPG elegidos a sus RAW y los deja en `04-para-revelar/`. Se puede volver a ejecutar cuando quieras: por ejemplo, si al revelar descartas alguna más.
 
+> [!tip] Ruta A o ruta B: se decide al empezar el paso 6
+> - **A · Estilo** (Cosentino): serie homogénea, misma luz en todas. Un ajuste para todas, revelado con `--style`, retoques puntuales después. Pasos 6 a 9 tal cual.
+> - **B · Catálogo** (CTNSC): evento con **zonas de luz distintas**, donde un estilo no encaja. Editas, rechazas y recortas cada foto en darktable, y Claude revela todas **una sola vez desde el catálogo**. No hace falta exportar estilo ni paso 9. Ver [[#6-8 · Ruta B, revelado desde el catálogo]].
+
 ### 6 · El estilo, tú en darktable
 
 Manual completo: [[Resources/Photo-Video/darktable-crear-estilos]]. Resumen de lo que se hace:
@@ -165,6 +169,21 @@ darktable-cli "$S/04-para-revelar/<bloque>/<foto>.ARW" "$T/<foto>.jpg" \
 
 Se trabaja siempre sobre **una copia** del catálogo, para no tocar el de verdad.
 
+### 6-8 · Ruta B, revelado desde el catálogo
+
+**Tú, en darktable:**
+
+1. Importar los bloques de `04-para-revelar/`. Hacer un ajuste base en una foto y pegarlo a todas (*history stack → copy / paste*; en *selective copy*, solo los módulos tocados).
+2. **Segundo culling:** `R` rechaza la foto; `R` otra vez, `Cmd+Z` o `0` lo deshacen. Nunca *remove* ni *delete*.
+3. Ajustar cada foto que lo pida: `crop` (en *aspect*, `original image` mantiene el 3:2), `rotate and perspective` (clic derecho y arrastrar sobre una línea que debería ser recta), exposición, etc.
+4. **Cerrar darktable.** Y no abrirlo mientras Claude revela: bloquea la configuración y el revelado falla.
+
+**Claude:**
+
+- Lee del catálogo las fotos **no rechazadas** (`flags & 8 = 0`) y las revela una a una con `--library` sobre **una copia** del catálogo, a `05-reveladas/`. Las verticales y los recortes salen como en la app sin hacer nada.
+- **La prueba (paso 7)** compara 3 fotos (una vertical, una recortada, una normal) con las miniaturas que guarda darktable en `~/.cache/darktable/mipmaps-*.d/`. Ojo: esas miniaturas están en **Adobe RGB**, hay que pasarlas a sRGB antes de comparar. En CTNSC el color y el brillo medios coincidieron a 1 nivel sobre 255; el resto de diferencia es detalle fino, porque la miniatura se calcula a tamaño reducido.
+- El bloque sobrante se puede borrar de `04-para-revelar/`: son enlaces. Pero **no** los enlaces de las rechazadas, que darktable los sigue mostrando.
+
 ### 10 · Elegir la entrega, tú
 
 ```bash
@@ -182,6 +201,8 @@ $P $B/seleccionar.py "$S" --objetivo 6
 
 Cada marca es un enlace en `06-entrega/seleccion/` y se guarda al momento.
 
+**En eventos se hace al revés:** se entrega casi todo, así que Claude enlaza todas en `seleccion/`, genera la entrega (paso 11) y abre la app con **`--previa --objetivo <total>`**. Todas empiezan marcadas en verde y se desmarca lo que sobra. `--previa` muestra la versión web ya generada, mucho más ligera; el zoom llega entonces a 2048 px. Después, `entregar.py --rehacer` renumera sin huecos. En CTNSC: 114 → 104.
+
 ### 11 · Impresión y web
 
 ```bash
@@ -193,7 +214,9 @@ $P $B/entregar.py "$S" --nombre "<Cliente-Sesion>"
 | `impresion/` | completo (7032×4688) | JPG q95 sRGB, **copia exacta** del revelado, sin recomprimir | autor, copyright, fecha y datos de cámara copiados del RAW |
 | `web/` | lado largo 2048 px | JPG q85 sRGB | solo autor, copyright y perfil de color |
 
-**Sin marcas de agua visibles**, por decisión propia: la firma va solo en los metadatos. Los archivos se llaman `<Nombre>-01.jpg`, `-02`… en orden de disparo. `indice.csv` dice qué RAW hay detrás de cada uno. Si hay que rehacerlo, añade `--rehacer`: solo borra lo que el propio script generó.
+**Si la entrega es sobre todo web** (eventos), la impresión no hace falta a tamaño completo: **`--imp 4000 --q-imp 90`** la saca a 4000 px de lado largo, calidad 90 (~2,3 MB por foto frente a ~10 MB). Cubre un A4 a 300 ppp, que necesita 3508 px. Los recortes que midan menos no se amplían.
+
+**Sin marcas de agua visibles**, por decisión propia: la firma va solo en los metadatos. Los archivos se llaman `<Nombre>-01.jpg`, `-02`… en orden de disparo, o `-001`, `-002`… si hay más de 99. `indice.csv` dice qué RAW hay detrás de cada uno. Si hay que rehacerlo, añade `--rehacer`: solo borra lo que el propio script generó.
 
 > [!note] Por qué sRGB también para imprimir
 > Si la imprenta no lo pide expresamente, sRGB es lo más seguro: un AdobeRGB abierto en un programa sin gestión de color se ve apagado. Y en tonos de piel, madera o piedra no se nota diferencia. Si lo piden, se revela otra vez desde el RAW con `--icc-type ADOBERGB`.

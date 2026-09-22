@@ -98,3 +98,21 @@ Empezar bajo y subir. Una foto corta se recupera en RAW, una quemada no. Regla: 
 **Lo que cambié sobre la marcha:** en la parte de flash acabé a **1/125-1/160** en vez de 1/80, para cortar el movimiento de la gente. El fondo aguantó igual porque la sala tenía más luz de la prevista.
 
 **Para la próxima:** subir el tope de ISO a 12800 fue innecesario en esta sala concreta, pero no estorba. La previsión de luz fue pesimista.
+
+## Postpro (22-09-2026)
+
+Siguiendo [[Resources/Photo-Video/postpro-paso-a-paso]], **ruta B**: en la sala había demasiadas zonas con luz distinta para un solo estilo.
+
+| Paso | Fotos |
+|---|---|
+| Sopar del Soci en la tarjeta | 326 |
+| Tras el culling asistido | 291 |
+| Tras rechazar en darktable (`R`) | 114 (89 flash, 25 ambiente) |
+| **Entregadas**, tras la última pasada con `seleccionar.py --previa` | **104** |
+
+- Revelado **desde el catálogo**, con cada foto editada a mano: 58 recortadas, 23 enderezadas. Unos 30 min para las 114.
+- El bloque `01-ambiente` (1 foto) se borró: no servía.
+- El EXIF dice "el flash no disparó" en todas: el Godox es manual y no se comunica con la cámara. No se pueden separar por EXIF las fotos con flash de las sin flash.
+- **Entrega:** web 2048 px q85 (39 MB) + impresión 4000 px q90 (234 MB), `CTNSC-Sopar-del-Soci-001` a `-104`.
+- **Drive:** `Entregas/CTNSC-Sopar-del-Soci/`, comprobado por MD5. Enlace: https://drive.google.com/open?id=15P-dLhuNZBwjbOa0zH7R_Id2HRPdnQRE
+- **Enviado** el 22-09-2026 a social@ctnsc.org con copia a Toni Serra, en catalán. ✔️ Entrega cerrada.

@@ -180,7 +180,7 @@ se dice "trader", sin promesas de rentabilidad ni señales.
 |---|---|
 | Activo | El mercado que quieres operar. Cada activo tiene sus propios contratos, y cada contrato gana o pierde una cantidad fija de dinero por cada salto de precio. |
 | Tamaño de cuenta | El dinero total con el que operas. Es la base sobre la que se calcula cuánto puedes perder en esta operación. |
-| Riesgo por operación | El porcentaje de tu cuenta que aceptas perder si la operación sale mal. Es una regla que te pones tú, no un dato del mercado: muchos traders usan entre el 1 % y el 2 %. |
+| Riesgo por operación | Lo que aceptas perder si la operación sale mal, en porcentaje de tu cuenta o en dólares (% / $). Es una regla que te pones tú: muchos traders arriesgan entre el 1 % y el 2 %. |
 | Dirección | Compra si esperas que el precio suba, venta si esperas que baje. Decide a qué lado de la entrada va el stop: por debajo en una compra, por encima en una venta. |
 | Precio de entrada | El precio al que abres la operación. Junto con el stop, marca cuánto puede moverse el precio en tu contra. |
 | Precio de stop | El precio al que se cierra la operación si va en tu contra, para que la pérdida no siga creciendo. Basta con rellenar este campo o la distancia. |
