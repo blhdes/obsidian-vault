@@ -351,7 +351,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/36229225)
 
-### Joey Beltram — Ball Park
+### Joey Beltram — Ball Park ✅
 > tehnodruma · vinyl rip · FLAC 16/44 · moved 2026-09-14 · `Joey Beltram/(1998) Ball Park [Tresor (Tresor 90)] [vinyl] [flac]/`
 
 | # | Title | Year | Genre | Format |
@@ -427,7 +427,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/36045871)
 
-### Rene Wise — Moving Pressure 07
+### Rene Wise — Moving Pressure 07 ✅
 > beatrice.songbird2 · scene/PTC · FLAC 24/44 · moved 2026-09-23 · `Rene Wise/Rene_Wise-Moving_Pressure_07-(MP07)-24BIT-WEB-FLAC-2026-PTC/`
 
 | # | Title | Year | Genre | Format |
@@ -439,7 +439,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/38384883)
 
-### Wala — SMV018
+### Wala — SMV018 ✅
 > beatrice.songbird2 · scene/PTC · FLAC 24/44 · moved 2026-09-23 · `Wala/Wala-SMV018-(SMV018)-24BIT-WEB-FLAC-2026-PTC/`
 
 | # | Title | Year | Genre | Format |
@@ -451,7 +451,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/38319165)
 
-### DVS1 — Beta Sensory Motor Rhythm
+### DVS1 — Beta Sensory Motor Rhythm ✅
 > dotproduct · WEB · FLAC 16/44 · moved 2026-09-23 · `DVS1/Beta Sensory Motor Rhythm [2020] {ASD013}/`
 
 | # | Title | Year | Genre | Format |
@@ -467,7 +467,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/16300910)
 
-### Temudo — Artifacts EP
+### Temudo — Artifacts EP ✅
 > Grenoybel · scene/BABAS · FLAC 24/44 · moved 2026-09-23 · `Temudo/Temudo-Artifacts_EP-(SOMA607D)-24BIT-WEB-FLAC-2021-BABAS/`
 
 | # | Title | Year | Genre | Format |
@@ -479,7 +479,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/18919684)
 
-### UFO95 & Hadone — When Systems Collapse EP
+### UFO95 & Hadone — When Systems Collapse EP ✅
 > Grenoybel · scene/WAVED · FLAC 16/44 · moved 2026-09-23 · `UFO95/UFO95_And_Hadone-When_Systems_Collapse_EP-ANA016-16BIT-WEB-FLAC-2025-WAVED/`
 
 | # | Artist | Title | Year | Genre | Format |
@@ -491,7 +491,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/35953465)
 
-### Lanark Artefax — Corra Linn
+### Lanark Artefax — Corra Linn ✅
 > nameis · WEB · FLAC 24/44 · moved 2026-09-23 · `Lanark Artefax/Lanark Artefax - 2019 - Corra Linn [Numbers.] [FLAC]/`
 
 | # | Title | Year | Genre | Format |
@@ -502,7 +502,7 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/17823262)
 
-### JakoJako, Rrose & Tommy Four Seven — Stratum I
+### JakoJako, Rrose & Tommy Four Seven — Stratum I ✅
 > Rodeu1 · WEB · FLAC 16/44 · moved 2026-09-23 · `Tommy Four Seven/JakoJako, Rrose, Tommy Four Seven - Stratum I [2 0 2026] (FLAC)/`
 
 | # | Artist | Title | Year | Genre | Format |
