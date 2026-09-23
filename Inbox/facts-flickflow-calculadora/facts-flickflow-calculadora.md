@@ -162,7 +162,13 @@ respetando el sistema de diseño existente del sitio.
     mapa de lectura arriba y un comentario por decisión, no por línea.
   - Verificado en Chrome (headless y en tiempo real vía CDP): todos los casos,
     fundido del Info View, ida y vuelta sin recargar, sin errores. Build pasa.
-- [ ] Crear la rama de trabajo, commitear (**solo con aviso previo del usuario**)
+- [x] **Entregado (2026-09-23).** Rama `calculadora-recursos` (commit `9b43e9c`,
+  4 archivos: `calculadora.astro`, `home.ts`, `sitemap.xml.ts`, `icons.ts`) y
+  **PR #7** hacia `prueba-tecnica-calculadora`:
+  https://github.com/flickflow-lab/flickflow-marketing-site/pull/7
+  - Siguen sin commitear, a propósito: `package-lock.json`, `README.md`,
+    `public/dev/`, `src/pages/dev/`.
+- [~] Crear la rama de trabajo, commitear (hecho, ver arriba)
   - Rama: `calculadora-recursos` (el repo usa nombres en español sin prefijo)
   - Van al commit: `src/pages/calculadora.astro`, `src/data/home.ts`,
     `src/pages/sitemap.xml.ts`, `src/components/ui/icons.ts`
