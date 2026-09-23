@@ -205,6 +205,8 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 | 3 | Despised in Heaven | 2022 | Techno | FLAC 24/44 |
 | 4 | Empyrean | 2022 | Techno | FLAC 24/44 |
 
+[Bandcamp ↗](https://sntsrecords.bandcamp.com/album/eternal-perdition-scx03d)
+
 ### Toobris — But At What Cost ✅
 > dazzm8 · WEB · AIFF 16/44 · moved 2026-09-09 · `Toobris/Singles/But At What Cost (Original Mix)/`
 
@@ -530,3 +532,4 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 - DVS1 — Beta Sensory Motor Rhythm: arrived with no genre; set to Techno, Deep Techno from Discogs.
 - Lanark Artefax — Corra Linn: arrived with no genre; set to Experimental, IDM from Discogs.
 - JakoJako, Rrose & Tommy Four Seven — Stratum I: not on Discogs yet, so linked to Bandcamp instead. Complete: the release only has 2 tracks.
+- Vera Grace — Eternal Perdition: no cover from any DB; set by hand from the label's Bandcamp (3000×3000).
