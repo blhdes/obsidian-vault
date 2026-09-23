@@ -533,3 +533,4 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 - Lanark Artefax — Corra Linn: arrived with no genre; set to Experimental, IDM from Discogs.
 - JakoJako, Rrose & Tommy Four Seven — Stratum I: not on Discogs yet, so linked to Bandcamp instead. Complete: the release only has 2 tracks.
 - Vera Grace — Eternal Perdition: no cover from any DB; set by hand from the label's Bandcamp (3000×3000).
+- Plastikman — Arkives 1993-2010: 24/96 original (2.2 GB) kept as archive, excluded from the Engine sync check; a FLAC 16/44 DJ copy (622 MB) in the sibling `[16-44]` folder is the one for Engine.
