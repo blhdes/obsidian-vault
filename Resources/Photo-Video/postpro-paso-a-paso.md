@@ -91,6 +91,8 @@ $P $B/culling.py "$S"
 
 ### 4 · Vaciar `2-revisar/`, tú
 
+Doble clic en **Tria** (`~/Applications/Tria.app`) y pulsa *Revisar culling* en la sesión. O por terminal:
+
 ```bash
 $P $B/revisar.py "$S"
 ```
@@ -192,6 +194,8 @@ Se trabaja siempre sobre **una copia** del catálogo, para no tocar el de verdad
 
 ### 10 · Elegir la entrega, tú
 
+En **Tria**, *Elegir entrega*: al lado se pone cuántas quieres entregar y, si la entrega ya está generada, se marca *versión web* (va mucho más rápido). O por terminal:
+
 ```bash
 $P $B/seleccionar.py "$S" --objetivo 6
 ```
@@ -255,7 +259,7 @@ rclone link "gdrive:Entregas/$N"    # enlace de solo lectura para el cliente
 | darktable (app) | donde se decide el look: se construye el estilo y se hacen los retoques puntuales |
 | `darktable-cli` | aplica el estilo por lotes y revela los retoques leyendo el catálogo |
 | `vips` | genera la versión web, rápido y sin cargar la imagen entera en memoria |
-| Qt (PySide6) | las apps `revisar.py` y `seleccionar.py`, con el visor común `visor.py`. Desde el 22-09-2026: con Tk el arrastre iba a ~7 fotogramas por segundo en esta Mac |
+| Qt (PySide6) | **Tria**: el menú (`tria.py`) y las dos operaciones, `revisar.py` y `seleccionar.py`, con el visor común `visor.py`. Se abre con doble clic desde `~/Applications/Tria.app`, que solo llama al Python del venv. Desde el 22-09-2026: con Tk el arrastre iba a ~7 fotogramas por segundo en esta Mac |
 
 ### Módulos de darktable usados
 
