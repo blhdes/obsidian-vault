@@ -6,8 +6,8 @@ tags: [career, job-search, technical-test, flickflow, facts]
 
 # f*acts — Prueba técnica: Calculadora Flickflow
 
-Nota índice de este mini-proyecto. Vive en `Inbox/` de forma temporal — se moverá a
-`Projects/` o se archivará/eliminará cuando la prueba termine.
+Nota índice de este mini-proyecto. Archivado el 2026-09-23, tras entregar la prueba
+(PR #7). Estuvo en `Inbox/` mientras duró el trabajo.
 
 ## Contexto
 

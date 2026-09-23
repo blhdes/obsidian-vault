@@ -21,6 +21,7 @@ La guía para repetir el proceso completo en cada entrega. Probada de punta a pu
 | 3 | Culling asistido | Claude | `culling.py` | 17 s (24 fotos), 4,5 min (326) |
 | 4 | Vaciar `2-revisar/` | **tú** | `revisar.py` | minutos |
 | 5 | Consolidar la selección | Claude | `consolidar.py` | segundos |
+| 5b | Fotogramas de vídeo (opcional) | Claude + **tú** | `fotogramas.py` + `revisar.py` | ~25 min por 100 clips |
 | 6 | **A:** construir el estilo · **B:** editar, rechazar y recortar cada foto | **tú**, guiado | darktable | A: 30-45 min · B: según cuántas |
 | 7 | Probar el revelado con 1-3 fotos | Claude | `darktable-cli` | 15 s por foto |
 | 8 | Revelado por lotes | Claude | **A:** `--style` · **B:** `--library` | ~12-20 s por foto a tamaño completo |
@@ -110,6 +111,30 @@ $P $B/consolidar.py "$S"
 ```
 
 Traduce los JPG elegidos a sus RAW y los deja en `04-para-revelar/`. Se puede volver a ejecutar cuando quieras: por ejemplo, si al revelar descartas alguna más.
+
+### 5b · Fotogramas de vídeo (opcional)
+
+Cuando hay pocas fotos y mucho vídeo. Probado por primera vez con [[Resources/Photo-Video/Sesiones/los-antonios-valencia-barcelona]] (23-09-2026). Un fotograma 4K son 3840×2160 (8,3 MP): cubre la versión web y un A4, no una ampliación grande.
+
+```bash
+V="$HOME/Library/CloudStorage/OneDrive-FF8/photo and video/<carpeta del vídeo>"
+$P $B/fotogramas.py analizar "$S" "$V"        # Claude, ~15 s por clip de 10 s
+$P $B/revisar.py "$S/fotogramas"              # tú: un grupo por clip
+$P $B/fotogramas.py extraer "$S"              # Claude, después de consolidar.py
+```
+
+- **analizar** decodifica cada clip a 1280 px sin escribir nada a disco y mide cada fotograma: **nitidez** (laplaciano) y **movimiento** (cuánto cambia respecto a sus vecinos). Saca los 3 mejores de cada clip, separados al menos 1 s, en JPG 4K.
+- **revisar**: el mejor de cada clip ya viene en verde. Si del clip no quieres ninguno, desmárcalo e `INTRO`. Mira las caras al 100 %: a 1/50 un gesto puede estar movido con el fondo nítido.
+- **extraer** saca los elegidos en **TIFF de 16 bits** con su EXIF real (hora al centisegundo, ISO, velocidad, diafragma, perfil sRGB) y los enlaza en `04-para-revelar/V-fotogramas/`. **Si vuelves a pasar `consolidar.py`, vuelve a pasar `extraer`**: consolidar rehace `04-para-revelar/` entero. Los TIFF no se repiten.
+- `entregar.py` los numera **por hora de disparo**, intercalados con las fotos.
+
+> [!warning] En darktable, los fotogramas NO llevan el ajuste de los RAW
+> El vídeo ya sale "revelado" de la cámara, con su curva de contraste. Si le pegas `sigmoid` o `exposure` en automático, el contraste se aplica dos veces. Darktable abre el TIFF neutro (medido: 3/255 de diferencia con el original). Tocar solo lo que haga falta: `color calibration` para la dominante, `color balance rgb`, `crop`. Con dominantes muy fuertes (el naranja de noche), el **blanco y negro** suele rescatar más que corregir.
+
+> [!note] Lo que se descartó del plan inicial
+> - **Extraer todos los fotogramas a TIFF**: ~50 MB cada uno, más de 1 TB por sesión.
+> - **Real-ESRGAN** (ampliar con IA): se inventa detalle en caras, y la web va a 2048 px.
+> - **LUT de log**: no hace falta, se graba en rec709 estándar.
 
 > [!tip] Ruta A o ruta B: se decide al empezar el paso 6
 > - **A · Estilo** (Cosentino): serie homogénea, misma luz en todas. Un ajuste para todas, revelado con `--style`, retoques puntuales después. Pasos 6 a 9 tal cual.

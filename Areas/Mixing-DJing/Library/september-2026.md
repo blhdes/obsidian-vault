@@ -8,7 +8,7 @@ tags: [library, soulseek, imports, september-2026, dj]
 
 Every release pulled from **Soulseek** into `~/Music/Library/` this month, with the **exact tags currently written on disk**. Source uploaders, quality notes and move dates come from the Soulseek log (`~/Soulseek Downloads/_downloaded-sources.md`) — this note only covers folders recorded there.
 
-**This month:** 29 releases · 148 tracks · from 22 Soulseek uploaders.
+**This month:** 36 releases · 177 tracks · from 24 Soulseek uploaders.
 
 ## Releases (summary)
 
@@ -43,6 +43,13 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 | 09-14 | Steve Bicknell — Space 13 *(Fabric 96 excerpt)* | 1 | FLAC 16/44 | Techno, Minimal Techno | n0h0pe |
 | 09-15 | Kwartz — Death Is Not Defeat | 6 | FLAC 16/44 | Techno | PartsUnxnown |
 | 09-15 | Joy Orbison — play it again | 1 | FLAC 16/44 | Dubstep, UK Garage | Bluestar |
+| 09-23 | Rene Wise — Moving Pressure 07 | 4 | FLAC 24/44 | Techno | beatrice.songbird2 |
+| 09-23 | Wala — SMV018 | 4 | FLAC 24/44 | Techno | beatrice.songbird2 |
+| 09-23 | DVS1 — Beta Sensory Motor Rhythm | 8 | FLAC 16/44 | Techno, Deep Techno | dotproduct |
+| 09-23 | Temudo — Artifacts EP | 4 | FLAC 24/44 | Techno, Techno (Raw / Deep / Hypnotic) | Grenoybel |
+| 09-23 | UFO95 & Hadone — When Systems Collapse EP | 4 | FLAC 16/44 | Techno | Grenoybel |
+| 09-23 | Lanark Artefax — Corra Linn | 3 | FLAC 24/44 | Experimental, IDM | nameis |
+| 09-23 | JakoJako, Rrose & Tommy Four Seven — Stratum I | 2 | FLAC 16/44 | Techno (Raw / Deep / Hypnotic) | Rodeu1 |
 
 ## Tracks by release
 
@@ -420,6 +427,91 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 
 [Discogs ↗](https://www.discogs.com/release/36045871)
 
+### Rene Wise — Moving Pressure 07
+> beatrice.songbird2 · scene/PTC · FLAC 24/44 · moved 2026-09-23 · `Rene Wise/Rene_Wise-Moving_Pressure_07-(MP07)-24BIT-WEB-FLAC-2026-PTC/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 1 | Lizard Lurker | 2026 | Techno | FLAC 24/44 |
+| 2 | Fear of The Dark | 2026 | Techno | FLAC 24/44 |
+| 3 | Night Time Swim | 2026 | Techno | FLAC 24/44 |
+| 4 | Fahrenheit | 2026 | Techno | FLAC 24/44 |
+
+[Discogs ↗](https://www.discogs.com/release/38384883)
+
+### Wala — SMV018
+> beatrice.songbird2 · scene/PTC · FLAC 24/44 · moved 2026-09-23 · `Wala/Wala-SMV018-(SMV018)-24BIT-WEB-FLAC-2026-PTC/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 1 | Second Thoughts | 2026 | Techno | FLAC 24/44 |
+| 2 | Traces | 2026 | Techno | FLAC 24/44 |
+| 3 | Smiling With The Sun | 2026 | Techno | FLAC 24/44 |
+| 4 | Channel 6 | 2026 | Techno | FLAC 24/44 |
+
+[Discogs ↗](https://www.discogs.com/release/38319165)
+
+### DVS1 — Beta Sensory Motor Rhythm
+> dotproduct · WEB · FLAC 16/44 · moved 2026-09-23 · `DVS1/Beta Sensory Motor Rhythm [2020] {ASD013}/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 1 | Alpha-Theta | 2020 | Techno, Deep Techno | FLAC 16/44 |
+| 2 | Drifting | 2020 | Techno, Deep Techno | FLAC 16/44 |
+| 3 | Delta Wave | 2020 | Techno, Deep Techno | FLAC 16/44 |
+| 4 | Inertia | 2020 | Techno, Deep Techno | FLAC 16/44 |
+| 5 | Hypnagogia (Its’ All In My Mind) | 2020 | Techno, Deep Techno | FLAC 16/44 |
+| 6 | Transient Response | 2020 | Techno, Deep Techno | FLAC 16/44 |
+| 7 | The Five Aggregates | 2020 | Techno, Deep Techno | FLAC 16/44 |
+| 8 | Solfäge’s Framework | 2020 | Techno, Deep Techno | FLAC 16/44 |
+
+[Discogs ↗](https://www.discogs.com/release/16300910)
+
+### Temudo — Artifacts EP
+> Grenoybel · scene/BABAS · FLAC 24/44 · moved 2026-09-23 · `Temudo/Temudo-Artifacts_EP-(SOMA607D)-24BIT-WEB-FLAC-2021-BABAS/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 1 | Torres Vedras 8am | 2021 | Techno, Techno (Raw / Deep / Hypnotic) | FLAC 24/44 |
+| 2 | Calmakira | 2021 | Techno, Techno (Raw / Deep / Hypnotic) | FLAC 24/44 |
+| 3 | Deserves It | 2021 | Techno, Techno (Raw / Deep / Hypnotic) | FLAC 24/44 |
+| 4 | Look Down Say Nothing | 2021 | Techno, Techno (Raw / Deep / Hypnotic) | FLAC 24/44 |
+
+[Discogs ↗](https://www.discogs.com/release/18919684)
+
+### UFO95 & Hadone — When Systems Collapse EP
+> Grenoybel · scene/WAVED · FLAC 16/44 · moved 2026-09-23 · `UFO95/UFO95_And_Hadone-When_Systems_Collapse_EP-ANA016-16BIT-WEB-FLAC-2025-WAVED/`
+
+| # | Artist | Title | Year | Genre | Format |
+|---|---|---|---|---|---|
+| 1 | UFO95 | Mind Dissolution | 2025 | Techno | FLAC 16/44 |
+| 2 | Hadone | Where Logic Fails | 2025 | Techno | FLAC 16/44 |
+| 3 | UFO95 | System Explorer | 2025 | Techno | FLAC 16/44 |
+| 4 | Hadone | Despite Everything | 2025 | Techno | FLAC 16/44 |
+
+[Discogs ↗](https://www.discogs.com/release/35953465)
+
+### Lanark Artefax — Corra Linn
+> nameis · WEB · FLAC 24/44 · moved 2026-09-23 · `Lanark Artefax/Lanark Artefax - 2019 - Corra Linn [Numbers.] [FLAC]/`
+
+| # | Title | Year | Genre | Format |
+|---|---|---|---|---|
+| 1 | Corra Linn | 2019 | Experimental, IDM | FLAC 24/44 |
+| 2 | Moo Orphaned Drift | 2019 | Experimental, IDM | FLAC 24/44 |
+| 3 | Ferthenheap | 2019 | Experimental, IDM | FLAC 24/44 |
+
+[Discogs ↗](https://www.discogs.com/release/17823262)
+
+### JakoJako, Rrose & Tommy Four Seven — Stratum I
+> Rodeu1 · WEB · FLAC 16/44 · moved 2026-09-23 · `Tommy Four Seven/JakoJako, Rrose, Tommy Four Seven - Stratum I [2 0 2026] (FLAC)/`
+
+| # | Artist | Title | Year | Genre | Format |
+|---|---|---|---|---|---|
+| 1 | Tommy Four Seven, JakoJako | Nachtmyzel (Original Mix) | 2026 | Techno (Raw / Deep / Hypnotic) | FLAC 16/44 |
+| 2 | Tommy Four Seven, Rrose | Loam (Original Mix) | 2026 | Techno (Raw / Deep / Hypnotic) | FLAC 16/44 |
+
+[Bandcamp ↗](https://twzro.bandcamp.com/album/stratum-i)
+
 ## Tag-check notes
 
 - Lady Starlight — Capricorn Rising: no embedded cover; Discogs/MusicBrainz search missed it despite the release existing there, so cover sourced from iTunes instead.
@@ -435,3 +527,6 @@ Every release pulled from **Soulseek** into `~/Music/Library/` this month, with 
 - Plastikman — Arkives 1993-2010: this is the vinyl-only edition (13 files) of the larger 6-vinyl+CD+DVD box; linked to the full box set release since Discogs has no vinyl-only entry with a matching tracklist.
 - Steve Bicknell — Space 13: single track pulled from the Fabric 96 DJ mix (DVS1) — a mix-exclusive edit with no standalone release; no direct Discogs link exists, so linked to the source Fabric 96 release instead.
 - Kwartz — Death Is Not Defeat: artist tag arrived polluted with key/BPM (e.g. "8A - 124 - Kwartz") from the ripper's tagging tool; corrected to "Kwartz" by hand. 6 tracks on disk vs. the 4-track vinyl EP — this is the fuller digital edition, not a gap.
+- DVS1 — Beta Sensory Motor Rhythm: arrived with no genre; set to Techno, Deep Techno from Discogs.
+- Lanark Artefax — Corra Linn: arrived with no genre; set to Experimental, IDM from Discogs.
+- JakoJako, Rrose & Tommy Four Seven — Stratum I: not on Discogs yet, so linked to Bandcamp instead. Complete: the release only has 2 tracks.
