@@ -101,6 +101,8 @@ $P $B/revisar.py "$S"
 - **Grupos** (en cuadrícula, del tamaño que sean): `ESPACIO` o `K` marca la foto bajo el ratón, `1`-`9` por número, `INTRO` confirma. Clic la abre en grande; ahí `←` `→` pasan por el grupo **con el mismo zoom y punto**, para comparar el foco. `G` o `ESC` vuelve.
 - **Sueltas:** `K` conserva, `X` descarta.
 - **Siempre:** `Z` o clic hace zoom al 100 %; arrastrar o deslizar dos dedos mueve la foto. `U` deshace.
+- **Volver atrás:** `↑` `↓` pasan a la pantalla anterior o siguiente, **aunque ya esté decidida**, y ahí se puede cambiar la decisión. Tras decidir, salta a la siguiente pendiente. `U` deshace y vuelve a esa pantalla. Se puede reabrir desde Tria aunque `2-revisar/` ya esté vacía (desde el 24-09-2026).
+- **Grupo sin ninguna:** desmarca todas y pulsa `INTRO` dos veces; se descarta el grupo entero.
 
 La regla: `2-revisar/` tiene que acabar vacía.
 
@@ -124,7 +126,7 @@ $P $B/fotogramas.py extraer "$S"              # Claude, después de consolidar.p
 ```
 
 - **analizar** decodifica cada clip a 1280 px sin escribir nada a disco y mide cada fotograma: **nitidez** (laplaciano) y **movimiento** (cuánto cambia respecto a sus vecinos). Saca los 3 mejores de cada clip, separados al menos 1 s, en JPG 4K.
-- **revisar**: el mejor de cada clip ya viene en verde. Si del clip no quieres ninguno, desmárcalo e `INTRO`. Mira las caras al 100 %: a 1/50 un gesto puede estar movido con el fondo nítido.
+- **revisar**: en **Tria**, botón *Revisar fotogramas* de la sesión (o el comando de arriba). El mejor de cada clip ya viene en verde. Si del clip no quieres ninguno, desmárcalo e `INTRO`. Mira las caras al 100 %: a 1/50 un gesto puede estar movido con el fondo nítido.
 - **extraer** saca los elegidos en **TIFF de 16 bits** con su EXIF real (hora al centisegundo, ISO, velocidad, diafragma, perfil sRGB) y los enlaza en `04-para-revelar/V-fotogramas/`. **Si vuelves a pasar `consolidar.py`, vuelve a pasar `extraer`**: consolidar rehace `04-para-revelar/` entero. Los TIFF no se repiten.
 - `entregar.py` los numera **por hora de disparo**, intercalados con las fotos.
 
