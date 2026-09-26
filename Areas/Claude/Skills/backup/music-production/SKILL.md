@@ -90,7 +90,7 @@ Templates for new files: `templates/track.md`, `templates/library-entry.md` (in 
 
 | Tag | Meaning |
 |---|---|
-| `[manual]` | Confirmed with the official Ableton Knowledge connector |
+| `[manual]` | Confirmed in the Live manual via the `ableton-knowledge` MCP server |
 | `[live]` | Read from the running device or set via Producer Pal (parameter names, ranges) |
 | `[ext]` | External source. Add the link under `## Sources` |
 | `[ear]` | Tested by ear in a real track. Add the date and a `[[Tracks/...]]` link |
@@ -98,9 +98,10 @@ Templates for new files: `templates/track.md`, `templates/library-entry.md` (in 
 
 ### Verification
 
-- **Any time the skill writes technical content into the Library, it needs verification from the official connector.**
-  - Connector available → query it before writing and tag `[manual]`.
-  - Not available (e.g. Claude Code CLI) → write from the best available source (`[live]` > `[ext]`), tag it, and add a precise question to `_verify-queue.md`. At the end of the session, tell Ale: "Hay N preguntas en la cola para el conector."
+- **The official connector is the local MCP server `ableton-knowledge`** (tools `mcp__ableton-knowledge__*`). Only its Live manual search (`search_live_manual`) counts as `[manual]`. Its other tools (knowledge base, release notes, videos, transcripts) can add context, but tag them `[ext]`.
+- **Before writing any technical content into the Library, check whether `ableton-knowledge` is available in this session** (its tools may be listed as deferred; load them via ToolSearch).
+  - Available → query the Live manual first, then write and tag `[manual]`.
+  - Not available → write from the best available source (`[live]` > `[ext]`), tag it, and add a precise question to `_verify-queue.md`. At the end of the session, tell Ale: "Hay N preguntas en la cola para el conector."
 - **Contrast sources.** Other resources can complement the manual. If they disagree, record both briefly. The manual wins on facts; the ear wins on taste.
 - **Verify mode:** go through the queue with the connector, fix the entry in place, update its tag, and delete the queue line. The queue is meant to empty, not to accumulate history.
 
