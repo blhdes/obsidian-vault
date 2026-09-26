@@ -18,13 +18,15 @@ TARGET → Compressor
 ```
 | Step | Direction | Source |
 |---|---|---|
-| Source | KICK track (Post FX / Post Mixer) | [?] |
+| Source | Compressor unfolded → `Sidechain` on → Audio From = KICK track + tap point. **Pre FX** = raw kick, before its devices. **Post FX** = after its devices, before its fader (fader moves don't change the duck). **Post Mixer** = after the fader | [manual] |
 | Single pad | `"Drum Rack \| [Pad Sample Name] \| Post Mixer"`. In the UI: Audio From → drum track → the kick pad's chain | [live] |
 | Ratio | 4:1 or higher | [ear] Solo Sketch 138, 2026-07-13 |
 | Threshold | Lower it until GR shows ~6–10 dB on each kick | [ear] Solo Sketch 138, 2026-07-13 |
 | Attack | 0.01–1 ms | [ear] Solo Sketch 138, 2026-07-13 |
 | Release | **The groove knob**, ~100–250 ms. Let the target breathe between kicks. Set it by ear | [ear] |
 | SC filter | ~80 Hz on the trigger, so only the kick's thump fires the compressor | [ear] Hardgroove 134, 2026-07-17 |
+| SC panel controls | `Gain` (trigger level only, not heard) · `Dry/Wet` (100% = trigger only from the sidechain) · headphones = listen to the trigger · **EQ**: low-pass, high-pass, band-pass-style peak, notch, low/high shelf, with Freq and `Q` | [manual] |
+| Mixed drum loop as source | No isolated kick? Sidechain EQ on **low-pass**, tune Freq and Q with the headphones on until only the kick fires | [manual] |
 | Toggles via Producer Pal | `"On"` / `"Off"` | [live] |
 
 ## Variants
@@ -39,3 +41,5 @@ TARGET → Compressor
 - Solo Sketch 138 (rumble, 2026-07-13) · Hardgroove 134 (sub, 2026-07-17)
 
 ## Sources
+- Live 12 manual, Compressor sidechain + Sidechaining in Dance Music: https://www.ableton.com/en/manual/live-audio-effect-reference/
+- Live 12 manual, Internal Routing Points: https://www.ableton.com/en/manual/routing-and-i-o/
