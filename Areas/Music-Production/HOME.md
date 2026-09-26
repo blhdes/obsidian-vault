@@ -7,13 +7,14 @@ updated: 2026-09-26
 ## Active tracks
 | Track | Status | Lane | BPM / Key | Next |
 |---|---|---|---|---|
+| [[Tracks/the-inspiration-that-brings]] | building | tbd | 130 / C Phrygian | Decide lane; kick |
 <!-- One row per track in Tracks/. Move finished ones to "Done". -->
 
 ## Done
 <!-- [[Tracks/...]] — date finished -->
 
 ## Verify queue
-Open questions: **[[Library/_verify-queue]]** — 0 for the connector, 4 `[live]` tests (last verify pass: 2026-09-26). The connector is the local `ableton-knowledge` MCP server; say "verify" in Claude Code.
+Open questions: **[[Library/_verify-queue]]** — 0 for the connector, 1 check in Live (last verify pass: 2026-09-26). The connector is the local `ableton-knowledge` MCP server; say "verify" in Claude Code.
 
 ## Library
 Start at [[Library/INDEX]].

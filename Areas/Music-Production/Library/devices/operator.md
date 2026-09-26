@@ -30,8 +30,9 @@ An FM synth with 4 oscillators (A–D) that can modulate each other's frequency,
 - Parameter names with trailing spaces, dB sustain, algorithm labels → see [[tools/producer-pal]]. [live]
 - A modulator's level controls FM depth (brightness). [manual]
 - High frequencies can alias: lower the global `Tone`, or pick waveforms with fewer harmonics. [manual]
-- Which of the 11 algorithms has only Osc A as carrier isn't described in text in the manual (diagram only) → check the algorithm labels in Live. [?]
-- Units of envelope rates (ms?) aren't stated in the manual → read back from Live. [?]
+- Algorithm values read as bare labels `Alg. 1`–`Alg. 11`, with no carrier info. [live] Which one leaves only Osc A as carrier is visible only in the algorithm diagram in Live's UI. [?]
+- Envelope units: Attack 0–20000 ms, Decay/Release 1–60000 ms, Loop 0.2–20000 ms. Osc envelope levels in dB (−70 to 0). Pitch envelope levels (`Pe Init/Peak/Sustain/End`) in semitones, ±48. `Pe Amount` ±100%, `Pe Amt A` ±100% per destination. [live] 2026-09-26
+- Each oscillator has `Osc-X Retrig` (phase reset per note) + `Osc-X Phase` (start point %). Retrig On = identical hits. [live] 2026-09-26
 
 ## Used in
 <!-- [[Tracks/...]] -->

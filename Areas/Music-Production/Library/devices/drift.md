@@ -22,7 +22,7 @@ A compact subtractive synth (2 oscillators, filter, envelopes, modulation matrix
 | Oscillator `R` | Retrigger for the oscillators (phase reset on each note) on/off | [manual] |
 | Env 1 | Amplitude envelope (ADSR). Also usable as a mod source | [manual] |
 | Env 2 / Cyc | ADSR not mapped to amplitude, free as a mod source. Switch to **Cycling Envelope**: an LFO-like shape that restarts per note, with `Tilt`, `Hold` and time modes Rate / Ratio / Time / Sync | [manual] |
-| Env 2 default routing | A new Drift already routes Env 2 to Pitch Mod and filter Freq Mod (not stated in the manual) | [?] |
+| Default patch (fresh Drift) | Osc 1 Saw, Osc 2 Sine Oct −1 at −8 dB (on), Noise on at −70 dB. Env 2 → Filter Mod 1 at **80%**, Pressure → Filter Mod 2 at 15%. Env 2 → Pitch Mod 1 and LFO → Pitch Mod 2 are routed but at **0%**. Mod slot 1: Mod wheel → HP Frequency 80%. LP at 20 kHz, `Osc Retrig` Off, Drift 7.2%, Poly 32 | [live] 2026-09-26 |
 | Pitch Mod | 2 source slots that modulate the pitch of both oscillators, ±100%. LFO in Ratio mode on pitch = FM tones | [manual] |
 | Filter | Low-pass `Freq`, `Res`, `Key` tracking, a separate high-pass, and 2 frequency-mod slots | [manual] |
 | Filter `Type` | **Type I** 12 dB/oct, DFM-1: feeds back more distortion internally (clean sweeps → warm drive). **Type II** 24 dB/oct, Cytomic MS2: Sallen-Key with soft clipping that limits resonance | [manual] |

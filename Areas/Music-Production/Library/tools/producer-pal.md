@@ -1,7 +1,7 @@
 ---
 topic: Producer Pal
 type: tool
-updated: 2026-09-25
+updated: 2026-09-26
 related: [[INDEX]]
 ---
 
@@ -37,7 +37,8 @@ Track indices shift when tracks are inserted. Re-read the set and prefer IDs. [l
 - **Toggles** (Operator, Drift, Compressor…) take `"On"` / `"Off"` strings. [live]
 - **Drum Rack:** load samples with `ppal-update-device` after the rack exists, one pad at a time, then verify with `ppal-read-device`. [live]
 - **Library search:** tag filters often return empty. Use the query only, with `type: 'oneshot'`. Needs Live 12.4+. [live]
-- **Sends:** readable but not writable with the specialized tools → set them in the UI. LOM write untested. [?]
+- **Sends:** writable since Producer Pal 2.3.0: `ppal-update-track` with `sendReturn` (letter, name or id) + `sendGainDb`, or `sends: [{return, gainDb}]`. The response returns the value read back. Tested on Live 12.4.6: −70 → −30 → −70 dB on an empty track. [live] 2026-09-26
+- **Pseudo-params:** Drift's mod-matrix sources (`filterMod1Source`, `pitchMod1Source`…), `voiceMode`, Compressor `sidechainSourceTrackId`, EQ Eight `globalMode`, etc. are set as params. `read-device include:["options"]` lists valid values. [live]
 - **Sidechain to a pad:** `"Drum Rack | [Pad Sample Name] | Post Mixer"`. [live]
 - **Clip notation:** bare durations (`8bar`, `n/16`). Mixing formats breaks parsing. [live]
 
