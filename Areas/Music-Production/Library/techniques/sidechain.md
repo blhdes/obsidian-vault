@@ -34,7 +34,7 @@ TARGET → Compressor
 - **Interlock swell (kick/sub):** the sub plays between kicks, so the duck is still releasing when the sub note starts. Too short a Release = static. Too long = choked. Hardgroove 134 values: Threshold −28.8 dB, Ratio 8.4:1, Attack 0.01 ms, Release 137 ms, RMS detection. [ear] Hardgroove 134, 2026-07-17
 
 ## Gotchas
-- Where: rumble = essential. Bass = optional (adds pump). Pads = classic big pump, but heavy-handed and style-specific. Not on the drums or the Master. [?]
+- Where: rumble = essential. Bass = optional (adds pump). Pads = classic big pump, but heavy-handed and style-specific. Not on the drums or the Master. [start]
 - Check: toggle the Compressor on/off. On should sound punchier and cleaner, not quieter. If the pump is obvious and seasick, raise the Threshold or shorten the Release. [ear]
 
 ## Used in

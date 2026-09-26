@@ -13,12 +13,12 @@ A synthesized kick in Operator: one sine carrier, a fast **pitch envelope** for 
 ## Core
 | Step | Direction | What it does | Source |
 |---|---|---|---|
-| Carrier | Osc A sine, single-carrier algorithm | Clean fundamental | [?] |
-| Pitch env amount | High | Size of the downward sweep. More = more click. In Operator: shell `Pitch Env` (±100%) scales the pitch envelope's levels; enable only Destination A | [manual] mechanism · [?] amount |
-| Pitch env decay | Very short (tens of ms) | Shorter = tight, longer = boomy/laser | [?] |
-| Amp decay | ~150–400 ms, by ear | Body length | [?] |
-| Tuning | Match the key, or leave it | A tuned kick sits with the sub | [?] |
-| Chain | Saturator/Roar → EQ Eight (HP ~25–30 Hz) → optional Drum Buss | Grit, cleanup, punch | [?] |
+| Carrier | Osc A sine, single-carrier algorithm | Clean fundamental | [start] |
+| Pitch env amount | High | Size of the downward sweep. More = more click. In Operator: shell `Pitch Env` (±100%) scales the pitch envelope's levels; enable only Destination A | [manual] mechanism · [start] amount |
+| Pitch env decay | Very short (tens of ms) | Shorter = tight, longer = boomy/laser | [start] |
+| Amp decay | ~150–400 ms, by ear | Body length | [start] |
+| Tuning | Match the key, or leave it | A tuned kick sits with the sub | [start] |
+| Chain | Saturator/Roar → EQ Eight (HP ~25–30 Hz) → optional Drum Buss | Grit, cleanup, punch | [start] |
 
 ## Variants
 - **Raw / hardgroove:** short decay, more saturation, dry.
@@ -38,7 +38,7 @@ A synthesized kick in Operator: one sine carrier, a fast **pitch envelope** for 
 ## Gotchas
 - Too long a pitch-envelope decay reads as a "laser" and clashes with the sub.
 - EQ and saturation can't create a missing fundamental. For a deeper kick, change the octave, then lengthen amp decay, then deepen the pitch drop. [ear]
-- Drift: with the oscillator `R` (retrigger) toggle off, phase free-runs and each hit differs slightly; `R` on resets phase per note. The `Drift` knob adds per-voice randomness on top. [manual] Free-running suits raw styles. [?]
+- Drift: with the oscillator `R` (retrigger) toggle off, phase free-runs and each hit differs slightly; `R` on resets phase per note. The `Drift` knob adds per-voice randomness on top. [manual] Free-running suits raw styles. [start]
 
 ## Used in
 - Hardgroove 134 (Drift variant, 2026-07-17)

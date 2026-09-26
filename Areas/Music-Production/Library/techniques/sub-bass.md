@@ -13,13 +13,13 @@ A mono sine or triangle sub that interlocks with the kick. Movement comes from p
 ## Core
 | Step | Direction | Source |
 |---|---|---|
-| Source | Operator sine, or Drift/Analog triangle. Mono | [?] |
+| Source | Operator sine, or Drift/Analog triangle. Mono | [start] |
 | Placement | Offbeats in the gaps between kicks (classic techno interlock) | [ear] |
-| Note length | Short (1/16) = tight techno. 1/8 = house. Long = pad-like wash | [?] |
-| Register | Root of the key around octave 1 (e.g. A1). Lower loses definition on small speakers | [?] |
+| Note length | Short (1/16) = tight techno. 1/8 = house. Long = pad-like wash | [start] |
+| Register | Root of the key around octave 1 (e.g. A1). Lower loses definition on small speakers | [start] |
 | Duck | Sidechain from KICK | [ear] |
 | Low end | Utility: `Mono` switch (whole signal), or **Bass Mono** + `Bass Mono Frequency` (only below the cutoff; Audition to tune it). `Width` 0% = mono | [manual] |
-| Low-end budget | Nothing else below ~100 Hz except the kick | [?] |
+| Low-end budget | Nothing else below ~100 Hz except the kick | [start] |
 | Groove | Same groove file as the drums, or swung hats and bass flam | [ear] Ticket to Detroit, 2026-07-10 |
 
 ```

@@ -12,7 +12,7 @@ related: [[devices/…]], [[techniques/…]]
 
 ## Core
 <!-- technique: the method/recipe · device: key parameters · tool: how to use it -->
-<!-- Every technical claim ends with a source tag: [manual] [live] [ext] [ear] [?] -->
+<!-- Every technical claim ends with a source tag: [manual] [live] [ext] [ear] [start] [?] -->
 
 | Parameter / step | Direction | What it does | Source |
 |---|---|---|---|

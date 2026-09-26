@@ -26,7 +26,7 @@ A compact subtractive synth (2 oscillators, filter, envelopes, modulation matrix
 | Pitch Mod | 2 source slots that modulate the pitch of both oscillators, ±100%. LFO in Ratio mode on pitch = FM tones | [manual] |
 | Filter | Low-pass `Freq`, `Res`, `Key` tracking, a separate high-pass, and 2 frequency-mod slots | [manual] |
 | Filter `Type` | **Type I** 12 dB/oct, DFM-1: feeds back more distortion internally (clean sweeps → warm drive). **Type II** 24 dB/oct, Cytomic MS2: Sallen-Key with soft clipping that limits resonance | [manual] |
-| Filter envelope amount / decay | Short decay = "pluck/squelch" per note | [?] |
+| Filter envelope amount / decay | Short decay = "pluck/squelch" per note | [start] |
 | Mod section | 3 slots. Sources: Env 1, Env 2/Cyc, LFO, Key, Velocity, Modwheel, Pressure, Slide. Destinations: Osc 1 Gain/Shape, Osc 2 Gain/Detune, Noise Gain, LP Freq/Res, HP Freq, LFO Rate, Cyc Env Rate, Main Volume. Amount ±100% | [manual] |
 | Velocity → LP Frequency | Accented notes open the filter. `Vel > Vol` sets velocity → volume separately | [manual] |
 | LFO | Time modes Rate (Hz) / Ratio / Time (ms) / Sync. 9 shapes: Sine, Triangle, Saw Up/Down, Square, S&H, Wander, Linear Env, Exp Env. `R` = retrigger phase per note, off = free-running. `Amount` = overall LFO intensity; it has its own mod source + amount | [manual] |

@@ -13,7 +13,7 @@ Stabs are short and dissonant, and their space comes from returns. Textures are 
 ## Core — stabs
 | Step | Direction | Source |
 |---|---|---|
-| Source | Wavetable or Analog. Operator for FM stabs. Drift works (see below) — a starting choice, not a rule | [?] |
+| Source | Wavetable or Analog. Operator for FM stabs. Drift works (see below) — a starting choice, not a rule | [start] |
 | Voicing | Minor 2nds, tritones, or one detuned note. Drop the root if the kick/sub already state it | [ear] |
 | Envelope | Short amp decay, short filter envelope | [ear] Hardgroove 134, 2026-07-22 (Drift stab below) |
 | Rhythm | One chord on a weak 16th (e.g. the `a` of 3), never with the kick. Same groove file as the drums | [ear] Hardgroove 134, 2026-07-22 |
@@ -35,7 +35,7 @@ Stabs are short and dissonant, and their space comes from returns. Textures are 
 |---|---|---|
 | Source | Wavetable, **Meld**, or field recordings through Spectral Resonator / Spectral Time → [[devices/effects-overview]] | [manual] |
 | Meld in short | 2 engines (A/B), each a full synth: 24 oscillator types (6 scale-aware, incl. Chord since 12.2), own filter, Amp + Mod envelopes with loop modes, 2 LFOs (LFO 1: Basic Shapes, Ramp, Wander, Alternate, Euclid, Pulsate + 2 LFO FX slots; LFO 2: classic shapes), MIDI/MPE Modulation Matrix, 2 oscillator-specific macro knobs | [manual] |
-| Movement | LFOs in bars (not beats) on wavetable position, cutoff, pan. Routing: Wavetable Matrix tab ([[devices/wavetable]]) or an M4L LFO in Mod mode | [manual] routing · [?] bar-length rates |
+| Movement | LFOs in bars (not beats) on wavetable position, cutoff, pan. Routing: Wavetable Matrix tab ([[devices/wavetable]]) or an M4L LFO in Mod mode | [manual] routing · [start] bar-length rates |
 | Pad | Slow attack, long release, low-pass darkened, one chord held for the clip | [ear] Ticket to Detroit, 2026-07-10 |
 | Level | Low. Felt more than heard | [ear] |
 

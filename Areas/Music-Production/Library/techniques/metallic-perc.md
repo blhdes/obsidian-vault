@@ -14,7 +14,7 @@ Inharmonic percussion from FM with non-integer ratios, very short envelopes and 
 | Step | Direction | Source |
 |---|---|---|
 | FM | Modulator into carrier. Operator `Fine` sets fractional ratios = inharmonic; `Coarse` alone stays harmonic. The modulator's Level sets FM depth | [manual] · ratios by ear |
-| Envelopes | Very short amp. The modulator's is even shorter, for a "tick" | [?] |
+| Envelopes | Very short amp. The modulator's is even shorter, for a "tick" | [start] |
 | Body | **Corpus** (effect) or **Collision** (instrument): Beam, Marimba, String, Membrane, Plate, Pipe, Tube. Corpus tunes by `Tune` (Hz) or follows MIDI via its sidechain; `Hit` moves the strike point (Rnd randomizes it) | [manual] |
 | Variation | **Random** MIDI effect: `Chance` (how often), `Choices` × `Interval` (pitch range), `Sign` Add/Sub/Bi, Use Current Scale. Or note Probability + Randomize in the clip | [manual] |
 

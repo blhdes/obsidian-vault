@@ -6,7 +6,7 @@ updated: 2026-09-26
 
 Entry point to all production knowledge. One line per file. Keep it in sync.
 **Techniques** = how to make something. **Devices** = what a device does. **Tools** = tooling.
-Source tags: `[manual]` connector · `[live]` read from Live · `[ext]` external · `[ear]` tested in a track · `[?]` unverified (queued)
+Source tags: `[manual]` connector · `[live]` read from Live · `[ext]` external · `[ear]` tested in a track · `[start]` starting point, not yet tested by ear · `[?]` unverified fact (queued)
 
 ## Techniques
 - [[techniques/kick]] — Kick from Operator (or Drift): click, body, tail; raw / hypnotic / industrial variants
@@ -31,4 +31,4 @@ Source tags: `[manual]` connector · `[live]` read from Live · `[ext]` external
 - [[tools/producer-pal]] — Producer Pal MCP: connection, addressing, quirks, safe workflow
 
 ## Verify
-- [[_verify-queue]] — Open questions: 2 for the connector, 4 `[live]` tests, 12 `[ear]` tests
+- [[_verify-queue]] — Open questions: 0 for the connector, 4 `[live]` tests

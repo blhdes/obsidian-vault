@@ -94,7 +94,8 @@ Templates for new files: `templates/track.md`, `templates/library-entry.md` (in 
 | `[live]` | Read from the running device or set via Producer Pal (parameter names, ranges) |
 | `[ext]` | External source. Add the link under `## Sources` |
 | `[ear]` | Tested by ear in a real track. Add the date and a `[[Tracks/...]]` link |
-| `[?]` | Unverified. **Must** also have an entry in `_verify-queue.md` |
+| `[start]` | Starting point, not yet tested by ear (a taste or craft value). Becomes `[ear]` once used in a track |
+| `[?]` | Unverified **fact**. **Must** also have an entry in `_verify-queue.md` |
 
 ### Verification
 
@@ -102,6 +103,7 @@ Templates for new files: `templates/track.md`, `templates/library-entry.md` (in 
 - **Before writing any technical content into the Library, check whether `ableton-knowledge` is available in this session** (its tools may be listed as deferred; load them via ToolSearch).
   - Available → query the Live manual first, then write and tag `[manual]`.
   - Not available → write from the best available source (`[live]` > `[ext]`), tag it, and add a precise question to `_verify-queue.md`. At the end of the session, tell Ale: "Hay N preguntas en la cola para el conector."
+- **Taste decisions never go in the verify queue.** Values like decay times, resonance amounts, section lengths or chain choices can't be confirmed by a manual: tag them `[start]` and promote to `[ear]` when a track uses them. The queue holds only facts, answerable by the connector or by a `[live]` read.
 - **Contrast sources.** Other resources can complement the manual. If they disagree, record both briefly. The manual wins on facts; the ear wins on taste.
 - **Verify mode:** go through the queue with the connector, fix the entry in place, update its tag, and delete the queue line. The queue is meant to empty, not to accumulate history.
 
