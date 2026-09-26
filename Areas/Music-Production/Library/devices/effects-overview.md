@@ -23,7 +23,8 @@ A map of Live 12 Suite's stock effects by role. When one device gathers enough k
 | Dynamics | Compressor | Sidechain ducking and control → sidechain panel in [[techniques/sidechain]] | [manual] |
 | Dynamics | Glue Compressor | Bus compressor modelled on an 80s console; no knee control (sharpens with ratio); Attack in ms, Release in s. For Main / Group tracks | [manual] |
 | Dynamics | Multiband Dynamics | Up to 3 bands, upper + lower threshold each: upward/downward compression and expansion | [manual] |
-| Tone | EQ Eight / EQ Three / Channel EQ / Utility | Cleanup, kills, gain, mono, phase | [?] |
+| Tone | EQ Eight / EQ Three / Channel EQ | Cleanup, kills, sweeps | [?] |
+| Tone | Utility | Phase invert per side, Channel Mode, `Width` (0% = mono) or Mid/Side, `Mono`, **Bass Mono** + frequency + Audition, `Gain` −inf to +35 dB, `Balance`, `Mute` (cuts a delay/reverb input, tail keeps ringing), `DC` filter | [manual] |
 | Space | Hybrid Reverb | Convolution + algorithmic (Dark Hall, Quartz, Shimmer, Tides, Prism). Shared: `Decay` (to −60 dB), `Size`, `Delay`, `Freeze`/`Freeze In` | [manual] |
 | Space | Echo | Modulated delay, tape/BBD to clean; LFO + env follower, Noise/Wobble, distortion, reverb, ducking, gate | [manual] |
 | Movement | Auto Filter | 10 types: LP, HP, BP (12/24 dB), Notch, Morph (LP → BP → HP), DJ (one `Control` knob LP↔HP), Comb, Resampling (aliasing, no Res), Notch + LP, Vowel (`Pitch`). Circuits SVF / DFM / MS2 / PRD + `Drive`. LFO with stereo Phase/Spin. Envelope follower with external sidechain (Pre FX / Post FX / Post Mixer) | [manual] |
@@ -33,7 +34,8 @@ A map of Live 12 Suite's stock effects by role. When one device gathers enough k
 | Experimental | Spectral Resonator | Resonates partials at `Freq` (Internal) or at incoming notes (MIDI mode, Mono/Poly 2–16 voices, MIDI Gate). Mod modes: None, Chorus, Wander, Granular | [manual] |
 | Experimental | Spectral Time | **Freezer** (Manual with fades, or Retrigger: Onsets / Sync interval) → **Delay** (Time / Notes / 16th modes, Feedback, `Shift` Hz per repeat, Tilt, Spray) | [manual] |
 | Experimental | Shifter | Modes: **Pitch** (st + cents), **Freq** (Hz shift: small = phasing, large = metallic), **Ring** (+/− Hz, `Drive` only here) | [manual] |
-| Experimental | Grain Delay, Corpus | Granular echo; resonant physical bodies → see [[techniques/metallic-perc]] | [?] |
+| Experimental | Corpus | 7 physically modelled resonators (Beam, Marimba, String, Membrane, Plate, Pipe, Tube); tune in Hz or follow MIDI → [[techniques/metallic-perc]] | [manual] |
+| Experimental | Grain Delay | Granular echo | [?] |
 | Modulation (M4L) | LFO, Shaper, Envelope Follower | Map up to 8 parameters. `Mod` mode (default): offsets the knob, which stays editable; Bipolar/Unipolar + Amount. Remote mode takes the knob over | [manual] |
 
 ## Gotchas

@@ -18,7 +18,8 @@ A mono sine or triangle sub that interlocks with the kick. Movement comes from p
 | Note length | Short (1/16) = tight techno. 1/8 = house. Long = pad-like wash | [?] |
 | Register | Root of the key around octave 1 (e.g. A1). Lower loses definition on small speakers | [?] |
 | Duck | Sidechain from KICK | [ear] |
-| Low end | Utility to mono. Nothing else below ~100 Hz except the kick | [?] |
+| Low end | Utility: `Mono` switch (whole signal), or **Bass Mono** + `Bass Mono Frequency` (only below the cutoff; Audition to tune it). `Width` 0% = mono | [manual] |
+| Low-end budget | Nothing else below ~100 Hz except the kick | [?] |
 | Groove | Same groove file as the drums, or swung hats and bass flam | [ear] Ticket to Detroit, 2026-07-10 |
 
 ```
@@ -43,3 +44,4 @@ Sub    : · · ● · · · ● · · · ● · · · ● ·
 - Ticket to Detroit (2026-07-10) · Hardgroove 134 (2026-07-17)
 
 ## Sources
+- Live 12 manual, Utility: https://www.ableton.com/en/manual/live-audio-effect-reference/

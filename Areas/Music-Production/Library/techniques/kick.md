@@ -14,7 +14,7 @@ A synthesized kick in Operator: one sine carrier, a fast **pitch envelope** for 
 | Step | Direction | What it does | Source |
 |---|---|---|---|
 | Carrier | Osc A sine, single-carrier algorithm | Clean fundamental | [?] |
-| Pitch env amount | High | Size of the downward sweep. More = more click | [?] |
+| Pitch env amount | High | Size of the downward sweep. More = more click. In Operator: shell `Pitch Env` (±100%) scales the pitch envelope's levels; enable only Destination A | [manual] mechanism · [?] amount |
 | Pitch env decay | Very short (tens of ms) | Shorter = tight, longer = boomy/laser | [?] |
 | Amp decay | ~150–400 ms, by ear | Body length | [?] |
 | Tuning | Match the key, or leave it | A tuned kick sits with the sub | [?] |
@@ -38,9 +38,10 @@ A synthesized kick in Operator: one sine carrier, a fast **pitch envelope** for 
 ## Gotchas
 - Too long a pitch-envelope decay reads as a "laser" and clashes with the sub.
 - EQ and saturation can't create a missing fundamental. For a deeper kick, change the octave, then lengthen amp decay, then deepen the pitch drop. [ear]
-- Drift's free-running oscillators make each hit slightly different. That suits raw styles. Operator is the choice for identical hits. [?]
+- Drift: with the oscillator `R` (retrigger) toggle off, phase free-runs and each hit differs slightly; `R` on resets phase per note. The `Drift` knob adds per-voice randomness on top. [manual] Free-running suits raw styles. [?]
 
 ## Used in
 - Hardgroove 134 (Drift variant, 2026-07-17)
 
 ## Sources
+- Live 12 manual, Operator pitch section / Drift oscillator mixer: https://www.ableton.com/en/manual/live-instrument-reference/

@@ -22,6 +22,7 @@ KICK ─send─► C-RUMBLE
 |---|---|---|
 | Send | Only the kick. Automate the send per section | [?] |
 | Reverb | 100% wet. Decay ~1.5–3 s: one kick's tail should reach the next kick | [ear] Solo Sketch 138, 2026-07-12 |
+| Algorithm | Hybrid Reverb **Dark Hall**: `Damping` darkens, `Bass X` + `Bass Mult` stretch the low tail. Details → [[devices/effects-overview]] | [manual] controls · [?] best choice |
 | Filter | Keep only the low end (below ~150–200 Hz) | [ear] Solo Sketch 138, 2026-07-12 |
 | Duck | Sidechain from KICK so the kick stays clear → [[techniques/sidechain]] | [ear] Solo Sketch 138, 2026-07-13 |
 | Level | Low, centred. Felt more than heard: muting it should make the room feel emptier | [ear] Solo Sketch 138, 2026-07-12 |
@@ -38,3 +39,4 @@ KICK ─send─► C-RUMBLE
 - Solo Sketch 138 (2026-07-12)
 
 ## Sources
+- Live 12 manual, Hybrid Reverb: https://www.ableton.com/en/manual/live-audio-effect-reference/

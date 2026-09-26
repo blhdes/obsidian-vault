@@ -13,7 +13,7 @@ updated: 2026-09-26
 <!-- [[Tracks/...]] — date finished -->
 
 ## Verify queue
-Open questions: **see [[Library/_verify-queue]]**. Say "verify" in Claude Code once the Ableton Knowledge connector shows up in `/mcp`. Fallback: paste the queue into a claude.ai chat with the connector, then bring the answers back to Claude Code.
+Open questions: **[[Library/_verify-queue]]** — 2 for the connector, 4 `[live]` tests, 12 `[ear]` tests (last verify pass: 2026-09-26). The connector is the local `ableton-knowledge` MCP server; say "verify" in Claude Code.
 
 ## Library
 Start at [[Library/INDEX]].
