@@ -216,7 +216,7 @@ Se trabaja siempre sobre **una copia** del catálogo, para no tocar el de verdad
 
 **Tú, en darktable:**
 
-1. Importar los bloques de `04-para-revelar/`. Hacer un ajuste base en una foto, **con los mismos módulos y en el mismo orden que en la ruta A** (paso 6.4: `exposure`, `color calibration`, `sigmoid`, `local contrast`), y pegarlo a todas (*history stack → copy / paste*; en *selective copy*, solo los módulos tocados).
+1. Importar los bloques de `04-para-revelar/`. De una vez: *import → add to library*, seleccionar la carpeta `04-para-revelar` sin entrar y marcar **recursive directory**; sale un carrete por bloque (y uno `V-fotogramas` si hay fotogramas). El ajuste base **nunca** se pega a `V-fotogramas`. Hacer un ajuste base en una foto, **con los mismos módulos y en el mismo orden que en la ruta A** (paso 6.4: `exposure`, `color calibration`, `sigmoid`, `local contrast`), y pegarlo a todas (*history stack → copy / paste*; en *selective copy*, solo los módulos tocados).
    > [!note] Hueco detectado el 22-09-2026
    > En CTNSC este paso no enumeraba los módulos y `sigmoid` no se ajustó en el ajuste base: 86 de las 104 entregadas salieron con el contraste por defecto de darktable (1,5), y solo 18 se retocaron a mano (1,47-1,93). Cosentino quedó en 1,88 y Rodri en 1,76.
 2. **Segundo culling:** `R` rechaza la foto; `R` otra vez, `Cmd+Z` o `0` lo deshacen. Nunca *remove* ni *delete*.
@@ -225,8 +225,9 @@ Se trabaja siempre sobre **una copia** del catálogo, para no tocar el de verdad
 
 **Claude:**
 
-- Lee del catálogo las fotos **no rechazadas** (`flags & 8 = 0`) y las revela una a una con `--library` sobre **una copia** del catálogo, a `05-reveladas/`. Las verticales y los recortes salen como en la app sin hacer nada.
+- Lee del catálogo las fotos **no rechazadas** (`flags & 8 = 0`) y las revela una a una con `--library` sobre **una copia** del catálogo, a `05-reveladas/`. Script: `$P $B/revelar-catalogo.py "$S"` (`--lista` para ver qué revelaría, `--carpeta <bloque>` para limitarlo; se para si darktable está abierto). Las verticales y los recortes salen como en la app sin hacer nada.
 - **La prueba (paso 7)** compara 3 fotos (una vertical, una recortada, una normal) con las miniaturas que guarda darktable en `~/.cache/darktable/mipmaps-*.d/`. Ojo: esas miniaturas están en **Adobe RGB**, hay que pasarlas a sRGB antes de comparar. En CTNSC el color y el brillo medios coincidieron a 1 nivel sobre 255; el resto de diferencia es detalle fino, porque la miniatura se calcula a tamaño reducido.
+- **Revisión de bordes** (desde el 24-09-2026, Los Antonios): `rotate and perspective` puede dejar **esquinas negras** si el recorte no las cubre. Script: `$P $B/revisar-bordes.py "$S/05-reveladas"`. Mide en cada revelada el negro puro en las cuatro esquinas y en la primera fila/columna a resolución completa, y mira a mano las marcadas con las sombras levantadas ×20. Una cuña de rotación es negro exacto con borde recto; el cielo nocturno tiene ruido. En Los Antonios: 7 marcadas de 47, las 7 eran escena real.
 - El bloque sobrante se puede borrar de `04-para-revelar/`: son enlaces. Pero **no** los enlaces de las rechazadas, que darktable los sigue mostrando.
 
 ### 10 · Elegir la entrega, tú
@@ -284,6 +285,9 @@ rclone link "gdrive:Entregas/$N"    # enlace de solo lectura para el cliente
 - El remoto `gdrive` apunta a **agomezurrea@gmail.com**, configurado el 21-09-2026 con permiso mínimo (`scope=drive.file`): rclone solo ve los archivos que ha subido él.
 - El enlace no caduca. Para retirarlo, borra la carpeta en Drive o quita el acceso público desde la web.
 
+> [!warning] Subir a una carpeta compartida por el cliente gasta TU espacio
+> En Google Drive (cuentas normales, no "unidades compartidas" de empresa) cada archivo cuenta en la cuota **de quien lo sube**, aunque la carpeta sea del cliente. Con los 15 GB gratis no cabe vídeo en bruto (Los Antonios: 18 GB, 24-09-2026, falló con `storageQuotaExceeded`). Para borrar y liberar sitio: `--drive-use-trash=false`, porque la papelera también cuenta. La cuota tarda unos minutos en actualizarse tras borrar. Subir a la carpeta del cliente: `"gdrive,root_folder_id=<id de la carpeta>:"`.
+
 > [!warning] Caduca en 2026: el `client_id` compartido de rclone
 > rclone avisa de que el acceso compartido que usa para hablar con Google deja de funcionar en algún momento de 2026. Para evitarlo hay que crear un `client_id` propio en Google Cloud: es gratis y se hace una sola vez, en ~10 min. Guía: https://rclone.org/drive/#making-your-own-client-id
 
@@ -315,10 +319,11 @@ Los valores son los de Cosentino (retrato interior, flash rebotado, ISO 400). So
 
 ### Todavía sin usar
 
+Ya probados (24-09-2026): `color balance rgb`, `vignetting` y `grain` para dar vida, en [[Resources/Photo-Video/darktable-dar-vida]]; y el blanco y negro, en [[Resources/Photo-Video/darktable-blanco-y-negro]].
+
 Para ediciones más avanzadas, cuando toque:
 
-- **`color balance rgb`**: saturación y virado de color por separado en sombras, medios tonos y luces. Es el módulo para "dar un look".
-- **`tone equalizer`**: aclarar o oscurecer por zonas de brillo. Por ejemplo, levantar solo las sombras de una cara sin tocar la pared.
+- **`tone equalizer`**: aclarar o oscurecer por zonas de brillo. Por ejemplo, levantar solo las sombras de una cara sin quemar el cielo. Punto de partida: preset **compress shadows/highlights: soft** (en el ☰). Detalle en [[Resources/Photo-Video/darktable-dar-vida]].
 - **Máscaras** (dibujadas o paramétricas): aplicar cualquier módulo a una sola parte de la foto.
 - **`retouch`**: quitar manchas, reflejos o elementos pequeños.
 - **`lens correction`**: corrige la distorsión y el viñeteado del objetivo con el perfil del 28-70.

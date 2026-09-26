@@ -294,3 +294,22 @@ Copiar con **`cp`, nunca `rsync`** (macOS le deniega escribir en CloudStorage), 
 
 > [!warning] Si aparece "Operation not permitted" sobre la tarjeta o sobre OneDrive
 > Suele significar que **Claude Code se ha actualizado mientras la sesión estaba abierta**. macOS valida el permiso contra el binario firmado, y si ese binario ya no está en disco la comprobación falla. **Solución: reiniciar Claude Code.** No hace falta tocar Full Disk Access.
+
+## Postpro (24-09-2026)
+
+- **Culling de fotos:** 66 de 83 RAW (6 rescatadas a mano: `AGU01899`, `01935`, `01949`, `01951`, `01955`, `01961`). Bloques: `01-ambiente-ISOauto-max25600-Standard` 48 · `02-flash-o-ISOfijo-Neutral` 18.
+- **Fotogramas:** 131 de 318 candidatos (107 clips), extraídos a TIFF 16 bits en `04-para-revelar/V-fotogramas/`.
+- **Ruta B** (edición foto a foto). Importadas las tres carpetas de una vez con *recursive directory*. Ajuste base aplicado a los RAW.
+- Looks probados: [[Resources/Photo-Video/darktable-dar-vida]] y [[Resources/Photo-Video/darktable-blanco-y-negro]].
+- **Entregadas** 47 fotos (alta resolución, un solo formato) en el Drive del cliente: `FOTOS/FOTOGRAFÍAS/`. Fotogramas pendientes, irán a `FOTOS/FOTOGRAMAS DE VÍDEO/`.
+- Brutos de vídeo **no** subidos: no caben en la cuota de 15 GB (cuenta la de quien sube).
+- **Vídeo (desde el 25-09):** montaje en DaVinci Resolve con [[Resources/Photo-Video/davinci-resolve-primera-edicion]].
+
+### Pendiente (al cerrar el 24-09-2026)
+
+1. **Fotogramas:** los editas en darktable (carrete `V-fotogramas`, 15 de 131 ya tocados), se rechazan con `R` los que no van. Claude revela los no rechazados con `--library` y los sube a `FOTOS/FOTOGRAMAS DE VÍDEO/` con **numeración propia** (p. ej. `Boda-Fran-Elena-fotograma-01.jpg`). Ojo: `entregar.py` numera todo `06-entrega/seleccion/` junto, así que los fotogramas necesitan una pasada aparte para no renombrar las 47 fotos ya subidas.
+2. **Vídeo:** montaje en DaVinci Resolve (horizontal 60 s + vertical 30 s), subir los dos MP4 a `VÍDEOS/`.
+3. **Brutos:** si el cliente los quiere, enlace de OneDrive a la carpeta de vídeo (no ocupa cuota de Drive).
+4. **Música extra:** preguntar a Los Antonios por una grabación de estudio suya (licencia resuelta).
+5. **Al cerrar DaVinci:** crear la skill `/postpro` (fina, apunta al vault: runbook + nota de sesión + reglas; usa los scripts de `bin/`). Documentarla en `Areas/Claude/Skills/`.
+

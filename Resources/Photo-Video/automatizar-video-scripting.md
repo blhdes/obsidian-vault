@@ -98,3 +98,6 @@ Montar **solo los puntos 1 y 2** (proxies y exportación) con el primer material
 ## El límite que no arregla ningún script
 
 Si el vídeo se convierte en ingreso habitual, **el cuello de botella no será el software, serán los 8 GB de RAM**. Es el mismo tipo de límite que el flash de Fujifilm: se trabaja alrededor de él hasta que deje de compensar.
+
+> [!tip] Manual práctico de montaje
+> El paso a paso en DaVinci Resolve 21 para la primera entrega: [[Resources/Photo-Video/davinci-resolve-primera-edicion]].
