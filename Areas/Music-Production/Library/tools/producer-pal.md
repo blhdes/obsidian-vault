@@ -40,6 +40,8 @@ Track indices shift when tracks are inserted. Re-read the set and prefer IDs. [l
 - **Sends:** writable since Producer Pal 2.3.0: `ppal-update-track` with `sendReturn` (letter, name or id) + `sendGainDb`, or `sends: [{return, gainDb}]`. The response returns the value read back. Tested on Live 12.4.6: −70 → −30 → −70 dB on an empty track. [live] 2026-09-26
 - **Pseudo-params:** Drift's mod-matrix sources (`filterMod1Source`, `pitchMod1Source`…), `voiceMode`, Compressor `sidechainSourceTrackId`, EQ Eight `globalMode`, etc. are set as params. `read-device include:["options"]` lists valid values. [live]
 - **Sidechain to a pad:** `"Drum Rack | [Pad Sample Name] | Post Mixer"`. [live]
+- **Parallel writes can hang Live:** 3 simultaneous update calls while Tension was playing → all timed out, Live needed a restart, nothing applied. Send writes one at a time with heavy instruments. [live] 2026-09-27
+- **Index drift:** Ale deleting a track mid-session shifted `t2` → a device landed on the wrong track. Re-read the set and create by track **id**-resolved path right before each create. [live] 2026-09-27
 - **Return names:** Live prefixes the letter itself. Name a return `RUMBLE`, not `C-RUMBLE`, or it shows as `C-C-RUMBLE`. [live] 2026-09-27
 - **Compressor sidechain:** set `sidechainSourceTrackId` first, then read options for `sidechainChannel` (Pre FX / Post FX / Post Mixer), then `S/C On`. A new Compressor's S/C EQ defaults to High pass 80 Hz — change it for a kick trigger. [live] 2026-09-27
 - **Pitch remap in a clip:** `preTransforms: "C3: C2"` moves every C3 to C2. [live] 2026-09-27
