@@ -53,6 +53,7 @@ Templates for new files: `templates/track.md`, `templates/library-entry.md` (in 
 5. **Never touch the Producer Pal track** (the one hosting `Producer_Pal.amxd`).
 6. **Explain the move in one line** with the term in bold English: "Subo el **pitch envelope** → más click en el ataque."
 7. **Everything inside Live is in English**: track, clip, scene, rack and macro names.
+8. **Utility last, always.** Every chain (tracks and returns) ends with a Utility: Ale uses it for level, width and mono. When building a chain, add it yourself; when adding a device to an existing chain, insert it before the Utility (re-read the chain after the create and move it if it landed after).
 
 ## 4 — Sound philosophy (defaults, overridable per track)
 
