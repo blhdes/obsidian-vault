@@ -9,7 +9,7 @@ Precise questions for the **Ableton Knowledge connector**. When one is answered,
 Format: `- [ ] [[file]] — question`
 
 ## Connector (manual)
-_(empty)_
+- [ ] [[techniques/kick]] — Live's octave naming: is C3 = MIDI note 60 (middle C, ~262 Hz)? (A 2026-09-27 manual search didn't state it)
 
 ## Not answerable by the manual → check in Live
 _(empty)_

@@ -31,4 +31,4 @@ Source tags: `[manual]` connector · `[live]` read from Live · `[ext]` external
 - [[tools/producer-pal]] — Producer Pal MCP: connection, addressing, quirks, safe workflow
 
 ## Verify
-- [[_verify-queue]] — Open questions: empty
+- [[_verify-queue]] — Open questions: 1 for the connector

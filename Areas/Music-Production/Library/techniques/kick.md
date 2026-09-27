@@ -20,6 +20,16 @@ A synthesized kick in Operator: one sine carrier, a fast **pitch envelope** for 
 | Tuning | Match the key, or leave it | A tuned kick sits with the sub | [start] |
 | Chain | Saturator/Roar → EQ Eight (HP ~25–30 Hz) → optional Drum Buss | Grit, cleanup, punch | [start] |
 
+## Tested recipe (Operator, techno) [ear] 2026-09-27, [[Tracks/the-inspiration-that-brings]]
+| Step | Value |
+|---|---|
+| Algorithm | Alg. 11 (all carriers) — only A and B on |
+| Osc A (click) | Sine, Pitch Env Init/Peak +42 st → 0 in 40 ms (Pe Amount 100%), Ae A 0 / D 350 ms / S −70 dB |
+| Osc B (sub load) | Sine, same pitch, `Osc-B < Pe` Off, A 2 ms / D 500 ms, Level −9 dB. −6 dB was too heavy |
+| Pitch | Note C2 + Transpose −17 = ~49 Hz fundamental. The same patch on C3 (~98 Hz) lacked depth |
+| Chain | Saturator Bass Shaper (Drive 15, Threshold −20, Output −3) → EQ Eight HP48 25 Hz + Bell 55 Hz +2 dB Q 1 → Drum Buss Crunch 30%, Boom 0 |
+| Depth | C-RUMBLE return → [[techniques/rumble]] |
+
 ## Variants
 - **Raw / hardgroove:** short decay, more saturation, dry.
 - **Hypnotic:** softer click, longer tail that feeds [[techniques/rumble]].
@@ -37,10 +47,13 @@ A synthesized kick in Operator: one sine carrier, a fast **pitch envelope** for 
 
 ## Gotchas
 - Too long a pitch-envelope decay reads as a "laser" and clashes with the sub.
+- Check the sounding octave before judging depth: note name + Operator Transpose decide it. In Live, C3 = MIDI 60. [?]
+- On small speakers/AirPods (little below ~60 Hz) depth comes from harmonics: Drum Buss Crunch and saturation help, more sub doesn't. [ear] 2026-09-27
 - EQ and saturation can't create a missing fundamental. For a deeper kick, change the octave, then lengthen amp decay, then deepen the pitch drop. [ear]
 - Drift: with the oscillator `R` (retrigger) toggle off, phase free-runs and each hit differs slightly; `R` on resets phase per note. The `Drift` knob adds per-voice randomness on top. [manual] Free-running suits raw styles. [start]
 
 ## Used in
+- the inspiration that brings (Operator recipe above, 2026-09-27)
 - Hardgroove 134 (Drift variant, 2026-07-17)
 
 ## Sources
