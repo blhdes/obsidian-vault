@@ -46,6 +46,8 @@ Track indices shift when tracks are inserted. Re-read the set and prefer IDs. [l
 - **Return names:** Live prefixes the letter itself. Name a return `RUMBLE`, not `C-RUMBLE`, or it shows as `C-C-RUMBLE`. [live] 2026-09-27
 - **Compressor sidechain:** set `sidechainSourceTrackId` first, then read options for `sidechainChannel` (Pre FX / Post FX / Post Mixer), then `S/C On`. A new Compressor's S/C EQ defaults to High pass 80 Hz — change it for a kick trigger. [live] 2026-09-27
 - **Pitch remap in a clip:** `preTransforms: "C3: C2"` moves every C3 to C2. [live] 2026-09-27
+- **Colors:** Live snaps `color` to its fixed palette and warns with the nearest match (`#FFE600` → `#DBC300`). `#FFF034` is an exact palette yellow (no warning). Tracks, returns and clips all take `color`. [live] 2026-09-27
+- **No grouping:** Producer Pal 2.3.0 has no tool to create a Group Track. Ale groups by hand (select tracks → `Cmd+G`), then the group is readable/editable like any track. [live] 2026-09-27
 - **Clip notation:** bare durations (`8bar`, `n/16`). Mixing formats breaks parsing. [live]
 
 ## Safe workflow
