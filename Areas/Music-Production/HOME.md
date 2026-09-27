@@ -14,7 +14,7 @@ updated: 2026-09-26
 <!-- [[Tracks/...]] — date finished -->
 
 ## Verify queue
-Open questions: **[[Library/_verify-queue]]** — 0 for the connector, 1 check in Live (last verify pass: 2026-09-26). The connector is the local `ableton-knowledge` MCP server; say "verify" in Claude Code.
+Open questions: **[[Library/_verify-queue]]** — empty (last verify pass: 2026-09-26). The connector is the local `ableton-knowledge` MCP server; say "verify" in Claude Code.
 
 ## Library
 Start at [[Library/INDEX]].
