@@ -15,7 +15,7 @@ updated: 2026-09-27
 Working title = Live Set name. Lane: hypnotic (chosen 2026-09-27). One 4-bar loop in scene 1: offbeat hats, a panned 16th shaker, a C Phrygian chord cycle and a C1 drone.
 
 ## Elements
-Read back from Live, 2026-09-26.
+Read back from Live, 2026-09-27. Every chain ends with a Utility (defaults unless noted).
 
 | Track | Source | Chain | Notes |
 |---|---|---|---|
@@ -42,9 +42,10 @@ Read back from Live, 2026-09-26.
 
 ## Next
 - [ ] Check the rumble level on a system with real low end (AirPods hide < 60 Hz)
-- [ ] BASS: A/B Damper Gated on/off by ear
+- [ ] BASS: A/B Damper Gated on/off by ear (manual doesn't say what it does)
+- [ ] BASS: check harshness (Roar Tube Preamp / Str Inharmon are the levers, not Utility)
 - [ ] Unmute the rest and check BASS + KICK + rumble together
 
 ## Log
-- 2026-09-27 — Built the Operator kick (sine + pitch env + sub layer on Osc B), Saturator/EQ/Drum Buss, C-RUMBLE return; kick moved to C2 (~49 Hz); scale confirmed C Phrygian. BASS on Tension with sidechain + slow Auto Filter; lane = hypnotic. Live hung once (3 parallel writes with Tension playing) → restart.
+- 2026-09-27 — Built the Operator kick (sine + pitch env + sub layer on Osc B), Saturator/EQ/Drum Buss, C-RUMBLE return; kick moved to C2 (~49 Hz); scale confirmed C Phrygian. BASS on Tension with sidechain + slow Auto Filter; lane = hypnotic. Live hung once (3 parallel writes with Tension playing) → restart. Bass: S&H filter, Roar feedback on Db, Utility width + bass mono. Utility added to every chain.
 - 2026-09-26 — First session in the vault: read the set, created this file.

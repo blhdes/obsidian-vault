@@ -7,7 +7,7 @@ updated: 2026-09-26
 ## Active tracks
 | Track | Status | Lane | BPM / Key | Next |
 |---|---|---|---|---|
-| [[Tracks/the-inspiration-that-brings]] | building | hypnotic | 130 / C Phrygian | Kick, rumble, bass done; full-loop check |
+| [[Tracks/the-inspiration-that-brings]] | building | hypnotic | 130 / C Phrygian | Kick, rumble, bass done; unmute all + full-loop check |
 <!-- One row per track in Tracks/. Move finished ones to "Done". -->
 
 ## Done
