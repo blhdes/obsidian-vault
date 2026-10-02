@@ -21,10 +21,11 @@ These notes only cover releases pulled from **Soulseek** and logged in `~/Soulse
 - [[july-2026|July 2026 — Library Imports]] — 52 releases · 204 tracks · 45 uploaders
 - [[august-2026|August 2026 — Library Imports]] — 16 releases · 93 tracks · 12 uploaders
 - [[september-2026|September 2026 — Library Imports]] — 27 releases · 141 tracks · 20 uploaders
+- [[october-2026|October 2026 — Library Imports]] — 7 releases · 35 tracks · 6 uploaders
 
 ## Other notes
 
-- [[incomplete-albums|Incomplete Albums]] — partial pulls still missing tracks, kept for research/hunting: 23 releases · 115 missing tracks
+- [[incomplete-albums|Incomplete Albums]] — partial pulls still missing tracks, kept for research/hunting: 24 releases · 120 missing tracks
 - [[commercial-cull-candidates|Commercial Cull Candidates]] — releases flagged against the anti-commercial-EDM identity shift, awaiting a keep/delete decision
 
 ## How to add a month

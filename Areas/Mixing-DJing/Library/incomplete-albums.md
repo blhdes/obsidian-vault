@@ -10,7 +10,7 @@ Releases sitting in `~/Music/Library/` with only *some* of their tracks — each
 
 **Doesn't include:** partial pulls from various-artist compilations (e.g. `VA — Shades Part 2`, `Airod — Exhale VA001`) — those were only ever meant to yield the one wanted track, not the full comp. Also excludes releases where the missing track is already owned separately (e.g. Basic Channel's `BCD-2`).
 
-**23 releases · 115 missing tracks**, as of 2026-09-11.
+**24 releases · 120 missing tracks**, as of 2026-10-02.
 
 ## Tracklist gaps
 
@@ -31,6 +31,7 @@ Releases sitting in `~/Music/Library/` with only *some* of their tracks — each
 | Kelman Duran — 13th Month | 4/13 | RARA, TU MUERE AQUI (Intro), DIABLOS, Lento X Katana 1, 6 Am 188st And Audubon, Funera-al, 6's, Gravity Waves II, 13th MONTH II In 3 Movements | `Kelman Duran/Kelman_Duran-13th_Month-(APOC002)-web-2018/` | [Discogs ↗](https://www.discogs.com/release/12905376) · [[july-2026]] |
 | Kelman Duran — Scorpio Falling | 4/11 | 1804, Memphis, Loko 4 Eva, Ghost Ryder, Six Days Clean, Mackanddal, Negative Confessions | `Kelman Duran/Kelman Duran - 2025 - Scorpio Falling [Scorpio Red] [FLAC]/` | [Discogs ↗](https://www.discogs.com/release/36090985) · [[july-2026]] |
 | LoSoul — Open Door | 3/5 | 00000000, D1 *(B1/D1 — Discogs lists no real titles for these two)* | `LoSoul/Open Door/` | [Discogs ↗](https://www.discogs.com/release/25019341) · [[june-2026]] |
+| Planetary Assault Systems — Planetary People | 8/13 | Into The Night, Labyrinth, Brave Cosmo, Generation Slip, Presently My Soul Grew Stronger | `Planetary Assault Systems/Planetary Assault Systems - Planetary People/` | [Discogs ↗](https://www.discogs.com/release/37373064) · [[october-2026]] |
 | Rui Da Silva feat. Cassandra — Touch Me | 2/3 | Touch Me (Radio Edit) | `Rui Da Silva/Touch Me/` | [Discogs ↗](https://www.discogs.com/release/94420) · [[june-2026]] |
 | 7038634357 — Swallow | 1/6 | Deep End Blue, Lemon Cake, Meadow Corolla, Balance Beam, Exfoliatrix (Virginia) | `7038634357/7038634357 - 2019 - Swallow [Self-Released] [FLAC]/` | [Discogs ↗](https://www.discogs.com/release/14318755) · [[july-2026]] |
 | Surgeon — Raw Trax 2 | 1/4 | Raw Trax 5, Raw Trax 7, Raw Trax 6 | `Surgeon/Surgeon - Raw Trax 2 - (2019) {WEB - FLAC}/` | [Discogs ↗](https://www.discogs.com/release/18527908) · [[june-2026]] |
