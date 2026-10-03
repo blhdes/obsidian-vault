@@ -305,6 +305,8 @@ Copiar con **`cp`, nunca `rsync`** (macOS le deniega escribir en CloudStorage), 
 - Brutos de vídeo **no** subidos: no caben en la cuota de 15 GB (cuenta la de quien sube).
 - **Vídeo (desde el 25-09):** montaje en DaVinci Resolve con [[Resources/Photo-Video/davinci-resolve-primera-edicion]].
 
+- **03-10-2026:** las 47 fotos pasan de `FOTOS/FOTOGRAFÍAS/` a `FOTOS/` directamente (MD5 comprobado). Se borran las subcarpetas `FOTOGRAFÍAS` y `FOTOGRAMAS DE VÍDEO` (vacía): de momento no se entregan fotogramas.
+
 ### Pendiente (al cerrar el 24-09-2026)
 
 1. **Fotogramas:** los editas en darktable (carrete `V-fotogramas`, 15 de 131 ya tocados), se rechazan con `R` los que no van. Claude revela los no rechazados con `--library` y los sube a `FOTOS/FOTOGRAMAS DE VÍDEO/` con **numeración propia** (p. ej. `Boda-Fran-Elena-fotograma-01.jpg`). Ojo: `entregar.py` numera todo `06-entrega/seleccion/` junto, así que los fotogramas necesitan una pasada aparte para no renombrar las 47 fotos ya subidas.
