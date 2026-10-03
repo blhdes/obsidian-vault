@@ -90,6 +90,9 @@ $P $B/culling.py "$S"
 > [!note] En retratos de ambiente, la "nitidez dudosa" suele ser falsa alarma
 > La nitidez se mide sobre toda la foto. En Cosentino, los planos abiertos con estanterías daban ~1100 y los cerrados ~170, y las dos cosas estaban bien enfocadas. Mirar **los ojos al 100 %** antes de descartar.
 
+> [!important] Nada se descarta sin revisión (desde 03-10-2026)
+> Lo que el culling ve borroso va a `2-revisar/c-descarte-propuesto/`, no a `3-descartadas/`. Tria lo enseña al final de la cola, propuesto como descartado. `3-descartadas/` solo recibe lo que tú descartas.
+
 ### 4 · Vaciar `2-revisar/`, tú
 
 Doble clic en **Tria** (`~/Applications/Tria.app`) y pulsa *Revisar culling* en la sesión. O por terminal:

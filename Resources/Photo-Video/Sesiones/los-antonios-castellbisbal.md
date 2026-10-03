@@ -39,6 +39,7 @@ Segunda boda para **Los Antonios** (la primera: [[Resources/Photo-Video/Sesiones
 
 ### Pendiente (al cerrar el 03-10-2026)
 
-1. **Paso 6 · darktable:** elegir ruta A (estilo) o B (foto a foto). Ver [[Resources/Photo-Video/postpro-paso-a-paso]].
-2. **Paso 5b · Fotogramas** (opcional), con los 84 clips.
-3. Antes de formatear las dos tarjetas, mirar en Finder que OneDrive ha terminado de sincronizar.
+1. **Revisar las 13 de `c-descarte-propuesto`** en Tria (no se habían enseñado) y volver a consolidar.
+2. **Paso 6 · darktable:** elegir ruta A (estilo) o B (foto a foto). Ver [[Resources/Photo-Video/postpro-paso-a-paso]].
+3. **Paso 5b · Fotogramas** (opcional), con los 84 clips.
+4. Antes de formatear las dos tarjetas, mirar en Finder que OneDrive ha terminado de sincronizar.
