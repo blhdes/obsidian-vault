@@ -33,9 +33,12 @@ Segunda boda para **Los Antonios** (la primera: [[Resources/Photo-Video/Sesiones
 ## Postpro
 
 - **Triaje (03-10-2026):** un solo bloque, `01-flash-o-ISOfijo-Standard` (165). El nombre engaña: no hubo flash. Sale así porque el script mete en ese bloque todo lo que tiene ISO fijo, y aquí era ISO 100 a pleno sol.
+- **Culling (03-10-2026):** 117 selección · 35 a revisar (24 nitidez dudosa, 11 casi iguales) · 13 descartadas. Nitidez mediana 640, umbrales de serie (0,25 y 0,45).
+- **Luces quemadas:** 11 fotos con más del 5 % de la imagen quemada (la peor, `AGU02083`, con el 13 %). Se mide sobre el JPG de la cámara; el RAW guarda algo más de margen en las luces, así que puede que se recuperen en darktable.
+- **Revisión + consolidación (03-10-2026):** 130 para revelar, 35 descartadas. Rescatadas a mano 17, descartadas a mano 4 (`AGU01981`, `02022`, `02024`, `02112`). RAW en `04-para-revelar/01-flash-o-ISOfijo-Standard/`.
 
 ### Pendiente (al cerrar el 03-10-2026)
 
-1. **Paso 3 · Culling:** `$P $B/culling.py "$S"`, luego seguir [[Resources/Photo-Video/postpro-paso-a-paso]].
+1. **Paso 6 · darktable:** elegir ruta A (estilo) o B (foto a foto). Ver [[Resources/Photo-Video/postpro-paso-a-paso]].
 2. **Paso 5b · Fotogramas** (opcional), con los 84 clips.
 3. Antes de formatear las dos tarjetas, mirar en Finder que OneDrive ha terminado de sincronizar.
