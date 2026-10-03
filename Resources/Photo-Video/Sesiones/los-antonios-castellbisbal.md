@@ -28,7 +28,7 @@ Segunda boda para **Los Antonios** (la primera: [[Resources/Photo-Video/Sesiones
 ## Copia (03-10-2026)
 
 - **Fotos:** `OneDrive-FF8/photo and video/2026-09-26 - Los Antonios - Boda Javier y Andrea Castellbisbal/`, 6,7 GB, MD5 verificado en `checksums-md5.txt`.
-- **Vídeo:** está en la otra tarjeta, es lo siguiente que se copia.
+- **Vídeo:** `... Castellbisbal (vídeo)/`, 84 clips (MP4 + XML), 12 GB, 9,4 min en total. 4K a 25p, de 11:xx a 15:xx. MD5 verificado en `checksums-md5.txt`.
 
 ## Postpro
 
@@ -36,6 +36,6 @@ Segunda boda para **Los Antonios** (la primera: [[Resources/Photo-Video/Sesiones
 
 ### Pendiente (al cerrar el 03-10-2026)
 
-1. **Copiar el vídeo** de la otra tarjeta a su propia carpeta de OneDrive (`... (vídeo)`, como en Valencia).
-2. **Paso 3 · Culling:** `$P $B/culling.py "$S"`, luego seguir [[Resources/Photo-Video/postpro-paso-a-paso]].
-3. Antes de formatear la tarjeta de fotos, mirar en Finder que OneDrive ha terminado de sincronizar.
+1. **Paso 3 · Culling:** `$P $B/culling.py "$S"`, luego seguir [[Resources/Photo-Video/postpro-paso-a-paso]].
+2. **Paso 5b · Fotogramas** (opcional), con los 84 clips.
+3. Antes de formatear las dos tarjetas, mirar en Finder que OneDrive ha terminado de sincronizar.
