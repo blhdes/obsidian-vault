@@ -15,6 +15,7 @@ Referencia general, no específica de un trabajo:
 
 | Fecha | Sesión | Situación | Nota |
 |---|---|---|---|
+| 2026-09-26 | **Los Antonios**: boda Javier y Andrea, Castellbisbal | exterior, media mañana, sol fuerte; **foto + vídeo** | [[Resources/Photo-Video/Sesiones/los-antonios-castellbisbal]] |
 | 2026-09-19 | **Los Antonios** — Valencia + Barcelona | exteriores, día y noche, **foto + vídeo** | [[Resources/Photo-Video/Sesiones/los-antonios-valencia-barcelona]] |
 | 2026-09-18 | **Sopar del Soci CTNSC** + Rodri Pista 3 Tenis | interior grande, techo muy alto, flash directo | [[Resources/Photo-Video/Sesiones/sopar-del-soci-ctnsc]] |
 | 2026-09-18 | **Cosentino**: retrato entrevista Carolina | interior, retrato con flash rebotado; **primera entrega con el flujo completo** | [[Resources/Photo-Video/Sesiones/cosentino-retrato-carolina]] |
